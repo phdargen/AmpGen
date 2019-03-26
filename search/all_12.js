@@ -15,6 +15,7 @@ var searchData=
   ['readfrombinary',['readFromBinary',['../dc/d42/class_amp_gen_1_1_bin_d_t.html#ab7022dadba323fd9a34396a992fecd83',1,'AmpGen::BinDT']]],
   ['readfromstream',['readFromStream',['../dc/d42/class_amp_gen_1_1_bin_d_t.html#a83c9132c87a107ac31ccb8bb17a8a438',1,'AmpGen::BinDT']]],
   ['readlatexlabels',['readLatexLabels',['../de/d6a/class_amp_gen_1_1_particle_properties_list.html#a649adaf7efae1e9068b9720e0867aa50',1,'AmpGen::ParticlePropertiesList']]],
+  ['readme_2emd',['README.md',['../d9/dd6/_r_e_a_d_m_e_8md.html',1,'']]],
   ['real',['Real',['../d2/d41/class_amp_gen_1_1_real.html#a293e9bf0825105a474a919df67933d5c',1,'AmpGen::Real']]],
   ['real',['Real',['../d2/d41/class_amp_gen_1_1_real.html',1,'AmpGen']]],
   ['real_5ft',['real_t',['../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed',1,'AmpGen']]],
