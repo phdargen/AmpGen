@@ -19,6 +19,12 @@ var group___lineshapes =
       [ "get", "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a0d52ced37d2f479e1ffa9ab2a6b6725f", null ],
       [ "get", "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a476abbd44749983cf753528eef944aed", null ]
     ] ],
+    [ "LASS", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html", [
+      [ "LASS", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266", null ],
+      [ "create", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#aefb3f61d3a104735003be60ed85f387b", null ],
+      [ "get", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a437c8e39f7ea757c425c02164a6f4345", null ],
+      [ "get", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a6d51b00efa00b33668b9257106d4a980", null ]
+    ] ],
     [ "Flatte", "dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html", [
       [ "Flatte", "dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html#ada9ef34dd54058f151dbcd59a819b38e", null ],
       [ "create", "dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html#aefb3f61d3a104735003be60ed85f387b", null ],

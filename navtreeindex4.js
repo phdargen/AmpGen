@@ -81,11 +81,11 @@ var NAVTREEINDEX4 =
 "d6/dc4/class_amp_gen_1_1_tensor_expression.html#ad282d08371582883f816605a8167f41a":[3,0,119,2],
 "d6/dc4/class_amp_gen_1_1_tensor_expression.html#ad801d631137fe546a0a738f6ebe3b32d":[3,0,119,0],
 "d6/dc4/class_amp_gen_1_1_tensor_expression.html#af5a5ee5344507242c96b01cfa9bd60aa":[3,0,119,1],
-"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html":[0,2,15],
-"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#a2fae6c89ca572172a1bef5d5077e97c0":[0,2,15,2],
-"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#a89a2ca1403097074b667fb26fac7ba1b":[0,2,15,0],
-"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#adb0efe83fa4c6221e349ab5d8de27c86":[0,2,15,3],
-"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#aefb3f61d3a104735003be60ed85f387b":[0,2,15,1],
+"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html":[0,2,16],
+"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#a2fae6c89ca572172a1bef5d5077e97c0":[0,2,16,2],
+"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#a89a2ca1403097074b667fb26fac7ba1b":[0,2,16,0],
+"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#adb0efe83fa4c6221e349ab5d8de27c86":[0,2,16,3],
+"d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#aefb3f61d3a104735003be60ed85f387b":[0,2,16,1],
 "d7/d3d/class_amp_gen_1_1_momentum_transfer.html":[0,1,1],
 "d7/d3d/class_amp_gen_1_1_momentum_transfer.html#aace66700daf7f971f5e97f4f41f780c8":[0,1,1,1],
 "d7/d3d/class_amp_gen_1_1_momentum_transfer.html#ae43da101a5d869a9507fe91db05f2885":[0,1,1,0],
@@ -249,5 +249,5 @@ var NAVTREEINDEX4 =
 "d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html#a2ac6365f9727a31b38e05c5039153445":[3,0,81,0],
 "d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html#aa42939377c3c73796894b3d69b4f50a6":[3,0,81,2],
 "d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html#aeab5643ed3229a7b3737fb8ccaf6d412":[3,0,81,3],
-"d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html":[0,2,11]
+"d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html":[0,2,12]
 };
