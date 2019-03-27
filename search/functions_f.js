@@ -26,7 +26,7 @@ var searchData=
   ['pgenpdf',['pGenPdf',['../dd/dc4/class_amp_gen_1_1_event.html#a5083e658683c3307f65ba92d3c0f05c2',1,'AmpGen::Event']]],
   ['phase',['phase',['../dd/db3/class_amp_gen_1_1_coherence_factor.html#aae76ea0d50e0b9e75d99889941e73643',1,'AmpGen::CoherenceFactor']]],
   ['phasespace',['PhaseSpace',['../d6/d53/class_amp_gen_1_1_phase_space.html#a5f815f704ae5b27b69dc83d59246ab60',1,'AmpGen::PhaseSpace::PhaseSpace()=default'],['../d6/d53/class_amp_gen_1_1_phase_space.html#ae63f2b88a0fbecc8077a75ba4729a99a',1,'AmpGen::PhaseSpace::PhaseSpace(const EventType &amp;type, TRandom *rand=gRandom)'],['../dc/d82/namespace_amp_gen.html#a8dc64b25e06f8eb0ee6ebd682c0c680f',1,'AmpGen::phaseSpace()']]],
-  ['phi',['phi',['../dc/d82/namespace_amp_gen.html#a5f19d490776938613b5e9cd2e7846df7',1,'AmpGen::phi(const Event &amp;evt, int i, int j, int k, int w)'],['../dc/d82/namespace_amp_gen.html#ac5d04ba3fd5f491d5a4830d532e46ec7',1,'AmpGen::PHI(const Event &amp;evt)']]],
+  ['phi',['PHI',['../dc/d82/namespace_amp_gen.html#ac5d04ba3fd5f491d5a4830d532e46ec7',1,'AmpGen::PHI(const Event &amp;evt)'],['../dc/d82/namespace_amp_gen.html#a5f19d490776938613b5e9cd2e7846df7',1,'AmpGen::phi(const Event &amp;evt, int i, int j, int k, int w)']]],
   ['phsp',['phsp',['../de/d94/class_amp_gen_1_1_generator.html#a5c66801d0e267f8722b717bdcbb44d1c',1,'AmpGen::Generator']]],
   ['phsp_5ffocus',['phsp_FOCUS',['../dc/d82/namespace_amp_gen.html#a68caf8ff9a840574bfb1a13bed19603b',1,'AmpGen']]],
   ['phsp_5ffourpi',['phsp_fourPi',['../dc/d82/namespace_amp_gen.html#a05e4db4bf49b3d846865c288221ae0a3',1,'AmpGen']]],

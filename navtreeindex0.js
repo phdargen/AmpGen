@@ -111,6 +111,10 @@ var NAVTREEINDEX0 =
 "d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#ab46619ca1ee9046d95da12e99ce1cd0b":[3,0,115,0,1],
 "d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#aefff2be30efd54118c821db9f303c7bc":[3,0,115,0,4],
 "d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#af578e3e4d75f710e07a2a826c4731210":[3,0,115,0,5],
+"d0/dd7/_version_8h.html":[7,0,64],
+"d0/dd7/_version_8h.html#a25e7e834a92b7637c2655651f6c835c3":[7,0,64,1],
+"d0/dd7/_version_8h.html#ad9334c05db8ce83c813a8c1508388ce2":[7,0,64,0],
+"d0/dd7/_version_8h_source.html":[7,0,64],
 "d0/de1/group___kin.html":[0,1],
 "d0/de1/group___kin.html#ga2f3abdd2b8983bc6a8ea537c184df803":[0,1,2],
 "d0/de1/group___kin.html#ga5c7f0211bb815f3e14dbd1cef858c053":[0,1,3],
@@ -124,7 +128,7 @@ var NAVTREEINDEX0 =
 "d0/de8/group___vertices.html":[0,3],
 "d0/de8/group___vertices.html#ga7e8e37d09deac17b235a69e66dd777bf":[0,3,16],
 "d0/de8/group___vertices.html#ga86aa12f69c7363432aeb8c058577869f":[0,3,17],
-"d0/de8/group___vertices.html#ga974081b9c66068d7e97a4d0654cdd047":[7,0,64,32],
+"d0/de8/group___vertices.html#ga974081b9c66068d7e97a4d0654cdd047":[7,0,65,32],
 "d0/de8/group___vertices.html#ga974081b9c66068d7e97a4d0654cdd047":[0,3,14],
 "d0/de8/group___vertices.html#ga98dfb6dcbdafd331079eeedd917633bb":[0,3,15],
 "d0/dea/struct_amp_gen_1_1pole_config.html":[3,0,95],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "d1/d91/class_amp_gen_1_1_coherent_sum.html#a30871f43fad9cd89b50f627db1e6f4b0":[3,0,23,8],
 "d1/d91/class_amp_gen_1_1_coherent_sum.html#a36fe0de4f59e89aca2a6361bcff622a7":[3,0,23,1],
 "d1/d91/class_amp_gen_1_1_coherent_sum.html#a3846ca0875a71fe897c9efbabd22760f":[3,0,23,17],
-"d1/d91/class_amp_gen_1_1_coherent_sum.html#a44388cf905f30ef3d6f4a1eaa862622b":[3,0,23,9],
-"d1/d91/class_amp_gen_1_1_coherent_sum.html#a473f4282e59e9ee48ca05d8b41e7a104":[3,0,23,43],
-"d1/d91/class_amp_gen_1_1_coherent_sum.html#a4bc8f2c253e8cb9cf2a1fc0140c7c73e":[3,0,23,51],
-"d1/d91/class_amp_gen_1_1_coherent_sum.html#a4ddd60eae69488bc78312d08f368a546":[3,0,23,29],
-"d1/d91/class_amp_gen_1_1_coherent_sum.html#a4eb98e3732862dbde442409579649250":[3,0,23,44]
+"d1/d91/class_amp_gen_1_1_coherent_sum.html#a44388cf905f30ef3d6f4a1eaa862622b":[3,0,23,9]
 };

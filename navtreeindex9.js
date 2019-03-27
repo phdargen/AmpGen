@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"de/d21/class_amp_gen_1_1_quark_content.html#ae9e2bc9b3e4271f9de0b42ecf9f4fc04":[3,0,101,0],
+"de/d24/class_amp_gen_1_1_minuit_proxy.html":[3,0,80],
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#a18cb3f92fd315ba0270af767910de192":[3,0,80,2],
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#a97199aa931b61e498f3be1444029f737":[3,0,80,4],
 "de/d24/class_amp_gen_1_1_minuit_proxy.html#aa4c2b176f0d674c8420fc146728bd3fd":[3,0,80,5],
 "de/d24/class_amp_gen_1_1_minuit_proxy.html#aa8cd3c50bf7b70e933eb0727411574f5":[3,0,80,1],
 "de/d24/class_amp_gen_1_1_minuit_proxy.html#adc941c3754ab52063fd6b1abc7a2ae0d":[3,0,80,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "df/d78/_named_parameter_8h.html":[7,0,40],
 "df/d78/_named_parameter_8h.html#ac9d2f5ea66e0f8ae4003d76fd86435db":[7,0,40,2],
 "df/d78/_named_parameter_8h.html#ae3cb033d23adaf54c41a10421e57b3b7":[7,0,40,1],
-"df/d78/_named_parameter_8h_source.html":[7,0,40],
-"df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html":[3,0,1,36],
-"df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html#a2199110bf4ba77bddfd18c35ade943f8":[3,0,1,36,1],
-"df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html#aa8fb82883ac96f1f8c928978ac3d5a1d":[3,0,1,36,3],
-"df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html#adf574824a5f2da5394e0c56600d41d79":[3,0,1,36,0]
+"df/d78/_named_parameter_8h_source.html":[7,0,40]
 };
