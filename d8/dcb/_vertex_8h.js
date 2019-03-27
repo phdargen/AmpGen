@@ -32,7 +32,7 @@ var _vertex_8h =
     [ "V_ff_P", "df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html", "df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p" ],
     [ "V_ff_P1", "db/d1a/struct_amp_gen_1_1_vertex_1_1_v__ff___p1.html", "db/d1a/struct_amp_gen_1_1_vertex_1_1_v__ff___p1" ],
     [ "Factory", "db/d97/class_amp_gen_1_1_vertex_1_1_factory.html", "db/d97/class_amp_gen_1_1_vertex_1_1_factory" ],
-    [ "DECLARE_VERTEX", "d8/dcb/_vertex_8h.html#ga974081b9c66068d7e97a4d0654cdd047", null ],
+    [ "DECLARE_VERTEX", "d0/de8/group___vertices.html#ga974081b9c66068d7e97a4d0654cdd047", null ],
     [ "DEFINE_VERTEX", "d8/dcb/_vertex_8h.html#a46e1e5b7b5d31ec2af07bd80b41624f4", null ],
     [ "Bar", "d8/dcb/_vertex_8h.html#ae81390a4263c327799bb116d23a6bbcc", null ],
     [ "Gamma4Vec", "d8/dcb/_vertex_8h.html#ab3f09315acab1605f019db953e78898f", null ],
