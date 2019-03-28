@@ -721,12 +721,12 @@ Functions</h2></td></tr>
 <tr class="separator:a6a013fc10b4068083117d3b10827cf66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16f3763a111aca1c834e9e208feebe83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a16f3763a111aca1c834e9e208feebe83">atanh</a> (const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;x)</td></tr>
 <tr class="separator:a16f3763a111aca1c834e9e208feebe83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a908ffc26ef487342c46e586e6440d798"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a908ffc26ef487342c46e586e6440d798"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a908ffc26ef487342c46e586e6440d798">isIn</a> (const std::vector&lt; T &gt; &amp;container, const T &amp;obj)</td></tr>
-<tr class="separator:a908ffc26ef487342c46e586e6440d798"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32bcabb157209d33efcd0b63b85dc280"><td class="memTemplParams" colspan="2">template&lt;class T , class B , class F &gt; </td></tr>
-<tr class="memitem:a32bcabb157209d33efcd0b63b85dc280"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a32bcabb157209d33efcd0b63b85dc280">isIn</a> (const std::vector&lt; T &gt; &amp;container, const B &amp;obj, F f)</td></tr>
-<tr class="separator:a32bcabb157209d33efcd0b63b85dc280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f16a4fa37ab5765a1c17842f068e5b8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a3f16a4fa37ab5765a1c17842f068e5b8"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a3f16a4fa37ab5765a1c17842f068e5b8">isIn</a> (const std::vector&lt; T &gt; &amp;container, const T &amp;obj)</td></tr>
+<tr class="separator:a3f16a4fa37ab5765a1c17842f068e5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2858c39bf3c9082f02d77654c692d663"><td class="memTemplParams" colspan="2">template&lt;class T , class B , class F &gt; </td></tr>
+<tr class="memitem:a2858c39bf3c9082f02d77654c692d663"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a2858c39bf3c9082f02d77654c692d663">isIn</a> (const std::vector&lt; T &gt; &amp;container, const B &amp;obj, F f)</td></tr>
+<tr class="separator:a2858c39bf3c9082f02d77654c692d663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad40c1c605071286f7ea10219308e0677"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ad40c1c605071286f7ea10219308e0677"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#ad40c1c605071286f7ea10219308e0677">vectorToString</a> (const std::vector&lt; T &gt; &amp;obj, const std::string &amp;delim=&quot;&quot;)</td></tr>
 <tr class="separator:ad40c1c605071286f7ea10219308e0677"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2593,17 +2593,14 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a908ffc26ef487342c46e586e6440d798"></a>
+<a class="anchor" id="a3f16a4fa37ab5765a1c17842f068e5b8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool AmpGen::isIn </td>
+          <td class="memname">bool AmpGen::isIn </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>container</em>, </td>
@@ -2620,28 +2617,20 @@ template&lt;class T &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../db/d72/_utilities_8h_source.html#l00021">21</a> of file <a class="el" href="../../db/d72/_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a32bcabb157209d33efcd0b63b85dc280"></a>
+<a class="anchor" id="a2858c39bf3c9082f02d77654c692d663"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T , class B , class F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool AmpGen::isIn </td>
+          <td class="memname">bool AmpGen::isIn </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>container</em>, </td>
@@ -2664,11 +2653,6 @@ template&lt;class T , class B , class F &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../db/d72/_utilities_8h_source.html#l00029">29</a> of file <a class="el" href="../../db/d72/_utilities_8h_source.html">Utilities.h</a>.</p>
@@ -6212,7 +6196,7 @@ template&lt;class T , class F &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li>
-    <li class="footer">Generated on Wed Mar 27 2019 16:33:07 for AmpGen by
+    <li class="footer">Generated on Thu Mar 28 2019 21:00:08 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
