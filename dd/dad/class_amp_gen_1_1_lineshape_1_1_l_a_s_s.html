@@ -119,9 +119,32 @@ $(document).ready(function(){initNavTree('dd/dad/class_amp_gen_1_1_lineshape_1_1
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html" title="Description of the  S-wave, based on the fits to scattering data. ">LASS</a> parameterisation of the $$ K$f S-wave is derived from fits to ~ elastic \( K \pi \) scattering data, which is approximately up to the $f@ K ^ $f@ threshold. In this regime, unitarity implies that phases, rather than amplitudes should be summed. In this context, a slow varying nonresonant phases is summed with the phase of a Breit-Wigner, corresponding to the \( K_0*(1430) \). </p>
+<div class="textblock"><p>The <a class="el" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html" title="Description of the  S-wave, based on the fits to scattering data. ">LASS</a> parameterisation of the $$ K$f S-wave is derived from fits to ~ elastic \( K \pi \) scattering data, which is approximately up to the $f@ K ^ $f@ threshold. In this regime, unitarity implies that phases, rather than amplitudes should be summed. In this context, a slow varying nonresonant phase, </p><p class="formulaDsp">
+\[ \tan(\phi_{NR}) = \frac{2 a q}{2 + arq^2}, \]
+</p>
+<p> where \(a, r\) are parameters determined from scattering data, is added to the phase shift of a Breit-Wigner, </p><p class="formulaDsp">
+\[ \tan(\phi_{BW}) = \frac{m\Gamma(s)}{m^2 -s }, \]
+</p>
+<p> normally associated to the \( K^*(1430)^{0} \) resonance. The total amplitude is therefore: </p><p class="formulaDsp">
+\[ \mathcal{A}(s) = \frac{2 a \sqrt{s} }{ 2 + arq^2 - 2iaq} + \frac{2+arq^2 + 2iaq}{2+arq^2 - 2iaq }\mathcal{A}_{BW}(s). \]
+</p>
+<p> As this expression somewhat resembles the sum of a Breit-Wigner with a slowly varying nonresonant component, the two parts are sometimes split apart with an additional production amplitude placed on one or the other. These can be accessed separately using the modifiers LASS.BW and LASS.NR.</p>
+<table class="doxtable">
+<tr>
+<th><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html" title="Free parameter for expression. ">Parameter</a> </th><th>User name </th><th>Description  </th></tr>
+<tr>
+<td>\(m\) </td><td><em>particleName_</em>mass </td><td>Breit-Wigner mass of the resonant component, defined as energy at which the self-energy of the resonance is purely imaginary (defaults to value in PDG) <br />
+ </td></tr>
+<tr>
+<td>\(\Gamma_0\) </td><td><em>particleName_</em>width </td><td>Breit-Wigner width of the resonant component, defined as the width of resonance at the Breit-Wigner mass <br />
+ </td></tr>
+<tr>
+<td>\(a\) </td><td>LASS::a </td><td>Scattering length of the nonresonant component, defaults to \(2.07\mathrm{G\kern -0.1em eV}^{-1}\) </td></tr>
+<tr>
+<td>\(a\) </td><td>LASS::r </td><td>Scattering length of the nonresonant component, defaults to \(3.32\mathrm{G\kern -0.1em eV}^{-1}\) </td></tr>
+</table>
 
-<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00189">189</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00209">209</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -165,7 +188,7 @@ Inheritance diagram for AmpGen::Lineshape::LASS:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00189">189</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00209">209</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
 
 </div>
 </div>
@@ -330,7 +353,7 @@ Inheritance diagram for AmpGen::Lineshape::LASS:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dc/de1/namespace_amp_gen_1_1_lineshape.html">Lineshape</a></li><li class="navelem"><a class="el" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html">LASS</a></li>
-    <li class="footer">Generated on Thu Mar 28 2019 21:00:09 for AmpGen by
+    <li class="footer">Generated on Fri Mar 29 2019 12:47:53 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
