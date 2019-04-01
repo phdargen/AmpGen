@@ -37,11 +37,11 @@ var _vertex_8h =
     [ "Bar", "d8/dcb/_vertex_8h.html#ae81390a4263c327799bb116d23a6bbcc", null ],
     [ "Gamma4Vec", "d8/dcb/_vertex_8h.html#ab3f09315acab1605f019db953e78898f", null ],
     [ "gamma_twiddle", "d8/dcb/_vertex_8h.html#aee5a62db90e91536a2a4f82c73db5adc", null ],
-    [ "Orbital_DWave", "d8/dcb/_vertex_8h.html#a8fa62b0a7635b11ac84e54324d3dc545", null ],
-    [ "Orbital_PWave", "d8/dcb/_vertex_8h.html#ga86aa12f69c7363432aeb8c058577869f", null ],
+    [ "Orbital_DWave", "d8/dcb/_vertex_8h.html#ga8ba3d6acfc1b1df18ef7645f4f8e39d0", null ],
+    [ "Orbital_PWave", "d8/dcb/_vertex_8h.html#gabd2062120833fa09c31107e57c1d613a", null ],
     [ "slash", "d8/dcb/_vertex_8h.html#a96cd5ff2c7eb8fa9f2fa0633372e9432", null ],
-    [ "Spin1hProjector", "d8/dcb/_vertex_8h.html#adfa5d93386e0dae150fe7d66bd81f24e", null ],
-    [ "Spin1Projector", "d8/dcb/_vertex_8h.html#a09fad62273214e5b18d16255c74ee7c5", null ],
-    [ "Spin2Projector", "d8/dcb/_vertex_8h.html#a19284842906446a2744fc1cb53e98b93", null ],
+    [ "Spin1hProjector", "d8/dcb/_vertex_8h.html#gadfa5d93386e0dae150fe7d66bd81f24e", null ],
+    [ "Spin1Projector", "d8/dcb/_vertex_8h.html#gacbbe833b0a87a4145bcd10aed9aca920", null ],
+    [ "Spin2Projector", "d8/dcb/_vertex_8h.html#ga59ee1d70f51f4bca4aa96e66923e90df", null ],
     [ "Spin3hProjector", "d8/dcb/_vertex_8h.html#a0559ac5345e6e3a1982248bf9df77dc4", null ]
 ];

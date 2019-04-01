@@ -113,6 +113,7 @@ $(document).ready(function(){initNavTree('dc/d82/namespace_amp_gen.html','../../
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -128,7 +129,7 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:dc/de1/namespace_amp_gen_1_1_lineshape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that contains all lineshapes, i.e. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d0b/namespace_amp_gen_1_1_vertex"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d0b/namespace_amp_gen_1_1_vertex.html">Vertex</a></td></tr>
-<tr class="memdesc:d9/d0b/namespace_amp_gen_1_1_vertex"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that contains the base class for vertices, <a class="el" href="../../dc/d27/struct_amp_gen_1_1_vertex_1_1_vertex_base.html" title="Base class for all spin vertices. ">VertexBase</a>, as well as the implementations of specific spin couplings and some helper functions such as the orbital operators. <br /></td></tr>
+<tr class="memdesc:d9/d0b/namespace_amp_gen_1_1_vertex"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that contains the base class for vertices, <a class="el" href="../../d5/d73/struct_amp_gen_1_1_vertex_1_1_base.html" title="Base class for all spin vertices. ">Vertex::Base</a>, as well as the implementations of specific spin couplings and some helper functions such as the orbital operators. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -147,13 +148,14 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary expression that returns \(l \wedge r\).  <a href="../../d2/db0/class_amp_gen_1_1_and.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">Argument</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to flexibly pass blocks of "Named" parameters to functions, to approximate the behaviour of python's named arguments.  <a href="../../d9/d9c/struct_amp_gen_1_1_argument.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to pass "named" parameters to functions.  <a href="../../d9/d9c/struct_amp_gen_1_1_argument.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html">ArgumentPack</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6c/struct_amp_gen_1_1_argument_ptr.html">ArgumentPtr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d11/class_amp_gen_1_1_array.html">Array</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html" title="Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...">Expression</a> for a fixed size array of values.  <a href="../../d9/d11/class_amp_gen_1_1_array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_amp_gen_1_1_a_sin.html">ASin</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unary expression that returns \(\sin^{-1}(z)\).  <a href="../../d3/d2e/class_amp_gen_1_1_a_sin.html#details">More...</a><br /></td></tr>
@@ -278,8 +280,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html">IExtendLikelihood</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d51/class_amp_gen_1_1_i_lineshape.html">ILineshape</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df7/class_amp_gen_1_1_imag.html">Imag</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unary expression that returns the imaginary part of \(z\).  <a href="../../d3/df7/class_amp_gen_1_1_imag.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -334,6 +334,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/class_amp_gen_1_1_normal_ordered_expression.html">NormalOrderedExpression</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d73/class_amp_gen_1_1_options_parser.html">OptionsParser</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2b/class_amp_gen_1_1_pade.html">Pade</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html">Parameter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free parameter for expression.  <a href="../../d3/d5a/class_amp_gen_1_1_parameter.html#details">More...</a><br /></td></tr>
@@ -437,6 +439,15 @@ Typedefs</h2></td></tr>
 <tr class="separator:a01a861303dccf2bcab5f9c75859578ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c4b038444f13769eb75a6ee5a22c3d1"><td class="memItemLeft" align="right" valign="top">typedef std::complex&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a></td></tr>
 <tr class="separator:a0c4b038444f13769eb75a6ee5a22c3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a5f54b70f4101774d0427af6c7231a949"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949">Strategy</a> { <a class="el" href="../../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949a84c1bf2e07cfc0e90a33758a4617c307">linear</a>, 
+<a class="el" href="../../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949a8cbd24c42f28b037d5e1a78269093d59">quadratic</a>, 
+<a class="el" href="../../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949a2d8df74da1b209e85581914fa78e8822">cubic</a>, 
+<a class="el" href="../../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949ac6f1ee49c3db000de1bb22527847064a">quartic</a>
+ }</td></tr>
+<tr class="separator:a5f54b70f4101774d0427af6c7231a949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -834,17 +845,21 @@ Functions</h2></td></tr>
 <tr class="separator:a5b257f9be502868a60b2f267cac845ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e5950a1ca408cfb97466fce815ce841"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a2e5950a1ca408cfb97466fce815ce841">italic_off</a> (std::ostream &amp;)</td></tr>
 <tr class="separator:a2e5950a1ca408cfb97466fce815ce841"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga86aa12f69c7363432aeb8c058577869f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#ga86aa12f69c7363432aeb8c058577869f">Orbital_PWave</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;A, const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;B)</td></tr>
-<tr class="memdesc:ga86aa12f69c7363432aeb8c058577869f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that computes the L=1 orbital momentum operator, i.e.  <a href="../../d0/de8/group___vertices.html#ga86aa12f69c7363432aeb8c058577869f">More...</a><br /></td></tr>
-<tr class="separator:ga86aa12f69c7363432aeb8c058577869f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fa62b0a7635b11ac84e54324d3dc545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a8fa62b0a7635b11ac84e54324d3dc545">Orbital_DWave</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;A, const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;B)</td></tr>
-<tr class="separator:a8fa62b0a7635b11ac84e54324d3dc545"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09fad62273214e5b18d16255c74ee7c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a09fad62273214e5b18d16255c74ee7c5">Spin1Projector</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;A)</td></tr>
-<tr class="separator:a09fad62273214e5b18d16255c74ee7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19284842906446a2744fc1cb53e98b93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a19284842906446a2744fc1cb53e98b93">Spin2Projector</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;A)</td></tr>
-<tr class="separator:a19284842906446a2744fc1cb53e98b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa5d93386e0dae150fe7d66bd81f24e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#adfa5d93386e0dae150fe7d66bd81f24e">Spin1hProjector</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;B)</td></tr>
-<tr class="separator:adfa5d93386e0dae150fe7d66bd81f24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd2062120833fa09c31107e57c1d613a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#gabd2062120833fa09c31107e57c1d613a">Orbital_PWave</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;p, const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;q)</td></tr>
+<tr class="memdesc:gabd2062120833fa09c31107e57c1d613a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that computes the \(L=1\) orbital momentum operator.  <a href="../../d0/de8/group___vertices.html#gabd2062120833fa09c31107e57c1d613a">More...</a><br /></td></tr>
+<tr class="separator:gabd2062120833fa09c31107e57c1d613a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ba3d6acfc1b1df18ef7645f4f8e39d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#ga8ba3d6acfc1b1df18ef7645f4f8e39d0">Orbital_DWave</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;p, const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;q)</td></tr>
+<tr class="memdesc:ga8ba3d6acfc1b1df18ef7645f4f8e39d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that computes the \(L=2\) orbital momentum operator.  <a href="../../d0/de8/group___vertices.html#ga8ba3d6acfc1b1df18ef7645f4f8e39d0">More...</a><br /></td></tr>
+<tr class="separator:ga8ba3d6acfc1b1df18ef7645f4f8e39d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacbbe833b0a87a4145bcd10aed9aca920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#gacbbe833b0a87a4145bcd10aed9aca920">Spin1Projector</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;p)</td></tr>
+<tr class="memdesc:gacbbe833b0a87a4145bcd10aed9aca920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that computes the projection operator onto a spin one state.  <a href="../../d0/de8/group___vertices.html#gacbbe833b0a87a4145bcd10aed9aca920">More...</a><br /></td></tr>
+<tr class="separator:gacbbe833b0a87a4145bcd10aed9aca920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga59ee1d70f51f4bca4aa96e66923e90df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#ga59ee1d70f51f4bca4aa96e66923e90df">Spin2Projector</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;p)</td></tr>
+<tr class="memdesc:ga59ee1d70f51f4bca4aa96e66923e90df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that computes the projection operator onto a spin one state.  <a href="../../d0/de8/group___vertices.html#ga59ee1d70f51f4bca4aa96e66923e90df">More...</a><br /></td></tr>
+<tr class="separator:ga59ee1d70f51f4bca4aa96e66923e90df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadfa5d93386e0dae150fe7d66bd81f24e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#gadfa5d93386e0dae150fe7d66bd81f24e">Spin1hProjector</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;B)</td></tr>
+<tr class="memdesc:gadfa5d93386e0dae150fe7d66bd81f24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that projects a spinor.  <a href="../../d0/de8/group___vertices.html#gadfa5d93386e0dae150fe7d66bd81f24e">More...</a><br /></td></tr>
+<tr class="separator:gadfa5d93386e0dae150fe7d66bd81f24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0559ac5345e6e3a1982248bf9df77dc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0559ac5345e6e3a1982248bf9df77dc4">Spin3hProjector</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;A)</td></tr>
 <tr class="separator:a0559ac5345e6e3a1982248bf9df77dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee5a62db90e91536a2a4f82c73db5adc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#aee5a62db90e91536a2a4f82c73db5adc">gamma_twiddle</a> (const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;P)</td></tr>
@@ -1056,6 +1071,31 @@ p</td>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d0/db6/_types_8h_source.html#l00006">6</a> of file <a class="el" href="../../d0/db6/_types_8h_source.html">Types.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="a5f54b70f4101774d0427af6c7231a949"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949">AmpGen::Strategy</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a5f54b70f4101774d0427af6c7231a949a84c1bf2e07cfc0e90a33758a4617c307"></a>linear&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a5f54b70f4101774d0427af6c7231a949a8cbd24c42f28b037d5e1a78269093d59"></a>quadratic&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a5f54b70f4101774d0427af6c7231a949a2d8df74da1b209e85581914fa78e8822"></a>cubic&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a5f54b70f4101774d0427af6c7231a949ac6f1ee49c3db000de1bb22527847064a"></a>quartic&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../d8/d89/_pade_8h_source.html#l00010">10</a> of file <a class="el" href="../../d8/d89/_pade_8h_source.html">Pade.h</a>.</p>
 
 </div>
 </div>
@@ -1430,7 +1470,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00421">421</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00419">419</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -2242,7 +2282,7 @@ template&lt;std::size_t I = 0, typename FuncT , typename... Tp&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d85/_meta_utils_8h_source.html#l00030">30</a> of file <a class="el" href="../../d4/d85/_meta_utils_8h_source.html">MetaUtils.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d85/_meta_utils_8h_source.html#l00031">31</a> of file <a class="el" href="../../d4/d85/_meta_utils_8h_source.html">MetaUtils.h</a>.</p>
 
 </div>
 </div>
@@ -2573,7 +2613,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00418">418</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00416">416</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -3615,7 +3655,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00377">377</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00376">376</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -3645,7 +3685,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00386">386</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00385">385</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -3779,7 +3819,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00373">373</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00372">372</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -3809,7 +3849,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00382">382</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00381">381</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -3917,7 +3957,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00375">375</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00374">374</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -3947,7 +3987,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00384">384</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00383">383</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -4107,7 +4147,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00379">379</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00378">378</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -4137,7 +4177,7 @@ template&lt;class T , typename std::enable_if_t&lt; hasConstructor&lt; Constant,
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00388">388</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00387">387</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -4602,32 +4642,6 @@ template&lt;class T &gt; </div>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8fa62b0a7635b11ac84e54324d3dc545"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> AmpGen::Orbital_DWave </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5516,54 +5530,6 @@ template&lt;int N, class FCN &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="adfa5d93386e0dae150fe7d66bd81f24e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> AmpGen::Spin1hProjector </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a09fad62273214e5b18d16255c74ee7c5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> AmpGen::Spin1Projector </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a19284842906446a2744fc1cb53e98b93"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> AmpGen::Spin2Projector </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a0559ac5345e6e3a1982248bf9df77dc4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5749,7 +5715,7 @@ template&lt;class TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d85/_meta_utils_8h_source.html#l00016">16</a> of file <a class="el" href="../../d4/d85/_meta_utils_8h_source.html">MetaUtils.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d85/_meta_utils_8h_source.html#l00017">17</a> of file <a class="el" href="../../d4/d85/_meta_utils_8h_source.html">MetaUtils.h</a>.</p>
 
 </div>
 </div>
@@ -5769,7 +5735,7 @@ template&lt;class TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d85/_meta_utils_8h_source.html#l00026">26</a> of file <a class="el" href="../../d4/d85/_meta_utils_8h_source.html">MetaUtils.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d85/_meta_utils_8h_source.html#l00027">27</a> of file <a class="el" href="../../d4/d85/_meta_utils_8h_source.html">MetaUtils.h</a>.</p>
 
 </div>
 </div>
@@ -6196,7 +6162,7 @@ template&lt;class T , class F &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li>
-    <li class="footer">Generated on Fri Mar 29 2019 12:47:52 for AmpGen by
+    <li class="footer">Generated on Mon Apr 1 2019 16:27:42 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

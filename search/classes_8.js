@@ -4,7 +4,6 @@ var searchData=
   ['ibinaryexpression',['IBinaryExpression',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html',1,'AmpGen']]],
   ['iexpression',['IExpression',['../d6/d3e/class_amp_gen_1_1_i_expression.html',1,'AmpGen']]],
   ['iextendlikelihood',['IExtendLikelihood',['../d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html',1,'AmpGen']]],
-  ['ilineshape',['ILineshape',['../d3/d51/class_amp_gen_1_1_i_lineshape.html',1,'AmpGen']]],
   ['imag',['Imag',['../d3/df7/class_amp_gen_1_1_imag.html',1,'AmpGen']]],
   ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html',1,'AmpGen']]],
   ['index',['Index',['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html',1,'AmpGen::Tensor']]],

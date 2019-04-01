@@ -14,6 +14,7 @@ var class_amp_gen_1_1_fit_result =
     [ "correlation", "d4/d2d/class_amp_gen_1_1_fit_result.html#ac94a5337d66ae0f864b040ddb3fc262e", null ],
     [ "cov", "d4/d2d/class_amp_gen_1_1_fit_result.html#abebcc2e8c8a752bf1b286bfbefa84565", null ],
     [ "cov", "d4/d2d/class_amp_gen_1_1_fit_result.html#a090f0e5ab6f47bb973eeee6e14a01373", null ],
+    [ "cov", "d4/d2d/class_amp_gen_1_1_fit_result.html#affe4f9f7c9cfb6fbf2e80f6b5ffc4514", null ],
     [ "dof", "d4/d2d/class_amp_gen_1_1_fit_result.html#a308e06ac746863795c7f13ce13aff64a", null ],
     [ "eventType", "d4/d2d/class_amp_gen_1_1_fit_result.html#a0fdafa6186376373c877ee8eb79fbde4", null ],
     [ "fitFractions", "d4/d2d/class_amp_gen_1_1_fit_result.html#a03711b58d66d657b8f8615df7756bb45", null ],

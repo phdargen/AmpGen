@@ -17,6 +17,5 @@ var searchData=
   ['conj',['Conj',['../de/de2/class_amp_gen_1_1_conj.html',1,'AmpGen']]],
   ['constant',['Constant',['../d9/d48/class_amp_gen_1_1_constant.html',1,'AmpGen']]],
   ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html',1,'AmpGen']]],
-  ['coupledchannel',['CoupledChannel',['../d2/d1c/class_amp_gen_1_1_lineshape_1_1_coupled_channel.html',1,'AmpGen::Lineshape']]],
   ['couplingconstant',['CouplingConstant',['../d3/d03/class_amp_gen_1_1_coupling_constant.html',1,'AmpGen']]]
 ];

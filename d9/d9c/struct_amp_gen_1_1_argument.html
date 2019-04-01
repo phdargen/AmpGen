@@ -123,14 +123,14 @@ $(document).ready(function(){initNavTree('d9/d9c/struct_amp_gen_1_1_argument.htm
 <div class="textblock"><h3>template&lt;class TYPE&gt;<br />
 class AmpGen::Argument&lt; TYPE &gt;</h3>
 
-<p>Typical usage is for constructors with variable arguments, such as to read data from the disk. The interface for the user is typically </p><div class="fragment"><div class="line">EventList events(<span class="stringliteral">&quot;files.root&quot;</span>, </div><div class="line">type,</div><div class="line">GetGenPDF(<span class="keyword">true</span>), </div><div class="line">WeightBranch(<span class="stringliteral">&quot;eventWeight&quot;</span>),</div><div class="line">Branches({<span class="stringliteral">&quot;K_PX&quot;</span>,<span class="stringliteral">&quot;K_PY&quot;</span>,...}));</div></div><!-- fragment --><p> Internally these arguments are used to construct an <a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html">ArgumentPack</a>, and then read out using getArg&lt;TYPE&gt;, so for this example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> pdfSize      = args.getArg&lt;CacheSize&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> filter       = args.getArg&lt;Filter&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> getGenPdf    = args.getArg&lt;GetGenPdf&gt;(<span class="keyword">true</span>).<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> weightBranch = args.getArg&lt;WeightBranch&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> branches     = args.getArg&lt;Branches&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> applySym     = args.getArg&lt;ApplySym&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> entryList    = args.getArg&lt;EntryList&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>; </div></div><!-- fragment --> <dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Structure to flexibly pass blocks of "Named" parameters to functions, to approximate the behaviour of Python's named arguments. Typical usage is for constructors with variable arguments, such as to read data from the disk. The interface for the user is typically </p><div class="fragment"><div class="line">EventList events(<span class="stringliteral">&quot;files.root&quot;</span>, </div><div class="line">type,</div><div class="line">GetGenPDF(<span class="keyword">true</span>), </div><div class="line">WeightBranch(<span class="stringliteral">&quot;eventWeight&quot;</span>),</div><div class="line">Branches({<span class="stringliteral">&quot;K_PX&quot;</span>,<span class="stringliteral">&quot;K_PY&quot;</span>,...}));</div></div><!-- fragment --><p> Internally these arguments are used to construct an <a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html">ArgumentPack</a>, and then read out using getArg&lt;TYPE&gt;, so for this example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> pdfSize      = args.getArg&lt;CacheSize&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> filter       = args.getArg&lt;Filter&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> getGenPdf    = args.getArg&lt;GetGenPdf&gt;(<span class="keyword">true</span>).<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> weightBranch = args.getArg&lt;WeightBranch&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> branches     = args.getArg&lt;Branches&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> applySym     = args.getArg&lt;ApplySym&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> entryList    = args.getArg&lt;EntryList&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>; </div></div><!-- fragment --> <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname"></td><td></td></tr>
+    <tr><td class="paramname">TYPE</td><td>Type of the argument, such as a string, a number, a bool etc. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00041">41</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00042">42</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -178,7 +178,7 @@ template&lt;class TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00043">43</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00044">44</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 
 </div>
 </div>
@@ -206,7 +206,7 @@ template&lt;class TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00044">44</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00045">45</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 
 </div>
 </div>
@@ -223,7 +223,7 @@ template&lt;class TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00045">45</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00046">46</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 
 </div>
 </div>
@@ -236,7 +236,7 @@ template&lt;class TYPE &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">Argument</a></li>
-    <li class="footer">Generated on Fri Mar 29 2019 12:47:53 for AmpGen by
+    <li class="footer">Generated on Mon Apr 1 2019 16:27:42 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,5 +1,6 @@
 var namespace_amp_gen_1_1_vertex =
 [
+    [ "Base", "d5/d73/struct_amp_gen_1_1_vertex_1_1_base.html", "d5/d73/struct_amp_gen_1_1_vertex_1_1_base" ],
     [ "f_fS_P", "d9/dc6/struct_amp_gen_1_1_vertex_1_1f__f_s___p.html", "d9/dc6/struct_amp_gen_1_1_vertex_1_1f__f_s___p" ],
     [ "f_fS_P1", "d9/dac/struct_amp_gen_1_1_vertex_1_1f__f_s___p1.html", "d9/dac/struct_amp_gen_1_1_vertex_1_1f__f_s___p1" ],
     [ "f_fS_S", "dc/d46/struct_amp_gen_1_1_vertex_1_1f__f_s___s.html", "dc/d46/struct_amp_gen_1_1_vertex_1_1f__f_s___s" ],
@@ -43,6 +44,5 @@ var namespace_amp_gen_1_1_vertex =
     [ "V_TS_P", "d4/ddc/struct_amp_gen_1_1_vertex_1_1_v___t_s___p.html", "d4/ddc/struct_amp_gen_1_1_vertex_1_1_v___t_s___p" ],
     [ "V_VS_D", "dd/d05/struct_amp_gen_1_1_vertex_1_1_v___v_s___d.html", "dd/d05/struct_amp_gen_1_1_vertex_1_1_v___v_s___d" ],
     [ "V_VS_P", "dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html", "dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p" ],
-    [ "V_VS_S", "d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html", "d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s" ],
-    [ "VertexBase", "dc/d27/struct_amp_gen_1_1_vertex_1_1_vertex_base.html", "dc/d27/struct_amp_gen_1_1_vertex_1_1_vertex_base" ]
+    [ "V_VS_S", "d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html", "d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s" ]
 ];

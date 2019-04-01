@@ -7,7 +7,9 @@ var NAVTREE =
       [ "All", "namespacemembers.html", "namespacemembers_dup" ],
       [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
       [ "Variables", "namespacemembers_vars.html", null ],
-      [ "Typedefs", "namespacemembers_type.html", null ]
+      [ "Typedefs", "namespacemembers_type.html", null ],
+      [ "Enumerations", "namespacemembers_enum.html", null ],
+      [ "Enumerator", "namespacemembers_eval.html", null ]
     ] ],
     [ "Class List", "annotated.html", "annotated" ],
     [ "Class Index", "classes.html", null ],
@@ -33,16 +35,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d91/class_amp_gen_1_1_coherent_sum.html#a473f4282e59e9ee48ca05d8b41e7a104",
-"d3/d23/class_amp_gen_1_1_quark_state.html#a846c8ef131350afde5d198383ea6b713",
-"d4/d2d/class_amp_gen_1_1_fit_result.html#acc54f7b0b326b2080f4baa62bd33bc02",
-"d6/d99/_expression_8h.html#a53b6df3ee3b23d32e7e96ee2fe2c431b",
-"d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html#a6fccd6dfad904418d2738cd80bfe5a94",
-"da/d3d/class_amp_gen_1_1_three_body_calculator.html",
-"db/d4b/class_amp_gen_1_1_event_list.html#af26201c59958d9669e713e9804e36559",
-"dc/d82/namespace_amp_gen.html#a231339253a90f91185027f12ed31fe49",
-"de/d21/class_amp_gen_1_1_quark_content.html#ae9e2bc9b3e4271f9de0b42ecf9f4fc04",
-"df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html"
+"d1/d91/class_amp_gen_1_1_coherent_sum.html#a30871f43fad9cd89b50f627db1e6f4b0",
+"d3/d23/class_amp_gen_1_1_quark_state.html#adbfda5b236b76ca13b4c728a3d10c86c",
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#a21f74f5275d0918f05cec021806f9703",
+"d6/d99/_expression_8h.html#a57360315fa082240a9a5484d917203fb",
+"d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#a746dadaa71c4cb04abf59642cf1ec15d",
+"da/d29/struct_amp_gen_1_1_vertex_1_1f___vf___p3.html#aa8534d4bd69d8420cd98265b4a291aa9",
+"db/d4b/class_amp_gen_1_1_event_list.html#abc3917a5c59e09139f1effab6834b264",
+"dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html#a7a49aa14bc57e31fd41c14ac7333d961",
+"de/d21/class_amp_gen_1_1_quark_content.html#a822974a7447378e4977b435a3587c89c",
+"df/d59/_fast_d_t_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

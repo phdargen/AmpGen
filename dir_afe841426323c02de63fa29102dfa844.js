@@ -2,9 +2,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
 [
     [ "AmplitudeRules.h", "d7/d6d/_amplitude_rules_8h.html", "d7/d6d/_amplitude_rules_8h" ],
     [ "ArgumentPack.h", "dd/dd4/_argument_pack_8h.html", "dd/dd4/_argument_pack_8h" ],
-    [ "Array.h", "d3/dc5/_array_8h.html", [
-      [ "Array", "d9/d11/class_amp_gen_1_1_array.html", "d9/d11/class_amp_gen_1_1_array" ]
-    ] ],
+    [ "Array.h", "d3/dc5/_array_8h.html", null ],
     [ "ASTResolver.h", "d2/db6/_a_s_t_resolver_8h.html", [
       [ "ASTResolver", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html", "d6/d02/class_amp_gen_1_1_a_s_t_resolver" ]
     ] ],
@@ -100,6 +98,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "OptionsParser.h", "de/d3c/_options_parser_8h.html", [
       [ "OptionsParser", "d8/d73/class_amp_gen_1_1_options_parser.html", "d8/d73/class_amp_gen_1_1_options_parser" ]
     ] ],
+    [ "Pade.h", "d8/d89/_pade_8h.html", "d8/d89/_pade_8h" ],
     [ "Particle.h", "d4/d15/_particle_8h.html", [
       [ "Particle", "de/dd7/class_amp_gen_1_1_particle.html", "de/dd7/class_amp_gen_1_1_particle" ]
     ] ],

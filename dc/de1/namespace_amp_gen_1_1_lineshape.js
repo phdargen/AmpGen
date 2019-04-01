@@ -1,9 +1,9 @@
 var namespace_amp_gen_1_1_lineshape =
 [
     [ "AxialKaon", "d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html", "d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon" ],
+    [ "Base", "d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html", "d7/d74/class_amp_gen_1_1_lineshape_1_1_base" ],
     [ "Bugg", "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg.html", "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg" ],
     [ "BW", "de/d96/class_amp_gen_1_1_lineshape_1_1_b_w.html", "de/d96/class_amp_gen_1_1_lineshape_1_1_b_w" ],
-    [ "CoupledChannel", "d2/d1c/class_amp_gen_1_1_lineshape_1_1_coupled_channel.html", "d2/d1c/class_amp_gen_1_1_lineshape_1_1_coupled_channel" ],
     [ "DecaySpline", "d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline.html", "d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline" ],
     [ "EtaDalitz", "d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html", "d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz" ],
     [ "ExpFF", "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f.html", "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f" ],
@@ -18,7 +18,6 @@ var namespace_amp_gen_1_1_lineshape =
     [ "GSpline", "dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html", "dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline" ],
     [ "InelasticSpline", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline" ],
     [ "Isotensor", "d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor.html", "d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor" ],
-    [ "kMatrix", "d2/d3b/class_amp_gen_1_1_lineshape_1_1k_matrix.html", "d2/d3b/class_amp_gen_1_1_lineshape_1_1k_matrix" ],
     [ "kMatrixSimple", "d0/de4/class_amp_gen_1_1_lineshape_1_1k_matrix_simple.html", "d0/de4/class_amp_gen_1_1_lineshape_1_1k_matrix_simple" ],
     [ "LASS", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s" ],
     [ "MIPWA", "d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html", "d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a" ],
