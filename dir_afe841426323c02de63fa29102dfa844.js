@@ -140,7 +140,6 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "Types.h", "d0/db6/_types_8h.html", "d0/db6/_types_8h" ],
     [ "Units.h", "d8/d69/_units_8h.html", "d8/d69/_units_8h" ],
     [ "Utilities.h", "db/d72/_utilities_8h.html", "db/d72/_utilities_8h" ],
-    [ "Version.h", "d0/dd7/_version_8h.html", "d0/dd7/_version_8h" ],
     [ "Vertex.h", "d8/dcb/_vertex_8h.html", "d8/dcb/_vertex_8h" ],
     [ "Wigner.h", "d3/d21/_wigner_8h.html", "d3/d21/_wigner_8h" ]
 ];

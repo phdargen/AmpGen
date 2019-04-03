@@ -1,9 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d3/d23/class_amp_gen_1_1_quark_state.html#adbfda5b236b76ca13b4c728a3d10c86c":[3,0,102,7],
-"d3/d23/class_amp_gen_1_1_quark_state.html#afd251f09ed5478fb516f2bca961c5c32":[3,0,102,13],
-"d3/d2e/class_amp_gen_1_1_a_sin.html":[0,0,29],
-"d3/d2e/class_amp_gen_1_1_a_sin.html#a0b11bb30cbdd26612eeb43ee24ed0ba9":[0,0,29,4],
 "d3/d2e/class_amp_gen_1_1_a_sin.html#a11477a27458bd1003f1b5725f51ecf99":[0,0,29,6],
 "d3/d2e/class_amp_gen_1_1_a_sin.html#a4c821824522e4624db97c4ffecd18e0f":[0,0,29,1],
 "d3/d2e/class_amp_gen_1_1_a_sin.html#a55c4ff663de92c089f00eb02c559e0b7":[0,0,29,5],
@@ -41,7 +37,6 @@ var NAVTREEINDEX2 =
 "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg.html#acb81dae1b89c098321d4d5dc2c85d29d":[3,0,0,2,3],
 "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg.html#ae0a4042b896c0f6cd580b5894b9d88b9":[3,0,0,2,1],
 "d3/d5a/class_amp_gen_1_1_parameter.html":[0,0,4],
-"d3/d5a/class_amp_gen_1_1_parameter.html#a039de08cfe7c5c9a4dee0de3fa65e7dc":[0,0,4,0],
 "d3/d5a/class_amp_gen_1_1_parameter.html#a69abf1d54db07f5daf574d58f4b8fcf9":[0,0,4,6],
 "d3/d5a/class_amp_gen_1_1_parameter.html#a7096f17b7e73943eb341d83cd58cfc23":[0,0,4,3],
 "d3/d5a/class_amp_gen_1_1_parameter.html#a8a50a9c55213dd49131eee6a58adc3a1":[0,0,4,1],
@@ -49,6 +44,7 @@ var NAVTREEINDEX2 =
 "d3/d5a/class_amp_gen_1_1_parameter.html#ad99b340052227578c449c5d6bec6f823":[0,0,4,4],
 "d3/d5a/class_amp_gen_1_1_parameter.html#ade634bf20ac24f3207cf3b19b8db7fc2":[0,0,4,2],
 "d3/d5a/class_amp_gen_1_1_parameter.html#ae0acced3bf4684bb36500cab15139ba9":[0,0,4,8],
+"d3/d5a/class_amp_gen_1_1_parameter.html#ae28e0ce79f0d730511046b0ac7e21262":[0,0,4,0],
 "d3/d5a/class_amp_gen_1_1_parameter.html#ae983f35c8fd1fb0fa9810dbb258fb830":[0,0,4,7],
 "d3/d77/class_amp_gen_1_1_cos.html":[0,0,27],
 "d3/d77/class_amp_gen_1_1_cos.html#a141ca57219e54ea8021f8c571ad3998d":[0,0,27,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX2 =
 "d4/d2d/class_amp_gen_1_1_fit_result.html#ae7485e9aab521242263c717a624970cf":[3,0,49,28],
 "d4/d2d/class_amp_gen_1_1_fit_result.html#aeb909cf5f32259963171ec9801a25ecf":[3,0,49,10],
 "d4/d2d/class_amp_gen_1_1_fit_result.html#affe4f9f7c9cfb6fbf2e80f6b5ffc4514":[3,0,49,14],
-"d4/d31/class_amp_gen_1_1_polarised_sum.html":[3,0,94]
+"d4/d31/class_amp_gen_1_1_polarised_sum.html":[3,0,94],
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#a21f74f5275d0918f05cec021806f9703":[3,0,94,13],
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#a3ed3066469aa8147aeada9f4075f7742":[3,0,94,19],
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#a57f868602d835d39810a8d04bf579ce5":[3,0,94,24],
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#a5a37e32bd31c7925cbd0eb1739e34357":[3,0,94,7]
 };
