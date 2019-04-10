@@ -189,9 +189,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga98dfb6dcbdafd331079eeedd917633bb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#ga98dfb6dcbdafd331079eeedd917633bb">AmpGen::CG</a> (const double &amp;j1, const double &amp;m1, const double &amp;j2, const double &amp;m2, const double &amp;J, const double &amp;M)</td></tr>
 <tr class="memdesc:ga98dfb6dcbdafd331079eeedd917633bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Clebsch-Gordan coefficient for (j1 m1 j2 m2 | J M), the expansion coefficients in.  <a href="../../d0/de8/group___vertices.html#ga98dfb6dcbdafd331079eeedd917633bb">More...</a><br /></td></tr>
 <tr class="separator:ga98dfb6dcbdafd331079eeedd917633bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e8e37d09deac17b235a69e66dd777bf"><td class="memItemLeft" align="right" valign="top">TransformSequence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#ga7e8e37d09deac17b235a69e66dd777bf">AmpGen::helicityTransformMatrix</a> (const Tensor &amp;P, const Expression &amp;M, const int &amp;ve=1, const bool &amp;handleZeroCase=false)</td></tr>
-<tr class="memdesc:ga7e8e37d09deac17b235a69e66dd777bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a helicity transform tensor (matrix) that aligns tensor P (four-vector) to the +/- ve z-axis, then boosts to the rest frame.  <a href="../../d0/de8/group___vertices.html#ga7e8e37d09deac17b235a69e66dd777bf">More...</a><br /></td></tr>
-<tr class="separator:ga7e8e37d09deac17b235a69e66dd777bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae73775373ea2089084b61a3bd25178e3"><td class="memItemLeft" align="right" valign="top">TransformSequence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de8/group___vertices.html#gae73775373ea2089084b61a3bd25178e3">AmpGen::wickTransform</a> (const Tensor &amp;P, const Expression &amp;M, const int &amp;ve=1, const bool &amp;handleZeroCase=false)</td></tr>
+<tr class="memdesc:gae73775373ea2089084b61a3bd25178e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a wick transform sequence that aligns tensor P (four-vector) to the +/- ve z-axis, then boosts to the rest frame.  <a href="../../d0/de8/group___vertices.html#gae73775373ea2089084b61a3bd25178e3">More...</a><br /></td></tr>
+<tr class="separator:gae73775373ea2089084b61a3bd25178e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ga974081b9c66068d7e97a4d0654cdd047"></a>
@@ -262,45 +262,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ga7e8e37d09deac17b235a69e66dd777bf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TransformSequence AmpGen::helicityTransformMatrix </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>P</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;&#160;</td>
-          <td class="paramname"><em>M</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int &amp;&#160;</td>
-          <td class="paramname"><em>ve</em> = <code>1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool &amp;&#160;</td>
-          <td class="paramname"><em>handleZeroCase</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>The mass may be seperately specified. The parameter ve specifies whether the initial Euler rotation is to the +/- z-axis. In the case where ve =-1, a second rotation is applied about the x-axis that aligns P to the +ve z-axis. This ensures that singly and doubly primed helicity frames remain orthonormal. </p>
 
 </div>
 </div>
@@ -422,12 +383,51 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gae73775373ea2089084b61a3bd25178e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TransformSequence AmpGen::wickTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>P</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>ve</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;&#160;</td>
+          <td class="paramname"><em>handleZeroCase</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The mass may be seperately specified. The parameter ve specifies whether the initial Euler rotation is to the +/- z-axis. In the case where ve =-1, a second rotation is applied about the x-axis that aligns P to the +ve z-axis. This ensures that singly and doubly primed helicity frames remain orthonormal. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 3 2019 16:41:53 for AmpGen by
+    <li class="footer">Generated on Wed Apr 10 2019 21:05:45 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

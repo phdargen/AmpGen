@@ -8,7 +8,7 @@ var class_amp_gen_1_1_a_s_t_resolver =
     [ "cleanup", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ab4b3cb271677353fca69ccac8eceae31", null ],
     [ "enableCompileConstants", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a70f61e1f8648c1c31b57cad9c88274f7", null ],
     [ "enableCuda", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aa74959ad6b1f4cec336515a8d57dbe06", null ],
-    [ "getOrderedSubExpressions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aca6120976b34c82edeb49ce62168e045", null ],
+    [ "getOrderedSubExpressions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ad01a5afd1010f42ad4b5c608be9b9a07", null ],
     [ "hasSubExpressions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a9fdfb794cdb6ff2cd20254d12c08612e", null ],
     [ "nParams", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a233a59abeb19b1c76f7f7533bb6f0da5", null ],
     [ "reduceSubTrees", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a257dae10d91f9b6d222933285045bb55", null ],

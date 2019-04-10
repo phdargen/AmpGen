@@ -126,9 +126,14 @@ $(document).ready(function(){initNavTree('dd/dad/class_amp_gen_1_1_lineshape_1_1
 \[ \tan(\phi_{BW}) = \frac{m\Gamma(s)}{m^2 -s }, \]
 </p>
 <p> normally associated to the \( K^*(1430)^{0} \) resonance. The total amplitude is therefore: </p><p class="formulaDsp">
-\[ \mathcal{A}(s) = \frac{2 a \sqrt{s} }{ 2 + arq^2 - 2iaq} + \frac{2+arq^2 + 2iaq}{2+arq^2 - 2iaq }\mathcal{A}_{BW}(s). \]
+\[ \mathcal{A}(s) = \frac{2 a \sqrt{s} }{ 2 + arq^2 - 2iaq} + \frac{2+arq^2 + 2iaq}{2+arq^2 - 2iaq }\mathcal{A}_{BW}(s) = \mathcal{A}_{NR}(s) + \mathcal{A}^{\prime}_{BW}(s). \]
 </p>
-<p> As this expression somewhat resembles the sum of a Breit-Wigner with a slowly varying nonresonant component, the two parts are sometimes split apart with an additional production amplitude placed on one or the other. These can be accessed separately using the modifiers LASS.BW and LASS.NR.</p>
+<p> As this expression somewhat resembles the sum of a Breit-Wigner with a slowly varying nonresonant component, the two parts are sometimes split apart with an additional production amplitude placed on one or the other. These can be accessed separately using the modifiers LASS.BW and LASS.NR, and given independent coupling constants. From the user interface: </p><div class="fragment"><div class="line">K*(1430)bar0[<a class="code" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266">LASS</a>.NR]{K-,pi+}  0 2.0 0.1 0 -90  0.1</div><div class="line">K*(1430)bar0[<a class="code" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266">LASS</a>.BW]{K-,pi+}  0 1.5 0.1 0  20  0.1</div></div><!-- fragment --><p> Corresponds to the overall lineshape: </p><p class="formulaDsp">
+\[ \mathcal{A}(s) = \left(\texttt{K*(1430)bar0[LASS.NR]{K-,pi+}}\right) \mathcal{A}_{NR}(s) + \left(\texttt{K*(1430)bar0[LASS.BW]{K-,pi+}}\right) \mathcal{A}^{\prime}_{BW}(s) = 2.0 e^{-90^\mathrm{o}} \mathcal{A}_{NR}(s) + 1.5 e^{-20^\mathrm{o}} \mathcal{A}^{\prime}_{BW}(s). \]
+</p>
+<p> An alternative way to introduce a different coupling between the two components is to fix one coupling and to introduce an additional production coupling. In the user interface, this might for example in \( D^{0} \to K^{-} \pi^{+} \pi^{0} \) decays: </p><div class="fragment"><div class="line">D0{K*(1430)bar0,pi0}           0 1.3 0.0 0  15  0.1</div><div class="line">K*(1430)bar0[<a class="code" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266">LASS</a>.NR]{K-,pi+}  0 2.0 0.1 0 -90  0.1</div><div class="line">K*(1430)bar0[<a class="code" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266">LASS</a>.BW]{K-,pi+}  2 1.0 0.0 0   0  0.0</div></div><!-- fragment --><p> Then the lineshape with production couplings will be: </p><p class="formulaDsp">
+\[ \mathcal{A}(s) = \left(\texttt{D0{K*(1430)bar0,pi0}}\right)\left( = \left(\texttt{K*(1430)bar0[LASS.NR]{K-,pi+}}\right) \mathcal{A}_{NR}(s) + \mathcal{A}^{\prime}_{BW}(s) \right) = 1.3 e^{15^\mathrm{o}} \left( 2.0 e^{-90^\mathrm{o}} \mathcal{A}_{NR}(s) + \mathcal{A}^{\prime}_{BW}(s) \right). \]
+</p>
 <table class="doxtable">
 <tr>
 <th><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html" title="Free parameter for expression. ">Parameter</a> </th><th>User name </th><th>Description  </th></tr>
@@ -144,7 +149,7 @@ $(document).ready(function(){initNavTree('dd/dad/class_amp_gen_1_1_lineshape_1_1
 <td>\(r\) </td><td>LASS::r </td><td>Scattering length of the nonresonant component, defaults to \(3.32\mathrm{G\kern -0.1em eV}^{-1}\) </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00208">208</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00235">235</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -188,7 +193,7 @@ Inheritance diagram for AmpGen::Lineshape::LASS:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00208">208</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00235">235</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
 
 </div>
 </div>
@@ -353,7 +358,7 @@ Inheritance diagram for AmpGen::Lineshape::LASS:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dc/de1/namespace_amp_gen_1_1_lineshape.html">Lineshape</a></li><li class="navelem"><a class="el" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html">LASS</a></li>
-    <li class="footer">Generated on Wed Apr 3 2019 16:41:54 for AmpGen by
+    <li class="footer">Generated on Wed Apr 10 2019 21:05:46 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

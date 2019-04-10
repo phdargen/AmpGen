@@ -6,6 +6,7 @@ var searchData=
   ['weight',['weight',['../dc/d82/namespace_amp_gen.html#aa111bcacbe28f73e0706b12a4a740c06',1,'AmpGen::CoherenceEvent::weight()'],['../dd/dc4/class_amp_gen_1_1_event.html#ad593fbfb3c7e97d69d3abf3fc3a01333',1,'AmpGen::Event::weight()']]],
   ['werrminus',['wErrMinus',['../db/d37/class_amp_gen_1_1_particle_properties.html#a59a20c2246ab8fd25d3637d6a0f0936e',1,'AmpGen::ParticleProperties']]],
   ['werrplus',['wErrPlus',['../db/d37/class_amp_gen_1_1_particle_properties.html#a785fb2bb799efc8b45a404e1f097633d',1,'AmpGen::ParticleProperties']]],
+  ['wicktransform',['wickTransform',['../d0/de8/group___vertices.html#gae73775373ea2089084b61a3bd25178e3',1,'AmpGen']]],
   ['width',['width',['../db/d37/class_amp_gen_1_1_particle_properties.html#a957b97c81d80cbded4812af1d4a64bbd',1,'AmpGen::ParticleProperties::width()'],['../dc/d82/namespace_amp_gen.html#a594156341ae59ac365ac8b25effd9ec0',1,'AmpGen::width()']]],
   ['widthgraph',['widthGraph',['../da/d3d/class_amp_gen_1_1_three_body_calculator.html#a62f5d0ccf61de3600a8362736192ae21',1,'AmpGen::ThreeBodyCalculator::widthGraph(const double &amp;mNorm=-1)'],['../da/d3d/class_amp_gen_1_1_three_body_calculator.html#aae8ae92683fb486cde25ffc0808e8cf5',1,'AmpGen::ThreeBodyCalculator::widthGraph(const size_t &amp;steps, const double &amp;min, const double &amp;max)']]],
   ['wigner_2eh',['Wigner.h',['../d3/d21/_wigner_8h.html',1,'']]],

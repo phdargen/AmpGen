@@ -12,6 +12,6 @@ var class_amp_gen_1_1_expression =
     [ "operator-", "dd/d66/class_amp_gen_1_1_expression.html#a6f1953fc8f5d781f990a19dfa9ef6615", null ],
     [ "operator-=", "dd/d66/class_amp_gen_1_1_expression.html#a7913509fc8bff02161983386bf5a771a", null ],
     [ "operator/=", "dd/d66/class_amp_gen_1_1_expression.html#aba0f08c1916c5b7f2dfbbf13e29482f1", null ],
-    [ "resolve", "dd/d66/class_amp_gen_1_1_expression.html#ad9a6642984e1719029608233f3655571", null ],
+    [ "resolve", "dd/d66/class_amp_gen_1_1_expression.html#a8113d89e1e222e2192e3e648d1f8d923", null ],
     [ "to_string", "dd/d66/class_amp_gen_1_1_expression.html#a19db5bd89ccec71f58e2b07dca4dd678", null ]
 ];

@@ -130,9 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d62665ce54bc8915f4505d981bd4184"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d86/struct_amp_gen_1_1_ternary.html#a2d62665ce54bc8915f4505d981bd4184">to_string</a> (const <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> *resolver=nullptr) const override</td></tr>
 <tr class="memdesc:a2d62665ce54bc8915f4505d981bd4184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to convert the <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html" title="Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...">Expression</a> tree into source code.  <a href="#a2d62665ce54bc8915f4505d981bd4184">More...</a><br /></td></tr>
 <tr class="separator:a2d62665ce54bc8915f4505d981bd4184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ebee384f88480a5fb304d051c1e0560"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d86/struct_amp_gen_1_1_ternary.html#a9ebee384f88480a5fb304d051c1e0560">resolve</a> (<a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;resolver) override</td></tr>
-<tr class="memdesc:a9ebee384f88480a5fb304d051c1e0560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve the dependencies of a tree using an <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html" title="Traverses trees in IExpression::resolveDependencies() to keep track of the dependencies of the tree s...">ASTResolver</a>, which keeps track of parameters, dependent sub-trees, etc.  <a href="#a9ebee384f88480a5fb304d051c1e0560">More...</a><br /></td></tr>
-<tr class="separator:a9ebee384f88480a5fb304d051c1e0560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926a0179302788db72bc76ab9097cf21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d86/struct_amp_gen_1_1_ternary.html#a926a0179302788db72bc76ab9097cf21">resolve</a> (<a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;resolver) const override</td></tr>
+<tr class="memdesc:a926a0179302788db72bc76ab9097cf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve the dependencies of a tree using an <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html" title="Traverses trees in IExpression::resolveDependencies() to keep track of the dependencies of the tree s...">ASTResolver</a>, which keeps track of parameters, dependent sub-trees, etc.  <a href="#a926a0179302788db72bc76ab9097cf21">More...</a><br /></td></tr>
+<tr class="separator:a926a0179302788db72bc76ab9097cf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15cce8cd21f8d9427bfe90a7effbdf49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d86/struct_amp_gen_1_1_ternary.html#a15cce8cd21f8d9427bfe90a7effbdf49">operator Expression</a> () const </td></tr>
 <tr class="separator:a15cce8cd21f8d9427bfe90a7effbdf49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57cd53b5e87e363a92488b6dc11bf2ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d86/struct_amp_gen_1_1_ternary.html#a57cd53b5e87e363a92488b6dc11bf2ef">operator()</a> () const override</td></tr>
@@ -233,7 +233,7 @@ Inheritance diagram for AmpGen::Ternary:</div>
 
 </div>
 </div>
-<a class="anchor" id="a9ebee384f88480a5fb304d051c1e0560"></a>
+<a class="anchor" id="a926a0179302788db72bc76ab9097cf21"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -245,7 +245,7 @@ Inheritance diagram for AmpGen::Ternary:</div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;&#160;</td>
           <td class="paramname"><em>resolver</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -261,7 +261,7 @@ Inheritance diagram for AmpGen::Ternary:</div>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../d6/d3e/class_amp_gen_1_1_i_expression.html#ab9eb22ba3869acc41d6d04afc893790a">AmpGen::IExpression</a>.</p>
+<p>Implements <a class="el" href="../../d6/d3e/class_amp_gen_1_1_i_expression.html#a02fce32fbf43b0c7715e362a7b9bb881">AmpGen::IExpression</a>.</p>
 
 </div>
 </div>
@@ -344,7 +344,7 @@ Inheritance diagram for AmpGen::Ternary:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d5/d86/struct_amp_gen_1_1_ternary.html">Ternary</a></li>
-    <li class="footer">Generated on Wed Apr 3 2019 16:41:54 for AmpGen by
+    <li class="footer">Generated on Wed Apr 10 2019 21:05:46 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

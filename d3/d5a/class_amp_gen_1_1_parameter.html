@@ -130,9 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae0acced3bf4684bb36500cab15139ba9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html#ae0acced3bf4684bb36500cab15139ba9">to_string</a> (const <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> *resolver=nullptr) const override</td></tr>
 <tr class="memdesc:ae0acced3bf4684bb36500cab15139ba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to convert the <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html" title="Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...">Expression</a> tree into source code.  <a href="#ae0acced3bf4684bb36500cab15139ba9">More...</a><br /></td></tr>
 <tr class="separator:ae0acced3bf4684bb36500cab15139ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae983f35c8fd1fb0fa9810dbb258fb830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html#ae983f35c8fd1fb0fa9810dbb258fb830">resolve</a> (<a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;resolver) override</td></tr>
-<tr class="memdesc:ae983f35c8fd1fb0fa9810dbb258fb830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve the dependencies of a tree using an <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html" title="Traverses trees in IExpression::resolveDependencies() to keep track of the dependencies of the tree s...">ASTResolver</a>, which keeps track of parameters, dependent sub-trees, etc.  <a href="#ae983f35c8fd1fb0fa9810dbb258fb830">More...</a><br /></td></tr>
-<tr class="separator:ae983f35c8fd1fb0fa9810dbb258fb830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab40db0c5bb41c18841db56d1a56c8fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html#aab40db0c5bb41c18841db56d1a56c8fa">resolve</a> (<a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;resolver) const override</td></tr>
+<tr class="memdesc:aab40db0c5bb41c18841db56d1a56c8fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve the dependencies of a tree using an <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html" title="Traverses trees in IExpression::resolveDependencies() to keep track of the dependencies of the tree s...">ASTResolver</a>, which keeps track of parameters, dependent sub-trees, etc.  <a href="#aab40db0c5bb41c18841db56d1a56c8fa">More...</a><br /></td></tr>
+<tr class="separator:aab40db0c5bb41c18841db56d1a56c8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac870051d578f7e8c32b7c4863ee207cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html#ac870051d578f7e8c32b7c4863ee207cd">operator Expression</a> () const </td></tr>
 <tr class="separator:ac870051d578f7e8c32b7c4863ee207cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69abf1d54db07f5daf574d58f4b8fcf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html#a69abf1d54db07f5daf574d58f4b8fcf9">operator()</a> () const override</td></tr>
@@ -332,7 +332,7 @@ Inheritance diagram for AmpGen::Parameter:</div>
 
 </div>
 </div>
-<a class="anchor" id="ae983f35c8fd1fb0fa9810dbb258fb830"></a>
+<a class="anchor" id="aab40db0c5bb41c18841db56d1a56c8fa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -344,7 +344,7 @@ Inheritance diagram for AmpGen::Parameter:</div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;&#160;</td>
           <td class="paramname"><em>resolver</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -360,7 +360,7 @@ Inheritance diagram for AmpGen::Parameter:</div>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../d6/d3e/class_amp_gen_1_1_i_expression.html#ab9eb22ba3869acc41d6d04afc893790a">AmpGen::IExpression</a>.</p>
+<p>Implements <a class="el" href="../../d6/d3e/class_amp_gen_1_1_i_expression.html#a02fce32fbf43b0c7715e362a7b9bb881">AmpGen::IExpression</a>.</p>
 
 </div>
 </div>
@@ -400,7 +400,7 @@ Inheritance diagram for AmpGen::Parameter:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html">Parameter</a></li>
-    <li class="footer">Generated on Wed Apr 3 2019 16:41:53 for AmpGen by
+    <li class="footer">Generated on Wed Apr 10 2019 21:05:46 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

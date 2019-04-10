@@ -80,10 +80,10 @@ var group___vertices =
     ] ],
     [ "DECLARE_VERTEX", "d0/de8/group___vertices.html#ga974081b9c66068d7e97a4d0654cdd047", null ],
     [ "CG", "d0/de8/group___vertices.html#ga98dfb6dcbdafd331079eeedd917633bb", null ],
-    [ "helicityTransformMatrix", "d0/de8/group___vertices.html#ga7e8e37d09deac17b235a69e66dd777bf", null ],
     [ "Orbital_DWave", "d0/de8/group___vertices.html#ga8ba3d6acfc1b1df18ef7645f4f8e39d0", null ],
     [ "Orbital_PWave", "d0/de8/group___vertices.html#gabd2062120833fa09c31107e57c1d613a", null ],
     [ "Spin1hProjector", "d0/de8/group___vertices.html#gadfa5d93386e0dae150fe7d66bd81f24e", null ],
     [ "Spin1Projector", "d0/de8/group___vertices.html#gacbbe833b0a87a4145bcd10aed9aca920", null ],
-    [ "Spin2Projector", "d0/de8/group___vertices.html#ga59ee1d70f51f4bca4aa96e66923e90df", null ]
+    [ "Spin2Projector", "d0/de8/group___vertices.html#ga59ee1d70f51f4bca4aa96e66923e90df", null ],
+    [ "wickTransform", "d0/de8/group___vertices.html#gae73775373ea2089084b61a3bd25178e3", null ]
 ];

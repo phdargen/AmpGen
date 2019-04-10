@@ -9,10 +9,11 @@ var _wigner_8h =
       [ "p", "dc/d82/namespace_amp_gen.html#aeba98fd8bfc3c1e3a0df55a68ed0701c", null ]
     ] ],
     [ "basisSpinor", "d3/d21/_wigner_8h.html#accb910c903aa4d36ff43121b6fc53f58", null ],
+    [ "basisVector", "d3/d21/_wigner_8h.html#a73ca2984b05feaa7e2cfc7f6fb1acf11", null ],
     [ "calculate_recoupling_constants", "d3/d21/_wigner_8h.html#ac66fce0250eea42b73bac6d28b7c2db1", null ],
     [ "CG", "d3/d21/_wigner_8h.html#ga98dfb6dcbdafd331079eeedd917633bb", null ],
     [ "helicityAmplitude", "d3/d21/_wigner_8h.html#a48c0534e6988da8124994c4d0948b107", null ],
-    [ "helicityTransformMatrix", "d3/d21/_wigner_8h.html#ga7e8e37d09deac17b235a69e66dd777bf", null ],
+    [ "wickTransform", "d3/d21/_wigner_8h.html#gae73775373ea2089084b61a3bd25178e3", null ],
     [ "wigner_d", "d3/d21/_wigner_8h.html#a7802f7964d4d697401e0e1965a2dfea3", null ],
     [ "wigner_D", "d3/d21/_wigner_8h.html#ae0b3272b97bcafe12732a1c11b6082a9", null ]
 ];

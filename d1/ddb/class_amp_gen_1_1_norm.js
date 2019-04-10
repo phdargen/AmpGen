@@ -5,7 +5,7 @@ var class_amp_gen_1_1_norm =
     [ "d", "d1/ddb/class_amp_gen_1_1_norm.html#a9e8683b6dea852107a4eb8b9d146a314", null ],
     [ "operator Expression", "d1/ddb/class_amp_gen_1_1_norm.html#ab474c38890e3ffb3abf776849a61157b", null ],
     [ "operator()", "d1/ddb/class_amp_gen_1_1_norm.html#abce0baa444bdbd2a6060dc8510315727", null ],
-    [ "resolve", "d1/ddb/class_amp_gen_1_1_norm.html#a55c4ff663de92c089f00eb02c559e0b7", null ],
+    [ "resolve", "d1/ddb/class_amp_gen_1_1_norm.html#a9691967573670594c693eb3506b9b237", null ],
     [ "to_string", "d1/ddb/class_amp_gen_1_1_norm.html#ad732ddb11705f9c72e32309ddf1f54fe", null ],
     [ "m_expression", "d1/ddb/class_amp_gen_1_1_norm.html#a5fdee8af61462afcf96a8642af899c0f", null ]
 ];

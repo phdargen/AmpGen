@@ -6,7 +6,7 @@ var struct_amp_gen_1_1_spline =
     [ "operator Expression", "de/d87/struct_amp_gen_1_1_spline.html#a0a6fe1d3aa1581844254bc673052af59", null ],
     [ "operator()", "de/d87/struct_amp_gen_1_1_spline.html#afa424b0c25b1789223d0c85ba6397f8c", null ],
     [ "operator()", "de/d87/struct_amp_gen_1_1_spline.html#acb99201522c41a69d18c30d4150e4110", null ],
-    [ "resolve", "de/d87/struct_amp_gen_1_1_spline.html#a4c556d35f5c53ad62cc73d6a4be2cef1", null ],
+    [ "resolve", "de/d87/struct_amp_gen_1_1_spline.html#a00bc3605842c76cd15e988da8e0ad6f0", null ],
     [ "to_string", "de/d87/struct_amp_gen_1_1_spline.html#a57001a7ba3540813078064652e686a65", null ],
     [ "m_eval", "de/d87/struct_amp_gen_1_1_spline.html#a426bc8e0d7d3673f10e29cdb8ffcbe27", null ],
     [ "m_max", "de/d87/struct_amp_gen_1_1_spline.html#a461a485216957ab18c25f62f40bd72d9", null ],

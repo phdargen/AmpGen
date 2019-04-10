@@ -5,7 +5,7 @@ var class_amp_gen_1_1_cos =
     [ "d", "d3/d77/class_amp_gen_1_1_cos.html#a141ca57219e54ea8021f8c571ad3998d", null ],
     [ "operator Expression", "d3/d77/class_amp_gen_1_1_cos.html#abd737518fc5495a446c1b9117be9751c", null ],
     [ "operator()", "d3/d77/class_amp_gen_1_1_cos.html#a992284444f0f1d189d1667c541b78da5", null ],
-    [ "resolve", "d3/d77/class_amp_gen_1_1_cos.html#a55c4ff663de92c089f00eb02c559e0b7", null ],
+    [ "resolve", "d3/d77/class_amp_gen_1_1_cos.html#a9691967573670594c693eb3506b9b237", null ],
     [ "to_string", "d3/d77/class_amp_gen_1_1_cos.html#a1e9fc63207959586795ea621dae0c59e", null ],
     [ "m_expression", "d3/d77/class_amp_gen_1_1_cos.html#a5fdee8af61462afcf96a8642af899c0f", null ]
 ];

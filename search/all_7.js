@@ -56,7 +56,7 @@ var searchData=
   ['getnorms',['getNorms',['../dc/d82/namespace_amp_gen.html#afb4098ba823ea04c5aeb4ee96e96fd40',1,'AmpGen::getNorms(CoherentSum &amp;fcn, BinnedIntegrator&lt; NBINS, NROLLS &gt; &amp;bid)'],['../dc/d82/namespace_amp_gen.html#a3c4cb48893fc0f89f1c2a2bcb6ff6da7',1,'AmpGen::getNorms(IncoherentSum &amp;fcn, BinnedIntegrator&lt; NBINS, NROLLS &gt; &amp;bid)']]],
   ['getnparams',['getNParams',['../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae327430d7f33c519c7e761d1e521b5cb',1,'AmpGen::CompiledExpression']]],
   ['getnumberofeventsineachbin',['getNumberOfEventsInEachBin',['../dd/db3/class_amp_gen_1_1_coherence_factor.html#ad1e5db96ce45cfafeb74f9c41304a26c',1,'AmpGen::CoherenceFactor']]],
-  ['getorderedsubexpressions',['getOrderedSubExpressions',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aca6120976b34c82edeb49ce62168e045',1,'AmpGen::ASTResolver']]],
+  ['getorderedsubexpressions',['getOrderedSubExpressions',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ad01a5afd1010f42ad4b5c608be9b9a07',1,'AmpGen::ASTResolver']]],
   ['getparameters',['getParameters',['../d4/d2d/class_amp_gen_1_1_fit_result.html#ae2cd25708958b1cda74242d4b5ef8674',1,'AmpGen::FitResult']]],
   ['getparticleids',['getParticleIds',['../de/d6a/class_amp_gen_1_1_particle_properties_list.html#a6ede9d368fd234628f45dfac9c7fa212',1,'AmpGen::ParticlePropertiesList']]],
   ['getparticlenames',['getParticleNames',['../de/d6a/class_amp_gen_1_1_particle_properties_list.html#a33776464b1d9a635047936a63c451567',1,'AmpGen::ParticlePropertiesList']]],

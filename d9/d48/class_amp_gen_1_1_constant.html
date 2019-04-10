@@ -132,9 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae9e34da30e44baf032a149361054c670"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/class_amp_gen_1_1_constant.html#ae9e34da30e44baf032a149361054c670">to_string</a> (const <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> *resolver=nullptr) const override</td></tr>
 <tr class="memdesc:ae9e34da30e44baf032a149361054c670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to convert the <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html" title="Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...">Expression</a> tree into source code.  <a href="#ae9e34da30e44baf032a149361054c670">More...</a><br /></td></tr>
 <tr class="separator:ae9e34da30e44baf032a149361054c670"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d178a3ea89368dad6ebb505920159e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/class_amp_gen_1_1_constant.html#a4d178a3ea89368dad6ebb505920159e3">resolve</a> (<a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;resolver) override</td></tr>
-<tr class="memdesc:a4d178a3ea89368dad6ebb505920159e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve the dependencies of a tree using an <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html" title="Traverses trees in IExpression::resolveDependencies() to keep track of the dependencies of the tree s...">ASTResolver</a>, which keeps track of parameters, dependent sub-trees, etc.  <a href="#a4d178a3ea89368dad6ebb505920159e3">More...</a><br /></td></tr>
-<tr class="separator:a4d178a3ea89368dad6ebb505920159e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d79045d8f56b0411674fc802ce3fca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/class_amp_gen_1_1_constant.html#af2d79045d8f56b0411674fc802ce3fca">resolve</a> (<a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;resolver) const override</td></tr>
+<tr class="memdesc:af2d79045d8f56b0411674fc802ce3fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve the dependencies of a tree using an <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html" title="Traverses trees in IExpression::resolveDependencies() to keep track of the dependencies of the tree s...">ASTResolver</a>, which keeps track of parameters, dependent sub-trees, etc.  <a href="#af2d79045d8f56b0411674fc802ce3fca">More...</a><br /></td></tr>
+<tr class="separator:af2d79045d8f56b0411674fc802ce3fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24caab1b957c7dc6ebb4981bc681c362"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/class_amp_gen_1_1_constant.html#a24caab1b957c7dc6ebb4981bc681c362">operator Expression</a> () const </td></tr>
 <tr class="separator:a24caab1b957c7dc6ebb4981bc681c362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bc01c4b908fdf9957dd08dfceb2f60f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/class_amp_gen_1_1_constant.html#a0bc01c4b908fdf9957dd08dfceb2f60f">operator()</a> () const override</td></tr>
@@ -258,7 +258,7 @@ template&lt;typename T1 , typename T2 , typename  = std::enable_if_t&lt; std::is
 
 </div>
 </div>
-<a class="anchor" id="a4d178a3ea89368dad6ebb505920159e3"></a>
+<a class="anchor" id="af2d79045d8f56b0411674fc802ce3fca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -270,7 +270,7 @@ template&lt;typename T1 , typename T2 , typename  = std::enable_if_t&lt; std::is
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &amp;&#160;</td>
           <td class="paramname"><em>resolver</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -286,7 +286,7 @@ template&lt;typename T1 , typename T2 , typename  = std::enable_if_t&lt; std::is
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../d6/d3e/class_amp_gen_1_1_i_expression.html#ab9eb22ba3869acc41d6d04afc893790a">AmpGen::IExpression</a>.</p>
+<p>Implements <a class="el" href="../../d6/d3e/class_amp_gen_1_1_i_expression.html#a02fce32fbf43b0c7715e362a7b9bb881">AmpGen::IExpression</a>.</p>
 
 </div>
 </div>
@@ -326,7 +326,7 @@ template&lt;typename T1 , typename T2 , typename  = std::enable_if_t&lt; std::is
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d9/d48/class_amp_gen_1_1_constant.html">Constant</a></li>
-    <li class="footer">Generated on Wed Apr 3 2019 16:41:53 for AmpGen by
+    <li class="footer">Generated on Wed Apr 10 2019 21:05:45 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
