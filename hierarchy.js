@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "AmpGen::BinDT::AddressCompressor", "d0/d62/struct_amp_gen_1_1_bin_d_t_1_1_address_compressor.html", null ],
     [ "AmpGen::AmplitudeRule", "dc/dee/class_amp_gen_1_1_amplitude_rule.html", null ],
     [ "AmpGen::AmplitudeRules", "db/dec/class_amp_gen_1_1_amplitude_rules.html", null ],
     [ "AmpGen::ArgumentPack", "d1/d65/class_amp_gen_1_1_argument_pack.html", null ],
@@ -78,16 +77,10 @@ var hierarchy =
       [ "AmpGen::Lineshape::SBW", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html", null ]
     ] ],
     [ "AmpGen::Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", null ],
-    [ "AmpGen::BinDT", "dc/d42/class_amp_gen_1_1_bin_d_t.html", null ],
-    [ "AmpGen::BinnedIntegrator< NBINS, NROLL >", "d9/dd0/class_amp_gen_1_1_binned_integrator.html", null ],
     [ "AmpGen::CacheTransfer", "d8/d16/class_amp_gen_1_1_cache_transfer.html", [
       [ "AmpGen::ParameterTransfer", "d0/dbe/class_amp_gen_1_1_parameter_transfer.html", null ],
       [ "AmpGen::SplineTransfer", "de/d96/class_amp_gen_1_1_spline_transfer.html", null ]
     ] ],
-    [ "AmpGen::Chi2Estimator", "d3/df3/class_amp_gen_1_1_chi2_estimator.html", null ],
-    [ "AmpGen::CoherenceCalculator", "d3/d32/struct_amp_gen_1_1_coherence_calculator.html", null ],
-    [ "AmpGen::CoherenceEvent", "dc/d82/namespace_amp_gen.html#d0/d61/struct_amp_gen_1_1_coherence_event", null ],
-    [ "AmpGen::CoherenceFactor", "dd/db3/class_amp_gen_1_1_coherence_factor.html", null ],
     [ "AmpGen::CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html", [
       [ "AmpGen::IncoherentSum", "db/d29/class_amp_gen_1_1_incoherent_sum.html", null ]
     ] ],
@@ -102,6 +95,7 @@ var hierarchy =
     [ "AmpGen::CompilerWrapper", "d7/d4c/class_amp_gen_1_1_compiler_wrapper.html", null ],
     [ "AmpGen::CouplingConstant", "d3/d03/class_amp_gen_1_1_coupling_constant.html", null ],
     [ "AmpGen::DalitzIntegrator", "df/d1a/class_amp_gen_1_1_dalitz_integrator.html", null ],
+    [ "AmpGen::ArgumentPack::do_construct", "df/d78/struct_amp_gen_1_1_argument_pack_1_1do__construct.html", null ],
     [ "AmpGen::DynamicContainer< TYPE, CONTAINER_TYPE >", "d6/d9d/class_amp_gen_1_1_dynamic_container.html", null ],
     [ "AmpGen::DynamicFCN< RETURN_TYPE, IN_TYPES >", "dc/d82/namespace_amp_gen.html#df/dae/class_amp_gen_1_1_dynamic_f_c_n", null ],
     [ "AmpGen::DynamicFCN< complex_t(ARGS...)>", "dc/d82/namespace_amp_gen.html#dc/d82/namespace_amp_gen", null ],
@@ -123,14 +117,12 @@ var hierarchy =
     [ "AmpGen::Factory< Vertex::Base >", "d8/db1/class_amp_gen_1_1_factory.html", [
       [ "AmpGen::Vertex::Factory", "db/d97/class_amp_gen_1_1_vertex_1_1_factory.html", null ]
     ] ],
-    [ "AmpGen::FastDT", "da/da8/class_amp_gen_1_1_fast_d_t.html", null ],
     [ "AmpGen::FitFractionCalculator< pdf_type >::fcalc", "d2/d51/struct_amp_gen_1_1_fit_fraction_calculator_1_1fcalc.html", null ],
     [ "AmpGen::FitFraction", "da/d5b/class_amp_gen_1_1_fit_fraction.html", null ],
     [ "AmpGen::FitFractionCalculator< pdf_type >", "d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html", null ],
     [ "AmpGen::FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html", null ],
     [ "AmpGen::GaussErrorPropagator", "d1/de8/class_amp_gen_1_1_gauss_error_propagator.html", null ],
     [ "AmpGen::Generator< PHASESPACE >", "de/d94/class_amp_gen_1_1_generator.html", null ],
-    [ "AmpGen::HadronicParameters", "d9/d66/struct_amp_gen_1_1_hadronic_parameters.html", null ],
     [ "AmpGen::HelicityCosine", "d1/d4e/class_amp_gen_1_1_helicity_cosine.html", null ],
     [ "AmpGen::IArgument", "dc/d5a/struct_amp_gen_1_1_i_argument.html", [
       [ "AmpGen::Argument< TYPE >", "d9/d9c/struct_amp_gen_1_1_argument.html", null ],
@@ -186,10 +178,6 @@ var hierarchy =
       [ "AmpGen::PartialWidthConstraint", "d9/d92/class_amp_gen_1_1_partial_width_constraint.html", null ]
     ] ],
     [ "AmpGen::Tensor::Index", "d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html", null ],
-    [ "AmpGen::BinDT::INode", "d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html", [
-      [ "AmpGen::BinDT::Decision", "d1/d9d/class_amp_gen_1_1_bin_d_t_1_1_decision.html", null ],
-      [ "AmpGen::BinDT::EndNode", "dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html", null ]
-    ] ],
     [ "AmpGen::Integral< TYPE >", "d5/d4f/struct_amp_gen_1_1_integral.html", null ],
     [ "AmpGen::Integral< arg >", "d5/d4f/struct_amp_gen_1_1_integral.html", null ],
     [ "AmpGen::Integrator< NROLL >", "d5/dfb/class_amp_gen_1_1_integrator.html", null ],
@@ -206,7 +194,6 @@ var hierarchy =
     [ "AmpGen::MinuitProxy", "de/d24/class_amp_gen_1_1_minuit_proxy.html", null ],
     [ "AmpGen::MomentumTransfer", "d7/d3d/class_amp_gen_1_1_momentum_transfer.html", null ],
     [ "AmpGen::NamedParameter< T >", "d9/d1b/class_amp_gen_1_1_named_parameter.html", null ],
-    [ "AmpGen::FastDT::Node", "d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html", null ],
     [ "AmpGen::NormalOrderedExpression", "dc/d2a/class_amp_gen_1_1_normal_ordered_expression.html", null ],
     [ "AmpGen::OptionsParser", "d8/d73/class_amp_gen_1_1_options_parser.html", null ],
     [ "AmpGen::Pade< N, T >", "de/d2b/class_amp_gen_1_1_pade.html", null ],

@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('de/dd7/class_amp_gen_1_1_particle.html
 <div class="fragment"><div class="line">rho(770)0[GounarisSakurai]{pi+,pi-}</div></div><!-- fragment --><p>Multiple modifiers can be applied to the same particle, by including them in a semi-colon separated list. For example, for three-body decays of broad resonances, such as the \(a_1(1260)\), the propagator must take the evolution of the width of resonance from a numerical calculation, which can be supplied via a cubic spline (hence using the GSpline propagator). Additionally, for the decay chain \( a_1(1260)^{+} \to \rho^{0} \pi^{+} \), the decay products can either be in a relative S or D wave, and hence the two particle descriptors</p>
 <div class="fragment"><div class="line">a(1)(1260)+[GSpline]{rho(770)0,pi+}</div><div class="line">a(1)(1260)+[D;GSpline]{rho(770)0,pi+}</div></div><!-- fragment --><p>are relevant for the decay. Similar to other components of <a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>, Particles will rarely be constructed in the C++ context, and will instead be instantiated dynamically at runtime from a user supplied options file. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00104">104</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00102">102</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -189,8 +189,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0057dff2e8d7a9811b81084832c0a9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf8648e8f17662451727b1fade57d2c0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#acf8648e8f17662451727b1fade57d2c0">spinOrbitCouplings</a> (const bool &amp;conserveParity=true) const </td></tr>
 <tr class="separator:acf8648e8f17662451727b1fade57d2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4c495842191e138ced6d283a091cbae"><td class="memItemLeft" align="right" valign="top">stdx::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ac4c495842191e138ced6d283a091cbae">attribute</a> (const std::string &amp;key) const </td></tr>
-<tr class="separator:ac4c495842191e138ced6d283a091cbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3d68f055babfd529a7e02100afcd3f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/d37/class_amp_gen_1_1_particle_properties.html">ParticleProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aa3d68f055babfd529a7e02100afcd3f1">props</a> () const </td></tr>
 <tr class="separator:aa3d68f055babfd529a7e02100afcd3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa28b501e5d966a84a677b2b7d94854b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d21/class_amp_gen_1_1_quark_content.html">QuarkContent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aa28b501e5d966a84a677b2b7d94854b1">quarks</a> () const </td></tr>
@@ -503,22 +501,6 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>mod</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac4c495842191e138ced6d283a091cbae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">stdx::optional&lt;std::string&gt; AmpGen::Particle::attribute </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1476,7 +1458,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a></li>
-    <li class="footer">Generated on Thu Apr 18 2019 14:56:25 for AmpGen by
+    <li class="footer">Generated on Fri Apr 19 2019 08:58:30 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

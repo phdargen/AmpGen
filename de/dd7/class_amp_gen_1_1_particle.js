@@ -14,7 +14,6 @@ var class_amp_gen_1_1_particle =
     [ "Particle", "de/dd7/class_amp_gen_1_1_particle.html#aefa06a48d7335f09763f12c7b30d82c9", null ],
     [ "addDaughter", "de/dd7/class_amp_gen_1_1_particle.html#afa409995f22bfe03134361e597e5d06f", null ],
     [ "addModifier", "de/dd7/class_amp_gen_1_1_particle.html#a752e9e9f84eef97b03a673cae76f1717", null ],
-    [ "attribute", "de/dd7/class_amp_gen_1_1_particle.html#ac4c495842191e138ced6d283a091cbae", null ],
     [ "checkExists", "de/dd7/class_amp_gen_1_1_particle.html#a6b2f3fcca2793c07f8e927b965020516", null ],
     [ "conjugate", "de/dd7/class_amp_gen_1_1_particle.html#a1cb50a7b5031bb7583f79653d75db61a", null ],
     [ "conservesParity", "de/dd7/class_amp_gen_1_1_particle.html#a45ffd26605fa730647c09101870f581d", null ],

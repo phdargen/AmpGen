@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['couplingconstant',['CouplingConstant',['../dc/dee/class_amp_gen_1_1_amplitude_rule.html#ac20a85abe76d7240a9881fe614b5d170',1,'AmpGen::AmplitudeRule']]]
+  ['minuitparameterset',['MinuitParameterSet',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a1f1b56cd4d59a7376b3e22d4b99f63b1',1,'AmpGen::MinuitParameter']]]
 ];

@@ -1,8 +1,6 @@
 var searchData=
 [
   ['i',['I',['../db/d37/class_amp_gen_1_1_particle_properties.html#a2250682ca966c0b1e0179716747873b8',1,'AmpGen::ParticleProperties']]],
-  ['i1',['I1',['../d9/d66/struct_amp_gen_1_1_hadronic_parameters.html#a66f8fd52be6fde282a7a9278b915a72c',1,'AmpGen::HadronicParameters']]],
-  ['i2',['I2',['../d9/d66/struct_amp_gen_1_1_hadronic_parameters.html#a324977c1d7e01732c3c2e8a85c5accfc',1,'AmpGen::HadronicParameters']]],
   ['ibinaryexpression',['IBinaryExpression',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#ae529a8ad05615badaa8cdc4ec852ee22',1,'AmpGen::IBinaryExpression']]],
   ['identicaldaughterorderings',['identicalDaughterOrderings',['../de/dd7/class_amp_gen_1_1_particle.html#a6ee1f31dc48b6e84c1e1667a6f15c2ee',1,'AmpGen::Particle']]],
   ['identity',['Identity',['../dc/d82/namespace_amp_gen.html#a718cf36538362da6fec06000ca301332',1,'AmpGen']]],
@@ -11,12 +9,11 @@ var searchData=
   ['import',['import',['../d8/d73/class_amp_gen_1_1_options_parser.html#a339445840f2371ee2c9673aceaac3b61',1,'AmpGen::OptionsParser']]],
   ['imposesymmetry',['imposeSymmetry',['../d4/d0e/class_amp_gen_1_1_tensor.html#ab70b513a2ac4ed4a67e280a084bdf84a',1,'AmpGen::Tensor::imposeSymmetry(size_t indexA, size_t indexB)'],['../d4/d0e/class_amp_gen_1_1_tensor.html#a94664270308398bda5a86b796bfa0b36',1,'AmpGen::Tensor::imposeSymmetry(std::vector&lt; size_t &gt; indices)']]],
   ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html#a52c349649aadddca7154c33658e46b84',1,'AmpGen::IncoherentSum']]],
-  ['index',['Index',['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#a02c8f95dc16fe41b8d888808e16af9c4',1,'AmpGen::Tensor::Index::Index(bool isUpper=false)'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#ab46619ca1ee9046d95da12e99ce1cd0b',1,'AmpGen::Tensor::Index::Index(const std::shared_ptr&lt; int &gt; &amp;index, bool isUpper=false)'],['../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9',1,'AmpGen::Particle::index()'],['../d4/d0e/class_amp_gen_1_1_tensor.html#afd07622b94ed0972f0cdd10099bf8d8f',1,'AmpGen::Tensor::index()']]],
+  ['index',['index',['../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9',1,'AmpGen::Particle::index()'],['../d4/d0e/class_amp_gen_1_1_tensor.html#afd07622b94ed0972f0cdd10099bf8d8f',1,'AmpGen::Tensor::index()'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#a02c8f95dc16fe41b8d888808e16af9c4',1,'AmpGen::Tensor::Index::Index(bool isUpper=false)'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#ab46619ca1ee9046d95da12e99ce1cd0b',1,'AmpGen::Tensor::Index::Index(const std::shared_ptr&lt; int &gt; &amp;index, bool isUpper=false)']]],
   ['index_5fto_5fcoordinates',['index_to_coordinates',['../d4/d0e/class_amp_gen_1_1_tensor.html#affbcb60ff4f1e90da9b8764796869d94',1,'AmpGen::Tensor']]],
   ['indices',['indices',['../d6/dc0/class_amp_gen_1_1_tensor_proxy.html#a24582e7a24783aa1c9faf29e7e9f0697',1,'AmpGen::TensorProxy']]],
   ['inelasticspline',['InelasticSpline',['../dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html#ac751fce1881aeb3474e5c8fe12c5b271',1,'AmpGen::Lineshape::InelasticSpline']]],
   ['initfromstring',['initFromString',['../d3/d23/class_amp_gen_1_1_quark_state.html#a0d665a1471813f1c2595ffcac636dadd',1,'AmpGen::QuarkState::initFromString()'],['../de/d21/class_amp_gen_1_1_quark_content.html#ac7ad757d43e5f23e97b87c546b6d5166',1,'AmpGen::QuarkContent::initFromString()']]],
-  ['inode',['INode',['../d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#a746dadaa71c4cb04abf59642cf1ec15d',1,'AmpGen::BinDT::INode']]],
   ['integral',['integral',['../db/d4b/class_amp_gen_1_1_event_list.html#adf5add4dd6becebe04523d9f6cb86bde',1,'AmpGen::EventList::integral()'],['../d5/d4f/struct_amp_gen_1_1_integral.html#a464c9a839a163012d322d38a18a9c83c',1,'AmpGen::Integral::Integral()=default'],['../d5/d4f/struct_amp_gen_1_1_integral.html#a14dc27e480d3bebadb9f155263fed5a8',1,'AmpGen::Integral::Integral(const size_t &amp;i, const size_t &amp;j, TransferFCN t)']]],
   ['integrate',['integrate',['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a5956507aa2276041f76a1b523fb3c5a0',1,'AmpGen::DalitzIntegrator::integrate(FCN fcn, const double &amp;s) const '],['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a3c3c4afce98f05208a1098c6e641f7df',1,'AmpGen::DalitzIntegrator::integrate(FCN fcn) const ']]],
   ['integrator',['Integrator',['../d5/dfb/class_amp_gen_1_1_integrator.html#a7fd68dd46469af06569e1ff8f95c5502',1,'AmpGen::Integrator']]],

@@ -6,15 +6,13 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "ASTResolver.h", "d2/db6/_a_s_t_resolver_8h.html", [
       [ "ASTResolver", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html", "d6/d02/class_amp_gen_1_1_a_s_t_resolver" ]
     ] ],
-    [ "BinDT.h", "da/d2e/_bin_d_t_8h.html", "da/d2e/_bin_d_t_8h" ],
+    [ "BinDT.h", "da/d2e/_bin_d_t_8h.html", null ],
     [ "CacheTransfer.h", "d0/d0a/_cache_transfer_8h.html", [
       [ "CacheTransfer", "d8/d16/class_amp_gen_1_1_cache_transfer.html", "d8/d16/class_amp_gen_1_1_cache_transfer" ],
       [ "ParameterTransfer", "d0/dbe/class_amp_gen_1_1_parameter_transfer.html", "d0/dbe/class_amp_gen_1_1_parameter_transfer" ]
     ] ],
-    [ "Chi2Estimator.h", "d8/d3f/_chi2_estimator_8h.html", [
-      [ "Chi2Estimator", "d3/df3/class_amp_gen_1_1_chi2_estimator.html", "d3/df3/class_amp_gen_1_1_chi2_estimator" ]
-    ] ],
-    [ "CoherenceFactor.h", "d6/d96/_coherence_factor_8h.html", "d6/d96/_coherence_factor_8h" ],
+    [ "Chi2Estimator.h", "d8/d3f/_chi2_estimator_8h.html", null ],
+    [ "CoherenceFactor.h", "d6/d96/_coherence_factor_8h.html", null ],
     [ "CoherentSum.h", "df/ddb/_coherent_sum_8h.html", [
       [ "CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html", "d1/d91/class_amp_gen_1_1_coherent_sum" ]
     ] ],
@@ -52,10 +50,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "ExpressionParser", "d5/db3/class_amp_gen_1_1_expression_parser.html", "d5/db3/class_amp_gen_1_1_expression_parser" ]
     ] ],
     [ "Factory.h", "d7/de6/_factory_8h.html", "d7/de6/_factory_8h" ],
-    [ "FastDT.h", "df/d59/_fast_d_t_8h.html", [
-      [ "FastDT", "da/da8/class_amp_gen_1_1_fast_d_t.html", "da/da8/class_amp_gen_1_1_fast_d_t" ],
-      [ "Node", "d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html", "d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node" ]
-    ] ],
+    [ "FastDT.h", "df/d59/_fast_d_t_8h.html", null ],
     [ "FitFraction.h", "db/d5e/_fit_fraction_8h.html", "db/d5e/_fit_fraction_8h" ],
     [ "FitResult.h", "d7/d5d/_fit_result_8h.html", [
       [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html", "d4/d2d/class_amp_gen_1_1_fit_result" ]
@@ -73,8 +68,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "Integrator.h", "dc/d50/_integrator_8h.html", [
       [ "Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", "d1/d6c/class_amp_gen_1_1_bilinears" ],
       [ "Integral", "d5/d4f/struct_amp_gen_1_1_integral.html", "d5/d4f/struct_amp_gen_1_1_integral" ],
-      [ "Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", "d5/dfb/class_amp_gen_1_1_integrator" ],
-      [ "BinnedIntegrator", "d9/dd0/class_amp_gen_1_1_binned_integrator.html", "d9/dd0/class_amp_gen_1_1_binned_integrator" ]
+      [ "Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", "d5/dfb/class_amp_gen_1_1_integrator" ]
     ] ],
     [ "Kinematics.h", "d0/dee/_kinematics_8h.html", "d0/dee/_kinematics_8h" ],
     [ "kMatrix.h", "d2/d41/k_matrix_8h.html", "d2/d41/k_matrix_8h" ],
@@ -107,7 +101,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "PhaseSpace.h", "d8/d5e/_phase_space_8h.html", [
       [ "PhaseSpace", "d6/d53/class_amp_gen_1_1_phase_space.html", "d6/d53/class_amp_gen_1_1_phase_space" ]
     ] ],
-    [ "Plots.h", "db/d38/_plots_8h.html", "db/d38/_plots_8h" ],
+    [ "Plots.h", "db/d38/_plots_8h.html", null ],
     [ "PolarisedSum.h", "d4/d99/_polarised_sum_8h.html", [
       [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html", "d4/d31/class_amp_gen_1_1_polarised_sum" ]
     ] ],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['hadronicparameters',['HadronicParameters',['../d9/d66/struct_amp_gen_1_1_hadronic_parameters.html#a5261aefe4a363b54641a097ec296176a',1,'AmpGen::HadronicParameters::HadronicParameters(const real_t &amp;_R, const real_t &amp;_d, const real_t &amp;k1)'],['../d9/d66/struct_amp_gen_1_1_hadronic_parameters.html#a50abd18b074d465889277c6101479437',1,'AmpGen::HadronicParameters::HadronicParameters(const real_t &amp;_R, const real_t &amp;_d, const real_t &amp;k1, const real_t &amp;k2)'],['../d9/d66/struct_amp_gen_1_1_hadronic_parameters.html#a0aa6c372317a44bb71f852a1c972f5ac',1,'AmpGen::HadronicParameters::HadronicParameters()']]],
   ['has',['has',['../d7/dfa/class_amp_gen_1_1_event_type.html#ae256bfd005fb38e29107788be82fc094',1,'AmpGen::EventType']]],
   ['hasdecay',['hasDecay',['../db/dec/class_amp_gen_1_1_amplitude_rules.html#adf202a9527fccdf6c33098a7fc4b7853',1,'AmpGen::AmplitudeRules']]],
   ['hasdistinctanti',['hasDistinctAnti',['../db/d37/class_amp_gen_1_1_particle_properties.html#a75b84e4ae8bf867fc39972b7196e7e4e',1,'AmpGen::ParticleProperties']]],
