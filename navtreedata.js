@@ -36,15 +36,15 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d1/d91/class_amp_gen_1_1_coherent_sum.html#a473f4282e59e9ee48ca05d8b41e7a104",
-"d3/d2e/class_amp_gen_1_1_a_sin.html#a0b11bb30cbdd26612eeb43ee24ed0ba9",
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#a5a37e32bd31c7925cbd0eb1739e34357",
-"d6/d99/_expression_8h.html#a760c8c1bf0bf2b80582926b329767059",
-"d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#acc377f298460a70940f6deb0ab1e211b",
-"da/d2e/_bin_d_t_8h.html#a15e7f05d6cf88f109aef80b43f18a8ee",
-"db/d4b/class_amp_gen_1_1_event_list.html#ace6778bc7432ff9e7997e6d45798bf4d",
-"dc/d82/namespace_amp_gen.html",
-"de/d21/class_amp_gen_1_1_quark_content.html#aaf53b6b09bee3ca7e5d11bf7a4c54a41",
-"df/d6a/struct_amp_gen_1_1_vertex_1_1_s___v_s___p.html#a6750c79e56c2a2bf6e9db3f9c126a5e8"
+"d3/d23/class_amp_gen_1_1_quark_state.html#acc8fc6115b9c1387888fda46753f0c3d",
+"d4/d2d/class_amp_gen_1_1_fit_result.html#affe4f9f7c9cfb6fbf2e80f6b5ffc4514",
+"d6/d99/_expression_8h.html#a53b6df3ee3b23d32e7e96ee2fe2c431b",
+"d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#a034a78396eefa13c283494ad94d310da",
+"da/d29/struct_amp_gen_1_1_vertex_1_1f___vf___p3.html#a3b8a22ba8871f56cecfe056d2d293573",
+"db/d4b/class_amp_gen_1_1_event_list.html#ab0b1ff66c61d154a2eb6b974a8a55cae",
+"dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html#ad1ff113945ce84273157a8d139e2ae7e",
+"de/d21/class_amp_gen_1_1_quark_content.html",
+"df/d3d/_event_list_8h.html#a89d2343c3a9232730ad8bd417c5c3338"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

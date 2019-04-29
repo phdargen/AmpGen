@@ -63,6 +63,7 @@ var hierarchy =
       [ "AmpGen::Lineshape::FormFactorSpline", "dd/d7d/class_amp_gen_1_1_lineshape_1_1_form_factor_spline.html", null ],
       [ "AmpGen::Lineshape::Gaussian", "d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian.html", null ],
       [ "AmpGen::Lineshape::GenericKmatrix", "d9/d67/class_amp_gen_1_1_lineshape_1_1_generic_kmatrix.html", null ],
+      [ "AmpGen::Lineshape::GLASS", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html", null ],
       [ "AmpGen::Lineshape::GounarisSakurai", "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html", null ],
       [ "AmpGen::Lineshape::GSpline", "dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html", null ],
       [ "AmpGen::Lineshape::InelasticSpline", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html", null ],
@@ -74,6 +75,7 @@ var hierarchy =
       [ "AmpGen::Lineshape::NonRelBW", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w.html", null ],
       [ "AmpGen::Lineshape::ObelixRho", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html", null ],
       [ "AmpGen::Lineshape::PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", null ],
+      [ "AmpGen::Lineshape::Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", null ],
       [ "AmpGen::Lineshape::Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", null ],
       [ "AmpGen::Lineshape::SBW", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html", null ]
     ] ],

@@ -25,6 +25,12 @@ var group___lineshapes =
       [ "get", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a437c8e39f7ea757c425c02164a6f4345", null ],
       [ "get", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a6d51b00efa00b33668b9257106d4a980", null ]
     ] ],
+    [ "GLASS", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html", [
+      [ "GLASS", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#ac00b7d77eb5a6e516a99c8640b269355", null ],
+      [ "create", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#ae0a4042b896c0f6cd580b5894b9d88b9", null ],
+      [ "get", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#a86c577cbf72fba94b009075b63d90f26", null ],
+      [ "get", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#a5222b5b7868b2995102d8215eca1a914", null ]
+    ] ],
     [ "Flatte", "dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html", [
       [ "Flatte", "dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html#ada9ef34dd54058f151dbcd59a819b38e", null ],
       [ "create", "dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html#ae0a4042b896c0f6cd580b5894b9d88b9", null ],

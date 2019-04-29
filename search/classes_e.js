@@ -10,6 +10,7 @@ var searchData=
   ['particlepropertieslist',['ParticlePropertiesList',['../de/d6a/class_amp_gen_1_1_particle_properties_list.html',1,'AmpGen']]],
   ['pdfwrapper',['PDFWrapper',['../d0/d6a/class_amp_gen_1_1_p_d_f_wrapper.html',1,'AmpGen']]],
   ['phasespace',['PhaseSpace',['../d6/d53/class_amp_gen_1_1_phase_space.html',1,'AmpGen']]],
+  ['photon',['Photon',['../d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html',1,'AmpGen::Lineshape']]],
   ['polarisedsum',['PolarisedSum',['../d4/d31/class_amp_gen_1_1_polarised_sum.html',1,'AmpGen']]],
   ['poleconfig',['poleConfig',['../d0/dea/struct_amp_gen_1_1pole_config.html',1,'AmpGen']]],
   ['poly',['Poly',['../de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html',1,'AmpGen::Lineshape']]],

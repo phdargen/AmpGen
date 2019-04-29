@@ -14,6 +14,7 @@ var namespace_amp_gen_1_1_lineshape =
     [ "FormFactorSpline", "dd/d7d/class_amp_gen_1_1_lineshape_1_1_form_factor_spline.html", "dd/d7d/class_amp_gen_1_1_lineshape_1_1_form_factor_spline" ],
     [ "Gaussian", "d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian.html", "d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian" ],
     [ "GenericKmatrix", "d9/d67/class_amp_gen_1_1_lineshape_1_1_generic_kmatrix.html", "d9/d67/class_amp_gen_1_1_lineshape_1_1_generic_kmatrix" ],
+    [ "GLASS", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html", "dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s" ],
     [ "GounarisSakurai", "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html", "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai" ],
     [ "GSpline", "dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html", "dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline" ],
     [ "InelasticSpline", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline" ],
@@ -25,6 +26,7 @@ var namespace_amp_gen_1_1_lineshape =
     [ "NonRelBW", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w.html", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w" ],
     [ "ObelixRho", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho" ],
     [ "PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o" ],
+    [ "Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon" ],
     [ "Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly" ],
     [ "SBW", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w" ]
 ];
