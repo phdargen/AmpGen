@@ -3,6 +3,7 @@ var class_amp_gen_1_1_event_type =
     [ "EventType", "d7/dfa/class_amp_gen_1_1_event_type.html#a0a2c6da9611cad1d1d162c4c74eca7a0", null ],
     [ "EventType", "d7/dfa/class_amp_gen_1_1_event_type.html#abd855d4c8575dce62419abe1ee84ee3a", null ],
     [ "conj", "d7/dfa/class_amp_gen_1_1_event_type.html#a445c3ed6299d38f1ffc3a78b288786e5", null ],
+    [ "decayDescriptor", "d7/dfa/class_amp_gen_1_1_event_type.html#ae189ad440d5248fec3343d1d26ea4577", null ],
     [ "defaultProjections", "d7/dfa/class_amp_gen_1_1_event_type.html#addd56f3f30f22cf6352d03b2476edf12", null ],
     [ "dim", "d7/dfa/class_amp_gen_1_1_event_type.html#aafb2327f300549edb1e04fed9983f2f2", null ],
     [ "dof", "d7/dfa/class_amp_gen_1_1_event_type.html#a9ae673d8a07562860e3605920d3d76d7", null ],

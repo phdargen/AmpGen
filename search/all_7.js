@@ -9,7 +9,7 @@ var searchData=
   ['gaussian',['Gaussian',['../d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian.html',1,'AmpGen::Lineshape']]],
   ['gaussian',['Gaussian',['../d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian.html#a2a38e7ef65edb3fdf4e29170ef96ca87',1,'AmpGen::Lineshape::Gaussian']]],
   ['gaussianconstraint',['GaussianConstraint',['../d7/deb/class_amp_gen_1_1_gaussian_constraint.html',1,'AmpGen']]],
-  ['generate',['generate',['../de/d94/class_amp_gen_1_1_generator.html#a680005bb128282c4d692327d40c33cd2',1,'AmpGen::Generator::generate(PDF &amp;pdf, const unsigned int &amp;nEvents)'],['../de/d94/class_amp_gen_1_1_generator.html#a7a66cafa5871d8e7411c845f16e231ff',1,'AmpGen::Generator::generate(const unsigned int &amp;nEvents, const size_t &amp;cacheSize=0)']]],
+  ['generate',['generate',['../de/d94/class_amp_gen_1_1_generator.html#aea75a1c170308fb8a140359c8ae47bac',1,'AmpGen::Generator::generate(PDF &amp;pdf, const size_t &amp;nEvents)'],['../de/d94/class_amp_gen_1_1_generator.html#ab90c4e8615c3656b890eaf46092308e1',1,'AmpGen::Generator::generate(const size_t &amp;nEvents, const size_t &amp;cacheSize=0)']]],
   ['generatesource',['generateSource',['../d7/d4c/class_amp_gen_1_1_compiler_wrapper.html#a4d4d4b005018777c2ee3660dd19be5f0',1,'AmpGen::CompilerWrapper']]],
   ['generatesourcecode',['generateSourceCode',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#afe54be5a70ad86fbe7f1ff069eb3a9f2',1,'AmpGen::CoherentSum::generateSourceCode()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a6c526c214a10ea9fb06a8a64b23744a9',1,'AmpGen::PolarisedSum::generateSourceCode()']]],
   ['generator',['Generator',['../de/d94/class_amp_gen_1_1_generator.html',1,'AmpGen']]],

@@ -11,7 +11,7 @@ var searchData=
   ['debug_5fnorm',['debug_norm',['../d4/d31/class_amp_gen_1_1_polarised_sum.html#aa34b2229d153b012688bd224c93aa3dd',1,'AmpGen::PolarisedSum']]],
   ['debugsymbol',['DebugSymbol',['../dc/d82/namespace_amp_gen.html#af4d0debf73a11bec706d861a0d0fbc2d',1,'AmpGen']]],
   ['debugsymbols',['DebugSymbols',['../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10',1,'AmpGen']]],
-  ['decaydescriptor',['decayDescriptor',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a171c83c7c85bc47bdd5a3d787b2a5a97',1,'AmpGen::TransitionMatrix::decayDescriptor()'],['../de/dd7/class_amp_gen_1_1_particle.html#a12db21e50c4ab1fac8c9f7bee9a5300c',1,'AmpGen::Particle::decayDescriptor()']]],
+  ['decaydescriptor',['decayDescriptor',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a171c83c7c85bc47bdd5a3d787b2a5a97',1,'AmpGen::TransitionMatrix::decayDescriptor()'],['../d7/dfa/class_amp_gen_1_1_event_type.html#ae189ad440d5248fec3343d1d26ea4577',1,'AmpGen::EventType::decayDescriptor()'],['../de/dd7/class_amp_gen_1_1_particle.html#a12db21e50c4ab1fac8c9f7bee9a5300c',1,'AmpGen::Particle::decayDescriptor()']]],
   ['decayspline',['DecaySpline',['../d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline.html',1,'AmpGen::Lineshape']]],
   ['decayspline',['DecaySpline',['../d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline.html#a93aba0fd4588679e17d9c6e43ae11649',1,'AmpGen::Lineshape::DecaySpline']]],
   ['decaytree',['decayTree',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a74258b1d82abc5f0f67d1c3195e9c5a4',1,'AmpGen::TransitionMatrix']]],

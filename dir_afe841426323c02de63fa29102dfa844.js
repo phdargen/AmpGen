@@ -99,9 +99,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "OptionsParser", "d8/d73/class_amp_gen_1_1_options_parser.html", "d8/d73/class_amp_gen_1_1_options_parser" ]
     ] ],
     [ "Pade.h", "d8/d89/_pade_8h.html", "d8/d89/_pade_8h" ],
-    [ "Particle.h", "d4/d15/_particle_8h.html", [
-      [ "Particle", "de/dd7/class_amp_gen_1_1_particle.html", "de/dd7/class_amp_gen_1_1_particle" ]
-    ] ],
+    [ "Particle.h", "d4/d15/_particle_8h.html", "d4/d15/_particle_8h" ],
     [ "ParticleProperties.h", "df/d33/_particle_properties_8h.html", "df/d33/_particle_properties_8h" ],
     [ "ParticlePropertiesList.h", "d4/da4/_particle_properties_list_8h.html", "d4/da4/_particle_properties_list_8h" ],
     [ "PhaseSpace.h", "d8/d5e/_phase_space_8h.html", [
