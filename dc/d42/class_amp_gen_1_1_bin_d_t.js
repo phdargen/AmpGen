@@ -23,7 +23,6 @@ var class_amp_gen_1_1_bin_d_t =
     [ "makeNodes", "dc/d42/class_amp_gen_1_1_bin_d_t.html#abcecd8c2dbe544f01d6506f2631c43e6", null ],
     [ "nnUniformity", "dc/d42/class_amp_gen_1_1_bin_d_t.html#a12926ebe065f1a3da35df5cfcd285254", null ],
     [ "nodes", "dc/d42/class_amp_gen_1_1_bin_d_t.html#a4185ce5fe27bea8c63e06bf8a99ab33f", null ],
-    [ "readFromBinary", "dc/d42/class_amp_gen_1_1_bin_d_t.html#ab7022dadba323fd9a34396a992fecd83", null ],
     [ "readFromStream", "dc/d42/class_amp_gen_1_1_bin_d_t.html#a83c9132c87a107ac31ccb8bb17a8a438", null ],
     [ "refreshQueue", "dc/d42/class_amp_gen_1_1_bin_d_t.html#ac7ce44b2313721202a007817ee371edb", null ],
     [ "serialize", "dc/d42/class_amp_gen_1_1_bin_d_t.html#a0079cecbc36a1960822fda08b8926ff7", null ],
@@ -31,6 +30,5 @@ var class_amp_gen_1_1_bin_d_t =
     [ "setFunctor", "dc/d42/class_amp_gen_1_1_bin_d_t.html#acbff7bca6c2c9f0951d0d9ccb785b09c", null ],
     [ "setQueueOrdering", "dc/d42/class_amp_gen_1_1_bin_d_t.html#a63c7f76ce78ba6bfcfd33f23576037d1", null ],
     [ "size", "dc/d42/class_amp_gen_1_1_bin_d_t.html#a6c356f1f652828331f016097ad512d35", null ],
-    [ "top", "dc/d42/class_amp_gen_1_1_bin_d_t.html#ad9a37786a1bf38a046d10648d13cb056", null ],
-    [ "writeToBinary", "dc/d42/class_amp_gen_1_1_bin_d_t.html#a98e37eb14bc161ff6caa7de252b000fa", null ]
+    [ "top", "dc/d42/class_amp_gen_1_1_bin_d_t.html#ad9a37786a1bf38a046d10648d13cb056", null ]
 ];

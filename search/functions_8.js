@@ -1,8 +1,6 @@
 var searchData=
 [
   ['i',['I',['../db/d37/class_amp_gen_1_1_particle_properties.html#a2250682ca966c0b1e0179716747873b8',1,'AmpGen::ParticleProperties']]],
-  ['i1',['I1',['../d9/d66/struct_amp_gen_1_1_hadronic_parameters.html#a66f8fd52be6fde282a7a9278b915a72c',1,'AmpGen::HadronicParameters']]],
-  ['i2',['I2',['../d9/d66/struct_amp_gen_1_1_hadronic_parameters.html#a324977c1d7e01732c3c2e8a85c5accfc',1,'AmpGen::HadronicParameters']]],
   ['ibinaryexpression',['IBinaryExpression',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#ae529a8ad05615badaa8cdc4ec852ee22',1,'AmpGen::IBinaryExpression']]],
   ['identicaldaughterorderings',['identicalDaughterOrderings',['../de/dd7/class_amp_gen_1_1_particle.html#a6ee1f31dc48b6e84c1e1667a6f15c2ee',1,'AmpGen::Particle']]],
   ['identity',['Identity',['../dc/d82/namespace_amp_gen.html#a718cf36538362da6fec06000ca301332',1,'AmpGen']]],
@@ -11,7 +9,7 @@ var searchData=
   ['import',['import',['../d8/d73/class_amp_gen_1_1_options_parser.html#a339445840f2371ee2c9673aceaac3b61',1,'AmpGen::OptionsParser']]],
   ['imposesymmetry',['imposeSymmetry',['../d4/d0e/class_amp_gen_1_1_tensor.html#ab70b513a2ac4ed4a67e280a084bdf84a',1,'AmpGen::Tensor::imposeSymmetry(size_t indexA, size_t indexB)'],['../d4/d0e/class_amp_gen_1_1_tensor.html#a94664270308398bda5a86b796bfa0b36',1,'AmpGen::Tensor::imposeSymmetry(std::vector&lt; size_t &gt; indices)']]],
   ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html#a52c349649aadddca7154c33658e46b84',1,'AmpGen::IncoherentSum']]],
-  ['index',['Index',['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#a02c8f95dc16fe41b8d888808e16af9c4',1,'AmpGen::Tensor::Index::Index(bool isUpper=false)'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#ab46619ca1ee9046d95da12e99ce1cd0b',1,'AmpGen::Tensor::Index::Index(const std::shared_ptr&lt; int &gt; &amp;index, bool isUpper=false)'],['../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9',1,'AmpGen::Particle::index()'],['../d4/d0e/class_amp_gen_1_1_tensor.html#afd07622b94ed0972f0cdd10099bf8d8f',1,'AmpGen::Tensor::index()']]],
+  ['index',['index',['../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9',1,'AmpGen::Particle::index()'],['../d4/d0e/class_amp_gen_1_1_tensor.html#afd07622b94ed0972f0cdd10099bf8d8f',1,'AmpGen::Tensor::index()'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#a02c8f95dc16fe41b8d888808e16af9c4',1,'AmpGen::Tensor::Index::Index(bool isUpper=false)'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#ab46619ca1ee9046d95da12e99ce1cd0b',1,'AmpGen::Tensor::Index::Index(const std::shared_ptr&lt; int &gt; &amp;index, bool isUpper=false)']]],
   ['index_5fto_5fcoordinates',['index_to_coordinates',['../d4/d0e/class_amp_gen_1_1_tensor.html#affbcb60ff4f1e90da9b8764796869d94',1,'AmpGen::Tensor']]],
   ['indices',['indices',['../d6/dc0/class_amp_gen_1_1_tensor_proxy.html#a24582e7a24783aa1c9faf29e7e9f0697',1,'AmpGen::TensorProxy']]],
   ['inelasticspline',['InelasticSpline',['../dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html#ac751fce1881aeb3474e5c8fe12c5b271',1,'AmpGen::Lineshape::InelasticSpline']]],
@@ -28,7 +26,6 @@ var searchData=
   ['isdir',['isDir',['../dc/d82/namespace_amp_gen.html#a27711bceba5621c98f2ab91bdc2ec2a5',1,'AmpGen']]],
   ['isfermion',['isFermion',['../db/d37/class_amp_gen_1_1_particle_properties.html#a60391ae31a534bd930b1569347dbce68',1,'AmpGen::ParticleProperties']]],
   ['isfixed',['isFixed',['../d3/d03/class_amp_gen_1_1_coupling_constant.html#aeb1f5c20ca08901cd7e2176689acfaa8',1,'AmpGen::CouplingConstant']]],
-  ['isfixedpdf',['isFixedPDF',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ab76a6e6de50180bf54a8b1a98b59240e',1,'AmpGen::CoherentSum']]],
   ['isgood',['isGood',['../d8/d4d/class_amp_gen_1_1_minuit_expression.html#a6eb28fbd495a65e3d0ff325edf57664d',1,'AmpGen::MinuitExpression']]],
   ['ishead',['isHead',['../de/dd7/class_amp_gen_1_1_particle.html#addce3f8ffea73c6631341efc8b33dd94',1,'AmpGen::Particle']]],
   ['isin',['isIn',['../dc/d82/namespace_amp_gen.html#a3f16a4fa37ab5765a1c17842f068e5b8',1,'AmpGen::isIn(const std::vector&lt; T &gt; &amp;container, const T &amp;obj)'],['../dc/d82/namespace_amp_gen.html#a2858c39bf3c9082f02d77654c692d663',1,'AmpGen::isIn(const std::vector&lt; T &gt; &amp;container, const B &amp;obj, F f)']]],

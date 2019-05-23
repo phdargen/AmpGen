@@ -124,9 +124,10 @@ $(document).ready(function(){initNavTree('db/d38/_plots_8h.html','../../');});
 <code>#include &quot;<a class="el" href="../../d2/db9/_minuit_parameter_set_8h_source.html">AmpGen/MinuitParameterSet.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d31/_projection_8h_source.html">AmpGen/Projection.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d72/_utilities_8h_source.html">AmpGen/Utilities.h</a>&quot;</code><br />
-<code>#include &quot;TFile.h&quot;</code><br />
-<code>#include &quot;TH1D.h&quot;</code><br />
-<code>#include &quot;TH2D.h&quot;</code><br />
+<code>#include &lt;TFile.h&gt;</code><br />
+<code>#include &lt;TH1D.h&gt;</code><br />
+<code>#include &lt;TH2D.h&gt;</code><br />
+<code>#include &lt;TGraph.h&gt;</code><br />
 <code>#include &lt;chrono&gt;</code><br />
 </div>
 <p><a href="../../db/d38/_plots_8h_source.html">Go to the source code of this file.</a></p>
@@ -152,6 +153,8 @@ Functions</h2></td></tr>
 <tr class="memitem:afe70124bd5871ff4955fffcf42fdbcf4"><td class="memTemplParams" colspan="2">template&lt;size_t NBINS, class FCN &gt; </td></tr>
 <tr class="memitem:afe70124bd5871ff4955fffcf42fdbcf4"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; TH1D * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#afe70124bd5871ff4955fffcf42fdbcf4">AmpGen::bandPlot</a> (EventList &amp;events, const std::string &amp;prefix, FCN &amp;fcn, LinearErrorPropagator &amp;linProp)</td></tr>
 <tr class="separator:afe70124bd5871ff4955fffcf42fdbcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09de36d75ccdc77d9d5fa0e20dfd7a7"><td class="memItemLeft" align="right" valign="top">TGraph *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#ae09de36d75ccdc77d9d5fa0e20dfd7a7">AmpGen::boundary</a> (const <a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">AmpGen::EventType</a> &amp;type, const std::function&lt; double(const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">AmpGen::Event</a> &amp;)&gt; &amp;p1, const std::function&lt; double(const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">AmpGen::Event</a> &amp;)&gt; &amp;p2)</td></tr>
+<tr class="separator:ae09de36d75ccdc77d9d5fa0e20dfd7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -159,7 +162,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/d38/_plots_8h.html">Plots.h</a></li>
-    <li class="footer">Generated on Wed May 15 2019 15:45:26 for AmpGen by
+    <li class="footer">Generated on Thu May 23 2019 13:07:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

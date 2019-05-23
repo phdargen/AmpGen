@@ -14,7 +14,6 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "Chi2Estimator.h", "d8/d3f/_chi2_estimator_8h.html", [
       [ "Chi2Estimator", "d3/df3/class_amp_gen_1_1_chi2_estimator.html", "d3/df3/class_amp_gen_1_1_chi2_estimator" ]
     ] ],
-    [ "CoherenceFactor.h", "d6/d96/_coherence_factor_8h.html", "d6/d96/_coherence_factor_8h" ],
     [ "CoherentSum.h", "df/ddb/_coherent_sum_8h.html", [
       [ "CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html", "d1/d91/class_amp_gen_1_1_coherent_sum" ]
     ] ],

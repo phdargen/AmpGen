@@ -87,9 +87,6 @@ var hierarchy =
       [ "AmpGen::SplineTransfer", "de/d96/class_amp_gen_1_1_spline_transfer.html", null ]
     ] ],
     [ "AmpGen::Chi2Estimator", "d3/df3/class_amp_gen_1_1_chi2_estimator.html", null ],
-    [ "AmpGen::CoherenceCalculator", "d3/d32/struct_amp_gen_1_1_coherence_calculator.html", null ],
-    [ "AmpGen::CoherenceEvent", "dc/d82/namespace_amp_gen.html#d0/d61/struct_amp_gen_1_1_coherence_event", null ],
-    [ "AmpGen::CoherenceFactor", "dd/db3/class_amp_gen_1_1_coherence_factor.html", null ],
     [ "AmpGen::CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html", [
       [ "AmpGen::IncoherentSum", "db/d29/class_amp_gen_1_1_incoherent_sum.html", null ]
     ] ],
@@ -132,11 +129,9 @@ var hierarchy =
     [ "AmpGen::FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html", null ],
     [ "AmpGen::GaussErrorPropagator", "d1/de8/class_amp_gen_1_1_gauss_error_propagator.html", null ],
     [ "AmpGen::Generator< PHASESPACE >", "de/d94/class_amp_gen_1_1_generator.html", null ],
-    [ "AmpGen::HadronicParameters", "d9/d66/struct_amp_gen_1_1_hadronic_parameters.html", null ],
     [ "AmpGen::HelicityCosine", "d1/d4e/class_amp_gen_1_1_helicity_cosine.html", null ],
     [ "AmpGen::IArgument", "dc/d5a/struct_amp_gen_1_1_i_argument.html", [
       [ "AmpGen::Argument< TYPE >", "d9/d9c/struct_amp_gen_1_1_argument.html", null ],
-      [ "AmpGen::ArgumentPtr< TYPE >", "d2/d6c/struct_amp_gen_1_1_argument_ptr.html", null ],
       [ "AmpGen::File", "dc/d37/struct_amp_gen_1_1_file.html", null ]
     ] ],
     [ "AmpGen::IExpression", "d6/d3e/class_amp_gen_1_1_i_expression.html", [

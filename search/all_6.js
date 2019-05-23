@@ -74,7 +74,7 @@ var searchData=
   ['fitresult_2eh',['FitResult.h',['../d7/d5d/_fit_result_8h.html',1,'']]],
   ['fix',['fix',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#af44e8377f01f281e441a20912f01516a',1,'AmpGen::MinuitParameter::fix()'],['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a0f3b92b9c9d289e0d99893ae00796f79a14c4c3c6631392a0f53ca5eaa1e41b9a',1,'AmpGen::MinuitParameter::Fix()']]],
   ['fixed',['fixed',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#ae57ad8068c6175681505b9b98358cf97',1,'AmpGen::MinuitParameter']]],
-  ['flag',['flag',['../dc/d82/namespace_amp_gen.html#a0393e698c430004e48e34da9f7205182',1,'AmpGen::CoherenceEvent::flag()'],['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a0f3b92b9c9d289e0d99893ae00796f79',1,'AmpGen::MinuitParameter::Flag()']]],
+  ['flag',['Flag',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a0f3b92b9c9d289e0d99893ae00796f79',1,'AmpGen::MinuitParameter']]],
   ['flatte',['Flatte',['../dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html#ada9ef34dd54058f151dbcd59a819b38e',1,'AmpGen::Lineshape::Flatte']]],
   ['flatte',['Flatte',['../dc/d4b/class_amp_gen_1_1_lineshape_1_1_flatte.html',1,'AmpGen::Lineshape']]],
   ['float',['Float',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a0f3b92b9c9d289e0d99893ae00796f79a36f983503a8f28002ac0219ec1ae407a',1,'AmpGen::MinuitParameter']]],

@@ -8,7 +8,6 @@ var searchData=
   ['and',['And',['../d2/db0/class_amp_gen_1_1_and.html',1,'AmpGen']]],
   ['argument',['Argument',['../d9/d9c/struct_amp_gen_1_1_argument.html',1,'AmpGen']]],
   ['argumentpack',['ArgumentPack',['../d1/d65/class_amp_gen_1_1_argument_pack.html',1,'AmpGen']]],
-  ['argumentptr',['ArgumentPtr',['../d2/d6c/struct_amp_gen_1_1_argument_ptr.html',1,'AmpGen']]],
   ['array',['Array',['../d9/d11/class_amp_gen_1_1_array.html',1,'AmpGen']]],
   ['asin',['ASin',['../d3/d2e/class_amp_gen_1_1_a_sin.html',1,'AmpGen']]],
   ['astresolver',['ASTResolver',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html',1,'AmpGen']]],

@@ -13,7 +13,7 @@ var searchData=
   ['_7eminimiser',['~Minimiser',['../d9/d3d/class_amp_gen_1_1_minimiser.html#a58e32f38fcb70e2d55eb502a9aa72df0',1,'AmpGen::Minimiser']]],
   ['_7eminuitexpression',['~MinuitExpression',['../d8/d4d/class_amp_gen_1_1_minuit_expression.html#a21c0e07e7810cc652030a70d9046cc5f',1,'AmpGen::MinuitExpression']]],
   ['_7eminuitparameter',['~MinuitParameter',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a3a3891ee50d56bae971c06b4b1415ee9',1,'AmpGen::MinuitParameter']]],
-  ['_7eminuitparameterset',['~MinuitParameterSet',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a763d6664f4f2dcc4fd5272f080b1a948',1,'AmpGen::MinuitParameterSet']]],
+  ['_7eminuitparameterset',['~MinuitParameterSet',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ae9de95c3c75e7c274100a60cc1673842',1,'AmpGen::MinuitParameterSet']]],
   ['_7eparametertransfer',['~ParameterTransfer',['../d0/dbe/class_amp_gen_1_1_parameter_transfer.html#a005883e11066921f79a11e59e7d44dbc',1,'AmpGen::ParameterTransfer']]],
   ['_7ephasespace',['~PhaseSpace',['../d6/d53/class_amp_gen_1_1_phase_space.html#ae7d6f972eaefac6aefb2be33e529afe7',1,'AmpGen::PhaseSpace']]],
   ['_7ethreadpool',['~ThreadPool',['../d7/d84/class_amp_gen_1_1_thread_pool.html#a276d4c5adbf38f6f66638e7ec3babec1',1,'AmpGen::ThreadPool']]],

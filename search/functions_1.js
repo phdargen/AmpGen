@@ -18,6 +18,7 @@ var searchData=
   ['bold_5foff',['bold_off',['../dc/d82/namespace_amp_gen.html#a8af5b2efcd075bf0c88509ccd1f48657',1,'AmpGen']]],
   ['bold_5fon',['bold_on',['../dc/d82/namespace_amp_gen.html#aaa58cbddea25e1eb98486f8c6b1715d4',1,'AmpGen']]],
   ['boost',['boost',['../dc/d82/namespace_amp_gen.html#a083459d800d145e48ad06399626e8f49',1,'AmpGen']]],
+  ['boundary',['boundary',['../dc/d82/namespace_amp_gen.html#ae09de36d75ccdc77d9d5fa0e20dfd7a7',1,'AmpGen']]],
   ['buffer',['buffer',['../d6/d9d/class_amp_gen_1_1_dynamic_container.html#a93128c70bede92e6014fcf309e2db72d',1,'AmpGen::DynamicContainer']]],
   ['bugg',['Bugg',['../d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg.html#a6540b96113a904c927ea9740956a1cae',1,'AmpGen::Lineshape::Bugg']]],
   ['build_5fprobunnormalised',['build_probunnormalised',['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a97f3f9688fed38dfe4d5a060be5430ec',1,'AmpGen::PolarisedSum']]],

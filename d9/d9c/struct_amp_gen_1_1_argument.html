@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d9/d9c/struct_amp_gen_1_1_argument.htm
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class TYPE&gt;<br />
+<div class="textblock"><h3>template&lt;typename TYPE&gt;<br />
 class AmpGen::Argument&lt; TYPE &gt;</h3>
 
 <p>Structure to flexibly pass blocks of "Named" parameters to functions, to approximate the behaviour of Python's named arguments. Typical usage is for constructors with variable arguments, such as to read data from the disk. The interface for the user is typically </p><div class="fragment"><div class="line">EventList events(<span class="stringliteral">&quot;files.root&quot;</span>, </div><div class="line">type,</div><div class="line">GetGenPDF(<span class="keyword">true</span>), </div><div class="line">WeightBranch(<span class="stringliteral">&quot;eventWeight&quot;</span>),</div><div class="line">Branches({<span class="stringliteral">&quot;K_PX&quot;</span>,<span class="stringliteral">&quot;K_PY&quot;</span>,...}));</div></div><!-- fragment --><p> Internally these arguments are used to construct an <a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html">ArgumentPack</a>, and then read out using getArg&lt;TYPE&gt;, so for this example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> pdfSize      = args.getArg&lt;CacheSize&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> filter       = args.getArg&lt;Filter&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> getGenPdf    = args.getArg&lt;GetGenPdf&gt;(<span class="keyword">true</span>).<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> weightBranch = args.getArg&lt;WeightBranch&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> branches     = args.getArg&lt;Branches&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> applySym     = args.getArg&lt;ApplySym&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>;</div><div class="line"><span class="keyword">auto</span> entryList    = args.getArg&lt;EntryList&gt;().<a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a>; </div></div><!-- fragment --> <dl class="tparams"><dt>Template Parameters</dt><dd>
@@ -130,18 +130,21 @@ class AmpGen::Argument&lt; TYPE &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00042">42</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00044">44</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaaf1218ab06e5a7e49561a70967faf33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#aaaf1218ab06e5a7e49561a70967faf33">Argument</a> (const TYPE &amp;x=TYPE())</td></tr>
-<tr class="separator:aaaf1218ab06e5a7e49561a70967faf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a0e8665740e16bdde4dfe933774ac8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a96a0e8665740e16bdde4dfe933774ac8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a96a0e8665740e16bdde4dfe933774ac8">Argument</a> (T x)</td></tr>
+<tr class="separator:a96a0e8665740e16bdde4dfe933774ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d535ebaf436817e1da55b61551a28d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a45d535ebaf436817e1da55b61551a28d">Argument</a> ()=default</td></tr>
+<tr class="separator:a45d535ebaf436817e1da55b61551a28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf7da5bbac8250bb312fe9a273027c34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#adf7da5bbac8250bb312fe9a273027c34">operator TYPE</a> () const </td></tr>
 <tr class="separator:adf7da5bbac8250bb312fe9a273027c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1af4d370b3417902855b33517d7a9cc0"><td class="memItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a></td></tr>
+<tr class="memitem:a1af4d370b3417902855b33517d7a9cc0"><td class="memItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0">val</a> = { TYPE() }</td></tr>
 <tr class="separator:a1af4d370b3417902855b33517d7a9cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <div class="dynheader">
@@ -154,11 +157,13 @@ Inheritance diagram for AmpGen::Argument&lt; TYPE &gt;:</div>
 </map>
  </div></div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaaf1218ab06e5a7e49561a70967faf33"></a>
+<a class="anchor" id="a96a0e8665740e16bdde4dfe933774ac8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TYPE &gt; </div>
+template&lt;typename TYPE &gt; </div>
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -166,8 +171,8 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a>&lt; TYPE &gt;::<a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">Argument</a> </td>
           <td>(</td>
-          <td class="paramtype">const TYPE &amp;&#160;</td>
-          <td class="paramname"><em>x</em> = <code>TYPE()</code></td><td>)</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -178,7 +183,32 @@ template&lt;class TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00044">44</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00047">47</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a45d535ebaf436817e1da55b61551a28d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TYPE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a>&lt; TYPE &gt;::<a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">Argument</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -187,7 +217,7 @@ template&lt;class TYPE &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TYPE &gt; </div>
+template&lt;typename TYPE &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -206,7 +236,7 @@ template&lt;class TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00045">45</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00049">49</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 
 </div>
 </div>
@@ -215,15 +245,15 @@ template&lt;class TYPE &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TYPE &gt; </div>
+template&lt;typename TYPE &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">TYPE <a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a>&lt; TYPE &gt;::val</td>
+          <td class="memname">TYPE <a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a>&lt; TYPE &gt;::val = { TYPE() }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00046">46</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00050">50</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 
 </div>
 </div>
@@ -236,7 +266,7 @@ template&lt;class TYPE &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">Argument</a></li>
-    <li class="footer">Generated on Wed May 15 2019 15:45:26 for AmpGen by
+    <li class="footer">Generated on Thu May 23 2019 13:07:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

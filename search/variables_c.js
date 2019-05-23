@@ -39,8 +39,6 @@ var searchData=
   ['m_5fobj',['m_obj',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a7d677929d75db873644da127c3a7b8f2',1,'AmpGen::CompiledExpressionBase']]],
   ['m_5fobjcache',['m_objCache',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a2582af39ef7710d469d33fde4a1b890a',1,'AmpGen::CoherentSum']]],
   ['m_5fparent',['m_parent',['../d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#abbf9074372b8020158c44170ff919641',1,'AmpGen::BinDT::INode']]],
-  ['m_5fpdf1',['m_pdf1',['../d3/d32/struct_amp_gen_1_1_coherence_calculator.html#a332ccee2333fbf7fcced032030882091',1,'AmpGen::CoherenceCalculator']]],
-  ['m_5fpdf2',['m_pdf2',['../d3/d32/struct_amp_gen_1_1_coherence_calculator.html#aa7e1c131513cd76c0d5212c21ae808f7',1,'AmpGen::CoherenceCalculator']]],
   ['m_5fpdfs',['m_pdfs',['../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#af1bf29b7b9cd1c21e8ebf3dae6ecfbe9',1,'AmpGen::SumPDF']]],
   ['m_5fpoints',['m_points',['../de/d87/struct_amp_gen_1_1_spline.html#a4a675198dc6376070d9a6fdbe40765f6',1,'AmpGen::Spline']]],
   ['m_5fprefactor',['m_prefactor',['../dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html#a4502658216ca083f28e45c9386996052',1,'AmpGen::NormalOrderedExpression::Term']]],

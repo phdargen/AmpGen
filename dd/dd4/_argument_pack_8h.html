@@ -132,8 +132,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument&lt; TYPE &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to pass "named" parameters to functions.  <a href="../../d9/d9c/struct_amp_gen_1_1_argument.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6c/struct_amp_gen_1_1_argument_ptr.html">AmpGen::ArgumentPtr&lt; TYPE &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d37/struct_amp_gen_1_1_file.html">AmpGen::File</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html">AmpGen::ArgumentPack</a></td></tr>
@@ -148,10 +146,6 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a6bd4d2dffbcce65168e3317e847a3736"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd4/_argument_pack_8h.html#a6bd4d2dffbcce65168e3317e847a3736">DECLARE_ARGUMENT</a>(X,  Y)</td></tr>
 <tr class="separator:a6bd4d2dffbcce65168e3317e847a3736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4b35cfab9f35e70e3bc2f1a116115a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd4/_argument_pack_8h.html#ac4b35cfab9f35e70e3bc2f1a116115a0">DECLARE_ARGUMENT_PTR</a>(X,  Y)</td></tr>
-<tr class="separator:ac4b35cfab9f35e70e3bc2f1a116115a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a15ed195a0690be2d4a1c22a8f99fa7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd4/_argument_pack_8h.html#a0a15ed195a0690be2d4a1c22a8f99fa7">DECLARE_ARGUMENT_DEFAULT</a>(X,  Y,  Z)</td></tr>
-<tr class="separator:a0a15ed195a0690be2d4a1c22a8f99fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a6bd4d2dffbcce65168e3317e847a3736"></a>
@@ -177,77 +171,11 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>X : <span class="keyword">public</span> <a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a>&lt;Y&gt; {                      \</div><div class="line">    X( <span class="keyword">const</span> Y&amp; val = Y() ) : <a class="code" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>::Argument&lt;Y&gt;( val ){};    \</div><div class="line">  }</div><div class="ttc" id="struct_amp_gen_1_1_argument_html"><div class="ttname"><a href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a></div><div class="ttdoc">Structure to pass &quot;named&quot; parameters to functions. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd4/_argument_pack_8h_source.html#l00042">ArgumentPack.h:42</a></div></div>
-<div class="ttc" id="namespace_amp_gen_html"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d6d/_amplitude_rules_8h_source.html#l00017">AmplitudeRules.h:17</a></div></div>
-</div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00084">84</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0a15ed195a0690be2d4a1c22a8f99fa7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DECLARE_ARGUMENT_DEFAULT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">X, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">Y, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">Z&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>X : <span class="keyword">public</span> <a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a>&lt;Y&gt; {                      \</div><div class="line">    X( <span class="keyword">const</span> Y&amp; val = <a class="code" href="../../dc/d82/namespace_amp_gen.html#a1c5484b63ddd098dc030ba546b792800">Z</a> ) : <a class="code" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>::Argument&lt;Y&gt;( val ){};      \</div><div class="line">  }</div><div class="ttc" id="struct_amp_gen_1_1_argument_html"><div class="ttname"><a href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a></div><div class="ttdoc">Structure to pass &quot;named&quot; parameters to functions. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd4/_argument_pack_8h_source.html#l00042">ArgumentPack.h:42</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>X : <span class="keyword">public</span> <a class="code" href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a>&lt;Y&gt; {                 \</div><div class="line">    template&lt;class Z&gt;                                     \</div><div class="line">    X(<a class="code" href="../../dc/d82/namespace_amp_gen.html#a1c5484b63ddd098dc030ba546b792800">Z</a> val) : <a class="code" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>::Argument&lt;Y&gt;(val){}                 \</div><div class="line">    X() : <a class="code" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>::Argument&lt;Y&gt;(){}                         \</div><div class="line">  }</div><div class="ttc" id="struct_amp_gen_1_1_argument_html"><div class="ttname"><a href="../../d9/d9c/struct_amp_gen_1_1_argument.html">AmpGen::Argument</a></div><div class="ttdoc">Structure to pass &quot;named&quot; parameters to functions. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd4/_argument_pack_8h_source.html#l00044">ArgumentPack.h:44</a></div></div>
 <div class="ttc" id="namespace_amp_gen_html"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d6d/_amplitude_rules_8h_source.html#l00017">AmplitudeRules.h:17</a></div></div>
 <div class="ttc" id="namespace_amp_gen_html_a1c5484b63ddd098dc030ba546b792800"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a1c5484b63ddd098dc030ba546b792800">AmpGen::Z</a></div><div class="ttdeci">const Expression Z</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00094">94</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac4b35cfab9f35e70e3bc2f1a116115a0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DECLARE_ARGUMENT_PTR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">X, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">Y&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>X : <span class="keyword">public</span> <a class="code" href="../../d2/d6c/struct_amp_gen_1_1_argument_ptr.html">AmpGen::ArgumentPtr</a>&lt;Y&gt; {                   \</div><div class="line">    X( Y* val = <span class="keyword">nullptr</span> ) : <a class="code" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>::ArgumentPtr&lt;Y&gt;( val ){};   \</div><div class="line">  }</div><div class="ttc" id="namespace_amp_gen_html"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d6d/_amplitude_rules_8h_source.html#l00017">AmplitudeRules.h:17</a></div></div>
-<div class="ttc" id="struct_amp_gen_1_1_argument_ptr_html"><div class="ttname"><a href="../../d2/d6c/struct_amp_gen_1_1_argument_ptr.html">AmpGen::ArgumentPtr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd4/_argument_pack_8h_source.html#l00049">ArgumentPack.h:49</a></div></div>
-</div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00089">89</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00082">82</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 
 </div>
 </div>
@@ -257,7 +185,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dd/dd4/_argument_pack_8h.html">ArgumentPack.h</a></li>
-    <li class="footer">Generated on Wed May 15 2019 15:45:26 for AmpGen by
+    <li class="footer">Generated on Thu May 23 2019 13:07:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

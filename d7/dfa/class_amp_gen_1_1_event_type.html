@@ -130,6 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abd855d4c8575dce62419abe1ee84ee3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29d49ebfba4c12f2777ed694d2d49398"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a29d49ebfba4c12f2777ed694d2d49398">getEventFormat</a> (const bool &amp;outputNames=false) const </td></tr>
 <tr class="separator:a29d49ebfba4c12f2777ed694d2d49398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5110b7d3a7494f55853e0794059e8268"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a5110b7d3a7494f55853e0794059e8268">count</a> (const size_t &amp;index) const </td></tr>
+<tr class="memdesc:a5110b7d3a7494f55853e0794059e8268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of particles with name.  <a href="#a5110b7d3a7494f55853e0794059e8268">More...</a><br /></td></tr>
+<tr class="separator:a5110b7d3a7494f55853e0794059e8268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72272e7df3640ca1b68c18b917a819e4"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a72272e7df3640ca1b68c18b917a819e4">minmax</a> (const std::vector&lt; size_t &gt; &amp;indices, bool isGeV=false) const </td></tr>
 <tr class="separator:a72272e7df3640ca1b68c18b917a819e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f7c91f6311c366e281df465372e9cc1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; unsigned int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a6f7c91f6311c366e281df465372e9cc1">getBosePairs</a> () const </td></tr>
@@ -175,9 +178,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a24bee326830f1aab4bf0301042b1f664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a24bee326830f1aab4bf0301042b1f664">extendEventType</a> (const std::string &amp;branch)</td></tr>
 <tr class="separator:a24bee326830f1aab4bf0301042b1f664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc7cc10c1a4759b3b897139f2c0b447"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a9cc7cc10c1a4759b3b897139f2c0b447">symmetriser</a> () const </td></tr>
+<tr class="memdesc:a9cc7cc10c1a4759b3b897139f2c0b447"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the number of spin indices associated with the initial and final state, i.e. the rank of the relevant transition matrix.  <a href="#a9cc7cc10c1a4759b3b897139f2c0b447">More...</a><br /></td></tr>
 <tr class="separator:a9cc7cc10c1a4759b3b897139f2c0b447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafb2327f300549edb1e04fed9983f2f2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#aafb2327f300549edb1e04fed9983f2f2">dim</a> () const </td></tr>
-<tr class="memdesc:aafb2327f300549edb1e04fed9983f2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the number of spin indices accociated with the initial and final state, i.e. the rank of the relevant transition matrix.  <a href="#aafb2327f300549edb1e04fed9983f2f2">More...</a><br /></td></tr>
 <tr class="separator:aafb2327f300549edb1e04fed9983f2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -251,6 +254,22 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5110b7d3a7494f55853e0794059e8268"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;size_t,size_t&gt; AmpGen::EventType::count </td>
+          <td>(</td>
+          <td class="paramtype">const size_t &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -651,7 +670,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d69/_event_type_8h_source.html#l00057">57</a> of file <a class="el" href="../../d4/d69/_event_type_8h_source.html">EventType.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d69/_event_type_8h_source.html#l00058">58</a> of file <a class="el" href="../../d4/d69/_event_type_8h_source.html">EventType.h</a>.</p>
 
 </div>
 </div>
@@ -694,7 +713,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a></li>
-    <li class="footer">Generated on Wed May 15 2019 15:45:26 for AmpGen by
+    <li class="footer">Generated on Thu May 23 2019 13:07:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
