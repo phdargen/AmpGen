@@ -6,7 +6,7 @@ var class_amp_gen_1_1_expression_parser =
     [ "add_unary", "d5/db3/class_amp_gen_1_1_expression_parser.html#ae7ad8186ba48e0d28258727556fbdc6c", null ],
     [ "add_unary", "d5/db3/class_amp_gen_1_1_expression_parser.html#a0fd37921225693ca35817d33e01d5dcb", null ],
     [ "getMe", "d5/db3/class_amp_gen_1_1_expression_parser.html#ae1ad69ba5fc5d8dddfcd126f90524785", null ],
-    [ "Parse", "d5/db3/class_amp_gen_1_1_expression_parser.html#aee4cd00ec794cb7ac6ec138b980bf32d", null ],
-    [ "setMPS", "d5/db3/class_amp_gen_1_1_expression_parser.html#a6a14933649c9b127ea1c30abfdfa4220", null ],
+    [ "parse", "d5/db3/class_amp_gen_1_1_expression_parser.html#aba337bbc59f75c0e159583a8839ec79f", null ],
+    [ "parse", "d5/db3/class_amp_gen_1_1_expression_parser.html#a97e0bbe96f95b356e8ff730edf28b730", null ],
     [ "gExpressionParser", "d5/db3/class_amp_gen_1_1_expression_parser.html#afca8445e5ec6b88598ee6eed8c442859", null ]
 ];

@@ -55,7 +55,6 @@ var searchData=
   ['setmin',['setMin',['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a51dc95c2db31dad58773e1fe0aef5fc7',1,'AmpGen::DalitzIntegrator']]],
   ['setmother',['setMother',['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a78ddbec1b0116675412975b5726d742b',1,'AmpGen::DalitzIntegrator']]],
   ['setmothermass',['setMotherMass',['../d7/dfa/class_amp_gen_1_1_event_type.html#a98bfa8d7d2e9c0788f5883e68ef3b537',1,'AmpGen::EventType']]],
-  ['setmps',['setMPS',['../d5/db3/class_amp_gen_1_1_expression_parser.html#a6a14933649c9b127ea1c30abfdfa4220',1,'AmpGen::ExpressionParser']]],
   ['setname',['setName',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#ac08ac1d7549f0d8c09b3be83b57179d5',1,'AmpGen::MinuitParameter::setName()'],['../de/dd7/class_amp_gen_1_1_particle.html#a06232b19514a82ef993ce9cd7bb07a27',1,'AmpGen::Particle::setName()'],['../db/d37/class_amp_gen_1_1_particle_properties.html#ae676c164b0c4dfa61956fe438bd675a6',1,'AmpGen::ParticleProperties::setName()']]],
   ['setnorm',['setNorm',['../da/d3d/class_amp_gen_1_1_three_body_calculator.html#a4bbc7b5b30cb3d0a4c54fdc5b6f99c61',1,'AmpGen::ThreeBodyCalculator']]],
   ['setnormflag',['setNormFlag',['../de/d94/class_amp_gen_1_1_generator.html#ad1546740cd5c54de0a0eb64ca98077da',1,'AmpGen::Generator']]],

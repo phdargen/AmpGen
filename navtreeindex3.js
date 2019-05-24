@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#ab86167f6c90aad13aad4de1730fd29a3":[3,0,89,8],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ac088f29e7e5831451cded3b593e9ff60":[3,0,89,17],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ac46866f9194f57b17e22c644347a2e2f":[3,0,89,10],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ac72e59dc9dd5c868bad4d2a81884db64":[3,0,89,11],
@@ -154,13 +155,13 @@ var NAVTREEINDEX3 =
 "d5/da5/struct_amp_gen_1_1_vertex_1_1_s__ff___s1.html#aa300675f50fd1ecf61baa031d10b17d3":[3,0,1,21,3],
 "d5/db3/class_amp_gen_1_1_expression_parser.html":[3,0,39],
 "d5/db3/class_amp_gen_1_1_expression_parser.html#a0fd37921225693ca35817d33e01d5dcb":[3,0,39,4],
-"d5/db3/class_amp_gen_1_1_expression_parser.html#a6a14933649c9b127ea1c30abfdfa4220":[3,0,39,7],
+"d5/db3/class_amp_gen_1_1_expression_parser.html#a97e0bbe96f95b356e8ff730edf28b730":[3,0,39,7],
+"d5/db3/class_amp_gen_1_1_expression_parser.html#aba337bbc59f75c0e159583a8839ec79f":[3,0,39,6],
 "d5/db3/class_amp_gen_1_1_expression_parser.html#ad04f10f48d1a7d1a2509e818156e7f4c":[3,0,39,1],
 "d5/db3/class_amp_gen_1_1_expression_parser.html#ad2f67400f6f5c51f2aa364b67a5249fd":[3,0,39,0],
 "d5/db3/class_amp_gen_1_1_expression_parser.html#ad8f7e44776b06ea9907c7eead5577580":[3,0,39,2],
 "d5/db3/class_amp_gen_1_1_expression_parser.html#ae1ad69ba5fc5d8dddfcd126f90524785":[3,0,39,5],
 "d5/db3/class_amp_gen_1_1_expression_parser.html#ae7ad8186ba48e0d28258727556fbdc6c":[3,0,39,3],
-"d5/db3/class_amp_gen_1_1_expression_parser.html#aee4cd00ec794cb7ac6ec138b980bf32d":[3,0,39,6],
 "d5/db3/class_amp_gen_1_1_expression_parser.html#afca8445e5ec6b88598ee6eed8c442859":[3,0,39,8],
 "d5/ddb/struct_amp_gen_1_1_vertex_1_1f__f_s___s1.html":[3,0,1,4],
 "d5/ddb/struct_amp_gen_1_1_vertex_1_1f__f_s___s1.html#a052516b239d7d21e113ddbd2ae297812":[3,0,1,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d6/d99/_expression_8h.html#abe5baed6b4ec0570474ad3323f8e0b1b":[7,0,20,29],
 "d6/d99/_expression_8h.html#abf3c52dc2b15e5194673639106c53c22":[7,0,20,43],
 "d6/d99/_expression_8h.html#ac19d77c0250b9112f4888af7fdc93c79":[7,0,20,33],
-"d6/d99/_expression_8h.html#ac618f1ac7657b421eb1ec53b31cbd846":[7,0,20,46],
-"d6/d99/_expression_8h.html#adce53e71f82156647bb2829682a288f3":[7,0,20,48]
+"d6/d99/_expression_8h.html#ac618f1ac7657b421eb1ec53b31cbd846":[7,0,20,46]
 };

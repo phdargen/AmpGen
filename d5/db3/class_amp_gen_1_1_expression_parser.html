@@ -142,13 +142,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0fd37921225693ca35817d33e01d5dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8f7e44776b06ea9907c7eead5577580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html#ad8f7e44776b06ea9907c7eead5577580">add_binary</a> (const std::string &amp;name, <a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html#ad2f67400f6f5c51f2aa364b67a5249fd">binaryFCN</a> op)</td></tr>
 <tr class="separator:ad8f7e44776b06ea9907c7eead5577580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a14933649c9b127ea1c30abfdfa4220"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html#a6a14933649c9b127ea1c30abfdfa4220">setMPS</a> (<a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> *mps)</td></tr>
-<tr class="separator:a6a14933649c9b127ea1c30abfdfa4220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aee4cd00ec794cb7ac6ec138b980bf32d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html#aee4cd00ec794cb7ac6ec138b980bf32d">Parse</a> (const std::string &amp;str)</td></tr>
-<tr class="separator:aee4cd00ec794cb7ac6ec138b980bf32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba337bbc59f75c0e159583a8839ec79f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html#aba337bbc59f75c0e159583a8839ec79f">parse</a> (const std::string &amp;str, const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> *mps=nullptr)</td></tr>
+<tr class="separator:aba337bbc59f75c0e159583a8839ec79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97e0bbe96f95b356e8ff730edf28b730"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html#a97e0bbe96f95b356e8ff730edf28b730">parse</a> (std::vector&lt; std::string &gt;::const_iterator begin, std::vector&lt; std::string &gt;::const_iterator end, const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> *mps=nullptr)</td></tr>
+<tr class="separator:a97e0bbe96f95b356e8ff730edf28b730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1ad69ba5fc5d8dddfcd126f90524785"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html">ExpressionParser</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html#ae1ad69ba5fc5d8dddfcd126f90524785">getMe</a> ()</td></tr>
 <tr class="separator:ae1ad69ba5fc5d8dddfcd126f90524785"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -310,11 +310,11 @@ template&lt;class OP &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d94/_expression_parser_8h_source.html#l00066">66</a> of file <a class="el" href="../../de/d94/_expression_parser_8h_source.html">ExpressionParser.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d94/_expression_parser_8h_source.html#l00068">68</a> of file <a class="el" href="../../de/d94/_expression_parser_8h_source.html">ExpressionParser.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aee4cd00ec794cb7ac6ec138b980bf32d"></a>
+<a class="anchor" id="aba337bbc59f75c0e159583a8839ec79f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -322,11 +322,21 @@ template&lt;class OP &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::ExpressionParser::Parse </td>
+          <td class="memname">static <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::ExpressionParser::parse </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> *&#160;</td>
+          <td class="paramname"><em>mps</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -338,7 +348,7 @@ template&lt;class OP &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6a14933649c9b127ea1c30abfdfa4220"></a>
+<a class="anchor" id="a97e0bbe96f95b356e8ff730edf28b730"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -346,21 +356,35 @@ template&lt;class OP &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AmpGen::ExpressionParser::setMPS </td>
+          <td class="memname">static <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::ExpressionParser::parse </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> *&#160;</td>
-          <td class="paramname"><em>mps</em></td><td>)</td>
+          <td class="paramtype">std::vector&lt; std::string &gt;::const_iterator&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt;::const_iterator&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> *&#160;</td>
+          <td class="paramname"><em>mps</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d94/_expression_parser_8h_source.html#l00063">63</a> of file <a class="el" href="../../de/d94/_expression_parser_8h_source.html">ExpressionParser.h</a>.</p>
 
 </div>
 </div>
@@ -383,7 +407,7 @@ template&lt;class OP &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d94/_expression_parser_8h_source.html#l00065">65</a> of file <a class="el" href="../../de/d94/_expression_parser_8h_source.html">ExpressionParser.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d94/_expression_parser_8h_source.html#l00067">67</a> of file <a class="el" href="../../de/d94/_expression_parser_8h_source.html">ExpressionParser.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +420,7 @@ template&lt;class OP &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d5/db3/class_amp_gen_1_1_expression_parser.html">ExpressionParser</a></li>
-    <li class="footer">Generated on Thu May 23 2019 13:07:14 for AmpGen by
+    <li class="footer">Generated on Fri May 24 2019 08:20:31 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
