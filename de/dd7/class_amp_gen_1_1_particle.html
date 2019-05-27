@@ -127,12 +127,12 @@ $(document).ready(function(){initNavTree('de/dd7/class_amp_gen_1_1_particle.html
 \[ D^{0}\rightarrow \rho(770)^{0}\left[\pi^{+} \pi^{-} \right] K_{S}^{0} \]
 </p>
 <p>There are also modifiers to the amplitude that alter the details of the decay process. For example, there may multiple orbital angular momentum substates. These will be denoted by the use of [] braces, so for example</p>
-<div class="fragment"><div class="line">Delta(1232)++{p+,pi+}</div><div class="line">Delta(1232)++[D]{p+,pi+}</div></div><!-- fragment --><p>correspond to the S-wave and D-wave decays of the \(\Delta(1232)^{++}\) baryon. As a rule, the lowest orbital state permitted by the relevant conservation laws of the decay is used if the orbital state is not specified, so the conservation of angular momentum, and the conservation of parity if the decay proceeds via the strong or electromagnetic force.</p>
-<p>The modifier syntax is also used to specify a different choice of lineshape for the resonance. For example, a common parameterisation for the \(\rho(770)\) meson is the Gounaris-Sakurai propagator, which accounts for dispersive corrections to the \(I=1\) dipion scattering. In this example</p>
+<div class="fragment"><div class="line">a(1)(1260)+{rho(770)0,pi+}</div><div class="line">a(1)(1260)+[D]{rho(770)0,pi+} </div></div><!-- fragment --><p>correspond to the S-wave and D-wave decays of the \(a(1)(1260)^{+}\) meson. As a rule, the lowest orbital state permitted by the relevant conservation laws of the decay is used if the orbital state is not specified, so the conservation of angular momentum, and the conservation of parity if the decay proceeds via the strong or electromagnetic force.</p>
+<p>The modifier syntax is also used to specify a different choice of lineshape for the resonance. For example, a common parameterisation for the \(\rho(770)\) meson is the Gounaris-Sakurai propagator, which accounts for dispersive corrections to the \(I=1\) dipion system. In this example</p>
 <div class="fragment"><div class="line">rho(770)0[GounarisSakurai]{pi+,pi-}</div></div><!-- fragment --><p>Multiple modifiers can be applied to the same particle, by including them in a semi-colon separated list. For example, for three-body decays of broad resonances, such as the \(a_1(1260)\), the propagator must take the evolution of the width of resonance from a numerical calculation, which can be supplied via a cubic spline (hence using the GSpline propagator). Additionally, for the decay chain \( a_1(1260)^{+} \to \rho^{0} \pi^{+} \), the decay products can either be in a relative S or D wave, and hence the two particle descriptors</p>
 <div class="fragment"><div class="line">a(1)(1260)+[GSpline]{rho(770)0,pi+}</div><div class="line">a(1)(1260)+[D;GSpline]{rho(770)0,pi+}</div></div><!-- fragment --><p>are relevant for the decay. Similar to other components of <a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>, Particles will rarely be constructed in the C++ context, and will instead be instantiated dynamically at runtime from a user supplied options file. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00096">96</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00097">97</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -346,7 +346,7 @@ Public Member Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00244">244</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00245">245</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -1534,7 +1534,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a></li>
-    <li class="footer">Generated on Mon May 27 2019 12:41:01 for AmpGen by
+    <li class="footer">Generated on Mon May 27 2019 13:14:59 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
