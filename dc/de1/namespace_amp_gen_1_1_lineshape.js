@@ -1,6 +1,5 @@
 var namespace_amp_gen_1_1_lineshape =
 [
-    [ "AxialKaon", "d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html", "d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon" ],
     [ "Base", "d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html", "d7/d74/class_amp_gen_1_1_lineshape_1_1_base" ],
     [ "Bugg", "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg.html", "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg" ],
     [ "BW", "de/d96/class_amp_gen_1_1_lineshape_1_1_b_w.html", "de/d96/class_amp_gen_1_1_lineshape_1_1_b_w" ],
@@ -24,7 +23,6 @@ var namespace_amp_gen_1_1_lineshape =
     [ "MIPWA", "d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html", "d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a" ],
     [ "None", "d9/d4c/class_amp_gen_1_1_lineshape_1_1_none.html", "d9/d4c/class_amp_gen_1_1_lineshape_1_1_none" ],
     [ "NonRelBW", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w.html", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w" ],
-    [ "ObelixRho", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho" ],
     [ "PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o" ],
     [ "Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon" ],
     [ "Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly" ],

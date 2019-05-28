@@ -43,6 +43,5 @@ var searchData=
   ['atan',['ATan',['../d5/da3/class_amp_gen_1_1_a_tan.html#a47d74a31137544519a940a625f0deed3',1,'AmpGen::ATan::ATan()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#af8e6a0b6a9da1f9a5189aa0346ef6a52',1,'AmpGen::fcn::atan()']]],
   ['atan2',['ATan2',['../dd/d4f/class_amp_gen_1_1_a_tan2.html#a88676ba7a71196cf0a82ec5bb2248211',1,'AmpGen::ATan2::ATan2()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#afa42d1a6d1226120596484b419d2fbc8',1,'AmpGen::fcn::atan2()']]],
   ['atanh',['atanh',['../dc/d82/namespace_amp_gen.html#a16f3763a111aca1c834e9e208feebe83',1,'AmpGen']]],
-  ['attribute',['attribute',['../de/dd7/class_amp_gen_1_1_particle.html#ac4c495842191e138ced6d283a091cbae',1,'AmpGen::Particle']]],
-  ['axialkaon',['AxialKaon',['../d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html#a174d35d9e87301cfd8743b7c815c3d42',1,'AmpGen::Lineshape::AxialKaon']]]
+  ['attribute',['attribute',['../de/dd7/class_amp_gen_1_1_particle.html#ac4c495842191e138ced6d283a091cbae',1,'AmpGen::Particle']]]
 ];

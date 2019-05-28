@@ -138,17 +138,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30b99fd49320a051ea0967afb59bc245"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a30b99fd49320a051ea0967afb59bc245">operator()</a> (FCN fcn) const </td></tr>
 <tr class="memdesc:a30b99fd49320a051ea0967afb59bc245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the error on functor fcn (should take no arguments and return a double).  <a href="#a30b99fd49320a051ea0967afb59bc245">More...</a><br /></td></tr>
 <tr class="separator:a30b99fd49320a051ea0967afb59bc245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3b9d5cfba17e102039231f4c5530989"><td class="memTemplParams" colspan="2">template&lt;class FCN &gt; </td></tr>
-<tr class="memitem:ab3b9d5cfba17e102039231f4c5530989"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#ab3b9d5cfba17e102039231f4c5530989">getError</a> (FCN fcn) const </td></tr>
-<tr class="memdesc:ab3b9d5cfba17e102039231f4c5530989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the uncertainties on a functor that returns an array of doubles of size RANK, used for propagating the uncertainties on figures.  <a href="#ab3b9d5cfba17e102039231f4c5530989">More...</a><br /></td></tr>
-<tr class="separator:ab3b9d5cfba17e102039231f4c5530989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338c445ce083a4852fa6b063db362367"><td class="memTemplParams" colspan="2">template&lt;size_t RANK, class FCN &gt; </td></tr>
-<tr class="memitem:a338c445ce083a4852fa6b063db362367"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; double, RANK &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a338c445ce083a4852fa6b063db362367">getVectorError</a> (FCN fcn) const </td></tr>
-<tr class="memdesc:a338c445ce083a4852fa6b063db362367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the uncertainties on a functor that returns a vector of size RANK.  <a href="#a338c445ce083a4852fa6b063db362367">More...</a><br /></td></tr>
-<tr class="separator:a338c445ce083a4852fa6b063db362367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1598a05aa1caeb5084f67f6ce599424"><td class="memTemplParams" colspan="2">template&lt;class FCN &gt; </td></tr>
-<tr class="memitem:af1598a05aa1caeb5084f67f6ce599424"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#af1598a05aa1caeb5084f67f6ce599424">getVectorError</a> (FCN fcn, size_t RANK) const </td></tr>
-<tr class="separator:af1598a05aa1caeb5084f67f6ce599424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb694731625b87f2137c5c9bd2f048ff"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#acb694731625b87f2137c5c9bd2f048ff">getError</a> (const std::function&lt; double(void)&gt; &amp;fcn) const </td></tr>
+<tr class="memdesc:acb694731625b87f2137c5c9bd2f048ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the uncertainties on a functor that returns a vector of size RANK.  <a href="#acb694731625b87f2137c5c9bd2f048ff">More...</a><br /></td></tr>
+<tr class="separator:acb694731625b87f2137c5c9bd2f048ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e2ecb686949c5bf21adac09b6e3e5a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#ab5e2ecb686949c5bf21adac09b6e3e5a">getVectorError</a> (const std::function&lt; std::vector&lt; double &gt;(void)&gt; &amp;fcn, size_t RANK) const </td></tr>
+<tr class="separator:ab5e2ecb686949c5bf21adac09b6e3e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c488f0105caae7d056457e8ca1bc78"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#ae6c488f0105caae7d056457e8ca1bc78">combinationWeights</a> (const std::vector&lt; std::function&lt; double(void)&gt;&gt; &amp;functions)</td></tr>
 <tr class="memdesc:ae6c488f0105caae7d056457e8ca1bc78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the variance-covariance matrix of functor set functions.  <a href="#ae6c488f0105caae7d056457e8ca1bc78">More...</a><br /></td></tr>
 <tr class="separator:ae6c488f0105caae7d056457e8ca1bc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,75 +323,30 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab3b9d5cfba17e102039231f4c5530989"></a>
+<a class="anchor" id="acb694731625b87f2137c5c9bd2f048ff"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class FCN &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double AmpGen::LinearErrorPropagator::getError </td>
           <td>(</td>
-          <td class="paramtype">FCN&#160;</td>
+          <td class="paramtype">const std::function&lt; double(void)&gt; &amp;&#160;</td>
           <td class="paramname"><em>fcn</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/df3/_error_propagator_8h_source.html#l00056">56</a> of file <a class="el" href="../../d7/df3/_error_propagator_8h_source.html">ErrorPropagator.h</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a338c445ce083a4852fa6b063db362367"></a>
+<a class="anchor" id="ab5e2ecb686949c5bf21adac09b6e3e5a"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;size_t RANK, class FCN &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, RANK&gt; AmpGen::LinearErrorPropagator::getVectorError </td>
-          <td>(</td>
-          <td class="paramtype">FCN&#160;</td>
-          <td class="paramname"><em>fcn</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/df3/_error_propagator_8h_source.html#l00070">70</a> of file <a class="el" href="../../d7/df3/_error_propagator_8h_source.html">ErrorPropagator.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af1598a05aa1caeb5084f67f6ce599424"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class FCN &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;double&gt; AmpGen::LinearErrorPropagator::getVectorError </td>
           <td>(</td>
-          <td class="paramtype">FCN&#160;</td>
+          <td class="paramtype">const std::function&lt; std::vector&lt; double &gt;(void)&gt; &amp;&#160;</td>
           <td class="paramname"><em>fcn</em>, </td>
         </tr>
         <tr>
@@ -412,14 +361,7 @@ template&lt;class FCN &gt; </div>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/df3/_error_propagator_8h_source.html#l00098">98</a> of file <a class="el" href="../../d7/df3/_error_propagator_8h_source.html">ErrorPropagator.h</a>.</p>
 
 </div>
 </div>
@@ -447,7 +389,7 @@ template&lt;class FCN &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/df3/_error_propagator_8h_source.html#l00050">50</a> of file <a class="el" href="../../d7/df3/_error_propagator_8h_source.html">ErrorPropagator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/df3/_error_propagator_8h_source.html#l00048">48</a> of file <a class="el" href="../../d7/df3/_error_propagator_8h_source.html">ErrorPropagator.h</a>.</p>
 
 </div>
 </div>
@@ -520,7 +462,7 @@ template&lt;class FCN &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html">LinearErrorPropagator</a></li>
-    <li class="footer">Generated on Mon May 27 2019 13:14:59 for AmpGen by
+    <li class="footer">Generated on Tue May 28 2019 15:15:09 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

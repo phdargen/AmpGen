@@ -55,12 +55,6 @@ var group___lineshapes =
       [ "get", "d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#ad4aefc9f40847fd981e6d63e51eaa36b", null ],
       [ "get", "d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#a49f631e0baffc2df8954be4ffb2b4852", null ]
     ] ],
-    [ "ObelixRho", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html", [
-      [ "ObelixRho", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html#a60e4f3b33d543f5b8b2807de0d6288ca", null ],
-      [ "create", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html#ae0a4042b896c0f6cd580b5894b9d88b9", null ],
-      [ "get", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html#a02360637e9d0fa2dac2747a331eaaf08", null ],
-      [ "get", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html#a36832aad248cb4bea1c8dcdf2622dc4b", null ]
-    ] ],
     [ "kMatrixSimple", "d0/de4/class_amp_gen_1_1_lineshape_1_1k_matrix_simple.html", [
       [ "kMatrixSimple", "d0/de4/class_amp_gen_1_1_lineshape_1_1k_matrix_simple.html#a4ae620d4894eb115ede05306ca63797a", null ],
       [ "create", "d0/de4/class_amp_gen_1_1_lineshape_1_1k_matrix_simple.html#ae0a4042b896c0f6cd580b5894b9d88b9", null ],

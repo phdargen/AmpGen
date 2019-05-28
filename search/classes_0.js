@@ -12,6 +12,5 @@ var searchData=
   ['asin',['ASin',['../d3/d2e/class_amp_gen_1_1_a_sin.html',1,'AmpGen']]],
   ['astresolver',['ASTResolver',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html',1,'AmpGen']]],
   ['atan',['ATan',['../d5/da3/class_amp_gen_1_1_a_tan.html',1,'AmpGen']]],
-  ['atan2',['ATan2',['../dd/d4f/class_amp_gen_1_1_a_tan2.html',1,'AmpGen']]],
-  ['axialkaon',['AxialKaon',['../d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html',1,'AmpGen::Lineshape']]]
+  ['atan2',['ATan2',['../dd/d4f/class_amp_gen_1_1_a_tan2.html',1,'AmpGen']]]
 ];

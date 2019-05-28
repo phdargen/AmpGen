@@ -4,7 +4,7 @@ var class_amp_gen_1_1_fit_result =
     [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html#acee395023262533aa310f76194e1d512", null ],
     [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html#a196f0479a8503026f7495c5ad819e6ee", null ],
     [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html#a6b24eec3cdd18700feb0c93e67f35733", null ],
-    [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html#a849b329e2e49610f7cc057ad4f48941f", null ],
+    [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html#a6090d4a5b9705fd60ce5a5efa7002af4", null ],
     [ "addChi2", "d4/d2d/class_amp_gen_1_1_fit_result.html#a62e841325cb0586dce7bb60c70a0f2a9", null ],
     [ "addFraction", "d4/d2d/class_amp_gen_1_1_fit_result.html#ad2e42dfbe25cadec4505e7fc26b94948", null ],
     [ "addFractions", "d4/d2d/class_amp_gen_1_1_fit_result.html#a7cda752b74d97a6c3723b7d74f7c3870", null ],

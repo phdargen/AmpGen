@@ -1,10 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#ab86167f6c90aad13aad4de1730fd29a3":[3,0,89,8],
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#ac088f29e7e5831451cded3b593e9ff60":[3,0,89,17],
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#ac46866f9194f57b17e22c644347a2e2f":[3,0,89,10],
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#ac72e59dc9dd5c868bad4d2a81884db64":[3,0,89,11],
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#adb61ce83762d2d4962208a8b820fc8cb":[3,0,89,5],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#add6d27dc63cbcdded6d9738f6175d5c3":[3,0,89,16],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ae063c12cb4c495ddfb94b5353daa78c6":[3,0,89,3],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#af01bf9fa9399fc553e36e3c535e68afd":[3,0,89,9],
@@ -78,8 +73,8 @@ var NAVTREEINDEX3 =
 "d4/ddc/struct_amp_gen_1_1_vertex_1_1_v___t_s___p.html#a7bd860ca06b323e5b6403e05c43ff38c":[3,0,1,41,2],
 "d4/ddc/struct_amp_gen_1_1_vertex_1_1_v___t_s___p.html#ae283557d8a3e0f4770b47e0bc6153ef9":[3,0,1,41,0],
 "d4/de6/group___lineshapes.html":[0,2],
-"d4/de6/group___lineshapes.html#ga6711d5356a06dce7b41981cd8106f4f7":[0,2,17],
-"d4/de6/group___lineshapes.html#gaddf2977f4c6bfc913c2432bbff917928":[0,2,16],
+"d4/de6/group___lineshapes.html#ga6711d5356a06dce7b41981cd8106f4f7":[0,2,16],
+"d4/de6/group___lineshapes.html#gaddf2977f4c6bfc913c2432bbff917928":[0,2,15],
 "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html":[3,0,29,0],
 "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#a05341d29bab2e9e711aaa3db59718992":[3,0,29,0,4],
 "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#a26786f6dfac60e05bdc1e83e772ffd08":[3,0,29,0,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX3 =
 "d6/d99/_expression_8h.html#abe5baed6b4ec0570474ad3323f8e0b1b":[7,0,20,29],
 "d6/d99/_expression_8h.html#abf3c52dc2b15e5194673639106c53c22":[7,0,20,43],
 "d6/d99/_expression_8h.html#ac19d77c0250b9112f4888af7fdc93c79":[7,0,20,33],
-"d6/d99/_expression_8h.html#ac618f1ac7657b421eb1ec53b31cbd846":[7,0,20,46]
+"d6/d99/_expression_8h.html#ac618f1ac7657b421eb1ec53b31cbd846":[7,0,20,46],
+"d6/d99/_expression_8h.html#adce53e71f82156647bb2829682a288f3":[7,0,20,48],
+"d6/d99/_expression_8h.html#add17e8569a5789ff3e41af7d5d7adb8e":[7,0,20,17],
+"d6/d99/_expression_8h.html#ade02684fe97a22339973498b94cfbc31":[7,0,20,47],
+"d6/d99/_expression_8h.html#ae6b34a83db781b1a3b2e06ba27eacc0b":[7,0,20,26],
+"d6/d99/_expression_8h.html#aea427c7c73bdfd85cb9ee1fb01b3c567":[7,0,20,16]
 };

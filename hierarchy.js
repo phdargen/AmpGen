@@ -51,7 +51,6 @@ var hierarchy =
       [ "AmpGen::Vertex::V_VS_S", "d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html", null ]
     ] ],
     [ "AmpGen::Lineshape::Base", "d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html", [
-      [ "AmpGen::Lineshape::AxialKaon", "d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html", null ],
       [ "AmpGen::Lineshape::Bugg", "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg.html", null ],
       [ "AmpGen::Lineshape::BW", "de/d96/class_amp_gen_1_1_lineshape_1_1_b_w.html", null ],
       [ "AmpGen::Lineshape::DecaySpline", "d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline.html", null ],
@@ -73,7 +72,6 @@ var hierarchy =
       [ "AmpGen::Lineshape::MIPWA", "d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html", null ],
       [ "AmpGen::Lineshape::None", "d9/d4c/class_amp_gen_1_1_lineshape_1_1_none.html", null ],
       [ "AmpGen::Lineshape::NonRelBW", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w.html", null ],
-      [ "AmpGen::Lineshape::ObelixRho", "db/de4/class_amp_gen_1_1_lineshape_1_1_obelix_rho.html", null ],
       [ "AmpGen::Lineshape::PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", null ],
       [ "AmpGen::Lineshape::Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", null ],
       [ "AmpGen::Lineshape::Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", null ],

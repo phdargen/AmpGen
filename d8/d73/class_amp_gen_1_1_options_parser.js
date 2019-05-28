@@ -13,5 +13,6 @@ var class_amp_gen_1_1_options_parser =
     [ "printHelp", "d8/d73/class_amp_gen_1_1_options_parser.html#a65a6d5473322aa48c257fe960ffe20fd", null ],
     [ "setArg", "d8/d73/class_amp_gen_1_1_options_parser.html#aaf89f424b6cb89991f10879ee9008094", null ],
     [ "setArgs", "d8/d73/class_amp_gen_1_1_options_parser.html#abd4843650270eb751c05c8b25026aef2", null ],
-    [ "setCommandLineArgs", "d8/d73/class_amp_gen_1_1_options_parser.html#afe92a92a259ef36813419bd79d20dba5", null ]
+    [ "setCommandLineArgs", "d8/d73/class_amp_gen_1_1_options_parser.html#afe92a92a259ef36813419bd79d20dba5", null ],
+    [ "setQuiet", "d8/d73/class_amp_gen_1_1_options_parser.html#a1f2b671dbdcce7dc0aac32d6655a140d", null ]
 ];

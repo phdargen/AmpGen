@@ -35,8 +35,8 @@ var searchData=
   ['ampgen',['AmpGen',['../dc/d82/namespace_amp_gen.html',1,'']]],
   ['amplituderule',['AmplitudeRule',['../dc/dee/class_amp_gen_1_1_amplitude_rule.html',1,'AmpGen']]],
   ['amplituderule',['AmplitudeRule',['../dc/dee/class_amp_gen_1_1_amplitude_rule.html#aaeda2cfb598a3c6225dc1eeade7da4c1',1,'AmpGen::AmplitudeRule']]],
-  ['amplituderules',['AmplitudeRules',['../db/dec/class_amp_gen_1_1_amplitude_rules.html',1,'AmpGen']]],
   ['amplituderules',['AmplitudeRules',['../dc/dee/class_amp_gen_1_1_amplitude_rule.html#a055c77b51ce92777637516844bbecc1c',1,'AmpGen::AmplitudeRule::AmplitudeRules()'],['../db/dec/class_amp_gen_1_1_amplitude_rules.html#a66d3d77ad1708f3536aff23f4824980d',1,'AmpGen::AmplitudeRules::AmplitudeRules()=default'],['../db/dec/class_amp_gen_1_1_amplitude_rules.html#aa1afe66387b4fe1be457ffcead5d1c3d',1,'AmpGen::AmplitudeRules::AmplitudeRules(const MinuitParameterSet &amp;mps)']]],
+  ['amplituderules',['AmplitudeRules',['../db/dec/class_amp_gen_1_1_amplitude_rules.html',1,'AmpGen']]],
   ['amplituderules_2eh',['AmplitudeRules.h',['../d7/d6d/_amplitude_rules_8h.html',1,'']]],
   ['and',['And',['../d2/db0/class_amp_gen_1_1_and.html#a2423274bd8a72fd37c9d7a48f255f117',1,'AmpGen::And']]],
   ['and',['And',['../d2/db0/class_amp_gen_1_1_and.html',1,'AmpGen']]],
@@ -66,8 +66,6 @@ var searchData=
   ['atan2',['ATan2',['../dd/d4f/class_amp_gen_1_1_a_tan2.html',1,'AmpGen']]],
   ['atanh',['atanh',['../dc/d82/namespace_amp_gen.html#a16f3763a111aca1c834e9e208feebe83',1,'AmpGen']]],
   ['attribute',['attribute',['../de/dd7/class_amp_gen_1_1_particle.html#ac4c495842191e138ced6d283a091cbae',1,'AmpGen::Particle']]],
-  ['axialkaon',['AxialKaon',['../d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html',1,'AmpGen::Lineshape']]],
-  ['axialkaon',['AxialKaon',['../d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html#a174d35d9e87301cfd8743b7c815c3d42',1,'AmpGen::Lineshape::AxialKaon']]],
   ['fcn',['fcn',['../d4/dc7/namespace_amp_gen_1_1fcn.html',1,'AmpGen']]],
   ['lineshape',['Lineshape',['../dc/de1/namespace_amp_gen_1_1_lineshape.html',1,'AmpGen']]],
   ['vertex',['Vertex',['../d9/d0b/namespace_amp_gen_1_1_vertex.html',1,'AmpGen']]]

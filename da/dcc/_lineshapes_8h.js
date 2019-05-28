@@ -9,7 +9,6 @@ var _lineshapes_8h =
     [ "ExpFF", "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f.html", "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f" ],
     [ "FormFactor", "de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html", "de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor" ],
     [ "PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o" ],
-    [ "AxialKaon", "d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon.html", "d3/da9/class_amp_gen_1_1_lineshape_1_1_axial_kaon" ],
     [ "FormFactorSpline", "dd/d7d/class_amp_gen_1_1_lineshape_1_1_form_factor_spline.html", "dd/d7d/class_amp_gen_1_1_lineshape_1_1_form_factor_spline" ],
     [ "DecaySpline", "d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline.html", "d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline" ],
     [ "InelasticSpline", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline" ],
