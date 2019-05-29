@@ -5,7 +5,7 @@ var _event_list_8h =
     [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#a26e1427220495bf628f9768424ae908a", null ],
     [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#a4fae827f0ebbad21fbb715c01d7c745a", null ],
     [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#a81ed7e2de32b3294cb85e4f3df7748f8", null ],
-    [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#a9d3a264875a78b718e6ae4e66c85ba70", null ],
+    [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#af55d1655f2f1aff918bd1cd60f681ac1", null ],
     [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#aca9d90f2b803f58afa5262af63035d93", null ],
     [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#afb099fffdb5928b0582ba55560591435", null ],
     [ "DECLARE_ARGUMENT", "df/d3d/_event_list_8h.html#aaf2e1b81bc46519ea283efeac5f99f4c", null ],
