@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "AmpGen::BinDT::AddressCompressor", "d0/d62/struct_amp_gen_1_1_bin_d_t_1_1_address_compressor.html", null ],
     [ "AmpGen::AmplitudeRule", "dc/dee/class_amp_gen_1_1_amplitude_rule.html", null ],
     [ "AmpGen::AmplitudeRules", "db/dec/class_amp_gen_1_1_amplitude_rules.html", null ],
     [ "AmpGen::ArgumentPack", "d1/d65/class_amp_gen_1_1_argument_pack.html", null ],
@@ -129,8 +128,7 @@ var hierarchy =
     [ "AmpGen::Generator< PHASESPACE >", "de/d94/class_amp_gen_1_1_generator.html", null ],
     [ "AmpGen::HelicityCosine", "d1/d4e/class_amp_gen_1_1_helicity_cosine.html", null ],
     [ "AmpGen::IArgument", "dc/d5a/struct_amp_gen_1_1_i_argument.html", [
-      [ "AmpGen::Argument< TYPE >", "d9/d9c/struct_amp_gen_1_1_argument.html", null ],
-      [ "AmpGen::File", "dc/d37/struct_amp_gen_1_1_file.html", null ]
+      [ "AmpGen::Argument< TYPE >", "d9/d9c/struct_amp_gen_1_1_argument.html", null ]
     ] ],
     [ "AmpGen::IExpression", "d6/d3e/class_amp_gen_1_1_i_expression.html", [
       [ "AmpGen::Array", "d9/d11/class_amp_gen_1_1_array.html", null ],
@@ -170,7 +168,7 @@ var hierarchy =
       ] ],
       [ "AmpGen::MinuitParameterLink", "d4/dd8/class_amp_gen_1_1_minuit_parameter_link.html", null ],
       [ "AmpGen::Parameter", "d3/d5a/class_amp_gen_1_1_parameter.html", null ],
-      [ "AmpGen::Spline", "de/d87/struct_amp_gen_1_1_spline.html", null ],
+      [ "AmpGen::Spline", "d8/d3c/class_amp_gen_1_1_spline.html", null ],
       [ "AmpGen::SubTree", "d4/d37/struct_amp_gen_1_1_sub_tree.html", null ],
       [ "AmpGen::TensorExpression", "d6/dc4/class_amp_gen_1_1_tensor_expression.html", null ],
       [ "AmpGen::Ternary", "d5/d86/struct_amp_gen_1_1_ternary.html", null ]
@@ -213,6 +211,7 @@ var hierarchy =
     [ "AmpGen::PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html", null ],
     [ "AmpGen::poleConfig", "d0/dea/struct_amp_gen_1_1pole_config.html", null ],
     [ "AmpGen::ProfileClock", "d0/dfb/struct_amp_gen_1_1_profile_clock.html", null ],
+    [ "AmpGen::ProgressBar", "d1/de8/class_amp_gen_1_1_progress_bar.html", null ],
     [ "AmpGen::Projection", "db/dc8/class_amp_gen_1_1_projection.html", null ],
     [ "AmpGen::Projection2D", "d0/d04/class_amp_gen_1_1_projection2_d.html", null ],
     [ "AmpGen::QuarkContent", "de/d21/class_amp_gen_1_1_quark_content.html", null ],

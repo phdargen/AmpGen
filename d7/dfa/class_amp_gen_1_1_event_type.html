@@ -125,13 +125,19 @@ $(document).ready(function(){initNavTree('d7/dfa/class_amp_gen_1_1_event_type.ht
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a2c6da9611cad1d1d162c4c74eca7a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a0a2c6da9611cad1d1d162c4c74eca7a0">EventType</a> ()=default</td></tr>
+<tr class="memdesc:a0a2c6da9611cad1d1d162c4c74eca7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor  <a href="#a0a2c6da9611cad1d1d162c4c74eca7a0">More...</a><br /></td></tr>
 <tr class="separator:a0a2c6da9611cad1d1d162c4c74eca7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd855d4c8575dce62419abe1ee84ee3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#abd855d4c8575dce62419abe1ee84ee3a">EventType</a> (const std::vector&lt; std::string &gt; &amp;, const bool &amp;isTD=false)</td></tr>
+<tr class="memdesc:abd855d4c8575dce62419abe1ee84ee3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a list of particles, beginning with the head of the decay and then then final state particles, and a flag as to whether to include time dependence.  <a href="#abd855d4c8575dce62419abe1ee84ee3a">More...</a><br /></td></tr>
 <tr class="separator:abd855d4c8575dce62419abe1ee84ee3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445c3ed6299d38f1ffc3a78b288786e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a445c3ed6299d38f1ffc3a78b288786e5">conj</a> (const bool &amp;headOnly=0, const bool &amp;dontConjHead=0) const </td></tr>
+<tr class="memdesc:a445c3ed6299d38f1ffc3a78b288786e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the CP-conjugated event type.  <a href="#a445c3ed6299d38f1ffc3a78b288786e5">More...</a><br /></td></tr>
+<tr class="separator:a445c3ed6299d38f1ffc3a78b288786e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29d49ebfba4c12f2777ed694d2d49398"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a29d49ebfba4c12f2777ed694d2d49398">getEventFormat</a> (const bool &amp;outputNames=false) const </td></tr>
+<tr class="memdesc:a29d49ebfba4c12f2777ed694d2d49398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the event format, that matches between expressions and the names used in <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html" title="Describes a particle, its decay process and subsequent decay products, which are also Particles...">Particle</a>.  <a href="#a29d49ebfba4c12f2777ed694d2d49398">More...</a><br /></td></tr>
 <tr class="separator:a29d49ebfba4c12f2777ed694d2d49398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5110b7d3a7494f55853e0794059e8268"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a5110b7d3a7494f55853e0794059e8268">count</a> (const size_t &amp;index) const </td></tr>
-<tr class="memdesc:a5110b7d3a7494f55853e0794059e8268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of particles with name.  <a href="#a5110b7d3a7494f55853e0794059e8268">More...</a><br /></td></tr>
+<tr class="memdesc:a5110b7d3a7494f55853e0794059e8268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of particles in this event type with the same name as the index'th name.  <a href="#a5110b7d3a7494f55853e0794059e8268">More...</a><br /></td></tr>
 <tr class="separator:a5110b7d3a7494f55853e0794059e8268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72272e7df3640ca1b68c18b917a819e4"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a72272e7df3640ca1b68c18b917a819e4">minmax</a> (const std::vector&lt; size_t &gt; &amp;indices, bool isGeV=false) const </td></tr>
 <tr class="separator:a72272e7df3640ca1b68c18b917a819e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,16 +177,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abbe819120a77665ad3dff4fc1140d7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae256bfd005fb38e29107788be82fc094"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#ae256bfd005fb38e29107788be82fc094">has</a> (const std::string &amp;name) const </td></tr>
 <tr class="separator:ae256bfd005fb38e29107788be82fc094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445c3ed6299d38f1ffc3a78b288786e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a445c3ed6299d38f1ffc3a78b288786e5">conj</a> (const bool &amp;headOnly=0, const bool &amp;dontConjHead=0) const </td></tr>
-<tr class="separator:a445c3ed6299d38f1ffc3a78b288786e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98bfa8d7d2e9c0788f5883e68ef3b537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a98bfa8d7d2e9c0788f5883e68ef3b537">setMotherMass</a> (const double &amp;<a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#aeed26c1d488f3a14bc12211a0d7dce64">mass</a>)</td></tr>
-<tr class="separator:a98bfa8d7d2e9c0788f5883e68ef3b537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24bee326830f1aab4bf0301042b1f664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a24bee326830f1aab4bf0301042b1f664">extendEventType</a> (const std::string &amp;branch)</td></tr>
 <tr class="separator:a24bee326830f1aab4bf0301042b1f664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc7cc10c1a4759b3b897139f2c0b447"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#a9cc7cc10c1a4759b3b897139f2c0b447">symmetriser</a> () const </td></tr>
-<tr class="memdesc:a9cc7cc10c1a4759b3b897139f2c0b447"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the number of spin indices associated with the initial and final state, i.e. the rank of the relevant transition matrix.  <a href="#a9cc7cc10c1a4759b3b897139f2c0b447">More...</a><br /></td></tr>
+<tr class="memdesc:a9cc7cc10c1a4759b3b897139f2c0b447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor to randomly symmetrise data of this event type, using the Fisher-Yates shuffle.  <a href="#a9cc7cc10c1a4759b3b897139f2c0b447">More...</a><br /></td></tr>
 <tr class="separator:a9cc7cc10c1a4759b3b897139f2c0b447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafb2327f300549edb1e04fed9983f2f2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html#aafb2327f300549edb1e04fed9983f2f2">dim</a> () const </td></tr>
+<tr class="memdesc:aafb2327f300549edb1e04fed9983f2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the number of spin indices associated with the initial and final state, i.e. the rank of the relevant transition matrix.  <a href="#aafb2327f300549edb1e04fed9983f2f2">More...</a><br /></td></tr>
 <tr class="separator:aafb2327f300549edb1e04fed9983f2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -257,6 +260,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Can also require that only the initial/ final state is conjugated. By default, conjugates both. </p>
 
 </div>
 </div>
@@ -648,32 +652,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a98bfa8d7d2e9c0788f5883e68ef3b537"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::EventType::setMotherMass </td>
-          <td>(</td>
-          <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>mass</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d69/_event_type_8h_source.html#l00058">58</a> of file <a class="el" href="../../d4/d69/_event_type_8h_source.html">EventType.h</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a045782a2a481a5f1cb1a7b938d7b1972"></a>
 <div class="memitem">
 <div class="memproto">
@@ -713,7 +691,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a></li>
-    <li class="footer">Generated on Wed May 29 2019 09:59:25 for AmpGen by
+    <li class="footer">Generated on Sun Jun 9 2019 13:40:27 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

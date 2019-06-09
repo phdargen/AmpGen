@@ -2,7 +2,7 @@ var searchData=
 [
   ['make_5fcse',['make_cse',['../dc/d82/namespace_amp_gen.html#a505317a5dd03f66a9a5dcb1daaa69a4a',1,'AmpGen']]],
   ['make_5fexpression',['make_expression',['../dc/d82/namespace_amp_gen.html#a9f2ccb2c29e9826e0f5957af9ff670b0',1,'AmpGen::make_expression(const Expression &amp;expression, const std::string &amp;name, const bool &amp;verbose=false)'],['../dc/d82/namespace_amp_gen.html#a6ccfa81b06495a4255bf1a4fae1d2db4',1,'AmpGen::make_expression(const Expression &amp;expression, const std::string &amp;name, const MinuitParameterSet &amp;mps)'],['../dc/d82/namespace_amp_gen.html#afa1b225839b5d705dc1cfcb6c2a5f6f8',1,'AmpGen::make_expression(const Expression &amp;expression, const std::string &amp;name, const std::map&lt; std::string, size_t &gt; &amp;evtMap, const MinuitParameterSet &amp;mps)']]],
-  ['make_5fpdf',['make_pdf',['../dc/d82/namespace_amp_gen.html#a7b1cd7da01cde5bb2c1a1d64c06dc037',1,'AmpGen']]],
+  ['make_5fpdf',['make_pdf',['../dc/d82/namespace_amp_gen.html#a11c2e6f768b41b6e615e65d0636baeb8',1,'AmpGen::make_pdf(const FCN &amp;fcn)'],['../dc/d82/namespace_amp_gen.html#a7b1cd7da01cde5bb2c1a1d64c06dc037',1,'AmpGen::make_pdf(PDFS &amp;&amp;...pdfs)']]],
   ['makealias',['makeAlias',['../de/d6a/class_amp_gen_1_1_particle_properties_list.html#af84f3d46993aa2ece7a082adf862ce72',1,'AmpGen::ParticlePropertiesList']]],
   ['makedefaultfunctors',['makeDefaultFunctors',['../dc/d42/class_amp_gen_1_1_bin_d_t.html#a816f05756cda2fbdf8175add73c336d9',1,'AmpGen::BinDT']]],
   ['makedefaultprojections',['makeDefaultProjections',['../db/d4b/class_amp_gen_1_1_event_list.html#a660570d057f25410b2386ce9d142d0b7',1,'AmpGen::EventList']]],
@@ -31,7 +31,7 @@ var searchData=
   ['minmax',['minmax',['../d7/dfa/class_amp_gen_1_1_event_type.html#a72272e7df3640ca1b68c18b917a819e4',1,'AmpGen::EventType']]],
   ['minswaps',['minSwaps',['../dc/d82/namespace_amp_gen.html#a90a1476a8c728132263b3f9922084d5c',1,'AmpGen']]],
   ['minuitexpression',['MinuitExpression',['../d8/d4d/class_amp_gen_1_1_minuit_expression.html#a6cdb5f0539dae32b70496666066220cd',1,'AmpGen::MinuitExpression']]],
-  ['minuitparameter',['MinuitParameter',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a7d0f4bf36e5b657bd764c27f5269606d',1,'AmpGen::MinuitParameter::MinuitParameter()=default'],['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#aaeceeaa79a8c17ca6fa57f1e0c830a6d',1,'AmpGen::MinuitParameter::MinuitParameter(const std::string &amp;name, const Flag &amp;iFixInit, const double &amp;mean, const double &amp;step, const double &amp;min=0, const double &amp;max=0)']]],
+  ['minuitparameter',['MinuitParameter',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a7d0f4bf36e5b657bd764c27f5269606d',1,'AmpGen::MinuitParameter::MinuitParameter()=default'],['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#aaeceeaa79a8c17ca6fa57f1e0c830a6d',1,'AmpGen::MinuitParameter::MinuitParameter(const std::string &amp;name, const Flag &amp;iFixInit, const double &amp;mean, const double &amp;step, const double &amp;min=0, const double &amp;max=0)'],['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a63136e93b68c75ff8bbf01cf02c41c3e',1,'AmpGen::MinuitParameter::MinuitParameter(const std::string &amp;name, const double &amp;mean, const double &amp;step, const double &amp;min=0, const double &amp;max=0)']]],
   ['minuitparameterlink',['MinuitParameterLink',['../d4/dd8/class_amp_gen_1_1_minuit_parameter_link.html#ac4770ee8f4871cc9f535d98fa84ffb63',1,'AmpGen::MinuitParameterLink']]],
   ['minuitparameterset',['MinuitParameterSet',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aa93da5a4550c6f3b21f00ca2b4968ecc',1,'AmpGen::MinuitParameterSet::MinuitParameterSet()'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aee752927f302c9ba5fd67df039f47fa3',1,'AmpGen::MinuitParameterSet::MinuitParameterSet(const std::vector&lt; MinuitParameter * &gt; &amp;params)'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#afe83639f78476ae4a5f707e782229f3d',1,'AmpGen::MinuitParameterSet::MinuitParameterSet(const MinuitParameterSet &amp;other)']]],
   ['minuitproxy',['MinuitProxy',['../de/d24/class_amp_gen_1_1_minuit_proxy.html#ae8d177af4440bc7b73369b915aa08661',1,'AmpGen::MinuitProxy']]],
@@ -39,6 +39,6 @@ var searchData=
   ['momentumtransfer',['MomentumTransfer',['../d7/d3d/class_amp_gen_1_1_momentum_transfer.html#ae43da101a5d869a9507fe91db05f2885',1,'AmpGen::MomentumTransfer']]],
   ['mother',['mother',['../d7/dfa/class_amp_gen_1_1_event_type.html#a2a1a926c4b7bfb580aaf38e2897d56d8',1,'AmpGen::EventType']]],
   ['mothermass',['motherMass',['../d7/dfa/class_amp_gen_1_1_event_type.html#a557d42e02550520a6d95bd94a272d3fb',1,'AmpGen::EventType']]],
-  ['mps',['mps',['../d4/d2d/class_amp_gen_1_1_fit_result.html#a0d88680648cdc7e4fae1f00888e2bfe3',1,'AmpGen::FitResult::mps() const '],['../d4/d2d/class_amp_gen_1_1_fit_result.html#aaae7ff365a33a2e616548cf2f106f321',1,'AmpGen::FitResult::MPS() const ']]],
+  ['mps',['mps',['../d4/d2d/class_amp_gen_1_1_fit_result.html#a0d88680648cdc7e4fae1f00888e2bfe3',1,'AmpGen::FitResult']]],
   ['mysprintf',['mysprintf',['../dc/d82/namespace_amp_gen.html#ad91ebe5cf182f4eb38ac8fad676ceac5',1,'AmpGen']]]
 ];

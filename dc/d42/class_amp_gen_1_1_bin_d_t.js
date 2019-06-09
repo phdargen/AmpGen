@@ -1,6 +1,5 @@
 var class_amp_gen_1_1_bin_d_t =
 [
-    [ "AddressCompressor", "d0/d62/struct_amp_gen_1_1_bin_d_t_1_1_address_compressor.html", "d0/d62/struct_amp_gen_1_1_bin_d_t_1_1_address_compressor" ],
     [ "Decision", "d1/d9d/class_amp_gen_1_1_bin_d_t_1_1_decision.html", "d1/d9d/class_amp_gen_1_1_bin_d_t_1_1_decision" ],
     [ "EndNode", "dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html", "dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node" ],
     [ "INode", "d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html", "d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node" ],

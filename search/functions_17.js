@@ -16,6 +16,7 @@ var searchData=
   ['_7eminuitparameterset',['~MinuitParameterSet',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ae9de95c3c75e7c274100a60cc1673842',1,'AmpGen::MinuitParameterSet']]],
   ['_7eparametertransfer',['~ParameterTransfer',['../d0/dbe/class_amp_gen_1_1_parameter_transfer.html#a005883e11066921f79a11e59e7d44dbc',1,'AmpGen::ParameterTransfer']]],
   ['_7ephasespace',['~PhaseSpace',['../d6/d53/class_amp_gen_1_1_phase_space.html#ae7d6f972eaefac6aefb2be33e529afe7',1,'AmpGen::PhaseSpace']]],
+  ['_7eprogressbar',['~ProgressBar',['../d1/de8/class_amp_gen_1_1_progress_bar.html#a504e44f41e31784413ed4d36ec113cfc',1,'AmpGen::ProgressBar']]],
   ['_7ethreadpool',['~ThreadPool',['../d7/d84/class_amp_gen_1_1_thread_pool.html#a276d4c5adbf38f6f66638e7ec3babec1',1,'AmpGen::ThreadPool']]],
   ['_7etreereader',['~TreeReader',['../dd/da6/class_amp_gen_1_1_tree_reader.html#ab17cf18ac552923795ea851f7bd81e0f',1,'AmpGen::TreeReader']]]
 ];

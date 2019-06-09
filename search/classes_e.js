@@ -17,6 +17,7 @@ var searchData=
   ['pow',['Pow',['../d2/d44/class_amp_gen_1_1_pow.html',1,'AmpGen']]],
   ['product',['Product',['../d6/db4/class_amp_gen_1_1_product.html',1,'AmpGen']]],
   ['profileclock',['ProfileClock',['../d0/dfb/struct_amp_gen_1_1_profile_clock.html',1,'AmpGen']]],
+  ['progressbar',['ProgressBar',['../d1/de8/class_amp_gen_1_1_progress_bar.html',1,'AmpGen']]],
   ['projection',['Projection',['../db/dc8/class_amp_gen_1_1_projection.html',1,'AmpGen']]],
   ['projection2d',['Projection2D',['../d0/d04/class_amp_gen_1_1_projection2_d.html',1,'AmpGen']]]
 ];

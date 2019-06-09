@@ -15,7 +15,7 @@ var searchData=
   ['import',['import',['../d8/d73/class_amp_gen_1_1_options_parser.html#a339445840f2371ee2c9673aceaac3b61',1,'AmpGen::OptionsParser']]],
   ['imposesymmetry',['imposeSymmetry',['../d4/d0e/class_amp_gen_1_1_tensor.html#ab70b513a2ac4ed4a67e280a084bdf84a',1,'AmpGen::Tensor::imposeSymmetry(size_t indexA, size_t indexB)'],['../d4/d0e/class_amp_gen_1_1_tensor.html#a94664270308398bda5a86b796bfa0b36',1,'AmpGen::Tensor::imposeSymmetry(std::vector&lt; size_t &gt; indices)']]],
   ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html',1,'AmpGen']]],
-  ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html#a52c349649aadddca7154c33658e46b84',1,'AmpGen::IncoherentSum']]],
+  ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html#aba8f328675dd064f564109d0bcbe7930',1,'AmpGen::IncoherentSum']]],
   ['incoherentsum_2eh',['IncoherentSum.h',['../dd/d25/_incoherent_sum_8h.html',1,'']]],
   ['index',['Index',['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html',1,'AmpGen::Tensor']]],
   ['index',['index',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a4d0a99e1e3da558413145a66e6b06228',1,'AmpGen::FastDT::Node::index()'],['../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9',1,'AmpGen::Particle::index()'],['../d4/d0e/class_amp_gen_1_1_tensor.html#afd07622b94ed0972f0cdd10099bf8d8f',1,'AmpGen::Tensor::index()'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#a02c8f95dc16fe41b8d888808e16af9c4',1,'AmpGen::Tensor::Index::Index(bool isUpper=false)'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#ab46619ca1ee9046d95da12e99ce1cd0b',1,'AmpGen::Tensor::Index::Index(const std::shared_ptr&lt; int &gt; &amp;index, bool isUpper=false)']]],
@@ -70,7 +70,7 @@ var searchData=
   ['italic_5foff',['italic_off',['../dc/d82/namespace_amp_gen.html#a2e5950a1ca408cfb97466fce815ce841',1,'AmpGen']]],
   ['italic_5fon',['italic_on',['../dc/d82/namespace_amp_gen.html#a5b257f9be502868a60b2f267cac845ec',1,'AmpGen']]],
   ['iterator',['Iterator',['../d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html',1,'AmpGen::DynamicContainer']]],
-  ['iterator',['Iterator',['../d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#a560bce383e7ee068b1ccda666bcf7a37',1,'AmpGen::DynamicContainer::Iterator::Iterator()'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a2a98463830c0526cd2eee0b2ad0e92d1',1,'AmpGen::MinuitParameterSet::iterator()'],['../d8/d73/class_amp_gen_1_1_options_parser.html#a34e6bfe52a97de88a5251cdccb0daea3',1,'AmpGen::OptionsParser::iterator()']]],
+  ['iterator',['iterator',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a2a98463830c0526cd2eee0b2ad0e92d1',1,'AmpGen::MinuitParameterSet::iterator()'],['../d8/d73/class_amp_gen_1_1_options_parser.html#a34e6bfe52a97de88a5251cdccb0daea3',1,'AmpGen::OptionsParser::iterator()'],['../d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#a560bce383e7ee068b1ccda666bcf7a37',1,'AmpGen::DynamicContainer::Iterator::Iterator()']]],
   ['iunaryexpression',['IUnaryExpression',['../d5/d3f/class_amp_gen_1_1_i_unary_expression.html',1,'AmpGen']]],
   ['iunaryexpression',['IUnaryExpression',['../d5/d3f/class_amp_gen_1_1_i_unary_expression.html#a06d9deac4c2adde6d563664e9e6990cf',1,'AmpGen::IUnaryExpression']]]
 ];

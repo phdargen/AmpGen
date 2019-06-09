@@ -1,6 +1,6 @@
 var class_amp_gen_1_1_fit_fraction =
 [
-    [ "FitFraction", "da/d5b/class_amp_gen_1_1_fit_fraction.html#a65ed22da8c9c05241aa958dff67b2853", null ],
+    [ "FitFraction", "da/d5b/class_amp_gen_1_1_fit_fraction.html#a5aa89233d71a075c0a74516487ee1e87", null ],
     [ "FitFraction", "da/d5b/class_amp_gen_1_1_fit_fraction.html#a0c6e3e73b53965fca6f8feb0bb977d03", null ],
     [ "FitFraction", "da/d5b/class_amp_gen_1_1_fit_fraction.html#aeeb3d2d19ed1906be731b26ba6996a76", null ],
     [ "err", "da/d5b/class_amp_gen_1_1_fit_fraction.html#a4e1278a305ff8fb59784b2c01d68658b", null ],

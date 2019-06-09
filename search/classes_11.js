@@ -15,7 +15,7 @@ var searchData=
   ['sbw',['SBW',['../d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html',1,'AmpGen::Lineshape']]],
   ['simfit',['SimFit',['../db/dec/class_amp_gen_1_1_sim_fit.html',1,'AmpGen']]],
   ['sin',['Sin',['../d4/d99/class_amp_gen_1_1_sin.html',1,'AmpGen']]],
-  ['spline',['Spline',['../de/d87/struct_amp_gen_1_1_spline.html',1,'AmpGen']]],
+  ['spline',['Spline',['../d8/d3c/class_amp_gen_1_1_spline.html',1,'AmpGen']]],
   ['splinetransfer',['SplineTransfer',['../de/d96/class_amp_gen_1_1_spline_transfer.html',1,'AmpGen']]],
   ['sqrt',['Sqrt',['../d8/dd0/class_amp_gen_1_1_sqrt.html',1,'AmpGen']]],
   ['sub',['Sub',['../da/dab/class_amp_gen_1_1_sub.html',1,'AmpGen']]],

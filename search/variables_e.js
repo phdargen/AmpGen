@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['p',['p',['../dc/d82/namespace_amp_gen.html#aeba98fd8bfc3c1e3a0df55a68ed0701c',1,'AmpGen::LS']]],
-  ['pdf',['pdf',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html#aaf9e1038a000941f047b69999b3a349c',1,'AmpGen::TransitionMatrix::pdf()'],['../d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html#a2b9371e4f60867630e20e8489b068857',1,'AmpGen::FitFractionCalculator::pdf()']]]
+  ['recalculateintegrals',['recalculateIntegrals',['../d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html#acaf648ffe56c60dc9175d39159b7ac32',1,'AmpGen::FitFractionCalculator']]],
+  ['right',['right',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a5e8495859438b063cb0f6fd002d857f4',1,'AmpGen::FastDT::Node']]],
+  ['rval',['rval',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#aaa7a49341e2818be115b3533a268330b',1,'AmpGen::IBinaryExpression']]]
 ];

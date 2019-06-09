@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a065d4777b21b10897f77d88235b5e95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a099bda3b2fdc8b6dfc11288a66f3bf0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/struct_amp_gen_1_1_profile_clock.html#a099bda3b2fdc8b6dfc11288a66f3bf0f">stop</a> ()</td></tr>
 <tr class="separator:a099bda3b2fdc8b6dfc11288a66f3bf0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97d405f660d7cb0b9ba41df138c2be5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/struct_amp_gen_1_1_profile_clock.html#af97d405f660d7cb0b9ba41df138c2be5">start</a> ()</td></tr>
+<tr class="separator:af97d405f660d7cb0b9ba41df138c2be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadf01ac93ab9ff101a487170e0bb2b1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/struct_amp_gen_1_1_profile_clock.html#aadf01ac93ab9ff101a487170e0bb2b1f">operator double</a> () const </td></tr>
 <tr class="separator:aadf01ac93ab9ff101a487170e0bb2b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -138,6 +140,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af840dbeedf84f7b8f8962c14e67f15ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e2c3aa10d95faf933ef6757848debf"><td class="memItemLeft" align="right" valign="top">std::chrono::time_point&lt; std::chrono::high_resolution_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/struct_amp_gen_1_1_profile_clock.html#ab3e2c3aa10d95faf933ef6757848debf">t_end</a></td></tr>
 <tr class="separator:ab3e2c3aa10d95faf933ef6757848debf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8cfe1b55cd061bce3b74ca72b77c3d5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/struct_amp_gen_1_1_profile_clock.html#ad8cfe1b55cd061bce3b74ca72b77c3d5">t_duration</a> = {0}</td></tr>
+<tr class="separator:ad8cfe1b55cd061bce3b74ca72b77c3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a065d4777b21b10897f77d88235b5e95b"></a>
@@ -161,7 +165,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00011">11</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00013">13</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
 
 </div>
 </div>
@@ -187,7 +191,32 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00013">13</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00020">20</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af97d405f660d7cb0b9ba41df138c2be5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AmpGen::ProfileClock::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00019">19</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
 
 </div>
 </div>
@@ -212,11 +241,25 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00012">12</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00014">14</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ad8cfe1b55cd061bce3b74ca72b77c3d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AmpGen::ProfileClock::t_duration = {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html#l00011">11</a> of file <a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">ProfileClock.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab3e2c3aa10d95faf933ef6757848debf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +297,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d0/dfb/struct_amp_gen_1_1_profile_clock.html">ProfileClock</a></li>
-    <li class="footer">Generated on Wed May 29 2019 09:59:26 for AmpGen by
+    <li class="footer">Generated on Sun Jun 9 2019 13:40:27 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

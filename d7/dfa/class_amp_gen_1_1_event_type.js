@@ -25,7 +25,6 @@ var class_amp_gen_1_1_event_type =
     [ "operator==", "d7/dfa/class_amp_gen_1_1_event_type.html#abbe819120a77665ad3dff4fc1140d7ad", null ],
     [ "operator[]", "d7/dfa/class_amp_gen_1_1_event_type.html#a0aab5bc623946ee7ff9096e822983641", null ],
     [ "projection", "d7/dfa/class_amp_gen_1_1_event_type.html#a1dd868bc9d7d5d26333ff1088fe9b9ff", null ],
-    [ "setMotherMass", "d7/dfa/class_amp_gen_1_1_event_type.html#a98bfa8d7d2e9c0788f5883e68ef3b537", null ],
     [ "size", "d7/dfa/class_amp_gen_1_1_event_type.html#a045782a2a481a5f1cb1a7b938d7b1972", null ],
     [ "symmetriser", "d7/dfa/class_amp_gen_1_1_event_type.html#a9cc7cc10c1a4759b3b897139f2c0b447", null ]
 ];

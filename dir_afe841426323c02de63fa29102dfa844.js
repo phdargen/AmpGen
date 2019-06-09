@@ -3,9 +3,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "AmplitudeRules.h", "d7/d6d/_amplitude_rules_8h.html", "d7/d6d/_amplitude_rules_8h" ],
     [ "ArgumentPack.h", "dd/dd4/_argument_pack_8h.html", "dd/dd4/_argument_pack_8h" ],
     [ "Array.h", "d3/dc5/_array_8h.html", null ],
-    [ "ASTResolver.h", "d2/db6/_a_s_t_resolver_8h.html", [
-      [ "ASTResolver", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html", "d6/d02/class_amp_gen_1_1_a_s_t_resolver" ]
-    ] ],
+    [ "ASTResolver.h", "d2/db6/_a_s_t_resolver_8h.html", null ],
     [ "BinDT.h", "da/d2e/_bin_d_t_8h.html", "da/d2e/_bin_d_t_8h" ],
     [ "CacheTransfer.h", "d0/d0a/_cache_transfer_8h.html", [
       [ "CacheTransfer", "d8/d16/class_amp_gen_1_1_cache_transfer.html", "d8/d16/class_amp_gen_1_1_cache_transfer" ],
@@ -109,6 +107,9 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html", "d4/d31/class_amp_gen_1_1_polarised_sum" ]
     ] ],
     [ "ProfileClock.h", "d4/d0d/_profile_clock_8h.html", "d4/d0d/_profile_clock_8h" ],
+    [ "ProgressBar.h", "dd/d9c/_progress_bar_8h.html", [
+      [ "ProgressBar", "d1/de8/class_amp_gen_1_1_progress_bar.html", "d1/de8/class_amp_gen_1_1_progress_bar" ]
+    ] ],
     [ "Projection.h", "dd/d31/_projection_8h.html", [
       [ "Projection", "db/dc8/class_amp_gen_1_1_projection.html", "db/dc8/class_amp_gen_1_1_projection" ],
       [ "Projection2D", "d0/d04/class_amp_gen_1_1_projection2_d.html", "d0/d04/class_amp_gen_1_1_projection2_d" ]

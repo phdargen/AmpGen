@@ -8,6 +8,7 @@ var class_amp_gen_1_1_minuit_parameter =
     ] ],
     [ "MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a7d0f4bf36e5b657bd764c27f5269606d", null ],
     [ "MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html#aaeceeaa79a8c17ca6fa57f1e0c830a6d", null ],
+    [ "MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a63136e93b68c75ff8bbf01cf02c41c3e", null ],
     [ "~MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a3a3891ee50d56bae971c06b4b1415ee9", null ],
     [ "err", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a0f035d491ef5472d0e7e4c2f0480ffa1", null ],
     [ "errNeg", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a6b48c21f524a616b726cb6ca6cabc4de", null ],

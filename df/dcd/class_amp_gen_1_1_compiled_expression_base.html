@@ -136,8 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a09f997e9b52a4a65981262fa37f1c5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a629f7cd8d01a0f89633fc0a5c9ea4034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a629f7cd8d01a0f89633fc0a5c9ea4034">prepare</a> ()</td></tr>
 <tr class="separator:a629f7cd8d01a0f89633fc0a5c9ea4034"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b3eeb5e668f3aba5dfb3f12375a8cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a4b3eeb5e668f3aba5dfb3f12375a8cb9">compile</a> (const std::string &amp;fname=&quot;&quot;, const bool &amp;wait=false)</td></tr>
-<tr class="separator:a4b3eeb5e668f3aba5dfb3f12375a8cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe1095820ebb68c4d48a90856e979dc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#afe1095820ebb68c4d48a90856e979dc0">compile</a> (const std::string &amp;fname=&quot;&quot;)</td></tr>
+<tr class="separator:afe1095820ebb68c4d48a90856e979dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3e2e88bc53c0ab1725bc940e59e131d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#ad3e2e88bc53c0ab1725bc940e59e131d">to_stream</a> (std::ostream &amp;stream) const </td></tr>
 <tr class="separator:ad3e2e88bc53c0ab1725bc940e59e131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd64a55296431cd16aefd4a82475a5b8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#abd64a55296431cd16aefd4a82475a5b8">hash</a> () const </td></tr>
@@ -181,8 +181,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a5f52b1d68ce9512e3b0d3b13e8472d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44d1450c657e503006dd35de7a7b22a4"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a44d1450c657e503006dd35de7a7b22a4">m_evtMap</a></td></tr>
 <tr class="separator:a44d1450c657e503006dd35de7a7b22a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05584a0e8d6eb2cb2406432baa66a3ee"><td class="memItemLeft" align="right" valign="top">std::shared_future&lt; bool &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a05584a0e8d6eb2cb2406432baa66a3ee">m_readyFlag</a> = {nullptr}</td></tr>
-<tr class="separator:a05584a0e8d6eb2cb2406432baa66a3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e8da0378e35194a6801f6587a2d31b6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; uint64_t, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a4e8da0378e35194a6801f6587a2d31b6">m_dependentSubexpressions</a></td></tr>
 <tr class="separator:a4e8da0378e35194a6801f6587a2d31b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a775cc978831df575b47c5dccf4dca6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; uint64_t, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a5a775cc978831df575b47c5dccf4dca6">m_debugSubexpressions</a></td></tr>
@@ -333,7 +331,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 
 </div>
 </div>
-<a class="anchor" id="a4b3eeb5e668f3aba5dfb3f12375a8cb9"></a>
+<a class="anchor" id="afe1095820ebb68c4d48a90856e979dc0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -341,18 +339,8 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
           <td class="memname">void AmpGen::CompiledExpressionBase::compile </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>fname</em> = <code>&quot;&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>fname</em> = <code>&quot;&quot;</code></td><td>)</td>
           <td></td>
-          <td class="paramtype">const bool &amp;&#160;</td>
-          <td class="paramname"><em>wait</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -709,7 +697,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00043">43</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00068">68</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -731,7 +719,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00038">38</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00064">64</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +741,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00042">42</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00067">67</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -775,7 +763,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00041">41</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00066">66</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -797,7 +785,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00039">39</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00065">65</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -819,7 +807,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00036">36</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00062">62</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -841,7 +829,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00035">35</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00061">61</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -863,29 +851,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00037">37</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a05584a0e8d6eb2cb2406432baa66a3ee"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_future&lt;bool&gt;* AmpGen::CompiledExpressionBase::m_readyFlag = {nullptr}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00040">40</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00063">63</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -907,7 +873,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00044">44</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00069">69</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -920,7 +886,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html">CompiledExpressionBase</a></li>
-    <li class="footer">Generated on Wed May 29 2019 09:59:25 for AmpGen by
+    <li class="footer">Generated on Sun Jun 9 2019 13:40:26 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

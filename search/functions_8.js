@@ -8,7 +8,7 @@ var searchData=
   ['imag',['Imag',['../d3/df7/class_amp_gen_1_1_imag.html#a4c18c7058611c0cc5dba4d5935487792',1,'AmpGen::Imag']]],
   ['import',['import',['../d8/d73/class_amp_gen_1_1_options_parser.html#a339445840f2371ee2c9673aceaac3b61',1,'AmpGen::OptionsParser']]],
   ['imposesymmetry',['imposeSymmetry',['../d4/d0e/class_amp_gen_1_1_tensor.html#ab70b513a2ac4ed4a67e280a084bdf84a',1,'AmpGen::Tensor::imposeSymmetry(size_t indexA, size_t indexB)'],['../d4/d0e/class_amp_gen_1_1_tensor.html#a94664270308398bda5a86b796bfa0b36',1,'AmpGen::Tensor::imposeSymmetry(std::vector&lt; size_t &gt; indices)']]],
-  ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html#a52c349649aadddca7154c33658e46b84',1,'AmpGen::IncoherentSum']]],
+  ['incoherentsum',['IncoherentSum',['../db/d29/class_amp_gen_1_1_incoherent_sum.html#aba8f328675dd064f564109d0bcbe7930',1,'AmpGen::IncoherentSum']]],
   ['index',['index',['../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9',1,'AmpGen::Particle::index()'],['../d4/d0e/class_amp_gen_1_1_tensor.html#afd07622b94ed0972f0cdd10099bf8d8f',1,'AmpGen::Tensor::index()'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#a02c8f95dc16fe41b8d888808e16af9c4',1,'AmpGen::Tensor::Index::Index(bool isUpper=false)'],['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#ab46619ca1ee9046d95da12e99ce1cd0b',1,'AmpGen::Tensor::Index::Index(const std::shared_ptr&lt; int &gt; &amp;index, bool isUpper=false)']]],
   ['index_5fto_5fcoordinates',['index_to_coordinates',['../d4/d0e/class_amp_gen_1_1_tensor.html#affbcb60ff4f1e90da9b8764796869d94',1,'AmpGen::Tensor']]],
   ['indices',['indices',['../d6/dc0/class_amp_gen_1_1_tensor_proxy.html#a24582e7a24783aa1c9faf29e7e9f0697',1,'AmpGen::TensorProxy']]],
