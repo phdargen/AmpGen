@@ -22,6 +22,7 @@ var searchData=
   ['reorder',['reorder',['../d6/dc0/class_amp_gen_1_1_tensor_proxy.html#a27a1f5a5cfee42882fa16e1b7e4ba388',1,'AmpGen::TensorProxy']]],
   ['replaceall',['replaceAll',['../dc/d82/namespace_amp_gen.html#a81c498175e2e9c8fe828817cf457ef84',1,'AmpGen']]],
   ['reserve',['reserve',['../db/d4b/class_amp_gen_1_1_event_list.html#a5200f1ff8a7d073f15c136fb6b97edb2',1,'AmpGen::EventList']]],
+  ['reservecache',['reserveCache',['../db/d4b/class_amp_gen_1_1_event_list.html#a3e5cb71e9d0a6772f2b8a3b4946f4a0d',1,'AmpGen::EventList']]],
   ['reset',['reset',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ac93f4ba0ea735feaf96f118fa26067df',1,'AmpGen::CoherentSum::reset()'],['../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a6d4456e93a785cc40b804aebc13a7e30',1,'AmpGen::LinearErrorPropagator::reset()'],['../d1/de8/class_amp_gen_1_1_gauss_error_propagator.html#a8db4c362f8336679e095e047ab9a8b02',1,'AmpGen::GaussErrorPropagator::reset()'],['../d0/d6a/class_amp_gen_1_1_p_d_f_wrapper.html#ae707e57f135320191e3df8d78714cda9',1,'AmpGen::PDFWrapper::reset()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a8a8075503dec0312f079003787be6b9e',1,'AmpGen::PolarisedSum::reset()']]],
   ['resetcache',['resetCache',['../db/d4b/class_amp_gen_1_1_event_list.html#a049e84fc02dfb0eb687740d6ac448a4f',1,'AmpGen::EventList']]],
   ['resetcalculateflags',['resetCalculateFlags',['../d1/d6c/class_amp_gen_1_1_bilinears.html#a6817f59502c34a55034f861b5d2e714e',1,'AmpGen::Bilinears']]],

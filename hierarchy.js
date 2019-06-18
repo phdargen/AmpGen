@@ -191,7 +191,6 @@ var hierarchy =
     [ "AmpGen::DynamicContainer< TYPE, CONTAINER_TYPE >::Iterator", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html", null ],
     [ "AmpGen::LinearErrorPropagator", "db/d4b/class_amp_gen_1_1_linear_error_propagator.html", null ],
     [ "AmpGen::LS", "dc/d82/namespace_amp_gen.html#d4/d7d/struct_amp_gen_1_1_l_s", null ],
-    [ "AmpGen::Minimiser", "d9/d3d/class_amp_gen_1_1_minimiser.html", null ],
     [ "AmpGen::MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html", [
       [ "AmpGen::MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html", null ]
     ] ],

@@ -12,7 +12,6 @@ var searchData=
   ['addchi2',['addChi2',['../d4/d2d/class_amp_gen_1_1_fit_result.html#a62e841325cb0586dce7bb60c70a0f2a9',1,'AmpGen::FitResult']]],
   ['adddaughter',['addDaughter',['../de/dd7/class_amp_gen_1_1_particle.html#afa409995f22bfe03134361e597e5d06f',1,'AmpGen::Particle']]],
   ['addexpression',['addExpression',['../dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html#a5bff412e8334c4d6c4ee818d25e99007',1,'AmpGen::NormalOrderedExpression::Term']]],
-  ['addextendedterm',['addExtendedTerm',['../d9/d3d/class_amp_gen_1_1_minimiser.html#a552de1e9891a4e3fc2ac6043abcbf29f',1,'AmpGen::Minimiser']]],
   ['addfraction',['addFraction',['../d4/d2d/class_amp_gen_1_1_fit_result.html#ad2e42dfbe25cadec4505e7fc26b94948',1,'AmpGen::FitResult']]],
   ['addfractions',['addFractions',['../d4/d2d/class_amp_gen_1_1_fit_result.html#a7cda752b74d97a6c3723b7d74f7c3870',1,'AmpGen::FitResult']]],
   ['addintegral',['addIntegral',['../d5/dfb/class_amp_gen_1_1_integrator.html#a972d8290ac4b6a30cfa521bfc36da4bd',1,'AmpGen::Integrator::addIntegral()'],['../d9/dd0/class_amp_gen_1_1_binned_integrator.html#a8a81c8283495c21c0c079cbea72b1856',1,'AmpGen::BinnedIntegrator::addIntegral()']]],

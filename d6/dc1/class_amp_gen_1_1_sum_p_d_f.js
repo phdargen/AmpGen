@@ -1,5 +1,6 @@
 var class_amp_gen_1_1_sum_p_d_f =
 [
+    [ "SumPDF", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#ae3d3105761693fafb5130b7d96bd97a5", null ],
     [ "SumPDF", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a61de29c57dc8ea24bee4e1b9998b5242", null ],
     [ "forEach", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a3c16bbfa93b7e13d2f2173b9abc020d2", null ],
     [ "getVal", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#abd5d04d7dec75f8ff0b61eb0ee29a53b", null ],

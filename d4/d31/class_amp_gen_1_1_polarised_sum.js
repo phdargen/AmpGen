@@ -1,5 +1,6 @@
 var class_amp_gen_1_1_polarised_sum =
 [
+    [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a5b3d4504511df38e10c6d9a601269a6a", null ],
     [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html#aac8634bf343eab90bad7d99a986be4cc", null ],
     [ "build_probunnormalised", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a97f3f9688fed38dfe4d5a060be5430ec", null ],
     [ "calculateNorms", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a8ad0b0e4316379c89ef214e3e7f8b946", null ],

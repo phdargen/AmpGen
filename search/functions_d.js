@@ -18,7 +18,6 @@ var searchData=
   ['norms',['norms',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a3034b7c63060ccee790b561ced7b1af4',1,'AmpGen::CoherentSum']]],
   ['nparam',['nParam',['../d4/d2d/class_amp_gen_1_1_fit_result.html#acc54f7b0b326b2080f4baa62bd33bc02',1,'AmpGen::FitResult']]],
   ['nparams',['nParams',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a233a59abeb19b1c76f7f7533bb6f0da5',1,'AmpGen::ASTResolver']]],
-  ['npars',['nPars',['../d9/d3d/class_amp_gen_1_1_minimiser.html#a854404863e2c3ce69c7a3e5534ae7bda',1,'AmpGen::Minimiser']]],
   ['npdfs',['nPDFs',['../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a8556133f24fab4455d43665d3bead53a',1,'AmpGen::SumPDF']]],
   ['numberwitherror',['numberWithError',['../dc/d82/namespace_amp_gen.html#a608820c38f8b62df7da124e0ba559632',1,'AmpGen']]]
 ];

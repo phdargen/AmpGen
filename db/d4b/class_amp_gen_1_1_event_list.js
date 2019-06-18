@@ -39,6 +39,7 @@ var class_amp_gen_1_1_event_list =
     [ "registerExpression", "db/d4b/class_amp_gen_1_1_event_list.html#a61f209f2d22deb55bf9d1e8b76cf7d30", null ],
     [ "rend", "db/d4b/class_amp_gen_1_1_event_list.html#ae681fa85562a54c4332aa54fe8a26fb4", null ],
     [ "reserve", "db/d4b/class_amp_gen_1_1_event_list.html#a5200f1ff8a7d073f15c136fb6b97edb2", null ],
+    [ "reserveCache", "db/d4b/class_amp_gen_1_1_event_list.html#a3e5cb71e9d0a6772f2b8a3b4946f4a0d", null ],
     [ "resetCache", "db/d4b/class_amp_gen_1_1_event_list.html#a049e84fc02dfb0eb687740d6ac448a4f", null ],
     [ "setEventType", "db/d4b/class_amp_gen_1_1_event_list.html#a21a6fa750bea64c3be1630d2cc0d9f10", null ],
     [ "size", "db/d4b/class_amp_gen_1_1_event_list.html#ace6778bc7432ff9e7997e6d45798bf4d", null ],

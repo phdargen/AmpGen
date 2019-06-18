@@ -25,8 +25,6 @@ var searchData=
   ['merrminus',['mErrMinus',['../db/d37/class_amp_gen_1_1_particle_properties.html#a564bd65fa12a09661043fec12a60bdef',1,'AmpGen::ParticleProperties']]],
   ['merrplus',['mErrPlus',['../db/d37/class_amp_gen_1_1_particle_properties.html#a91a57a1b2ebd979ee603927ab0fe6887',1,'AmpGen::ParticleProperties']]],
   ['metricsgn',['metricSgn',['../d4/d0e/class_amp_gen_1_1_tensor.html#afe4fbe300737bb214e56b0a59672a554',1,'AmpGen::Tensor::metricSgn(const std::vector&lt; size_t &gt; &amp;coordinates) const '],['../d4/d0e/class_amp_gen_1_1_tensor.html#a15be4ab9593216692d14c30e91c1e254',1,'AmpGen::Tensor::metricSgn(const size_t &amp;index) const ']]],
-  ['minimiser',['Minimiser',['../d9/d3d/class_amp_gen_1_1_minimiser.html#a91c248ebe96bf23b5a40bd182427dadc',1,'AmpGen::Minimiser::Minimiser(TYPE &amp;fitFunction, MinuitParameterSet *mps)'],['../d9/d3d/class_amp_gen_1_1_minimiser.html#ab5411efb23be7bc9b93ea52fc050bc55',1,'AmpGen::Minimiser::Minimiser(std::function&lt; double(void)&gt; &amp;fitFunction, MinuitParameterSet *mps)']]],
-  ['minimiserinternal',['minimiserInternal',['../d9/d3d/class_amp_gen_1_1_minimiser.html#a4fa46430de8ec2b4012becce5235a9c9',1,'AmpGen::Minimiser']]],
   ['mininit',['minInit',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a908076a7d4094644624bcf4524704f6c',1,'AmpGen::MinuitParameter']]],
   ['minmax',['minmax',['../d7/dfa/class_amp_gen_1_1_event_type.html#a72272e7df3640ca1b68c18b917a819e4',1,'AmpGen::EventType']]],
   ['minswaps',['minSwaps',['../dc/d82/namespace_amp_gen.html#a90a1476a8c728132263b3f9922084d5c',1,'AmpGen']]],

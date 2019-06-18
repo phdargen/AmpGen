@@ -58,7 +58,6 @@ var searchData=
   ['gfromgamma',['gFromGamma',['../dc/d82/namespace_amp_gen.html#aa35424a55a8fba99c2e2b1dde1974e4f',1,'AmpGen']]],
   ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#ac00b7d77eb5a6e516a99c8640b269355',1,'AmpGen::Lineshape::GLASS']]],
   ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a632d0f487c3ae23afcbc4bc08ce3b00b',1,'AmpGen::Lineshape::GounarisSakurai']]],
-  ['gradienttest',['GradientTest',['../d9/d3d/class_amp_gen_1_1_minimiser.html#ac0223a4fe9ae2a29624d064674ea2c84',1,'AmpGen::Minimiser']]],
   ['greaterthan',['GreaterThan',['../db/d51/class_amp_gen_1_1_greater_than.html#aa19da789a62c434602b40003d6aa2f7b',1,'AmpGen::GreaterThan']]],
   ['groupexpressions',['groupExpressions',['../dc/d2a/class_amp_gen_1_1_normal_ordered_expression.html#ac2980993233245c32014f044e8e89a6f',1,'AmpGen::NormalOrderedExpression']]],
   ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#a74031e326b6df591de471b518805ea92',1,'AmpGen::Lineshape::GSpline']]]

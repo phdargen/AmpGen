@@ -21,7 +21,6 @@ var searchData=
   ['divide',['Divide',['../d0/df3/class_amp_gen_1_1_divide.html#a347bcb8a172116b7be6f224f96a21108',1,'AmpGen::Divide']]],
   ['dochi2',['doChi2',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#af6ddf20dfc524d3f7c7b32b2d41313e3',1,'AmpGen::Chi2Estimator']]],
   ['dof',['dof',['../d7/dfa/class_amp_gen_1_1_event_type.html#a9ae673d8a07562860e3605920d3d76d7',1,'AmpGen::EventType::dof()'],['../d4/d2d/class_amp_gen_1_1_fit_result.html#a308e06ac746863795c7f13ce13aff64a',1,'AmpGen::FitResult::dof()']]],
-  ['dofit',['doFit',['../d9/d3d/class_amp_gen_1_1_minimiser.html#a33cddf49c53f62562ba470fbdb78c769',1,'AmpGen::Minimiser']]],
   ['dot',['dot',['../dc/d82/namespace_amp_gen.html#a1c8c9a6658bb6328a53c73977e118dac',1,'AmpGen']]],
   ['dotproduct',['dotProduct',['../d0/de1/group___kin.html#ga5c7f0211bb815f3e14dbd1cef858c053',1,'AmpGen']]],
   ['dynamiccontainer',['DynamicContainer',['../d6/d9d/class_amp_gen_1_1_dynamic_container.html#a0e940e664d9935048ec2084dc700980f',1,'AmpGen::DynamicContainer']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['minimiser',['Minimiser',['../d9/d3d/class_amp_gen_1_1_minimiser.html',1,'AmpGen']]],
   ['minuitexpression',['MinuitExpression',['../d8/d4d/class_amp_gen_1_1_minuit_expression.html',1,'AmpGen']]],
   ['minuitparameter',['MinuitParameter',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html',1,'AmpGen']]],
   ['minuitparameterlink',['MinuitParameterLink',['../d4/dd8/class_amp_gen_1_1_minuit_parameter_link.html',1,'AmpGen']]],

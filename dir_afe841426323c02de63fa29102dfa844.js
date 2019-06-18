@@ -77,9 +77,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "kMatrix.h", "d2/d41/k_matrix_8h.html", "d2/d41/k_matrix_8h" ],
     [ "Lineshapes.h", "da/dcc/_lineshapes_8h.html", "da/dcc/_lineshapes_8h" ],
     [ "MetaUtils.h", "d4/d85/_meta_utils_8h.html", "d4/d85/_meta_utils_8h" ],
-    [ "Minimiser.h", "da/df9/_minimiser_8h.html", [
-      [ "Minimiser", "d9/d3d/class_amp_gen_1_1_minimiser.html", "d9/d3d/class_amp_gen_1_1_minimiser" ]
-    ] ],
+    [ "Minimiser.h", "da/df9/_minimiser_8h.html", null ],
     [ "MinuitExpression.h", "d7/d9c/_minuit_expression_8h.html", [
       [ "MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html", "d8/d4d/class_amp_gen_1_1_minuit_expression" ]
     ] ],

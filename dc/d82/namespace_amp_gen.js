@@ -68,7 +68,6 @@ var namespace_amp_gen =
     [ "LinearErrorPropagator", "db/d4b/class_amp_gen_1_1_linear_error_propagator.html", "db/d4b/class_amp_gen_1_1_linear_error_propagator" ],
     [ "Log", "da/d76/class_amp_gen_1_1_log.html", "da/d76/class_amp_gen_1_1_log" ],
     [ "LS", "dc/d82/namespace_amp_gen.html#d4/d7d/struct_amp_gen_1_1_l_s", "dc/d82/namespace_amp_gen_d4/d7d/struct_amp_gen_1_1_l_s_dup" ],
-    [ "Minimiser", "d9/d3d/class_amp_gen_1_1_minimiser.html", "d9/d3d/class_amp_gen_1_1_minimiser" ],
     [ "MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html", "d8/d4d/class_amp_gen_1_1_minuit_expression" ],
     [ "MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html", "d1/dd7/class_amp_gen_1_1_minuit_parameter" ],
     [ "MinuitParameterLink", "d4/dd8/class_amp_gen_1_1_minuit_parameter_link.html", "d4/dd8/class_amp_gen_1_1_minuit_parameter_link" ],

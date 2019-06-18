@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['math',['Math',['../dd/d2b/namespace_r_o_o_t_1_1_math.html',1,'ROOT']]],
   ['r',['R',['../db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad',1,'AmpGen::ParticleProperties::R()'],['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a25d1c712de08a4135b9f244339bc276b',1,'AmpGen::IBinaryExpression::r()']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html#a8da14d7880dc414b9383377f88ea21fa',1,'AmpGen::Vertex::r_fS_D']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html',1,'AmpGen::Vertex']]],
@@ -33,6 +32,7 @@ var searchData=
   ['replaceall',['replaceAll',['../dc/d82/namespace_amp_gen.html#a81c498175e2e9c8fe828817cf457ef84',1,'AmpGen']]],
   ['representation',['Representation',['../d9/d03/class_amp_gen_1_1_transform.html#a0667d58f3fe94b7485e4afa9201914ed',1,'AmpGen::Transform']]],
   ['reserve',['reserve',['../db/d4b/class_amp_gen_1_1_event_list.html#a5200f1ff8a7d073f15c136fb6b97edb2',1,'AmpGen::EventList']]],
+  ['reservecache',['reserveCache',['../db/d4b/class_amp_gen_1_1_event_list.html#a3e5cb71e9d0a6772f2b8a3b4946f4a0d',1,'AmpGen::EventList']]],
   ['reset',['reset',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ac93f4ba0ea735feaf96f118fa26067df',1,'AmpGen::CoherentSum::reset()'],['../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a6d4456e93a785cc40b804aebc13a7e30',1,'AmpGen::LinearErrorPropagator::reset()'],['../d1/de8/class_amp_gen_1_1_gauss_error_propagator.html#a8db4c362f8336679e095e047ab9a8b02',1,'AmpGen::GaussErrorPropagator::reset()'],['../d0/d6a/class_amp_gen_1_1_p_d_f_wrapper.html#ae707e57f135320191e3df8d78714cda9',1,'AmpGen::PDFWrapper::reset()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a8a8075503dec0312f079003787be6b9e',1,'AmpGen::PolarisedSum::reset()']]],
   ['resetcache',['resetCache',['../db/d4b/class_amp_gen_1_1_event_list.html#a049e84fc02dfb0eb687740d6ac448a4f',1,'AmpGen::EventList']]],
   ['resetcalculateflags',['resetCalculateFlags',['../d1/d6c/class_amp_gen_1_1_bilinears.html#a6817f59502c34a55034f861b5d2e714e',1,'AmpGen::Bilinears']]],
@@ -46,7 +46,6 @@ var searchData=
   ['returntypename',['returnTypename',['../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1',1,'AmpGen::CompiledExpression::returnTypename()'],['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a73e30556534840caee1e6b32c3349b71',1,'AmpGen::CompiledExpressionBase::returnTypename()']]],
   ['returntypesize',['returnTypeSize',['../d1/d43/class_amp_gen_1_1_compiled_expression.html#aaa655fc6d81fb569551d59e433e6e398',1,'AmpGen::CompiledExpression::returnTypeSize()'],['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#ad8c408227bd1b13735f03ddaea88eee5',1,'AmpGen::CompiledExpressionBase::returnTypeSize()']]],
   ['right',['right',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a5e8495859438b063cb0f6fd002d857f4',1,'AmpGen::FastDT::Node']]],
-  ['root',['ROOT',['../d9/d8a/namespace_r_o_o_t.html',1,'']]],
   ['rotate',['Rotate',['../d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5a1808a9bd3d3f1db89ff7d1aa8fbd61fe',1,'AmpGen::Transform::Rotate()'],['../dc/d82/namespace_amp_gen.html#a4525fe2dd1789773943a22757e2431f0',1,'AmpGen::rotate(const std::vector&lt; double &gt; &amp;input, const std::vector&lt; double &gt; &amp;n, const double &amp;v)'],['../dc/d82/namespace_amp_gen.html#ab258090e064f17a56fa3e1bd75bec5c0',1,'AmpGen::rotate(Event &amp;evt, const std::tuple&lt; double, double, double &gt; &amp;n, const double &amp;v)']]],
   ['rotatebasis',['rotateBasis',['../dc/d82/namespace_amp_gen.html#a9067dec6a637c71434a8edb2a6e32a93',1,'AmpGen']]],
   ['round',['round',['../dc/d82/namespace_amp_gen.html#a5cbb174b88e932b17f60865e9372b9aa',1,'AmpGen']]],
