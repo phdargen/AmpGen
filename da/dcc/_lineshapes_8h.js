@@ -20,7 +20,7 @@ var _lineshapes_8h =
     [ "BlattWeisskopf", "da/dcc/_lineshapes_8h.html#a741fb69b0c12a3d397a990bb554e0888", null ],
     [ "BlattWeisskopf_Norm", "da/dcc/_lineshapes_8h.html#ace4d8d6561eab88610c31a0a1ea54853", null ],
     [ "kFactor", "da/dcc/_lineshapes_8h.html#af951ecaebd6048c7e4052dc1ca91aa77", null ],
-    [ "parameterVector", "da/dcc/_lineshapes_8h.html#a2f8149dfd648f444616626caa8c8da9d", null ],
+    [ "parameterVector", "da/dcc/_lineshapes_8h.html#a2b1dd6f5ce2250fd1a4cd056c86f6559", null ],
     [ "pol", "da/dcc/_lineshapes_8h.html#abd780985afecea4a01ee8fdb4ec967ca", null ],
     [ "Q2", "da/dcc/_lineshapes_8h.html#a0db83f92e0accff05f675709db915a24", null ],
     [ "width", "da/dcc/_lineshapes_8h.html#a594156341ae59ac365ac8b25effd9ec0", null ]
