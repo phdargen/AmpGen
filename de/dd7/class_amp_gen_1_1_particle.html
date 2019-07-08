@@ -232,8 +232,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0904d409dfd80e25e0eb07712a03eafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ffd26605fa730647c09101870f581d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a45ffd26605fa730647c09101870f581d">conservesParity</a> (unsigned int L=0) const </td></tr>
 <tr class="separator:a45ffd26605fa730647c09101870f581d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b2f3fcca2793c07f8e927b965020516"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a6b2f3fcca2793c07f8e927b965020516">checkExists</a> () const </td></tr>
-<tr class="separator:a6b2f3fcca2793c07f8e927b965020516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fcf297d3e6ff452dc5639af402a31b6"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a9fcf297d3e6ff452dc5639af402a31b6">orbital</a> () const </td></tr>
 <tr class="separator:a9fcf297d3e6ff452dc5639af402a31b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91ca1fec3c3d931094c3783770b930c9"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9">index</a> () const </td></tr>
@@ -279,6 +277,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aca989a89cb9c917678e397eb12ae837e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aca989a89cb9c917678e397eb12ae837e">daughter</a> (const size_t &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a91ca1fec3c3d931094c3783770b930c9">index</a>) const </td></tr>
 <tr class="memdesc:aca989a89cb9c917678e397eb12ae837e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns in indexth decay product of this particle (as constant)  <a href="#aca989a89cb9c917678e397eb12ae837e">More...</a><br /></td></tr>
 <tr class="separator:aca989a89cb9c917678e397eb12ae837e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b712247d333757b6e362493fe168287"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a3b712247d333757b6e362493fe168287">daughter</a> (const std::string &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#adb01230593805b718f4d44dec5a6904e">name</a>, const int &amp;maxDepth=-1) const </td></tr>
+<tr class="memdesc:a3b712247d333757b6e362493fe168287"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns in indexth decay product of this particle (as constant)  <a href="#a3b712247d333757b6e362493fe168287">More...</a><br /></td></tr>
+<tr class="separator:a3b712247d333757b6e362493fe168287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fb6dc465284aa3bdabae61c9ab183e1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a0fb6dc465284aa3bdabae61c9ab183e1">daughters</a> () const </td></tr>
 <tr class="memdesc:a0fb6dc465284aa3bdabae61c9ab183e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of decay products of this particle.  <a href="#a0fb6dc465284aa3bdabae61c9ab183e1">More...</a><br /></td></tr>
 <tr class="separator:a0fb6dc465284aa3bdabae61c9ab183e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -346,7 +347,7 @@ Public Member Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00245">245</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00247">247</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -552,21 +553,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6b2f3fcca2793c07f8e927b965020516"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AmpGen::Particle::checkExists </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a68c3d51d4aa3e19d2e3533509146f9ba"></a>
 <div class="memitem">
 <div class="memproto">
@@ -650,6 +636,32 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">const size_t &amp;&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b712247d333757b6e362493fe168287"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a>&gt; AmpGen::Particle::daughter </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>maxDepth</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1534,7 +1546,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a></li>
-    <li class="footer">Generated on Sat Jun 22 2019 08:18:00 for AmpGen by
+    <li class="footer">Generated on Mon Jul 8 2019 13:48:09 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('dd/d6a/class_amp_gen_1_1_lineshape_1_1
 <p> that is, the 'resonant' and 'nonresonant' phases of the <a class="el" href="../../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html" title="Description of the  S-wave, based on the fits to scattering data. ">LASS</a> formulation with additional 'proudction' phases \( \phi_R \) and \(\phi_F \), and production couplings \(R, F\). One of the production couplings can typically be fixed to 1, normally the resonant coupling, \(R \).</p>
 <table class="doxtable">
 <tr>
-<th><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html" title="Free parameter for expression. ">Parameter</a> </th><th>User name </th><th>Description  </th></tr>
+<th><a class="el" href="../../d3/d5a/class_amp_gen_1_1_parameter.html" title="Free parameter for expression. ">Parameter</a> </th><th>Interface parameter name </th><th>Description  </th></tr>
 <tr>
 <td>\(m\) </td><td><em>particleName_</em>mass </td><td>Breit-Wigner mass of the resonant component, defined as energy at which the self-energy of the resonance is purely imaginary (defaults to value in PDG) <br />
  </td></tr>
@@ -139,20 +139,20 @@ $(document).ready(function(){initNavTree('dd/d6a/class_amp_gen_1_1_lineshape_1_1
 <td>\(\Gamma_0\) </td><td><em>particleName_</em>width </td><td>Breit-Wigner width of the resonant component, defined as the width of resonance at the Breit-Wigner mass <br />
  </td></tr>
 <tr>
-<td>\(a\) </td><td><em>particleName</em>GLASSa </td><td>Scattering length of the nonresonant component, defaults to \(2.07\mathrm{G\kern -0.1em eV}^{-1}\) </td></tr>
+<td>\(a\) </td><td><em>particleName</em>::GLASS::a </td><td>Scattering length of the nonresonant component, defaults to \(2.07\mathrm{G\kern -0.1em eV}^{-1}\) </td></tr>
 <tr>
-<td>\(r\) </td><td><em>particleName</em>GLASSr </td><td>Effective interaction length of the nonresonant component, defaults to \(3.32\mathrm{G\kern -0.1em eV}^{-1}\) </td></tr>
+<td>\(r\) </td><td><em>particleName</em>::GLASS::r </td><td>Effective interaction length of the nonresonant component, defaults to \(3.32\mathrm{G\kern -0.1em eV}^{-1}\) </td></tr>
 <tr>
-<td>\(\phi_R\) </td><td><em>particleName</em>GLASSphiR </td><td>Additional production phase of the resonant component, defaults to \(0^{\mathrm{o}}\), measured in degrees. </td></tr>
+<td>\(\phi_R\) </td><td><em>particleName</em>::GLASS::phiR </td><td>Additional production phase of the resonant component, defaults to \(0^{\mathrm{o}}\), measured in degrees. </td></tr>
 <tr>
-<td>\(\phi_F\) </td><td><em>particleName</em>GLASSphiF </td><td>Additional production phase of the nonresonant component, defaults to \(0^{\mathrm{o}}\), measured in degrees. </td></tr>
+<td>\(\phi_F\) </td><td><em>particleName</em>::GLASS::phiF </td><td>Additional production phase of the nonresonant component, defaults to \(0^{\mathrm{o}}\), measured in degrees. </td></tr>
 <tr>
-<td>\(R\) </td><td><em>particleName</em>GLASSR </td><td>Additional production coupling of the resonant component, defaults to \(1\). </td></tr>
+<td>\(R\) </td><td><em>particleName</em>::GLASS::R </td><td>Additional production coupling of the resonant component, defaults to \(1\). </td></tr>
 <tr>
-<td>\(F\) </td><td><em>particleName</em>GLASSF </td><td>Additional production coupling of the nonresonant component, defaults to \(1\). </td></tr>
+<td>\(F\) </td><td><em>particleName</em>::GLASS::F </td><td>Additional production coupling of the nonresonant component, defaults to \(1\). </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00265">265</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00274">274</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -160,8 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac00b7d77eb5a6e516a99c8640b269355"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c577cbf72fba94b009075b63d90f26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#a86c577cbf72fba94b009075b63d90f26">get</a> (const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a> &amp;s, const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a> &amp;s1, const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a> &amp;s2, const std::string &amp;particleName, const unsigned int &amp;L, const std::string &amp;lineshapeModifier, <a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">AmpGen::DebugSymbols</a> *dbexpressions=0) const override</td></tr>
 <tr class="separator:a86c577cbf72fba94b009075b63d90f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5222b5b7868b2995102d8215eca1a914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#a5222b5b7868b2995102d8215eca1a914">get</a> (const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a> &amp;s, const std::vector&lt; <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">AmpGen::Tensor</a> &gt; &amp;p, const std::string &amp;particleName, const unsigned int &amp;L, const std::string &amp;lineshapeModifier, <a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">AmpGen::DebugSymbols</a> *dbexpressions=nullptr) const override</td></tr>
-<tr class="separator:a5222b5b7868b2995102d8215eca1a914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31873c22adccf67e460b458c23521ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#a31873c22adccf67e460b458c23521ded">get</a> (const <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">AmpGen::Particle</a> &amp;p, const std::string &amp;lineshapeModifier, <a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">AmpGen::DebugSymbols</a> *dbexpressions=nullptr) const override</td></tr>
+<tr class="separator:a31873c22adccf67e460b458c23521ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0a4042b896c0f6cd580b5894b9d88b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html">Base</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html#ae0a4042b896c0f6cd580b5894b9d88b9">create</a> ()</td></tr>
 <tr class="separator:ae0a4042b896c0f6cd580b5894b9d88b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -196,7 +196,7 @@ Inheritance diagram for AmpGen::Lineshape::GLASS:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00265">265</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00274">274</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
 
 </div>
 </div>
@@ -222,7 +222,7 @@ Inheritance diagram for AmpGen::Lineshape::GLASS:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00097">97</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcc/_lineshapes_8h_source.html#l00098">98</a> of file <a class="el" href="../../da/dcc/_lineshapes_8h_source.html">Lineshapes.h</a>.</p>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ Inheritance diagram for AmpGen::Lineshape::GLASS:</div>
 
 </div>
 </div>
-<a class="anchor" id="a5222b5b7868b2995102d8215eca1a914"></a>
+<a class="anchor" id="a31873c22adccf67e460b458c23521ded"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -302,26 +302,8 @@ Inheritance diagram for AmpGen::Lineshape::GLASS:</div>
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a> AmpGen::Lineshape::GLASS::get </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a> &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">AmpGen::Tensor</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">AmpGen::Particle</a> &amp;&#160;</td>
           <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>particleName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int &amp;&#160;</td>
-          <td class="paramname"><em>L</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -348,7 +330,7 @@ Inheritance diagram for AmpGen::Lineshape::GLASS:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html#adf78c90abe41b716961a936d6b949792">AmpGen::Lineshape::Base</a>.</p>
+<p>Implements <a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html#aed1fdf4458e4463afdc9bb5caf2c0cd2">AmpGen::Lineshape::Base</a>.</p>
 
 </div>
 </div>
@@ -361,7 +343,7 @@ Inheritance diagram for AmpGen::Lineshape::GLASS:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dc/de1/namespace_amp_gen_1_1_lineshape.html">Lineshape</a></li><li class="navelem"><a class="el" href="../../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html">GLASS</a></li>
-    <li class="footer">Generated on Sat Jun 22 2019 08:18:00 for AmpGen by
+    <li class="footer">Generated on Mon Jul 8 2019 13:48:10 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

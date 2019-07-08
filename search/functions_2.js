@@ -13,7 +13,6 @@ var searchData=
   ['cg',['CG',['../d0/de8/group___vertices.html#ga98dfb6dcbdafd331079eeedd917633bb',1,'AmpGen']]],
   ['charge',['charge',['../db/d37/class_amp_gen_1_1_particle_properties.html#a5ca7c1b297c6e13149c3b6049af57212',1,'AmpGen::ParticleProperties']]],
   ['chargestring',['chargeString',['../db/d37/class_amp_gen_1_1_particle_properties.html#a7feab8b653f45fd653b29be3e010a20a',1,'AmpGen::ParticleProperties']]],
-  ['checkexists',['checkExists',['../de/dd7/class_amp_gen_1_1_particle.html#a6b2f3fcca2793c07f8e927b965020516',1,'AmpGen::Particle']]],
   ['chi2',['chi2',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#aa469afe5e3ec5da6d02e47460eb4109e',1,'AmpGen::Chi2Estimator::chi2()'],['../d4/d2d/class_amp_gen_1_1_fit_result.html#a50f80c692f19e17aa813eaa6bbb8a16c',1,'AmpGen::FitResult::chi2()']]],
   ['chi2estimator',['Chi2Estimator',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#a4a464322c049178759daa17cf8bdd089',1,'AmpGen::Chi2Estimator::Chi2Estimator(const EventList &amp;dataEvents, const EventList &amp;mcEvents, const std::function&lt; double(const Event &amp;)&gt; &amp;fcn, const unsigned int &amp;minEvents=10)'],['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#adde7cffe8f9fa41185ecb1168353693b',1,'AmpGen::Chi2Estimator::Chi2Estimator(const EventList &amp;dataEvents, const EventList &amp;mcEvents, const std::function&lt; double(const Event &amp;)&gt; &amp;fcn, const std::string &amp;filename)']]],
   ['cleanup',['cleanup',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ab4b3cb271677353fca69ccac8eceae31',1,'AmpGen::ASTResolver']]],

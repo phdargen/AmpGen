@@ -37,14 +37,14 @@ var NAVTREEINDEX =
 "annotated.html",
 "d1/d91/class_amp_gen_1_1_coherent_sum.html#a4fb48b301222e5a4967a7b96162d42b1",
 "d3/d2e/class_amp_gen_1_1_a_sin.html",
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#ae063c12cb4c495ddfb94b5353daa78c6",
-"d6/d99/_expression_8h.html#af10b8848bdd2239281f716c67914a129",
-"d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html#a2ac6365f9727a31b38e05c5039153445",
-"da/da8/class_amp_gen_1_1_fast_d_t.html#a4532380fd9ee746221e3eb5552c0aa82",
-"db/d5e/_fit_fraction_8h.html#a2453ca10febf424f1e3c73491faca415",
-"dc/dee/class_amp_gen_1_1_amplitude_rule.html#ac20a85abe76d7240a9881fe614b5d170",
-"de/dd7/class_amp_gen_1_1_particle.html#a0057dff2e8d7a9811b81084832c0a9b4",
-"functions_type.html"
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#add6d27dc63cbcdded6d9738f6175d5c3",
+"d6/d99/_expression_8h.html#ab8781b959b963c7a99c234a0ef04db05",
+"d8/d89/_pade_8h.html#a5f54b70f4101774d0427af6c7231a949ac6f1ee49c3db000de1bb22527847064a",
+"da/d76/class_amp_gen_1_1_log.html#a9691967573670594c693eb3506b9b237",
+"db/d56/_transform_8h.html#a7d1d345c2a6dbd41e92ef51e1452e7f1",
+"dc/dee/class_amp_gen_1_1_amplitude_rule.html#a055c77b51ce92777637516844bbecc1c",
+"de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f.html",
+"functions_t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['v_5fff_5fp',['V_ff_P',['../df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html',1,'AmpGen::Vertex']]],
-  ['v_5fff_5fp',['V_ff_P',['../df/dbe/struct_amp_gen_1_1_vertex_1_1_v__ff___p.html#adf574824a5f2da5394e0c56600d41d79',1,'AmpGen::Vertex::V_ff_P']]],
-  ['v_5fff_5fp1',['V_ff_P1',['../db/d1a/struct_amp_gen_1_1_vertex_1_1_v__ff___p1.html',1,'AmpGen::Vertex']]],
-  ['v_5fff_5fp1',['V_ff_P1',['../db/d1a/struct_amp_gen_1_1_vertex_1_1_v__ff___p1.html#a7221d294e5918b4123786f3504551180',1,'AmpGen::Vertex::V_ff_P1']]],
+  ['v_5fff_5fs',['V_ff_S',['../d6/d55/struct_amp_gen_1_1_vertex_1_1_v__ff___s.html',1,'AmpGen::Vertex']]],
+  ['v_5fff_5fs',['V_ff_S',['../d6/d55/struct_amp_gen_1_1_vertex_1_1_v__ff___s.html#a508e75cac633a10c80a7ff501e9dc2b6',1,'AmpGen::Vertex::V_ff_S']]],
+  ['v_5fff_5fs1',['V_ff_S1',['../d6/d27/struct_amp_gen_1_1_vertex_1_1_v__ff___s1.html',1,'AmpGen::Vertex']]],
+  ['v_5fff_5fs1',['V_ff_S1',['../d6/d27/struct_amp_gen_1_1_vertex_1_1_v__ff___s1.html#af462130d5800a28a14f4123d8efe1f39',1,'AmpGen::Vertex::V_ff_S1']]],
   ['v_5fss_5fp',['V_SS_P',['../dd/d17/struct_amp_gen_1_1_vertex_1_1_v___s_s___p.html',1,'AmpGen::Vertex']]],
   ['v_5fss_5fp',['V_SS_P',['../dd/d17/struct_amp_gen_1_1_vertex_1_1_v___s_s___p.html#ac6da862c7670c760c568efa5d9b8b58c',1,'AmpGen::Vertex::V_SS_P']]],
   ['v_5fts_5fd',['V_TS_D',['../db/d9f/struct_amp_gen_1_1_vertex_1_1_v___t_s___d.html',1,'AmpGen::Vertex']]],

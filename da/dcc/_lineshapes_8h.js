@@ -3,7 +3,6 @@ var _lineshapes_8h =
     [ "Base", "d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html", "d7/d74/class_amp_gen_1_1_lineshape_1_1_base" ],
     [ "Factory", "d9/d85/class_amp_gen_1_1_lineshape_1_1_factory.html", "d9/d85/class_amp_gen_1_1_lineshape_1_1_factory" ],
     [ "None", "d9/d4c/class_amp_gen_1_1_lineshape_1_1_none.html", "d9/d4c/class_amp_gen_1_1_lineshape_1_1_none" ],
-    [ "NonRelBW", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w.html", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w" ],
     [ "Bugg", "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg.html", "d3/d48/class_amp_gen_1_1_lineshape_1_1_bugg" ],
     [ "Isotensor", "d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor.html", "d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor" ],
     [ "ExpFF", "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f.html", "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f" ],
