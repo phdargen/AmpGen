@@ -230,5 +230,5 @@ var hierarchy =
     [ "AmpGen::TransitionMatrix< complex_t >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
     [ "AmpGen::TransitionMatrix< std::vector< complex_t > >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
     [ "AmpGen::TreeReader< OutputType >", "dd/da6/class_amp_gen_1_1_tree_reader.html", null ],
-    [ "AmpGen::zeroType< T, Args >", "dc/d82/namespace_amp_gen.html#d1/d27/struct_amp_gen_1_1zero_type", null ]
+    [ "AmpGen::detail::zeroType< T, args >", "dc/d3f/namespace_amp_gen_1_1detail.html#db/d79/struct_amp_gen_1_1detail_1_1zero_type", null ]
 ];

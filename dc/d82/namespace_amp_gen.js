@@ -1,5 +1,6 @@
 var namespace_amp_gen =
 [
+    [ "detail", "dc/d3f/namespace_amp_gen_1_1detail.html", "dc/d3f/namespace_amp_gen_1_1detail" ],
     [ "Lineshape", "dc/de1/namespace_amp_gen_1_1_lineshape.html", "dc/de1/namespace_amp_gen_1_1_lineshape" ],
     [ "Vertex", "d9/d0b/namespace_amp_gen_1_1_vertex.html", "d9/d0b/namespace_amp_gen_1_1_vertex" ],
     [ "Abs", "db/dab/class_amp_gen_1_1_abs.html", "db/dab/class_amp_gen_1_1_abs" ],
@@ -117,6 +118,5 @@ var namespace_amp_gen =
     [ "Transform", "d9/d03/class_amp_gen_1_1_transform.html", "d9/d03/class_amp_gen_1_1_transform" ],
     [ "TransformSequence", "d0/dd5/class_amp_gen_1_1_transform_sequence.html", "d0/dd5/class_amp_gen_1_1_transform_sequence" ],
     [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", "d7/dc0/struct_amp_gen_1_1_transition_matrix" ],
-    [ "TreeReader", "dd/da6/class_amp_gen_1_1_tree_reader.html", "dd/da6/class_amp_gen_1_1_tree_reader" ],
-    [ "zeroType", "dc/d82/namespace_amp_gen.html#d1/d27/struct_amp_gen_1_1zero_type", "dc/d82/namespace_amp_gen_d1/d27/struct_amp_gen_1_1zero_type_dup" ]
+    [ "TreeReader", "dd/da6/class_amp_gen_1_1_tree_reader.html", "dd/da6/class_amp_gen_1_1_tree_reader" ]
 ];

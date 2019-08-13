@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['real_5ft',['real_t',['../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed',1,'AmpGen']]]
+  ['nthtype',['nthType',['../dc/d82/namespace_amp_gen.html#ab5ac023f3899b76b4859c5d2155ba95b',1,'AmpGen']]]
 ];
