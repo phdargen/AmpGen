@@ -18,6 +18,7 @@ var class_amp_gen_1_1_particle_properties =
     [ "isValid", "db/d37/class_amp_gen_1_1_particle_properties.html#a4230c1f85da78983366621cde6777cc4", null ],
     [ "J", "db/d37/class_amp_gen_1_1_particle_properties.html#aa3c3bb0648513d546188e7441910360e", null ],
     [ "label", "db/d37/class_amp_gen_1_1_particle_properties.html#a98ed11efb5cafddf760448d291fb931a", null ],
+    [ "lifetime", "db/d37/class_amp_gen_1_1_particle_properties.html#a6b5f8c867a3313a97f241874c7868877", null ],
     [ "mass", "db/d37/class_amp_gen_1_1_particle_properties.html#af53d33fad2d432208164c0afaaee9188", null ],
     [ "mErrMinus", "db/d37/class_amp_gen_1_1_particle_properties.html#a564bd65fa12a09661043fec12a60bdef", null ],
     [ "mErrPlus", "db/d37/class_amp_gen_1_1_particle_properties.html#a91a57a1b2ebd979ee603927ab0fe6887", null ],

@@ -4,7 +4,6 @@ var searchData=
   ['ibinaryexpression',['IBinaryExpression',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#ae529a8ad05615badaa8cdc4ec852ee22',1,'AmpGen::IBinaryExpression']]],
   ['identicaldaughterorderings',['identicalDaughterOrderings',['../de/dd7/class_amp_gen_1_1_particle.html#a6ee1f31dc48b6e84c1e1667a6f15c2ee',1,'AmpGen::Particle']]],
   ['identity',['Identity',['../dc/d82/namespace_amp_gen.html#a718cf36538362da6fec06000ca301332',1,'AmpGen']]],
-  ['ifixinit',['iFixInit',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a66b49ea995dbf00a1f1bba6e3c020517',1,'AmpGen::MinuitParameter']]],
   ['imag',['Imag',['../d3/df7/class_amp_gen_1_1_imag.html#a4c18c7058611c0cc5dba4d5935487792',1,'AmpGen::Imag']]],
   ['import',['import',['../d8/d73/class_amp_gen_1_1_options_parser.html#a339445840f2371ee2c9673aceaac3b61',1,'AmpGen::OptionsParser']]],
   ['imposesymmetry',['imposeSymmetry',['../d4/d0e/class_amp_gen_1_1_tensor.html#ab70b513a2ac4ed4a67e280a084bdf84a',1,'AmpGen::Tensor::imposeSymmetry(size_t indexA, size_t indexB)'],['../d4/d0e/class_amp_gen_1_1_tensor.html#a94664270308398bda5a86b796bfa0b36',1,'AmpGen::Tensor::imposeSymmetry(std::vector&lt; size_t &gt; indices)']]],

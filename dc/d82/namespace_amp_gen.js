@@ -69,7 +69,6 @@ var namespace_amp_gen =
     [ "Log", "da/d76/class_amp_gen_1_1_log.html", "da/d76/class_amp_gen_1_1_log" ],
     [ "LS", "dc/d82/namespace_amp_gen.html#d4/d7d/struct_amp_gen_1_1_l_s", "dc/d82/namespace_amp_gen_d4/d7d/struct_amp_gen_1_1_l_s_dup" ],
     [ "MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html", "d8/d4d/class_amp_gen_1_1_minuit_expression" ],
-    [ "MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html", "d1/dd7/class_amp_gen_1_1_minuit_parameter" ],
     [ "MinuitParameterLink", "d4/dd8/class_amp_gen_1_1_minuit_parameter_link.html", "d4/dd8/class_amp_gen_1_1_minuit_parameter_link" ],
     [ "MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set" ],
     [ "MinuitProxy", "de/d24/class_amp_gen_1_1_minuit_proxy.html", "de/d24/class_amp_gen_1_1_minuit_proxy" ],
@@ -118,5 +117,6 @@ var namespace_amp_gen =
     [ "Transform", "d9/d03/class_amp_gen_1_1_transform.html", "d9/d03/class_amp_gen_1_1_transform" ],
     [ "TransformSequence", "d0/dd5/class_amp_gen_1_1_transform_sequence.html", "d0/dd5/class_amp_gen_1_1_transform_sequence" ],
     [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", "d7/dc0/struct_amp_gen_1_1_transition_matrix" ],
-    [ "TreeReader", "dd/da6/class_amp_gen_1_1_tree_reader.html", "dd/da6/class_amp_gen_1_1_tree_reader" ]
+    [ "TreeReader", "dd/da6/class_amp_gen_1_1_tree_reader.html", "dd/da6/class_amp_gen_1_1_tree_reader" ],
+    [ "zeroType", "dc/d82/namespace_amp_gen.html#d1/d27/struct_amp_gen_1_1zero_type", "dc/d82/namespace_amp_gen_d1/d27/struct_amp_gen_1_1zero_type_dup" ]
 ];

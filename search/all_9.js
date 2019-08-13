@@ -9,7 +9,6 @@ var searchData=
   ['iexpression',['IExpression',['../d6/d3e/class_amp_gen_1_1_i_expression.html',1,'AmpGen']]],
   ['iextendlikelihood',['IExtendLikelihood',['../d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html',1,'AmpGen']]],
   ['iextendlikelihood_2eh',['IExtendLikelihood.h',['../d8/d79/_i_extend_likelihood_8h.html',1,'']]],
-  ['ifixinit',['iFixInit',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a66b49ea995dbf00a1f1bba6e3c020517',1,'AmpGen::MinuitParameter']]],
   ['imag',['Imag',['../d3/df7/class_amp_gen_1_1_imag.html',1,'AmpGen']]],
   ['imag',['Imag',['../d3/df7/class_amp_gen_1_1_imag.html#a4c18c7058611c0cc5dba4d5935487792',1,'AmpGen::Imag']]],
   ['import',['import',['../d8/d73/class_amp_gen_1_1_options_parser.html#a339445840f2371ee2c9673aceaac3b61',1,'AmpGen::OptionsParser']]],
@@ -69,8 +68,8 @@ var searchData=
   ['iszero',['isZero',['../d1/d6c/class_amp_gen_1_1_bilinears.html#afb0c29753dd9ba8d0e95557ad176ea94',1,'AmpGen::Bilinears']]],
   ['italic_5foff',['italic_off',['../dc/d82/namespace_amp_gen.html#a2e5950a1ca408cfb97466fce815ce841',1,'AmpGen']]],
   ['italic_5fon',['italic_on',['../dc/d82/namespace_amp_gen.html#a5b257f9be502868a60b2f267cac845ec',1,'AmpGen']]],
-  ['iterator',['Iterator',['../d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html',1,'AmpGen::DynamicContainer']]],
   ['iterator',['iterator',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a2a98463830c0526cd2eee0b2ad0e92d1',1,'AmpGen::MinuitParameterSet::iterator()'],['../d8/d73/class_amp_gen_1_1_options_parser.html#a34e6bfe52a97de88a5251cdccb0daea3',1,'AmpGen::OptionsParser::iterator()'],['../d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#a560bce383e7ee068b1ccda666bcf7a37',1,'AmpGen::DynamicContainer::Iterator::Iterator()']]],
+  ['iterator',['Iterator',['../d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html',1,'AmpGen::DynamicContainer']]],
   ['iunaryexpression',['IUnaryExpression',['../d5/d3f/class_amp_gen_1_1_i_unary_expression.html',1,'AmpGen']]],
   ['iunaryexpression',['IUnaryExpression',['../d5/d3f/class_amp_gen_1_1_i_unary_expression.html#a06d9deac4c2adde6d563664e9e6990cf',1,'AmpGen::IUnaryExpression']]]
 ];

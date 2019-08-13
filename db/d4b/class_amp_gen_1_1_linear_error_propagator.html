@@ -125,13 +125,13 @@ $(document).ready(function(){initNavTree('db/d4b/class_amp_gen_1_1_linear_error_
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acb6931a7985f808523b9e2f90ad83c04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#acb6931a7985f808523b9e2f90ad83c04">LinearErrorPropagator</a> (const std::vector&lt; <a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> * &gt; &amp;<a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a25ecb65ec3753bccdd9328842603870e">params</a>)</td></tr>
+<tr class="memitem:acb6931a7985f808523b9e2f90ad83c04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#acb6931a7985f808523b9e2f90ad83c04">LinearErrorPropagator</a> (const std::vector&lt; MinuitParameter * &gt; &amp;<a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a25ecb65ec3753bccdd9328842603870e">params</a>)</td></tr>
 <tr class="memdesc:acb6931a7985f808523b9e2f90ad83c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; Constructor for <a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html" title="Propagates uncertainties on functors using either a MinuitParameterSet (thus assuming a diagonal cova...">LinearErrorPropagator</a> taking a vector of free parameters, assumes a diagonal covariance matrix taking the parameter uncertainties.  <a href="#acb6931a7985f808523b9e2f90ad83c04">More...</a><br /></td></tr>
 <tr class="separator:acb6931a7985f808523b9e2f90ad83c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11a2bc730473f9b4e6ae38fa7f89013e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a11a2bc730473f9b4e6ae38fa7f89013e">LinearErrorPropagator</a> (const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> &amp;<a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a25ecb65ec3753bccdd9328842603870e">params</a>)</td></tr>
 <tr class="memdesc:a11a2bc730473f9b4e6ae38fa7f89013e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html" title="Propagates uncertainties on functors using either a MinuitParameterSet (thus assuming a diagonal cova...">LinearErrorPropagator</a>, taking a covariance matrix and a vector parameters.  <a href="#a11a2bc730473f9b4e6ae38fa7f89013e">More...</a><br /></td></tr>
 <tr class="separator:a11a2bc730473f9b4e6ae38fa7f89013e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1420962af9fd5dfc6cd83ca7ccaec7f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a1420962af9fd5dfc6cd83ca7ccaec7f4">LinearErrorPropagator</a> (const TMatrixD &amp;reducedCovarianceMatrix, const std::vector&lt; <a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> * &gt; &amp;<a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a25ecb65ec3753bccdd9328842603870e">params</a>)</td></tr>
+<tr class="memitem:a1420962af9fd5dfc6cd83ca7ccaec7f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a1420962af9fd5dfc6cd83ca7ccaec7f4">LinearErrorPropagator</a> (const TMatrixD &amp;reducedCovarianceMatrix, const std::vector&lt; MinuitParameter * &gt; &amp;<a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a25ecb65ec3753bccdd9328842603870e">params</a>)</td></tr>
 <tr class="memdesc:a1420962af9fd5dfc6cd83ca7ccaec7f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the uncertainty on functor fcn.  <a href="#a1420962af9fd5dfc6cd83ca7ccaec7f4">More...</a><br /></td></tr>
 <tr class="separator:a1420962af9fd5dfc6cd83ca7ccaec7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30b99fd49320a051ea0967afb59bc245"><td class="memTemplParams" colspan="2">template&lt;class FCN &gt; </td></tr>
@@ -164,7 +164,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5b316009c818739f8d80b8cbdcfcde4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a2edd01f5bbffc9ebaeb6bae5aab323"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a1a2edd01f5bbffc9ebaeb6bae5aab323">posMap</a> () const </td></tr>
 <tr class="separator:a1a2edd01f5bbffc9ebaeb6bae5aab323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25ecb65ec3753bccdd9328842603870e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a25ecb65ec3753bccdd9328842603870e">params</a> () const </td></tr>
+<tr class="memitem:a25ecb65ec3753bccdd9328842603870e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; MinuitParameter * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a25ecb65ec3753bccdd9328842603870e">params</a> () const </td></tr>
 <tr class="separator:a25ecb65ec3753bccdd9328842603870e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -175,7 +175,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">AmpGen::LinearErrorPropagator::LinearErrorPropagator </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; MinuitParameter * &gt; &amp;&#160;</td>
           <td class="paramname"><em>params</em></td><td>)</td>
           <td></td>
         </tr>
@@ -214,7 +214,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; MinuitParameter * &gt; &amp;&#160;</td>
           <td class="paramname"><em>params</em>&#160;</td>
         </tr>
         <tr>
@@ -398,7 +398,7 @@ template&lt;class FCN &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;<a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a>*&gt;&amp; AmpGen::LinearErrorPropagator::params </td>
+          <td class="memname">const std::vector&lt;MinuitParameter*&gt;&amp; AmpGen::LinearErrorPropagator::params </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -462,7 +462,7 @@ template&lt;class FCN &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html">LinearErrorPropagator</a></li>
-    <li class="footer">Generated on Tue Jul 9 2019 14:09:00 for AmpGen by
+    <li class="footer">Generated on Tue Aug 13 2019 15:43:58 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

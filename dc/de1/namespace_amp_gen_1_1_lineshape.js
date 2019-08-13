@@ -26,5 +26,6 @@ var namespace_amp_gen_1_1_lineshape =
     [ "PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o" ],
     [ "Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon" ],
     [ "Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly" ],
-    [ "SBW", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w" ]
+    [ "SBW", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w" ],
+    [ "TD", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d" ]
 ];

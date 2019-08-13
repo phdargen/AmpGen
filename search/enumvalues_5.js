@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hide',['Hide',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#a0f3b92b9c9d289e0d99893ae00796f79a7c71d60824a852f92a801f9fa104329e',1,'AmpGen::MinuitParameter']]]
+  ['none',['None',['../de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869a242a8ab31e4b9b787c59e524987ba4b6',1,'AmpGen::Particle']]]
 ];

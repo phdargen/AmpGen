@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['transferfcn',['TransferFCN',['../d5/d4f/struct_amp_gen_1_1_integral.html#a9a11294ba5085f1202d103534a45da7a',1,'AmpGen::Integral']]]
+  ['transferfcn',['TransferFCN',['../d5/d4f/struct_amp_gen_1_1_integral.html#a9a11294ba5085f1202d103534a45da7a',1,'AmpGen::Integral']]],
+  ['type',['type',['../dc/d82/namespace_amp_gen.html#a81889c6dbed774b813935be72c4df630',1,'AmpGen::zeroType']]]
 ];

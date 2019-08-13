@@ -6,6 +6,7 @@ var searchData=
   ['t_5fvs_5fd',['T_VS_D',['../d0/d23/struct_amp_gen_1_1_vertex_1_1_t___v_s___d.html',1,'AmpGen::Vertex']]],
   ['t_5fvs_5fp',['T_VS_P',['../df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html',1,'AmpGen::Vertex']]],
   ['tan',['Tan',['../d2/d28/class_amp_gen_1_1_tan.html',1,'AmpGen']]],
+  ['td',['TD',['../dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html',1,'AmpGen::Lineshape']]],
   ['tensor',['Tensor',['../d4/d0e/class_amp_gen_1_1_tensor.html',1,'AmpGen']]],
   ['tensorexpression',['TensorExpression',['../d6/dc4/class_amp_gen_1_1_tensor_expression.html',1,'AmpGen']]],
   ['tensorproxy',['TensorProxy',['../d6/dc0/class_amp_gen_1_1_tensor_proxy.html',1,'AmpGen']]],

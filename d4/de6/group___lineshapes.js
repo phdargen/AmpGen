@@ -91,6 +91,12 @@ var group___lineshapes =
       [ "get", "d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#a2fae6c89ca572172a1bef5d5077e97c0", null ],
       [ "get", "d7/d30/class_amp_gen_1_1_lineshape_1_1_eta_dalitz.html#afc036dcc6b798970327c4023a060a10c", null ]
     ] ],
+    [ "TD", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html", [
+      [ "TD", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#a239bb5828e4e74a6830818938517186f", null ],
+      [ "create", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#ae0a4042b896c0f6cd580b5894b9d88b9", null ],
+      [ "get", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#ad58a0a11c81f529fd8314f753c637c94", null ],
+      [ "get", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#a784d25cb6343372bafc9c33655393246", null ]
+    ] ],
     [ "DECLARE_LINESHAPE", "d4/de6/group___lineshapes.html#gaddf2977f4c6bfc913c2432bbff917928", null ],
     [ "DECLARE_LINESHAPE", "d4/de6/group___lineshapes.html#ga6711d5356a06dce7b41981cd8106f4f7", null ]
 ];

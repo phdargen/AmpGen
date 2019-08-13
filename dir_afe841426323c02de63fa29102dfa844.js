@@ -33,6 +33,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "DynamicFCN", "dc/d82/namespace_amp_gen.html#df/dae/class_amp_gen_1_1_dynamic_f_c_n", null ],
       [ "DynamicFCN< RETURN_TYPE(IN_TYPES...)>", "db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html", "db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4" ]
     ] ],
+    [ "enum.h", "d0/d9b/enum_8h.html", "d0/d9b/enum_8h" ],
     [ "ErrorPropagator.h", "d7/df3/_error_propagator_8h.html", [
       [ "LinearErrorPropagator", "db/d4b/class_amp_gen_1_1_linear_error_propagator.html", "db/d4b/class_amp_gen_1_1_linear_error_propagator" ],
       [ "GaussErrorPropagator", "d1/de8/class_amp_gen_1_1_gauss_error_propagator.html", "d1/de8/class_amp_gen_1_1_gauss_error_propagator" ]
@@ -81,10 +82,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "MinuitExpression.h", "d7/d9c/_minuit_expression_8h.html", [
       [ "MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html", "d8/d4d/class_amp_gen_1_1_minuit_expression" ]
     ] ],
-    [ "MinuitParameter.h", "d0/d6e/_minuit_parameter_8h.html", [
-      [ "MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html", "d1/dd7/class_amp_gen_1_1_minuit_parameter" ],
-      [ "MinuitProxy", "de/d24/class_amp_gen_1_1_minuit_proxy.html", "de/d24/class_amp_gen_1_1_minuit_proxy" ]
-    ] ],
+    [ "MinuitParameter.h", "d0/d6e/_minuit_parameter_8h.html", "d0/d6e/_minuit_parameter_8h" ],
     [ "MinuitParameterSet.h", "d2/db9/_minuit_parameter_set_8h.html", [
       [ "MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set" ]
     ] ],

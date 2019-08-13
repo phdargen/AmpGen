@@ -9,6 +9,5 @@ var searchData=
   ['head',['head',['../dc/dee/class_amp_gen_1_1_amplitude_rule.html#a7fe422d2863f9516f79b39aa3afa7fdf',1,'AmpGen::AmplitudeRule']]],
   ['helicityamplitude',['helicityAmplitude',['../dc/d82/namespace_amp_gen.html#a48c0534e6988da8124994c4d0948b107',1,'AmpGen']]],
   ['helicitycosine',['HelicityCosine',['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html#a1e6d96784b07274db9d3e6fd7a9b1325',1,'AmpGen::HelicityCosine::HelicityCosine(const std::vector&lt; size_t &gt; &amp;p1, const std::vector&lt; size_t &gt; &amp;p2, const std::vector&lt; size_t &gt; &amp;pR)'],['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html#a740f47568c9def790522f5bcf977e4f3',1,'AmpGen::HelicityCosine::HelicityCosine(const size_t &amp;i, const size_t &amp;j, const std::vector&lt; size_t &gt; &amp;pR)']]],
-  ['help',['help',['../d9/d1b/class_amp_gen_1_1_named_parameter.html#aecf78c088f40b166358a7c3230b881e5',1,'AmpGen::NamedParameter']]],
-  ['hidden',['hidden',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#af2ce07a96b6f9f9d6e88d4d26df5d551',1,'AmpGen::MinuitParameter']]]
+  ['help',['help',['../d9/d1b/class_amp_gen_1_1_named_parameter.html#aecf78c088f40b166358a7c3230b881e5',1,'AmpGen::NamedParameter']]]
 ];

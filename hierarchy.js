@@ -74,7 +74,8 @@ var hierarchy =
       [ "AmpGen::Lineshape::PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", null ],
       [ "AmpGen::Lineshape::Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", null ],
       [ "AmpGen::Lineshape::Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", null ],
-      [ "AmpGen::Lineshape::SBW", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html", null ]
+      [ "AmpGen::Lineshape::SBW", "d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html", null ],
+      [ "AmpGen::Lineshape::TD", "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html", null ]
     ] ],
     [ "AmpGen::Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", null ],
     [ "AmpGen::BinDT", "dc/d42/class_amp_gen_1_1_bin_d_t.html", null ],
@@ -191,7 +192,7 @@ var hierarchy =
     [ "AmpGen::DynamicContainer< TYPE, CONTAINER_TYPE >::Iterator", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html", null ],
     [ "AmpGen::LinearErrorPropagator", "db/d4b/class_amp_gen_1_1_linear_error_propagator.html", null ],
     [ "AmpGen::LS", "dc/d82/namespace_amp_gen.html#d4/d7d/struct_amp_gen_1_1_l_s", null ],
-    [ "AmpGen::MinuitParameter", "d1/dd7/class_amp_gen_1_1_minuit_parameter.html", [
+    [ "MinuitParameter", null, [
       [ "AmpGen::MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html", null ]
     ] ],
     [ "AmpGen::MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html", null ],
@@ -228,5 +229,6 @@ var hierarchy =
     [ "AmpGen::TransitionMatrix< RT >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
     [ "AmpGen::TransitionMatrix< complex_t >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
     [ "AmpGen::TransitionMatrix< std::vector< complex_t > >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
-    [ "AmpGen::TreeReader< OutputType >", "dd/da6/class_amp_gen_1_1_tree_reader.html", null ]
+    [ "AmpGen::TreeReader< OutputType >", "dd/da6/class_amp_gen_1_1_tree_reader.html", null ],
+    [ "AmpGen::zeroType< T, Args >", "dc/d82/namespace_amp_gen.html#d1/d27/struct_amp_gen_1_1zero_type", null ]
 ];

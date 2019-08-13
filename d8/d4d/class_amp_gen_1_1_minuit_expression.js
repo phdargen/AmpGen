@@ -1,38 +1,9 @@
 var class_amp_gen_1_1_minuit_expression =
 [
-    [ "Flag", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a0f3b92b9c9d289e0d99893ae00796f79", [
-      [ "Float", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a0f3b92b9c9d289e0d99893ae00796f79a36f983503a8f28002ac0219ec1ae407a", null ],
-      [ "Hide", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a0f3b92b9c9d289e0d99893ae00796f79a7c71d60824a852f92a801f9fa104329e", null ],
-      [ "Fix", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a0f3b92b9c9d289e0d99893ae00796f79a14c4c3c6631392a0f53ca5eaa1e41b9a", null ],
-      [ "CompileTimeConstant", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a0f3b92b9c9d289e0d99893ae00796f79a62e09dbb86f42c2fc21fc784229cc120", null ]
-    ] ],
     [ "MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a6cdb5f0539dae32b70496666066220cd", null ],
     [ "~MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a21c0e07e7810cc652030a70d9046cc5f", null ],
-    [ "err", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a0f035d491ef5472d0e7e4c2f0480ffa1", null ],
-    [ "errNeg", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a6b48c21f524a616b726cb6ca6cabc4de", null ],
-    [ "errPos", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a4f02cc0aa6aa824e0176ad66d76d86d6", null ],
-    [ "fix", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#af44e8377f01f281e441a20912f01516a", null ],
-    [ "fixed", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#ae57ad8068c6175681505b9b98358cf97", null ],
     [ "getVal", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a133d5e94fdbb9dab6bf676a58a9ca27f", null ],
-    [ "hidden", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#af2ce07a96b6f9f9d6e88d4d26df5d551", null ],
-    [ "iFixInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a66b49ea995dbf00a1f1bba6e3c020517", null ],
     [ "isGood", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a6eb28fbd495a65e3d0ff325edf57664d", null ],
-    [ "maxInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#ac3b1b5b170338da82b50d25c34879319", null ],
     [ "mean", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a897dec21190671f1eaa116b538caa4c8", null ],
-    [ "meanInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#add273fba63304b474c50c6f65bef042f", null ],
-    [ "minInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a908076a7d4094644624bcf4524704f6c", null ],
-    [ "name", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#aca16afd3d3bb968d4a4711434bf39590", null ],
-    [ "operator double", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#ad124723a712843eafc0613af6fa5dc01", null ],
-    [ "print", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a6983c5ad32434b3e15f9d7858f90436c", null ],
-    [ "resetToInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#aa9ec6e1ebf2fe006726f627de2a2b2a0", null ],
-    [ "scaleStep", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#abb0121ca3797d230da9ab1901bdb06a8", null ],
-    [ "setCurrentFitVal", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a39d84e2553dff837537cb6d1894fee70", null ],
-    [ "setFree", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a25f5b16803738d372291aeff13962069", null ],
-    [ "setInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a358f6be7794902cc42968a80dfbca47a", null ],
-    [ "setLimits", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a144b7721aca2296705ae550611a7ff63", null ],
-    [ "setName", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#ac08ac1d7549f0d8c09b3be83b57179d5", null ],
-    [ "setResult", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a97abd140232f6a320ab1b1c652b96bf3", null ],
-    [ "setStepInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a95b6525cf22fb69848497dc29ee9b21c", null ],
-    [ "stepInit", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a4dae64711e215f6aa8ad0b765baf2878", null ],
-    [ "vp", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a3ff4261cbfb238c80273fb8e9de91dc8", null ]
+    [ "operator double", "d8/d4d/class_amp_gen_1_1_minuit_expression.html#ad124723a712843eafc0613af6fa5dc01", null ]
 ];

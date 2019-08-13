@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r',['R',['../db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad',1,'AmpGen::ParticleProperties::R()'],['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a25d1c712de08a4135b9f244339bc276b',1,'AmpGen::IBinaryExpression::r()']]],
+  ['r',['r',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a25d1c712de08a4135b9f244339bc276b',1,'AmpGen::IBinaryExpression::r()'],['../db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad',1,'AmpGen::ParticleProperties::R()']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html#a8da14d7880dc414b9383377f88ea21fa',1,'AmpGen::Vertex::r_fS_D']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html',1,'AmpGen::Vertex']]],
   ['r_5ffs_5fp',['r_fS_P',['../d0/d1d/struct_amp_gen_1_1_vertex_1_1r__f_s___p.html',1,'AmpGen::Vertex']]],
@@ -37,7 +37,7 @@ var searchData=
   ['resetcache',['resetCache',['../db/d4b/class_amp_gen_1_1_event_list.html#a049e84fc02dfb0eb687740d6ac448a4f',1,'AmpGen::EventList']]],
   ['resetcalculateflags',['resetCalculateFlags',['../d1/d6c/class_amp_gen_1_1_bilinears.html#a6817f59502c34a55034f861b5d2e714e',1,'AmpGen::Bilinears']]],
   ['resetexternals',['resetExternals',['../d1/d43/class_amp_gen_1_1_compiled_expression.html#a44fe081d1720abf6a269ff02d9ed357e',1,'AmpGen::CompiledExpression']]],
-  ['resettoinit',['resetToInit',['../d1/dd7/class_amp_gen_1_1_minuit_parameter.html#aa9ec6e1ebf2fe006726f627de2a2b2a0',1,'AmpGen::MinuitParameter::resetToInit()'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ad4d77732fa0f24666dd4fd8efd30c267',1,'AmpGen::MinuitParameterSet::resetToInit()']]],
+  ['resettoinit',['resetToInit',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ad4d77732fa0f24666dd4fd8efd30c267',1,'AmpGen::MinuitParameterSet']]],
   ['resize',['resize',['../d1/d6c/class_amp_gen_1_1_bilinears.html#ac44f815b02c0168fe998ed21eb1d7402',1,'AmpGen::Bilinears']]],
   ['resizecache',['resizeCache',['../dd/dc4/class_amp_gen_1_1_event.html#a2546b96640119b6d0230133f720914aa',1,'AmpGen::Event']]],
   ['resizeexternalcache',['resizeExternalCache',['../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892',1,'AmpGen::CompiledExpression::resizeExternalCache()'],['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a70f908b8e894918450590543383005da',1,'AmpGen::CompiledExpressionBase::resizeExternalCache()']]],

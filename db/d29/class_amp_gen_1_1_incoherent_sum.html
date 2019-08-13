@@ -189,7 +189,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aedb52307553690261ce3f93a43544063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2935923a57b9fb2f701f66ab64b1a185"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a2935923a57b9fb2f701f66ab64b1a185">setWeight</a> (const double &amp;weight)</td></tr>
 <tr class="separator:a2935923a57b9fb2f701f66ab64b1a185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c75e02d1b1e800786eed330a5fd7401"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c75e02d1b1e800786eed330a5fd7401">setWeight</a> (<a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> *param)</td></tr>
+<tr class="memitem:a1c75e02d1b1e800786eed330a5fd7401"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c75e02d1b1e800786eed330a5fd7401">setWeight</a> (MinuitParameter *param)</td></tr>
 <tr class="separator:a1c75e02d1b1e800786eed330a5fd7401"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d025d5a490a30a9427742c8237a2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#ab3d025d5a490a30a9427742c8237a2c1">makeTotalExpression</a> ()</td></tr>
 <tr class="separator:ab3d025d5a490a30a9427742c8237a2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,7 +240,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a473f4282e59e9ee48ca05d8b41e7a104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a473f4282e59e9ee48ca05d8b41e7a104">m_evtType</a></td></tr>
 <tr class="memdesc:a473f4282e59e9ee48ca05d8b41e7a104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final state for this amplitude.  <a href="#a473f4282e59e9ee48ca05d8b41e7a104">More...</a><br /></td></tr>
 <tr class="separator:a473f4282e59e9ee48ca05d8b41e7a104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f9cb218c04637fe3fce59e3f7ff836"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a85f9cb218c04637fe3fce59e3f7ff836">m_weightParam</a> = {nullptr}</td></tr>
+<tr class="memitem:a85f9cb218c04637fe3fce59e3f7ff836"><td class="memItemLeft" align="right" valign="top">MinuitParameter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a85f9cb218c04637fe3fce59e3f7ff836">m_weightParam</a> = {nullptr}</td></tr>
 <tr class="memdesc:a85f9cb218c04637fe3fce59e3f7ff836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight parameter (i.e. the normalised yield)  <a href="#a85f9cb218c04637fe3fce59e3f7ff836">More...</a><br /></td></tr>
 <tr class="separator:a85f9cb218c04637fe3fce59e3f7ff836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8185299dff52077e014ef8bf29407ba"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#af8185299dff52077e014ef8bf29407ba">m_prepareCalls</a> = {0}</td></tr>
@@ -1168,7 +1168,7 @@ Inheritance diagram for AmpGen::IncoherentSum:</div>
         <tr>
           <td class="memname">void AmpGen::CoherentSum::setWeight </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a> *&#160;</td>
+          <td class="paramtype">MinuitParameter *&#160;</td>
           <td class="paramname"><em>param</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1639,7 +1639,7 @@ Inheritance diagram for AmpGen::IncoherentSum:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/dd7/class_amp_gen_1_1_minuit_parameter.html">MinuitParameter</a>* AmpGen::CoherentSum::m_weightParam = {nullptr}</td>
+          <td class="memname">MinuitParameter* AmpGen::CoherentSum::m_weightParam = {nullptr}</td>
         </tr>
       </table>
   </td>
@@ -1662,7 +1662,7 @@ Inheritance diagram for AmpGen::IncoherentSum:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/d29/class_amp_gen_1_1_incoherent_sum.html">IncoherentSum</a></li>
-    <li class="footer">Generated on Tue Jul 9 2019 14:09:00 for AmpGen by
+    <li class="footer">Generated on Tue Aug 13 2019 15:43:58 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
