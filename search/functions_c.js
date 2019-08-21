@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['magpoly',['MagPoly',['../d4/db4/class_amp_gen_1_1_lineshape_1_1_mag_poly.html#af479436db6f1428ba8ba0fd406b4dead',1,'AmpGen::Lineshape::MagPoly']]],
   ['make_5fcse',['make_cse',['../dc/d82/namespace_amp_gen.html#a505317a5dd03f66a9a5dcb1daaa69a4a',1,'AmpGen']]],
   ['make_5fexpression',['make_expression',['../dc/d82/namespace_amp_gen.html#a9f2ccb2c29e9826e0f5957af9ff670b0',1,'AmpGen::make_expression(const Expression &amp;expression, const std::string &amp;name, const bool &amp;verbose=false)'],['../dc/d82/namespace_amp_gen.html#a6ccfa81b06495a4255bf1a4fae1d2db4',1,'AmpGen::make_expression(const Expression &amp;expression, const std::string &amp;name, const MinuitParameterSet &amp;mps)'],['../dc/d82/namespace_amp_gen.html#afa1b225839b5d705dc1cfcb6c2a5f6f8',1,'AmpGen::make_expression(const Expression &amp;expression, const std::string &amp;name, const std::map&lt; std::string, size_t &gt; &amp;evtMap, const MinuitParameterSet &amp;mps)']]],
   ['make_5fpdf',['make_pdf',['../dc/d82/namespace_amp_gen.html#a11c2e6f768b41b6e615e65d0636baeb8',1,'AmpGen::make_pdf(const FCN &amp;fcn)'],['../dc/d82/namespace_amp_gen.html#a7b1cd7da01cde5bb2c1a1d64c06dc037',1,'AmpGen::make_pdf(PDFS &amp;&amp;...pdfs)']]],
@@ -30,6 +31,7 @@ var searchData=
   ['minuitparameterset',['MinuitParameterSet',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aa93da5a4550c6f3b21f00ca2b4968ecc',1,'AmpGen::MinuitParameterSet::MinuitParameterSet()'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aee752927f302c9ba5fd67df039f47fa3',1,'AmpGen::MinuitParameterSet::MinuitParameterSet(const std::vector&lt; MinuitParameter * &gt; &amp;params)'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#afe83639f78476ae4a5f707e782229f3d',1,'AmpGen::MinuitParameterSet::MinuitParameterSet(const MinuitParameterSet &amp;other)']]],
   ['minuitproxy',['MinuitProxy',['../de/d24/class_amp_gen_1_1_minuit_proxy.html#ae8d177af4440bc7b73369b915aa08661',1,'AmpGen::MinuitProxy']]],
   ['mipwa',['MIPWA',['../d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html#ab0784d2f1a5a8a2cbafd26b55f833330',1,'AmpGen::Lineshape::MIPWA']]],
+  ['modelstore',['ModelStore',['../d5/dc6/struct_model_store.html#a727de9c4b3dd566ab29efe6f25451123',1,'ModelStore']]],
   ['momentumtransfer',['MomentumTransfer',['../d7/d3d/class_amp_gen_1_1_momentum_transfer.html#ae43da101a5d869a9507fe91db05f2885',1,'AmpGen::MomentumTransfer']]],
   ['mother',['mother',['../d7/dfa/class_amp_gen_1_1_event_type.html#a2a1a926c4b7bfb580aaf38e2897d56d8',1,'AmpGen::EventType']]],
   ['mothermass',['motherMass',['../d7/dfa/class_amp_gen_1_1_event_type.html#a557d42e02550520a6d95bd94a272d3fb',1,'AmpGen::EventType']]],

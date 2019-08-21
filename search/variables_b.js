@@ -34,7 +34,7 @@ var searchData=
   ['m_5fname',['m_name',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a94df13dcc083972d362090f02ca72df5',1,'AmpGen::CompiledExpressionBase::m_name()'],['../d5/d9b/struct_amp_gen_1_1_function.html#a280dc508e7b6e99c49c629085aaa1b14',1,'AmpGen::Function::m_name()'],['../d9/d1b/class_amp_gen_1_1_named_parameter.html#ae7bf2b8fd01469fa7b18b23a9262137a',1,'AmpGen::NamedParameter::m_name()'],['../d8/d3c/class_amp_gen_1_1_spline.html#a617fbd36493f888e260c96bb80c3b050',1,'AmpGen::Spline::m_name()']]],
   ['m_5fnknots',['m_nKnots',['../d8/d3c/class_amp_gen_1_1_spline.html#a6ff8f1c94ab9479011c327ebd62e130b',1,'AmpGen::Spline']]],
   ['m_5fnodes',['m_nodes',['../da/da8/class_amp_gen_1_1_fast_d_t.html#a6315a300d242edd47227ad050a212710',1,'AmpGen::FastDT']]],
-  ['m_5fnorm',['m_norm',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ae21113a04d7accd43f7d65f000018d8a',1,'AmpGen::CoherentSum']]],
+  ['m_5fnorm',['m_norm',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ae21113a04d7accd43f7d65f000018d8a',1,'AmpGen::CoherentSum::m_norm()'],['../df/d84/class_correlated_sum.html#ab977508fff2524483ee9b13b686e2a9c',1,'CorrelatedSum::m_norm()']]],
   ['m_5fnormalisations',['m_normalisations',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a992ab3fecae4241fd34eac35e8117aac',1,'AmpGen::CoherentSum']]],
   ['m_5fobj',['m_obj',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a7d677929d75db873644da127c3a7b8f2',1,'AmpGen::CompiledExpressionBase']]],
   ['m_5fobjcache',['m_objCache',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a2582af39ef7710d469d33fde4a1b890a',1,'AmpGen::CoherentSum']]],
@@ -49,8 +49,10 @@ var searchData=
   ['m_5fprotoamplitudes',['m_protoAmplitudes',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c4c4be21e87a6fa40ee6fea2a006142',1,'AmpGen::CoherentSum']]],
   ['m_5fqueueordering',['m_queueOrdering',['../da/da8/class_amp_gen_1_1_fast_d_t.html#a0f4c35a730716e6c133d3afeffa4e4fa',1,'AmpGen::FastDT']]],
   ['m_5fresolver',['m_resolver',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#af9bae7d21b3d3c2d4ae7df143ffbe595',1,'AmpGen::CompiledExpressionBase']]],
+  ['m_5fsigtype',['m_sigType',['../d7/daa/struct_d_t_event_list.html#a571be07d5ae9a5f3338c05bcf5af56e8',1,'DTEventList']]],
   ['m_5fsize',['m_size',['../d8/d16/class_amp_gen_1_1_cache_transfer.html#a2b208ef3226a6fdc56055bbdf52a0b19',1,'AmpGen::CacheTransfer']]],
   ['m_5fsource',['m_source',['../d0/dbe/class_amp_gen_1_1_parameter_transfer.html#a2b44fc1bd3ababe7a46a258d4ba39de7',1,'AmpGen::ParameterTransfer']]],
+  ['m_5ftagtype',['m_tagType',['../d7/daa/struct_d_t_event_list.html#aed562b6001a061eb677940eeb7babe1f',1,'DTEventList']]],
   ['m_5fterms',['m_terms',['../d8/db1/class_amp_gen_1_1_factory.html#abddf0a1a7988b7093eecd934ebff42e8',1,'AmpGen::Factory::m_terms()'],['../dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html#a59c245d55f59287ed59ae124dd639cfd',1,'AmpGen::NormalOrderedExpression::Term::m_terms()']]],
   ['m_5ftotal',['m_total',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ae470e45a3d9d282171741c4950b94b12',1,'AmpGen::CoherentSum']]],
   ['m_5fv1',['m_v1',['../d5/d86/struct_amp_gen_1_1_ternary.html#ad31a0871f99573a8e99245dda2871b95',1,'AmpGen::Ternary']]],
@@ -61,5 +63,6 @@ var searchData=
   ['m_5fweight',['m_weight',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#aff85b856bcd0f5c25c20b1d98f94558e',1,'AmpGen::CoherentSum']]],
   ['m_5fweightparam',['m_weightParam',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a85f9cb218c04637fe3fce59e3f7ff836',1,'AmpGen::CoherentSum']]],
   ['m_5fx',['m_x',['../d8/d3c/class_amp_gen_1_1_spline.html#abbac3b5f407b344507697ffe0d94051e',1,'AmpGen::Spline']]],
-  ['mev',['MeV',['../dc/d82/namespace_amp_gen.html#a3bc93e99586fa84c8c3ffd2f99f13d2c',1,'AmpGen']]]
+  ['mev',['MeV',['../dc/d82/namespace_amp_gen.html#a3bc93e99586fa84c8c3ffd2f99f13d2c',1,'AmpGen']]],
+  ['mps',['mps',['../d5/dc6/struct_model_store.html#a2c9749ea62b2596f8f451d6ea5d66143',1,'ModelStore']]]
 ];
