@@ -3,6 +3,7 @@ var class_correlated_sum =
     [ "CorrelatedSum", "df/d84/class_correlated_sum.html#a3e314eb255d41b152feaf4f57772e228", null ],
     [ "CorrelatedSum", "df/d84/class_correlated_sum.html#a2809b4f55122c5a1faaa0cd6d4c70239", null ],
     [ "~CorrelatedSum", "df/d84/class_correlated_sum.html#a38fe24c6a9200c84ce0b97c60dbc5b92", null ],
+    [ "debugNorm", "df/d84/class_correlated_sum.html#ae68ff84fcd029da4f307e03f3468115e", null ],
     [ "getVal", "df/d84/class_correlated_sum.html#a5a416c8b2019f12992ba697a38ec74cd", null ],
     [ "getValNoCache", "df/d84/class_correlated_sum.html#a1b123766d5a3d60d11d458e925d721a2", null ],
     [ "getValNoCache", "df/d84/class_correlated_sum.html#a49a29555ea0e3c627a6c98987e6c4559", null ],
