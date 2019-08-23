@@ -125,8 +125,14 @@ $(document).ready(function(){initNavTree('d9/d1b/class_amp_gen_1_1_named_paramet
 <div class="textblock"><h3>template&lt;class T&gt;<br />
 class AmpGen::NamedParameter&lt; T &gt;</h3>
 
+<p>Stores a vector of values for a parameter. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>the type of this named parameter, i.e. strings, or numbers or bools etc. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00024">24</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00031">31</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -167,6 +173,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac1afaf280cb29cb54ff55b7d89e42362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1b/class_amp_gen_1_1_named_parameter.html#ac1afaf280cb29cb54ff55b7d89e42362">setFromOptionsParser</a> ()</td></tr>
+<tr class="memdesc:ac1afaf280cb29cb54ff55b7d89e42362"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; The value (array) of this parameter.  <a href="#ac1afaf280cb29cb54ff55b7d89e42362">More...</a><br /></td></tr>
 <tr class="separator:ac1afaf280cb29cb54ff55b7d89e42362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -174,8 +181,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ae7bf2b8fd01469fa7b18b23a9262137a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1b/class_amp_gen_1_1_named_parameter.html#ae7bf2b8fd01469fa7b18b23a9262137a">m_name</a></td></tr>
 <tr class="separator:ae7bf2b8fd01469fa7b18b23a9262137a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae744dc84abd6bd94a99bdb73e3b41c20"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1b/class_amp_gen_1_1_named_parameter.html#ae744dc84abd6bd94a99bdb73e3b41c20">m_helpString</a></td></tr>
+<tr class="memdesc:ae744dc84abd6bd94a99bdb73e3b41c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; Name of this parameter  <a href="#ae744dc84abd6bd94a99bdb73e3b41c20">More...</a><br /></td></tr>
 <tr class="separator:ae744dc84abd6bd94a99bdb73e3b41c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cba2ae0c6e67b808e7ad20b72deffd4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1b/class_amp_gen_1_1_named_parameter.html#a1cba2ae0c6e67b808e7ad20b72deffd4">m_valueArray</a></td></tr>
+<tr class="memdesc:a1cba2ae0c6e67b808e7ad20b72deffd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; The helper string for this parameter, printed if the flag &ndash;help is used.  <a href="#a1cba2ae0c6e67b808e7ad20b72deffd4">More...</a><br /></td></tr>
 <tr class="separator:a1cba2ae0c6e67b808e7ad20b72deffd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -183,7 +192,7 @@ Protected Attributes</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -219,7 +228,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00053">53</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00060">60</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -227,7 +236,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -263,7 +272,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00085">85</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00069">69</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -272,7 +281,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -292,7 +301,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00114">114</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00098">98</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -300,7 +309,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -319,7 +328,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00126">126</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00110">110</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -327,7 +336,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -357,7 +366,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00154">154</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00138">138</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -365,7 +374,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -385,7 +394,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00094">94</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00078">78</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -393,7 +402,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -412,7 +421,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00152">152</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00136">136</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +429,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -439,7 +448,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00141">141</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00125">125</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -447,7 +456,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -466,7 +475,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00124">124</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00108">108</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +483,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -493,7 +502,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00125">125</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00109">109</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -501,7 +510,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -521,7 +530,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00142">142</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00126">126</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -529,7 +538,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -549,7 +558,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00147">147</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00131">131</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -557,7 +566,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -576,7 +585,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00031">31</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00038">38</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -584,7 +593,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -614,7 +623,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00128">128</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00112">112</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -622,7 +631,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -642,7 +651,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00136">136</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00120">120</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -650,7 +659,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -669,7 +678,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00112">112</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00096">96</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -678,7 +687,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -694,7 +703,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00028">28</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00035">35</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -702,7 +711,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -718,7 +727,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00027">27</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00034">34</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -726,7 +735,7 @@ template&lt;class T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -742,7 +751,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00029">29</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d78/_named_parameter_8h_source.html#l00036">36</a> of file <a class="el" href="../../df/d78/_named_parameter_8h_source.html">NamedParameter.h</a>.</p>
 
 </div>
 </div>
@@ -755,7 +764,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d9/d1b/class_amp_gen_1_1_named_parameter.html">NamedParameter</a></li>
-    <li class="footer">Generated on Thu Aug 22 2019 14:06:37 for AmpGen by
+    <li class="footer">Generated on Fri Aug 23 2019 12:44:07 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -61,6 +61,7 @@ var namespace_amp_gen =
     [ "IncoherentSum", "db/d29/class_amp_gen_1_1_incoherent_sum.html", "db/d29/class_amp_gen_1_1_incoherent_sum" ],
     [ "Integral", "d5/d4f/struct_amp_gen_1_1_integral.html", "d5/d4f/struct_amp_gen_1_1_integral" ],
     [ "Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", "d5/dfb/class_amp_gen_1_1_integrator" ],
+    [ "Integrator2", "d0/da6/class_amp_gen_1_1_integrator2.html", "d0/da6/class_amp_gen_1_1_integrator2" ],
     [ "ISqrt", "d9/dd2/class_amp_gen_1_1_i_sqrt.html", "d9/dd2/class_amp_gen_1_1_i_sqrt" ],
     [ "IUnaryExpression", "d5/d3f/class_amp_gen_1_1_i_unary_expression.html", "d5/d3f/class_amp_gen_1_1_i_unary_expression" ],
     [ "LASSO", "dd/d4b/class_amp_gen_1_1_l_a_s_s_o.html", "dd/d4b/class_amp_gen_1_1_l_a_s_s_o" ],

@@ -11,7 +11,6 @@ var class_amp_gen_1_1_event_type =
     [ "eventSize", "d7/dfa/class_amp_gen_1_1_event_type.html#a0b77cb7216e2dc46e4a887dec1f9e4fe", null ],
     [ "extendEventType", "d7/dfa/class_amp_gen_1_1_event_type.html#a24bee326830f1aab4bf0301042b1f664", null ],
     [ "finalStates", "d7/dfa/class_amp_gen_1_1_event_type.html#adfe49d6790817de627b4bcb5e545e32a", null ],
-    [ "getBosePairs", "d7/dfa/class_amp_gen_1_1_event_type.html#a6f7c91f6311c366e281df465372e9cc1", null ],
     [ "getEventFormat", "d7/dfa/class_amp_gen_1_1_event_type.html#a29d49ebfba4c12f2777ed694d2d49398", null ],
     [ "has", "d7/dfa/class_amp_gen_1_1_event_type.html#ae256bfd005fb38e29107788be82fc094", null ],
     [ "isTimeDependent", "d7/dfa/class_amp_gen_1_1_event_type.html#a884520bae7296d6428694c4da34e2352", null ],

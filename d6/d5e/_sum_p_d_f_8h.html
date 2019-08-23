@@ -117,8 +117,7 @@ $(document).ready(function(){initNavTree('d6/d5e/_sum_p_d_f_8h.html','../../');}
 <div class="title">SumPDF.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../df/d3d/_event_list_8h_source.html">AmpGen/EventList.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d79/_i_extend_likelihood_8h_source.html">AmpGen/IExtendLikelihood.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d79/_i_extend_likelihood_8h_source.html">AmpGen/IExtendLikelihood.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d85/_meta_utils_8h_source.html">AmpGen/MetaUtils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/daa/_msg_service_8h_source.html">AmpGen/MsgService.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d0d/_profile_clock_8h_source.html">AmpGen/ProfileClock.h</a>&quot;</code><br />
@@ -128,8 +127,8 @@ $(document).ready(function(){initNavTree('d6/d5e/_sum_p_d_f_8h.html','../../');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF&lt; TYPES &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pdf with the log-likelihood of the form -2*LL(event) = -2*log( Sum( i, P_i(event) ) ) Where P_i are some probability density functions The sum is variadically unrolled at compile time, i.e.  <a href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF&lt; eventListType, pdfTypes &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pdf that contains one or more terms.  <a href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -139,9 +138,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7b1cd7da01cde5bb2c1a1d64c06dc037"><td class="memTemplParams" colspan="2">template&lt;class... PDFS&gt; </td></tr>
-<tr class="memitem:a7b1cd7da01cde5bb2c1a1d64c06dc037"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a7b1cd7da01cde5bb2c1a1d64c06dc037">AmpGen::make_pdf</a> (PDFS &amp;&amp;...pdfs)</td></tr>
-<tr class="separator:a7b1cd7da01cde5bb2c1a1d64c06dc037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7363ba4dd825b9eb451f0a0cd767a0e7"><td class="memTemplParams" colspan="2">template&lt;class eventListType  = EventList, class... pdfTypes&gt; </td></tr>
+<tr class="memitem:a7363ba4dd825b9eb451f0a0cd767a0e7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a7363ba4dd825b9eb451f0a0cd767a0e7">AmpGen::make_pdf</a> (pdfTypes &amp;&amp;...pdfs)</td></tr>
+<tr class="memdesc:a7363ba4dd825b9eb451f0a0cd767a0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">make_pdf  <a href="../../dc/d82/namespace_amp_gen.html#a7363ba4dd825b9eb451f0a0cd767a0e7">More...</a><br /></td></tr>
+<tr class="separator:a7363ba4dd825b9eb451f0a0cd767a0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94950d96f3e0714e7e792f8fda56870d"><td class="memTemplParams" colspan="2">template&lt;class eventListType  = EventList, class... pdfTypes&gt; </td></tr>
+<tr class="memitem:a94950d96f3e0714e7e792f8fda56870d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a94950d96f3e0714e7e792f8fda56870d">AmpGen::make_likelihood</a> (eventListType &amp;events, pdfTypes &amp;&amp;...pdfs)</td></tr>
+<tr class="separator:a94950d96f3e0714e7e792f8fda56870d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -149,7 +152,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d6/d5e/_sum_p_d_f_8h.html">SumPDF.h</a></li>
-    <li class="footer">Generated on Thu Aug 22 2019 14:06:37 for AmpGen by
+    <li class="footer">Generated on Fri Aug 23 2019 12:44:06 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

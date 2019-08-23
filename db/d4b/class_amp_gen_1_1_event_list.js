@@ -1,5 +1,6 @@
 var class_amp_gen_1_1_event_list =
 [
+    [ "value_type", "db/d4b/class_amp_gen_1_1_event_list.html#a895caef30bcec24787464d39c2c1a4aa", null ],
     [ "EventList", "db/d4b/class_amp_gen_1_1_event_list.html#ae2c5194c4eb44f1812f146ccb144f0d6", null ],
     [ "EventList", "db/d4b/class_amp_gen_1_1_event_list.html#a0ffd8b0f693d0ece873c56d59b970338", null ],
     [ "EventList", "db/d4b/class_amp_gen_1_1_event_list.html#ab0b1ff66c61d154a2eb6b974a8a55cae", null ],
@@ -14,7 +15,6 @@ var class_amp_gen_1_1_event_list =
     [ "end", "db/d4b/class_amp_gen_1_1_event_list.html#abc3917a5c59e09139f1effab6834b264", null ],
     [ "erase", "db/d4b/class_amp_gen_1_1_event_list.html#a850b5fdd1446e2d9800d09413b618bf9", null ],
     [ "eventType", "db/d4b/class_amp_gen_1_1_event_list.html#af3dc392fbf22705587ba276c7b41c29f", null ],
-    [ "extendEvent", "db/d4b/class_amp_gen_1_1_event_list.html#a238f597201f1b094d77f23c90c0f41f5", null ],
     [ "filter", "db/d4b/class_amp_gen_1_1_event_list.html#a12a92e75575b39cc2f4b65302a186fb7", null ],
     [ "getCacheIndex", "db/d4b/class_amp_gen_1_1_event_list.html#aac692ee6f40881101f8549f81ce73c57", null ],
     [ "getCacheIndex", "db/d4b/class_amp_gen_1_1_event_list.html#a95a18987ad3bffdf87356dd340398172", null ],
@@ -41,6 +41,7 @@ var class_amp_gen_1_1_event_list =
     [ "reserve", "db/d4b/class_amp_gen_1_1_event_list.html#a5200f1ff8a7d073f15c136fb6b97edb2", null ],
     [ "reserveCache", "db/d4b/class_amp_gen_1_1_event_list.html#a3e5cb71e9d0a6772f2b8a3b4946f4a0d", null ],
     [ "resetCache", "db/d4b/class_amp_gen_1_1_event_list.html#a049e84fc02dfb0eb687740d6ac448a4f", null ],
+    [ "resizeCache", "db/d4b/class_amp_gen_1_1_event_list.html#a8a63de7a1be2325e6d1ef4396c21ba63", null ],
     [ "setEventType", "db/d4b/class_amp_gen_1_1_event_list.html#a21a6fa750bea64c3be1630d2cc0d9f10", null ],
     [ "size", "db/d4b/class_amp_gen_1_1_event_list.html#ace6778bc7432ff9e7997e6d45798bf4d", null ],
     [ "transform", "db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b", null ],

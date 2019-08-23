@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>AmpGen: AmpGen::SumPDF&lt; TYPES &gt; Class Template Reference</title>
+<title>AmpGen: AmpGen::SumPDF&lt; eventListType, pdfTypes &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,59 +113,61 @@ $(document).ready(function(){initNavTree('d6/dc1/class_amp_gen_1_1_sum_p_d_f.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d2/de3/class_amp_gen_1_1_sum_p_d_f-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AmpGen::SumPDF&lt; TYPES &gt; Class Template Reference</div>  </div>
+<div class="title">AmpGen::SumPDF&lt; eventListType, pdfTypes &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class... TYPES&gt;<br />
-class AmpGen::SumPDF&lt; TYPES &gt;</h3>
+<div class="textblock"><h3>template&lt;class eventListType, class... pdfTypes&gt;<br />
+class AmpGen::SumPDF&lt; eventListType, pdfTypes &gt;</h3>
 
-<p>the wrapper is the same for 1..N pdfs. The unrolling should be properly inlined, hence N can be reasonably large with out afflicting either compile time or binary size. </p>
+<p>A pdf with a probability of the form </p><p class="formulaDsp">
+\[ P(\psi) = \sum_{j} \mathcal{P}_j (\psi), \]
+</p>
+<p> where \( \mathcal{P}_j(\psi) \) are some normalised probability density functions as a function of position in the phase space \( \psi \) , and the sum is over the different terms, typically a signal term and then a number of background terms. The pdf is also equipped with a log-likelihood of the form: </p><p class="formulaDsp">
+\[ -2 \mathcal{L} = - 2 \sum_{i} \log \left( \sum_{j} \mathcal{P}_j \left(\psi_i\right) \right) \]
+</p>
+<p> and the sum over \( i \) is over some dataset. This combined functionality is largely historical and the two roles should be separated at some point in the future. The sum is variadically unrolled at compile time, i.e. the wrapper is the same for 1..N pdfs. The unrolling should be properly inlined, hence N can be reasonably large with out afflicting either compile time or binary size. It isn't primarily used as PDF, as its primary function is as a likelihood via function <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a20d581f37ef8c23575ec5882cddbdbca" title="Returns negative twice the log-likelihood for this PDF and the given dataset. ">getVal()</a>. Typically constructed using either the make_pdf helper function or make_likelihood helper function. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00023">23</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00037">37</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae3d3105761693fafb5130b7d96bd97a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#ae3d3105761693fafb5130b7d96bd97a5">SumPDF</a> ()=default</td></tr>
-<tr class="separator:ae3d3105761693fafb5130b7d96bd97a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61de29c57dc8ea24bee4e1b9998b5242"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a61de29c57dc8ea24bee4e1b9998b5242">SumPDF</a> (const TYPES &amp;..._pdfs)</td></tr>
-<tr class="separator:a61de29c57dc8ea24bee4e1b9998b5242"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af461d70d90fe28133a18bd63a709edb1"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; TYPES... &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#af461d70d90fe28133a18bd63a709edb1">pdfs</a> () const </td></tr>
-<tr class="separator:af461d70d90fe28133a18bd63a709edb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd5d04d7dec75f8ff0b61eb0ee29a53b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#abd5d04d7dec75f8ff0b61eb0ee29a53b">getVal</a> ()</td></tr>
-<tr class="separator:abd5d04d7dec75f8ff0b61eb0ee29a53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25354c1ec3a088fd111408832a72bfbe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a25354c1ec3a088fd111408832a72bfbe">operator()</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt)</td></tr>
-<tr class="separator:a25354c1ec3a088fd111408832a72bfbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe8d515611d86d592e3816af3128f6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a2fe8d515611d86d592e3816af3128f6c">setEvents</a> (<a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;events)</td></tr>
-<tr class="separator:a2fe8d515611d86d592e3816af3128f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c16bbfa93b7e13d2f2173b9abc020d2"><td class="memTemplParams" colspan="2">template&lt;class FCN &gt; </td></tr>
-<tr class="memitem:a3c16bbfa93b7e13d2f2173b9abc020d2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a3c16bbfa93b7e13d2f2173b9abc020d2">forEach</a> (const FCN &amp;fcn)</td></tr>
-<tr class="separator:a3c16bbfa93b7e13d2f2173b9abc020d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8556133f24fab4455d43665d3bead53a"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a8556133f24fab4455d43665d3bead53a">nPDFs</a> ()</td></tr>
-<tr class="separator:a8556133f24fab4455d43665d3bead53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:af1bf29b7b9cd1c21e8ebf3dae6ecfbe9"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; TYPES... &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#af1bf29b7b9cd1c21e8ebf3dae6ecfbe9">m_pdfs</a></td></tr>
-<tr class="separator:af1bf29b7b9cd1c21e8ebf3dae6ecfbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0543c303af3b1054be043bfd80a7bee4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a0543c303af3b1054be043bfd80a7bee4">m_events</a></td></tr>
-<tr class="separator:a0543c303af3b1054be043bfd80a7bee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6842553008d5c58654f3ee0136d4dc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#aa6842553008d5c58654f3ee0136d4dc2">SumPDF</a> ()=default</td></tr>
+<tr class="memdesc:aa6842553008d5c58654f3ee0136d4dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor.  <a href="#aa6842553008d5c58654f3ee0136d4dc2">More...</a><br /></td></tr>
+<tr class="separator:aa6842553008d5c58654f3ee0136d4dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa1ae808e08392f374a65062b7264a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#aaaa1ae808e08392f374a65062b7264a4">SumPDF</a> (const pdfTypes &amp;...<a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a4d91b8a21c14efd9e7957d1d6edff5f5">pdfs</a>)</td></tr>
+<tr class="memdesc:aaaa1ae808e08392f374a65062b7264a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a set of PDF functions.  <a href="#aaaa1ae808e08392f374a65062b7264a4">More...</a><br /></td></tr>
+<tr class="separator:aaaa1ae808e08392f374a65062b7264a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d581f37ef8c23575ec5882cddbdbca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a20d581f37ef8c23575ec5882cddbdbca">getVal</a> ()</td></tr>
+<tr class="memdesc:a20d581f37ef8c23575ec5882cddbdbca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns negative twice the log-likelihood for this PDF and the given dataset.  <a href="#a20d581f37ef8c23575ec5882cddbdbca">More...</a><br /></td></tr>
+<tr class="separator:a20d581f37ef8c23575ec5882cddbdbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88c595f589515f1cbc318025337bfb2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#aa88c595f589515f1cbc318025337bfb2">operator()</a> (const eventValueType &amp;evt)</td></tr>
+<tr class="memdesc:aa88c595f589515f1cbc318025337bfb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the probability for the given event.  <a href="#aa88c595f589515f1cbc318025337bfb2">More...</a><br /></td></tr>
+<tr class="separator:aa88c595f589515f1cbc318025337bfb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009439ff65fd7796bea1e2a9d1bd1ec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a009439ff65fd7796bea1e2a9d1bd1ec9">setEvents</a> (eventListType &amp;events)</td></tr>
+<tr class="memdesc:a009439ff65fd7796bea1e2a9d1bd1ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the events to be summed over in the likelihood.  <a href="#a009439ff65fd7796bea1e2a9d1bd1ec9">More...</a><br /></td></tr>
+<tr class="separator:a009439ff65fd7796bea1e2a9d1bd1ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada294ffd2b2b27fcfa56afd68a532263"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#ada294ffd2b2b27fcfa56afd68a532263">nPDFs</a> () const </td></tr>
+<tr class="memdesc:ada294ffd2b2b27fcfa56afd68a532263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of PDFs contained by this function.  <a href="#ada294ffd2b2b27fcfa56afd68a532263">More...</a><br /></td></tr>
+<tr class="separator:ada294ffd2b2b27fcfa56afd68a532263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d91b8a21c14efd9e7957d1d6edff5f5"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; pdfTypes... &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a4d91b8a21c14efd9e7957d1d6edff5f5">pdfs</a> () const </td></tr>
+<tr class="memdesc:a4d91b8a21c14efd9e7957d1d6edff5f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tuple of PDFs used by this function.  <a href="#a4d91b8a21c14efd9e7957d1d6edff5f5">More...</a><br /></td></tr>
+<tr class="separator:a4d91b8a21c14efd9e7957d1d6edff5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae3d3105761693fafb5130b7d96bd97a5"></a>
+<a class="anchor" id="aa6842553008d5c58654f3ee0136d4dc2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
+template&lt;class eventListType , class... pdfTypes&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::<a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">SumPDF</a> </td>
+          <td class="memname"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; eventListType, pdfTypes &gt;::<a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">SumPDF</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -180,20 +182,20 @@ template&lt;class... TYPES&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a61de29c57dc8ea24bee4e1b9998b5242"></a>
+<a class="anchor" id="aaaa1ae808e08392f374a65062b7264a4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
+template&lt;class eventListType , class... pdfTypes&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::<a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">SumPDF</a> </td>
+          <td class="memname"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; eventListType, pdfTypes &gt;::<a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">SumPDF</a> </td>
           <td>(</td>
-          <td class="paramtype">const TYPES &amp;...&#160;</td>
-          <td class="paramname"><em>_pdfs</em></td><td>)</td>
+          <td class="paramtype">const pdfTypes &amp;...&#160;</td>
+          <td class="paramname"><em>pdfs</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -204,52 +206,22 @@ template&lt;class... TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00027">27</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00049">49</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3c16bbfa93b7e13d2f2173b9abc020d2"></a>
+<a class="anchor" id="a20d581f37ef8c23575ec5882cddbdbca"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
-<div class="memtemplate">
-template&lt;class FCN &gt; </div>
+template&lt;class eventListType , class... pdfTypes&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::forEach </td>
-          <td>(</td>
-          <td class="paramtype">const FCN &amp;&#160;</td>
-          <td class="paramname"><em>fcn</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00057">57</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abd5d04d7dec75f8ff0b61eb0ee29a53b"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::getVal </td>
+          <td class="memname">double <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; eventListType, pdfTypes &gt;::getVal </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -262,76 +234,21 @@ template&lt;class... TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00033">33</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00052">52</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8556133f24fab4455d43665d3bead53a"></a>
+<a class="anchor" id="ada294ffd2b2b27fcfa56afd68a532263"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
+template&lt;class eventListType , class... pdfTypes&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::nPDFs </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00061">61</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a25354c1ec3a088fd111408832a72bfbe"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00044">44</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af461d70d90fe28133a18bd63a709edb1"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::tuple&lt;TYPES...&gt; <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::pdfs </td>
+          <td class="memname">std::size_t <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; eventListType, pdfTypes &gt;::nPDFs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -344,23 +261,78 @@ template&lt;class... TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00080">80</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2fe8d515611d86d592e3816af3128f6c"></a>
+<a class="anchor" id="aa88c595f589515f1cbc318025337bfb2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
+template&lt;class eventListType , class... pdfTypes&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::setEvents </td>
+          <td class="memname">double <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; eventListType, pdfTypes &gt;::operator() </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
+          <td class="paramtype">const eventValueType &amp;&#160;</td>
+          <td class="paramname"><em>evt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00065">65</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4d91b8a21c14efd9e7957d1d6edff5f5"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class eventListType , class... pdfTypes&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::tuple&lt;pdfTypes...&gt; <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; eventListType, pdfTypes &gt;::pdfs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00083">83</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a009439ff65fd7796bea1e2a9d1bd1ec9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class eventListType , class... pdfTypes&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; eventListType, pdfTypes &gt;::setEvents </td>
+          <td>(</td>
+          <td class="paramtype">eventListType &amp;&#160;</td>
           <td class="paramname"><em>events</em></td><td>)</td>
           <td></td>
         </tr>
@@ -372,40 +344,7 @@ template&lt;class... TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00050">50</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a0543c303af3b1054be043bfd80a7bee4"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a>* <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::m_events</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00029">29</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af1bf29b7b9cd1c21e8ebf3dae6ecfbe9"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... TYPES&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::tuple&lt;TYPES...&gt; <a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">AmpGen::SumPDF</a>&lt; TYPES &gt;::m_pdfs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00028">28</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html#l00073">73</a> of file <a class="el" href="../../d6/d5e/_sum_p_d_f_8h_source.html">SumPDF.h</a>.</p>
 
 </div>
 </div>
@@ -418,7 +357,7 @@ template&lt;class... TYPES&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html">SumPDF</a></li>
-    <li class="footer">Generated on Thu Aug 22 2019 14:06:37 for AmpGen by
+    <li class="footer">Generated on Fri Aug 23 2019 12:44:07 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
