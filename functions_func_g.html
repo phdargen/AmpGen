@@ -117,6 +117,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_u.html#index_u"><span>u</span></a></li>
       <li><a href="functions_func_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_func_w.html#index_w"><span>w</span></a></li>
+      <li><a href="functions_func_z.html#index_z"><span>z</span></a></li>
       <li><a href="functions_func_0x7e.html#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
@@ -167,6 +168,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>generate()
 : <a class="el" href="de/d94/class_amp_gen_1_1_generator.html#aea75a1c170308fb8a140359c8ae47bac">AmpGen::Generator&lt; PHASESPACE &gt;</a>
+, <a class="el" href="d8/d85/class_psi3770.html#adebd9d4cbbb5fe66e0151529a615b1c5">Psi3770&lt; T1, T2 &gt;</a>
+</li>
+<li>generatePhaseSpace()
+: <a class="el" href="d8/d85/class_psi3770.html#a14094e3675ff6761d5738860c5380d24">Psi3770&lt; T1, T2 &gt;</a>
+</li>
+<li>generatePHSP()
+: <a class="el" href="d8/d85/class_psi3770.html#aabfd20d2c615ea809e39c9fd17252121">Psi3770&lt; T1, T2 &gt;</a>
 </li>
 <li>generateSource()
 : <a class="el" href="d7/d4c/class_amp_gen_1_1_compiler_wrapper.html#a4d4d4b005018777c2ee3660dd19be5f0">AmpGen::CompilerWrapper</a>
@@ -185,7 +193,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="dd/dc4/class_amp_gen_1_1_event.html#a2a9cd8d94548c60f34c3e4ea856aa8df">AmpGen::Event</a>
 </li>
 <li>get()
-: <a class="el" href="d1/d6c/class_amp_gen_1_1_bilinears.html#ab603f6a2fbb1ba5a8672f475ac5dde31">AmpGen::Bilinears</a>
+: <a class="el" href="d1/d6c/class_amp_gen_1_1_bilinears.html#aa46bbf1435d8124bb157f5ddc9f6fd49">AmpGen::Bilinears</a>
 , <a class="el" href="dd/d66/class_amp_gen_1_1_expression.html#a64258ac18833817e2e2aa18bd67fd56b">AmpGen::Expression</a>
 , <a class="el" href="d8/db1/class_amp_gen_1_1_factory.html#a0055922ea9543a22003e8a18cbf4b967">AmpGen::Factory&lt; TYPE, KEY_TYPE &gt;</a>
 , <a class="el" href="d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html#a9bf70ee8b2d2c3851c7ae13b69c482ea">AmpGen::Lineshape::Base</a>
@@ -204,14 +212,16 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#a86c577cbf72fba94b009075b63d90f26">AmpGen::Lineshape::GLASS</a>
 , <a class="el" href="d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a0d52ced37d2f479e1ffa9ab2a6b6725f">AmpGen::Lineshape::GounarisSakurai</a>
 , <a class="el" href="dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#ac71e7bd0e5e18881f9aebb3ec78717f2">AmpGen::Lineshape::GSpline</a>
-, <a class="el" href="dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html#acec90065531979bc893876095705619a">AmpGen::Lineshape::InelasticSpline</a>
+, <a class="el" href="dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html#a744898a7b7c42ae3452e5014b1043f6b">AmpGen::Lineshape::InelasticSpline</a>
 , <a class="el" href="d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor.html#a55c5a48554c925cf4483988df6a1d15f">AmpGen::Lineshape::Isotensor</a>
 , <a class="el" href="d0/de4/class_amp_gen_1_1_lineshape_1_1k_matrix_simple.html#add23d5c60eb843612fa4265c513c6f1b">AmpGen::Lineshape::kMatrixSimple</a>
-, <a class="el" href="dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a6f3602c13bdec62f1ee8c4d46477fa61">AmpGen::Lineshape::LASS</a>
+, <a class="el" href="dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a437c8e39f7ea757c425c02164a6f4345">AmpGen::Lineshape::LASS</a>
+, <a class="el" href="d4/db4/class_amp_gen_1_1_lineshape_1_1_mag_poly.html#af01fad862580afa803dee81ede98fef6">AmpGen::Lineshape::MagPoly</a>
 , <a class="el" href="d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html#a6fccd6dfad904418d2738cd80bfe5a94">AmpGen::Lineshape::MIPWA</a>
 , <a class="el" href="d9/d4c/class_amp_gen_1_1_lineshape_1_1_none.html#a5509392613567427238881e19f80ce34">AmpGen::Lineshape::None</a>
 , <a class="el" href="d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w.html#a21b3e9905db49a15005f2c1b05494d28">AmpGen::Lineshape::NonRelBW</a>
 , <a class="el" href="d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html#a46003953fccf13f0b7e131d31009e55b">AmpGen::Lineshape::PALANO</a>
+, <a class="el" href="d4/d5f/class_amp_gen_1_1_lineshape_1_1_phase_poly.html#a69c570d3f62eca9400d073c3760570b6">AmpGen::Lineshape::PhasePoly</a>
 , <a class="el" href="d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#a2a5610ef2f4816192a4b706bf076172f">AmpGen::Lineshape::Photon</a>
 , <a class="el" href="de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html#a78bf13221eb9fb37991b9af14933b966">AmpGen::Lineshape::Poly</a>
 , <a class="el" href="d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html#a06cf0feb1a9a03c3eb14af56847b6986">AmpGen::Lineshape::SBW</a>
@@ -219,6 +229,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="db/d37/class_amp_gen_1_1_particle_properties.html#a4d11b3105d81f053d5a81ae86dd56b7e">AmpGen::ParticleProperties</a>
 , <a class="el" href="de/d6a/class_amp_gen_1_1_particle_properties_list.html#a71fb9831eb8d38ce0c12cb06ac26597d">AmpGen::ParticlePropertiesList</a>
 , <a class="el" href="d4/d0e/class_amp_gen_1_1_tensor.html#a3da1adc20dfd4caddae1a31f4f20fe33">AmpGen::Tensor</a>
+, <a class="el" href="d5/dc6/struct_model_store.html#afc5b0486b2e43800fb80db5cbf3cf3ed">ModelStore</a>
 </li>
 <li>getArg()
 : <a class="el" href="d1/d65/class_amp_gen_1_1_argument_pack.html#a37ac8a478a38416c0587069365931897">AmpGen::ArgumentPack</a>
@@ -316,7 +327,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="db/d97/class_amp_gen_1_1_vertex_1_1_factory.html#aacc91886d4f525afd92ea689ddc31219">AmpGen::Vertex::Factory</a>
 </li>
 <li>getVal()
-: <a class="el" href="d1/d91/class_amp_gen_1_1_coherent_sum.html#aeaacb6830bb6c4d7613a7ae8dafdcbef">AmpGen::CoherentSum</a>
+: <a class="el" href="d1/d91/class_amp_gen_1_1_coherent_sum.html#a9da408e95f8ac94330fe9bb720a96396">AmpGen::CoherentSum</a>
 , <a class="el" href="d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html#ac87ca774a7efed9fe2e94362cb242708">AmpGen::FitFractionCalculator&lt; pdf_type &gt;</a>
 , <a class="el" href="d7/deb/class_amp_gen_1_1_gaussian_constraint.html#a642aefd213de6b3f6fac1d3e62e0a136">AmpGen::GaussianConstraint</a>
 , <a class="el" href="d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html#aeab5643ed3229a7b3737fb8ccaf6d412">AmpGen::IExtendLikelihood</a>
@@ -326,10 +337,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="d9/d92/class_amp_gen_1_1_partial_width_constraint.html#ad867e5cbdf7552257f8b43471c808cd7">AmpGen::PartialWidthConstraint</a>
 , <a class="el" href="db/dec/class_amp_gen_1_1_sim_fit.html#a783891fb9b30db2c0d0da641ff74d477">AmpGen::SimFit</a>
 , <a class="el" href="d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a20d581f37ef8c23575ec5882cddbdbca">AmpGen::SumPDF&lt; eventListType, pdfTypes &gt;</a>
+, <a class="el" href="df/d84/class_correlated_sum.html#a5a416c8b2019f12992ba697a38ec74cd">CorrelatedSum</a>
 </li>
 <li>getValNoCache()
 : <a class="el" href="d1/d91/class_amp_gen_1_1_coherent_sum.html#a6236b4ee65288463c02dd4c19b2111f4">AmpGen::CoherentSum</a>
 , <a class="el" href="d4/d31/class_amp_gen_1_1_polarised_sum.html#a19fa1d553e725683fe92dd23d3800732">AmpGen::PolarisedSum</a>
+, <a class="el" href="df/d84/class_correlated_sum.html#a49a29555ea0e3c627a6c98987e6c4559">CorrelatedSum</a>
+, <a class="el" href="d9/da6/class_fixed_lib_pdf.html#a00f106888c5f78c2a4d8bf5397325e43">FixedLibPdf</a>
 </li>
 <li>getVector()
 : <a class="el" href="d9/d1b/class_amp_gen_1_1_named_parameter.html#a1f25324ea931bb62506f9e7043a36ba5">AmpGen::NamedParameter&lt; T &gt;</a>
@@ -368,7 +382,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Aug 27 2019 11:09:31 for AmpGen by
+    <li class="footer">Generated on Tue Aug 27 2019 13:55:40 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
