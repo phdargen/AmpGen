@@ -11,8 +11,6 @@ var _lineshapes_8h =
     [ "FormFactorSpline", "dd/d7d/class_amp_gen_1_1_lineshape_1_1_form_factor_spline.html", "dd/d7d/class_amp_gen_1_1_lineshape_1_1_form_factor_spline" ],
     [ "DecaySpline", "d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline.html", "d2/de3/class_amp_gen_1_1_lineshape_1_1_decay_spline" ],
     [ "InelasticSpline", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html", "dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline" ],
-    [ "PhasePoly", "d4/d5f/class_amp_gen_1_1_lineshape_1_1_phase_poly.html", "d4/d5f/class_amp_gen_1_1_lineshape_1_1_phase_poly" ],
-    [ "MagPoly", "d4/db4/class_amp_gen_1_1_lineshape_1_1_mag_poly.html", "d4/db4/class_amp_gen_1_1_lineshape_1_1_mag_poly" ],
     [ "Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon" ],
     [ "DECLARE_LINESHAPE", "da/dcc/_lineshapes_8h.html#a72e3b0259a214740f2c5b10bbb3a7200", null ],
     [ "DEFINE_GENERIC_SHAPE", "da/dcc/_lineshapes_8h.html#a00b39aaa01e8fa4feb68e65de0599f3b", null ],

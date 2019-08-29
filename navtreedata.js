@@ -36,15 +36,15 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d1/d91/class_amp_gen_1_1_coherent_sum.html",
-"d3/d35/class_amp_gen_1_1_sum.html#a1b55a1e8075784c54524d62ad8df046a",
-"d4/d37/struct_amp_gen_1_1_sub_tree.html#a2d1788f398b21e6068f76957a12e96ae",
-"d6/d99/_expression_8h.html#a4d389a84fb62f71ac321a1f623695a33",
-"d8/d85/class_psi3770.html#a855ad253997cc04df98d272ee58b00f1",
-"da/d2e/_bin_d_t_8h.html#a15e7f05d6cf88f109aef80b43f18a8ee",
-"db/d4b/class_amp_gen_1_1_event_list.html#addea7f894a61a36fc44d7c237302cfff",
-"dc/d82/namespace_amp_gen.html#ac60612f24db60f1be371c0412a3a8de8",
-"de/d24/class_amp_gen_1_1_minuit_proxy.html#adc941c3754ab52063fd6b1abc7a2ae0d",
-"df/d84/class_correlated_sum.html#a55f6a624cb8fd926a017fcd0b8c7a0a3"
+"d3/d35/class_amp_gen_1_1_sum.html#a66ec00cfdbc323ef44128a9cec789e0f",
+"d4/d63/class_amp_gen_1_1_i_binary_expression.html",
+"d6/d99/_expression_8h.html#aea427c7c73bdfd85cb9ee1fb01b3c567",
+"d8/dcb/_vertex_8h_source.html",
+"da/dcc/_lineshapes_8h.html#abd780985afecea4a01ee8fdb4ec967ca",
+"db/d72/_utilities_8h.html#aadb7c21cacc37282d8934caac2ea4815",
+"dd/d4f/class_amp_gen_1_1_a_tan2.html#a5152daf4c4fdedf63ee1ef769cb18980",
+"de/dd7/class_amp_gen_1_1_particle.html#a435672676f6d5c6262019ffa68b97b66",
+"namespacemembers_func_c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
