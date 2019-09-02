@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"d6/d99/_expression_8h.html#aea427c7c73bdfd85cb9ee1fb01b3c567":[7,0,21,16],
-"d6/d99/_expression_8h.html#af10b8848bdd2239281f716c67914a129":[7,0,21,45],
 "d6/d99/_expression_8h.html#af3433de0bb6eb0174187ac19b28c653f":[7,0,21,18],
 "d6/d99/_expression_8h.html#af4d0debf73a11bec706d861a0d0fbc2d":[7,0,21,9],
 "d6/d99/_expression_8h.html#af8e6a0b6a9da1f9a5189aa0346ef6a52":[7,0,21,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "d8/dcb/_vertex_8h.html#ga8ba3d6acfc1b1df18ef7645f4f8e39d0":[7,0,67,37],
 "d8/dcb/_vertex_8h.html#gabd2062120833fa09c31107e57c1d613a":[7,0,67,38],
 "d8/dcb/_vertex_8h.html#gacbbe833b0a87a4145bcd10aed9aca920":[7,0,67,41],
-"d8/dcb/_vertex_8h.html#gadfa5d93386e0dae150fe7d66bd81f24e":[7,0,67,40]
+"d8/dcb/_vertex_8h.html#gadfa5d93386e0dae150fe7d66bd81f24e":[7,0,67,40],
+"d8/dcb/_vertex_8h_source.html":[7,0,67],
+"d8/dd0/class_amp_gen_1_1_sqrt.html":[0,0,21]
 };

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r',['R',['../db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad',1,'AmpGen::ParticleProperties::R()'],['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a25d1c712de08a4135b9f244339bc276b',1,'AmpGen::IBinaryExpression::r()']]],
+  ['r',['r',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a25d1c712de08a4135b9f244339bc276b',1,'AmpGen::IBinaryExpression::r()'],['../db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad',1,'AmpGen::ParticleProperties::R()']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html#a8da14d7880dc414b9383377f88ea21fa',1,'AmpGen::Vertex::r_fS_D']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html',1,'AmpGen::Vertex']]],
   ['r_5ffs_5fp',['r_fS_P',['../d0/d1d/struct_amp_gen_1_1_vertex_1_1r__f_s___p.html',1,'AmpGen::Vertex']]],
@@ -20,7 +20,6 @@ var searchData=
   ['recursivephasespace',['RecursivePhaseSpace',['../dd/daf/class_amp_gen_1_1_recursive_phase_space.html',1,'AmpGen']]],
   ['recursivephasespace',['RecursivePhaseSpace',['../dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a211945dab91af8ce67bb9dfc3bf9c58d',1,'AmpGen::RecursivePhaseSpace::RecursivePhaseSpace(const EventType &amp;type)'],['../dd/daf/class_amp_gen_1_1_recursive_phase_space.html#ae686d8a062dc3f99d43650e175641ac0',1,'AmpGen::RecursivePhaseSpace::RecursivePhaseSpace(const Particle &amp;decayChain, const EventType &amp;type, TRandom *rndm=gRandom)']]],
   ['recursivephasespace_2eh',['RecursivePhaseSpace.h',['../df/dc6/_recursive_phase_space_8h.html',1,'']]],
-  ['reducesubtrees',['reduceSubTrees',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a257dae10d91f9b6d222933285045bb55',1,'AmpGen::ASTResolver']]],
   ['refresh',['refresh',['../d6/d9d/class_amp_gen_1_1_dynamic_container.html#aeefc717855ee90ad4d14018199189425',1,'AmpGen::DynamicContainer']]],
   ['refreshqueue',['refreshQueue',['../dc/d42/class_amp_gen_1_1_bin_d_t.html#ac7ce44b2313721202a007817ee371edb',1,'AmpGen::BinDT::refreshQueue()'],['../da/da8/class_amp_gen_1_1_fast_d_t.html#aa32816ea0961a83dbb233063bf80de09',1,'AmpGen::FastDT::refreshQueue()']]],
   ['register',['Register',['../d8/db1/class_amp_gen_1_1_factory.html#a95878aabdad07f229606592ed3a6dfb1',1,'AmpGen::Factory::Register()'],['../d7/de6/_factory_8h.html#a745549b2854f14e2a221dbf81ca53d6e',1,'REGISTER():&#160;Factory.h']]],

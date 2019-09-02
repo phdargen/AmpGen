@@ -1,7 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d8/dcb/_vertex_8h_source.html":[7,0,67],
-"d8/dd0/class_amp_gen_1_1_sqrt.html":[0,0,21],
 "d8/dd0/class_amp_gen_1_1_sqrt.html#a0bdd40677ff00df3349ffd2775a49d53":[0,0,21,4],
 "d8/dd0/class_amp_gen_1_1_sqrt.html#a4c821824522e4624db97c4ffecd18e0f":[0,0,21,1],
 "d8/dd0/class_amp_gen_1_1_sqrt.html#a5594e4dd7bfa3d1efcad29d66b8047eb":[0,0,21,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX5 =
 "da/dcc/_lineshapes_8h.html#a46c7f25424874fdd468e11ce5b69afe7":[7,0,34,15],
 "da/dcc/_lineshapes_8h.html#a594156341ae59ac365ac8b25effd9ec0":[7,0,34,22],
 "da/dcc/_lineshapes_8h.html#a72e3b0259a214740f2c5b10bbb3a7200":[7,0,34,12],
-"da/dcc/_lineshapes_8h.html#a741fb69b0c12a3d397a990bb554e0888":[7,0,34,16]
+"da/dcc/_lineshapes_8h.html#a741fb69b0c12a3d397a990bb554e0888":[7,0,34,16],
+"da/dcc/_lineshapes_8h.html#abd780985afecea4a01ee8fdb4ec967ca":[7,0,34,20],
+"da/dcc/_lineshapes_8h.html#ace4d8d6561eab88610c31a0a1ea54853":[7,0,34,17]
 };
