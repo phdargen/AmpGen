@@ -12,8 +12,8 @@ var _wigner_8h =
     [ "basisVector", "d3/d21/_wigner_8h.html#a73ca2984b05feaa7e2cfc7f6fb1acf11", null ],
     [ "calculate_recoupling_constants", "d3/d21/_wigner_8h.html#ac66fce0250eea42b73bac6d28b7c2db1", null ],
     [ "CG", "d3/d21/_wigner_8h.html#ga98dfb6dcbdafd331079eeedd917633bb", null ],
-    [ "helicityAmplitude", "d3/d21/_wigner_8h.html#a6b80e25d13f69a0fcde603257979f4c4", null ],
+    [ "helicityAmplitude", "d3/d21/_wigner_8h.html#a48c0534e6988da8124994c4d0948b107", null ],
     [ "wickTransform", "d3/d21/_wigner_8h.html#gae73775373ea2089084b61a3bd25178e3", null ],
     [ "wigner_d", "d3/d21/_wigner_8h.html#a7802f7964d4d697401e0e1965a2dfea3", null ],
-    [ "wigner_D", "d3/d21/_wigner_8h.html#aa90608e901ce48f7c3422e36c2689082", null ]
+    [ "wigner_D", "d3/d21/_wigner_8h.html#ae0b3272b97bcafe12732a1c11b6082a9", null ]
 ];

@@ -41,6 +41,7 @@ var searchData=
   ['coordinates_5fto_5findex',['coordinates_to_index',['../d4/d0e/class_amp_gen_1_1_tensor.html#a6e8e24fa0e5d62cef8ab93e897bafccd',1,'AmpGen::Tensor']]],
   ['coordinates_5fto_5fstring',['coordinates_to_string',['../d4/d0e/class_amp_gen_1_1_tensor.html#a4a3c7a87dfd01152b8a9ecf220b45621',1,'AmpGen::Tensor']]],
   ['coords',['coords',['../d4/d0e/class_amp_gen_1_1_tensor.html#ae4a7ccece1f57dd83dc9dbd421af6946',1,'AmpGen::Tensor']]],
+  ['correlatedsum',['CorrelatedSum',['../df/d84/class_correlated_sum.html#a3e314eb255d41b152feaf4f57772e228',1,'CorrelatedSum::CorrelatedSum()'],['../df/d84/class_correlated_sum.html#a2809b4f55122c5a1faaa0cd6d4c70239',1,'CorrelatedSum::CorrelatedSum(const EventType &amp;type1, const EventType &amp;type2, const MinuitParameterSet &amp;mps)']]],
   ['correlation',['correlation',['../d4/d2d/class_amp_gen_1_1_fit_result.html#aac038966e68ab17eb26c0138e932d6c1',1,'AmpGen::FitResult']]],
   ['correlationmatrix',['correlationMatrix',['../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a7fa23e2e9b148ff2d604c49f848973da',1,'AmpGen::LinearErrorPropagator']]],
   ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html#a6951431c7d7d6a39c646bf5d014e4f9c',1,'AmpGen::Cos::Cos()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a511deef37e2707a89cd465a1c1c65dc0',1,'AmpGen::fcn::cos()']]],
