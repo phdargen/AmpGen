@@ -13,7 +13,6 @@ var searchData=
   ['compilerwrapper',['CompilerWrapper',['../d7/d4c/class_amp_gen_1_1_compiler_wrapper.html',1,'AmpGen']]],
   ['conj',['Conj',['../de/de2/class_amp_gen_1_1_conj.html',1,'AmpGen']]],
   ['constant',['Constant',['../d9/d48/class_amp_gen_1_1_constant.html',1,'AmpGen']]],
-  ['correlatedsum',['CorrelatedSum',['../df/d84/class_correlated_sum.html',1,'']]],
   ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html',1,'AmpGen']]],
   ['couplingconstant',['CouplingConstant',['../d3/d03/class_amp_gen_1_1_coupling_constant.html',1,'AmpGen']]]
 ];

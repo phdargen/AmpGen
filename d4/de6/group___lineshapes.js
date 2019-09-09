@@ -49,6 +49,12 @@ var group___lineshapes =
       [ "get", "d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian.html#a5b1e7ccfbfca091e1644c491fd3ce06f", null ],
       [ "get", "d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian.html#a7acb2fb1a9a1d10717e84a3413e78e6c", null ]
     ] ],
+    [ "PolyNR", "d0/d5e/class_amp_gen_1_1_lineshape_1_1_poly_n_r.html", [
+      [ "PolyNR", "d0/d5e/class_amp_gen_1_1_lineshape_1_1_poly_n_r.html#a88e547fa36a228be561f6646b7086d1a", null ],
+      [ "create", "d0/d5e/class_amp_gen_1_1_lineshape_1_1_poly_n_r.html#ae0a4042b896c0f6cd580b5894b9d88b9", null ],
+      [ "get", "d0/d5e/class_amp_gen_1_1_lineshape_1_1_poly_n_r.html#a0da7eb5690143db41829ce386d921ca1", null ],
+      [ "get", "d0/d5e/class_amp_gen_1_1_lineshape_1_1_poly_n_r.html#a06abce66116b859a2cc55acbe5e5f65f", null ]
+    ] ],
     [ "Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", [
       [ "Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html#a6e6f651e9e03fe412203cecf93522ab2", null ],
       [ "create", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html#ae0a4042b896c0f6cd580b5894b9d88b9", null ],

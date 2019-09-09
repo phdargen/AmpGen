@@ -35,16 +35,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d91/class_amp_gen_1_1_coherent_sum.html",
-"d3/d35/class_amp_gen_1_1_sum.html#a1b55a1e8075784c54524d62ad8df046a",
-"d4/d37/struct_amp_gen_1_1_sub_tree.html#a2d1788f398b21e6068f76957a12e96ae",
-"d6/d99/_expression_8h.html#a505317a5dd03f66a9a5dcb1daaa69a4a",
-"d8/d85/class_psi3770.html#aabfd20d2c615ea809e39c9fd17252121",
-"da/d2e/_bin_d_t_8h.html#a2a4407d4f3783b5e05a57330a25bb89a",
-"db/d4b/class_amp_gen_1_1_event_list.html#ae01df1b1b693ecd1b70e0c13f73d1826",
-"dc/d82/namespace_amp_gen.html#ad3f70b9336567c9582dc00a988778b1e",
-"de/d24/class_amp_gen_1_1_minuit_proxy.html#af2eaebaaf189d862f99f411da14e8e1f",
-"df/d84/class_correlated_sum.html#a5dad4ecac9a222d20db204f90c0cd281"
+"d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html",
+"d3/d35/class_amp_gen_1_1_sum.html",
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a52e03bb816cfcfe3be01b68f2088197b",
+"d6/d99/_expression_8h.html#add17e8569a5789ff3e41af7d5d7adb8e",
+"d8/dcb/_vertex_8h.html#gabd2062120833fa09c31107e57c1d613a",
+"da/dcc/_lineshapes_8h.html#a594156341ae59ac365ac8b25effd9ec0",
+"db/d72/_utilities_8h.html#a9de18ca82b49ca421bffc4a29f2aee0d",
+"dd/d4f/class_amp_gen_1_1_a_tan2.html#a159701bc2f39c1a3ea390d178f43015a",
+"de/dd7/class_amp_gen_1_1_particle.html#a3c74af03ab7bffab614824a124f4dc08",
+"namespacemembers_func.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
