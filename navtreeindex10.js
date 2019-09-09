@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"df/d84/class_correlated_sum.html#a55f6a624cb8fd926a017fcd0b8c7a0a3":[3,1,23],
-"df/d84/class_correlated_sum.html#a5a416c8b2019f12992ba697a38ec74cd":[3,1,4],
 "df/d84/class_correlated_sum.html#a5dad4ecac9a222d20db204f90c0cd281":[3,1,20],
 "df/d84/class_correlated_sum.html#a6000f2d5d20410465a00066751ae4425":[3,1,17],
 "df/d84/class_correlated_sum.html#a61a92aa3c80e8d43f17a61837b1d41c6":[3,1,8],
@@ -126,8 +124,8 @@ var NAVTREEINDEX10 =
 "hierarchy.html":[5],
 "index.html":[],
 "modules.html":[0],
-"namespacemembers.html":[2,0],
 "namespacemembers.html":[2,0,0],
+"namespacemembers.html":[2,0],
 "namespacemembers_b.html":[2,0,1],
 "namespacemembers_c.html":[2,0,2],
 "namespacemembers_d.html":[2,0,3],

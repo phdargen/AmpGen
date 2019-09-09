@@ -1,7 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"de/d24/class_amp_gen_1_1_minuit_proxy.html#adc941c3754ab52063fd6b1abc7a2ae0d":[3,0,73,3],
-"de/d24/class_amp_gen_1_1_minuit_proxy.html#ae8d177af4440bc7b73369b915aa08661":[3,0,73,0],
 "de/d24/class_amp_gen_1_1_minuit_proxy.html#af2eaebaaf189d862f99f411da14e8e1f":[3,0,73,6],
 "de/d2b/class_amp_gen_1_1_pade.html":[3,0,79],
 "de/d2b/class_amp_gen_1_1_pade.html#a3580626475b8d6e317886ead1af85246":[3,0,79,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX9 =
 "df/d84/class_correlated_sum.html#a45c484c6f40d7f16639b862465a8bd66":[3,1,10],
 "df/d84/class_correlated_sum.html#a48a51fcefa81b8dd04feaadce0139e07":[3,1,7],
 "df/d84/class_correlated_sum.html#a49a29555ea0e3c627a6c98987e6c4559":[3,1,6],
-"df/d84/class_correlated_sum.html#a4dafd31e6286c740dfdae27394666a76":[3,1,12]
+"df/d84/class_correlated_sum.html#a4dafd31e6286c740dfdae27394666a76":[3,1,12],
+"df/d84/class_correlated_sum.html#a55f6a624cb8fd926a017fcd0b8c7a0a3":[3,1,23],
+"df/d84/class_correlated_sum.html#a5a416c8b2019f12992ba697a38ec74cd":[3,1,4]
 };
