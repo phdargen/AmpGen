@@ -132,9 +132,19 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ad30233f0634fb436582c7e98bbbcea64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/enum_8h.html#ad30233f0634fb436582c7e98bbbcea64">declare_enum</a>(name, ...)</td></tr>
 <tr class="separator:ad30233f0634fb436582c7e98bbbcea64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d84818ecb37706939592ee0f4ba8566"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/enum_8h.html#a5d84818ecb37706939592ee0f4ba8566">complete_enum</a>(name, ...)</td></tr>
+<tr class="separator:a5d84818ecb37706939592ee0f4ba8566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf514dfc5ddaa46e18b32b70b8059b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/enum_8h.html#acf514dfc5ddaa46e18b32b70b8059b74">make_enum</a>(name, ...)</td></tr>
+<tr class="separator:acf514dfc5ddaa46e18b32b70b8059b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a76a492bc120e0e48e4d951bdd524300e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a76a492bc120e0e48e4d951bdd524300e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a76a492bc120e0e48e4d951bdd524300e">AmpGen::parse</a> (const std::string &amp;word)</td></tr>
+<tr class="separator:a76a492bc120e0e48e4d951bdd524300e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11a5e5e4977c3441c23e176f5e50d1ad"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a11a5e5e4977c3441c23e176f5e50d1ad"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a11a5e5e4977c3441c23e176f5e50d1ad">AmpGen::to_string</a> (const T &amp;enumItem)</td></tr>
+<tr class="separator:a11a5e5e4977c3441c23e176f5e50d1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c3884f18ec32caaaf72e99df0c48ae4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a1c3884f18ec32caaaf72e99df0c48ae4"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a> (const std::string &amp;word, const char *args)</td></tr>
 <tr class="separator:a1c3884f18ec32caaaf72e99df0c48ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +153,38 @@ Functions</h2></td></tr>
 <tr class="separator:af07fd6f07c582d1cb50a878ca2beadae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a5d84818ecb37706939592ee0f4ba8566"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define complete_enum</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;&gt; name <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">parse</a>(<span class="keyword">const</span> std::string&amp; word){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::parse&lt;name&gt;(word, args); } \</div><div class="line">template &lt;&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>( <span class="keyword">const</span> name&amp; enumItem ){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::to_string&lt;name&gt;(enumItem, args) ; } \</div><div class="line">template &lt;&gt; name <a class="code" href="../../dc/d82/namespace_amp_gen.html#a9d58a8bcaf2b55701c3468de09ce458f">lexical_cast</a>(<span class="keyword">const</span> std::string&amp; word, <span class="keywordtype">bool</span>&amp; <span class="comment">/*status*/</span>){ <span class="keywordflow">return</span> parse&lt;name&gt;(word); } \</div><div class="line">std::ostream&amp; <a class="code" href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">operator&lt;&lt;</a>(std::ostream&amp; os, <span class="keyword">const</span> name&amp; np){ <span class="keywordflow">return</span> os &lt;&lt; to_string&lt;name&gt;(np);}</div><div class="ttc" id="namespace_amp_gen_html_ade5493cdd41aadd8ac306fd2f92aea38"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">AmpGen::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const CompiledExpressionBase &amp;expression)</div></div>
+<div class="ttc" id="namespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00053">enum.h:53</a></div></div>
+<div class="ttc" id="namespace_amp_gen_html_a9d58a8bcaf2b55701c3468de09ce458f"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a9d58a8bcaf2b55701c3468de09ce458f">AmpGen::lexical_cast</a></div><div class="ttdeci">RETURN_TYPE lexical_cast(const std::string &amp;word, bool &amp;status)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d72/_utilities_8h_source.html#l00102">Utilities.h:102</a></div></div>
+<div class="ttc" id="namespace_amp_gen_1_1detail_html_a1c3884f18ec32caaaf72e99df0c48ae4"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00029">enum.h:29</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00011">11</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad30233f0634fb436582c7e98bbbcea64"></a>
 <div class="memitem">
 <div class="memproto">
@@ -166,10 +208,43 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum</span> name {__VA_ARGS__};   \</div><div class="line">template &lt;class T = name&gt; T <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">parse</a>(<span class="keyword">const</span> std::string&amp; word){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::parse&lt;T&gt;(word, args); } \</div><div class="line">template &lt;class T = name&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>( <span class="keyword">const</span> T&amp; enumItem ){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::to_string&lt;T&gt;(enumItem, args) ; }</div><div class="ttc" id="namespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00033">enum.h:33</a></div></div>
-<div class="ttc" id="namespace_amp_gen_1_1detail_html_a1c3884f18ec32caaaf72e99df0c48ae4"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00009">enum.h:9</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> name {__VA_ARGS__};                                     \</div><div class="line">template &lt;&gt; name <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">parse</a>(<span class="keyword">const</span> std::string&amp; word);                   \</div><div class="line">template &lt;&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>( <span class="keyword">const</span> name&amp; enumItem );         \</div><div class="line">std::ostream&amp; <a class="code" href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">operator&lt;&lt;</a>( std::ostream&amp; os, <span class="keyword">const</span> name&amp; np);</div><div class="ttc" id="namespace_amp_gen_html_ade5493cdd41aadd8ac306fd2f92aea38"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">AmpGen::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const CompiledExpressionBase &amp;expression)</div></div>
+<div class="ttc" id="namespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00053">enum.h:53</a></div></div>
+<div class="ttc" id="namespace_amp_gen_1_1detail_html_a1c3884f18ec32caaaf72e99df0c48ae4"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00029">enum.h:29</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00003">3</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00005">5</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf514dfc5ddaa46e18b32b70b8059b74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define make_enum</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> name {__VA_ARGS__};                                                                                                                 \</div><div class="line">template &lt;&gt; name <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">parse</a>(<span class="keyword">const</span> std::string&amp; word){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::parse&lt;name&gt;(word, args); } \</div><div class="line">template &lt;&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>( <span class="keyword">const</span> name&amp; enumItem ){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::to_string&lt;name&gt;(enumItem, args) ; } \</div><div class="line">template &lt;&gt; name <a class="code" href="../../dc/d82/namespace_amp_gen.html#a9d58a8bcaf2b55701c3468de09ce458f">lexical_cast</a>(<span class="keyword">const</span> std::string&amp; word, <span class="keywordtype">bool</span>&amp; <span class="comment">/*status*/</span>){ <span class="keywordflow">return</span> parse&lt;name&gt;(word); } \</div><div class="line">std::ostream&amp; <a class="code" href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">operator&lt;&lt;</a>(std::ostream&amp; os, <span class="keyword">const</span> name&amp; np){ <span class="keywordflow">return</span> os &lt;&lt; to_string&lt;name&gt;(np);}</div><div class="ttc" id="namespace_amp_gen_html_ade5493cdd41aadd8ac306fd2f92aea38"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">AmpGen::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const CompiledExpressionBase &amp;expression)</div></div>
+<div class="ttc" id="namespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00053">enum.h:53</a></div></div>
+<div class="ttc" id="namespace_amp_gen_html_a9d58a8bcaf2b55701c3468de09ce458f"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a9d58a8bcaf2b55701c3468de09ce458f">AmpGen::lexical_cast</a></div><div class="ttdeci">RETURN_TYPE lexical_cast(const std::string &amp;word, bool &amp;status)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d72/_utilities_8h_source.html#l00102">Utilities.h:102</a></div></div>
+<div class="ttc" id="namespace_amp_gen_1_1detail_html_a1c3884f18ec32caaaf72e99df0c48ae4"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00029">enum.h:29</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00017">17</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
 
 </div>
 </div>
@@ -179,7 +254,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d0/d9b/enum_8h.html">enum.h</a></li>
-    <li class="footer">Generated on Thu Sep 12 2019 08:02:09 for AmpGen by
+    <li class="footer">Generated on Thu Sep 12 2019 13:17:35 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

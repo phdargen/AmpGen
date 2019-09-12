@@ -1,5 +1,9 @@
 var NAVTREEINDEX2 =
 {
+"d3/d2e/class_amp_gen_1_1_a_sin.html#a80a72e91651066b926d3864ab3fd1000":[0,0,30,3],
+"d3/d2e/class_amp_gen_1_1_a_sin.html#a9691967573670594c693eb3506b9b237":[0,0,30,5],
+"d3/d2e/class_amp_gen_1_1_a_sin.html#aacb65bd4a2452ff03abe03ec8d761c06":[0,0,30,2],
+"d3/d2e/class_amp_gen_1_1_a_sin.html#ad46b896edb95522051ff90dad38cca64":[0,0,30,0],
 "d3/d35/class_amp_gen_1_1_sum.html":[0,0,9],
 "d3/d35/class_amp_gen_1_1_sum.html#a1b55a1e8075784c54524d62ad8df046a":[0,0,9,5],
 "d3/d35/class_amp_gen_1_1_sum.html#a25d1c712de08a4135b9f244339bc276b":[0,0,9,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#af01bf9fa9399fc553e36e3c535e68afd":[3,0,88,11],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#af50407e72c0f734bacdce6cba8b73fc1":[3,0,88,7],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#afcdb090d613197424bd59065ccf9f5ae":[3,0,88,17],
-"d4/d37/struct_amp_gen_1_1_sub_tree.html":[0,0,7],
-"d4/d37/struct_amp_gen_1_1_sub_tree.html#a086ed55ee510237aa8cd8a8ebf2cfb53":[0,0,7,3],
-"d4/d37/struct_amp_gen_1_1_sub_tree.html#a0de0041121a8224f92f8d57877f359f9":[0,0,7,6],
-"d4/d37/struct_amp_gen_1_1_sub_tree.html#a205b1e31969a7243019034f720d4c205":[0,0,7,0],
-"d4/d37/struct_amp_gen_1_1_sub_tree.html#a2d1788f398b21e6068f76957a12e96ae":[0,0,7,2]
+"d4/d37/struct_amp_gen_1_1_sub_tree.html":[0,0,7]
 };
