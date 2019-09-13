@@ -13,6 +13,6 @@ var class_amp_gen_1_1_quark_content =
     [ "operator==", "de/d21/class_amp_gen_1_1_quark_content.html#a3404749b9a065fe46eb554603f226e51", null ],
     [ "operator[]", "de/d21/class_amp_gen_1_1_quark_content.html#ac6a65bbf67c5f43b68ec9d6e11e04e29", null ],
     [ "print", "de/d21/class_amp_gen_1_1_quark_content.html#a1763618ed54505e750e6c711b5192f7a", null ],
-    [ "quarks", "de/d21/class_amp_gen_1_1_quark_content.html#a91ed91b94a16de5e03f986145e8e8817", null ],
+    [ "quarks", "de/d21/class_amp_gen_1_1_quark_content.html#a6c67db3da043600d26e286039194997a", null ],
     [ "size", "de/d21/class_amp_gen_1_1_quark_content.html#a5df2d2a2e1173539ed30907b2d7294c6", null ]
 ];

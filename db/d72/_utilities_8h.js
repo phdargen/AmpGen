@@ -9,7 +9,7 @@ var _utilities_8h =
     [ "findAll", "db/d72/_utilities_8h.html#a0a01a6581a87ce78c43daee82639006e", null ],
     [ "FNV1a_hash", "db/d72/_utilities_8h.html#a5a4ca8c65ffef827c21aecf7201f6b80", null ],
     [ "getItems", "db/d72/_utilities_8h.html#a5edad92fbd01d3898458b009c5a775f3", null ],
-    [ "getListOfFiles", "db/d72/_utilities_8h.html#aae81ba4d9d4088ed318a171b73bdb5a0", null ],
+    [ "getListOfFiles", "db/d72/_utilities_8h.html#a7b8ebc801388d49f0fec92c555cb1c30", null ],
     [ "isDir", "db/d72/_utilities_8h.html#a27711bceba5621c98f2ab91bdc2ec2a5", null ],
     [ "isIn", "db/d72/_utilities_8h.html#a3f16a4fa37ab5765a1c17842f068e5b8", null ],
     [ "isIn", "db/d72/_utilities_8h.html#a2858c39bf3c9082f02d77654c692d663", null ],

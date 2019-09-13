@@ -5,6 +5,7 @@ var searchData=
   ['palano',['PALANO',['../d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html#a2fce816bd5613fdfd2cf3926b02ba4ea',1,'AmpGen::Lineshape::PALANO']]],
   ['parallel_5faccumulate',['parallel_accumulate',['../dc/d82/namespace_amp_gen.html#a572d0a0f78df0f91388dcd48d295fbcf',1,'AmpGen']]],
   ['parallel_5fsort',['parallel_sort',['../dc/d82/namespace_amp_gen.html#a07c5e3fc1c4763c1019fc0916cdc4e33',1,'AmpGen::parallel_sort(iterator begin, iterator end, const comparator &amp;comp, const size_t &amp;grainsize)'],['../dc/d82/namespace_amp_gen.html#a3ce51df647bcfb66635e162ff3628369',1,'AmpGen::parallel_sort(iterator begin, iterator end, const size_t &amp;grainsize)']]],
+  ['param',['param',['../d4/dd8/class_amp_gen_1_1_minuit_parameter_link.html#a887c405385fe88d3a39c51011f90bfca',1,'AmpGen::MinuitParameterLink']]],
   ['parameter',['Parameter',['../d3/d5a/class_amp_gen_1_1_parameter.html#ae28e0ce79f0d730511046b0ac7e21262',1,'AmpGen::Parameter']]],
   ['parameters',['parameters',['../d4/d2d/class_amp_gen_1_1_fit_result.html#afa131d05e416b89a08de051ed1439ea8',1,'AmpGen::FitResult']]],
   ['parametertransfer',['ParameterTransfer',['../d0/dbe/class_amp_gen_1_1_parameter_transfer.html#aab893c922e177434f8392bd42aab4b9b',1,'AmpGen::ParameterTransfer']]],

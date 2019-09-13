@@ -31,7 +31,7 @@ var searchData=
   ['getfloating',['getFloating',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a313ca00b71094e31bda69af66a745a0d',1,'AmpGen::MinuitParameterSet']]],
   ['getgroupedamplitudes',['getGroupedAmplitudes',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a44388cf905f30ef3d6f4a1eaa862622b',1,'AmpGen::CoherentSum']]],
   ['getitems',['getItems',['../dc/d82/namespace_amp_gen.html#a5edad92fbd01d3898458b009c5a775f3',1,'AmpGen']]],
-  ['getlistoffiles',['getListOfFiles',['../dc/d82/namespace_amp_gen.html#aae81ba4d9d4088ed318a171b73bdb5a0',1,'AmpGen']]],
+  ['getlistoffiles',['getListOfFiles',['../dc/d82/namespace_amp_gen.html#a7b8ebc801388d49f0fec92c555cb1c30',1,'AmpGen']]],
   ['getmab',['getMAB',['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a9d940a30f31f94fb7c50204041b1c7af',1,'AmpGen::DalitzIntegrator::getMAB(sqCo coords) const '],['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a6868d0ac6b2f9f3298d5eaa1cdcc58ff',1,'AmpGen::DalitzIntegrator::getMAB(sqCo coords, const double &amp;s) const ']]],
   ['getmatchingrules',['getMatchingRules',['../db/dec/class_amp_gen_1_1_amplitude_rules.html#abc57273acd42d0b965d2f20402b4ca44',1,'AmpGen::AmplitudeRules']]],
   ['getme',['getMe',['../d5/db3/class_amp_gen_1_1_expression_parser.html#ae1ad69ba5fc5d8dddfcd126f90524785',1,'AmpGen::ExpressionParser::getMe()'],['../d8/db1/class_amp_gen_1_1_factory.html#ae3265a3b5d55b3562e7e6d4aeb2b3469',1,'AmpGen::Factory::getMe()'],['../d8/d73/class_amp_gen_1_1_options_parser.html#a9265de45fcb658d65643b208149112eb',1,'AmpGen::OptionsParser::getMe()'],['../de/d6a/class_amp_gen_1_1_particle_properties_list.html#ad47d2b501b6d82e32d454ed8d3d8db3f',1,'AmpGen::ParticlePropertiesList::getMe()']]],

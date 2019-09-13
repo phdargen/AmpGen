@@ -15,7 +15,7 @@ var group___expression_engine =
       [ "addResolvedParameter", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a42cf3b30a70b3155d3616fbee6777807", null ],
       [ "addResolvedParameter", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aff88fc8e4f516e86d999cbd42c1cdd8d", null ],
       [ "cacheFunctions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a5f4dbe9998b33016678c11fe9924036e", null ],
-      [ "cleanup", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ab4b3cb271677353fca69ccac8eceae31", null ],
+      [ "clear", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a934576f9255cdab2a03be4ebde6cacf0", null ],
       [ "enableCompileConstants", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a70f61e1f8648c1c31b57cad9c88274f7", null ],
       [ "enableCuda", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aa74959ad6b1f4cec336515a8d57dbe06", null ],
       [ "getOrderedSubExpressions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ad01a5afd1010f42ad4b5c608be9b9a07", null ],
