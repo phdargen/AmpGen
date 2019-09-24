@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d9/d93/class_amp_gen_1_1_lineshape_1_1
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d9/d39/class_amp_gen_1_1_lineshape_1_1_isotensor-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AmpGen::Lineshape::Isotensor Class Reference</div>  </div>
+<div class="title">AmpGen::Lineshape::Isotensor Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -130,6 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a55c5a48554c925cf4483988df6a1d15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe107e12713a73bc11596df725236b95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor.html#abe107e12713a73bc11596df725236b95">get</a> (const <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">AmpGen::Particle</a> &amp;p, const std::string &amp;lineshapeModifier, <a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">AmpGen::DebugSymbols</a> *dbexpressions=nullptr) const override</td></tr>
 <tr class="separator:abe107e12713a73bc11596df725236b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad976467da5d6af6ce69ea73de955aed8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html#ad976467da5d6af6ce69ea73de955aed8">get</a> (const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;s, const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;s1, const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;s2, const std::string &amp;particleName, const unsigned &amp;L, const std::string &amp;lineshapeModifier, <a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">DebugSymbols</a> *dbexpressions=nullptr) const =0</td></tr>
+<tr class="separator:ad976467da5d6af6ce69ea73de955aed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0a4042b896c0f6cd580b5894b9d88b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html">Base</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html#ae0a4042b896c0f6cd580b5894b9d88b9">create</a> ()</td></tr>
 <tr class="separator:ae0a4042b896c0f6cd580b5894b9d88b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -194,6 +196,70 @@ Inheritance diagram for AmpGen::Lineshape::Isotensor:</div>
 
 </div>
 </div>
+<a class="anchor" id="ad976467da5d6af6ce69ea73de955aed8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Lineshape::Base::get </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;&#160;</td>
+          <td class="paramname"><em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> &amp;&#160;</td>
+          <td class="paramname"><em>s2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>particleName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned &amp;&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>lineshapeModifier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">DebugSymbols</a> *&#160;</td>
+          <td class="paramname"><em>dbexpressions</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a55c5a48554c925cf4483988df6a1d15f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -251,12 +317,10 @@ Inheritance diagram for AmpGen::Lineshape::Isotensor:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../d7/d74/class_amp_gen_1_1_lineshape_1_1_base.html#a9bf70ee8b2d2c3851c7ae13b69c482ea">AmpGen::Lineshape::Base</a>.</p>
 
 </div>
 </div>
@@ -311,7 +375,7 @@ Inheritance diagram for AmpGen::Lineshape::Isotensor:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dc/de1/namespace_amp_gen_1_1_lineshape.html">Lineshape</a></li><li class="navelem"><a class="el" href="../../d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor.html">Isotensor</a></li>
-    <li class="footer">Generated on Tue Sep 24 2019 11:39:37 for AmpGen by
+    <li class="footer">Generated on Tue Sep 24 2019 12:49:41 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

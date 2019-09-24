@@ -193,10 +193,10 @@ Functions</h2></td></tr>
 <tr class="separator:a8d8836d489283bc9b586458bb8666284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6299c7eb972208c778f39debdea7ebd"><td class="memItemLeft" align="right" valign="top">TensorProxy&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#ae6299c7eb972208c778f39debdea7ebd">AmpGen::operator*</a> (const TensorProxy &amp;, const double &amp;)</td></tr>
 <tr class="separator:ae6299c7eb972208c778f39debdea7ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a718cf36538362da6fec06000ca301332"><td class="memItemLeft" align="right" valign="top">Tensor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a718cf36538362da6fec06000ca301332">AmpGen::Identity</a> (const size_t &amp;rank=4)</td></tr>
-<tr class="separator:a718cf36538362da6fec06000ca301332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3c1a3297bb91f1d84c8f7267fea58e8"><td class="memItemLeft" align="right" valign="top">const Tensor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#ad3c1a3297bb91f1d84c8f7267fea58e8">AmpGen::LeviCivita</a> (const size_t &amp;rank=4)</td></tr>
-<tr class="separator:ad3c1a3297bb91f1d84c8f7267fea58e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced46314d58e3338a28f14b39b5a4ce6"><td class="memItemLeft" align="right" valign="top">Tensor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#aced46314d58e3338a28f14b39b5a4ce6">AmpGen::Identity</a> (const unsigned &amp;rank=4)</td></tr>
+<tr class="separator:aced46314d58e3338a28f14b39b5a4ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591151b866f7843f8e320d3f7d6ed2b7"><td class="memItemLeft" align="right" valign="top">const Tensor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a591151b866f7843f8e320d3f7d6ed2b7">AmpGen::LeviCivita</a> (const unsigned &amp;rank=4)</td></tr>
+<tr class="separator:a591151b866f7843f8e320d3f7d6ed2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c8c9a6658bb6328a53c73977e118dac"><td class="memItemLeft" align="right" valign="top">Expression&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a1c8c9a6658bb6328a53c73977e118dac">AmpGen::dot</a> (const Tensor &amp;A, const Tensor &amp;B)</td></tr>
 <tr class="separator:a1c8c9a6658bb6328a53c73977e118dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c8396f0b92dba034fcc700bd4bc7bee"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a6c8396f0b92dba034fcc700bd4bc7bee">AmpGen::operator&lt;&lt;</a> (std::ostream &amp;out, const Tensor::Index &amp;index)</td></tr>
@@ -226,7 +226,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( Y != <span class="keyword">nullptr</span> ) <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> i = 0 ; i &lt; X.size(); ++i ) \</div><div class="line">    Y-&gt;emplace_back( std::string(#X) + Tensor::coordinates_to_string( X.coords(i) ) , X[i] );</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( Y != <span class="keyword">nullptr</span> ) <span class="keywordflow">for</span>( <span class="keywordtype">unsigned</span> i = 0 ; i &lt; X.size(); ++i ) \</div><div class="line">    Y-&gt;emplace_back( std::string(#X) + Tensor::coordinates_to_string( X.coords(i) ) , X[i] );</div></div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../dc/db8/_tensor_8h_source.html#l00017">17</a> of file <a class="el" href="../../dc/db8/_tensor_8h_source.html">Tensor.h</a>.</p>
 
 </div>
@@ -260,7 +260,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( Y != <span class="keyword">nullptr</span> ) <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> i = 0 ; i &lt; X.size(); ++i ) \</div><div class="line">    Y-&gt;emplace_back( <a class="code" href="../../dc/d82/namespace_amp_gen.html#a1c5484b63ddd098dc030ba546b792800">Z</a> + Tensor::coordinates_to_string( X.coords(i) ) , X[i] );</div><div class="ttc" id="namespace_amp_gen_html_a1c5484b63ddd098dc030ba546b792800"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a1c5484b63ddd098dc030ba546b792800">AmpGen::Z</a></div><div class="ttdeci">const Expression Z</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( Y != <span class="keyword">nullptr</span> ) <span class="keywordflow">for</span>( <span class="keywordtype">unsigned</span> i = 0 ; i &lt; X.size(); ++i ) \</div><div class="line">    Y-&gt;emplace_back( <a class="code" href="../../dc/d82/namespace_amp_gen.html#a1c5484b63ddd098dc030ba546b792800">Z</a> + Tensor::coordinates_to_string( X.coords(i) ) , X[i] );</div><div class="ttc" id="namespace_amp_gen_html_a1c5484b63ddd098dc030ba546b792800"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a1c5484b63ddd098dc030ba546b792800">AmpGen::Z</a></div><div class="ttdeci">const Expression Z</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../dc/db8/_tensor_8h_source.html#l00021">21</a> of file <a class="el" href="../../dc/db8/_tensor_8h_source.html">Tensor.h</a>.</p>
 
@@ -272,7 +272,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dc/db8/_tensor_8h.html">Tensor.h</a></li>
-    <li class="footer">Generated on Tue Sep 24 2019 11:39:36 for AmpGen by
+    <li class="footer">Generated on Tue Sep 24 2019 12:49:40 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

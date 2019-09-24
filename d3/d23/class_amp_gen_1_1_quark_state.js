@@ -3,7 +3,6 @@ var class_amp_gen_1_1_quark_state =
     [ "QuarkState", "d3/d23/class_amp_gen_1_1_quark_state.html#a4f6c651c186d7baa8ded0ea155f1581c", null ],
     [ "QuarkState", "d3/d23/class_amp_gen_1_1_quark_state.html#a3f78dbd705969635e0831e2364981876", null ],
     [ "antiThis", "d3/d23/class_amp_gen_1_1_quark_state.html#a07a8f52847c20dd0df0a8e113d1b4938", null ],
-    [ "initFromString", "d3/d23/class_amp_gen_1_1_quark_state.html#a0d665a1471813f1c2595ffcac636dadd", null ],
     [ "isVacuum", "d3/d23/class_amp_gen_1_1_quark_state.html#acc8fc6115b9c1387888fda46753f0c3d", null ],
     [ "nameFromPosition", "d3/d23/class_amp_gen_1_1_quark_state.html#a846c8ef131350afde5d198383ea6b713", null ],
     [ "operator!=", "d3/d23/class_amp_gen_1_1_quark_state.html#ac488c39e1c297a4f9f8795f3a1b4034f", null ],
