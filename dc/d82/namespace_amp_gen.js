@@ -26,6 +26,7 @@ var namespace_amp_gen =
     [ "CompilerWrapper", "d7/d4c/class_amp_gen_1_1_compiler_wrapper.html", "d7/d4c/class_amp_gen_1_1_compiler_wrapper" ],
     [ "Conj", "de/de2/class_amp_gen_1_1_conj.html", "de/de2/class_amp_gen_1_1_conj" ],
     [ "Constant", "d9/d48/class_amp_gen_1_1_constant.html", "d9/d48/class_amp_gen_1_1_constant" ],
+    [ "corrEventList", "df/d3b/class_amp_gen_1_1corr_event_list.html", "df/d3b/class_amp_gen_1_1corr_event_list" ],
     [ "Cos", "d3/d77/class_amp_gen_1_1_cos.html", "d3/d77/class_amp_gen_1_1_cos" ],
     [ "CouplingConstant", "d3/d03/class_amp_gen_1_1_coupling_constant.html", "d3/d03/class_amp_gen_1_1_coupling_constant" ],
     [ "DalitzIntegrator", "df/d1a/class_amp_gen_1_1_dalitz_integrator.html", "df/d1a/class_amp_gen_1_1_dalitz_integrator" ],
