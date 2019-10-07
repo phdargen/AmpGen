@@ -22,7 +22,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     ] ],
     [ "CorrelatedLL.h", "d1/da7/_correlated_l_l_8h.html", null ],
     [ "CorrelatedSum.h", "db/dc6/_correlated_sum_8h.html", [
-      [ "CorrelatedSum", "df/d84/class_correlated_sum.html", "df/d84/class_correlated_sum" ]
+      [ "CorrelatedSum", "d1/d28/class_amp_gen_1_1_correlated_sum.html", "d1/d28/class_amp_gen_1_1_correlated_sum" ]
     ] ],
     [ "corrEventList.h", "d0/d79/corr_event_list_8h.html", "d0/d79/corr_event_list_8h" ],
     [ "CoupledChannel.h", "da/da0/_coupled_channel_8h.html", "da/da0/_coupled_channel_8h" ],
@@ -32,7 +32,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "DiracMatrices.h", "d4/d06/_dirac_matrices_8h.html", "d4/d06/_dirac_matrices_8h" ],
     [ "DTEvent.h", "dd/d56/_d_t_event_8h.html", "dd/d56/_d_t_event_8h" ],
     [ "DTEventList.h", "d8/dea/_d_t_event_list_8h.html", [
-      [ "DTEventList", "d7/daa/struct_d_t_event_list.html", "d7/daa/struct_d_t_event_list" ]
+      [ "DTEventList", "d8/d40/struct_amp_gen_1_1_d_t_event_list.html", "d8/d40/struct_amp_gen_1_1_d_t_event_list" ]
     ] ],
     [ "DTYieldCalculator.h", "d3/dfb/_d_t_yield_calculator_8h.html", [
       [ "DTYieldCalculator", "d8/d89/class_d_t_yield_calculator.html", "d8/d89/class_d_t_yield_calculator" ]

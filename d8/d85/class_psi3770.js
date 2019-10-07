@@ -13,7 +13,7 @@ var class_psi3770 =
     [ "P", "d8/d85/class_psi3770.html#a157b1f2437df1abbeff0ad0c35a35c63", null ],
     [ "prob_noQC", "d8/d85/class_psi3770.html#ae3f6df2211685163e151e06ffb5d91c3", null ],
     [ "rho", "d8/d85/class_psi3770.html#a11d342341a6a65b3e9934fb42736d619", null ],
-    [ "sigS", "d8/d85/class_psi3770.html#a986be01a28aa7c1572f7ef12cce358d9", null ],
-    [ "tagS", "d8/d85/class_psi3770.html#a4f607c8fb1f195c8b06adddccf2112e2", null ],
+    [ "sigS", "d8/d85/class_psi3770.html#a35c247bd3fba1d0c78d2810b5990f2a8", null ],
+    [ "tagS", "d8/d85/class_psi3770.html#a98017bd0c94a2f58aaf22dbc2ed1cfae", null ],
     [ "z", "d8/d85/class_psi3770.html#aa81e9b7036fcfb9ad9c0b7dfe176dbaa", null ]
 ];

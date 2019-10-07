@@ -100,7 +100,7 @@ var hierarchy =
       [ "AmpGen::CompiledExpression< std::vector< complex_t >, const real_t *, const real_t * >", "d1/d43/class_amp_gen_1_1_compiled_expression.html", null ]
     ] ],
     [ "AmpGen::CompilerWrapper", "d7/d4c/class_amp_gen_1_1_compiler_wrapper.html", null ],
-    [ "CorrelatedSum", "df/d84/class_correlated_sum.html", null ],
+    [ "AmpGen::CorrelatedSum", "d1/d28/class_amp_gen_1_1_correlated_sum.html", null ],
     [ "AmpGen::corrEventList", "df/d3b/class_amp_gen_1_1corr_event_list.html", null ],
     [ "AmpGen::CouplingConstant", "d3/d03/class_amp_gen_1_1_coupling_constant.html", null ],
     [ "AmpGen::DalitzIntegrator", "df/d1a/class_amp_gen_1_1_dalitz_integrator.html", null ],
@@ -247,7 +247,7 @@ var hierarchy =
     [ "AmpGen::TransitionMatrix< std::vector< complex_t > >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
     [ "AmpGen::TreeReader< OutputType >", "dd/da6/class_amp_gen_1_1_tree_reader.html", null ],
     [ "std::vector< T >", null, [
-      [ "DTEventList", "d7/daa/struct_d_t_event_list.html", null ],
+      [ "AmpGen::DTEventList", "d8/d40/struct_amp_gen_1_1_d_t_event_list.html", null ],
       [ "DTEventList", "d7/daa/struct_d_t_event_list.html", null ]
     ] ],
     [ "AmpGen::detail::zeroType< T, args >", "dc/d3f/namespace_amp_gen_1_1detail.html#db/d79/struct_amp_gen_1_1detail_1_1zero_type", null ]

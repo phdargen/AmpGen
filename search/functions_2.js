@@ -40,7 +40,7 @@ var searchData=
   ['coordinates_5fto_5findex',['coordinates_to_index',['../d4/d0e/class_amp_gen_1_1_tensor.html#a94566f7a9d1339084cc0b5485f9ca21c',1,'AmpGen::Tensor']]],
   ['coordinates_5fto_5fstring',['coordinates_to_string',['../d4/d0e/class_amp_gen_1_1_tensor.html#af471af28ef411c791b660c5d1cd2043a',1,'AmpGen::Tensor']]],
   ['coords',['coords',['../d4/d0e/class_amp_gen_1_1_tensor.html#a52bd3f50a949712629ac818fed8e5838',1,'AmpGen::Tensor']]],
-  ['correlatedsum',['CorrelatedSum',['../df/d84/class_correlated_sum.html#a3e314eb255d41b152feaf4f57772e228',1,'CorrelatedSum::CorrelatedSum()'],['../df/d84/class_correlated_sum.html#a2809b4f55122c5a1faaa0cd6d4c70239',1,'CorrelatedSum::CorrelatedSum(const EventType &amp;type1, const EventType &amp;type2, const MinuitParameterSet &amp;mps)']]],
+  ['correlatedsum',['CorrelatedSum',['../d1/d28/class_amp_gen_1_1_correlated_sum.html#a7931f88d842e077ecfdfd3f7725f756e',1,'AmpGen::CorrelatedSum::CorrelatedSum()'],['../d1/d28/class_amp_gen_1_1_correlated_sum.html#a14c7b62ab1b97297959d39c87b8c83ea',1,'AmpGen::CorrelatedSum::CorrelatedSum(const EventType &amp;type1, const EventType &amp;type2, const MinuitParameterSet &amp;mps)']]],
   ['correlation',['correlation',['../d4/d2d/class_amp_gen_1_1_fit_result.html#aac038966e68ab17eb26c0138e932d6c1',1,'AmpGen::FitResult']]],
   ['correlationmatrix',['correlationMatrix',['../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a7fa23e2e9b148ff2d604c49f848973da',1,'AmpGen::LinearErrorPropagator']]],
   ['correventlist',['corrEventList',['../df/d3b/class_amp_gen_1_1corr_event_list.html#ad7d463ee94809fb5804867f2c3a6afb4',1,'AmpGen::corrEventList']]],

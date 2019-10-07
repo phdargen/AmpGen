@@ -1,7 +1,6 @@
 var annotated =
 [
     [ "AmpGen", "dc/d82/namespace_amp_gen.html", "dc/d82/namespace_amp_gen" ],
-    [ "CorrelatedSum", "df/d84/class_correlated_sum.html", "df/d84/class_correlated_sum" ],
     [ "DTEvent", "db/d08/struct_d_t_event.html", "db/d08/struct_d_t_event" ],
     [ "DTEventList", "d7/daa/struct_d_t_event_list.html", "d7/daa/struct_d_t_event_list" ],
     [ "DTYieldCalculator", "d8/d89/class_d_t_yield_calculator.html", "d8/d89/class_d_t_yield_calculator" ],
