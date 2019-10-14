@@ -135,7 +135,9 @@ var hierarchy =
     [ "AmpGen::FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html", null ],
     [ "FixedLibPdf", "d9/da6/class_fixed_lib_pdf.html", null ],
     [ "AmpGen::GaussErrorPropagator", "d1/de8/class_amp_gen_1_1_gauss_error_propagator.html", null ],
-    [ "AmpGen::Generator< PHASESPACE >", "de/d94/class_amp_gen_1_1_generator.html", null ],
+    [ "AmpGen::Generator< PHASESPACE >", "de/d94/class_amp_gen_1_1_generator.html", [
+      [ "AmpGen::QCGenerator", "dc/d1b/class_amp_gen_1_1_q_c_generator.html", null ]
+    ] ],
     [ "AmpGen::HelicityCosine", "d1/d4e/class_amp_gen_1_1_helicity_cosine.html", null ],
     [ "AmpGen::IArgument", "dc/d5a/struct_amp_gen_1_1_i_argument.html", [
       [ "AmpGen::Argument< TYPE >", "d9/d9c/struct_amp_gen_1_1_argument.html", null ]

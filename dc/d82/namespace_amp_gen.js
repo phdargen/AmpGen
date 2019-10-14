@@ -99,6 +99,7 @@ var namespace_amp_gen =
     [ "ProgressBar", "d1/de8/class_amp_gen_1_1_progress_bar.html", "d1/de8/class_amp_gen_1_1_progress_bar" ],
     [ "Projection", "db/dc8/class_amp_gen_1_1_projection.html", "db/dc8/class_amp_gen_1_1_projection" ],
     [ "Projection2D", "d0/d04/class_amp_gen_1_1_projection2_d.html", "d0/d04/class_amp_gen_1_1_projection2_d" ],
+    [ "QCGenerator", "dc/d1b/class_amp_gen_1_1_q_c_generator.html", "dc/d1b/class_amp_gen_1_1_q_c_generator" ],
     [ "QuarkContent", "de/d21/class_amp_gen_1_1_quark_content.html", "de/d21/class_amp_gen_1_1_quark_content" ],
     [ "QuarkState", "d3/d23/class_amp_gen_1_1_quark_state.html", "d3/d23/class_amp_gen_1_1_quark_state" ],
     [ "Real", "d2/d41/class_amp_gen_1_1_real.html", "d2/d41/class_amp_gen_1_1_real" ],

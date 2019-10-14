@@ -135,6 +135,9 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "Psi3770.h", "dd/d66/_psi3770_8h.html", [
       [ "Psi3770", "d8/d85/class_psi3770.html", "d8/d85/class_psi3770" ]
     ] ],
+    [ "QcGenerator.h", "dd/dec/_qc_generator_8h.html", [
+      [ "QCGenerator", "dc/d1b/class_amp_gen_1_1_q_c_generator.html", "dc/d1b/class_amp_gen_1_1_q_c_generator" ]
+    ] ],
     [ "QuarkContent.h", "d2/d87/_quark_content_8h.html", "d2/d87/_quark_content_8h" ],
     [ "RecursivePhaseSpace.h", "df/dc6/_recursive_phase_space_8h.html", [
       [ "RecursivePhaseSpace", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html", "dd/daf/class_amp_gen_1_1_recursive_phase_space" ]

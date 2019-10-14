@@ -42,9 +42,10 @@ var NAVTREEINDEX =
 "d7/dfa/class_amp_gen_1_1_event_type.html#ac39b446eaad75d6638e7fc8364f0a99d",
 "d9/d85/class_amp_gen_1_1_lineshape_1_1_factory.html#abddf0a1a7988b7093eecd934ebff42e8",
 "db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad",
-"dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html#a29511358ee3c744ab68ed286845b58d7",
-"dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a47a9c65d80045e1e932237571941ffea",
-"de/de2/class_amp_gen_1_1_conj.html#a6c131a3f08cbefc4d1c0731d46300e81"
+"dc/d1e/class_amp_gen_1_1_exp.html",
+"dd/da6/class_amp_gen_1_1_tree_reader.html#ab38292b224368570589147f8f650ed9a",
+"de/dd7/class_amp_gen_1_1_particle.html#ae96be8409141106aab6d7f576c1a3c2d",
+"namespaces.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
