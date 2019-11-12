@@ -7,5 +7,6 @@ var searchData=
   ['v_5fts_5fp',['V_TS_P',['../d4/ddc/struct_amp_gen_1_1_vertex_1_1_v___t_s___p.html',1,'AmpGen::Vertex']]],
   ['v_5fvs_5fd',['V_VS_D',['../dd/d05/struct_amp_gen_1_1_vertex_1_1_v___v_s___d.html',1,'AmpGen::Vertex']]],
   ['v_5fvs_5fp',['V_VS_P',['../dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html',1,'AmpGen::Vertex']]],
-  ['v_5fvs_5fs',['V_VS_S',['../d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html',1,'AmpGen::Vertex']]]
+  ['v_5fvs_5fs',['V_VS_S',['../d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html',1,'AmpGen::Vertex']]],
+  ['vertex',['Vertex',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html',1,'AmpGen::TreePhaseSpace']]]
 ];

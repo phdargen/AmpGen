@@ -5,7 +5,7 @@ var searchData=
   ['lass',['LASS',['../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html',1,'AmpGen::Lineshape']]],
   ['lass',['LASS',['../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266',1,'AmpGen::Lineshape::LASS']]],
   ['lasso',['LASSO',['../dd/d4b/class_amp_gen_1_1_l_a_s_s_o.html',1,'AmpGen']]],
-  ['left',['left',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a84359de845391d5aef78dde8215cf1fc',1,'AmpGen::FastDT::Node']]],
+  ['left',['left',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a84359de845391d5aef78dde8215cf1fc',1,'AmpGen::FastDT::Node::left()'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a13bbad295fa35292014ebcb93b587fbc',1,'AmpGen::TreePhaseSpace::Vertex::left()']]],
   ['lessthan',['LessThan',['../de/df5/class_amp_gen_1_1_less_than.html',1,'AmpGen']]],
   ['lessthan',['LessThan',['../de/df5/class_amp_gen_1_1_less_than.html#ace98f45696f4c4bf246ea0034d1e9bdd',1,'AmpGen::LessThan']]],
   ['levicivita',['LeviCivita',['../dc/d82/namespace_amp_gen.html#a591151b866f7843f8e320d3f7d6ed2b7',1,'AmpGen']]],

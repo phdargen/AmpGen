@@ -14,10 +14,12 @@ var searchData=
   ['ternary',['Ternary',['../d5/d86/struct_amp_gen_1_1_ternary.html',1,'AmpGen']]],
   ['threadpool',['ThreadPool',['../d7/d84/class_amp_gen_1_1_thread_pool.html',1,'AmpGen']]],
   ['threebodycalculator',['ThreeBodyCalculator',['../da/d3d/class_amp_gen_1_1_three_body_calculator.html',1,'AmpGen']]],
+  ['totalcoupling',['TotalCoupling',['../df/d84/class_amp_gen_1_1_total_coupling.html',1,'AmpGen']]],
   ['transform',['Transform',['../d9/d03/class_amp_gen_1_1_transform.html',1,'AmpGen']]],
   ['transformsequence',['TransformSequence',['../d0/dd5/class_amp_gen_1_1_transform_sequence.html',1,'AmpGen']]],
   ['transitionmatrix',['TransitionMatrix',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html',1,'AmpGen']]],
   ['transitionmatrix_3c_20complex_5ft_20_3e',['TransitionMatrix&lt; complex_t &gt;',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html',1,'AmpGen']]],
   ['transitionmatrix_3c_20std_3a_3avector_3c_20complex_5ft_20_3e_20_3e',['TransitionMatrix&lt; std::vector&lt; complex_t &gt; &gt;',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html',1,'AmpGen']]],
+  ['treephasespace',['TreePhaseSpace',['../db/d9a/class_amp_gen_1_1_tree_phase_space.html',1,'AmpGen']]],
   ['treereader',['TreeReader',['../dd/da6/class_amp_gen_1_1_tree_reader.html',1,'AmpGen']]]
 ];

@@ -2,7 +2,7 @@ var class_amp_gen_1_1_incoherent_sum =
 [
     [ "integrator", "db/d29/class_amp_gen_1_1_incoherent_sum.html#aa3a8f060c5191c7a5da53b3ac8095eee", null ],
     [ "IncoherentSum", "db/d29/class_amp_gen_1_1_incoherent_sum.html#aba8f328675dd064f564109d0bcbe7930", null ],
-    [ "addMatrixElement", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a785d20e81fd0d234ffe1db5ba5a0eff3", null ],
+    [ "addMatrixElement", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a830096d2bf391c8ba28ebeb82ac2e5d9", null ],
     [ "cacheAddresses", "db/d29/class_amp_gen_1_1_incoherent_sum.html#affeb6d51cc7ac34032a65831adefcf8f", null ],
     [ "debug", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a10c7bf38861fc75bb1da32d98aacb59b", null ],
     [ "fitFractions", "db/d29/class_amp_gen_1_1_incoherent_sum.html#ab83599354c52706b1790752b72afbdad", null ],

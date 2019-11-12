@@ -36,6 +36,7 @@ var class_amp_gen_1_1_particle =
     [ "isQuasiStable", "de/dd7/class_amp_gen_1_1_particle.html#a0904d409dfd80e25e0eb07712a03eafc", null ],
     [ "isStable", "de/dd7/class_amp_gen_1_1_particle.html#a5dc46174f896339c0930d97e17918527", null ],
     [ "isStateGood", "de/dd7/class_amp_gen_1_1_particle.html#aa27570285357db837b65e81d3f56c323", null ],
+    [ "isValidDecayDescriptor", "de/dd7/class_amp_gen_1_1_particle.html#afd2a170471b6e6078eb04d3a44a683eb", null ],
     [ "isWeakDecay", "de/dd7/class_amp_gen_1_1_particle.html#adeb289e0f665c93124352d7c99e3c2e0", null ],
     [ "L", "de/dd7/class_amp_gen_1_1_particle.html#a47b28271dd2e60c2faadbfb24ef8abee", null ],
     [ "lineshape", "de/dd7/class_amp_gen_1_1_particle.html#a97bfd8c2be3aef0934f63ab85d58f28c", null ],

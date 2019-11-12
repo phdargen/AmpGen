@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "AmpGen::AmplitudeRule", "dc/dee/class_amp_gen_1_1_amplitude_rule.html", null ],
     [ "AmpGen::AmplitudeRules", "db/dec/class_amp_gen_1_1_amplitude_rules.html", null ],
     [ "AmpGen::ArgumentPack", "d1/d65/class_amp_gen_1_1_argument_pack.html", null ],
     [ "AmpGen::ASTResolver", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html", null ],
@@ -68,12 +67,10 @@ var hierarchy =
       [ "AmpGen::Lineshape::Isotensor", "d9/d93/class_amp_gen_1_1_lineshape_1_1_isotensor.html", null ],
       [ "AmpGen::Lineshape::kMatrixSimple", "d0/de4/class_amp_gen_1_1_lineshape_1_1k_matrix_simple.html", null ],
       [ "AmpGen::Lineshape::LASS", "dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html", null ],
-      [ "AmpGen::Lineshape::MagPoly", "d4/db4/class_amp_gen_1_1_lineshape_1_1_mag_poly.html", null ],
       [ "AmpGen::Lineshape::MIPWA", "d8/da3/class_amp_gen_1_1_lineshape_1_1_m_i_p_w_a.html", null ],
       [ "AmpGen::Lineshape::None", "d9/d4c/class_amp_gen_1_1_lineshape_1_1_none.html", null ],
       [ "AmpGen::Lineshape::NonRelBW", "d1/dcb/class_amp_gen_1_1_lineshape_1_1_non_rel_b_w.html", null ],
       [ "AmpGen::Lineshape::PALANO", "d4/d0a/class_amp_gen_1_1_lineshape_1_1_p_a_l_a_n_o.html", null ],
-      [ "AmpGen::Lineshape::PhasePoly", "d4/d5f/class_amp_gen_1_1_lineshape_1_1_phase_poly.html", null ],
       [ "AmpGen::Lineshape::Photon", "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html", null ],
       [ "AmpGen::Lineshape::Poly", "de/d02/class_amp_gen_1_1_lineshape_1_1_poly.html", null ],
       [ "AmpGen::Lineshape::PolyNR", "d0/d5e/class_amp_gen_1_1_lineshape_1_1_poly_n_r.html", null ],
@@ -100,16 +97,11 @@ var hierarchy =
       [ "AmpGen::CompiledExpression< std::vector< complex_t >, const real_t *, const real_t * >", "d1/d43/class_amp_gen_1_1_compiled_expression.html", null ]
     ] ],
     [ "AmpGen::CompilerWrapper", "d7/d4c/class_amp_gen_1_1_compiler_wrapper.html", null ],
-    [ "AmpGen::CorrelatedSum", "d1/d28/class_amp_gen_1_1_correlated_sum.html", null ],
-    [ "AmpGen::corrEventList", "df/d3b/class_amp_gen_1_1corr_event_list.html", null ],
-    [ "AmpGen::CouplingConstant", "d3/d03/class_amp_gen_1_1_coupling_constant.html", null ],
+    [ "AmpGen::Coupling", "d5/db2/class_amp_gen_1_1_coupling.html", null ],
     [ "AmpGen::DalitzIntegrator", "df/d1a/class_amp_gen_1_1_dalitz_integrator.html", null ],
-    [ "DTEvent", "db/d08/struct_d_t_event.html", null ],
-    [ "DTYieldCalculator", "d8/d89/class_d_t_yield_calculator.html", null ],
     [ "AmpGen::DynamicContainer< TYPE, CONTAINER_TYPE >", "d6/d9d/class_amp_gen_1_1_dynamic_container.html", null ],
     [ "AmpGen::DynamicFCN< RETURN_TYPE, IN_TYPES >", "dc/d82/namespace_amp_gen.html#df/dae/class_amp_gen_1_1_dynamic_f_c_n", null ],
     [ "AmpGen::DynamicFCN< complex_t(ARGS...)>", "dc/d82/namespace_amp_gen.html#dc/d82/namespace_amp_gen", null ],
-    [ "AmpGen::DynamicFCN< complex_t(const double *, const int &)>", "dc/d82/namespace_amp_gen.html#dc/d82/namespace_amp_gen", null ],
     [ "AmpGen::DynamicFCN< real_t(ARGS...)>", "dc/d82/namespace_amp_gen.html#dc/d82/namespace_amp_gen", null ],
     [ "AmpGen::DynamicFCN< RETURN_TYPE(ARGS...)>", "dc/d82/namespace_amp_gen.html#dc/d82/namespace_amp_gen", null ],
     [ "AmpGen::DynamicFCN< RETURN_TYPE(IN_TYPES...)>", "db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html", null ],
@@ -133,11 +125,8 @@ var hierarchy =
     [ "AmpGen::FitFraction", "da/d5b/class_amp_gen_1_1_fit_fraction.html", null ],
     [ "AmpGen::FitFractionCalculator< pdf_type >", "d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html", null ],
     [ "AmpGen::FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html", null ],
-    [ "FixedLibPdf", "d9/da6/class_fixed_lib_pdf.html", null ],
     [ "AmpGen::GaussErrorPropagator", "d1/de8/class_amp_gen_1_1_gauss_error_propagator.html", null ],
-    [ "AmpGen::Generator< PHASESPACE >", "de/d94/class_amp_gen_1_1_generator.html", [
-      [ "AmpGen::QCGenerator", "dc/d1b/class_amp_gen_1_1_q_c_generator.html", null ]
-    ] ],
+    [ "AmpGen::Generator< PHASESPACE >", "de/d94/class_amp_gen_1_1_generator.html", null ],
     [ "AmpGen::HelicityCosine", "d1/d4e/class_amp_gen_1_1_helicity_cosine.html", null ],
     [ "AmpGen::IArgument", "dc/d5a/struct_amp_gen_1_1_i_argument.html", [
       [ "AmpGen::Argument< TYPE >", "d9/d9c/struct_amp_gen_1_1_argument.html", null ]
@@ -208,15 +197,9 @@ var hierarchy =
     ] ],
     [ "AmpGen::MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html", null ],
     [ "AmpGen::MinuitProxy", "de/d24/class_amp_gen_1_1_minuit_proxy.html", null ],
-    [ "ModelStore", "d5/dc6/struct_model_store.html", null ],
     [ "AmpGen::MomentumTransfer", "d7/d3d/class_amp_gen_1_1_momentum_transfer.html", null ],
     [ "AmpGen::NamedParameter< T >", "d9/d1b/class_amp_gen_1_1_named_parameter.html", null ],
     [ "AmpGen::FastDT::Node", "d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html", null ],
-    [ "normalised_pdf< PDF >", "d5/de1/structnormalised__pdf.html", null ],
-    [ "normalised_pdf< CoherentSum >", "d5/de1/structnormalised__pdf.html", null ],
-    [ "normalised_pdf< FixedLibPdf >", "d5/de1/structnormalised__pdf.html", null ],
-    [ "normalised_pdf< T1 >", "d5/de1/structnormalised__pdf.html", null ],
-    [ "normalised_pdf< T2 >", "d5/de1/structnormalised__pdf.html", null ],
     [ "AmpGen::NormalOrderedExpression", "dc/d2a/class_amp_gen_1_1_normal_ordered_expression.html", null ],
     [ "AmpGen::OptionsParser", "d8/d73/class_amp_gen_1_1_options_parser.html", null ],
     [ "AmpGen::Pade< N, T >", "de/d2b/class_amp_gen_1_1_pade.html", null ],
@@ -231,7 +214,6 @@ var hierarchy =
     [ "AmpGen::ProgressBar", "d1/de8/class_amp_gen_1_1_progress_bar.html", null ],
     [ "AmpGen::Projection", "db/dc8/class_amp_gen_1_1_projection.html", null ],
     [ "AmpGen::Projection2D", "d0/d04/class_amp_gen_1_1_projection2_d.html", null ],
-    [ "Psi3770< T1, T2 >", "d8/d85/class_psi3770.html", null ],
     [ "AmpGen::QuarkContent", "de/d21/class_amp_gen_1_1_quark_content.html", null ],
     [ "AmpGen::QuarkState", "d3/d23/class_amp_gen_1_1_quark_state.html", null ],
     [ "AmpGen::RecursivePhaseSpace", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html", null ],
@@ -242,15 +224,14 @@ var hierarchy =
     [ "AmpGen::NormalOrderedExpression::Term", "dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html", null ],
     [ "AmpGen::ThreadPool", "d7/d84/class_amp_gen_1_1_thread_pool.html", null ],
     [ "AmpGen::ThreeBodyCalculator", "da/d3d/class_amp_gen_1_1_three_body_calculator.html", null ],
+    [ "AmpGen::TotalCoupling", "df/d84/class_amp_gen_1_1_total_coupling.html", null ],
     [ "AmpGen::Transform", "d9/d03/class_amp_gen_1_1_transform.html", null ],
     [ "AmpGen::TransformSequence", "d0/dd5/class_amp_gen_1_1_transform_sequence.html", null ],
     [ "AmpGen::TransitionMatrix< RT >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
     [ "AmpGen::TransitionMatrix< complex_t >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
     [ "AmpGen::TransitionMatrix< std::vector< complex_t > >", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", null ],
+    [ "AmpGen::TreePhaseSpace", "db/d9a/class_amp_gen_1_1_tree_phase_space.html", null ],
     [ "AmpGen::TreeReader< OutputType >", "dd/da6/class_amp_gen_1_1_tree_reader.html", null ],
-    [ "std::vector< T >", null, [
-      [ "AmpGen::DTEventList", "d8/d40/struct_amp_gen_1_1_d_t_event_list.html", null ],
-      [ "DTEventList", "d7/daa/struct_d_t_event_list.html", null ]
-    ] ],
+    [ "AmpGen::TreePhaseSpace::Vertex", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html", null ],
     [ "AmpGen::detail::zeroType< T, args >", "dc/d3f/namespace_amp_gen_1_1detail.html#db/d79/struct_amp_gen_1_1detail_1_1zero_type", null ]
 ];
