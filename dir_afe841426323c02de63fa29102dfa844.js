@@ -20,11 +20,23 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "CompilerWrapper.h", "d0/d29/_compiler_wrapper_8h.html", [
       [ "CompilerWrapper", "d7/d4c/class_amp_gen_1_1_compiler_wrapper.html", "d7/d4c/class_amp_gen_1_1_compiler_wrapper" ]
     ] ],
+    [ "CorrelatedLL.h", "d1/da7/_correlated_l_l_8h.html", null ],
+    [ "CorrelatedSum.h", "db/dc6/_correlated_sum_8h.html", [
+      [ "CorrelatedSum", "d1/d28/class_amp_gen_1_1_correlated_sum.html", "d1/d28/class_amp_gen_1_1_correlated_sum" ]
+    ] ],
+    [ "corrEventList.h", "d0/d79/corr_event_list_8h.html", "d0/d79/corr_event_list_8h" ],
     [ "CoupledChannel.h", "da/da0/_coupled_channel_8h.html", "da/da0/_coupled_channel_8h" ],
     [ "DalitzIntegrator.h", "d0/d32/_dalitz_integrator_8h.html", [
       [ "DalitzIntegrator", "df/d1a/class_amp_gen_1_1_dalitz_integrator.html", "df/d1a/class_amp_gen_1_1_dalitz_integrator" ]
     ] ],
     [ "DiracMatrices.h", "d4/d06/_dirac_matrices_8h.html", "d4/d06/_dirac_matrices_8h" ],
+    [ "DTEvent.h", "dd/d56/_d_t_event_8h.html", "dd/d56/_d_t_event_8h" ],
+    [ "DTEventList.h", "d8/dea/_d_t_event_list_8h.html", [
+      [ "DTEventList", "d8/d40/struct_amp_gen_1_1_d_t_event_list.html", "d8/d40/struct_amp_gen_1_1_d_t_event_list" ]
+    ] ],
+    [ "DTYieldCalculator.h", "d3/dfb/_d_t_yield_calculator_8h.html", [
+      [ "DTYieldCalculator", "d8/d89/class_d_t_yield_calculator.html", "d8/d89/class_d_t_yield_calculator" ]
+    ] ],
     [ "DynamicContainer.h", "da/d11/_dynamic_container_8h.html", [
       [ "DynamicContainer", "d6/d9d/class_amp_gen_1_1_dynamic_container.html", "d6/d9d/class_amp_gen_1_1_dynamic_container" ],
       [ "Iterator", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator" ]
@@ -57,6 +69,9 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "FitFraction.h", "db/d5e/_fit_fraction_8h.html", "db/d5e/_fit_fraction_8h" ],
     [ "FitResult.h", "d7/d5d/_fit_result_8h.html", [
       [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html", "d4/d2d/class_amp_gen_1_1_fit_result" ]
+    ] ],
+    [ "FixedLibPdf.h", "d2/df5/_fixed_lib_pdf_8h.html", [
+      [ "FixedLibPdf", "d9/da6/class_fixed_lib_pdf.html", "d9/da6/class_fixed_lib_pdf" ]
     ] ],
     [ "Generator.h", "d8/dc5/_generator_8h.html", "d8/dc5/_generator_8h" ],
     [ "IExtendLikelihood.h", "d8/d79/_i_extend_likelihood_8h.html", [
@@ -91,6 +106,10 @@ var dir_afe841426323c02de63fa29102dfa844 =
     ] ],
     [ "MsgService.h", "d9/daa/_msg_service_8h.html", "d9/daa/_msg_service_8h" ],
     [ "NamedParameter.h", "df/d78/_named_parameter_8h.html", "df/d78/_named_parameter_8h" ],
+    [ "NormalisedPdf.h", "d7/d23/_normalised_pdf_8h.html", [
+      [ "normalised_pdf", "d5/de1/structnormalised__pdf.html", "d5/de1/structnormalised__pdf" ],
+      [ "ModelStore", "d5/dc6/struct_model_store.html", "d5/dc6/struct_model_store" ]
+    ] ],
     [ "OptionsParser.h", "de/d3c/_options_parser_8h.html", [
       [ "OptionsParser", "d8/d73/class_amp_gen_1_1_options_parser.html", "d8/d73/class_amp_gen_1_1_options_parser" ]
     ] ],
@@ -113,6 +132,10 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "Projection", "db/dc8/class_amp_gen_1_1_projection.html", "db/dc8/class_amp_gen_1_1_projection" ],
       [ "Projection2D", "d0/d04/class_amp_gen_1_1_projection2_d.html", "d0/d04/class_amp_gen_1_1_projection2_d" ]
     ] ],
+    [ "Psi3770.h", "dd/d66/_psi3770_8h.html", [
+      [ "Psi3770", "d8/d85/class_psi3770.html", "d8/d85/class_psi3770" ]
+    ] ],
+    [ "QcGenerator.h", "dd/dec/_qc_generator_8h.html", "dd/dec/_qc_generator_8h" ],
     [ "QuarkContent.h", "d2/d87/_quark_content_8h.html", "d2/d87/_quark_content_8h" ],
     [ "RecursivePhaseSpace.h", "df/dc6/_recursive_phase_space_8h.html", [
       [ "RecursivePhaseSpace", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html", "dd/daf/class_amp_gen_1_1_recursive_phase_space" ]
