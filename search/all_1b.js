@@ -4,7 +4,6 @@ var searchData=
   ['_7ecachetransfer',['~CacheTransfer',['../d8/d16/class_amp_gen_1_1_cache_transfer.html#ac43a225996ed2a0e153c94d462ac5c99',1,'AmpGen::CacheTransfer']]],
   ['_7ecoherentsum',['~CoherentSum',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a0d81546255fe4adf13c9914cc466d901',1,'AmpGen::CoherentSum']]],
   ['_7ecompiledexpressionbase',['~CompiledExpressionBase',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a9c1c47ced6c72989cab345190b5aaef1',1,'AmpGen::CompiledExpressionBase']]],
-  ['_7ecorrelatedsum',['~CorrelatedSum',['../d1/d28/class_amp_gen_1_1_correlated_sum.html#a5297b6d04347dd6b9c6df441629707cb',1,'AmpGen::CorrelatedSum']]],
   ['_7edynamicfcn',['~DynamicFCN',['../db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#a6fbc5821bc11a6e8eb535506f17b7ee9',1,'AmpGen::DynamicFCN&lt; RETURN_TYPE(IN_TYPES...)&gt;']]],
   ['_7eexpression',['~Expression',['../dd/d66/class_amp_gen_1_1_expression.html#a557f019537dc0b1c5d30b7a1e14e2963',1,'AmpGen::Expression']]],
   ['_7eiargument',['~IArgument',['../dc/d5a/struct_amp_gen_1_1_i_argument.html#a2b3d03793b5800e51a2736524a2b7801',1,'AmpGen::IArgument']]],

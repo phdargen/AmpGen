@@ -17,7 +17,7 @@ var NAVTREE =
     [ "Class Members", "functions.html", [
       [ "All", "functions.html", "functions_dup" ],
       [ "Functions", "functions_func.html", "functions_func" ],
-      [ "Variables", "functions_vars.html", "functions_vars" ],
+      [ "Variables", "functions_vars.html", null ],
       [ "Typedefs", "functions_type.html", null ],
       [ "Enumerations", "functions_enum.html", null ],
       [ "Enumerator", "functions_eval.html", null ],
@@ -35,17 +35,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d28/class_amp_gen_1_1_correlated_sum.html#ace70612cb56e782b2711f7f46cd7b9d2",
-"d2/d9c/_simplify_8h.html#a61973d33ee041d4e90990d0a3ee3e230",
-"d4/d15/_particle_8h_source.html",
-"d5/db3/class_amp_gen_1_1_expression_parser.html#ad8f7e44776b06ea9907c7eead5577580",
-"d7/dfa/class_amp_gen_1_1_event_type.html#a3d63d93691254bf369025580791f2365",
-"d9/d1b/class_amp_gen_1_1_named_parameter.html#a0de2e6b5565d46e5b640da7c6df5f701",
-"db/d29/class_amp_gen_1_1_incoherent_sum.html#a10c7bf38861fc75bb1da32d98aacb59b",
-"db/d97/class_amp_gen_1_1_vertex_1_1_factory.html#aeea7fea565f2cfa0e63f61165ab9653c",
-"dd/d56/_d_t_event_8h.html#a9f012d64d01fc459a1b8db15a7318175",
-"de/dd7/class_amp_gen_1_1_particle.html#a0fb6dc465284aa3bdabae61c9ab183e1",
-"functions_i.html"
+"d1/d6c/class_amp_gen_1_1_bilinears.html#a6817f59502c34a55034f861b5d2e714e",
+"d3/d35/class_amp_gen_1_1_sum.html#a1b55a1e8075784c54524d62ad8df046a",
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a205b1e31969a7243019034f720d4c205",
+"d6/d99/_expression_8h.html#a511deef37e2707a89cd465a1c1c65dc0",
+"d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#abbf9074372b8020158c44170ff919641",
+"da/d29/struct_amp_gen_1_1_vertex_1_1f___vf___p3.html#aa8534d4bd69d8420cd98265b4a291aa9",
+"db/d4b/class_amp_gen_1_1_event_list.html#addea7f894a61a36fc44d7c237302cfff",
+"dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html#a636635d425473883797935c99ffb8156",
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#adc941c3754ab52063fd6b1abc7a2ae0d",
+"df/d84/class_amp_gen_1_1_total_coupling.html#a8c7d69bf145c6f6a896a0317b032d4ce"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -10,6 +10,7 @@ var searchData=
   ['addarg',['addArg',['../d8/d73/class_amp_gen_1_1_options_parser.html#ac60ebd7021994d687eae521d132df24f',1,'AmpGen::OptionsParser']]],
   ['addcachefunction',['addCacheFunction',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a1c1a1bfc8ac815beb7ac5b637e194986',1,'AmpGen::ASTResolver']]],
   ['addchi2',['addChi2',['../d4/d2d/class_amp_gen_1_1_fit_result.html#a62e841325cb0586dce7bb60c70a0f2a9',1,'AmpGen::FitResult']]],
+  ['addcpconjugate',['AddCPConjugate',['../dc/d82/namespace_amp_gen.html#aafe0294ca59974604557b1b1aac68500',1,'AmpGen']]],
   ['adddaughter',['addDaughter',['../de/dd7/class_amp_gen_1_1_particle.html#afa409995f22bfe03134361e597e5d06f',1,'AmpGen::Particle']]],
   ['addexpression',['addExpression',['../dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html#a5bff412e8334c4d6c4ee818d25e99007',1,'AmpGen::NormalOrderedExpression::Term']]],
   ['addfraction',['addFraction',['../d4/d2d/class_amp_gen_1_1_fit_result.html#ad2e42dfbe25cadec4505e7fc26b94948',1,'AmpGen::FitResult']]],
