@@ -17,7 +17,7 @@ var NAVTREE =
     [ "Class Members", "functions.html", [
       [ "All", "functions.html", "functions_dup" ],
       [ "Functions", "functions_func.html", "functions_func" ],
-      [ "Variables", "functions_vars.html", null ],
+      [ "Variables", "functions_vars.html", "functions_vars" ],
       [ "Typedefs", "functions_type.html", null ],
       [ "Enumerations", "functions_enum.html", null ],
       [ "Enumerator", "functions_eval.html", null ],
@@ -35,16 +35,17 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d6c/class_amp_gen_1_1_bilinears.html#a6817f59502c34a55034f861b5d2e714e",
-"d3/d35/class_amp_gen_1_1_sum.html#a1b55a1e8075784c54524d62ad8df046a",
-"d4/d37/struct_amp_gen_1_1_sub_tree.html#a205b1e31969a7243019034f720d4c205",
-"d6/d99/_expression_8h.html#a511deef37e2707a89cd465a1c1c65dc0",
-"d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#abbf9074372b8020158c44170ff919641",
-"da/d29/struct_amp_gen_1_1_vertex_1_1f___vf___p3.html#aa8534d4bd69d8420cd98265b4a291aa9",
-"db/d4b/class_amp_gen_1_1_event_list.html#addea7f894a61a36fc44d7c237302cfff",
-"dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html#a636635d425473883797935c99ffb8156",
-"de/d24/class_amp_gen_1_1_minuit_proxy.html#adc941c3754ab52063fd6b1abc7a2ae0d",
-"df/d84/class_amp_gen_1_1_total_coupling.html#a8c7d69bf145c6f6a896a0317b032d4ce"
+"d1/d28/class_amp_gen_1_1_correlated_sum.html#aac2426f7508bcfeca7cc284c606db3c0",
+"d2/d94/struct_amp_gen_1_1_vertex_1_1f___vf___s.html",
+"d4/d0e/class_amp_gen_1_1_tensor.html#adda4c2421162dff54d5d99e575357be1",
+"d5/d3f/class_amp_gen_1_1_i_unary_expression.html#a8751a584155b2df600bd5d00b38da764",
+"d6/d99/_expression_8h.html#ae6b34a83db781b1a3b2e06ba27eacc0b",
+"d8/d89/class_d_t_yield_calculator.html#a475c1fffc04dc30c861230eaab927007",
+"d9/dd0/class_amp_gen_1_1_binned_integrator.html#a8a81c8283495c21c0c079cbea72b1856",
+"db/d4b/class_amp_gen_1_1_event_list.html#a41bb1267e8a70bfb50a0dfd285f3ff1b",
+"dc/d42/class_amp_gen_1_1_bin_d_t.html#a9962cbf041d3fe310d9d2296605d438a",
+"dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#ad58a0a11c81f529fd8314f753c637c94",
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a974e1472f968cb692ab7794e0041d857"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

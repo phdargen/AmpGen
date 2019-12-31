@@ -27,7 +27,7 @@ var class_amp_gen_1_1_minuit_parameter_set =
     [ "operator[]", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#afd74e99957dc6286e0f35b83f3053a0c", null ],
     [ "print", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a3b755d7b234a2ea70e64aeae2a7432bd", null ],
     [ "printVariable", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#af2041ee37573c5154ca8902b72d45e7c", null ],
-    [ "rename", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a6ebf3cd32d45aa44dfa7b4651660be89", null ],
+    [ "rename", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a5424550f7d24b95c6888ebc944af9531", null ],
     [ "resetToInit", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ad4d77732fa0f24666dd4fd8efd30c267", null ],
     [ "set", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a33790cf9a8bfeaaccb10a9151748d450", null ],
     [ "size", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ab3e003edb850197c85b687392c21ab93", null ],
