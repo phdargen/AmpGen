@@ -6,6 +6,7 @@ var class_amp_gen_1_1_recursive_phase_space =
     [ "getFinalStates", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a47a9c65d80045e1e932237571941ffea", null ],
     [ "makeEvent", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html#ade1211207f017fbe95125064bc7dd2b3", null ],
     [ "print", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a423b0aabff1870d59f32bc16e5d84866", null ],
+    [ "provideEfficiencyReport", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a64e95ea95cb03197adb9a5563070d655", null ],
     [ "setRandom", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html#aff5cb425081278d739f3c226583b5047", null ],
     [ "size", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html#ac86a40db0868c5a02242f6637d508fc0", null ]
 ];

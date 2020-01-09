@@ -17,7 +17,7 @@ var NAVTREE =
     [ "Class Members", "functions.html", [
       [ "All", "functions.html", "functions_dup" ],
       [ "Functions", "functions_func.html", "functions_func" ],
-      [ "Variables", "functions_vars.html", "functions_vars" ],
+      [ "Variables", "functions_vars.html", null ],
       [ "Typedefs", "functions_type.html", null ],
       [ "Enumerations", "functions_enum.html", null ],
       [ "Enumerator", "functions_eval.html", null ],
@@ -35,17 +35,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d28/class_amp_gen_1_1_correlated_sum.html#aac2426f7508bcfeca7cc284c606db3c0",
-"d2/d94/struct_amp_gen_1_1_vertex_1_1f___vf___s.html",
-"d4/d0e/class_amp_gen_1_1_tensor.html#adda4c2421162dff54d5d99e575357be1",
-"d5/d3f/class_amp_gen_1_1_i_unary_expression.html#a8751a584155b2df600bd5d00b38da764",
-"d6/d99/_expression_8h.html#ae6b34a83db781b1a3b2e06ba27eacc0b",
-"d8/d89/class_d_t_yield_calculator.html#a475c1fffc04dc30c861230eaab927007",
-"d9/dd0/class_amp_gen_1_1_binned_integrator.html#a8a81c8283495c21c0c079cbea72b1856",
-"db/d4b/class_amp_gen_1_1_event_list.html#a41bb1267e8a70bfb50a0dfd285f3ff1b",
-"dc/d42/class_amp_gen_1_1_bin_d_t.html#a9962cbf041d3fe310d9d2296605d438a",
-"dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#ad58a0a11c81f529fd8314f753c637c94",
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a974e1472f968cb692ab7794e0041d857"
+"d1/d6c/class_amp_gen_1_1_bilinears.html#a6817f59502c34a55034f861b5d2e714e",
+"d3/d35/class_amp_gen_1_1_sum.html#a1b55a1e8075784c54524d62ad8df046a",
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a086ed55ee510237aa8cd8a8ebf2cfb53",
+"d6/d99/_expression_8h.html#a24cdc1fcc8dd6aac2e999736a33ec030",
+"d8/d89/_pade_8h.html#a67361686717a17b482858d2d1f6ea210",
+"d9/dd2/class_amp_gen_1_1_i_sqrt.html#ab045f8e165b65294a08161bd77c5a869",
+"db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b",
+"dc/d5a/struct_amp_gen_1_1_i_argument.html",
+"de/d21/class_amp_gen_1_1_quark_content.html#a7e9a04d54037a23651df9d56ac83cf4a",
+"df/d3d/_event_list_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

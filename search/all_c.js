@@ -2,12 +2,10 @@ var searchData=
 [
   ['l',['l',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a66ec00cfdbc323ef44128a9cec789e0f',1,'AmpGen::IBinaryExpression::l()'],['../de/dd7/class_amp_gen_1_1_particle.html#a47b28271dd2e60c2faadbfb24ef8abee',1,'AmpGen::Particle::L()']]],
   ['label',['label',['../d7/dfa/class_amp_gen_1_1_event_type.html#a8307a7bd854bc064bbb3f205e15f6a5b',1,'AmpGen::EventType::label(const unsigned &amp;index, bool isRoot=true) const '],['../d7/dfa/class_amp_gen_1_1_event_type.html#ac8aad3b0ffbf692c343a9b58a4c96c94',1,'AmpGen::EventType::label(const std::vector&lt; unsigned &gt; &amp;index, bool isRoot=true) const '],['../db/d37/class_amp_gen_1_1_particle_properties.html#a98ed11efb5cafddf760448d291fb931a',1,'AmpGen::ParticleProperties::label()']]],
-  ['laguerre',['laguerre',['../dc/d82/namespace_amp_gen.html#a6ba70008935ae2fcc45d135ea8aa90ce',1,'AmpGen']]],
   ['lass',['LASS',['../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html',1,'AmpGen::Lineshape']]],
   ['lass',['LASS',['../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266',1,'AmpGen::Lineshape::LASS']]],
   ['lasso',['LASSO',['../dd/d4b/class_amp_gen_1_1_l_a_s_s_o.html',1,'AmpGen']]],
   ['left',['left',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a84359de845391d5aef78dde8215cf1fc',1,'AmpGen::FastDT::Node::left()'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a13bbad295fa35292014ebcb93b587fbc',1,'AmpGen::TreePhaseSpace::Vertex::left()']]],
-  ['legendre',['legendre',['../dc/d82/namespace_amp_gen.html#a83f7f7eb3f71dce913c4c30a345ff8d4',1,'AmpGen']]],
   ['lessthan',['LessThan',['../de/df5/class_amp_gen_1_1_less_than.html',1,'AmpGen']]],
   ['lessthan',['LessThan',['../de/df5/class_amp_gen_1_1_less_than.html#ace98f45696f4c4bf246ea0034d1e9bdd',1,'AmpGen::LessThan']]],
   ['levicivita',['LeviCivita',['../dc/d82/namespace_amp_gen.html#a591151b866f7843f8e320d3f7d6ed2b7',1,'AmpGen']]],
@@ -26,8 +24,8 @@ var searchData=
   ['loadfromfile',['loadFromFile',['../db/d4b/class_amp_gen_1_1_event_list.html#a73020e934d8787e6fff10351b30487b5',1,'AmpGen::EventList::loadFromFile()'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ab5312be740863d3b722fe2ff75afc141',1,'AmpGen::MinuitParameterSet::loadFromFile()']]],
   ['loadfromstream',['loadFromStream',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a73351a65a03f5930eac7bf6cc56a5680',1,'AmpGen::MinuitParameterSet']]],
   ['loadfromtree',['loadFromTree',['../db/d4b/class_amp_gen_1_1_event_list.html#aa7078a95d4922eefab11cd7d1139ff42',1,'AmpGen::EventList']]],
-  ['log',['Log',['../da/d76/class_amp_gen_1_1_log.html#aa2594241c3e232e8a72da7f6351fb40b',1,'AmpGen::Log::Log()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a9fc04046b6dcbcbf691c5c2b28093c50',1,'AmpGen::fcn::log()']]],
   ['log',['Log',['../da/d76/class_amp_gen_1_1_log.html',1,'AmpGen']]],
+  ['log',['Log',['../da/d76/class_amp_gen_1_1_log.html#aa2594241c3e232e8a72da7f6351fb40b',1,'AmpGen::Log::Log()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a9fc04046b6dcbcbf691c5c2b28093c50',1,'AmpGen::fcn::log()']]],
   ['ls',['LS',['../dc/d82/namespace_amp_gen.html#d4/d7d/struct_amp_gen_1_1_l_s',1,'AmpGen']]],
   ['ltrim',['ltrim',['../dc/d82/namespace_amp_gen.html#affc57966d44464abe8dd59241215c8b1',1,'AmpGen']]],
   ['lval',['lval',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#aaa65895168cacd589872ad7d0697a0ad',1,'AmpGen::IBinaryExpression']]]

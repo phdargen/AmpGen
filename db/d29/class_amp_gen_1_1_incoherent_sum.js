@@ -52,7 +52,7 @@ var class_amp_gen_1_1_incoherent_sum =
     [ "m_prefix", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a4bc8f2c253e8cb9cf2a1fc0140c7c73e", null ],
     [ "m_prepareCalls", "db/d29/class_amp_gen_1_1_incoherent_sum.html#af8185299dff52077e014ef8bf29407ba", null ],
     [ "m_printFreq", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a9919e46ed88b663621db0b485662491d", null ],
-    [ "m_protoAmplitudes", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a1c4c4be21e87a6fa40ee6fea2a006142", null ],
+    [ "m_rules", "db/d29/class_amp_gen_1_1_incoherent_sum.html#aa79ba60d114974ab4b5d498669b67d01", null ],
     [ "m_total", "db/d29/class_amp_gen_1_1_incoherent_sum.html#ae470e45a3d9d282171741c4950b94b12", null ],
     [ "m_verbosity", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a94eaf7a9ac67ad3b2c59eeaa806e08d9", null ],
     [ "m_weight", "db/d29/class_amp_gen_1_1_incoherent_sum.html#aff85b856bcd0f5c25c20b1d98f94558e", null ],
