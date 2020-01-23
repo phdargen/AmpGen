@@ -16,7 +16,7 @@ var searchData=
   ['integral',['integral',['../db/d4b/class_amp_gen_1_1_event_list.html#adf5add4dd6becebe04523d9f6cb86bde',1,'AmpGen::EventList::integral()'],['../d5/d4f/struct_amp_gen_1_1_integral.html#a464c9a839a163012d322d38a18a9c83c',1,'AmpGen::Integral::Integral()=default'],['../d5/d4f/struct_amp_gen_1_1_integral.html#a14dc27e480d3bebadb9f155263fed5a8',1,'AmpGen::Integral::Integral(const size_t &amp;i, const size_t &amp;j, TransferFCN t)']]],
   ['integrate',['integrate',['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a5956507aa2276041f76a1b523fb3c5a0',1,'AmpGen::DalitzIntegrator::integrate(FCN fcn, const double &amp;s) const '],['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a3c3c4afce98f05208a1098c6e641f7df',1,'AmpGen::DalitzIntegrator::integrate(FCN fcn) const ']]],
   ['integrator',['Integrator',['../d5/dfb/class_amp_gen_1_1_integrator.html#a7fd68dd46469af06569e1ff8f95c5502',1,'AmpGen::Integrator']]],
-  ['integrator2',['Integrator2',['../d0/da6/class_amp_gen_1_1_integrator2.html#a2ea63e2837b3462ef2d4a675d3dbfd69',1,'AmpGen::Integrator2']]],
+  ['integrator2',['Integrator2',['../d0/da6/class_amp_gen_1_1_integrator2.html#af02091889b09b3bfb3dc31025d9c2600',1,'AmpGen::Integrator2']]],
   ['inverse',['inverse',['../d9/d03/class_amp_gen_1_1_transform.html#a808c13a1a2e0c03be656139d6fa09716',1,'AmpGen::Transform::inverse()'],['../d0/dd5/class_amp_gen_1_1_transform_sequence.html#a1987ac534ad426d6d6e2b56c1ef1539c',1,'AmpGen::TransformSequence::inverse()']]],
   ['invert',['Invert',['../d4/d0e/class_amp_gen_1_1_tensor.html#adda4c2421162dff54d5d99e575357be1',1,'AmpGen::Tensor']]],
   ['is',['is',['../dc/d82/namespace_amp_gen.html#a6e1a12e81bb828770ed957c29ede472a',1,'AmpGen']]],

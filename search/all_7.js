@@ -34,7 +34,6 @@ var searchData=
   ['getevent',['getEvent',['../db/d4b/class_amp_gen_1_1_event_list.html#a75049edcdec83ec71df8159bc4daf044',1,'AmpGen::EventList::getEvent(const size_t &amp;index)'],['../db/d4b/class_amp_gen_1_1_event_list.html#a52deba861bf2e3b57ea3465359dcfcb0',1,'AmpGen::EventList::getEvent(const size_t &amp;index) const ']]],
   ['geteventformat',['getEventFormat',['../d7/dfa/class_amp_gen_1_1_event_type.html#a779cf1245fdb0805831ad642140d8d4d',1,'AmpGen::EventType']]],
   ['getexpression',['getExpression',['../de/dd7/class_amp_gen_1_1_particle.html#a22cdf43af727cbd07722333bb6a3a555',1,'AmpGen::Particle']]],
-  ['getfast',['getFast',['../de/d24/class_amp_gen_1_1_minuit_proxy.html#aa8cd3c50bf7b70e933eb0727411574f5',1,'AmpGen::MinuitProxy']]],
   ['getfinalstateparticles',['getFinalStateParticles',['../de/dd7/class_amp_gen_1_1_particle.html#abeea9a867e9f5fae8217412641e205c9',1,'AmpGen::Particle']]],
   ['getfinalstates',['getFinalStates',['../dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a47a9c65d80045e1e932237571941ffea',1,'AmpGen::RecursivePhaseSpace']]],
   ['getfloating',['getFloating',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a313ca00b71094e31bda69af66a745a0d',1,'AmpGen::MinuitParameterSet']]],
@@ -67,13 +66,13 @@ var searchData=
   ['gexpressionparser',['gExpressionParser',['../d5/db3/class_amp_gen_1_1_expression_parser.html#afca8445e5ec6b88598ee6eed8c442859',1,'AmpGen::ExpressionParser']]],
   ['gfromgamma',['gFromGamma',['../dc/d82/namespace_amp_gen.html#aa35424a55a8fba99c2e2b1dde1974e4f',1,'AmpGen']]],
   ['gimpl',['gImpl',['../d8/db1/class_amp_gen_1_1_factory.html#a9641efd66c25f2003b962f34f657eefb',1,'AmpGen::Factory']]],
-  ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html',1,'AmpGen::Lineshape']]],
   ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#ac00b7d77eb5a6e516a99c8640b269355',1,'AmpGen::Lineshape::GLASS']]],
-  ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a632d0f487c3ae23afcbc4bc08ce3b00b',1,'AmpGen::Lineshape::GounarisSakurai']]],
+  ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html',1,'AmpGen::Lineshape']]],
   ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html',1,'AmpGen::Lineshape']]],
+  ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a632d0f487c3ae23afcbc4bc08ce3b00b',1,'AmpGen::Lineshape::GounarisSakurai']]],
   ['greaterthan',['GreaterThan',['../db/d51/class_amp_gen_1_1_greater_than.html',1,'AmpGen']]],
   ['greaterthan',['GreaterThan',['../db/d51/class_amp_gen_1_1_greater_than.html#aa19da789a62c434602b40003d6aa2f7b',1,'AmpGen::GreaterThan']]],
   ['groupexpressions',['groupExpressions',['../dc/d2a/class_amp_gen_1_1_normal_ordered_expression.html#ac2980993233245c32014f044e8e89a6f',1,'AmpGen::NormalOrderedExpression']]],
-  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#a74031e326b6df591de471b518805ea92',1,'AmpGen::Lineshape::GSpline']]],
-  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html',1,'AmpGen::Lineshape']]]
+  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html',1,'AmpGen::Lineshape']]],
+  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#a74031e326b6df591de471b518805ea92',1,'AmpGen::Lineshape::GSpline']]]
 ];

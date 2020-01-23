@@ -12,11 +12,12 @@ var class_amp_gen_1_1_event_list =
     [ "begin", "db/d4b/class_amp_gen_1_1_event_list.html#a334c82e82a17e98d858bb605e17a2155", null ],
     [ "begin", "db/d4b/class_amp_gen_1_1_event_list.html#af26201c59958d9669e713e9804e36559", null ],
     [ "clear", "db/d4b/class_amp_gen_1_1_event_list.html#a47b1fdd5af7917a6738866bb75686cb0", null ],
+    [ "count", "db/d4b/class_amp_gen_1_1_event_list.html#ac414d4ca246f68957dd7e40b61af8b25", null ],
     [ "end", "db/d4b/class_amp_gen_1_1_event_list.html#a83fca0eeab01191b8c4795f851b5c0be", null ],
     [ "end", "db/d4b/class_amp_gen_1_1_event_list.html#abc3917a5c59e09139f1effab6834b264", null ],
     [ "erase", "db/d4b/class_amp_gen_1_1_event_list.html#a850b5fdd1446e2d9800d09413b618bf9", null ],
     [ "eventType", "db/d4b/class_amp_gen_1_1_event_list.html#af3dc392fbf22705587ba276c7b41c29f", null ],
-    [ "filter", "db/d4b/class_amp_gen_1_1_event_list.html#a12a92e75575b39cc2f4b65302a186fb7", null ],
+    [ "filter", "db/d4b/class_amp_gen_1_1_event_list.html#a8221c51ba4170650af43d76833a50530", null ],
     [ "getCacheIndex", "db/d4b/class_amp_gen_1_1_event_list.html#aac692ee6f40881101f8549f81ce73c57", null ],
     [ "getCacheIndex", "db/d4b/class_amp_gen_1_1_event_list.html#a95a18987ad3bffdf87356dd340398172", null ],
     [ "getEvent", "db/d4b/class_amp_gen_1_1_event_list.html#a75049edcdec83ec71df8159bc4daf044", null ],
@@ -45,7 +46,7 @@ var class_amp_gen_1_1_event_list =
     [ "resizeCache", "db/d4b/class_amp_gen_1_1_event_list.html#a8a63de7a1be2325e6d1ef4396c21ba63", null ],
     [ "setEventType", "db/d4b/class_amp_gen_1_1_event_list.html#a21a6fa750bea64c3be1630d2cc0d9f10", null ],
     [ "size", "db/d4b/class_amp_gen_1_1_event_list.html#ace6778bc7432ff9e7997e6d45798bf4d", null ],
-    [ "transform", "db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b", null ],
+    [ "transform", "db/d4b/class_amp_gen_1_1_event_list.html#aaec29e6e7b6fad7fe296f9a2a521412f", null ],
     [ "tree", "db/d4b/class_amp_gen_1_1_event_list.html#a261a0ae193574f938375cf16b6080fc4", null ],
     [ "updateCache", "db/d4b/class_amp_gen_1_1_event_list.html#aaab4c8904d5e20ae892c4e8e83ec495c", null ]
 ];

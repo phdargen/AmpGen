@@ -2,7 +2,7 @@ var class_amp_gen_1_1_polarised_sum =
 [
     [ "integrator", "d4/d31/class_amp_gen_1_1_polarised_sum.html#aa967496de986b45a2dd82acf7e0a4c3b", null ],
     [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a5b3d4504511df38e10c6d9a601269a6a", null ],
-    [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html#abec291964694d5a25040f22e5188b464", null ],
+    [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a5bb4ded0b011cf6d27ae4875ecd0103b", null ],
     [ "build_probunnormalised", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a97f3f9688fed38dfe4d5a060be5430ec", null ],
     [ "calculateNorms", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a40b6766e57e9798ba7606139b755049e", null ],
     [ "debug", "d4/d31/class_amp_gen_1_1_polarised_sum.html#a45347794cea180bc2298ec537bb275c9", null ],

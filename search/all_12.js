@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r',['R',['../db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad',1,'AmpGen::ParticleProperties::R()'],['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a25d1c712de08a4135b9f244339bc276b',1,'AmpGen::IBinaryExpression::r()']]],
+  ['r',['r',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a25d1c712de08a4135b9f244339bc276b',1,'AmpGen::IBinaryExpression::r()'],['../db/d37/class_amp_gen_1_1_particle_properties.html#a03ed11fbc747c6002369f50ab56efbad',1,'AmpGen::ParticleProperties::R()']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html#a8da14d7880dc414b9383377f88ea21fa',1,'AmpGen::Vertex::r_fS_D']]],
   ['r_5ffs_5fd',['r_fS_D',['../dd/de5/struct_amp_gen_1_1_vertex_1_1r__f_s___d.html',1,'AmpGen::Vertex']]],
   ['r_5ffs_5fp',['r_fS_P',['../d0/d1d/struct_amp_gen_1_1_vertex_1_1r__f_s___p.html',1,'AmpGen::Vertex']]],

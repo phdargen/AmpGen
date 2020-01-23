@@ -27,7 +27,6 @@ var searchData=
   ['getevent',['getEvent',['../db/d4b/class_amp_gen_1_1_event_list.html#a75049edcdec83ec71df8159bc4daf044',1,'AmpGen::EventList::getEvent(const size_t &amp;index)'],['../db/d4b/class_amp_gen_1_1_event_list.html#a52deba861bf2e3b57ea3465359dcfcb0',1,'AmpGen::EventList::getEvent(const size_t &amp;index) const ']]],
   ['geteventformat',['getEventFormat',['../d7/dfa/class_amp_gen_1_1_event_type.html#a779cf1245fdb0805831ad642140d8d4d',1,'AmpGen::EventType']]],
   ['getexpression',['getExpression',['../de/dd7/class_amp_gen_1_1_particle.html#a22cdf43af727cbd07722333bb6a3a555',1,'AmpGen::Particle']]],
-  ['getfast',['getFast',['../de/d24/class_amp_gen_1_1_minuit_proxy.html#aa8cd3c50bf7b70e933eb0727411574f5',1,'AmpGen::MinuitProxy']]],
   ['getfinalstateparticles',['getFinalStateParticles',['../de/dd7/class_amp_gen_1_1_particle.html#abeea9a867e9f5fae8217412641e205c9',1,'AmpGen::Particle']]],
   ['getfinalstates',['getFinalStates',['../dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a47a9c65d80045e1e932237571941ffea',1,'AmpGen::RecursivePhaseSpace']]],
   ['getfloating',['getFloating',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a313ca00b71094e31bda69af66a745a0d',1,'AmpGen::MinuitParameterSet']]],

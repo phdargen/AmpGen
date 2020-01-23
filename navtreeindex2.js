@@ -1,9 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d3/d35/class_amp_gen_1_1_sum.html#a1b55a1e8075784c54524d62ad8df046a":[0,0,9,5],
-"d3/d35/class_amp_gen_1_1_sum.html#a25d1c712de08a4135b9f244339bc276b":[0,0,9,4],
-"d3/d35/class_amp_gen_1_1_sum.html#a36eb7df7b23aff466c678b29faab4ad5":[0,0,9,6],
-"d3/d35/class_amp_gen_1_1_sum.html#a415b0412d1342fb474b8ad3013301fcb":[0,0,9,0],
 "d3/d35/class_amp_gen_1_1_sum.html#a66ec00cfdbc323ef44128a9cec789e0f":[0,0,9,1],
 "d3/d35/class_amp_gen_1_1_sum.html#a6e78267b8b8208efceef9af6adae55fa":[0,0,9,3],
 "d3/d35/class_amp_gen_1_1_sum.html#a814e23024408f5919a8b0b1f0df91507":[0,0,9,2],
@@ -230,6 +226,7 @@ var NAVTREEINDEX2 =
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#a45347794cea180bc2298ec537bb275c9":[3,0,87,5],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#a57f868602d835d39810a8d04bf579ce5":[3,0,87,26],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#a5b3d4504511df38e10c6d9a601269a6a":[3,0,87,1],
+"d4/d31/class_amp_gen_1_1_polarised_sum.html#a5bb4ded0b011cf6d27ae4875ecd0103b":[3,0,87,2],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#a65a880531e3bbaeb4631ff43b56b4046":[3,0,87,13],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#a76784b7966067a3299483b663c5fd8d7":[3,0,87,23],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#a8624bd6335b6207b1e009068494c0d41":[3,0,87,24],
@@ -241,7 +238,6 @@ var NAVTREEINDEX2 =
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ab25f1e32b3d2640e60c1947a54d90dae":[3,0,87,25],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ab4952979d26c0d9cf3ea9f6af6fbafea":[3,0,87,16],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ab86167f6c90aad13aad4de1730fd29a3":[3,0,87,10],
-"d4/d31/class_amp_gen_1_1_polarised_sum.html#abec291964694d5a25040f22e5188b464":[3,0,87,2],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ac46866f9194f57b17e22c644347a2e2f":[3,0,87,12],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#acc7d0a3013c9e9ae78cc1c4e2aa967a4":[3,0,87,21],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#ad234755e3890ea3e898faa40384fc062":[3,0,87,22],
@@ -249,5 +245,9 @@ var NAVTREEINDEX2 =
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#af01bf9fa9399fc553e36e3c535e68afd":[3,0,87,11],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#af50407e72c0f734bacdce6cba8b73fc1":[3,0,87,7],
 "d4/d31/class_amp_gen_1_1_polarised_sum.html#afcdb090d613197424bd59065ccf9f5ae":[3,0,87,17],
-"d4/d37/struct_amp_gen_1_1_sub_tree.html":[0,0,7]
+"d4/d37/struct_amp_gen_1_1_sub_tree.html":[0,0,7],
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a086ed55ee510237aa8cd8a8ebf2cfb53":[0,0,7,3],
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a0de0041121a8224f92f8d57877f359f9":[0,0,7,6],
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a205b1e31969a7243019034f720d4c205":[0,0,7,0],
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a2d1788f398b21e6068f76957a12e96ae":[0,0,7,2]
 };

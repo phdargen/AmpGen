@@ -34,7 +34,6 @@ var class_amp_gen_1_1_incoherent_sum =
     [ "reset", "db/d29/class_amp_gen_1_1_incoherent_sum.html#ac93f4ba0ea735feaf96f118fa26067df", null ],
     [ "setEvents", "db/d29/class_amp_gen_1_1_incoherent_sum.html#ad4dfd01bef43b612c4cae619110eb5ca", null ],
     [ "setMC", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a0a9aac923767cf96e364a344e4e06a3c", null ],
-    [ "setWeight", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a2935923a57b9fb2f701f66ab64b1a185", null ],
     [ "setWeight", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a1c75e02d1b1e800786eed330a5fd7401", null ],
     [ "size", "db/d29/class_amp_gen_1_1_incoherent_sum.html#ad7b9ddf3459e3fd1c721e2364de444c8", null ],
     [ "transferParameters", "db/d29/class_amp_gen_1_1_incoherent_sum.html#ae8c89f18bcc24e1c30367a55f43675b0", null ],
@@ -55,6 +54,5 @@ var class_amp_gen_1_1_incoherent_sum =
     [ "m_rules", "db/d29/class_amp_gen_1_1_incoherent_sum.html#aa79ba60d114974ab4b5d498669b67d01", null ],
     [ "m_total", "db/d29/class_amp_gen_1_1_incoherent_sum.html#ae470e45a3d9d282171741c4950b94b12", null ],
     [ "m_verbosity", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a94eaf7a9ac67ad3b2c59eeaa806e08d9", null ],
-    [ "m_weight", "db/d29/class_amp_gen_1_1_incoherent_sum.html#aff85b856bcd0f5c25c20b1d98f94558e", null ],
-    [ "m_weightParam", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a85f9cb218c04637fe3fce59e3f7ff836", null ]
+    [ "m_weight", "db/d29/class_amp_gen_1_1_incoherent_sum.html#a654dd5be4b2b4de10e7637d1ef92cd1f", null ]
 ];

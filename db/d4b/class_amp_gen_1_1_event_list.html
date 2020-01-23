@@ -230,12 +230,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:addea7f894a61a36fc44d7c237302cfff"><td class="memTemplParams" colspan="2">template&lt;typename... ARGS, typename  = std::enable_if_t&lt; ! std::is_same&lt;zeroType&lt;ARGS...&gt;, ArgumentPack&gt;::value &gt;&gt; </td></tr>
 <tr class="memitem:addea7f894a61a36fc44d7c237302cfff"><td class="memTemplItemLeft" align="right" valign="top">TH2D *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html#addea7f894a61a36fc44d7c237302cfff">makeProjection</a> (const <a class="el" href="../../d0/d04/class_amp_gen_1_1_projection2_d.html">Projection2D</a> &amp;projection, const ARGS &amp;...args)</td></tr>
 <tr class="separator:addea7f894a61a36fc44d7c237302cfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99e05d347d0ef48c116df2f3b029712b"><td class="memTemplParams" colspan="2">template&lt;class FCN &gt; </td></tr>
-<tr class="memitem:a99e05d347d0ef48c116df2f3b029712b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b">transform</a> (FCN &amp;&amp;fcn)</td></tr>
-<tr class="separator:a99e05d347d0ef48c116df2f3b029712b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a92e75575b39cc2f4b65302a186fb7"><td class="memTemplParams" colspan="2">template&lt;class FCN &gt; </td></tr>
-<tr class="memitem:a12a92e75575b39cc2f4b65302a186fb7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html#a12a92e75575b39cc2f4b65302a186fb7">filter</a> (FCN &amp;&amp;fcn)</td></tr>
-<tr class="separator:a12a92e75575b39cc2f4b65302a186fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec29e6e7b6fad7fe296f9a2a521412f"><td class="memTemplParams" colspan="2">template&lt;typename functor &gt; </td></tr>
+<tr class="memitem:aaec29e6e7b6fad7fe296f9a2a521412f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html#aaec29e6e7b6fad7fe296f9a2a521412f">transform</a> (functor &amp;&amp;fcn)</td></tr>
+<tr class="separator:aaec29e6e7b6fad7fe296f9a2a521412f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8221c51ba4170650af43d76833a50530"><td class="memTemplParams" colspan="2">template&lt;typename functor &gt; </td></tr>
+<tr class="memitem:a8221c51ba4170650af43d76833a50530"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html#a8221c51ba4170650af43d76833a50530">filter</a> (functor &amp;&amp;fcn)</td></tr>
+<tr class="separator:a8221c51ba4170650af43d76833a50530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac414d4ca246f68957dd7e40b61af8b25"><td class="memTemplParams" colspan="2">template&lt;typename functor &gt; </td></tr>
+<tr class="memitem:ac414d4ca246f68957dd7e40b61af8b25"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html#ac414d4ca246f68957dd7e40b61af8b25">count</a> (functor &amp;&amp;fcn) const </td></tr>
+<tr class="separator:ac414d4ca246f68957dd7e40b61af8b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a895caef30bcec24787464d39c2c1a4aa"></a>
@@ -570,6 +573,34 @@ template&lt;class... ARGS&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ac414d4ca246f68957dd7e40b61af8b25"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename functor &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned AmpGen::EventList::count </td>
+          <td>(</td>
+          <td class="paramtype">functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>fcn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d3d/_event_list_8h_source.html#l00172">172</a> of file <a class="el" href="../../df/d3d/_event_list_8h_source.html">EventList.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a83fca0eeab01191b8c4795f851b5c0be"></a>
 <div class="memitem">
 <div class="memproto">
@@ -671,11 +702,11 @@ template&lt;class... ARGS&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a12a92e75575b39cc2f4b65302a186fb7"></a>
+<a class="anchor" id="a8221c51ba4170650af43d76833a50530"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class FCN &gt; </div>
+template&lt;typename functor &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -683,7 +714,7 @@ template&lt;class FCN &gt; </div>
         <tr>
           <td class="memname">void AmpGen::EventList::filter </td>
           <td>(</td>
-          <td class="paramtype">FCN &amp;&amp;&#160;</td>
+          <td class="paramtype">functor &amp;&amp;&#160;</td>
           <td class="paramname"><em>fcn</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1401,11 +1432,11 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a99e05d347d0ef48c116df2f3b029712b"></a>
+<a class="anchor" id="aaec29e6e7b6fad7fe296f9a2a521412f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class FCN &gt; </div>
+template&lt;typename functor &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1413,7 +1444,7 @@ template&lt;class FCN &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a>&amp; AmpGen::EventList::transform </td>
           <td>(</td>
-          <td class="paramtype">FCN &amp;&amp;&#160;</td>
+          <td class="paramtype">functor &amp;&amp;&#160;</td>
           <td class="paramname"><em>fcn</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1502,7 +1533,7 @@ template&lt;class FCN &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a></li>
-    <li class="footer">Generated on Thu Jan 9 2020 17:42:32 for AmpGen by
+    <li class="footer">Generated on Thu Jan 23 2020 08:11:59 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

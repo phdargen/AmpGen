@@ -72,7 +72,7 @@ var searchData=
   ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html#a6951431c7d7d6a39c646bf5d014e4f9c',1,'AmpGen::Cos::Cos()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a511deef37e2707a89cd465a1c1c65dc0',1,'AmpGen::fcn::cos()']]],
   ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html',1,'AmpGen']]],
   ['cosh',['cosh',['../dc/d82/namespace_amp_gen.html#abb80a00e869b92b479100b105715cefe',1,'AmpGen']]],
-  ['count',['count',['../d7/dfa/class_amp_gen_1_1_event_type.html#a6e02c62b27ed3cdbaec27b2d15e4c523',1,'AmpGen::EventType']]],
+  ['count',['count',['../db/d4b/class_amp_gen_1_1_event_list.html#ac414d4ca246f68957dd7e40b61af8b25',1,'AmpGen::EventList::count()'],['../d7/dfa/class_amp_gen_1_1_event_type.html#a6e02c62b27ed3cdbaec27b2d15e4c523',1,'AmpGen::EventType::count()']]],
   ['coupledchannel_2eh',['CoupledChannel.h',['../da/da0/_coupled_channel_8h.html',1,'']]],
   ['coupling',['Coupling',['../d5/db2/class_amp_gen_1_1_coupling.html#adc58febf6537d4ed9f247371cfdcfcfe',1,'AmpGen::Coupling::Coupling(MinuitParameter *re, MinuitParameter *im)'],['../d5/db2/class_amp_gen_1_1_coupling.html#a2e9ed90fef42b20cd3e0a86807793338',1,'AmpGen::Coupling::Coupling(MinuitExpression *expression)'],['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html#ac4f00db4e81d4fb3a14ea6dcaf70b80c',1,'AmpGen::TransitionMatrix::coupling()'],['../d0/dea/struct_amp_gen_1_1pole_config.html#ace12450614996a873609878e47812e1f',1,'AmpGen::poleConfig::coupling()']]],
   ['coupling',['Coupling',['../d5/db2/class_amp_gen_1_1_coupling.html',1,'AmpGen']]],

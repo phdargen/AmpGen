@@ -32,7 +32,7 @@ var searchData=
   ['integrator',['integrator',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#aa3a8f060c5191c7a5da53b3ac8095eee',1,'AmpGen::CoherentSum::integrator()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#aa967496de986b45a2dd82acf7e0a4c3b',1,'AmpGen::PolarisedSum::integrator()'],['../d5/dfb/class_amp_gen_1_1_integrator.html#a7fd68dd46469af06569e1ff8f95c5502',1,'AmpGen::Integrator::Integrator()']]],
   ['integrator',['Integrator',['../d5/dfb/class_amp_gen_1_1_integrator.html',1,'AmpGen']]],
   ['integrator_2eh',['Integrator.h',['../dc/d50/_integrator_8h.html',1,'']]],
-  ['integrator2',['Integrator2',['../d0/da6/class_amp_gen_1_1_integrator2.html#a2ea63e2837b3462ef2d4a675d3dbfd69',1,'AmpGen::Integrator2']]],
+  ['integrator2',['Integrator2',['../d0/da6/class_amp_gen_1_1_integrator2.html#af02091889b09b3bfb3dc31025d9c2600',1,'AmpGen::Integrator2']]],
   ['integrator2',['Integrator2',['../d0/da6/class_amp_gen_1_1_integrator2.html',1,'AmpGen']]],
   ['integrator2_2eh',['Integrator2.h',['../d9/d2d/_integrator2_8h.html',1,'']]],
   ['integrator_3c_2010_20_3e',['Integrator&lt; 10 &gt;',['../d5/dfb/class_amp_gen_1_1_integrator.html',1,'AmpGen']]],
