@@ -78,7 +78,7 @@ var searchData=
   ['setval',['setVal',['../d9/d1b/class_amp_gen_1_1_named_parameter.html#aff08d50755006c8ce9a173f2b1f1b149',1,'AmpGen::NamedParameter::setVal(const T &amp;val, int i=0)'],['../d9/d1b/class_amp_gen_1_1_named_parameter.html#a0de2e6b5565d46e5b640da7c6df5f701',1,'AmpGen::NamedParameter::setVal(const std::vector&lt; T &gt; &amp;valList)']]],
   ['setverbose',['setVerbose',['../d7/d4c/class_amp_gen_1_1_compiler_wrapper.html#a8c48b295a3b2a8e602d2a7e34839c869',1,'AmpGen::CompilerWrapper']]],
   ['setview',['setView',['../d9/dd0/class_amp_gen_1_1_binned_integrator.html#a61a353ddfda338ddf055ccd81d0bfd5f',1,'AmpGen::BinnedIntegrator']]],
-  ['setweight',['setWeight',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c75e02d1b1e800786eed330a5fd7401',1,'AmpGen::CoherentSum::setWeight()'],['../dd/dc4/class_amp_gen_1_1_event.html#a95c6f876343d35f90b6b84cd20d39e58',1,'AmpGen::Event::setWeight()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a76784b7966067a3299483b663c5fd8d7',1,'AmpGen::PolarisedSum::setWeight()']]],
+  ['setweight',['setWeight',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a635b885751bdf889bacb90eb1025a15f',1,'AmpGen::CoherentSum::setWeight()'],['../dd/dc4/class_amp_gen_1_1_event.html#a95c6f876343d35f90b6b84cd20d39e58',1,'AmpGen::Event::setWeight()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#ac5abbb7882d8288fb6c2ace1ee6dc707',1,'AmpGen::PolarisedSum::setWeight()']]],
   ['setzero',['setZero',['../d1/d6c/class_amp_gen_1_1_bilinears.html#ad4c467724c135a213548510c3d029904',1,'AmpGen::Bilinears']]],
   ['sigma',['Sigma',['../dc/d82/namespace_amp_gen.html#ac26ff86dd39599a7ecccfd369726c5b3',1,'AmpGen']]],
   ['simfit',['SimFit',['../db/dec/class_amp_gen_1_1_sim_fit.html#a39c3f35875795fee1b585c22e8296404',1,'AmpGen::SimFit']]],

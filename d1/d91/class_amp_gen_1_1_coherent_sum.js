@@ -34,7 +34,7 @@ var class_amp_gen_1_1_coherent_sum =
     [ "reset", "d1/d91/class_amp_gen_1_1_coherent_sum.html#ac93f4ba0ea735feaf96f118fa26067df", null ],
     [ "setEvents", "d1/d91/class_amp_gen_1_1_coherent_sum.html#ad4dfd01bef43b612c4cae619110eb5ca", null ],
     [ "setMC", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a0a9aac923767cf96e364a344e4e06a3c", null ],
-    [ "setWeight", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c75e02d1b1e800786eed330a5fd7401", null ],
+    [ "setWeight", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a635b885751bdf889bacb90eb1025a15f", null ],
     [ "size", "d1/d91/class_amp_gen_1_1_coherent_sum.html#ad7b9ddf3459e3fd1c721e2364de444c8", null ],
     [ "transferParameters", "d1/d91/class_amp_gen_1_1_coherent_sum.html#ae8c89f18bcc24e1c30367a55f43675b0", null ],
     [ "updateNorms", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a57bcd3cdbfc0c40196179f65f4e016b3", null ],
