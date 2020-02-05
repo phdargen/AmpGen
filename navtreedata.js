@@ -44,7 +44,7 @@ var NAVTREEINDEX =
 "db/d4b/class_amp_gen_1_1_event_list.html#abc3917a5c59e09139f1effab6834b264",
 "dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html#a572c5657af9d3e2b39d99c3421d2e807",
 "de/d21/class_amp_gen_1_1_quark_content.html#ac6a65bbf67c5f43b68ec9d6e11e04e29",
-"df/d6a/struct_amp_gen_1_1_vertex_1_1_s___v_s___p.html#a636635d425473883797935c99ffb8156"
+"df/d6a/struct_amp_gen_1_1_vertex_1_1_s___v_s___p.html#abd293f4a1805abb85201c0660be8bf9c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
