@@ -17,7 +17,7 @@ var NAVTREE =
     [ "Class Members", "functions.html", [
       [ "All", "functions.html", "functions_dup" ],
       [ "Functions", "functions_func.html", "functions_func" ],
-      [ "Variables", "functions_vars.html", "functions_vars" ],
+      [ "Variables", "functions_vars.html", null ],
       [ "Typedefs", "functions_type.html", null ],
       [ "Enumerations", "functions_enum.html", null ],
       [ "Enumerator", "functions_eval.html", null ],
@@ -35,17 +35,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d28/class_amp_gen_1_1_correlated_sum.html#aac2426f7508bcfeca7cc284c606db3c0",
-"d2/d94/struct_amp_gen_1_1_vertex_1_1f___vf___s.html",
-"d4/d0e/class_amp_gen_1_1_tensor.html#adda4c2421162dff54d5d99e575357be1",
-"d5/d3f/class_amp_gen_1_1_i_unary_expression.html#a8751a584155b2df600bd5d00b38da764",
-"d6/d99/_expression_8h.html#ae6b34a83db781b1a3b2e06ba27eacc0b",
-"d8/d89/class_d_t_yield_calculator.html#a475c1fffc04dc30c861230eaab927007",
-"d9/dd0/class_amp_gen_1_1_binned_integrator.html#a8a81c8283495c21c0c079cbea72b1856",
-"db/d4b/class_amp_gen_1_1_event_list.html#a41bb1267e8a70bfb50a0dfd285f3ff1b",
-"dc/d42/class_amp_gen_1_1_bin_d_t.html#a9962cbf041d3fe310d9d2296605d438a",
-"dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#ad58a0a11c81f529fd8314f753c637c94",
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a974e1472f968cb692ab7794e0041d857"
+"d1/d6c/class_amp_gen_1_1_bilinears.html#aa58004e9eb6746a83575e1d7a24ea642",
+"d3/d35/class_amp_gen_1_1_sum.html#a66ec00cfdbc323ef44128a9cec789e0f",
+"d4/d37/struct_amp_gen_1_1_sub_tree.html#a52e03bb816cfcfe3be01b68f2088197b",
+"d6/d99/_expression_8h.html#a501c08c3a8d3f7f0e4c96a58b88f4a5c",
+"d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#a6d2f4a9e2f6142ae29433f7319326409",
+"da/d11/_dynamic_container_8h.html",
+"db/d4b/class_amp_gen_1_1_event_list.html#abc3917a5c59e09139f1effab6834b264",
+"dc/d65/struct_amp_gen_1_1_normal_ordered_expression_1_1_term.html#a572c5657af9d3e2b39d99c3421d2e807",
+"de/d21/class_amp_gen_1_1_quark_content.html#ac6a65bbf67c5f43b68ec9d6e11e04e29",
+"df/d6a/struct_amp_gen_1_1_vertex_1_1_s___v_s___p.html#a636635d425473883797935c99ffb8156"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['v_5fff_5fpl',['V_ff_PL',['../d5/dcb/struct_amp_gen_1_1_vertex_1_1_v__ff___p_l.html#a7d452a44b0c0592d7b2d750cb88853e0',1,'AmpGen::Vertex::V_ff_PL']]],
+  ['v_5fff_5fpr',['V_ff_PR',['../de/d3d/struct_amp_gen_1_1_vertex_1_1_v__ff___p_r.html#a771de5b0db61e030aebecfc8ff9436c9',1,'AmpGen::Vertex::V_ff_PR']]],
   ['v_5fff_5fs',['V_ff_S',['../d6/d55/struct_amp_gen_1_1_vertex_1_1_v__ff___s.html#a508e75cac633a10c80a7ff501e9dc2b6',1,'AmpGen::Vertex::V_ff_S']]],
   ['v_5fff_5fs1',['V_ff_S1',['../d6/d27/struct_amp_gen_1_1_vertex_1_1_v__ff___s1.html#af462130d5800a28a14f4123d8efe1f39',1,'AmpGen::Vertex::V_ff_S1']]],
   ['v_5fss_5fp',['V_SS_P',['../dd/d17/struct_amp_gen_1_1_vertex_1_1_v___s_s___p.html#ac6da862c7670c760c568efa5d9b8b58c',1,'AmpGen::Vertex::V_SS_P']]],
@@ -13,7 +15,6 @@ var searchData=
   ['vectorfromfile',['vectorFromFile',['../dc/d82/namespace_amp_gen.html#a9ce513f909ccafd70cf0ff443f2b29b7',1,'AmpGen']]],
   ['vectortostring',['vectorToString',['../dc/d82/namespace_amp_gen.html#ad40c1c605071286f7ea10219308e0677',1,'AmpGen::vectorToString(const std::vector&lt; T &gt; &amp;obj, const std::string &amp;delim=&quot;&quot;)'],['../dc/d82/namespace_amp_gen.html#aadb7c21cacc37282d8934caac2ea4815',1,'AmpGen::vectorToString(const std::vector&lt; T &gt; &amp;obj, const std::string &amp;delim=&quot;&quot;, const F &amp;functor=[](const T &amp;f){return f;})']]],
   ['vertex',['Vertex',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a6b83b70cb45401987f475482109e3eec',1,'AmpGen::TreePhaseSpace::Vertex::Vertex()=default'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a91ff7c193bb78ddf2f19bed4af866175',1,'AmpGen::TreePhaseSpace::Vertex::Vertex(const Particle &amp;particle, const double &amp;min)'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a4a50154f0b6db87052e6891448aba70a',1,'AmpGen::TreePhaseSpace::Vertex::Vertex(const Particle &amp;particle, const double &amp;min, const double &amp;max, const bool &amp;isStable)']]],
-  ['vertexname',['vertexName',['../de/dd7/class_amp_gen_1_1_particle.html#ac4b7f5f73a756d12b9b5a82de5cb1e38',1,'AmpGen::Particle']]],
   ['visit',['visit',['../d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#a6d2f4a9e2f6142ae29433f7319326409',1,'AmpGen::BinDT::INode::visit()'],['../dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html#a29511358ee3c744ab68ed286845b58d7',1,'AmpGen::BinDT::EndNode::visit()'],['../d1/d9d/class_amp_gen_1_1_bin_d_t_1_1_decision.html#a288db103f68c11ed9e28a327e4028252',1,'AmpGen::BinDT::Decision::visit()']]],
   ['voxnumber',['voxNumber',['../dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html#aceae0dd06040f1343e76f5c52b82f04b',1,'AmpGen::BinDT::EndNode']]]
 ];
