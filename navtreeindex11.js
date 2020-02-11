@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a6b5391ebf0bcae43e52d04885745f534":[3,0,30,9],
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a78ddbec1b0116675412975b5726d742b":[3,0,30,17],
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a8f7cb72cac38d8f429ad96e101373ec7":[3,0,30,2],
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a90c0537d0367d9652900ac1f81146fe3":[3,0,30,12],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a974e1472f968cb692ab7794e0041d857":[3,0,30,18],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a9d940a30f31f94fb7c50204041b1c7af":[3,0,30,4],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#aa40afe77abbceae9db157b5c81a4cafa":[3,0,30,10],
@@ -154,8 +158,8 @@ var NAVTREEINDEX11 =
 "functions_type.html":[6,3],
 "functions_u.html":[6,0,21],
 "functions_v.html":[6,0,22],
-"functions_vars.html":[6,2,0],
 "functions_vars.html":[6,2],
+"functions_vars.html":[6,2,0],
 "functions_vars_a.html":[6,2,1],
 "functions_vars_b.html":[6,2,2],
 "functions_vars_c.html":[6,2,3],
