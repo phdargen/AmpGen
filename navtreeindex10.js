@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"dd/dc4/class_amp_gen_1_1_event.html#af48b2789e760cd9e56f218e85d9d4feb":[3,0,37,2],
 "dd/dc4/class_amp_gen_1_1_event.html#afe4d552554712762021a5864b558e36f":[3,0,37,11],
 "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html":[0,2,17],
 "dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html#a239bb5828e4e74a6830818938517186f":[0,2,17,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a3c3c4afce98f05208a1098c6e641f7df":[3,0,30,7],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a51dc95c2db31dad58773e1fe0aef5fc7":[3,0,30,16],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a5956507aa2276041f76a1b523fb3c5a0":[3,0,30,6],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a6508bcbc916a9a40308fc9f57ffc767d":[3,0,30,0],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a6868d0ac6b2f9f3298d5eaa1cdcc58ff":[3,0,30,5]
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a6508bcbc916a9a40308fc9f57ffc767d":[3,0,30,0]
 };

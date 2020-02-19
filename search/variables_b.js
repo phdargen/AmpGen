@@ -85,6 +85,7 @@ var searchData=
   ['m_5fprotoamplitudes',['m_protoAmplitudes',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c4c4be21e87a6fa40ee6fea2a006142',1,'AmpGen::CoherentSum::m_protoAmplitudes()'],['../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a1bd82e6f9902c5d2c618387743e0a2c8',1,'AmpGen::pCoherentSum::m_protoAmplitudes()']]],
   ['m_5fqueueordering',['m_queueOrdering',['../da/da8/class_amp_gen_1_1_fast_d_t.html#a0f4c35a730716e6c133d3afeffa4e4fa',1,'AmpGen::FastDT']]],
   ['m_5fresolver',['m_resolver',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a8b9f9bd279270d03e9a6a8a0e19f1bd4',1,'AmpGen::CompiledExpressionBase']]],
+  ['m_5fsametag',['m_sameTag',['../d6/d81/class_amp_gen_1_1p_correlated_sum.html#a364eddd2f201d8e1dd6e068a4b9c63d7',1,'AmpGen::pCorrelatedSum']]],
   ['m_5fsigtype',['m_sigType',['../d7/daa/struct_d_t_event_list.html#a571be07d5ae9a5f3338c05bcf5af56e8',1,'DTEventList::m_sigType()'],['../d8/d40/struct_amp_gen_1_1_d_t_event_list.html#ab2f8fc5303042962f5a6c9310891799f',1,'AmpGen::DTEventList::m_sigType()']]],
   ['m_5fsize',['m_size',['../d8/d16/class_amp_gen_1_1_cache_transfer.html#a2b208ef3226a6fdc56055bbdf52a0b19',1,'AmpGen::CacheTransfer']]],
   ['m_5fsource',['m_source',['../d0/dbe/class_amp_gen_1_1_parameter_transfer.html#a2b44fc1bd3ababe7a46a258d4ba39de7',1,'AmpGen::ParameterTransfer']]],

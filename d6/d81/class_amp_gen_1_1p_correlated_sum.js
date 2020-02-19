@@ -64,6 +64,7 @@ var class_amp_gen_1_1p_correlated_sum =
     [ "m_poly", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a6f299fd592334d6f595ee2695b3c8783", null ],
     [ "m_polyType", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a7b144ba348186b3182b74ff712ba1063", null ],
     [ "m_prepareCalls", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a80c71f4beb21bef1996652d124423c83", null ],
+    [ "m_sameTag", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a364eddd2f201d8e1dd6e068a4b9c63d7", null ],
     [ "m_updateNorms", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a82ca0d4b46e41ec0fa906a3372fdde79", null ],
     [ "outputFractionsA", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a332c07723be58e6ad236284bb3632cb4", null ],
     [ "outputFractionsB", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#aa4e75ff6ff9b30f3885dcbaca7688aee", null ],

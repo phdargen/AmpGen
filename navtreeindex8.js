@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"db/d4b/class_amp_gen_1_1_event_list.html#a261a0ae193574f938375cf16b6080fc4":[3,0,38,45],
 "db/d4b/class_amp_gen_1_1_event_list.html#a300812c12077b26034261c91b587c829":[3,0,38,4],
 "db/d4b/class_amp_gen_1_1_event_list.html#a334c82e82a17e98d858bb605e17a2155":[3,0,38,8],
 "db/d4b/class_amp_gen_1_1_event_list.html#a33d5c65c518f7d181cfb2569970bf806":[3,0,38,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "dc/d42/class_amp_gen_1_1_bin_d_t.html#a4c7dff3b3d3f3b50bcf8d8575c4cb27c":[3,0,15,19],
 "dc/d42/class_amp_gen_1_1_bin_d_t.html#a5243e3b566cc5d0f90e95e1d1f099916":[3,0,15,11],
 "dc/d42/class_amp_gen_1_1_bin_d_t.html#a6c356f1f652828331f016097ad512d35":[3,0,15,27],
-"dc/d42/class_amp_gen_1_1_bin_d_t.html#a72ab9cd89c7ef7ede96fe875ac90d56d":[3,0,15,8],
-"dc/d42/class_amp_gen_1_1_bin_d_t.html#a816f05756cda2fbdf8175add73c336d9":[3,0,15,15]
+"dc/d42/class_amp_gen_1_1_bin_d_t.html#a72ab9cd89c7ef7ede96fe875ac90d56d":[3,0,15,8]
 };
