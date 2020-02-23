@@ -19,6 +19,7 @@ var class_amp_gen_1_1_particle =
     [ "clearDecayProducts", "de/dd7/class_amp_gen_1_1_particle.html#a68c3d51d4aa3e19d2e3533509146f9ba", null ],
     [ "conj", "de/dd7/class_amp_gen_1_1_particle.html#a92cb10e52a69ec688116932118850565", null ],
     [ "conservesParity", "de/dd7/class_amp_gen_1_1_particle.html#a45ffd26605fa730647c09101870f581d", null ],
+    [ "cosHel", "de/dd7/class_amp_gen_1_1_particle.html#a04e584f33d0e7b485662b6be42021bdd", null ],
     [ "daughter", "de/dd7/class_amp_gen_1_1_particle.html#ab4d5738f7cc8e7119ac67c5a6416c27e", null ],
     [ "daughter", "de/dd7/class_amp_gen_1_1_particle.html#aca989a89cb9c917678e397eb12ae837e", null ],
     [ "daughter", "de/dd7/class_amp_gen_1_1_particle.html#a3b712247d333757b6e362493fe168287", null ],
@@ -27,6 +28,7 @@ var class_amp_gen_1_1_particle =
     [ "decayDescriptor", "de/dd7/class_amp_gen_1_1_particle.html#a12db21e50c4ab1fac8c9f7bee9a5300c", null ],
     [ "eventType", "de/dd7/class_amp_gen_1_1_particle.html#a435672676f6d5c6262019ffa68b97b66", null ],
     [ "externalSpinTensor", "de/dd7/class_amp_gen_1_1_particle.html#a59b9fd260c618cbedd586f94d9ab3e5f", null ],
+    [ "Factorial", "de/dd7/class_amp_gen_1_1_particle.html#a86e4be93cd04c1cb08a834c9b7a5fcbd", null ],
     [ "finalStateParity", "de/dd7/class_amp_gen_1_1_particle.html#a0aa6b1fac0807abf1b98106cb63326d4", null ],
     [ "getExpression", "de/dd7/class_amp_gen_1_1_particle.html#a22cdf43af727cbd07722333bb6a3a555", null ],
     [ "getFinalStateParticles", "de/dd7/class_amp_gen_1_1_particle.html#abeea9a867e9f5fae8217412641e205c9", null ],
@@ -39,6 +41,7 @@ var class_amp_gen_1_1_particle =
     [ "isValidDecayDescriptor", "de/dd7/class_amp_gen_1_1_particle.html#afd2a170471b6e6078eb04d3a44a683eb", null ],
     [ "isWeakDecay", "de/dd7/class_amp_gen_1_1_particle.html#adeb289e0f665c93124352d7c99e3c2e0", null ],
     [ "L", "de/dd7/class_amp_gen_1_1_particle.html#a47b28271dd2e60c2faadbfb24ef8abee", null ],
+    [ "LegendreZemach", "de/dd7/class_amp_gen_1_1_particle.html#ae2afac6a3dc6dc37e127a9e944341280", null ],
     [ "lineshape", "de/dd7/class_amp_gen_1_1_particle.html#a97bfd8c2be3aef0934f63ab85d58f28c", null ],
     [ "mass", "de/dd7/class_amp_gen_1_1_particle.html#a936f6045c69aed2550d9d94da40b8a4a", null ],
     [ "massSq", "de/dd7/class_amp_gen_1_1_particle.html#a885a8e3c98d23f21c5f8e938a1193638", null ],
@@ -53,6 +56,7 @@ var class_amp_gen_1_1_particle =
     [ "parity", "de/dd7/class_amp_gen_1_1_particle.html#a693f183467a7f55dd77d07e5ce41a4a4", null ],
     [ "parseModifier", "de/dd7/class_amp_gen_1_1_particle.html#ae085ad208a58b2f262e39d298072bc38", null ],
     [ "polState", "de/dd7/class_amp_gen_1_1_particle.html#a0319d7fc790a0891cffabf8f19dc3eaa", null ],
+    [ "pq", "de/dd7/class_amp_gen_1_1_particle.html#ab2a7e05397b873233d50da15e60c1a56", null ],
     [ "propagator", "de/dd7/class_amp_gen_1_1_particle.html#a0161e18c8f92e341d1d88e92f0989b19", null ],
     [ "props", "de/dd7/class_amp_gen_1_1_particle.html#aa3d68f055babfd529a7e02100afcd3f1", null ],
     [ "Q", "de/dd7/class_amp_gen_1_1_particle.html#a43137716fd11149049d696f9318eeaef", null ],
@@ -75,5 +79,7 @@ var class_amp_gen_1_1_particle =
     [ "topologicalString", "de/dd7/class_amp_gen_1_1_particle.html#a3c74af03ab7bffab614824a124f4dc08", null ],
     [ "transitionMatrix", "de/dd7/class_amp_gen_1_1_particle.html#aecfab62df04764de8a8c6b5d40d85bfa", null ],
     [ "uniqueString", "de/dd7/class_amp_gen_1_1_particle.html#ae5e30454c974635ea4a8700b282ccd40", null ],
-    [ "vertexName", "de/dd7/class_amp_gen_1_1_particle.html#ac4b7f5f73a756d12b9b5a82de5cb1e38", null ]
+    [ "vertexName", "de/dd7/class_amp_gen_1_1_particle.html#ac4b7f5f73a756d12b9b5a82de5cb1e38", null ],
+    [ "Zemach", "de/dd7/class_amp_gen_1_1_particle.html#a2cefb2183dc1ea3550c2f1b0aa2d535c", null ],
+    [ "ZemachLaura", "de/dd7/class_amp_gen_1_1_particle.html#a793710d260544afca6a97ef1197c9809", null ]
 ];

@@ -53,7 +53,7 @@ var searchData=
   ['transferfcn',['TransferFCN',['../d5/d4f/struct_amp_gen_1_1_integral.html#a9a11294ba5085f1202d103534a45da7a',1,'AmpGen::Integral']]],
   ['transferparameters',['transferParameters',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ae8c89f18bcc24e1c30367a55f43675b0',1,'AmpGen::CoherentSum::transferParameters()'],['../d4/d48/class_amp_gen_1_1p_coherent_sum.html#adaeab48fa12d5c66b2393e6b8a11beea',1,'AmpGen::pCoherentSum::transferParameters()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#ab25f1e32b3d2640e60c1947a54d90dae',1,'AmpGen::PolarisedSum::transferParameters()']]],
   ['transform',['Transform',['../d9/d03/class_amp_gen_1_1_transform.html',1,'AmpGen']]],
-  ['transform',['transform',['../db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b',1,'AmpGen::EventList::transform()'],['../d9/d03/class_amp_gen_1_1_transform.html#aa5fe7d942c44c384994f44c5a4fe1e17',1,'AmpGen::Transform::Transform()']]],
+  ['transform',['Transform',['../d9/d03/class_amp_gen_1_1_transform.html#aa5fe7d942c44c384994f44c5a4fe1e17',1,'AmpGen::Transform::Transform()'],['../db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b',1,'AmpGen::EventList::transform()']]],
   ['transform_2eh',['Transform.h',['../db/d56/_transform_8h.html',1,'']]],
   ['transformsequence',['TransformSequence',['../d0/dd5/class_amp_gen_1_1_transform_sequence.html',1,'AmpGen']]],
   ['transformsequence',['TransformSequence',['../d0/dd5/class_amp_gen_1_1_transform_sequence.html#a5c981d775c1f417b05911f8933dcfee1',1,'AmpGen::TransformSequence']]],

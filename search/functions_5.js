@@ -16,6 +16,7 @@ var searchData=
   ['f_5fvf_5fp3',['f_Vf_P3',['../da/d29/struct_amp_gen_1_1_vertex_1_1f___vf___p3.html#a3b8a22ba8871f56cecfe056d2d293573',1,'AmpGen::Vertex::f_Vf_P3']]],
   ['f_5fvf_5fs',['f_Vf_S',['../d2/d94/struct_amp_gen_1_1_vertex_1_1f___vf___s.html#a53e274f88da6e25cd7c52d21ab51c202',1,'AmpGen::Vertex::f_Vf_S']]],
   ['f_5fvf_5fs1',['f_Vf_S1',['../d2/d1b/struct_amp_gen_1_1_vertex_1_1f___vf___s1.html#a9c7a917189530007a6c648d49ed30087',1,'AmpGen::Vertex::f_Vf_S1']]],
+  ['factorial',['Factorial',['../de/dd7/class_amp_gen_1_1_particle.html#a86e4be93cd04c1cb08a834c9b7a5fcbd',1,'AmpGen::Particle']]],
   ['fastdt',['FastDT',['../da/da8/class_amp_gen_1_1_fast_d_t.html#a1205e004f75af4ea1dda0cf6bafb8e70',1,'AmpGen::FastDT::FastDT()=default'],['../da/da8/class_amp_gen_1_1_fast_d_t.html#a4d16758532231c937c1040dd804dba09',1,'AmpGen::FastDT::FastDT(const std::string &amp;textFile)']]],
   ['fastrunningmass',['fastRunningMass',['../da/d3d/class_amp_gen_1_1_three_body_calculator.html#a53a55a86a490ac693e4481d07e8affd8',1,'AmpGen::ThreeBodyCalculator']]],
   ['fcalc',['fcalc',['../d2/d51/struct_amp_gen_1_1_fit_fraction_calculator_1_1fcalc.html#a36303a247f084be83266f3b4dcf23dfe',1,'AmpGen::FitFractionCalculator::fcalc::fcalc(const std::string &amp;name, const std::vector&lt; size_t &gt; &amp;i)'],['../d2/d51/struct_amp_gen_1_1_fit_fraction_calculator_1_1fcalc.html#a20ebfeaae6a505ed2495a7935076fd9f',1,'AmpGen::FitFractionCalculator::fcalc::fcalc(const std::string &amp;name, const std::vector&lt; size_t &gt; &amp;i, const std::vector&lt; size_t &gt; &amp;j)']]],
