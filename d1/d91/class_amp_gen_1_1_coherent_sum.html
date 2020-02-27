@@ -179,8 +179,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2fe4b6d66944595d4b7529b7765ce4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57bcd3cdbfc0c40196179f65f4e016b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a57bcd3cdbfc0c40196179f65f4e016b3">updateNorms</a> (const std::vector&lt; size_t &gt; &amp;changedPdfIndices)</td></tr>
 <tr class="separator:a57bcd3cdbfc0c40196179f65f4e016b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a635b885751bdf889bacb90eb1025a15f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a635b885751bdf889bacb90eb1025a15f">setWeight</a> (<a class="el" href="../../de/d24/class_amp_gen_1_1_minuit_proxy.html">MinuitProxy</a> param)</td></tr>
-<tr class="separator:a635b885751bdf889bacb90eb1025a15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2935923a57b9fb2f701f66ab64b1a185"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a2935923a57b9fb2f701f66ab64b1a185">setWeight</a> (const double &amp;weight)</td></tr>
+<tr class="separator:a2935923a57b9fb2f701f66ab64b1a185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c75e02d1b1e800786eed330a5fd7401"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c75e02d1b1e800786eed330a5fd7401">setWeight</a> (MinuitParameter *param)</td></tr>
+<tr class="separator:a1c75e02d1b1e800786eed330a5fd7401"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d025d5a490a30a9427742c8237a2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#ab3d025d5a490a30a9427742c8237a2c1">makeTotalExpression</a> ()</td></tr>
 <tr class="separator:ab3d025d5a490a30a9427742c8237a2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac93f4ba0ea735feaf96f118fa26067df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#ac93f4ba0ea735feaf96f118fa26067df">reset</a> (bool resetEvents=false)</td></tr>
@@ -222,9 +224,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a992ab3fecae4241fd34eac35e8117aac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a992ab3fecae4241fd34eac35e8117aac">m_normalisations</a></td></tr>
 <tr class="memdesc:a992ab3fecae4241fd34eac35e8117aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalisation integrals.  <a href="#a992ab3fecae4241fd34eac35e8117aac">More...</a><br /></td></tr>
 <tr class="separator:a992ab3fecae4241fd34eac35e8117aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa79ba60d114974ab4b5d498669b67d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#aa79ba60d114974ab4b5d498669b67d01">m_rules</a></td></tr>
-<tr class="memdesc:aa79ba60d114974ab4b5d498669b67d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ruleset for the selected transition.  <a href="#aa79ba60d114974ab4b5d498669b67d01">More...</a><br /></td></tr>
-<tr class="separator:aa79ba60d114974ab4b5d498669b67d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c4c4be21e87a6fa40ee6fea2a006142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a1c4c4be21e87a6fa40ee6fea2a006142">m_protoAmplitudes</a></td></tr>
+<tr class="memdesc:a1c4c4be21e87a6fa40ee6fea2a006142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proto amplitudes from user rule-set.  <a href="#a1c4c4be21e87a6fa40ee6fea2a006142">More...</a><br /></td></tr>
+<tr class="separator:a1c4c4be21e87a6fa40ee6fea2a006142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46a07fd11dcdc1c819c8d15b45e3f120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#aa3a8f060c5191c7a5da53b3ac8095eee">integrator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a46a07fd11dcdc1c819c8d15b45e3f120">m_integrator</a></td></tr>
 <tr class="memdesc:a46a07fd11dcdc1c819c8d15b45e3f120"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/d4f/struct_amp_gen_1_1_integral.html">Integral</a> dispatch tool (with default unroll = 10)  <a href="#a46a07fd11dcdc1c819c8d15b45e3f120">More...</a><br /></td></tr>
 <tr class="separator:a46a07fd11dcdc1c819c8d15b45e3f120"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,6 +239,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a473f4282e59e9ee48ca05d8b41e7a104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a473f4282e59e9ee48ca05d8b41e7a104">m_evtType</a></td></tr>
 <tr class="memdesc:a473f4282e59e9ee48ca05d8b41e7a104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final state for this amplitude.  <a href="#a473f4282e59e9ee48ca05d8b41e7a104">More...</a><br /></td></tr>
 <tr class="separator:a473f4282e59e9ee48ca05d8b41e7a104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85f9cb218c04637fe3fce59e3f7ff836"><td class="memItemLeft" align="right" valign="top">MinuitParameter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a85f9cb218c04637fe3fce59e3f7ff836">m_weightParam</a> = {nullptr}</td></tr>
+<tr class="memdesc:a85f9cb218c04637fe3fce59e3f7ff836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight parameter (i.e. the normalised yield)  <a href="#a85f9cb218c04637fe3fce59e3f7ff836">More...</a><br /></td></tr>
+<tr class="separator:a85f9cb218c04637fe3fce59e3f7ff836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8185299dff52077e014ef8bf29407ba"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#af8185299dff52077e014ef8bf29407ba">m_prepareCalls</a> = {0}</td></tr>
 <tr class="memdesc:af8185299dff52077e014ef8bf29407ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of times prepare has been called.  <a href="#af8185299dff52077e014ef8bf29407ba">More...</a><br /></td></tr>
 <tr class="separator:af8185299dff52077e014ef8bf29407ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,9 +251,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9919e46ed88b663621db0b485662491d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a9919e46ed88b663621db0b485662491d">m_printFreq</a> = {0}</td></tr>
 <tr class="memdesc:a9919e46ed88b663621db0b485662491d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency to print verbose PDF info.  <a href="#a9919e46ed88b663621db0b485662491d">More...</a><br /></td></tr>
 <tr class="separator:a9919e46ed88b663621db0b485662491d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654dd5be4b2b4de10e7637d1ef92cd1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d24/class_amp_gen_1_1_minuit_proxy.html">MinuitProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#a654dd5be4b2b4de10e7637d1ef92cd1f">m_weight</a> = {nullptr, 1}</td></tr>
-<tr class="memdesc:a654dd5be4b2b4de10e7637d1ef92cd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight (i.e. the normalised yield)  <a href="#a654dd5be4b2b4de10e7637d1ef92cd1f">More...</a><br /></td></tr>
-<tr class="separator:a654dd5be4b2b4de10e7637d1ef92cd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff85b856bcd0f5c25c20b1d98f94558e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#aff85b856bcd0f5c25c20b1d98f94558e">m_weight</a> = {1}</td></tr>
+<tr class="memdesc:aff85b856bcd0f5c25c20b1d98f94558e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight number (i.e. the normalised yield)  <a href="#aff85b856bcd0f5c25c20b1d98f94558e">More...</a><br /></td></tr>
+<tr class="separator:aff85b856bcd0f5c25c20b1d98f94558e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21113a04d7accd43f7d65f000018d8a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html#ae21113a04d7accd43f7d65f000018d8a">m_norm</a> = {0}</td></tr>
 <tr class="memdesc:ae21113a04d7accd43f7d65f000018d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalisation integral.  <a href="#ae21113a04d7accd43f7d65f000018d8a">More...</a><br /></td></tr>
 <tr class="separator:ae21113a04d7accd43f7d65f000018d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,7 +301,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00091">91</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00092">92</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -672,7 +677,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00085">85</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00086">86</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -754,7 +759,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00088">88</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00089">89</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1017,7 +1022,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 
 </div>
 </div>
-<a class="anchor" id="a635b885751bdf889bacb90eb1025a15f"></a>
+<a class="anchor" id="a2935923a57b9fb2f701f66ab64b1a185"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1027,8 +1032,8 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
         <tr>
           <td class="memname">void AmpGen::CoherentSum::setWeight </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d24/class_amp_gen_1_1_minuit_proxy.html">MinuitProxy</a>&#160;</td>
-          <td class="paramname"><em>param</em></td><td>)</td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>weight</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1040,6 +1045,32 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00075">75</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c75e02d1b1e800786eed330a5fd7401"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AmpGen::CoherentSum::setWeight </td>
+          <td>(</td>
+          <td class="paramtype">MinuitParameter *&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00076">76</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1118,7 +1149,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00105">105</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00107">107</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1140,7 +1171,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00097">97</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00098">98</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1162,7 +1193,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00098">98</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00099">99</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1184,7 +1215,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00095">95</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00096">96</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1206,7 +1237,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00104">104</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00106">106</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1228,7 +1259,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00100">100</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00102">102</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1250,7 +1281,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00092">92</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00093">93</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1272,7 +1303,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00103">103</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00105">105</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1294,7 +1325,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00093">93</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00094">94</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1316,7 +1347,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00107">107</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00109">109</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1338,7 +1369,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00108">108</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00110">110</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1360,7 +1391,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00099">99</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00101">101</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1382,11 +1413,11 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00101">101</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00103">103</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa79ba60d114974ab4b5d498669b67d01"></a>
+<a class="anchor" id="a1c4c4be21e87a6fa40ee6fea2a006142"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1394,7 +1425,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a> AmpGen::CoherentSum::m_rules</td>
+          <td class="memname"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a> AmpGen::CoherentSum::m_protoAmplitudes</td>
         </tr>
       </table>
   </td>
@@ -1404,7 +1435,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00094">94</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00095">95</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1426,7 +1457,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00096">96</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00097">97</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1448,11 +1479,11 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00106">106</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00108">108</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a654dd5be4b2b4de10e7637d1ef92cd1f"></a>
+<a class="anchor" id="aff85b856bcd0f5c25c20b1d98f94558e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1460,7 +1491,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d24/class_amp_gen_1_1_minuit_proxy.html">MinuitProxy</a> AmpGen::CoherentSum::m_weight = {nullptr, 1}</td>
+          <td class="memname">double AmpGen::CoherentSum::m_weight = {1}</td>
         </tr>
       </table>
   </td>
@@ -1470,7 +1501,29 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00102">102</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00104">104</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85f9cb218c04637fe3fce59e3f7ff836"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MinuitParameter* AmpGen::CoherentSum::m_weightParam = {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html#l00100">100</a> of file <a class="el" href="../../df/ddb/_coherent_sum_8h_source.html">CoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1483,7 +1536,7 @@ Inheritance diagram for AmpGen::CoherentSum:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html">CoherentSum</a></li>
-    <li class="footer">Generated on Thu Feb 27 2020 08:21:43 for AmpGen by
+    <li class="footer">Generated on Thu Feb 27 2020 11:38:30 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['s',['s',['../d0/dea/struct_amp_gen_1_1pole_config.html#a4ec5a9b3be1be6a99e80b327e63def1b',1,'AmpGen::poleConfig::s()'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a4b8c53ce2fafc417ac0810d5fc3ca69d',1,'AmpGen::TreePhaseSpace::Vertex::s()']]],
-  ['s03',['S03',['../dc/d82/namespace_amp_gen.html#ac28ba3534e031f49d48b63dd03facfbb',1,'AmpGen']]],
-  ['sigma',['Sigma',['../dc/d82/namespace_amp_gen.html#ac26ff86dd39599a7ecccfd369726c5b3',1,'AmpGen']]],
-  ['su3',['SU3',['../dc/d82/namespace_amp_gen.html#a8eaea0e7f8d045073731521aa5382c6d',1,'AmpGen']]]
+  ['rand',['rand',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a2cb45ecabe0446687401151ed123bc78',1,'AmpGen::TreePhaseSpace::Vertex']]],
+  ['recalculateintegrals',['recalculateIntegrals',['../d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html#acaf648ffe56c60dc9175d39159b7ac32',1,'AmpGen::FitFractionCalculator']]],
+  ['rhomax',['rhoMax',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#af54265aea6982ccad96f2ef6ba2329ee',1,'AmpGen::TreePhaseSpace::Vertex']]],
+  ['right',['right',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a631aa155e334546ffe26b2a436f22a8b',1,'AmpGen::FastDT::Node::right()'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#ae30f21ee8cb4abe1403264846af6422b',1,'AmpGen::TreePhaseSpace::Vertex::right()']]],
+  ['rval',['rval',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#aaa7a49341e2818be115b3533a268330b',1,'AmpGen::IBinaryExpression']]]
 ];
