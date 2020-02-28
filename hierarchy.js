@@ -237,6 +237,7 @@ var hierarchy =
     [ "AmpGen::QuarkState", "d3/d23/class_amp_gen_1_1_quark_state.html", null ],
     [ "AmpGen::RecursivePhaseSpace", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html", null ],
     [ "AmpGen::SimFit", "db/dec/class_amp_gen_1_1_sim_fit.html", null ],
+    [ "AmpGen::SumLL< LL >", "d3/db1/class_amp_gen_1_1_sum_l_l.html", null ],
     [ "AmpGen::SumPDF< eventListType, pdfTypes >", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html", null ],
     [ "AmpGen::Tensor", "d4/d0e/class_amp_gen_1_1_tensor.html", null ],
     [ "AmpGen::TensorProxy", "d6/dc0/class_amp_gen_1_1_tensor_proxy.html", null ],

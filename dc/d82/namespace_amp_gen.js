@@ -114,6 +114,7 @@ var namespace_amp_gen =
     [ "Sub", "da/dab/class_amp_gen_1_1_sub.html", "da/dab/class_amp_gen_1_1_sub" ],
     [ "SubTree", "d4/d37/struct_amp_gen_1_1_sub_tree.html", "d4/d37/struct_amp_gen_1_1_sub_tree" ],
     [ "Sum", "d3/d35/class_amp_gen_1_1_sum.html", "d3/d35/class_amp_gen_1_1_sum" ],
+    [ "SumLL", "d3/db1/class_amp_gen_1_1_sum_l_l.html", "d3/db1/class_amp_gen_1_1_sum_l_l" ],
     [ "SumPDF", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html", "d6/dc1/class_amp_gen_1_1_sum_p_d_f" ],
     [ "Tan", "d2/d28/class_amp_gen_1_1_tan.html", "d2/d28/class_amp_gen_1_1_tan" ],
     [ "Tensor", "d4/d0e/class_amp_gen_1_1_tensor.html", "d4/d0e/class_amp_gen_1_1_tensor" ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"dd/dc4/class_amp_gen_1_1_event.html#aaf33eea287d01e04dd6a909f750518bd":[3,0,37,21],
+"dd/dc4/class_amp_gen_1_1_event.html#ab00c9770efabd12e78bafd68e67b0eae":[3,0,37,3],
+"dd/dc4/class_amp_gen_1_1_event.html#ad32a5dabfa0b92e58ba427281e303814":[3,0,37,32],
+"dd/dc4/class_amp_gen_1_1_event.html#ad593fbfb3c7e97d69d3abf3fc3a01333":[3,0,37,33],
 "dd/dc4/class_amp_gen_1_1_event.html#aea0bdf1a27ff11ecab4382d1b8c438e0":[3,0,37,19],
 "dd/dc4/class_amp_gen_1_1_event.html#af48b2789e760cd9e56f218e85d9d4feb":[3,0,37,2],
 "dd/dc4/class_amp_gen_1_1_event.html#afe4d552554712762021a5864b558e36f":[3,0,37,11],
@@ -129,6 +133,8 @@ var NAVTREEINDEX10 =
 "de/db3/struct_amp_gen_1_1_vertex_1_1_s___s_s___s.html#a5b57302ce8addcf99616b6732e816da4":[0,4,2,3],
 "de/db3/struct_amp_gen_1_1_vertex_1_1_s___s_s___s.html#a636635d425473883797935c99ffb8156":[0,4,2,1],
 "de/db3/struct_amp_gen_1_1_vertex_1_1_s___s_s___s.html#adade7bd2c12993e5e84558f95a072096":[0,4,2,2],
+"de/dc0/_sum_l_l_8h.html":[7,0,70],
+"de/dc0/_sum_l_l_8h_source.html":[7,0,70],
 "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f.html":[3,0,1,5],
 "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f.html#a47324e12b47dcda76ab770e07c892b31":[3,0,1,5,0],
 "de/dc2/class_amp_gen_1_1_lineshape_1_1_exp_f_f.html#a5187071bfe86f0373364eaae5147d313":[3,0,1,5,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#ad79f8b3193d5d915a591fee059c41500":[3,0,2,10,0],
 "df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html":[3,0,2,36],
 "df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a0fb279c8daae67101b582e6a4d6d82d5":[3,0,2,36,0],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a620299d4c70d5fc42b162d929d4310e1":[3,0,2,36,2],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a636635d425473883797935c99ffb8156":[3,0,2,36,1],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#af0af14784fa6ced6fa183bd965b9c296":[3,0,2,36,3],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html":[3,0,30],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a105749ae21319dd3910e4041a56fb8f0":[3,0,30,8],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a105f83b1f97653ff65b83372ca4a9a09":[3,0,30,3],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a15ffec786264dd1762caf9f27681cbed":[3,0,30,13]
+"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a620299d4c70d5fc42b162d929d4310e1":[3,0,2,36,2]
 };

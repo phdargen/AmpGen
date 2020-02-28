@@ -21,5 +21,6 @@ var searchData=
   ['sub',['Sub',['../da/dab/class_amp_gen_1_1_sub.html',1,'AmpGen']]],
   ['subtree',['SubTree',['../d4/d37/struct_amp_gen_1_1_sub_tree.html',1,'AmpGen']]],
   ['sum',['Sum',['../d3/d35/class_amp_gen_1_1_sum.html',1,'AmpGen']]],
+  ['sumll',['SumLL',['../d3/db1/class_amp_gen_1_1_sum_l_l.html',1,'AmpGen']]],
   ['sumpdf',['SumPDF',['../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html',1,'AmpGen']]]
 ];

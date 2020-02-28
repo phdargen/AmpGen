@@ -149,6 +149,9 @@ var dir_afe841426323c02de63fa29102dfa844 =
     ] ],
     [ "Simplify.h", "d2/d9c/_simplify_8h.html", "d2/d9c/_simplify_8h" ],
     [ "Spline.h", "d4/d25/_spline_8h.html", "d4/d25/_spline_8h" ],
+    [ "SumLL.h", "de/dc0/_sum_l_l_8h.html", [
+      [ "SumLL", "d3/db1/class_amp_gen_1_1_sum_l_l.html", "d3/db1/class_amp_gen_1_1_sum_l_l" ]
+    ] ],
     [ "SumPDF.h", "d6/d5e/_sum_p_d_f_8h.html", "d6/d5e/_sum_p_d_f_8h" ],
     [ "Tensor.h", "dc/db8/_tensor_8h.html", "dc/db8/_tensor_8h" ],
     [ "ThreadPool.h", "dc/d0b/_thread_pool_8h.html", [
