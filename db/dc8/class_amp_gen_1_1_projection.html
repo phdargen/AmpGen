@@ -134,10 +134,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a007628d2ae54fa731b8effc6ad531ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c5882c212b070e9c483ac25bc376d9f"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/class_amp_gen_1_1_projection.html#a1c5882c212b070e9c483ac25bc376d9f">name</a> () const </td></tr>
 <tr class="separator:a1c5882c212b070e9c483ac25bc376d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4287541461b8117d082e9369ff6034c8"><td class="memTemplParams" colspan="2">template&lt;class... ARGS&gt; </td></tr>
+<tr class="memitem:a4287541461b8117d082e9369ff6034c8"><td class="memTemplItemLeft" align="right" valign="top">TH1D *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/dc8/class_amp_gen_1_1_projection.html#a4287541461b8117d082e9369ff6034c8">operator()</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;evt, const ARGS...args) const </td></tr>
+<tr class="separator:a4287541461b8117d082e9369ff6034c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acedb3ad53cb674efdb3388774da1490a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/class_amp_gen_1_1_projection.html#acedb3ad53cb674efdb3388774da1490a">operator()</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt) const </td></tr>
 <tr class="separator:acedb3ad53cb674efdb3388774da1490a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a781718425f1b04b47eb0a0565d604bea"><td class="memItemLeft" align="right" valign="top">TH1D *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/class_amp_gen_1_1_projection.html#a781718425f1b04b47eb0a0565d604bea">operator()</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;evt) const </td></tr>
-<tr class="separator:a781718425f1b04b47eb0a0565d604bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b53d8375d8db4f4681338b1fbf9899b"><td class="memItemLeft" align="right" valign="top">TH1D *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/class_amp_gen_1_1_projection.html#a0b53d8375d8db4f4681338b1fbf9899b">plot</a> (const std::string &amp;prefix=&quot;&quot;) const </td></tr>
 <tr class="separator:a0b53d8375d8db4f4681338b1fbf9899b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa41d45e3bebc7e05d00aaf60029cfbfc"><td class="memItemLeft" align="right" valign="top">std::function&lt; size_t(const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/class_amp_gen_1_1_projection.html#aa41d45e3bebc7e05d00aaf60029cfbfc">binFunctor</a> () const </td></tr>
@@ -321,6 +322,44 @@ template&lt;class FCN &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a4287541461b8117d082e9369ff6034c8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class... ARGS&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TH1D* AmpGen::Projection::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
+          <td class="paramname"><em>evt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ARGS...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/d31/_projection_8h_source.html#l00034">34</a> of file <a class="el" href="../../dd/d31/_projection_8h_source.html">Projection.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="acedb3ad53cb674efdb3388774da1490a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -329,22 +368,6 @@ template&lt;class FCN &gt; </div>
           <td class="memname">double AmpGen::Projection::operator() </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a781718425f1b04b47eb0a0565d604bea"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TH1D* AmpGen::Projection::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
           <td class="paramname"><em>evt</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -401,7 +424,7 @@ template&lt;class FCN &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d31/_projection_8h_source.html#l00039">39</a> of file <a class="el" href="../../dd/d31/_projection_8h_source.html">Projection.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d31/_projection_8h_source.html#l00041">41</a> of file <a class="el" href="../../dd/d31/_projection_8h_source.html">Projection.h</a>.</p>
 
 </div>
 </div>
@@ -424,7 +447,7 @@ template&lt;class FCN &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d31/_projection_8h_source.html#l00041">41</a> of file <a class="el" href="../../dd/d31/_projection_8h_source.html">Projection.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d31/_projection_8h_source.html#l00043">43</a> of file <a class="el" href="../../dd/d31/_projection_8h_source.html">Projection.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +460,7 @@ template&lt;class FCN &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/dc8/class_amp_gen_1_1_projection.html">Projection</a></li>
-    <li class="footer">Generated on Fri Feb 28 2020 18:34:24 for AmpGen by
+    <li class="footer">Generated on Thu Mar 5 2020 19:13:24 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

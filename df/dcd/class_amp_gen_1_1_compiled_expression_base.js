@@ -7,6 +7,7 @@ var class_amp_gen_1_1_compiled_expression_base =
     [ "args", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a3045649adc6c930b4b02137ff8270708", null ],
     [ "compile", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#afe1095820ebb68c4d48a90856e979dc0", null ],
     [ "fcnSignature", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a169825ef4be876385c0352ab94bcb4ff", null ],
+    [ "fcnSignature", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#add0f771854648dbe42fad0f68747dce2", null ],
     [ "hash", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#abd64a55296431cd16aefd4a82475a5b8", null ],
     [ "isReady", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#ae181cd5f83b18d9ea91321fe2c78482f", null ],
     [ "link", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a3a1b9b26a3d6a87814b97344f6c2ddbb", null ],
@@ -18,9 +19,10 @@ var class_amp_gen_1_1_compiled_expression_base =
     [ "resizeExternalCache", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a70f908b8e894918450590543383005da", null ],
     [ "resolve", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a09f997e9b52a4a65981262fa37f1c5d1", null ],
     [ "returnTypename", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a73e30556534840caee1e6b32c3349b71", null ],
-    [ "returnTypeSize", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#ad8c408227bd1b13735f03ddaea88eee5", null ],
+    [ "returnTypeSize", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a93f1591b8d6d584d40a80527a3ce15b9", null ],
     [ "setExternal", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a3db2045407a36153bb54f37c27ec8c54", null ],
     [ "to_stream", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#ad3e2e88bc53c0ab1725bc940e59e131d", null ],
+    [ "use_rto", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a83254cff18e34ec587f58aefeaccfd86", null ],
     [ "m_cacheTransfers", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a8bc74986913ce67ddf5290a4397b3df9", null ],
     [ "m_db", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a5f52b1d68ce9512e3b0d3b13e8472d38", null ],
     [ "m_debugSubexpressions", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a5a775cc978831df575b47c5dccf4dca6", null ],
@@ -29,5 +31,6 @@ var class_amp_gen_1_1_compiled_expression_base =
     [ "m_name", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a94df13dcc083972d362090f02ca72df5", null ],
     [ "m_obj", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a7d677929d75db873644da127c3a7b8f2", null ],
     [ "m_progName", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a2d0cae0610c4bea7eec1b0d5a9b73e60", null ],
-    [ "m_resolver", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a8b9f9bd279270d03e9a6a8a0e19f1bd4", null ]
+    [ "m_resolver", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a8b9f9bd279270d03e9a6a8a0e19f1bd4", null ],
+    [ "m_rto", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html#abc6b3fcf86b18750c01fc457afe115f4", null ]
 ];

@@ -113,6 +113,7 @@ $(document).ready(function(){initNavTree('df/dcd/class_amp_gen_1_1_compiled_expr
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../db/d80/class_amp_gen_1_1_compiled_expression_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -166,8 +167,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a50358bf86427819bdda05926caf2009b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1c47ced6c72989cab345190b5aaef1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a9c1c47ced6c72989cab345190b5aaef1">~CompiledExpressionBase</a> ()</td></tr>
 <tr class="separator:a9c1c47ced6c72989cab345190b5aaef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c408227bd1b13735f03ddaea88eee5"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#ad8c408227bd1b13735f03ddaea88eee5">returnTypeSize</a> () const =0</td></tr>
-<tr class="separator:ad8c408227bd1b13735f03ddaea88eee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f1591b8d6d584d40a80527a3ce15b9"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a93f1591b8d6d584d40a80527a3ce15b9">returnTypeSize</a> () const =0</td></tr>
+<tr class="separator:a93f1591b8d6d584d40a80527a3ce15b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83254cff18e34ec587f58aefeaccfd86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a83254cff18e34ec587f58aefeaccfd86">use_rto</a> ()</td></tr>
+<tr class="separator:a83254cff18e34ec587f58aefeaccfd86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:add0f771854648dbe42fad0f68747dce2"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#add0f771854648dbe42fad0f68747dce2">fcnSignature</a> (const std::vector&lt; std::string &gt; &amp;argList, bool rto)</td></tr>
+<tr class="separator:add0f771854648dbe42fad0f68747dce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -189,6 +197,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a8bc74986913ce67ddf5290a4397b3df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b9f9bd279270d03e9a6a8a0e19f1bd4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a8b9f9bd279270d03e9a6a8a0e19f1bd4">m_resolver</a></td></tr>
 <tr class="separator:a8b9f9bd279270d03e9a6a8a0e19f1bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6b3fcf86b18750c01fc457afe115f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#abc6b3fcf86b18750c01fc457afe115f4">m_rto</a> = {false}</td></tr>
+<tr class="separator:abc6b3fcf86b18750c01fc457afe115f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <div class="dynheader">
 Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
@@ -202,6 +212,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 <area href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html" alt="AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;" shape="rect" coords="1584,56,2102,80"/>
 <area href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html" alt="AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;" shape="rect" coords="2112,56,2630,80"/>
 <area href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html" alt="AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;" shape="rect" coords="2640,56,3158,80"/>
+<area href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html" alt="AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;" shape="rect" coords="3168,56,3686,80"/>
 </map>
  </div></div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -319,7 +330,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aac6fc6ea9a87c3b2e1cf164d83edff01">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -360,7 +371,41 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9ab9d38796e66ebb3f336dd0512bbde3">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add0f771854648dbe42fad0f68747dce2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string AmpGen::CompiledExpressionBase::fcnSignature </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>argList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>rto</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -400,7 +445,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a5a4e82eb4563ea94425afef5fa1a889b">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -426,7 +471,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ab0b49738f18bd609636a4e23479b7990">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -452,7 +497,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#adcb287da90447999e32ad5bf9373c01c">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -507,7 +552,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a7b73392103b72b2262cf5979e07185da">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -548,7 +593,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ae4ddc52ff7b365855bca7bb8b3867892">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -589,11 +634,11 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a01ebb4bb647aff4b009c3f6492ecf5b1">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad8c408227bd1b13735f03ddaea88eee5"></a>
+<a class="anchor" id="a93f1591b8d6d584d40a80527a3ce15b9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -601,7 +646,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual size_t AmpGen::CompiledExpressionBase::returnTypeSize </td>
+          <td class="memname">virtual unsigned AmpGen::CompiledExpressionBase::returnTypeSize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -614,7 +659,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aaa655fc6d81fb569551d59e433e6e398">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aaa655fc6d81fb569551d59e433e6e398">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aaa655fc6d81fb569551d59e433e6e398">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aaa655fc6d81fb569551d59e433e6e398">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aaa655fc6d81fb569551d59e433e6e398">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#aaa655fc6d81fb569551d59e433e6e398">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ad78ce6a7ec4b2f7f65c69594291ac006">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ad78ce6a7ec4b2f7f65c69594291ac006">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ad78ce6a7ec4b2f7f65c69594291ac006">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ad78ce6a7ec4b2f7f65c69594291ac006">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ad78ce6a7ec4b2f7f65c69594291ac006">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ad78ce6a7ec4b2f7f65c69594291ac006">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#ad78ce6a7ec4b2f7f65c69594291ac006">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -650,7 +695,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; std::vector&lt; complex_t &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; std::complex&lt; double &gt;, const real_t *, const real_t * &gt;</a>, <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; void, complex_t *, const real_t *, const real_t * &gt;</a>, and <a class="el" href="../../d1/d43/class_amp_gen_1_1_compiled_expression.html#a9c058ffa56c8fb4f3feb64a6b8e22468">AmpGen::CompiledExpression&lt; RT, const real_t *, const real_t * &gt;</a>.</p>
 
 </div>
 </div>
@@ -667,6 +712,31 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83254cff18e34ec587f58aefeaccfd86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AmpGen::CompiledExpressionBase::use_rto </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00060">60</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -689,7 +759,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00067">67</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00069">69</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +781,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00063">63</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00065">65</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -733,7 +803,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00066">66</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00068">68</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -755,7 +825,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00065">65</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00067">67</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -777,7 +847,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00064">64</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00066">66</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -799,7 +869,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00061">61</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00063">63</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -821,7 +891,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00060">60</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00062">62</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -843,7 +913,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00062">62</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00064">64</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -865,7 +935,29 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00068">68</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00070">70</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abc6b3fcf86b18750c01fc457afe115f4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AmpGen::CompiledExpressionBase::m_rto = {false}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html#l00071">71</a> of file <a class="el" href="../../df/d36/_compiled_expression_base_8h_source.html">CompiledExpressionBase.h</a>.</p>
 
 </div>
 </div>
@@ -878,7 +970,7 @@ Inheritance diagram for AmpGen::CompiledExpressionBase:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../df/dcd/class_amp_gen_1_1_compiled_expression_base.html">CompiledExpressionBase</a></li>
-    <li class="footer">Generated on Fri Feb 28 2020 18:34:24 for AmpGen by
+    <li class="footer">Generated on Thu Mar 5 2020 19:13:24 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

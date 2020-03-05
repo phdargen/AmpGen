@@ -34,6 +34,7 @@ var _utilities_8h =
     [ "printSplash", "db/d72/_utilities_8h.html#aedb35bb72e128c233dac5bee2acd8cb8", null ],
     [ "processFile", "db/d72/_utilities_8h.html#a82e0840363e7ed9431004d50968b3303", null ],
     [ "replaceAll", "db/d72/_utilities_8h.html#a81c498175e2e9c8fe828817cf457ef84", null ],
+    [ "replaceAll", "db/d72/_utilities_8h.html#ad045ecdd7fa20131d5a2e9eeacabd590", null ],
     [ "round", "db/d72/_utilities_8h.html#a5cbb174b88e932b17f60865e9372b9aa", null ],
     [ "rtrim", "db/d72/_utilities_8h.html#a96fbd6d933f266a93ea45813c5de344d", null ],
     [ "split", "db/d72/_utilities_8h.html#a66961495de822e0e053c7e0c8e1a1212", null ],
@@ -43,6 +44,6 @@ var _utilities_8h =
     [ "trim", "db/d72/_utilities_8h.html#a79f229f3b7f05cb32c5fe8d6f3c9812c", null ],
     [ "vecFindAll", "db/d72/_utilities_8h.html#ae16e70ae08cd76043d26e08bce17c6a5", null ],
     [ "vectorFromFile", "db/d72/_utilities_8h.html#a9ce513f909ccafd70cf0ff443f2b29b7", null ],
-    [ "vectorToString", "db/d72/_utilities_8h.html#ad40c1c605071286f7ea10219308e0677", null ],
-    [ "vectorToString", "db/d72/_utilities_8h.html#aadb7c21cacc37282d8934caac2ea4815", null ]
+    [ "vectorToString", "db/d72/_utilities_8h.html#ae6913535c3dd79a24c7d24cb0f6d00d4", null ],
+    [ "vectorToString", "db/d72/_utilities_8h.html#ac1d51bd03584ce5614510a7dcdfabe59", null ]
 ];

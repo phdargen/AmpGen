@@ -20,6 +20,7 @@ var searchData=
   ['transitionmatrix',['TransitionMatrix',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html',1,'AmpGen']]],
   ['transitionmatrix_3c_20complex_5ft_20_3e',['TransitionMatrix&lt; complex_t &gt;',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html',1,'AmpGen']]],
   ['transitionmatrix_3c_20std_3a_3avector_3c_20complex_5ft_20_3e_20_3e',['TransitionMatrix&lt; std::vector&lt; complex_t &gt; &gt;',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html',1,'AmpGen']]],
+  ['transitionmatrix_3c_20void_20_3e',['TransitionMatrix&lt; void &gt;',['../db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html',1,'AmpGen']]],
   ['treephasespace',['TreePhaseSpace',['../db/d9a/class_amp_gen_1_1_tree_phase_space.html',1,'AmpGen']]],
   ['treereader',['TreeReader',['../dd/da6/class_amp_gen_1_1_tree_reader.html',1,'AmpGen']]]
 ];
