@@ -15,13 +15,12 @@ var searchData=
   ['sbw',['SBW',['../d0/d49/class_amp_gen_1_1_lineshape_1_1_s_b_w.html',1,'AmpGen::Lineshape']]],
   ['simfit',['SimFit',['../db/dec/class_amp_gen_1_1_sim_fit.html',1,'AmpGen']]],
   ['sin',['Sin',['../d4/d99/class_amp_gen_1_1_sin.html',1,'AmpGen']]],
-  ['size_5fof',['size_of',['../dd/de5/struct_amp_gen_1_1detail_1_1size__of.html',1,'AmpGen::detail']]],
-  ['size_5fof_3c_20void_20_3e',['size_of&lt; void &gt;',['../df/dba/struct_amp_gen_1_1detail_1_1size__of_3_01void_01_4.html',1,'AmpGen::detail']]],
   ['spline',['Spline',['../d8/d3c/class_amp_gen_1_1_spline.html',1,'AmpGen']]],
   ['splinetransfer',['SplineTransfer',['../de/d96/class_amp_gen_1_1_spline_transfer.html',1,'AmpGen']]],
   ['sqrt',['Sqrt',['../d8/dd0/class_amp_gen_1_1_sqrt.html',1,'AmpGen']]],
   ['sub',['Sub',['../da/dab/class_amp_gen_1_1_sub.html',1,'AmpGen']]],
   ['subtree',['SubTree',['../d4/d37/struct_amp_gen_1_1_sub_tree.html',1,'AmpGen']]],
   ['sum',['Sum',['../d3/d35/class_amp_gen_1_1_sum.html',1,'AmpGen']]],
+  ['sumll',['SumLL',['../d3/db1/class_amp_gen_1_1_sum_l_l.html',1,'AmpGen']]],
   ['sumpdf',['SumPDF',['../d6/dc1/class_amp_gen_1_1_sum_p_d_f.html',1,'AmpGen']]]
 ];

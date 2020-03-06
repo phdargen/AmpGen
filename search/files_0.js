@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['addcpconjugate_2eh',['AddCPConjugate.h',['../db/d1b/_add_c_p_conjugate_8h.html',1,'']]],
   ['amplituderules_2eh',['AmplitudeRules.h',['../d7/d6d/_amplitude_rules_8h.html',1,'']]],
   ['argumentpack_2eh',['ArgumentPack.h',['../dd/dd4/_argument_pack_8h.html',1,'']]],
   ['array_2eh',['Array.h',['../d3/dc5/_array_8h.html',1,'']]],
