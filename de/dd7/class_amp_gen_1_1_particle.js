@@ -32,6 +32,8 @@ var class_amp_gen_1_1_particle =
     [ "finalStateParity", "de/dd7/class_amp_gen_1_1_particle.html#a0aa6b1fac0807abf1b98106cb63326d4", null ],
     [ "getExpression", "de/dd7/class_amp_gen_1_1_particle.html#a22cdf43af727cbd07722333bb6a3a555", null ],
     [ "getFinalStateParticles", "de/dd7/class_amp_gen_1_1_particle.html#abeea9a867e9f5fae8217412641e205c9", null ],
+    [ "GooFitCMom", "de/dd7/class_amp_gen_1_1_particle.html#ae8d62b7c6ea039099de9a7d8cea72668", null ],
+    [ "GooFitDamping", "de/dd7/class_amp_gen_1_1_particle.html#acd6bd80bee5185ade867b69671f96626", null ],
     [ "identicalDaughterOrderings", "de/dd7/class_amp_gen_1_1_particle.html#a6ee1f31dc48b6e84c1e1667a6f15c2ee", null ],
     [ "index", "de/dd7/class_amp_gen_1_1_particle.html#aa3b7bb85a641f2907497b1f71f58b78d", null ],
     [ "isHead", "de/dd7/class_amp_gen_1_1_particle.html#addce3f8ffea73c6631341efc8b33dd94", null ],
@@ -81,5 +83,6 @@ var class_amp_gen_1_1_particle =
     [ "uniqueString", "de/dd7/class_amp_gen_1_1_particle.html#ae5e30454c974635ea4a8700b282ccd40", null ],
     [ "vertexName", "de/dd7/class_amp_gen_1_1_particle.html#ac4b7f5f73a756d12b9b5a82de5cb1e38", null ],
     [ "Zemach", "de/dd7/class_amp_gen_1_1_particle.html#a2cefb2183dc1ea3550c2f1b0aa2d535c", null ],
+    [ "ZemachGooFit", "de/dd7/class_amp_gen_1_1_particle.html#adeb86f4ed347f5c913aadd2a331c444f", null ],
     [ "ZemachLaura", "de/dd7/class_amp_gen_1_1_particle.html#a793710d260544afca6a97ef1197c9809", null ]
 ];

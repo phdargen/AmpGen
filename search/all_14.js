@@ -53,7 +53,7 @@ var searchData=
   ['transferfcn',['TransferFCN',['../d5/d4f/struct_amp_gen_1_1_integral.html#a9a11294ba5085f1202d103534a45da7a',1,'AmpGen::Integral']]],
   ['transferparameters',['transferParameters',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#ae8c89f18bcc24e1c30367a55f43675b0',1,'AmpGen::CoherentSum::transferParameters()'],['../d4/d48/class_amp_gen_1_1p_coherent_sum.html#adaeab48fa12d5c66b2393e6b8a11beea',1,'AmpGen::pCoherentSum::transferParameters()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#ab25f1e32b3d2640e60c1947a54d90dae',1,'AmpGen::PolarisedSum::transferParameters()']]],
   ['transform',['Transform',['../d9/d03/class_amp_gen_1_1_transform.html',1,'AmpGen']]],
-  ['transform',['transform',['../db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b',1,'AmpGen::EventList::transform()'],['../d9/d03/class_amp_gen_1_1_transform.html#aa5fe7d942c44c384994f44c5a4fe1e17',1,'AmpGen::Transform::Transform()']]],
+  ['transform',['Transform',['../d9/d03/class_amp_gen_1_1_transform.html#aa5fe7d942c44c384994f44c5a4fe1e17',1,'AmpGen::Transform::Transform()'],['../db/d4b/class_amp_gen_1_1_event_list.html#a99e05d347d0ef48c116df2f3b029712b',1,'AmpGen::EventList::transform()']]],
   ['transform_2eh',['Transform.h',['../db/d56/_transform_8h.html',1,'']]],
   ['transformsequence',['TransformSequence',['../d0/dd5/class_amp_gen_1_1_transform_sequence.html',1,'AmpGen']]],
   ['transformsequence',['TransformSequence',['../d0/dd5/class_amp_gen_1_1_transform_sequence.html#a5c981d775c1f417b05911f8933dcfee1',1,'AmpGen::TransformSequence']]],
@@ -72,7 +72,7 @@ var searchData=
   ['trim',['trim',['../dc/d82/namespace_amp_gen.html#a79f229f3b7f05cb32c5fe8d6f3c9812c',1,'AmpGen']]],
   ['trimmedstring',['trimmedString',['../d9/daa/_msg_service_8h.html#a6dcb94fde52e886851b2ac2ffd0af506',1,'MsgService.h']]],
   ['twospin',['twoSpin',['../db/d37/class_amp_gen_1_1_particle_properties.html#a84f916f7ac3e6351abb5f88b0a5c06ba',1,'AmpGen::ParticleProperties']]],
-  ['type',['Type',['../d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5',1,'AmpGen::Transform::Type()'],['../dc/d3f/namespace_amp_gen_1_1detail.html#ad3f6c8522e79a38a2e38963a69b249d7',1,'AmpGen::detail::zeroType::type()']]],
+  ['type',['type',['../dc/d3f/namespace_amp_gen_1_1detail.html#ad3f6c8522e79a38a2e38963a69b249d7',1,'AmpGen::detail::zeroType::type()'],['../d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5',1,'AmpGen::Transform::Type()']]],
   ['typeof',['typeof',['../dc/d82/namespace_amp_gen.html#aefce7cf5d31be9fbfdf72374a803676f',1,'AmpGen::typeof()'],['../dc/d82/namespace_amp_gen.html#a1b6c4a4037dd4ee29ac0461f197fa6e7',1,'AmpGen::typeof(TYPE t)']]],
   ['types_2eh',['Types.h',['../d0/db6/_types_8h.html',1,'']]]
 ];

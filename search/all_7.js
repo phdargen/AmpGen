@@ -75,11 +75,13 @@ var searchData=
   ['gimpl',['gImpl',['../d8/db1/class_amp_gen_1_1_factory.html#a9641efd66c25f2003b962f34f657eefb',1,'AmpGen::Factory']]],
   ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#ac00b7d77eb5a6e516a99c8640b269355',1,'AmpGen::Lineshape::GLASS']]],
   ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html',1,'AmpGen::Lineshape']]],
-  ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html',1,'AmpGen::Lineshape']]],
+  ['goofitcmom',['GooFitCMom',['../de/dd7/class_amp_gen_1_1_particle.html#ae8d62b7c6ea039099de9a7d8cea72668',1,'AmpGen::Particle']]],
+  ['goofitdamping',['GooFitDamping',['../de/dd7/class_amp_gen_1_1_particle.html#acd6bd80bee5185ade867b69671f96626',1,'AmpGen::Particle']]],
   ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a632d0f487c3ae23afcbc4bc08ce3b00b',1,'AmpGen::Lineshape::GounarisSakurai']]],
+  ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html',1,'AmpGen::Lineshape']]],
   ['greaterthan',['GreaterThan',['../db/d51/class_amp_gen_1_1_greater_than.html#aa19da789a62c434602b40003d6aa2f7b',1,'AmpGen::GreaterThan']]],
   ['greaterthan',['GreaterThan',['../db/d51/class_amp_gen_1_1_greater_than.html',1,'AmpGen']]],
   ['groupexpressions',['groupExpressions',['../dc/d2a/class_amp_gen_1_1_normal_ordered_expression.html#ac2980993233245c32014f044e8e89a6f',1,'AmpGen::NormalOrderedExpression']]],
-  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#a74031e326b6df591de471b518805ea92',1,'AmpGen::Lineshape::GSpline']]],
-  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html',1,'AmpGen::Lineshape']]]
+  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html',1,'AmpGen::Lineshape']]],
+  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#a74031e326b6df591de471b518805ea92',1,'AmpGen::Lineshape::GSpline']]]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html":[3,0,2,36],
+"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a0fb279c8daae67101b582e6a4d6d82d5":[3,0,2,36,0],
+"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a620299d4c70d5fc42b162d929d4310e1":[3,0,2,36,2],
 "df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a636635d425473883797935c99ffb8156":[3,0,2,36,1],
 "df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#af0af14784fa6ced6fa183bd965b9c296":[3,0,2,36,3],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html":[3,0,30],
@@ -126,8 +129,8 @@ var NAVTREEINDEX11 =
 "functions_enum.html":[6,4],
 "functions_eval.html":[6,5],
 "functions_f.html":[6,0,6],
-"functions_func.html":[6,1],
 "functions_func.html":[6,1,0],
+"functions_func.html":[6,1],
 "functions_func_0x7e.html":[6,1,26],
 "functions_func_b.html":[6,1,1],
 "functions_func_c.html":[6,1,2],
@@ -172,8 +175,8 @@ var NAVTREEINDEX11 =
 "functions_type.html":[6,3],
 "functions_u.html":[6,0,21],
 "functions_v.html":[6,0,22],
-"functions_vars.html":[6,2,0],
 "functions_vars.html":[6,2],
+"functions_vars.html":[6,2,0],
 "functions_vars_a.html":[6,2,1],
 "functions_vars_b.html":[6,2,2],
 "functions_vars_c.html":[6,2,3],
@@ -203,8 +206,8 @@ var NAVTREEINDEX11 =
 "hierarchy.html":[5],
 "index.html":[],
 "modules.html":[0],
-"namespacemembers.html":[2,0],
 "namespacemembers.html":[2,0,0],
+"namespacemembers.html":[2,0],
 "namespacemembers_b.html":[2,0,1],
 "namespacemembers_c.html":[2,0,2],
 "namespacemembers_d.html":[2,0,3],
@@ -212,8 +215,8 @@ var NAVTREEINDEX11 =
 "namespacemembers_enum.html":[2,4],
 "namespacemembers_eval.html":[2,5],
 "namespacemembers_f.html":[2,0,5],
-"namespacemembers_func.html":[2,1,0],
 "namespacemembers_func.html":[2,1],
+"namespacemembers_func.html":[2,1,0],
 "namespacemembers_func_b.html":[2,1,1],
 "namespacemembers_func_c.html":[2,1,2],
 "namespacemembers_func_d.html":[2,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "namespacemembers_q.html":[2,0,15],
 "namespacemembers_r.html":[2,0,16],
 "namespacemembers_s.html":[2,0,17],
-"namespacemembers_t.html":[2,0,18],
-"namespacemembers_type.html":[2,3],
-"namespacemembers_v.html":[2,0,19],
-"namespacemembers_vars.html":[2,2]
+"namespacemembers_t.html":[2,0,18]
 };
