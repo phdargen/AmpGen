@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9dde3c1dbbaae148783388744f44409"><td class="memTemplParams" colspan="2">template&lt;class PDF , class HARD_CUT &gt; </td></tr>
 <tr class="memitem:af9dde3c1dbbaae148783388744f44409"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/de5/class_amp_gen_1_1_qc_generator.html#af9dde3c1dbbaae148783388744f44409">fillEventList</a> (PDF &amp;pdf, <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;listSig, <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;listTag, const size_t &amp;N, HARD_CUT cut)</td></tr>
 <tr class="separator:af9dde3c1dbbaae148783388744f44409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef31329f6f5fb17e1c5f8e24cdc93240"><td class="memTemplParams" colspan="2">template&lt;class PDF &gt; </td></tr>
+<tr class="memitem:aef31329f6f5fb17e1c5f8e24cdc93240"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/de5/class_amp_gen_1_1_qc_generator.html#aef31329f6f5fb17e1c5f8e24cdc93240">filterEventList</a> (PDF &amp;pdf, <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;listSig, <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;listTag, <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;inSig, <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;inTag, const size_t &amp;N)</td></tr>
+<tr class="separator:aef31329f6f5fb17e1c5f8e24cdc93240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba7b0f02cb52f2c0d781d593635c330d"><td class="memTemplParams" colspan="2">template&lt;class PDF , class  = typename std::enable_if&lt;!std::is_integral&lt;PDF&gt;::value&gt;::type&gt; </td></tr>
 <tr class="memitem:aba7b0f02cb52f2c0d781d593635c330d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../df/d3b/class_amp_gen_1_1corr_event_list.html">corrEventList</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/de5/class_amp_gen_1_1_qc_generator.html#aba7b0f02cb52f2c0d781d593635c330d">generate</a> (PDF &amp;pdf, const size_t &amp;nEvents)</td></tr>
 <tr class="separator:aba7b0f02cb52f2c0d781d593635c330d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -418,6 +421,70 @@ template&lt;class HARD_CUT &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aef31329f6f5fb17e1c5f8e24cdc93240"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PHASESPACE  = PhaseSpace&gt; </div>
+<div class="memtemplate">
+template&lt;class PDF &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/de5/class_amp_gen_1_1_qc_generator.html">AmpGen::QcGenerator</a>&lt; PHASESPACE &gt;::filterEventList </td>
+          <td>(</td>
+          <td class="paramtype">PDF &amp;&#160;</td>
+          <td class="paramname"><em>pdf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
+          <td class="paramname"><em>listSig</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
+          <td class="paramname"><em>listTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSig</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
+          <td class="paramname"><em>inTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t &amp;&#160;</td>
+          <td class="paramname"><em>N</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/dec/_qc_generator_8h_source.html#l00159">159</a> of file <a class="el" href="../../dd/dec/_qc_generator_8h_source.html">QcGenerator.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aba7b0f02cb52f2c0d781d593635c330d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -454,7 +521,7 @@ template&lt;class PDF , class  = typename std::enable_if&lt;!std::is_integral&lt
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dec/_qc_generator_8h_source.html#l00159">159</a> of file <a class="el" href="../../dd/dec/_qc_generator_8h_source.html">QcGenerator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dec/_qc_generator_8h_source.html#l00234">234</a> of file <a class="el" href="../../dd/dec/_qc_generator_8h_source.html">QcGenerator.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +559,7 @@ template&lt;class PHASESPACE  = PhaseSpace&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dec/_qc_generator_8h_source.html#l00168">168</a> of file <a class="el" href="../../dd/dec/_qc_generator_8h_source.html">QcGenerator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dec/_qc_generator_8h_source.html#l00243">243</a> of file <a class="el" href="../../dd/dec/_qc_generator_8h_source.html">QcGenerator.h</a>.</p>
 
 </div>
 </div>
@@ -643,7 +710,7 @@ template&lt;class PHASESPACE  = PhaseSpace&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/de5/class_amp_gen_1_1_qc_generator.html">QcGenerator</a></li>
-    <li class="footer">Generated on Fri Mar 20 2020 16:18:13 for AmpGen by
+    <li class="footer">Generated on Fri Mar 27 2020 10:44:23 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

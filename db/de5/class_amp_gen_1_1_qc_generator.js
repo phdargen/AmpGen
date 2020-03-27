@@ -5,6 +5,7 @@ var class_amp_gen_1_1_qc_generator =
     [ "fillEventList", "db/de5/class_amp_gen_1_1_qc_generator.html#af9dde3c1dbbaae148783388744f44409", null ],
     [ "fillEventListPhaseSpace", "db/de5/class_amp_gen_1_1_qc_generator.html#aa2a3ea295b7f9589202acdd39ca318f5", null ],
     [ "fillEventListPhaseSpace", "db/de5/class_amp_gen_1_1_qc_generator.html#a40255278a9047cd8ca458f63480f807c", null ],
+    [ "filterEventList", "db/de5/class_amp_gen_1_1_qc_generator.html#aef31329f6f5fb17e1c5f8e24cdc93240", null ],
     [ "generate", "db/de5/class_amp_gen_1_1_qc_generator.html#aba7b0f02cb52f2c0d781d593635c330d", null ],
     [ "generate", "db/de5/class_amp_gen_1_1_qc_generator.html#a143c905f39be96f733b032673d83dde6", null ],
     [ "phspSig", "db/de5/class_amp_gen_1_1_qc_generator.html#a9ecf2f2f2abe24560656e40632788490", null ],
