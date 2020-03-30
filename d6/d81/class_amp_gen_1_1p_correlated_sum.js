@@ -7,7 +7,7 @@ var class_amp_gen_1_1p_correlated_sum =
     [ "debug", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#af751fc780dd0964b6541e5de7e38339d", null ],
     [ "debugNorm", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#ac64f009401d10393b9f11aaaa78330fa", null ],
     [ "fitFractions", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#af6e3ba58be9275dbeb67de993743b8fc", null ],
-    [ "getC", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a01c6a2a9c06b36c753977d097cd8074d", null ],
+    [ "getC", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#af4b726fad0cce345004d106b154ea3f8", null ],
     [ "getCParam", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a43b697585bea4207ed66b485773173a3", null ],
     [ "getVal", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a5add061bbf4c1050cbf59a84abb7db60", null ],
     [ "getValNoCache", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a74afacd647e3320980a9126bb857623b", null ],

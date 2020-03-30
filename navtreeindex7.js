@@ -155,9 +155,10 @@ var NAVTREEINDEX7 =
 "db/d08/struct_d_t_event.html#ab6ca22c3abf5dd25cd3055b963b586eb":[3,1,6],
 "db/d08/struct_d_t_event.html#ae806912e976e48f4f216be68334174a2":[3,1,4],
 "db/d16/p_correlated_sum_8h.html":[7,0,57],
-"db/d16/p_correlated_sum_8h.html#a6ba70008935ae2fcc45d135ea8aa90ce":[7,0,57,3],
+"db/d16/p_correlated_sum_8h.html#a3b840e209912061c60b078bb6c3d75bf":[7,0,57,3],
+"db/d16/p_correlated_sum_8h.html#a6ba70008935ae2fcc45d135ea8aa90ce":[7,0,57,4],
 "db/d16/p_correlated_sum_8h.html#a73c0ca1bd9276f63478ffd9c33239562":[7,0,57,1],
-"db/d16/p_correlated_sum_8h.html#a83f7f7eb3f71dce913c4c30a345ff8d4":[7,0,57,4],
+"db/d16/p_correlated_sum_8h.html#a83f7f7eb3f71dce913c4c30a345ff8d4":[7,0,57,5],
 "db/d16/p_correlated_sum_8h.html#aa0396f8a5f6dba78ec9a79ff1c3f9966":[7,0,57,2],
 "db/d16/p_correlated_sum_8h_source.html":[7,0,57],
 "db/d1b/_add_c_p_conjugate_8h.html":[7,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "db/d37/class_amp_gen_1_1_particle_properties.html#a60c71539f7fb0f1992b3b0753ece12c0":[3,0,87,27],
 "db/d37/class_amp_gen_1_1_particle_properties.html#a6237f6b51aa7febc58d0734bb07a9bd3":[3,0,87,34],
 "db/d37/class_amp_gen_1_1_particle_properties.html#a6b5f8c867a3313a97f241874c7868877":[3,0,87,17],
-"db/d37/class_amp_gen_1_1_particle_properties.html#a75b84e4ae8bf867fc39972b7196e7e4e":[3,0,87,7],
-"db/d37/class_amp_gen_1_1_particle_properties.html#a77b9444152bac6caa69af2e4797f83e8":[3,0,87,5]
+"db/d37/class_amp_gen_1_1_particle_properties.html#a75b84e4ae8bf867fc39972b7196e7e4e":[3,0,87,7]
 };
