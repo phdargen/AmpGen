@@ -1,5 +1,6 @@
 var dir_afe841426323c02de63fa29102dfa844 =
 [
+    [ "AddCPConjugate.h", "db/d1b/_add_c_p_conjugate_8h.html", "db/d1b/_add_c_p_conjugate_8h" ],
     [ "AmplitudeRules.h", "d7/d6d/_amplitude_rules_8h.html", "d7/d6d/_amplitude_rules_8h" ],
     [ "ArgumentPack.h", "dd/dd4/_argument_pack_8h.html", "dd/dd4/_argument_pack_8h" ],
     [ "Array.h", "d3/dc5/_array_8h.html", null ],
@@ -56,11 +57,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "EventList.h", "df/d3d/_event_list_8h.html", "df/d3d/_event_list_8h" ],
     [ "EventType.h", "d4/d69/_event_type_8h.html", "d4/d69/_event_type_8h" ],
     [ "Expression.h", "d6/d99/_expression_8h.html", "d6/d99/_expression_8h" ],
-    [ "ExpressionParser.h", "de/d94/_expression_parser_8h.html", [
-      [ "MinuitParameterLink", "d4/dd8/class_amp_gen_1_1_minuit_parameter_link.html", "d4/dd8/class_amp_gen_1_1_minuit_parameter_link" ],
-      [ "ExpressionPack", "d3/df1/class_amp_gen_1_1_expression_pack.html", "d3/df1/class_amp_gen_1_1_expression_pack" ],
-      [ "ExpressionParser", "d5/db3/class_amp_gen_1_1_expression_parser.html", "d5/db3/class_amp_gen_1_1_expression_parser" ]
-    ] ],
+    [ "ExpressionParser.h", "de/d94/_expression_parser_8h.html", "de/d94/_expression_parser_8h" ],
     [ "Factory.h", "d7/de6/_factory_8h.html", "d7/de6/_factory_8h" ],
     [ "FastDT.h", "df/d59/_fast_d_t_8h.html", [
       [ "FastDT", "da/da8/class_amp_gen_1_1_fast_d_t.html", "da/da8/class_amp_gen_1_1_fast_d_t" ],

@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('de/dd7/class_amp_gen_1_1_particle.html
 <div class="fragment"><div class="line">rho(770)0[GounarisSakurai]{pi+,pi-}</div></div><!-- fragment --><p>Multiple modifiers can be applied to the same particle, by including them in a semi-colon separated list. For example, for three-body decays of broad resonances, such as the \(a_1(1260)\), the propagator must take the evolution of the width of resonance from a numerical calculation, which can be supplied via a cubic spline (hence using the GSpline propagator). Additionally, for the decay chain \( a_1(1260)^{+} \to \rho^{0} \pi^{+} \), the decay products can either be in a relative S or D wave, and hence the two particle descriptors</p>
 <div class="fragment"><div class="line">a(1)(1260)+[GSpline]{rho(770)0,pi+}</div><div class="line">a(1)(1260)+[D;GSpline]{rho(770)0,pi+}</div></div><!-- fragment --><p>are relevant for the decay. Similar to other components of <a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a>, Particles will rarely be constructed in the C++ context, and will instead be instantiated dynamically at runtime from a user supplied options file. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00097">97</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00102">102</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -168,6 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92cb10e52a69ec688116932118850565"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a92cb10e52a69ec688116932118850565">conj</a> (bool invertHead=true, bool reorder=true)</td></tr>
 <tr class="memdesc:a92cb10e52a69ec688116932118850565"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Quasi) Constructor that returns the (quasi)CP conjugated amplitude. The full behaviour of the amplitude is made more complicated by the ordering convention.  <a href="#a92cb10e52a69ec688116932118850565">More...</a><br /></td></tr>
 <tr class="separator:a92cb10e52a69ec688116932118850565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a4064514306797da1f5055bdf4a3da5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a1a4064514306797da1f5055bdf4a3da5">conjThis</a> ()</td></tr>
+<tr class="memdesc:a1a4064514306797da1f5055bdf4a3da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">CP conjugate this particle //.  <a href="#a1a4064514306797da1f5055bdf4a3da5">More...</a><br /></td></tr>
+<tr class="separator:a1a4064514306797da1f5055bdf4a3da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9d21d340ea23721085e6ad15049c4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a0a9d21d340ea23721085e6ad15049c4a">setOrbital</a> (const unsigned int &amp;orbital)</td></tr>
 <tr class="memdesc:a0a9d21d340ea23721085e6ad15049c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the orbital quantum number 'L' for this decay.  <a href="#a0a9d21d340ea23721085e6ad15049c4a">More...</a><br /></td></tr>
 <tr class="separator:a0a9d21d340ea23721085e6ad15049c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,9 +180,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aebb97494803c795486696f548e7d1ecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aebb97494803c795486696f548e7d1ecb">setDaughter</a> (const <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &amp;particle, const unsigned int &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aa3b7bb85a641f2907497b1f71f58b78d">index</a>)</td></tr>
 <tr class="memdesc:aebb97494803c795486696f548e7d1ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index'th daughter of this to particle.  <a href="#aebb97494803c795486696f548e7d1ecb">More...</a><br /></td></tr>
 <tr class="separator:aebb97494803c795486696f548e7d1ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cf345b4d95425a13dd63b08948ed49a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a9cf345b4d95425a13dd63b08948ed49a">setTop</a> (bool state=true)</td></tr>
-<tr class="memdesc:a9cf345b4d95425a13dd63b08948ed49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the flag to say this.  <a href="#a9cf345b4d95425a13dd63b08948ed49a">More...</a><br /></td></tr>
-<tr class="separator:a9cf345b4d95425a13dd63b08948ed49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a094e1af9ff78b3fa0df3b31c79e63c5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a094e1af9ff78b3fa0df3b31c79e63c5c">setParent</a> (const <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> *particle)</td></tr>
+<tr class="memdesc:a094e1af9ff78b3fa0df3b31c79e63c5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parent particle for this particle.  <a href="#a094e1af9ff78b3fa0df3b31c79e63c5c">More...</a><br /></td></tr>
+<tr class="separator:a094e1af9ff78b3fa0df3b31c79e63c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a087289ed73f29052bc4cbb45cfdfdc99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a087289ed73f29052bc4cbb45cfdfdc99">setIndex</a> (const unsigned int &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aa3b7bb85a641f2907497b1f71f58b78d">index</a>, const bool &amp;setOri=false)</td></tr>
 <tr class="memdesc:a087289ed73f29052bc4cbb45cfdfdc99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index of this particle, i.e. where it is positioned in the event data structure.  <a href="#a087289ed73f29052bc4cbb45cfdfdc99">More...</a><br /></td></tr>
 <tr class="separator:a087289ed73f29052bc4cbb45cfdfdc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +207,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a69ec547f0d09087d56f3539edb456767"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a69ec547f0d09087d56f3539edb456767">setPolarisationState</a> (const int &amp;state)</td></tr>
 <tr class="memdesc:a69ec547f0d09087d56f3539edb456767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the polarisation state of this particle, which is twice the projection of the spin along the quantisation axis.  <a href="#a69ec547f0d09087d56f3539edb456767">More...</a><br /></td></tr>
 <tr class="separator:a69ec547f0d09087d56f3539edb456767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c44306a3523f6445a978abe65ddd9eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a7c44306a3523f6445a978abe65ddd9eb">setPolarisationState</a> (const std::vector&lt; int &gt; &amp;state)</td></tr>
+<tr class="separator:a7c44306a3523f6445a978abe65ddd9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0057dff2e8d7a9811b81084832c0a9b4"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a0057dff2e8d7a9811b81084832c0a9b4">orbitalRange</a> (const bool &amp;converseParity=true) const </td></tr>
 <tr class="memdesc:a0057dff2e8d7a9811b81084832c0a9b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range of orbital angular momentum between the decay products.  <a href="#a0057dff2e8d7a9811b81084832c0a9b4">More...</a><br /></td></tr>
 <tr class="separator:a0057dff2e8d7a9811b81084832c0a9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,9 +236,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0319d7fc790a0891cffabf8f19dc3eaa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a0319d7fc790a0891cffabf8f19dc3eaa">polState</a> () const </td></tr>
 <tr class="memdesc:a0319d7fc790a0891cffabf8f19dc3eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the polarisation state, i.e. twice the projection of the spin along the quantisation axis, of this particle.  <a href="#a0319d7fc790a0891cffabf8f19dc3eaa">More...</a><br /></td></tr>
 <tr class="separator:a0319d7fc790a0891cffabf8f19dc3eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac294abc99f782802bf703bda73b4fbca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ac294abc99f782802bf703bda73b4fbca">quasiCP</a> () const </td></tr>
-<tr class="memdesc:ac294abc99f782802bf703bda73b4fbca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ``quasi'' CP Quantum number for this decay, see the <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html" title="Describes a particle, its decay process and subsequent decay products, which are also Particles...">Particle</a>.  <a href="#ac294abc99f782802bf703bda73b4fbca">More...</a><br /></td></tr>
-<tr class="separator:ac294abc99f782802bf703bda73b4fbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac63735398fa578ded5e9c8326fc5ec23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ac63735398fa578ded5e9c8326fc5ec23">CP</a> () const </td></tr>
+<tr class="memdesc:ac63735398fa578ded5e9c8326fc5ec23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the CP of this decay.  <a href="#ac63735398fa578ded5e9c8326fc5ec23">More...</a><br /></td></tr>
+<tr class="separator:ac63735398fa578ded5e9c8326fc5ec23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af960b53cb077b5d26cca0a0aceda0cf1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#af960b53cb077b5d26cca0a0aceda0cf1">C</a> () const </td></tr>
 <tr class="memdesc:af960b53cb077b5d26cca0a0aceda0cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the C quantum number for this decay.  <a href="#af960b53cb077b5d26cca0a0aceda0cf1">More...</a><br /></td></tr>
 <tr class="separator:af960b53cb077b5d26cca0a0aceda0cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,9 +284,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a97bfd8c2be3aef0934f63ab85d58f28c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a97bfd8c2be3aef0934f63ab85d58f28c">lineshape</a> () const </td></tr>
 <tr class="memdesc:a97bfd8c2be3aef0934f63ab85d58f28c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the propagator to use for the decay of this particle.  <a href="#a97bfd8c2be3aef0934f63ab85d58f28c">More...</a><br /></td></tr>
 <tr class="separator:a97bfd8c2be3aef0934f63ab85d58f28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4b7f5f73a756d12b9b5a82de5cb1e38"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ac4b7f5f73a756d12b9b5a82de5cb1e38">vertexName</a> () const </td></tr>
-<tr class="memdesc:ac4b7f5f73a756d12b9b5a82de5cb1e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the (spin)vertex to use for the decay of this particle.  <a href="#ac4b7f5f73a756d12b9b5a82de5cb1e38">More...</a><br /></td></tr>
-<tr class="separator:ac4b7f5f73a756d12b9b5a82de5cb1e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5e30454c974635ea4a8700b282ccd40"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ae5e30454c974635ea4a8700b282ccd40">uniqueString</a> () const </td></tr>
 <tr class="memdesc:ae5e30454c974635ea4a8700b282ccd40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the unique string (i.e. decay descriptor) that identifies this decay, which can be parsed to generate the decay tree.  <a href="#ae5e30454c974635ea4a8700b282ccd40">More...</a><br /></td></tr>
 <tr class="separator:ae5e30454c974635ea4a8700b282ccd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,6 +344,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a22cdf43af727cbd07722333bb6a3a555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a22cdf43af727cbd07722333bb6a3a555">getExpression</a> (<a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">DebugSymbols</a> *db=nullptr, const unsigned int &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aa3b7bb85a641f2907497b1f71f58b78d">index</a>=0)</td></tr>
 <tr class="memdesc:a22cdf43af727cbd07722333bb6a3a555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the total expression for this particle, including symmetrisation and the current polarisation state.  <a href="#a22cdf43af727cbd07722333bb6a3a555">More...</a><br /></td></tr>
 <tr class="separator:a22cdf43af727cbd07722333bb6a3a555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e4be93cd04c1cb08a834c9b7a5fcbd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a86e4be93cd04c1cb08a834c9b7a5fcbd">Factorial</a> (int n)</td></tr>
+<tr class="memdesc:a86e4be93cd04c1cb08a834c9b7a5fcbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Experimental Zemach Code.  <a href="#a86e4be93cd04c1cb08a834c9b7a5fcbd">More...</a><br /></td></tr>
+<tr class="separator:a86e4be93cd04c1cb08a834c9b7a5fcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2afac6a3dc6dc37e127a9e944341280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ae2afac6a3dc6dc37e127a9e944341280">LegendreZemach</a> (<a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> x, double n)</td></tr>
+<tr class="separator:ae2afac6a3dc6dc37e127a9e944341280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04e584f33d0e7b485662b6be42021bdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a04e584f33d0e7b485662b6be42021bdd">cosHel</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;h)</td></tr>
+<tr class="separator:a04e584f33d0e7b485662b6be42021bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a7e05397b873233d50da15e60c1a56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ab2a7e05397b873233d50da15e60c1a56">pq</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;h, bool parent)</td></tr>
+<tr class="separator:ab2a7e05397b873233d50da15e60c1a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cefb2183dc1ea3550c2f1b0aa2d535c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2cefb2183dc1ea3550c2f1b0aa2d535c">Zemach</a> (<a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2ab, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2ac, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2bc, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2d, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2a, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2b, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2c, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>)</td></tr>
+<tr class="separator:a2cefb2183dc1ea3550c2f1b0aa2d535c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793710d260544afca6a97ef1197c9809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a793710d260544afca6a97ef1197c9809">ZemachLaura</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;h, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>, bool parent)</td></tr>
+<tr class="separator:a793710d260544afca6a97ef1197c9809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb86f4ed347f5c913aadd2a331c444f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#adeb86f4ed347f5c913aadd2a331c444f">ZemachGooFit</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#af960b53cb077b5d26cca0a0aceda0cf1">C</a>, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>)</td></tr>
+<tr class="separator:adeb86f4ed347f5c913aadd2a331c444f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d62b7c6ea039099de9a7d8cea72668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ae8d62b7c6ea039099de9a7d8cea72668">GooFitCMom</a> (<a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2res, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m1, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2)</td></tr>
+<tr class="separator:ae8d62b7c6ea039099de9a7d8cea72668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6bd80bee5185ade867b69671f96626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#acd6bd80bee5185ade867b69671f96626">GooFitDamping</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#af960b53cb077b5d26cca0a0aceda0cf1">C</a>, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>)</td></tr>
+<tr class="separator:acd6bd80bee5185ade867b69671f96626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecfab62df04764de8a8c6b5d40d85bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/class_amp_gen_1_1_tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#aecfab62df04764de8a8c6b5d40d85bfa">transitionMatrix</a> (<a class="el" href="../../dc/d82/namespace_amp_gen.html#ab408aca774a8b2a54e43dc371592bc10">DebugSymbols</a> *db=nullptr)</td></tr>
 <tr class="memdesc:aecfab62df04764de8a8c6b5d40d85bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the transition matrix for this decay.  <a href="#aecfab62df04764de8a8c6b5d40d85bfa">More...</a><br /></td></tr>
 <tr class="separator:aecfab62df04764de8a8c6b5d40d85bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -352,24 +373,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a54684b139a3394efd1aa61601e4ff500"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a54684b139a3394efd1aa61601e4ff500">matches</a> (const <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &amp;other) const </td></tr>
 <tr class="memdesc:a54684b139a3394efd1aa61601e4ff500"><td class="mdescLeft">&#160;</td><td class="mdescRight">matches Check the matching between two decay chains, according to the MatchState enum.  <a href="#a54684b139a3394efd1aa61601e4ff500">More...</a><br /></td></tr>
 <tr class="separator:a54684b139a3394efd1aa61601e4ff500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cefb2183dc1ea3550c2f1b0aa2d535c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2cefb2183dc1ea3550c2f1b0aa2d535c">Zemach</a> (<a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2ab, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2ac, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2bc, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2d, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2a, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2b, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2c, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>)</td></tr>
-<tr class="separator:a2cefb2183dc1ea3550c2f1b0aa2d535c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a793710d260544afca6a97ef1197c9809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a793710d260544afca6a97ef1197c9809">ZemachLaura</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;h, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>, bool parent)</td></tr>
-<tr class="separator:a793710d260544afca6a97ef1197c9809"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adeb86f4ed347f5c913aadd2a331c444f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#adeb86f4ed347f5c913aadd2a331c444f">ZemachGooFit</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#af960b53cb077b5d26cca0a0aceda0cf1">C</a>, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>)</td></tr>
-<tr class="separator:adeb86f4ed347f5c913aadd2a331c444f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd6bd80bee5185ade867b69671f96626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#acd6bd80bee5185ade867b69671f96626">GooFitDamping</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;<a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#af960b53cb077b5d26cca0a0aceda0cf1">C</a>, double <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a2a407e1cf96b6b1c842100dcaeaf01e1">spin</a>)</td></tr>
-<tr class="separator:acd6bd80bee5185ade867b69671f96626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8d62b7c6ea039099de9a7d8cea72668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ae8d62b7c6ea039099de9a7d8cea72668">GooFitCMom</a> (<a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2res, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m1, <a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> m2)</td></tr>
-<tr class="separator:ae8d62b7c6ea039099de9a7d8cea72668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2a7e05397b873233d50da15e60c1a56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ab2a7e05397b873233d50da15e60c1a56">pq</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;h, bool parent)</td></tr>
-<tr class="separator:ab2a7e05397b873233d50da15e60c1a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04e584f33d0e7b485662b6be42021bdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a04e584f33d0e7b485662b6be42021bdd">cosHel</a> (const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;R, const std::shared_ptr&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> &gt; &amp;h)</td></tr>
-<tr class="separator:a04e584f33d0e7b485662b6be42021bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2afac6a3dc6dc37e127a9e944341280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#ae2afac6a3dc6dc37e127a9e944341280">LegendreZemach</a> (<a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> x, double n)</td></tr>
-<tr class="separator:ae2afac6a3dc6dc37e127a9e944341280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86e4be93cd04c1cb08a834c9b7a5fcbd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a86e4be93cd04c1cb08a834c9b7a5fcbd">Factorial</a> (int n)</td></tr>
-<tr class="separator:a86e4be93cd04c1cb08a834c9b7a5fcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e617faa2877428d601fb43bf85f833a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html#a7e617faa2877428d601fb43bf85f833a">makeUniqueString</a> ()</td></tr>
+<tr class="memdesc:a7e617faa2877428d601fb43bf85f833a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the decay descriptor for this decay.  <a href="#a7e617faa2877428d601fb43bf85f833a">More...</a><br /></td></tr>
+<tr class="separator:a7e617faa2877428d601fb43bf85f833a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -399,7 +405,7 @@ Static Public Member Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00260">260</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00512">512</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -646,6 +652,21 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1a4064514306797da1f5055bdf4a3da5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AmpGen::Particle::conjThis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a45ffd26605fa730647c09101870f581d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -665,6 +686,9 @@ Static Public Member Functions</h2></td></tr>
 <a class="anchor" id="a04e584f33d0e7b485662b6be42021bdd"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::cosHel </td>
@@ -682,6 +706,28 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00293">293</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac63735398fa578ded5e9c8326fc5ec23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AmpGen::Particle::CP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -835,6 +881,9 @@ Static Public Member Functions</h2></td></tr>
 <a class="anchor" id="a86e4be93cd04c1cb08a834c9b7a5fcbd"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int AmpGen::Particle::Factorial </td>
@@ -844,7 +893,14 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00267">267</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -908,6 +964,9 @@ Static Public Member Functions</h2></td></tr>
 <a class="anchor" id="ae8d62b7c6ea039099de9a7d8cea72668"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::GooFitCMom </td>
@@ -933,13 +992,23 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00452">452</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="acd6bd80bee5185ade867b69671f96626"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::GooFitDamping </td>
@@ -965,7 +1034,14 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00459">459</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -1116,6 +1192,9 @@ Static Public Member Functions</h2></td></tr>
 <a class="anchor" id="ae2afac6a3dc6dc37e127a9e944341280"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::LegendreZemach </td>
@@ -1135,7 +1214,14 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00276">276</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -1148,6 +1234,21 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7e617faa2877428d601fb43bf85f833a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string AmpGen::Particle::makeUniqueString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1357,6 +1458,9 @@ Static Public Member Functions</h2></td></tr>
 <a class="anchor" id="ab2a7e05397b873233d50da15e60c1a56"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::pq </td>
@@ -1382,7 +1486,14 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00322">322</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -1438,21 +1549,6 @@ Static Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../de/d21/class_amp_gen_1_1_quark_content.html">QuarkContent</a> AmpGen::Particle::quarks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac294abc99f782802bf703bda73b4fbca"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int AmpGen::Particle::quasiCP </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1609,6 +1705,22 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a094e1af9ff78b3fa0df3b31c79e63c5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AmpGen::Particle::setParent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a> *&#160;</td>
+          <td class="paramname"><em>particle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a69ec547f0d09087d56f3539edb456767"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1625,15 +1737,15 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9cf345b4d95425a13dd63b08948ed49a"></a>
+<a class="anchor" id="a7c44306a3523f6445a978abe65ddd9eb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AmpGen::Particle::setTop </td>
+          <td class="memname">void AmpGen::Particle::setPolarisationState </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>state</em> = <code>true</code></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1761,24 +1873,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac4b7f5f73a756d12b9b5a82de5cb1e38"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string AmpGen::Particle::vertexName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a2cefb2183dc1ea3550c2f1b0aa2d535c"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::Zemach </td>
@@ -1834,13 +1934,23 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00363">363</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="adeb86f4ed347f5c913aadd2a331c444f"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::ZemachGooFit </td>
@@ -1866,13 +1976,23 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00399">399</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a793710d260544afca6a97ef1197c9809"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/d66/class_amp_gen_1_1_expression.html">Expression</a> AmpGen::Particle::ZemachLaura </td>
@@ -1904,7 +2024,14 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d15/_particle_8h_source.html#l00378">378</a> of file <a class="el" href="../../d4/d15/_particle_8h_source.html">Particle.h</a>.</p>
 
 </div>
 </div>
@@ -1917,7 +2044,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a></li>
-    <li class="footer">Generated on Fri Mar 27 2020 10:44:23 for AmpGen by
+    <li class="footer">Generated on Mon Mar 30 2020 13:10:56 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

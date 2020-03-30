@@ -11,7 +11,7 @@ var searchData=
   ['gaussianconstraint',['GaussianConstraint',['../d7/deb/class_amp_gen_1_1_gaussian_constraint.html',1,'AmpGen']]],
   ['genbw',['genBW',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a592b630a2b8787808daa61bce3df0a86',1,'AmpGen::TreePhaseSpace::Vertex']]],
   ['generate',['generate',['../de/d94/class_amp_gen_1_1_generator.html#aea75a1c170308fb8a140359c8ae47bac',1,'AmpGen::Generator::generate(PDF &amp;pdf, const size_t &amp;nEvents)'],['../de/d94/class_amp_gen_1_1_generator.html#ab90c4e8615c3656b890eaf46092308e1',1,'AmpGen::Generator::generate(const size_t &amp;nEvents, const size_t &amp;cacheSize=0)'],['../d8/d85/class_psi3770.html#adebd9d4cbbb5fe66e0151529a615b1c5',1,'Psi3770::generate()'],['../db/de5/class_amp_gen_1_1_qc_generator.html#aba7b0f02cb52f2c0d781d593635c330d',1,'AmpGen::QcGenerator::generate(PDF &amp;pdf, const size_t &amp;nEvents)'],['../db/de5/class_amp_gen_1_1_qc_generator.html#a143c905f39be96f733b032673d83dde6',1,'AmpGen::QcGenerator::generate(const size_t &amp;nEvents, const size_t &amp;cacheSize=0)'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a401a46e9511f962b77e4116e26197e58',1,'AmpGen::TreePhaseSpace::Vertex::generate()']]],
-  ['generate_5ffull_5fevent_5fdescription',['generate_full_event_description',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a2a78a54cfa2471dfeb5f3b7c0539c0f5',1,'AmpGen::TreePhaseSpace::Vertex']]],
+  ['generatefullevent',['generateFullEvent',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#af05e04eeac298fd00691b1d9cc7ec719',1,'AmpGen::TreePhaseSpace::Vertex']]],
   ['generatephasespace',['generatePhaseSpace',['../d8/d85/class_psi3770.html#a14094e3675ff6761d5738860c5380d24',1,'Psi3770']]],
   ['generatephsp',['generatePHSP',['../d8/d85/class_psi3770.html#aabfd20d2c615ea809e39c9fd17252121',1,'Psi3770']]],
   ['generatesource',['generateSource',['../d7/d4c/class_amp_gen_1_1_compiler_wrapper.html#a4d4d4b005018777c2ee3660dd19be5f0',1,'AmpGen::CompilerWrapper']]],
@@ -39,10 +39,8 @@ var searchData=
   ['getevent',['getEvent',['../db/d4b/class_amp_gen_1_1_event_list.html#a75049edcdec83ec71df8159bc4daf044',1,'AmpGen::EventList::getEvent(const size_t &amp;index)'],['../db/d4b/class_amp_gen_1_1_event_list.html#a52deba861bf2e3b57ea3465359dcfcb0',1,'AmpGen::EventList::getEvent(const size_t &amp;index) const ']]],
   ['geteventformat',['getEventFormat',['../d7/dfa/class_amp_gen_1_1_event_type.html#a779cf1245fdb0805831ad642140d8d4d',1,'AmpGen::EventType']]],
   ['getexpression',['getExpression',['../de/dd7/class_amp_gen_1_1_particle.html#a22cdf43af727cbd07722333bb6a3a555',1,'AmpGen::Particle']]],
-  ['getfast',['getFast',['../de/d24/class_amp_gen_1_1_minuit_proxy.html#aa8cd3c50bf7b70e933eb0727411574f5',1,'AmpGen::MinuitProxy']]],
   ['getfinalstateparticles',['getFinalStateParticles',['../de/dd7/class_amp_gen_1_1_particle.html#abeea9a867e9f5fae8217412641e205c9',1,'AmpGen::Particle']]],
   ['getfinalstates',['getFinalStates',['../dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a47a9c65d80045e1e932237571941ffea',1,'AmpGen::RecursivePhaseSpace']]],
-  ['getfloating',['getFloating',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a313ca00b71094e31bda69af66a745a0d',1,'AmpGen::MinuitParameterSet']]],
   ['getgroupedamplitudes',['getGroupedAmplitudes',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a44388cf905f30ef3d6f4a1eaa862622b',1,'AmpGen::CoherentSum::getGroupedAmplitudes()'],['../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a393453122968049258cb23eed7f7a4d6',1,'AmpGen::pCoherentSum::getGroupedAmplitudes()']]],
   ['getitems',['getItems',['../dc/d82/namespace_amp_gen.html#a5edad92fbd01d3898458b009c5a775f3',1,'AmpGen']]],
   ['getlistoffiles',['getListOfFiles',['../dc/d82/namespace_amp_gen.html#a7b8ebc801388d49f0fec92c555cb1c30',1,'AmpGen']]],
@@ -73,8 +71,8 @@ var searchData=
   ['gexpressionparser',['gExpressionParser',['../d5/db3/class_amp_gen_1_1_expression_parser.html#afca8445e5ec6b88598ee6eed8c442859',1,'AmpGen::ExpressionParser']]],
   ['gfromgamma',['gFromGamma',['../dc/d82/namespace_amp_gen.html#aa35424a55a8fba99c2e2b1dde1974e4f',1,'AmpGen']]],
   ['gimpl',['gImpl',['../d8/db1/class_amp_gen_1_1_factory.html#a9641efd66c25f2003b962f34f657eefb',1,'AmpGen::Factory']]],
-  ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#ac00b7d77eb5a6e516a99c8640b269355',1,'AmpGen::Lineshape::GLASS']]],
   ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html',1,'AmpGen::Lineshape']]],
+  ['glass',['GLASS',['../dd/d6a/class_amp_gen_1_1_lineshape_1_1_g_l_a_s_s.html#ac00b7d77eb5a6e516a99c8640b269355',1,'AmpGen::Lineshape::GLASS']]],
   ['goofitcmom',['GooFitCMom',['../de/dd7/class_amp_gen_1_1_particle.html#ae8d62b7c6ea039099de9a7d8cea72668',1,'AmpGen::Particle']]],
   ['goofitdamping',['GooFitDamping',['../de/dd7/class_amp_gen_1_1_particle.html#acd6bd80bee5185ade867b69671f96626',1,'AmpGen::Particle']]],
   ['gounarissakurai',['GounarisSakurai',['../d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a632d0f487c3ae23afcbc4bc08ce3b00b',1,'AmpGen::Lineshape::GounarisSakurai']]],
@@ -82,6 +80,6 @@ var searchData=
   ['greaterthan',['GreaterThan',['../db/d51/class_amp_gen_1_1_greater_than.html#aa19da789a62c434602b40003d6aa2f7b',1,'AmpGen::GreaterThan']]],
   ['greaterthan',['GreaterThan',['../db/d51/class_amp_gen_1_1_greater_than.html',1,'AmpGen']]],
   ['groupexpressions',['groupExpressions',['../dc/d2a/class_amp_gen_1_1_normal_ordered_expression.html#ac2980993233245c32014f044e8e89a6f',1,'AmpGen::NormalOrderedExpression']]],
-  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html',1,'AmpGen::Lineshape']]],
-  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#a74031e326b6df591de471b518805ea92',1,'AmpGen::Lineshape::GSpline']]]
+  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html#a74031e326b6df591de471b518805ea92',1,'AmpGen::Lineshape::GSpline']]],
+  ['gspline',['GSpline',['../dd/d41/class_amp_gen_1_1_lineshape_1_1_g_spline.html',1,'AmpGen::Lineshape']]]
 ];

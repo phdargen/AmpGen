@@ -127,6 +127,7 @@ var namespace_amp_gen =
     [ "Transform", "d9/d03/class_amp_gen_1_1_transform.html", "d9/d03/class_amp_gen_1_1_transform" ],
     [ "TransformSequence", "d0/dd5/class_amp_gen_1_1_transform_sequence.html", "d0/dd5/class_amp_gen_1_1_transform_sequence" ],
     [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html", "d7/dc0/struct_amp_gen_1_1_transition_matrix" ],
+    [ "TransitionMatrix< void >", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4" ],
     [ "TreePhaseSpace", "db/d9a/class_amp_gen_1_1_tree_phase_space.html", "db/d9a/class_amp_gen_1_1_tree_phase_space" ],
     [ "TreeReader", "dd/da6/class_amp_gen_1_1_tree_reader.html", "dd/da6/class_amp_gen_1_1_tree_reader" ]
 ];

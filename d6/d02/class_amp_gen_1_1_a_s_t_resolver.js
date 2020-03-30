@@ -10,6 +10,7 @@ var class_amp_gen_1_1_a_s_t_resolver =
     [ "enableCuda", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aa74959ad6b1f4cec336515a8d57dbe06", null ],
     [ "getOrderedSubExpressions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ad01a5afd1010f42ad4b5c608be9b9a07", null ],
     [ "nParams", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a233a59abeb19b1c76f7f7533bb6f0da5", null ],
+    [ "parameters", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a3ff31fc92d5d9add1844cf7d05cd89ff", null ],
     [ "resolve", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a8865f6d642325a72104ef804b2e78141", null ],
     [ "resolve", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#afd4b741b47fae7ab988be71a5eb2466b", null ],
     [ "resolve", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a67c9f8f0565920519ff3a356a2d0df47", null ],
