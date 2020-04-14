@@ -3,7 +3,7 @@ var searchData=
   ['has',['has',['../d7/dfa/class_amp_gen_1_1_event_type.html#ae256bfd005fb38e29107788be82fc094',1,'AmpGen::EventType']]],
   ['hasdecay',['hasDecay',['../db/dec/class_amp_gen_1_1_amplitude_rules.html#adf202a9527fccdf6c33098a7fc4b7853',1,'AmpGen::AmplitudeRules']]],
   ['hasdistinctanti',['hasDistinctAnti',['../db/d37/class_amp_gen_1_1_particle_properties.html#a75b84e4ae8bf867fc39972b7196e7e4e',1,'AmpGen::ParticleProperties']]],
-  ['hasexternalschanged',['hasExternalsChanged',['../d1/d43/class_amp_gen_1_1_compiled_expression.html#aa83682dda8ea76678ea3304c383a2af7',1,'AmpGen::CompiledExpression']]],
+  ['hasexternalschanged',['hasExternalsChanged',['../d0/d47/class_amp_gen_1_1_compiled_expression_3_01_r_e_t_u_r_n___t_y_p_e_07_a_r_g_s_8_8_8_08_4.html#aab11ec36ed257fbc71a44c0a1a21c6a9',1,'AmpGen::CompiledExpression&lt; RETURN_TYPE(ARGS...)&gt;']]],
   ['hash',['hash',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#abd64a55296431cd16aefd4a82475a5b8',1,'AmpGen::CompiledExpressionBase']]],
   ['head',['head',['../d5/db2/class_amp_gen_1_1_coupling.html#ace9d4414ad70f3abbec873e5bba41381',1,'AmpGen::Coupling']]],
   ['helicityamplitude',['helicityAmplitude',['../dc/d82/namespace_amp_gen.html#a6b80e25d13f69a0fcde603257979f4c4',1,'AmpGen']]],

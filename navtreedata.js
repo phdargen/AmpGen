@@ -17,7 +17,7 @@ var NAVTREE =
     [ "Class Members", "functions.html", [
       [ "All", "functions.html", "functions_dup" ],
       [ "Functions", "functions_func.html", "functions_func" ],
-      [ "Variables", "functions_vars.html", "functions_vars" ],
+      [ "Variables", "functions_vars.html", null ],
       [ "Typedefs", "functions_type.html", null ],
       [ "Enumerations", "functions_enum.html", null ],
       [ "Enumerator", "functions_eval.html", null ],
@@ -27,6 +27,7 @@ var NAVTREE =
     [ "File Members", "globals.html", [
       [ "All", "globals.html", null ],
       [ "Functions", "globals_func.html", null ],
+      [ "Typedefs", "globals_type.html", null ],
       [ "Macros", "globals_defs.html", null ]
     ] ]
   ] ]
@@ -35,18 +36,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d28/class_amp_gen_1_1_correlated_sum.html#abeabe90d0281e62b6767263ee9f104b4",
-"d2/d94/struct_amp_gen_1_1_vertex_1_1f___vf___s.html#a1689b1af8bdffb824f97b5e34c5ca0e9",
-"d4/d0e/class_amp_gen_1_1_tensor.html#adbdf811d23e4f7929b2fefa2a6ad9ebb",
-"d5/d33/struct_amp_gen_1_1_vertex_1_1_s___t_v___p.html#a2405cdb302e79c4a853a888b86fc912d",
-"d6/d99/_expression_8h.html#a57360315fa082240a9a5484d917203fb",
-"d8/d79/_i_extend_likelihood_8h_source.html",
-"d9/daa/_msg_service_8h.html",
-"db/d37/class_amp_gen_1_1_particle_properties.html#a77b9444152bac6caa69af2e4797f83e8",
-"db/dec/class_amp_gen_1_1_amplitude_rules.html#a66d3d77ad1708f3536aff23f4824980d",
-"dd/da6/class_amp_gen_1_1_tree_reader.html#a77a46e08079bdaa8ac6aca586464b3ce",
-"de/dd7/class_amp_gen_1_1_particle.html#a86e4be93cd04c1cb08a834c9b7a5fcbd",
-"functions_vars_d.html"
+"d1/d4e/class_amp_gen_1_1_helicity_cosine.html#ab946e30670139b4c23e385fa3e0e4a86",
+"d3/d21/_wigner_8h.html#aa90608e901ce48f7c3422e36c2689082",
+"d4/d2d/class_amp_gen_1_1_fit_result.html#a7cda752b74d97a6c3723b7d74f7c3870",
+"d5/dfb/class_amp_gen_1_1_integrator.html#a055745d47513a88df748bc662d5ba879",
+"d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html",
+"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a401a46e9511f962b77e4116e26197e58",
+"da/d76/class_amp_gen_1_1_log.html#aa2594241c3e232e8a72da7f6351fb40b",
+"db/d51/class_amp_gen_1_1_greater_than.html#a66ec00cfdbc323ef44128a9cec789e0f",
+"dc/db8/_tensor_8h.html#a1c8c9a6658bb6328a53c73977e118dac",
+"de/d3c/_options_parser_8h.html",
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a336186d47b004dc4efeba44bfe6ee753",
+"namespacemembers_i.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

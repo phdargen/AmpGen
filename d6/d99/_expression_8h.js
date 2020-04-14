@@ -9,6 +9,7 @@ var _expression_8h =
     [ "DEFINE_BINARY_OPERATOR", "d6/d99/_expression_8h.html#a3a32559004b812e85f4945b533ed1c6e", null ],
     [ "DEFINE_CAST", "dc/dea/group___expression_engine.html#ga61e952c4c11f6a5abd019a9b880b3517", null ],
     [ "DEFINE_UNARY_OPERATOR", "d6/d99/_expression_8h.html#a111723c42dd191f3994a9f7753888103", null ],
+    [ "DEFINE_UNARY_OPERATOR_NO_RESOLVER", "d6/d99/_expression_8h.html#a5928aab7c61e0af717bea60eede15652", null ],
     [ "DebugSymbol", "d6/d99/_expression_8h.html#af4d0debf73a11bec706d861a0d0fbc2d", null ],
     [ "DebugSymbols", "d6/d99/_expression_8h.html#ab408aca774a8b2a54e43dc371592bc10", null ],
     [ "abs", "d6/d99/_expression_8h.html#a0e5654df62d05a37f80dd1eef361537a", null ],

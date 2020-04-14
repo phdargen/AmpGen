@@ -1,5 +1,6 @@
 var _utilities_8h =
 [
+    [ "arrayToFunctor", "db/d72/_utilities_8h.html#aab86716e9fba8bc02234b08ff81b282b", null ],
     [ "bold_off", "db/d72/_utilities_8h.html#a8af5b2efcd075bf0c88509ccd1f48657", null ],
     [ "bold_on", "db/d72/_utilities_8h.html#aaa58cbddea25e1eb98486f8c6b1715d4", null ],
     [ "editDistance", "db/d72/_utilities_8h.html#af50440c72955575105b9f97561825c7d", null ],

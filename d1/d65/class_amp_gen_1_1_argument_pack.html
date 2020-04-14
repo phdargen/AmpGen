@@ -127,9 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5b9d85fc0303e223721a79d6bb478049"><td class="memTemplParams" colspan="2">template&lt;typename... ARGS&gt; </td></tr>
 <tr class="memitem:a5b9d85fc0303e223721a79d6bb478049"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html#a5b9d85fc0303e223721a79d6bb478049">ArgumentPack</a> (const ARGS &amp;...args)</td></tr>
 <tr class="separator:a5b9d85fc0303e223721a79d6bb478049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ac8a478a38416c0587069365931897"><td class="memTemplParams" colspan="2">template&lt;typename ARG , typename DEFAULT_TYPE  = ARG&gt; </td></tr>
-<tr class="memitem:a37ac8a478a38416c0587069365931897"><td class="memTemplItemLeft" align="right" valign="top">ARG&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html#a37ac8a478a38416c0587069365931897">getArg</a> (const DEFAULT_TYPE &amp;default_argument=DEFAULT_TYPE()) const </td></tr>
-<tr class="separator:a37ac8a478a38416c0587069365931897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a99ab89d3b7d8a47b9bbb2870a4687a"><td class="memTemplParams" colspan="2">template&lt;typename arg_type &gt; </td></tr>
+<tr class="memitem:a3a99ab89d3b7d8a47b9bbb2870a4687a"><td class="memTemplItemLeft" align="right" valign="top">arg_type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html#a3a99ab89d3b7d8a47b9bbb2870a4687a">get</a> () const </td></tr>
+<tr class="separator:a3a99ab89d3b7d8a47b9bbb2870a4687a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f54158f961b3e588a541ea61388527"><td class="memTemplParams" colspan="2">template&lt;typename arg_type , typename default_arg_type  = arg_type&gt; </td></tr>
+<tr class="memitem:a89f54158f961b3e588a541ea61388527"><td class="memTemplItemLeft" align="right" valign="top">arg_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html#a89f54158f961b3e588a541ea61388527">getArg</a> (const default_arg_type &amp;default_argument=default_arg_type()) const </td></tr>
+<tr class="separator:a89f54158f961b3e588a541ea61388527"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5b9d85fc0303e223721a79d6bb478049"></a>
@@ -161,20 +164,19 @@ template&lt;typename... ARGS&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a37ac8a478a38416c0587069365931897"></a>
+<a class="anchor" id="a3a99ab89d3b7d8a47b9bbb2870a4687a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ARG , typename DEFAULT_TYPE  = ARG&gt; </div>
+template&lt;typename arg_type &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ARG AmpGen::ArgumentPack::getArg </td>
+          <td class="memname">arg_type* AmpGen::ArgumentPack::get </td>
           <td>(</td>
-          <td class="paramtype">const DEFAULT_TYPE &amp;&#160;</td>
-          <td class="paramname"><em>default_argument</em> = <code>DEFAULT_TYPE()</code></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -185,7 +187,35 @@ template&lt;typename ARG , typename DEFAULT_TYPE  = ARG&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00080">80</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00079">79</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a89f54158f961b3e588a541ea61388527"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arg_type , typename default_arg_type  = arg_type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">arg_type AmpGen::ArgumentPack::getArg </td>
+          <td>(</td>
+          <td class="paramtype">const default_arg_type &amp;&#160;</td>
+          <td class="paramname"><em>default_argument</em> = <code>default_arg_type()</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html#l00089">89</a> of file <a class="el" href="../../dd/dd4/_argument_pack_8h_source.html">ArgumentPack.h</a>.</p>
 
 </div>
 </div>
@@ -198,7 +228,7 @@ template&lt;typename ARG , typename DEFAULT_TYPE  = ARG&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d1/d65/class_amp_gen_1_1_argument_pack.html">ArgumentPack</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 09:12:43 for AmpGen by
+    <li class="footer">Generated on Tue Apr 14 2020 17:44:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -4,7 +4,7 @@ var struct_amp_gen_1_1_tree_phase_space_1_1_vertex =
     [ "Vertex", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a91ff7c193bb78ddf2f19bed4af866175", null ],
     [ "Vertex", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a4a50154f0b6db87052e6891448aba70a", null ],
     [ "BW", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#ab391b3fa86a07d8af84e3d8364f69ae4", null ],
-    [ "event", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#aa7382323a74c80e1886a81ca0c88961d", null ],
+    [ "event", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a9a55ede82300859d7f4924b3dfc5dbc4", null ],
     [ "genBW", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a592b630a2b8787808daa61bce3df0a86", null ],
     [ "generate", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a401a46e9511f962b77e4116e26197e58", null ],
     [ "generateFullEvent", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#af05e04eeac298fd00691b1d9cc7ec719", null ],

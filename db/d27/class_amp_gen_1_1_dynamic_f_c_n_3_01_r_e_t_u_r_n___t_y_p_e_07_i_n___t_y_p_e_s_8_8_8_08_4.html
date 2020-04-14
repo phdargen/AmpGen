@@ -137,8 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6fbc5821bc11a6e8eb535506f17b7ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a207530c43621c779defc8795d0f2df0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#a207530c43621c779defc8795d0f2df0a">set</a> (const std::string &amp;lib, const std::string &amp;name)</td></tr>
 <tr class="separator:a207530c43621c779defc8795d0f2df0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec1f72514f1050ef97309ad97e2e9288"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#aec1f72514f1050ef97309ad97e2e9288">set</a> (void *handle, const std::string &amp;name)</td></tr>
-<tr class="separator:aec1f72514f1050ef97309ad97e2e9288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41adc1acdf1c0e8b96b90aca0bc5de76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#a41adc1acdf1c0e8b96b90aca0bc5de76">set</a> (void *handle, const std::string &amp;name, bool isFatal=false)</td></tr>
+<tr class="separator:a41adc1acdf1c0e8b96b90aca0bc5de76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01010d8fa72626d24dc5eb20a140e4af"><td class="memItemLeft" align="right" valign="top">RETURN_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#a01010d8fa72626d24dc5eb20a140e4af">operator()</a> (IN_TYPES...input) const </td></tr>
 <tr class="separator:a01010d8fa72626d24dc5eb20a140e4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa842961067718faf101022858ab320"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#a6fa842961067718faf101022858ab320">isLinked</a> () const </td></tr>
@@ -295,7 +295,7 @@ template&lt;class RETURN_TYPE , class... IN_TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html#l00063">63</a> of file <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html">DynamicFCN.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html#l00064">64</a> of file <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html">DynamicFCN.h</a>.</p>
 
 </div>
 </div>
@@ -323,7 +323,7 @@ template&lt;class RETURN_TYPE , class... IN_TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html#l00062">62</a> of file <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html">DynamicFCN.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html#l00063">63</a> of file <a class="el" href="../../d9/d9e/_dynamic_f_c_n_8h_source.html">DynamicFCN.h</a>.</p>
 
 </div>
 </div>
@@ -365,7 +365,7 @@ template&lt;class RETURN_TYPE , class... IN_TYPES&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aec1f72514f1050ef97309ad97e2e9288"></a>
+<a class="anchor" id="a41adc1acdf1c0e8b96b90aca0bc5de76"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -384,7 +384,13 @@ template&lt;class RETURN_TYPE , class... IN_TYPES&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isFatal</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -412,7 +418,7 @@ template&lt;class RETURN_TYPE , class... IN_TYPES&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html">DynamicFCN&lt; RETURN_TYPE(IN_TYPES...)&gt;</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 09:12:43 for AmpGen by
+    <li class="footer">Generated on Tue Apr 14 2020 17:44:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

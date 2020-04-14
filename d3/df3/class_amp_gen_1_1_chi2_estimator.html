@@ -124,10 +124,9 @@ $(document).ready(function(){initNavTree('d3/df3/class_amp_gen_1_1_chi2_estimato
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4a464322c049178759daa17cf8bdd089"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/class_amp_gen_1_1_chi2_estimator.html#a4a464322c049178759daa17cf8bdd089">Chi2Estimator</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;dataEvents, const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;mcEvents, const std::function&lt; double(const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;)&gt; &amp;fcn, const unsigned int &amp;minEvents=10)</td></tr>
-<tr class="separator:a4a464322c049178759daa17cf8bdd089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adde7cffe8f9fa41185ecb1168353693b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/class_amp_gen_1_1_chi2_estimator.html#adde7cffe8f9fa41185ecb1168353693b">Chi2Estimator</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;dataEvents, const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;mcEvents, const std::function&lt; double(const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;)&gt; &amp;fcn, const std::string &amp;filename)</td></tr>
-<tr class="separator:adde7cffe8f9fa41185ecb1168353693b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab874750f8289d415d451af98c04708bc"><td class="memTemplParams" colspan="2">template&lt;typename... argument_types&gt; </td></tr>
+<tr class="memitem:ab874750f8289d415d451af98c04708bc"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/df3/class_amp_gen_1_1_chi2_estimator.html#ab874750f8289d415d451af98c04708bc">Chi2Estimator</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;dataEvents, const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;mcEvents, const std::function&lt; double(const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;)&gt; &amp;fcn, const argument_types &amp;...args)</td></tr>
+<tr class="separator:ab874750f8289d415d451af98c04708bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa469afe5e3ec5da6d02e47460eb4109e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/class_amp_gen_1_1_chi2_estimator.html#aa469afe5e3ec5da6d02e47460eb4109e">chi2</a> () const </td></tr>
 <tr class="separator:aa469afe5e3ec5da6d02e47460eb4109e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a558f5693e0f46a04d0d8828959b86fcc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/class_amp_gen_1_1_chi2_estimator.html#a558f5693e0f46a04d0d8828959b86fcc">nBins</a> () const </td></tr>
@@ -138,9 +137,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af6ddf20dfc524d3f7c7b32b2d41313e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4a464322c049178759daa17cf8bdd089"></a>
+<a class="anchor" id="ab874750f8289d415d451af98c04708bc"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename... argument_types&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">AmpGen::Chi2Estimator::Chi2Estimator </td>
@@ -163,8 +167,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const unsigned int &amp;&#160;</td>
-          <td class="paramname"><em>minEvents</em> = <code>10</code>&#160;</td>
+          <td class="paramtype">const argument_types &amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,45 +176,14 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="adde7cffe8f9fa41185ecb1168353693b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">AmpGen::Chi2Estimator::Chi2Estimator </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
-          <td class="paramname"><em>dataEvents</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
-          <td class="paramname"><em>mcEvents</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::function&lt; double(const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>fcn</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filename</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../d8/d3f/_chi2_estimator_8h_source.html#l00020">20</a> of file <a class="el" href="../../d8/d3f/_chi2_estimator_8h_source.html">Chi2Estimator.h</a>.</p>
 
 </div>
 </div>
@@ -302,7 +275,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d3/df3/class_amp_gen_1_1_chi2_estimator.html">Chi2Estimator</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 09:12:43 for AmpGen by
+    <li class="footer">Generated on Tue Apr 14 2020 17:44:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

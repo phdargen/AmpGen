@@ -16,6 +16,7 @@ var group___expression_engine =
       [ "addResolvedParameter", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aff88fc8e4f516e86d999cbd42c1cdd8d", null ],
       [ "cacheFunctions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a5f4dbe9998b33016678c11fe9924036e", null ],
       [ "clear", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a934576f9255cdab2a03be4ebde6cacf0", null ],
+      [ "enableAVX", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#acec7bfacb00261da1c263fe1b0cd60b9", null ],
       [ "enableCompileConstants", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a70f61e1f8648c1c31b57cad9c88274f7", null ],
       [ "enableCuda", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aa74959ad6b1f4cec336515a8d57dbe06", null ],
       [ "getOrderedSubExpressions", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#ad01a5afd1010f42ad4b5c608be9b9a07", null ],
@@ -26,7 +27,8 @@ var group___expression_engine =
       [ "resolve", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a67c9f8f0565920519ff3a356a2d0df47", null ],
       [ "resolve", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a35932c09dcab907de6d60851982b262a", null ],
       [ "resolve", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a53fc7b46bef84bcddaafbea93b587df2", null ],
-      [ "resolvedParameter", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a941f088a8a9c5ddd90804aeaa95187e6", null ]
+      [ "resolvedParameter", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a941f088a8a9c5ddd90804aeaa95187e6", null ],
+      [ "setEnableAVX", "d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aeb306794aa1cee25130f5883f3affed6", null ]
     ] ],
     [ "IExpression", "d6/d3e/class_amp_gen_1_1_i_expression.html", [
       [ "~IExpression", "d6/d3e/class_amp_gen_1_1_i_expression.html#ae53c4dceb49c118f19f60a43b7a76611", null ],

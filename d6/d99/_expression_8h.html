@@ -261,6 +261,8 @@ Macros</h2></td></tr>
 <tr class="separator:a3a32559004b812e85f4945b533ed1c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a111723c42dd191f3994a9f7753888103"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d99/_expression_8h.html#a111723c42dd191f3994a9f7753888103">DEFINE_UNARY_OPERATOR</a>(X,  F)</td></tr>
 <tr class="separator:a111723c42dd191f3994a9f7753888103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5928aab7c61e0af717bea60eede15652"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d99/_expression_8h.html#a5928aab7c61e0af717bea60eede15652">DEFINE_UNARY_OPERATOR_NO_RESOLVER</a>(X,  F)</td></tr>
+<tr class="separator:a5928aab7c61e0af717bea60eede15652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf1cc2d021296534c42cf28108379baa1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dea/group___expression_engine.html#gaf1cc2d021296534c42cf28108379baa1">DECLARE_UNARY_OPERATOR</a>(X)</td></tr>
 <tr class="memdesc:gaf1cc2d021296534c42cf28108379baa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare a unary operator, <a class="el" href="../../dc/dea/group___expression_engine.html">see IUnaryExpression</a>.  <a href="../../dc/dea/group___expression_engine.html#gaf1cc2d021296534c42cf28108379baa1">More...</a><br /></td></tr>
 <tr class="separator:gaf1cc2d021296534c42cf28108379baa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -382,7 +384,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">X::X( <span class="keyword">const</span> <a class="code" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&amp; l, <span class="keyword">const</span> <a class="code" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&amp; r ) : IBinaryExpression(l,r ) {} \</div><div class="line">  X::operator Expression()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Expression( std::make_shared&lt;X&gt;(*<span class="keyword">this</span>) ) ; }</div><div class="ttc" id="class_amp_gen_1_1_expression_html"><div class="ttname"><a href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a></div><div class="ttdoc">Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d99/_expression_8h_source.html#l00128">Expression.h:128</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">X::X( <span class="keyword">const</span> <a class="code" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&amp; l, <span class="keyword">const</span> <a class="code" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&amp; r ) : IBinaryExpression(l,r ) {} \</div><div class="line">  X::operator Expression()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Expression( std::make_shared&lt;X&gt;(*<span class="keyword">this</span>) ) ; }</div><div class="ttc" id="class_amp_gen_1_1_expression_html"><div class="ttname"><a href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a></div><div class="ttdoc">Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d99/_expression_8h_source.html#l00133">Expression.h:133</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00050">50</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
@@ -411,11 +413,41 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">X::X( <span class="keyword">const</span> <a class="code" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&amp; expression) : IUnaryExpression(expression) {} \</div><div class="line">  X::operator Expression()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Expression( std::make_shared&lt;X&gt;(*<span class="keyword">this</span>) ) ; } <a class="code" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">\</a></div><div class="line"><a class="code" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">  complex_t</a> X::operator()()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> F( m_expression() ); } \</div><div class="line">  std::string <a class="code" href="../../dc/d82/namespace_amp_gen.html#a11a5e5e4977c3441c23e176f5e50d1ad">X::to_string</a>(<span class="keyword">const</span> ASTResolver* resolver)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> std::string(#F)+<span class="stringliteral">&quot;(&quot;</span>+ m_expression.to_string(resolver)+<span class="stringliteral">&quot;)&quot;</span>;}</div><div class="ttc" id="class_amp_gen_1_1_expression_html"><div class="ttname"><a href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a></div><div class="ttdoc">Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d99/_expression_8h_source.html#l00128">Expression.h:128</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">X::X( <span class="keyword">const</span> <a class="code" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&amp; expression) : IUnaryExpression(expression) {} \</div><div class="line">  X::operator Expression()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Expression( std::make_shared&lt;X&gt;(*<span class="keyword">this</span>) ) ; } <a class="code" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">\</a></div><div class="line"><a class="code" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">  complex_t</a> X::operator()()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> F( m_expression() ); } \</div><div class="line">  std::string <a class="code" href="../../dc/d82/namespace_amp_gen.html#a11a5e5e4977c3441c23e176f5e50d1ad">X::to_string</a>(<span class="keyword">const</span> ASTResolver* resolver)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> std::string(#F)+<span class="stringliteral">&quot;(&quot;</span>+ m_expression.to_string(resolver)+<span class="stringliteral">&quot;)&quot;</span>;}</div><div class="ttc" id="class_amp_gen_1_1_expression_html"><div class="ttname"><a href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a></div><div class="ttdoc">Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d99/_expression_8h_source.html#l00133">Expression.h:133</a></div></div>
 <div class="ttc" id="namespace_amp_gen_html_a11a5e5e4977c3441c23e176f5e50d1ad"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a11a5e5e4977c3441c23e176f5e50d1ad">AmpGen::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00026">enum.h:26</a></div></div>
 <div class="ttc" id="namespace_amp_gen_html_a0c4b038444f13769eb75a6ee5a22c3d1"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">AmpGen::complex_t</a></div><div class="ttdeci">std::complex&lt; real_t &gt; complex_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db6/_types_8h_source.html#l00007">Types.h:7</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00054">54</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5928aab7c61e0af717bea60eede15652"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFINE_UNARY_OPERATOR_NO_RESOLVER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">F&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">X::X( <span class="keyword">const</span> <a class="code" href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a>&amp; expression) : IUnaryExpression(expression) {} \</div><div class="line">  X::operator Expression()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Expression( std::make_shared&lt;X&gt;(*<span class="keyword">this</span>) ) ; } <a class="code" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">\</a></div><div class="line"><a class="code" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">  complex_t</a> X::operator()()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> F( m_expression() ); }</div><div class="ttc" id="class_amp_gen_1_1_expression_html"><div class="ttname"><a href="../../dd/d66/class_amp_gen_1_1_expression.html">AmpGen::Expression</a></div><div class="ttdoc">Wrapper class for shared_ptrs to virtual expressions for use in conjunction with operators to build e...</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d99/_expression_8h_source.html#l00133">Expression.h:133</a></div></div>
+<div class="ttc" id="namespace_amp_gen_html_a0c4b038444f13769eb75a6ee5a22c3d1"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">AmpGen::complex_t</a></div><div class="ttdeci">std::complex&lt; real_t &gt; complex_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db6/_types_8h_source.html#l00007">Types.h:7</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d6/d99/_expression_8h_source.html#l00060">60</a> of file <a class="el" href="../../d6/d99/_expression_8h_source.html">Expression.h</a>.</p>
 
 </div>
 </div>
@@ -425,7 +457,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d6/d99/_expression_8h.html">Expression.h</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 09:12:42 for AmpGen by
+    <li class="footer">Generated on Tue Apr 14 2020 17:44:13 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

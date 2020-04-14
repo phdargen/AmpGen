@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['v4si',['v4si',['../d7/d0e/avx__mathfun_8h.html#a6ce9fbdb544d9dc4ce9edd4a16bf690b',1,'avx_mathfun.h']]],
+  ['v8sf',['v8sf',['../d7/d0e/avx__mathfun_8h.html#a6bdddd9e9ff4ed29daf51fb30b4e0782',1,'avx_mathfun.h']]],
+  ['v8si',['v8si',['../d7/d0e/avx__mathfun_8h.html#ac202dee917c685b5b212473cf338a5b4',1,'avx_mathfun.h']]],
   ['v_5fff_5fpl',['V_ff_PL',['../d5/dcb/struct_amp_gen_1_1_vertex_1_1_v__ff___p_l.html',1,'AmpGen::Vertex']]],
   ['v_5fff_5fpl',['V_ff_PL',['../d5/dcb/struct_amp_gen_1_1_vertex_1_1_v__ff___p_l.html#a7d452a44b0c0592d7b2d750cb88853e0',1,'AmpGen::Vertex::V_ff_PL']]],
   ['v_5fff_5fpr',['V_ff_PR',['../de/d3d/struct_amp_gen_1_1_vertex_1_1_v__ff___p_r.html',1,'AmpGen::Vertex']]],
@@ -18,10 +21,11 @@ var searchData=
   ['v_5fvs_5fd',['V_VS_D',['../dd/d05/struct_amp_gen_1_1_vertex_1_1_v___v_s___d.html#a611f2f7788a5a1e6ccdc7726b172ae6a',1,'AmpGen::Vertex::V_VS_D']]],
   ['v_5fvs_5fp',['V_VS_P',['../dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html',1,'AmpGen::Vertex']]],
   ['v_5fvs_5fp',['V_VS_P',['../dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html#aa91909ff2d73e4bd26bde2984d287d57',1,'AmpGen::Vertex::V_VS_P']]],
-  ['v_5fvs_5fs',['V_VS_S',['../d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html',1,'AmpGen::Vertex']]],
   ['v_5fvs_5fs',['V_VS_S',['../d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html#af4a6042df7abf083e01365878740a272',1,'AmpGen::Vertex::V_VS_S']]],
+  ['v_5fvs_5fs',['V_VS_S',['../d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html',1,'AmpGen::Vertex']]],
   ['val',['val',['../d9/d9c/struct_amp_gen_1_1_argument.html#a1af4d370b3417902855b33517d7a9cc0',1,'AmpGen::Argument::val()'],['../da/d5b/class_amp_gen_1_1_fit_fraction.html#a943b31d58cb6aa577375f9a43d303f49',1,'AmpGen::FitFraction::val()']]],
-  ['value_5ftype',['value_type',['../db/d4b/class_amp_gen_1_1_event_list.html#a895caef30bcec24787464d39c2c1a4aa',1,'AmpGen::EventList']]],
+  ['value',['value',['../db/d90/struct_amp_gen_1_1utils_1_1size.html#a01cdd128e3fbf6fc920982bdc407ca25',1,'AmpGen::utils::size']]],
+  ['value_5ftype',['value_type',['../db/d4b/class_amp_gen_1_1_event_list.html#a895caef30bcec24787464d39c2c1a4aa',1,'AmpGen::EventList::value_type()'],['../df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#afb8077f9d3e42fc14e7d785ea33bfc4d',1,'AmpGen::EventListSIMD::value_type()']]],
   ['vecfindall',['vecFindAll',['../dc/d82/namespace_amp_gen.html#ae16e70ae08cd76043d26e08bce17c6a5',1,'AmpGen']]],
   ['vector',['Vector',['../d9/d03/class_amp_gen_1_1_transform.html#a0667d58f3fe94b7485e4afa9201914eda75607b46b2bdae3c1748121f2e68ad2a',1,'AmpGen::Transform']]],
   ['vectorfromfile',['vectorFromFile',['../dc/d82/namespace_amp_gen.html#a9ce513f909ccafd70cf0ff443f2b29b7',1,'AmpGen']]],

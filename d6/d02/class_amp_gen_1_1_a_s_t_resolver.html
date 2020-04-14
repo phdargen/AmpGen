@@ -139,8 +139,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a233a59abeb19b1c76f7f7533bb6f0da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa74959ad6b1f4cec336515a8d57dbe06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aa74959ad6b1f4cec336515a8d57dbe06">enableCuda</a> () const </td></tr>
 <tr class="separator:aa74959ad6b1f4cec336515a8d57dbe06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec7bfacb00261da1c263fe1b0cd60b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#acec7bfacb00261da1c263fe1b0cd60b9">enableAVX</a> () const </td></tr>
+<tr class="separator:acec7bfacb00261da1c263fe1b0cd60b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70f61e1f8648c1c31b57cad9c88274f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a70f61e1f8648c1c31b57cad9c88274f7">enableCompileConstants</a> () const </td></tr>
 <tr class="separator:a70f61e1f8648c1c31b57cad9c88274f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb306794aa1cee25130f5883f3affed6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#aeb306794aa1cee25130f5883f3affed6">setEnableAVX</a> ()</td></tr>
+<tr class="separator:aeb306794aa1cee25130f5883f3affed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f4dbe9998b33016678c11fe9924036e"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="../../d8/d16/class_amp_gen_1_1_cache_transfer.html">CacheTransfer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a5f4dbe9998b33016678c11fe9924036e">cacheFunctions</a> () const </td></tr>
 <tr class="separator:a5f4dbe9998b33016678c11fe9924036e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42cf3b30a70b3155d3616fbee6777807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a42cf3b30a70b3155d3616fbee6777807">addResolvedParameter</a> (const <a class="el" href="../../d6/d3e/class_amp_gen_1_1_i_expression.html">IExpression</a> *param, const std::string &amp;thing)</td></tr>
@@ -320,6 +324,31 @@ template&lt;class TYPE , class... ARGS&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="acec7bfacb00261da1c263fe1b0cd60b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AmpGen::ASTResolver::enableAVX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html#l00046">46</a> of file <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html">ASTResolver.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a70f61e1f8648c1c31b57cad9c88274f7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -341,7 +370,7 @@ template&lt;class TYPE , class... ARGS&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html#l00046">46</a> of file <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html">ASTResolver.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html#l00047">47</a> of file <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html">ASTResolver.h</a>.</p>
 
 </div>
 </div>
@@ -432,7 +461,7 @@ template&lt;class TYPE , class... ARGS&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html#l00054">54</a> of file <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html">ASTResolver.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html#l00056">56</a> of file <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html">ASTResolver.h</a>.</p>
 
 </div>
 </div>
@@ -552,6 +581,31 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aeb306794aa1cee25130f5883f3affed6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AmpGen::ASTResolver::setEnableAVX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html#l00048">48</a> of file <a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html">ASTResolver.h</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/GooFit/AmpGen/AmpGen/<a class="el" href="../../d2/db6/_a_s_t_resolver_8h_source.html">ASTResolver.h</a></li>
 </ul>
@@ -561,7 +615,7 @@ template&lt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html">ASTResolver</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 09:12:43 for AmpGen by
+    <li class="footer">Generated on Tue Apr 14 2020 17:44:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

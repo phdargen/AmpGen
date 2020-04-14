@@ -119,16 +119,18 @@ $(document).ready(function(){initNavTree('dd/dc4/class_amp_gen_1_1_event.html','
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encapsulates the final state particles of a single event, or candidate in the language of proton-proton collisions. Typically will store (i) the event kinematics, i.e. four-momenta, (ii). a cache of complex numbers that contain intermediate calculations of the amplitude, (iii). the weight of the given event/candidate, (iv). The probability that the event was generated with, in the case of a simulated event </p>
+<div class="textblock"><p>Encapsulates the final state particles of a single event, or candidate in the language of proton-proton collisions. Typically will store (i) the event kinematics, i.e. four-momenta, (ii). the weight of the given event/candidate, (iii). The probability that the event was generated with, in the case of a simulated event </p>
 
 <p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00018">18</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a655e8fc2f4d15fa130511361ae47aef0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a655e8fc2f4d15fa130511361ae47aef0">Event</a> (const unsigned &amp;N, const unsigned &amp;<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a35a818cb3c35d43635d6d938ef5df8bd">cacheSize</a>=0)</td></tr>
-<tr class="separator:a655e8fc2f4d15fa130511361ae47aef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21f1e15eb043550c3a10109e5b07d9a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a21f1e15eb043550c3a10109e5b07d9a2">Event</a> (const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> *data, const unsigned &amp;N, const unsigned &amp;<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a35a818cb3c35d43635d6d938ef5df8bd">cacheSize</a>=0)</td></tr>
-<tr class="separator:a21f1e15eb043550c3a10109e5b07d9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ebd1a16e15c6ee100b9e42afcd7d70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a48ebd1a16e15c6ee100b9e42afcd7d70">Event</a> ()=default</td></tr>
+<tr class="separator:a48ebd1a16e15c6ee100b9e42afcd7d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5351a4b253a6f5360f3d304e487a87"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a0c5351a4b253a6f5360f3d304e487a87">Event</a> (const unsigned &amp;N)</td></tr>
+<tr class="separator:a0c5351a4b253a6f5360f3d304e487a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a041da322bf97babfc834a597f01c6b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a041da322bf97babfc834a597f01c6b55">Event</a> (const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> *data, const unsigned &amp;N)</td></tr>
+<tr class="separator:a041da322bf97babfc834a597f01c6b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa69065f76d1c136c6c6476ef4211d8f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#aa69065f76d1c136c6c6476ef4211d8f7">set</a> (const unsigned &amp;i, const std::vector&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> &gt; &amp;p)</td></tr>
 <tr class="separator:aa69065f76d1c136c6c6476ef4211d8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ddb5b17cb7590d12b6a70b85069165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a64ddb5b17cb7590d12b6a70b85069165">set</a> (const unsigned &amp;i, const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> *p)</td></tr>
@@ -139,15 +141,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a02015c6fa0f735cc8b5791bec6309666"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32a5dabfa0b92e58ba427281e303814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#ad32a5dabfa0b92e58ba427281e303814">swap</a> (const unsigned int &amp;i, const unsigned int &amp;j)</td></tr>
 <tr class="separator:ad32a5dabfa0b92e58ba427281e303814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84358486c5c4760b597a0db0086b4189"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a84358486c5c4760b597a0db0086b4189">setCache</a> (const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &amp;value, const unsigned &amp;pos)</td></tr>
-<tr class="separator:a84358486c5c4760b597a0db0086b4189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7787259d1e86d9fc6ceb547038d3da11"><td class="memTemplParams" colspan="2">template&lt;unsigned N&gt; </td></tr>
-<tr class="memitem:a7787259d1e86d9fc6ceb547038d3da11"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a7787259d1e86d9fc6ceb547038d3da11">setCache</a> (const std::array&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>, N &gt; &amp;value, const unsigned &amp;pos)</td></tr>
-<tr class="separator:a7787259d1e86d9fc6ceb547038d3da11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03d1363f96b9b611aea82277ac01eda8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a03d1363f96b9b611aea82277ac01eda8">setCache</a> (const std::vector&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt; &amp;value, const unsigned &amp;pos)</td></tr>
-<tr class="separator:a03d1363f96b9b611aea82277ac01eda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2546b96640119b6d0230133f720914aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a2546b96640119b6d0230133f720914aa">resizeCache</a> (const unsigned int &amp;new_size)</td></tr>
-<tr class="separator:a2546b96640119b6d0230133f720914aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7e87664f8086cf82e6c8c1fb705b340"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#aa7e87664f8086cf82e6c8c1fb705b340">size</a> () const </td></tr>
 <tr class="separator:aa7e87664f8086cf82e6c8c1fb705b340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a324087da35e6758fc0ad027cb84795a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a324087da35e6758fc0ad027cb84795a0">pWeight</a> ()</td></tr>
@@ -158,8 +151,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af48b2789e760cd9e56f218e85d9d4feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab00c9770efabd12e78bafd68e67b0eae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#ab00c9770efabd12e78bafd68e67b0eae">address</a> (const unsigned &amp;ref=0)</td></tr>
 <tr class="separator:ab00c9770efabd12e78bafd68e67b0eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35a818cb3c35d43635d6d938ef5df8bd"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a35a818cb3c35d43635d6d938ef5df8bd">cacheSize</a> () const </td></tr>
-<tr class="separator:a35a818cb3c35d43635d6d938ef5df8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad593fbfb3c7e97d69d3abf3fc3a01333"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#ad593fbfb3c7e97d69d3abf3fc3a01333">weight</a> () const </td></tr>
 <tr class="separator:ad593fbfb3c7e97d69d3abf3fc3a01333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a9cd8d94548c60f34c3e4ea856aa8df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a2a9cd8d94548c60f34c3e4ea856aa8df">genPdf</a> () const </td></tr>
@@ -172,10 +163,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a59ad1d14fdeefa6f3f61c5af2b6d57e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93dd02186d384d9a4ba18730ef3b005f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a93dd02186d384d9a4ba18730ef3b005f">operator real_t *</a> ()</td></tr>
 <tr class="separator:a93dd02186d384d9a4ba18730ef3b005f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46b4a1d0b59b7d5c8f33a7fdf174ff34"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a46b4a1d0b59b7d5c8f33a7fdf174ff34">getCache</a> (const unsigned &amp;pos) const </td></tr>
-<tr class="separator:a46b4a1d0b59b7d5c8f33a7fdf174ff34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a883f962ee421691afff201ef15cca6be"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a883f962ee421691afff201ef15cca6be">getCachePtr</a> (const unsigned &amp;pos=0) const </td></tr>
-<tr class="separator:a883f962ee421691afff201ef15cca6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c6f876343d35f90b6b84cd20d39e58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a95c6f876343d35f90b6b84cd20d39e58">setWeight</a> (const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> &amp;<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#ad593fbfb3c7e97d69d3abf3fc3a01333">weight</a>)</td></tr>
 <tr class="separator:a95c6f876343d35f90b6b84cd20d39e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6146f93f40238c25af8d6ade83d222ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a6146f93f40238c25af8d6ade83d222ad">setGenPdf</a> (const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> &amp;<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a2a9cd8d94548c60f34c3e4ea856aa8df">genPdf</a>)</td></tr>
@@ -184,9 +171,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a530f805a35f99809bc2c91039b711f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fe6a33796a99e81fdded61957f7367a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a9fe6a33796a99e81fdded61957f7367a">print</a> () const </td></tr>
 <tr class="separator:a9fe6a33796a99e81fdded61957f7367a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31a8713aa437833cc74f36d6d42a3a48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a31a8713aa437833cc74f36d6d42a3a48">printCache</a> () const </td></tr>
-<tr class="separator:a31a8713aa437833cc74f36d6d42a3a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a513a7e0ae4c6baf80e989cb78bbf87a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a513a7e0ae4c6baf80e989cb78bbf87a8">s</a> (const unsigned &amp;index) const </td></tr>
+<tr class="memitem:ae8e6891051d1f5b6aef840aa33d95777"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#ae8e6891051d1f5b6aef840aa33d95777">setIndex</a> (const unsigned &amp;<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#aebff7f15530aafb71cff101faa3a06ee">index</a>)</td></tr>
+<tr class="separator:ae8e6891051d1f5b6aef840aa33d95777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebff7f15530aafb71cff101faa3a06ee"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#aebff7f15530aafb71cff101faa3a06ee">index</a> () const </td></tr>
+<tr class="separator:aebff7f15530aafb71cff101faa3a06ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a513a7e0ae4c6baf80e989cb78bbf87a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#a513a7e0ae4c6baf80e989cb78bbf87a8">s</a> (const unsigned &amp;<a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#aebff7f15530aafb71cff101faa3a06ee">index</a>) const </td></tr>
 <tr class="separator:a513a7e0ae4c6baf80e989cb78bbf87a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea0bdf1a27ff11ecab4382d1b8c438e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html#aea0bdf1a27ff11ecab4382d1b8c438e0">s</a> (const unsigned &amp;index1, const unsigned &amp;index2) const </td></tr>
 <tr class="separator:aea0bdf1a27ff11ecab4382d1b8c438e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,7 +185,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaf33eea287d01e04dd6a909f750518bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a655e8fc2f4d15fa130511361ae47aef0"></a>
+<a class="anchor" id="a48ebd1a16e15c6ee100b9e42afcd7d70"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AmpGen::Event::Event </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0c5351a4b253a6f5360f3d304e487a87"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -204,25 +216,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">AmpGen::Event::Event </td>
           <td>(</td>
           <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>N</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>cacheSize</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a21f1e15eb043550c3a10109e5b07d9a2"></a>
+<a class="anchor" id="a041da322bf97babfc834a597f01c6b55"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -236,13 +238,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>cacheSize</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>N</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -277,7 +273,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00041">41</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00034">34</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -303,32 +299,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00042">42</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a35a818cb3c35d43635d6d938ef5df8bd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned AmpGen::Event::cacheSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00044">44</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -354,7 +325,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00057">57</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00046">46</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -379,11 +350,11 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00046">46</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00038">38</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a46b4a1d0b59b7d5c8f33a7fdf174ff34"></a>
+<a class="anchor" id="aebff7f15530aafb71cff101faa3a06ee"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -391,10 +362,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&amp; AmpGen::Event::getCache </td>
+          <td class="memname">unsigned AmpGen::Event::index </td>
           <td>(</td>
-          <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -405,33 +375,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00052">52</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a883f962ee421691afff201ef15cca6be"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>* AmpGen::Event::getCachePtr </td>
-          <td>(</td>
-          <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>pos</em> = <code>0</code></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00053">53</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00051">51</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -456,7 +400,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00049">49</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00041">41</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -481,7 +425,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00050">50</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00042">42</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -507,7 +451,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00047">47</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00039">39</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -533,7 +477,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00048">48</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00040">40</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -558,7 +502,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00040">40</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -568,21 +512,6 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void AmpGen::Event::print </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a31a8713aa437833cc74f36d6d42a3a48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::Event::printCache </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -613,23 +542,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00039">39</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2546b96640119b6d0230133f720914aa"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::Event::resizeCache </td>
-          <td>(</td>
-          <td class="paramtype">const unsigned int &amp;&#160;</td>
-          <td class="paramname"><em>new_size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00032">32</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -817,96 +730,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a84358486c5c4760b597a0db0086b4189"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::Event::setCache </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>pos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7787259d1e86d9fc6ceb547038d3da11"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned N&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::Event::setCache </td>
-          <td>(</td>
-          <td class="paramtype">const std::array&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>, N &gt; &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>pos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00030">30</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a03d1363f96b9b611aea82277ac01eda8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::Event::setCache </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned &amp;&#160;</td>
-          <td class="paramname"><em>pos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a6146f93f40238c25af8d6ade83d222ad"></a>
 <div class="memitem">
 <div class="memproto">
@@ -929,7 +752,33 @@ template&lt;unsigned N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00056">56</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00045">45</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae8e6891051d1f5b6aef840aa33d95777"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AmpGen::Event::setIndex </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00050">50</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -955,7 +804,7 @@ template&lt;unsigned N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00055">55</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00044">44</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -980,7 +829,7 @@ template&lt;unsigned N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00037">37</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00030">30</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +880,7 @@ template&lt;unsigned N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00045">45</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d6d/_event_8h_source.html#l00037">37</a> of file <a class="el" href="../../de/d6d/_event_8h_source.html">Event.h</a>.</p>
 
 </div>
 </div>
@@ -1044,7 +893,7 @@ template&lt;unsigned N&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 09:12:43 for AmpGen by
+    <li class="footer">Generated on Tue Apr 14 2020 17:44:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

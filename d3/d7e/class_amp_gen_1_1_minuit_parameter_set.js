@@ -4,7 +4,7 @@ var class_amp_gen_1_1_minuit_parameter_set =
     [ "iterator", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a2a98463830c0526cd2eee0b2ad0e92d1", null ],
     [ "MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aa93da5a4550c6f3b21f00ca2b4968ecc", null ],
     [ "MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aee752927f302c9ba5fd67df039f47fa3", null ],
-    [ "MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a49b216d93c509a831aa417c28aa433fc", null ],
+    [ "MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a83f6dce69aa59ab14017b93d8ef4af58", null ],
     [ "~MinuitParameterSet", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a763d6664f4f2dcc4fd5272f080b1a948", null ],
     [ "add", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a3e270aef8289afbf478802171c68e7d9", null ],
     [ "add", "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aab2f1d0ca41448adba0284d49ba3abdd", null ],

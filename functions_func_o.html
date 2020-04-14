@@ -119,7 +119,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_func_x.html#index_x"><span>x</span></a></li>
       <li><a href="functions_func_y.html#index_y"><span>y</span></a></li>
-      <li><a href="functions_func_z.html#index_z"><span>z</span></a></li>
       <li><a href="functions_func_0x7e.html#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
@@ -158,6 +157,12 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
 <li>observables()
 : <a class="el" href="d4/d2d/class_amp_gen_1_1_fit_result.html#ae7485e9aab521242263c717a624970cf">AmpGen::FitResult</a>
+</li>
+<li>operator __m256()
+: <a class="el" href="d2/d9b/struct_amp_gen_1_1_a_v_x2_1_1float__t.html#aa3991e96884601cce5386d0e2ac6a125">AmpGen::AVX2::float_t</a>
+</li>
+<li>operator __m256d()
+: <a class="el" href="d2/d15/struct_amp_gen_1_1_a_v_x2d_1_1float__t.html#a2171b005c1de792394d029b87057efa1">AmpGen::AVX2d::float_t</a>
 </li>
 <li>operator const real_t *()
 : <a class="el" href="dd/dc4/class_amp_gen_1_1_event.html#a59ad1d14fdeefa6f3f61c5af2b6d57e9">AmpGen::Event</a>
@@ -215,6 +220,9 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 <li>operator std::vector&lt; T &gt;()
 : <a class="el" href="d9/d1b/class_amp_gen_1_1_named_parameter.html#a2c98c8141358700f03db4e77c4b2da2b">AmpGen::NamedParameter&lt; T &gt;</a>
 </li>
+<li>operator Store&lt; float_v, Alignment::AoS &gt;()
+: <a class="el" href="df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#a98dc1c1059112fd6872a7f24c6318de3">AmpGen::EventListSIMD</a>
+</li>
 <li>operator T()
 : <a class="el" href="d9/d1b/class_amp_gen_1_1_named_parameter.html#abbadefe93ab6c8b82fab60fb0abf8d6f">AmpGen::NamedParameter&lt; T &gt;</a>
 </li>
@@ -224,11 +232,15 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 <li>operator TYPE()
 : <a class="el" href="d9/d9c/struct_amp_gen_1_1_argument.html#adf7da5bbac8250bb312fe9a273027c34">AmpGen::Argument&lt; TYPE &gt;</a>
 </li>
+<li>operator type()
+: <a class="el" href="de/d0f/class_amp_gen_1_1_lite_span.html#a28a8b36620a35ca2533e01f7e5758a3c">AmpGen::LiteSpan&lt; type &gt;</a>
+</li>
 <li>operator!=()
 : <a class="el" href="d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#a26786f6dfac60e05bdc1e83e772ffd08">AmpGen::DynamicContainer&lt; TYPE, CONTAINER_TYPE &gt;::Iterator</a>
 , <a class="el" href="d9/d1b/class_amp_gen_1_1_named_parameter.html#aa989b194b3863ddbaaa7924899268c70">AmpGen::NamedParameter&lt; T &gt;</a>
 , <a class="el" href="de/d21/class_amp_gen_1_1_quark_content.html#a68ce37626d315f1ff06041eec8088616">AmpGen::QuarkContent</a>
 , <a class="el" href="d3/d23/class_amp_gen_1_1_quark_state.html#ac488c39e1c297a4f9f8795f3a1b4034f">AmpGen::QuarkState</a>
+, <a class="el" href="d8/db5/class_amp_gen_1_1scatter__iterator.html#a9e35affb7c6e9a457328c15e59840eda">AmpGen::scatter_iterator&lt; stored_type, store_type, simd_size, modifiable &gt;</a>
 , <a class="el" href="d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#aa1b269a9cf769815ce3e294231fe973a">AmpGen::Tensor::Index</a>
 </li>
 <li>operator()()
@@ -243,11 +255,10 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="d1/d9d/class_amp_gen_1_1_bin_d_t_1_1_decision.html#a3c3995740827f52155550266823410f5">AmpGen::BinDT::Decision</a>
 , <a class="el" href="dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html#a3a372f34157e697b939e0be4ded41e89">AmpGen::BinDT::EndNode</a>
 , <a class="el" href="d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#a034a78396eefa13c283494ad94d310da">AmpGen::BinDT::INode</a>
-, <a class="el" href="d1/d91/class_amp_gen_1_1_coherent_sum.html#ad2bc0cf804f30293232374b201c508a4">AmpGen::CoherentSum</a>
-, <a class="el" href="d1/d43/class_amp_gen_1_1_compiled_expression.html#a88cc5afdaf22f92646c9fd8a529fbcc5">AmpGen::CompiledExpression&lt; RETURN_TYPE, ARGS &gt;</a>
+, <a class="el" href="d1/d91/class_amp_gen_1_1_coherent_sum.html#aa5564781fe6b929723e9b1306fdf0be9">AmpGen::CoherentSum</a>
+, <a class="el" href="d0/d47/class_amp_gen_1_1_compiled_expression_3_01_r_e_t_u_r_n___t_y_p_e_07_a_r_g_s_8_8_8_08_4.html#a06d9173daad70d210e909c8fa5f5c322">AmpGen::CompiledExpression&lt; RETURN_TYPE(ARGS...)&gt;</a>
 , <a class="el" href="de/de2/class_amp_gen_1_1_conj.html#a3fe1c3a4332dd3a114e40f7ef9097c68">AmpGen::Conj</a>
 , <a class="el" href="d9/d48/class_amp_gen_1_1_constant.html#a0bc01c4b908fdf9957dd08dfceb2f60f">AmpGen::Constant</a>
-, <a class="el" href="d1/d28/class_amp_gen_1_1_correlated_sum.html#a3e76f810cee7434549965daa4c90e39a">AmpGen::CorrelatedSum</a>
 , <a class="el" href="d3/d77/class_amp_gen_1_1_cos.html#a992284444f0f1d189d1667c541b78da5">AmpGen::Cos</a>
 , <a class="el" href="d5/db2/class_amp_gen_1_1_coupling.html#a875a56e9a92911381a606e72a444af5c">AmpGen::Coupling</a>
 , <a class="el" href="dd/de5/struct_amp_gen_1_1detail_1_1size__of.html#a79f9fc122e2320e5327fb3917d473483">AmpGen::detail::size_of&lt; T &gt;</a>
@@ -269,6 +280,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="db/d29/class_amp_gen_1_1_incoherent_sum.html#a00eafc85a022d26ed7f01bcbc569b55d">AmpGen::IncoherentSum</a>
 , <a class="el" href="d9/dd2/class_amp_gen_1_1_i_sqrt.html#ac40f23bd36e41e60ddbfaa00ecd7a6dc">AmpGen::ISqrt</a>
 , <a class="el" href="d5/d3f/class_amp_gen_1_1_i_unary_expression.html#a8751a584155b2df600bd5d00b38da764">AmpGen::IUnaryExpression</a>
+, <a class="el" href="d0/dbd/class_amp_gen_1_1_keyed_view.html#a14df9890a073f6e44c2afeacead59ecf">AmpGen::KeyedView&lt; return_type, container_type, cache_type &gt;</a>
 , <a class="el" href="de/df5/class_amp_gen_1_1_less_than.html#a67be52a2f1063163a266d827e88d409b">AmpGen::LessThan</a>
 , <a class="el" href="de/d15/class_amp_gen_1_1_l_gamma.html#abb34892c095e4d6bd821f0511da2597a">AmpGen::LGamma</a>
 , <a class="el" href="db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a30b99fd49320a051ea0967afb59bc245">AmpGen::LinearErrorPropagator</a>
@@ -279,30 +291,29 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="d1/ddb/class_amp_gen_1_1_norm.html#abce0baa444bdbd2a6060dc8510315727">AmpGen::Norm</a>
 , <a class="el" href="de/d2b/class_amp_gen_1_1_pade.html#ab54f9f844e6b3aff8e72d1dbcd930fde">AmpGen::Pade&lt; N, T &gt;</a>
 , <a class="el" href="d3/d5a/class_amp_gen_1_1_parameter.html#a69abf1d54db07f5daf574d58f4b8fcf9">AmpGen::Parameter</a>
-, <a class="el" href="d4/d48/class_amp_gen_1_1p_coherent_sum.html#ac80f2e0a32544ea00f5e8e6997372c8f">AmpGen::pCoherentSum</a>
-, <a class="el" href="d6/d81/class_amp_gen_1_1p_correlated_sum.html#a415aa46bf128a2c159fd9617d8513001">AmpGen::pCorrelatedSum</a>
-, <a class="el" href="d4/d31/class_amp_gen_1_1_polarised_sum.html#ae66fddba838de4399cbd30bf05787e91">AmpGen::PolarisedSum</a>
+, <a class="el" href="d4/d31/class_amp_gen_1_1_polarised_sum.html#a87efe73ef58ce1d80db4dc4519ef8319">AmpGen::PolarisedSum</a>
 , <a class="el" href="d2/d44/class_amp_gen_1_1_pow.html#ae7e52d26879c009d9099cb90ba355dfb">AmpGen::Pow</a>
 , <a class="el" href="d6/db4/class_amp_gen_1_1_product.html#a6d5d9a728a7387bf00bd43e7778e4f47">AmpGen::Product</a>
 , <a class="el" href="d0/d04/class_amp_gen_1_1_projection2_d.html#a81a04d984a38c89d319804a1a25904c5">AmpGen::Projection2D</a>
-, <a class="el" href="db/dc8/class_amp_gen_1_1_projection.html#a4287541461b8117d082e9369ff6034c8">AmpGen::Projection</a>
+, <a class="el" href="db/dc8/class_amp_gen_1_1_projection.html#a2c380abccb9ca5db0da0c4310bebc828">AmpGen::Projection</a>
 , <a class="el" href="d2/d41/class_amp_gen_1_1_real.html#a27e63923a1644a4e6fe8eab2d937f0e1">AmpGen::Real</a>
 , <a class="el" href="d4/d99/class_amp_gen_1_1_sin.html#a192cc39b74adae9c19267ef4cea232e1">AmpGen::Sin</a>
 , <a class="el" href="d8/d3c/class_amp_gen_1_1_spline.html#afa424b0c25b1789223d0c85ba6397f8c">AmpGen::Spline</a>
 , <a class="el" href="d8/dd0/class_amp_gen_1_1_sqrt.html#a0bdd40677ff00df3349ffd2775a49d53">AmpGen::Sqrt</a>
+, <a class="el" href="d6/dd1/class_amp_gen_1_1_store.html#aa16cc22a3af85506a412c2afedb4d629">AmpGen::Store&lt; stored_type, align &gt;</a>
 , <a class="el" href="da/dab/class_amp_gen_1_1_sub.html#aba1ef70dc60743150865bfe5169ae43b">AmpGen::Sub</a>
 , <a class="el" href="d4/d37/struct_amp_gen_1_1_sub_tree.html#a086ed55ee510237aa8cd8a8ebf2cfb53">AmpGen::SubTree</a>
 , <a class="el" href="d3/d35/class_amp_gen_1_1_sum.html#a6e78267b8b8208efceef9af6adae55fa">AmpGen::Sum</a>
-, <a class="el" href="d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#aa88c595f589515f1cbc318025337bfb2">AmpGen::SumPDF&lt; eventListType, pdfTypes &gt;</a>
+, <a class="el" href="d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a85fedf437a5a7a08ee5b2343e70de214">AmpGen::SumPDF&lt; eventListType, pdfTypes &gt;</a>
 , <a class="el" href="d2/d28/class_amp_gen_1_1_tan.html#a4c41bec312b6cb5513c6d8f482b0d612">AmpGen::Tan</a>
-, <a class="el" href="d4/d0e/class_amp_gen_1_1_tensor.html#acf23f5f8b7702600b60eda2c52a93856">AmpGen::Tensor</a>
+, <a class="el" href="d4/d0e/class_amp_gen_1_1_tensor.html#a7edb19476edd69111441b5d1d12f6347">AmpGen::Tensor</a>
 , <a class="el" href="d6/dc4/class_amp_gen_1_1_tensor_expression.html#ad282d08371582883f816605a8167f41a">AmpGen::TensorExpression</a>
 , <a class="el" href="d5/d86/struct_amp_gen_1_1_ternary.html#a57cd53b5e87e363a92488b6dc11bf2ef">AmpGen::Ternary</a>
 , <a class="el" href="df/d84/class_amp_gen_1_1_total_coupling.html#aec91064a2db7ed09b0a2217814c81d28">AmpGen::TotalCoupling</a>
 , <a class="el" href="d9/d03/class_amp_gen_1_1_transform.html#afaf465cb22cd8041a648175f334e11ab">AmpGen::Transform</a>
 , <a class="el" href="d0/dd5/class_amp_gen_1_1_transform_sequence.html#af8a95aaa5e58cee589de94ea97241180">AmpGen::TransformSequence</a>
 , <a class="el" href="d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a99b3c8645d02fd9cb6bbf5a1945064f7">AmpGen::TransitionMatrix&lt; RT &gt;</a>
-, <a class="el" href="db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a43731cd19e1c7c921ae3d9ce3962c865">AmpGen::TransitionMatrix&lt; void &gt;</a>
+, <a class="el" href="db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a6f709ce156c6ae331ca34d7b51861f54">AmpGen::TransitionMatrix&lt; void &gt;</a>
 , <a class="el" href="d5/d73/struct_amp_gen_1_1_vertex_1_1_base.html#a65c342bfa884214f7af4f437fa2c3c57">AmpGen::Vertex::Base</a>
 , <a class="el" href="d9/dac/struct_amp_gen_1_1_vertex_1_1f__f_s___p1.html#a8cd0f6147fef27426919b25cc7bc4989">AmpGen::Vertex::f_fS_P1</a>
 , <a class="el" href="d9/dc6/struct_amp_gen_1_1_vertex_1_1f__f_s___p.html#a965b5d2797121b6d52750214651b7ece">AmpGen::Vertex::f_fS_P</a>
@@ -353,12 +364,10 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="dd/d05/struct_amp_gen_1_1_vertex_1_1_v___v_s___d.html#a57b3c83fc6404ee9b4017588809406e9">AmpGen::Vertex::V_VS_D</a>
 , <a class="el" href="dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html#ad4771b7547039703942b8722265f0531">AmpGen::Vertex::V_VS_P</a>
 , <a class="el" href="d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html#a6f78d638e9ffe20ad0c35b835c649105">AmpGen::Vertex::V_VS_S</a>
-, <a class="el" href="d8/d89/class_d_t_yield_calculator.html#a2d8b40a8f33686aaf16f6f0c91d5b799">DTYieldCalculator</a>
-, <a class="el" href="d5/de1/structnormalised__pdf.html#a3bf1616ec61b08e91a62b2418b8b32c6">normalised_pdf&lt; PDF &gt;</a>
-, <a class="el" href="d8/d85/class_psi3770.html#accdff09051df3ee32ce02eb26ff727d8">Psi3770&lt; T1, T2 &gt;</a>
 </li>
 <li>operator*()
 : <a class="el" href="d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#ad6c8f4c62a95be698abdb4a35320e7b1">AmpGen::DynamicContainer&lt; TYPE, CONTAINER_TYPE &gt;::Iterator</a>
+, <a class="el" href="d8/db5/class_amp_gen_1_1scatter__iterator.html#a527229f59dc49770e1df6cee8884eeb3">AmpGen::scatter_iterator&lt; stored_type, store_type, simd_size, modifiable &gt;</a>
 </li>
 <li>operator*=()
 : <a class="el" href="dd/d66/class_amp_gen_1_1_expression.html#a63bc5ac6c305f09deed816876bfc58e5">AmpGen::Expression</a>
@@ -369,6 +378,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 </li>
 <li>operator++()
 : <a class="el" href="d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#a05341d29bab2e9e711aaa3db59718992">AmpGen::DynamicContainer&lt; TYPE, CONTAINER_TYPE &gt;::Iterator</a>
+, <a class="el" href="d8/db5/class_amp_gen_1_1scatter__iterator.html#a5fb6bbe1257d7688315eb1f6c2e64a15">AmpGen::scatter_iterator&lt; stored_type, store_type, simd_size, modifiable &gt;</a>
 </li>
 <li>operator+=()
 : <a class="el" href="dd/d66/class_amp_gen_1_1_expression.html#a98d747bfc2314d3179a0435abd73920e">AmpGen::Expression</a>
@@ -391,7 +401,8 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 </li>
 <li>operator-&gt;()
 : <a class="el" href="d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html#ac3773ca6a3eedba311e93ffa687b968f">AmpGen::DynamicContainer&lt; TYPE, CONTAINER_TYPE &gt;::Iterator</a>
-, <a class="el" href="de/d24/class_amp_gen_1_1_minuit_proxy.html#adc941c3754ab52063fd6b1abc7a2ae0d">AmpGen::MinuitProxy</a>
+, <a class="el" href="de/d24/class_amp_gen_1_1_minuit_proxy.html#a97199aa931b61e498f3be1444029f737">AmpGen::MinuitProxy</a>
+, <a class="el" href="d8/db5/class_amp_gen_1_1scatter__iterator.html#aa81a694d39910cba7c80c8696f9fa901">AmpGen::scatter_iterator&lt; stored_type, store_type, simd_size, modifiable &gt;</a>
 </li>
 <li>operator/=()
 : <a class="el" href="dd/d66/class_amp_gen_1_1_expression.html#a91d606e7f8ba23e253027f6d79c4f8bd">AmpGen::Expression</a>
@@ -413,6 +424,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="db/d37/class_amp_gen_1_1_particle_properties.html#adc12632615d6d70b38b8669d879a08fc">AmpGen::ParticleProperties</a>
 , <a class="el" href="de/d21/class_amp_gen_1_1_quark_content.html#a3404749b9a065fe46eb554603f226e51">AmpGen::QuarkContent</a>
 , <a class="el" href="d3/d23/class_amp_gen_1_1_quark_state.html#a6dafcc236032d12b8236580eade0d660">AmpGen::QuarkState</a>
+, <a class="el" href="d8/db5/class_amp_gen_1_1scatter__iterator.html#abf1327b693737ea8d5b0cea428f93be5">AmpGen::scatter_iterator&lt; stored_type, store_type, simd_size, modifiable &gt;</a>
 , <a class="el" href="d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#af578e3e4d75f710e07a2a826c4731210">AmpGen::Tensor::Index</a>
 </li>
 <li>operator&gt;()
@@ -424,17 +436,19 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 </li>
 <li>operator[]()
 : <a class="el" href="d9/d11/class_amp_gen_1_1_array.html#a86ec6e54173ea92a152ec9572cfeaad1">AmpGen::Array</a>
-, <a class="el" href="d1/d91/class_amp_gen_1_1_coherent_sum.html#aef05f268b51ce2d111c3e96ca7b15086">AmpGen::CoherentSum</a>
-, <a class="el" href="d6/d9d/class_amp_gen_1_1_dynamic_container.html#a1601c916f7627e6a5e802aae138ee5e0">AmpGen::DynamicContainer&lt; TYPE, CONTAINER_TYPE &gt;</a>
+, <a class="el" href="d1/d91/class_amp_gen_1_1_coherent_sum.html#ad95f98f4adc742f755658f9cbaedbf6f">AmpGen::CoherentSum</a>
+, <a class="el" href="d6/d9d/class_amp_gen_1_1_dynamic_container.html#ae66fe17cc4cba81069bc0e9c4bd778d9">AmpGen::DynamicContainer&lt; TYPE, CONTAINER_TYPE &gt;</a>
 , <a class="el" href="dd/dc4/class_amp_gen_1_1_event.html#a037f64ab921a6a37ab02d94efd1504fd">AmpGen::Event</a>
 , <a class="el" href="db/d4b/class_amp_gen_1_1_event_list.html#a84c6208b1cc5b451e7579e0ca2fac92a">AmpGen::EventList</a>
+, <a class="el" href="df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#ad7034d6e3d871f2cbdffa23f60e34b05">AmpGen::EventListSIMD</a>
 , <a class="el" href="d7/dfa/class_amp_gen_1_1_event_type.html#adad0b6b931e3bc8d2bc891ec886be23a">AmpGen::EventType</a>
-, <a class="el" href="d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#afd74e99957dc6286e0f35b83f3053a0c">AmpGen::MinuitParameterSet</a>
-, <a class="el" href="d4/d48/class_amp_gen_1_1p_coherent_sum.html#a75bdd6f9303538b7ba519696c7c794c2">AmpGen::pCoherentSum</a>
-, <a class="el" href="d4/d31/class_amp_gen_1_1_polarised_sum.html#a21f74f5275d0918f05cec021806f9703">AmpGen::PolarisedSum</a>
+, <a class="el" href="de/d0f/class_amp_gen_1_1_lite_span.html#a686cd7b7781edcd74f62c17dda1ff3dc">AmpGen::LiteSpan&lt; type &gt;</a>
+, <a class="el" href="d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a30ec85e89a770c1bdeea3779838b3f24">AmpGen::MinuitParameterSet</a>
+, <a class="el" href="d4/d31/class_amp_gen_1_1_polarised_sum.html#a33d3216a8bf397c9aac3db49e454576f">AmpGen::PolarisedSum</a>
 , <a class="el" href="de/d21/class_amp_gen_1_1_quark_content.html#ac6a65bbf67c5f43b68ec9d6e11e04e29">AmpGen::QuarkContent</a>
 , <a class="el" href="d3/d23/class_amp_gen_1_1_quark_state.html#a8926a460212ed875d617a7ef3a046c01">AmpGen::QuarkState</a>
-, <a class="el" href="d4/d0e/class_amp_gen_1_1_tensor.html#accb0b22fb068a9598273277b01647671">AmpGen::Tensor</a>
+, <a class="el" href="d6/dd1/class_amp_gen_1_1_store.html#ac059972cc428ea89338d9edba7d6908a">AmpGen::Store&lt; stored_type, align &gt;</a>
+, <a class="el" href="d4/d0e/class_amp_gen_1_1_tensor.html#ad591068cc36888996cd3f6469161ebe8">AmpGen::Tensor</a>
 , <a class="el" href="df/d84/class_amp_gen_1_1_total_coupling.html#a8c7d69bf145c6f6a896a0317b032d4ce">AmpGen::TotalCoupling</a>
 , <a class="el" href="db/d9a/class_amp_gen_1_1_tree_phase_space.html#aff45e2d09757aa2c0ef56df96f74bb4a">AmpGen::TreePhaseSpace</a>
 </li>
@@ -453,7 +467,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 8 2020 09:12:43 for AmpGen by
+    <li class="footer">Generated on Tue Apr 14 2020 17:44:14 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
