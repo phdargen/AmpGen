@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"d7/d51/struct_amp_gen_1_1_a_v_x2d_1_1complex__t.html#ae2c178102d155b7ae97a5a4b3ef7ef5d":[3,0,1,0,6],
+"d7/d51/struct_amp_gen_1_1_a_v_x2d_1_1complex__t.html#af599fd500b4778fdd7e81274f56c4e30":[3,0,1,0,0],
 "d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html":[3,0,5,20],
 "d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html#a4c06f4afd215c72a4019dffd06d9efff":[3,0,5,20,2],
 "d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html#a636635d425473883797935c99ffb8156":[3,0,5,20,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html":[3,0,127,0],
 "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a13bbad295fa35292014ebcb93b587fbc":[3,0,127,0,23],
 "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a1bb962b5381faae36497859a308f859d":[3,0,127,0,25],
-"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a2cb45ecabe0446687401151ed123bc78":[3,0,127,0,30],
-"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a39851f1e76afee2ee1ed3db376ca3da2":[3,0,127,0,35],
-"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a3a4d59eede785907bc706ba61235607f":[3,0,127,0,15]
+"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a2cb45ecabe0446687401151ed123bc78":[3,0,127,0,30]
 };

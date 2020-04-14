@@ -10,7 +10,7 @@ var searchData=
   ['cg',['CG',['../d0/de8/group___vertices.html#ga98dfb6dcbdafd331079eeedd917633bb',1,'AmpGen']]],
   ['charge',['charge',['../db/d37/class_amp_gen_1_1_particle_properties.html#a5ca7c1b297c6e13149c3b6049af57212',1,'AmpGen::ParticleProperties']]],
   ['chi2',['chi2',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#aa469afe5e3ec5da6d02e47460eb4109e',1,'AmpGen::Chi2Estimator::chi2()'],['../d4/d2d/class_amp_gen_1_1_fit_result.html#a50f80c692f19e17aa813eaa6bbb8a16c',1,'AmpGen::FitResult::chi2()']]],
-  ['chi2estimator',['Chi2Estimator',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#ab874750f8289d415d451af98c04708bc',1,'AmpGen::Chi2Estimator']]],
+  ['chi2estimator',['Chi2Estimator',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#a4586f9045dcaca65e7c681b2097096b6',1,'AmpGen::Chi2Estimator']]],
   ['clear',['clear',['../d6/d02/class_amp_gen_1_1_a_s_t_resolver.html#a934576f9255cdab2a03be4ebde6cacf0',1,'AmpGen::ASTResolver::clear()'],['../db/d4b/class_amp_gen_1_1_event_list.html#a47b1fdd5af7917a6738866bb75686cb0',1,'AmpGen::EventList::clear()'],['../df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#a65dee5d8c5f505611e1cf26206362b11',1,'AmpGen::EventListSIMD::clear()'],['../d6/dd1/class_amp_gen_1_1_store.html#afc45acc49c7de6b2fade7d27e2c96f94',1,'AmpGen::Store::clear()'],['../d0/dd5/class_amp_gen_1_1_transform_sequence.html#ad0841950d0cef7136a5496fc69754907',1,'AmpGen::TransformSequence::clear()']]],
   ['cleardecayproducts',['clearDecayProducts',['../de/dd7/class_amp_gen_1_1_particle.html#a68c3d51d4aa3e19d2e3533509146f9ba',1,'AmpGen::Particle']]],
   ['clearfitfractions',['clearFitFractions',['../d4/d2d/class_amp_gen_1_1_fit_result.html#aeb909cf5f32259963171ec9801a25ecf',1,'AmpGen::FitResult']]],

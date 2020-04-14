@@ -21,7 +21,7 @@ var searchData=
   ['dimstring',['dimString',['../d4/d0e/class_amp_gen_1_1_tensor.html#a502a461f3bb937213d9ab899063ca5d3',1,'AmpGen::Tensor']]],
   ['dirlist',['dirList',['../de/d6a/class_amp_gen_1_1_particle_properties_list.html#a14c2c0b707d606e1cdeee64eb153c538',1,'AmpGen::ParticlePropertiesList']]],
   ['divide',['Divide',['../d0/df3/class_amp_gen_1_1_divide.html#a347bcb8a172116b7be6f224f96a21108',1,'AmpGen::Divide']]],
-  ['dochi2',['doChi2',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#af6ddf20dfc524d3f7c7b32b2d41313e3',1,'AmpGen::Chi2Estimator']]],
+  ['dochi2',['doChi2',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html#a9236a77200c2a1fbff66e00883be1d87',1,'AmpGen::Chi2Estimator']]],
   ['dof',['dof',['../d7/dfa/class_amp_gen_1_1_event_type.html#a508ca95d588506ecc3e1421b51f8f179',1,'AmpGen::EventType::dof()'],['../d4/d2d/class_amp_gen_1_1_fit_result.html#a308e06ac746863795c7f13ce13aff64a',1,'AmpGen::FitResult::dof()']]],
   ['dot',['dot',['../dc/d82/namespace_amp_gen.html#a1c8c9a6658bb6328a53c73977e118dac',1,'AmpGen']]],
   ['dotproduct',['dotProduct',['../d0/de1/group___kin.html#ga5c7f0211bb815f3e14dbd1cef858c053',1,'AmpGen']]],

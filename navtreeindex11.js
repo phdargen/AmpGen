@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a318c010662b01b588200161dc2495848":[3,0,30,14],
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a31dee164cad5ed5e8d0123600b5e8d42":[3,0,30,11],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a336186d47b004dc4efeba44bfe6ee753":[3,0,30,1],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a3c3c4afce98f05208a1098c6e641f7df":[3,0,30,7],
 "df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a51dc95c2db31dad58773e1fe0aef5fc7":[3,0,30,16],
@@ -217,8 +219,8 @@ var NAVTREEINDEX11 =
 "hierarchy.html":[5],
 "index.html":[],
 "modules.html":[0],
-"namespacemembers.html":[2,0],
 "namespacemembers.html":[2,0,0],
+"namespacemembers.html":[2,0],
 "namespacemembers_b.html":[2,0,1],
 "namespacemembers_c.html":[2,0,2],
 "namespacemembers_d.html":[2,0,3],
@@ -226,8 +228,8 @@ var NAVTREEINDEX11 =
 "namespacemembers_enum.html":[2,4],
 "namespacemembers_eval.html":[2,5],
 "namespacemembers_f.html":[2,0,5],
-"namespacemembers_func.html":[2,1],
 "namespacemembers_func.html":[2,1,0],
+"namespacemembers_func.html":[2,1],
 "namespacemembers_func_b.html":[2,1,1],
 "namespacemembers_func_c.html":[2,1,2],
 "namespacemembers_func_d.html":[2,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "namespacemembers_func_s.html":[2,1,17],
 "namespacemembers_func_t.html":[2,1,18],
 "namespacemembers_func_v.html":[2,1,19],
-"namespacemembers_func_w.html":[2,1,20],
-"namespacemembers_g.html":[2,0,6],
-"namespacemembers_h.html":[2,0,7]
+"namespacemembers_func_w.html":[2,1,20]
 };
