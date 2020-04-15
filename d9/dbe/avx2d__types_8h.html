@@ -112,6 +112,7 @@ $(document).ready(function(){initNavTree('d9/dbe/avx2d__types_8h.html','../../')
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">avx2d_types.h File Reference</div>  </div>
@@ -139,6 +140,11 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dc/daa/namespace_amp_gen_1_1_a_v_x2d"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html">AmpGen::AVX2d</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:acc9e15ae22390a1f9985f9207bb1d1d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbe/avx2d__types_8h.html#acc9e15ae22390a1f9985f9207bb1d1d2">stl_fallback</a>(x)&#160;&#160;&#160;inline float_t x( const float_t&amp; v ){  auto a = v.to_array(); return float_t( std::x(a[0]), std::x(a[1]), std::x(a[2]), std::x(a[3]) ) ; }</td></tr>
+<tr class="separator:acc9e15ae22390a1f9985f9207bb1d1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -188,8 +194,24 @@ Functions</h2></td></tr>
 <tr class="separator:a86ba4eccc657e920d87cfdf38d5008f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a468d1812b66f09446a044852bd899be7"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a468d1812b66f09446a044852bd899be7">AmpGen::AVX2d::atan2</a> (const float_t &amp;y, const float_t &amp;x)</td></tr>
 <tr class="separator:a468d1812b66f09446a044852bd899be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa8a7690e37366bbd44595de0f333790"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#aaa8a7690e37366bbd44595de0f333790">AmpGen::AVX2d::log</a> (const float_t &amp;x)</td></tr>
-<tr class="separator:aaa8a7690e37366bbd44595de0f333790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1f0b3ea5b2a0203031456c08647020"><td class="memItemLeft" align="right" valign="top">__m256i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#ade1f0b3ea5b2a0203031456c08647020">AmpGen::AVX2d::double_to_int</a> (const float_t &amp;x)</td></tr>
+<tr class="separator:ade1f0b3ea5b2a0203031456c08647020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd8cb279759596580c7e3fbe41f9d8a"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#afdd8cb279759596580c7e3fbe41f9d8a">AmpGen::AVX2d::gather</a> (const double *base_addr, const float_t &amp;offsets)</td></tr>
+<tr class="separator:afdd8cb279759596580c7e3fbe41f9d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611aa58fb30e776f9d7a873fed682186"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a611aa58fb30e776f9d7a873fed682186">AmpGen::AVX2d::log</a> (const float_t &amp;v)</td></tr>
+<tr class="separator:a611aa58fb30e776f9d7a873fed682186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c93b52df3599a95439879eb3f94f6a"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#ac2c93b52df3599a95439879eb3f94f6a">AmpGen::AVX2d::exp</a> (const float_t &amp;v)</td></tr>
+<tr class="separator:ac2c93b52df3599a95439879eb3f94f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae422e9c4d7be2f1478debdd84e8136f7"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#ae422e9c4d7be2f1478debdd84e8136f7">AmpGen::AVX2d::tan</a> (const float_t &amp;v)</td></tr>
+<tr class="separator:ae422e9c4d7be2f1478debdd84e8136f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac31a5c915859307cd39feabc5a30994"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#aac31a5c915859307cd39feabc5a30994">AmpGen::AVX2d::sin</a> (const float_t &amp;v)</td></tr>
+<tr class="separator:aac31a5c915859307cd39feabc5a30994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae77ee9f6cdf001c13f8e529c7554f8f"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#aae77ee9f6cdf001c13f8e529c7554f8f">AmpGen::AVX2d::cos</a> (const float_t &amp;v)</td></tr>
+<tr class="separator:aae77ee9f6cdf001c13f8e529c7554f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f85f5038ff49e1b7182d3935306eb6"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a40f85f5038ff49e1b7182d3935306eb6">AmpGen::AVX2d::remainder</a> (const float_t &amp;a, const float_t &amp;b)</td></tr>
+<tr class="separator:a40f85f5038ff49e1b7182d3935306eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad47d086d8352ce68eb96432311f8dbe1"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#ad47d086d8352ce68eb96432311f8dbe1">AmpGen::AVX2d::fmod</a> (const float_t &amp;a, const float_t &amp;b)</td></tr>
+<tr class="separator:ad47d086d8352ce68eb96432311f8dbe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d9347dcaa155d66425d648115fd5b51"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a8d9347dcaa155d66425d648115fd5b51">AmpGen::AVX2d::operator&lt;&lt;</a> (std::ostream &amp;os, const float_t &amp;obj)</td></tr>
 <tr class="separator:a8d9347dcaa155d66425d648115fd5b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2106138fc668648648a912f97b9fc71"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#af2106138fc668648648a912f97b9fc71">AmpGen::AVX2d::real</a> (const complex_t &amp;arg)</td></tr>
@@ -242,16 +264,37 @@ Functions</h2></td></tr>
 <tr class="separator:aca19472899b08fc7ff1a6ac2f11b34fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac6a90dac59ffee99071f4bcc7b469de"><td class="memItemLeft" align="right" valign="top">float_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#aac6a90dac59ffee99071f4bcc7b469de">AmpGen::AVX2d::fmadd</a> (const float_t &amp;a, const float_t &amp;b, const float_t &amp;c)</td></tr>
 <tr class="separator:aac6a90dac59ffee99071f4bcc7b469de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81432af46e9ae19f46a689fb8da187e8"><td class="memItemLeft" align="right" valign="top">complex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a81432af46e9ae19f46a689fb8da187e8">AmpGen::AVX2d::sqrt</a> (const complex_t &amp;v)</td></tr>
+<tr class="separator:a81432af46e9ae19f46a689fb8da187e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4142b8dcaeef2ac99f75d930323ece96"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a4142b8dcaeef2ac99f75d930323ece96">AmpGen::AVX2d::operator&lt;&lt;</a> (std::ostream &amp;os, const complex_t &amp;obj)</td></tr>
 <tr class="separator:a4142b8dcaeef2ac99f75d930323ece96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="acc9e15ae22390a1f9985f9207bb1d1d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define stl_fallback</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;inline float_t x( const float_t&amp; v ){  auto a = v.to_array(); return float_t( std::x(a[0]), std::x(a[1]), std::x(a[2]), std::x(a[3]) ) ; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/dbe/avx2d__types_8h_source.html#l00013">13</a> of file <a class="el" href="../../d9/dbe/avx2d__types_8h_source.html">avx2d_types.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dir_f25601dc9a09540d3eefcadbb5d74897.html">simd</a></li><li class="navelem"><a class="el" href="../../d9/dbe/avx2d__types_8h.html">avx2d_types.h</a></li>
-    <li class="footer">Generated on Tue Apr 14 2020 19:07:37 for AmpGen by
+    <li class="footer">Generated on Wed Apr 15 2020 17:20:35 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

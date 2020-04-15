@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['register',['REGISTER',['../d7/de6/_factory_8h.html#a745549b2854f14e2a221dbf81ca53d6e',1,'Factory.h']]],
-  ['register_5fwith_5fkey',['REGISTER_WITH_KEY',['../d7/de6/_factory_8h.html#a93fb3e446a20003196dee0125663dcae',1,'Factory.h']]]
+  ['stl_5ffallback',['stl_fallback',['../d9/dbe/avx2d__types_8h.html#acc9e15ae22390a1f9985f9207bb1d1d2',1,'avx2d_types.h']]]
 ];

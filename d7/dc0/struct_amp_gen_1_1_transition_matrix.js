@@ -2,8 +2,8 @@ var struct_amp_gen_1_1_transition_matrix =
 [
     [ "amp_type", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#aead58fb8087c44ede3494d53b90f38f9", null ],
     [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#ae7b6b088ee7b2d0dd4b57da5c2ca8714", null ],
-    [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a7d11b5b20e04fab9ac4308a6db4955df", null ],
-    [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a020223388fec00c5ab76186059b71791", null ],
+    [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a7e33b09c0be4fa07f7a42701b8005915", null ],
+    [ "TransitionMatrix", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#abae32bb46265f889f355a9f3b12cc897", null ],
     [ "decayDescriptor", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a171c83c7c85bc47bdd5a3d787b2a5a97", null ],
     [ "operator()", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a99b3c8645d02fd9cb6bbf5a1945064f7", null ],
     [ "operator()", "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#ad07174eb665b5c839fd7ca019d1592ea", null ],

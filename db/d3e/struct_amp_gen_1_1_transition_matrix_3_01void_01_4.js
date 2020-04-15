@@ -2,8 +2,8 @@ var struct_amp_gen_1_1_transition_matrix_3_01void_01_4 =
 [
     [ "amp_type", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a5fbdd2603306ea28a6bbfcc0701d70a8", null ],
     [ "TransitionMatrix", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#aae9c75138ffd2af119c3276ace3ca1bd", null ],
-    [ "TransitionMatrix", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a6419ce2ca9e970d65b3e30d168945e90", null ],
-    [ "TransitionMatrix", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a2baf013bd0988c49b9af8c2ca4893a2a", null ],
+    [ "TransitionMatrix", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a77d8f398ce1756837f4794303ed8555e", null ],
+    [ "TransitionMatrix", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a9e305663243212b45682818cd73fe81b", null ],
     [ "decayDescriptor", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#ac0ab00e47e65ef86a5dc222aa2f09ab6", null ],
     [ "operator()", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a6f709ce156c6ae331ca34d7b51861f54", null ],
     [ "operator()", "db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#ad1fe330c16c1d01ff31c2619da1cf3c5", null ],

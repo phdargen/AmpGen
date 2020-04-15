@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"d3/d21/_wigner_8h.html#a73ca2984b05feaa7e2cfc7f6fb1acf11":[7,0,72,2],
+"d3/d21/_wigner_8h.html#a7802f7964d4d697401e0e1965a2dfea3":[7,0,72,7],
 "d3/d21/_wigner_8h.html#aa90608e901ce48f7c3422e36c2689082":[7,0,72,8],
 "d3/d21/_wigner_8h.html#ac66fce0250eea42b73bac6d28b7c2db1":[7,0,72,3],
 "d3/d21/_wigner_8h.html#accb910c903aa4d36ff43121b6fc53f58":[7,0,72,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "d4/d2d/class_amp_gen_1_1_fit_result.html#a3e05901fe40ad13d25d31e14616a8c55":[3,0,48,20],
 "d4/d2d/class_amp_gen_1_1_fit_result.html#a50f80c692f19e17aa813eaa6bbb8a16c":[3,0,48,9],
 "d4/d2d/class_amp_gen_1_1_fit_result.html#a55ac8ef8d5c25acf3317ee05a0646b52":[3,0,48,27],
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a62e841325cb0586dce7bb60c70a0f2a9":[3,0,48,5],
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a754a15c38d48cf26e172cb39da124699":[3,0,48,30],
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a7be306dee3c5cb7793473d7b18fef17e":[3,0,48,2]
+"d4/d2d/class_amp_gen_1_1_fit_result.html#a62e841325cb0586dce7bb60c70a0f2a9":[3,0,48,5]
 };

@@ -37,17 +37,17 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d1/d4e/class_amp_gen_1_1_helicity_cosine.html#ab946e30670139b4c23e385fa3e0e4a86",
-"d3/d21/_wigner_8h.html#aa90608e901ce48f7c3422e36c2689082",
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a7cda752b74d97a6c3723b7d74f7c3870",
+"d3/d21/_wigner_8h.html#a73ca2984b05feaa7e2cfc7f6fb1acf11",
+"d4/d2d/class_amp_gen_1_1_fit_result.html#a754a15c38d48cf26e172cb39da124699",
 "d5/ddb/struct_amp_gen_1_1_vertex_1_1f__f_s___s1.html#a636635d425473883797935c99ffb8156",
-"d7/d51/struct_amp_gen_1_1_a_v_x2d_1_1complex__t.html#ae2c178102d155b7ae97a5a4b3ef7ef5d",
-"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a39851f1e76afee2ee1ed3db376ca3da2",
-"da/d76/class_amp_gen_1_1_log.html#a5fdee8af61462afcf96a8642af899c0f",
-"db/d51/class_amp_gen_1_1_greater_than.html#a25d1c712de08a4135b9f244339bc276b",
-"dc/daa/namespace_amp_gen_1_1_a_v_x2d.html",
-"de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html#ad976467da5d6af6ce69ea73de955aed8",
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a318c010662b01b588200161dc2495848",
-"namespacemembers_g.html"
+"d7/d51/struct_amp_gen_1_1_a_v_x2d_1_1complex__t.html#af599fd500b4778fdd7e81274f56c4e30",
+"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a3a4d59eede785907bc706ba61235607f",
+"da/d5b/class_amp_gen_1_1_fit_fraction.html#a5aa89233d71a075c0a74516487ee1e87",
+"db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a6ddd559a3d0e6f86a9d9e5c119f15dfc",
+"dc/d82/namespace_amp_gen.html#aeba98fd8bfc3c1e3a0df55a68ed0701c",
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#a97199aa931b61e498f3be1444029f737",
+"df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#ad371aec8a93a2882e9065eb2d906dc50",
+"namespacemembers_func_l.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -76,7 +76,7 @@ var searchData=
   ['correlation',['correlation',['../d4/d2d/class_amp_gen_1_1_fit_result.html#aac038966e68ab17eb26c0138e932d6c1',1,'AmpGen::FitResult']]],
   ['correlationmatrix',['correlationMatrix',['../db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a7fa23e2e9b148ff2d604c49f848973da',1,'AmpGen::LinearErrorPropagator']]],
   ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html',1,'AmpGen']]],
-  ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html#a6951431c7d7d6a39c646bf5d014e4f9c',1,'AmpGen::Cos::Cos()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a511deef37e2707a89cd465a1c1c65dc0',1,'AmpGen::fcn::cos()'],['../d6/d09/namespace_amp_gen_1_1_a_v_x2.html#aef15dbec8bc0314edd3dbb72fee9a92e',1,'AmpGen::AVX2::cos()']]],
+  ['cos',['Cos',['../d3/d77/class_amp_gen_1_1_cos.html#a6951431c7d7d6a39c646bf5d014e4f9c',1,'AmpGen::Cos::Cos()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a511deef37e2707a89cd465a1c1c65dc0',1,'AmpGen::fcn::cos()'],['../d6/d09/namespace_amp_gen_1_1_a_v_x2.html#aef15dbec8bc0314edd3dbb72fee9a92e',1,'AmpGen::AVX2::cos()'],['../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#aae77ee9f6cdf001c13f8e529c7554f8f',1,'AmpGen::AVX2d::cos()']]],
   ['cos256_5fps',['cos256_ps',['../d7/d0e/avx__mathfun_8h.html#a870022cd69b5316c486f99cbfdd904be',1,'avx_mathfun.h']]],
   ['cosh',['cosh',['../dc/d82/namespace_amp_gen.html#abb80a00e869b92b479100b105715cefe',1,'AmpGen']]],
   ['count',['count',['../db/d4b/class_amp_gen_1_1_event_list.html#ac414d4ca246f68957dd7e40b61af8b25',1,'AmpGen::EventList::count()'],['../d7/dfa/class_amp_gen_1_1_event_type.html#a6e02c62b27ed3cdbaec27b2d15e4c523',1,'AmpGen::EventType::count()']]],

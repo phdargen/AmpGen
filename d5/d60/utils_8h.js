@@ -8,7 +8,7 @@ var utils_8h =
     [ "float_v", "d5/d60/utils_8h.html#aa4074ae17b58a7ac9784af37e9786957", null ],
     [ "aligned_size", "d5/d60/utils_8h.html#aca62c33f96f2b0737c3fb7ac527814af", null ],
     [ "at", "d5/d60/utils_8h.html#a90001a4de9420f6853abee29a162e3a0", null ],
-    [ "gather", "d5/d60/utils_8h.html#a8bac0aaa0062e26eb270aff0979fb3bf", null ],
+    [ "gather", "d5/d60/utils_8h.html#a31157fdb3fbdc387e44f79ec2b31b038", null ],
     [ "get", "d5/d60/utils_8h.html#ad5aad9f9f36264a50fe094f3102f8619", null ],
     [ "norm", "d5/d60/utils_8h.html#a83e436f8ff18de00e22f28df4702bb82", null ],
     [ "store", "d5/d60/utils_8h.html#a8a9a4187e9e21b0a956a26b63807d957", null ],

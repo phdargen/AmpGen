@@ -129,9 +129,6 @@ class AmpGen::Store&lt; stored_type, align &gt;</h3>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a011dbe755b78e5cc4c12aae1df9276bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html#a011dbe755b78e5cc4c12aae1df9276bf">Store</a> (const size_t &amp;nEntries=0, const size_t &amp;<a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html#ab508079dbb8e70a47ec22460f889434d">nFields</a>=0)</td></tr>
 <tr class="separator:a011dbe755b78e5cc4c12aae1df9276bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53bb600f73bd9895f8818a4fdefdc592"><td class="memTemplParams" colspan="2">template&lt;class functor_type , class input_type &gt; </td></tr>
-<tr class="memitem:a53bb600f73bd9895f8818a4fdefdc592"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html#a53bb600f73bd9895f8818a4fdefdc592">Store</a> (const <a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html">Store</a>&lt; input_type, Alignment::AoS &gt; &amp;<a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html#a2805e4cdd80ee70350390eaf0623efbf">store</a>, const std::vector&lt; functor_type &gt; &amp;functors, const size_t &amp;fieldsPerFunctor=0)</td></tr>
-<tr class="separator:a53bb600f73bd9895f8818a4fdefdc592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d6c9716503837283335642eb41033d7"><td class="memTemplParams" colspan="2">template&lt;class functor_type &gt; </td></tr>
 <tr class="memitem:a5d6c9716503837283335642eb41033d7"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html#a5d6c9716503837283335642eb41033d7">Store</a> (const size_t &amp;nEntries, const std::vector&lt; functor_type &gt; &amp;functors, const size_t &amp;fieldsPerFunctor=0)</td></tr>
 <tr class="separator:a5d6c9716503837283335642eb41033d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,52 +202,6 @@ template&lt;class stored_type, Alignment align = SoA&gt; </div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d4/deb/_store_8h_source.html#l00016">16</a> of file <a class="el" href="../../d4/deb/_store_8h_source.html">Store.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a53bb600f73bd9895f8818a4fdefdc592"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class stored_type, Alignment align = SoA&gt; </div>
-<div class="memtemplate">
-template&lt;class functor_type , class input_type &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html">AmpGen::Store</a>&lt; stored_type, align &gt;::<a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html">Store</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html">Store</a>&lt; input_type, Alignment::AoS &gt; &amp;&#160;</td>
-          <td class="paramname"><em>store</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; functor_type &gt; &amp;&#160;</td>
-          <td class="paramname"><em>functors</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const size_t &amp;&#160;</td>
-          <td class="paramname"><em>fieldsPerFunctor</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/deb/_store_8h_source.html#l00022">22</a> of file <a class="el" href="../../d4/deb/_store_8h_source.html">Store.h</a>.</p>
 
 </div>
 </div>
@@ -802,7 +753,7 @@ template&lt;class functor_type &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d6/dd1/class_amp_gen_1_1_store.html">Store</a></li>
-    <li class="footer">Generated on Tue Apr 14 2020 19:07:38 for AmpGen by
+    <li class="footer">Generated on Wed Apr 15 2020 17:20:36 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

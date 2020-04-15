@@ -111,7 +111,8 @@ $(document).ready(function(){initNavTree('dc/d3f/namespace_amp_gen_1_1detail.htm
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">AmpGen::detail Namespace Reference</div>  </div>
 </div><!--header-->
@@ -136,10 +137,17 @@ Functions</h2></td></tr>
 <tr class="memitem:af07fd6f07c582d1cb50a878ca2beadae"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:af07fd6f07c582d1cb50a878ca2beadae"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a> (const T &amp;enumItem, const char *args)</td></tr>
 <tr class="separator:af07fd6f07c582d1cb50a878ca2beadae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22db060b64948b98faf4c1d700a8c1ae"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a22db060b64948b98faf4c1d700a8c1ae">trimmedString</a> (std::string thing, const unsigned int &amp;length=45)</td></tr>
-<tr class="separator:a22db060b64948b98faf4c1d700a8c1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1883dced7ba4b50a12db2e71d3dc9a88"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1883dced7ba4b50a12db2e71d3dc9a88">trimmedString</a> (std::string thing, const unsigned int &amp;length=<a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#ac0eb783fc13280cf86e55c9687cdfcc8">FCNNAMELENGTH</a>)</td></tr>
+<tr class="separator:a1883dced7ba4b50a12db2e71d3dc9a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63f8ee6da89b90b6443675747ebfbc6"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#aa63f8ee6da89b90b6443675747ebfbc6">labelled_stream</a> (const std::string &amp;function_name)</td></tr>
+<tr class="separator:aa63f8ee6da89b90b6443675747ebfbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67361686717a17b482858d2d1f6ea210"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a67361686717a17b482858d2d1f6ea210">solve_pade</a> (const std::function&lt; double(const double &amp;)&gt; &amp;fcn, const double &amp;min, const double &amp;max, const unsigned &amp;N, const <a class="el" href="../../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949">Strategy</a> &amp;strat=Strategy::linear)</td></tr>
 <tr class="separator:a67361686717a17b482858d2d1f6ea210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac0eb783fc13280cf86e55c9687cdfcc8"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#ac0eb783fc13280cf86e55c9687cdfcc8">FCNNAMELENGTH</a> = 45</td></tr>
+<tr class="separator:ac0eb783fc13280cf86e55c9687cdfcc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="db/d79/struct_amp_gen_1_1detail_1_1zero_type" id="db/d79/struct_amp_gen_1_1detail_1_1zero_type"></a>
@@ -164,6 +172,32 @@ type</td>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aa63f8ee6da89b90b6443675747ebfbc6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; AmpGen::detail::labelled_stream </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>function_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/daa/_msg_service_8h_source.html#l00046">46</a> of file <a class="el" href="../../d9/daa/_msg_service_8h_source.html">MsgService.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a1c3884f18ec32caaaf72e99df0c48ae4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +302,7 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a22db060b64948b98faf4c1d700a8c1ae"></a>
+<a class="anchor" id="a1883dced7ba4b50a12db2e71d3dc9a88"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -285,7 +319,7 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const unsigned int &amp;&#160;</td>
-          <td class="paramname"><em>length</em> = <code>45</code>&#160;</td>
+          <td class="paramname"><em>length</em> = <code><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#ac0eb783fc13280cf86e55c9687cdfcc8">FCNNAMELENGTH</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -300,7 +334,30 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/daa/_msg_service_8h_source.html#l00024">24</a> of file <a class="el" href="../../d9/daa/_msg_service_8h_source.html">MsgService.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/daa/_msg_service_8h_source.html#l00025">25</a> of file <a class="el" href="../../d9/daa/_msg_service_8h_source.html">MsgService.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ac0eb783fc13280cf86e55c9687cdfcc8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int AmpGen::detail::FCNNAMELENGTH = 45</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/daa/_msg_service_8h_source.html#l00023">23</a> of file <a class="el" href="../../d9/daa/_msg_service_8h_source.html">MsgService.h</a>.</p>
 
 </div>
 </div>
@@ -310,7 +367,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../dc/d3f/namespace_amp_gen_1_1detail.html">detail</a></li>
-    <li class="footer">Generated on Tue Apr 14 2020 19:07:38 for AmpGen by
+    <li class="footer">Generated on Wed Apr 15 2020 17:20:36 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

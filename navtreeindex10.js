@@ -1,5 +1,16 @@
 var NAVTREEINDEX10 =
 {
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#a97199aa931b61e498f3be1444029f737":[3,0,77,3],
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#aa4c2b176f0d674c8420fc146728bd3fd":[3,0,77,4],
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#adc941c3754ab52063fd6b1abc7a2ae0d":[3,0,77,2],
+"de/d24/class_amp_gen_1_1_minuit_proxy.html#af2eaebaaf189d862f99f411da14e8e1f":[3,0,77,5],
+"de/d2b/class_amp_gen_1_1_pade.html":[3,0,83],
+"de/d2b/class_amp_gen_1_1_pade.html#a3580626475b8d6e317886ead1af85246":[3,0,83,0],
+"de/d2b/class_amp_gen_1_1_pade.html#ab54f9f844e6b3aff8e72d1dbcd930fde":[3,0,83,1],
+"de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html":[3,0,3,9],
+"de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html#a414893a6a67a68c6700463795d9f8a25":[3,0,3,9,3],
+"de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html#a666b1f7d370281a2f432f716f48ba286":[3,0,3,9,4],
+"de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html#a89db996b82c9b412c2d9e011afa740fa":[3,0,3,9,0],
 "de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html#ad976467da5d6af6ce69ea73de955aed8":[3,0,3,9,2],
 "de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html#ae0a4042b896c0f6cd580b5894b9d88b9":[3,0,3,9,1],
 "de/d3c/_options_parser_8h.html":[7,0,45],
@@ -238,16 +249,5 @@ var NAVTREEINDEX10 =
 "de/df5/class_amp_gen_1_1_less_than.html#ae88f279c3e31d4c818ef9be25640cb04":[0,0,15,2],
 "df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html":[3,0,5,12],
 "df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#a636635d425473883797935c99ffb8156":[3,0,5,12,1],
-"df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#a6ee7dff07e223e7d97bb4a1849da6231":[3,0,5,12,3],
-"df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#ad371aec8a93a2882e9065eb2d906dc50":[3,0,5,12,2],
-"df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#ad79f8b3193d5d915a591fee059c41500":[3,0,5,12,0],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html":[3,0,5,40],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a0fb279c8daae67101b582e6a4d6d82d5":[3,0,5,40,0],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a620299d4c70d5fc42b162d929d4310e1":[3,0,5,40,2],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#a636635d425473883797935c99ffb8156":[3,0,5,40,1],
-"df/d0e/struct_amp_gen_1_1_vertex_1_1_t___v_s___p.html#af0af14784fa6ced6fa183bd965b9c296":[3,0,5,40,3],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html":[3,0,30],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a105749ae21319dd3910e4041a56fb8f0":[3,0,30,8],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a105f83b1f97653ff65b83372ca4a9a09":[3,0,30,3],
-"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a15ffec786264dd1762caf9f27681cbed":[3,0,30,13]
+"df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#a6ee7dff07e223e7d97bb4a1849da6231":[3,0,5,12,3]
 };

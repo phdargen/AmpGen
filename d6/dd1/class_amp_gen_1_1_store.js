@@ -1,7 +1,6 @@
 var class_amp_gen_1_1_store =
 [
     [ "Store", "d6/dd1/class_amp_gen_1_1_store.html#a011dbe755b78e5cc4c12aae1df9276bf", null ],
-    [ "Store", "d6/dd1/class_amp_gen_1_1_store.html#a53bb600f73bd9895f8818a4fdefdc592", null ],
     [ "Store", "d6/dd1/class_amp_gen_1_1_store.html#a5d6c9716503837283335642eb41033d7", null ],
     [ "aligned_size", "d6/dd1/class_amp_gen_1_1_store.html#a8251b0548ec94f8b95be83b14659d81a", null ],
     [ "clear", "d6/dd1/class_amp_gen_1_1_store.html#afc45acc49c7de6b2fade7d27e2c96f94", null ],

@@ -26,6 +26,7 @@ var searchData=
   ['refreshqueue',['refreshQueue',['../dc/d42/class_amp_gen_1_1_bin_d_t.html#a227a6f355751b49f3e8ac55b662f1a14',1,'AmpGen::BinDT::refreshQueue()'],['../da/da8/class_amp_gen_1_1_fast_d_t.html#aa32816ea0961a83dbb233063bf80de09',1,'AmpGen::FastDT::refreshQueue()']]],
   ['register',['Register',['../d8/db1/class_amp_gen_1_1_factory.html#a95878aabdad07f229606592ed3a6dfb1',1,'AmpGen::Factory::Register()'],['../d7/de6/_factory_8h.html#a745549b2854f14e2a221dbf81ca53d6e',1,'REGISTER():&#160;Factory.h']]],
   ['register_5fwith_5fkey',['REGISTER_WITH_KEY',['../d7/de6/_factory_8h.html#a93fb3e446a20003196dee0125663dcae',1,'Factory.h']]],
+  ['remainder',['remainder',['../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a40f85f5038ff49e1b7182d3935306eb6',1,'AmpGen::AVX2d']]],
   ['rename',['rename',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a6ebf3cd32d45aa44dfa7b4651660be89',1,'AmpGen::MinuitParameterSet']]],
   ['rend',['rend',['../db/d4b/class_amp_gen_1_1_event_list.html#ae681fa85562a54c4332aa54fe8a26fb4',1,'AmpGen::EventList::rend()'],['../d0/dd5/class_amp_gen_1_1_transform_sequence.html#a394d848144664c4a847fb0542885a0ff',1,'AmpGen::TransformSequence::rend()']]],
   ['reorder',['reorder',['../d6/dc0/class_amp_gen_1_1_tensor_proxy.html#a27a1f5a5cfee42882fa16e1b7e4ba388',1,'AmpGen::TensorProxy']]],

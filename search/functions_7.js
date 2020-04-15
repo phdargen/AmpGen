@@ -3,7 +3,7 @@ var searchData=
   ['g',['g',['../d0/dea/struct_amp_gen_1_1pole_config.html#a5606fe7b88e1497d4d0a1ce11ba8d340',1,'AmpGen::poleConfig::g()'],['../db/d37/class_amp_gen_1_1_particle_properties.html#a77b9444152bac6caa69af2e4797f83e8',1,'AmpGen::ParticleProperties::G()']]],
   ['gamma4vec',['Gamma4Vec',['../dc/d82/namespace_amp_gen.html#ab3f09315acab1605f019db953e78898f',1,'AmpGen']]],
   ['gamma_5ftwiddle',['gamma_twiddle',['../dc/d82/namespace_amp_gen.html#aee5a62db90e91536a2a4f82c73db5adc',1,'AmpGen']]],
-  ['gather',['gather',['../df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#aa3d636764fd69e0e2f3dc4b6ae8e4347',1,'AmpGen::EventListSIMD::gather()'],['../d3/d7b/namespace_amp_gen_1_1utils.html#a8bac0aaa0062e26eb270aff0979fb3bf',1,'AmpGen::utils::gather()']]],
+  ['gather',['gather',['../df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#aa3d636764fd69e0e2f3dc4b6ae8e4347',1,'AmpGen::EventListSIMD::gather()'],['../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#afdd8cb279759596580c7e3fbe41f9d8a',1,'AmpGen::AVX2d::gather()'],['../d3/d7b/namespace_amp_gen_1_1utils.html#a31157fdb3fbdc387e44f79ec2b31b038',1,'AmpGen::utils::gather()']]],
   ['gausserrorpropagator',['GaussErrorPropagator',['../d1/de8/class_amp_gen_1_1_gauss_error_propagator.html#a37fc466e57e83a48721acf46def5a90b',1,'AmpGen::GaussErrorPropagator']]],
   ['gaussian',['Gaussian',['../d0/d81/class_amp_gen_1_1_lineshape_1_1_gaussian.html#a2a38e7ef65edb3fdf4e29170ef96ca87',1,'AmpGen::Lineshape::Gaussian']]],
   ['genbw',['genBW',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a592b630a2b8787808daa61bce3df0a86',1,'AmpGen::TreePhaseSpace::Vertex']]],

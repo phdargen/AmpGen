@@ -2,6 +2,7 @@ var searchData=
 [
   ['l',['l',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#a66ec00cfdbc323ef44128a9cec789e0f',1,'AmpGen::IBinaryExpression::l()'],['../de/dd7/class_amp_gen_1_1_particle.html#a47b28271dd2e60c2faadbfb24ef8abee',1,'AmpGen::Particle::L()']]],
   ['label',['label',['../d7/dfa/class_amp_gen_1_1_event_type.html#a8307a7bd854bc064bbb3f205e15f6a5b',1,'AmpGen::EventType::label(const unsigned &amp;index, bool isRoot=true) const '],['../d7/dfa/class_amp_gen_1_1_event_type.html#ac8aad3b0ffbf692c343a9b58a4c96c94',1,'AmpGen::EventType::label(const std::vector&lt; unsigned &gt; &amp;index, bool isRoot=true) const '],['../db/d37/class_amp_gen_1_1_particle_properties.html#a98ed11efb5cafddf760448d291fb931a',1,'AmpGen::ParticleProperties::label()']]],
+  ['labelled_5fstream',['labelled_stream',['../dc/d3f/namespace_amp_gen_1_1detail.html#aa63f8ee6da89b90b6443675747ebfbc6',1,'AmpGen::detail']]],
   ['lass',['LASS',['../dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#a3a76149016a07d027cfde65b61210266',1,'AmpGen::Lineshape::LASS']]],
   ['lessthan',['LessThan',['../de/df5/class_amp_gen_1_1_less_than.html#ace98f45696f4c4bf246ea0034d1e9bdd',1,'AmpGen::LessThan']]],
   ['levicivita',['LeviCivita',['../dc/d82/namespace_amp_gen.html#a591151b866f7843f8e320d3f7d6ed2b7',1,'AmpGen']]],
@@ -16,7 +17,7 @@ var searchData=
   ['loadfromfile',['loadFromFile',['../db/d4b/class_amp_gen_1_1_event_list.html#a73020e934d8787e6fff10351b30487b5',1,'AmpGen::EventList::loadFromFile()'],['../df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#aaa0a84b77fabda358e8b5bd122c1a75a',1,'AmpGen::EventListSIMD::loadFromFile()'],['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ab5312be740863d3b722fe2ff75afc141',1,'AmpGen::MinuitParameterSet::loadFromFile()']]],
   ['loadfromstream',['loadFromStream',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a73351a65a03f5930eac7bf6cc56a5680',1,'AmpGen::MinuitParameterSet']]],
   ['loadfromtree',['loadFromTree',['../db/d4b/class_amp_gen_1_1_event_list.html#aa7078a95d4922eefab11cd7d1139ff42',1,'AmpGen::EventList::loadFromTree()'],['../df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html#ad2f15a779960ad4b1b87953a8f7371b6',1,'AmpGen::EventListSIMD::loadFromTree()']]],
-  ['log',['Log',['../da/d76/class_amp_gen_1_1_log.html#aa2594241c3e232e8a72da7f6351fb40b',1,'AmpGen::Log::Log()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a9fc04046b6dcbcbf691c5c2b28093c50',1,'AmpGen::fcn::log()'],['../d6/d09/namespace_amp_gen_1_1_a_v_x2.html#a38ee33cb4da7490b92d364fec88a85c6',1,'AmpGen::AVX2::log()'],['../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#aaa8a7690e37366bbd44595de0f333790',1,'AmpGen::AVX2d::log()']]],
+  ['log',['Log',['../da/d76/class_amp_gen_1_1_log.html#aa2594241c3e232e8a72da7f6351fb40b',1,'AmpGen::Log::Log()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a9fc04046b6dcbcbf691c5c2b28093c50',1,'AmpGen::fcn::log()'],['../d6/d09/namespace_amp_gen_1_1_a_v_x2.html#a38ee33cb4da7490b92d364fec88a85c6',1,'AmpGen::AVX2::log()'],['../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a611aa58fb30e776f9d7a873fed682186',1,'AmpGen::AVX2d::log()']]],
   ['log256_5fps',['log256_ps',['../d7/d0e/avx__mathfun_8h.html#a5524d1281112e2761d9d47143ac27897',1,'avx_mathfun.h']]],
   ['ltrim',['ltrim',['../dc/d82/namespace_amp_gen.html#affc57966d44464abe8dd59241215c8b1',1,'AmpGen']]]
 ];

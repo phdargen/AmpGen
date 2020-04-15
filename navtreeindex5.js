@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d7/d51/struct_amp_gen_1_1_a_v_x2d_1_1complex__t.html#ae2c178102d155b7ae97a5a4b3ef7ef5d":[3,0,1,0,6],
 "d7/d51/struct_amp_gen_1_1_a_v_x2d_1_1complex__t.html#af599fd500b4778fdd7e81274f56c4e30":[3,0,1,0,0],
 "d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html":[3,0,5,20],
 "d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html#a4c06f4afd215c72a4019dffd06d9efff":[3,0,5,20,2],
@@ -27,15 +26,15 @@ var NAVTREEINDEX5 =
 "d7/d9c/_minuit_expression_8h.html":[7,0,40],
 "d7/d9c/_minuit_expression_8h_source.html":[7,0,40],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html":[3,0,125],
-"d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a020223388fec00c5ab76186059b71791":[3,0,125,3],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a027aec5003faa3b67e25e04ba34d0346":[3,0,125,7],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a171c83c7c85bc47bdd5a3d787b2a5a97":[3,0,125,4],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a52de7db488ee1976c77ba90c6ab24c93":[3,0,125,12],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a74258b1d82abc5f0f67d1c3195e9c5a4":[3,0,125,11],
-"d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a7d11b5b20e04fab9ac4308a6db4955df":[3,0,125,2],
+"d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a7e33b09c0be4fa07f7a42701b8005915":[3,0,125,2],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a90a8508d8f932d990640fb1ddd7f8b67":[3,0,125,10],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a99b3c8645d02fd9cb6bbf5a1945064f7":[3,0,125,5],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a9f8e0fde2c67927455f8b2bc7d724fb9":[3,0,125,8],
+"d7/dc0/struct_amp_gen_1_1_transition_matrix.html#abae32bb46265f889f355a9f3b12cc897":[3,0,125,3],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#ac4f00db4e81d4fb3a14ea6dcaf70b80c":[3,0,125,9],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#ad07174eb665b5c839fd7ca019d1592ea":[3,0,125,6],
 "d7/dc0/struct_amp_gen_1_1_transition_matrix.html#ae7b6b088ee7b2d0dd4b57da5c2ca8714":[3,0,125,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html":[3,0,127,0],
 "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a13bbad295fa35292014ebcb93b587fbc":[3,0,127,0,23],
 "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a1bb962b5381faae36497859a308f859d":[3,0,127,0,25],
-"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a2cb45ecabe0446687401151ed123bc78":[3,0,127,0,30]
+"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a2cb45ecabe0446687401151ed123bc78":[3,0,127,0,30],
+"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a39851f1e76afee2ee1ed3db376ca3da2":[3,0,127,0,35]
 };
