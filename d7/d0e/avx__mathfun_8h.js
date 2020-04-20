@@ -16,7 +16,7 @@ var avx__mathfun_8h =
     [ "avx2_mm256_andnot_si256", "d7/d0e/avx__mathfun_8h.html#a2d7c450ca52d53d87d3349d500ff3294", null ],
     [ "COPY_IMM_TO_XMM", "d7/d0e/avx__mathfun_8h.html#ad6a39a8c2a9e16b3d4c7d7cd426de8f0", null ],
     [ "COPY_XMM_TO_IMM", "d7/d0e/avx__mathfun_8h.html#a48bd2b98e231a3093c3d32b671d72e69", null ],
-    [ "imm_xmm_union", "d7/d0e/avx__mathfun_8h.html#aec3358721dd43eedde595aadaf3a9a9a", null ],
+    [ "imm_xmm_union", "d7/d0e/avx__mathfun_8h.html#abc2762569ba9cec597471798b6749e8a", null ],
     [ "v4si", "d7/d0e/avx__mathfun_8h.html#a6ce9fbdb544d9dc4ce9edd4a16bf690b", null ],
     [ "v8sf", "d7/d0e/avx__mathfun_8h.html#a6bdddd9e9ff4ed29daf51fb30b4e0782", null ],
     [ "v8si", "d7/d0e/avx__mathfun_8h.html#ac202dee917c685b5b212473cf338a5b4", null ],

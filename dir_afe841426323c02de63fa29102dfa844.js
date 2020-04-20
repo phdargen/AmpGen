@@ -70,16 +70,15 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "IncoherentSum", "db/d29/class_amp_gen_1_1_incoherent_sum.html", "db/d29/class_amp_gen_1_1_incoherent_sum" ]
     ] ],
     [ "Integrator.h", "dc/d50/_integrator_8h.html", [
-      [ "Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", "d1/d6c/class_amp_gen_1_1_bilinears" ],
-      [ "Integral", "d5/d4f/struct_amp_gen_1_1_integral.html", "d5/d4f/struct_amp_gen_1_1_integral" ],
-      [ "Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", "d5/dfb/class_amp_gen_1_1_integrator" ]
+      [ "Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", "d5/dfb/class_amp_gen_1_1_integrator" ],
+      [ "Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", "d1/d6c/class_amp_gen_1_1_bilinears" ]
     ] ],
     [ "Kinematics.h", "d0/dee/_kinematics_8h.html", "d0/dee/_kinematics_8h" ],
     [ "kMatrix.h", "d2/d41/k_matrix_8h.html", "d2/d41/k_matrix_8h" ],
     [ "Lineshapes.h", "da/dcc/_lineshapes_8h.html", "da/dcc/_lineshapes_8h" ],
     [ "LiteSpan.h", "d9/dd3/_lite_span_8h.html", [
       [ "LiteSpan", "de/d0f/class_amp_gen_1_1_lite_span.html", "de/d0f/class_amp_gen_1_1_lite_span" ],
-      [ "KeyedView", "d0/dbd/class_amp_gen_1_1_keyed_view.html", "d0/dbd/class_amp_gen_1_1_keyed_view" ]
+      [ "KeyedFunctors", "db/d10/struct_amp_gen_1_1_keyed_functors.html", "db/d10/struct_amp_gen_1_1_keyed_functors" ]
     ] ],
     [ "MetaUtils.h", "d4/d85/_meta_utils_8h.html", "d4/d85/_meta_utils_8h" ],
     [ "Minimiser.h", "da/df9/_minimiser_8h.html", null ],

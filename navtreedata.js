@@ -1,3 +1,27 @@
+/*
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
+
+ The MIT License (MIT)
+
+ Copyright (C) 1997-2020 by Dimitri van Heesch
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "AmpGen", "index.html", [
@@ -36,18 +60,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d4e/class_amp_gen_1_1_helicity_cosine.html#ab946e30670139b4c23e385fa3e0e4a86",
-"d3/d21/_wigner_8h.html#a73ca2984b05feaa7e2cfc7f6fb1acf11",
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a754a15c38d48cf26e172cb39da124699",
-"d5/ddb/struct_amp_gen_1_1_vertex_1_1f__f_s___s1.html#a636635d425473883797935c99ffb8156",
-"d7/d51/struct_amp_gen_1_1_a_v_x2d_1_1complex__t.html#af599fd500b4778fdd7e81274f56c4e30",
-"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a3a4d59eede785907bc706ba61235607f",
-"da/d5b/class_amp_gen_1_1_fit_fraction.html#a5aa89233d71a075c0a74516487ee1e87",
-"db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a6ddd559a3d0e6f86a9d9e5c119f15dfc",
-"dc/d82/namespace_amp_gen.html#aeba98fd8bfc3c1e3a0df55a68ed0701c",
-"de/d24/class_amp_gen_1_1_minuit_proxy.html#a97199aa931b61e498f3be1444029f737",
-"df/d0d/struct_amp_gen_1_1_vertex_1_1f___vf___d1.html#ad371aec8a93a2882e9065eb2d906dc50",
-"namespacemembers_func_l.html"
+"d1/d6c/class_amp_gen_1_1_bilinears.html",
+"d3/d21/_wigner_8h.html#ga98dfb6dcbdafd331079eeedd917633bb",
+"d4/d2d/class_amp_gen_1_1_fit_result.html#a7be306dee3c5cb7793473d7b18fef17e",
+"d5/dfb/class_amp_gen_1_1_integrator.html#add0a17807c3b2dbe350f29983e753b14",
+"d7/d6d/_amplitude_rules_8h.html#a3aaacbc415810fc183e019300a634b2d",
+"d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a6b83b70cb45401987f475482109e3eec",
+"da/d76/class_amp_gen_1_1_log.html#a251e55a0079e07075c905c74606f586c",
+"db/d4b/class_amp_gen_1_1_linear_error_propagator.html#a75732774535744666bc566431f7b84a5",
+"dc/d96/_compiled_expression_8h.html#ab79d7346a8911165377ad6ba90d8ed5e",
+"de/d39/class_amp_gen_1_1_lineshape_1_1_form_factor.html#a414893a6a67a68c6700463795d9f8a25",
+"df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a15ffec786264dd1762caf9f27681cbed",
+"namespacemembers_func_t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
