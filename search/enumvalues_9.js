@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spinor',['Spinor',['../d9/d03/class_amp_gen_1_1_transform.html#a0667d58f3fe94b7485e4afa9201914eda54e1935184a5f0284be4337d27f9e7cc',1,'AmpGen::Transform']]]
+  ['rotate_2435',['Rotate',['../d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5a1808a9bd3d3f1db89ff7d1aa8fbd61fe',1,'AmpGen::Transform']]]
 ];

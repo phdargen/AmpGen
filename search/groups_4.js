@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spin',['Spin',['../d0/de8/group___vertices.html',1,'']]]
+  ['spin_2479',['Spin',['../d0/de8/group___vertices.html',1,'']]]
 ];
