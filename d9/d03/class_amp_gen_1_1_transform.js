@@ -10,7 +10,7 @@ var class_amp_gen_1_1_transform =
       [ "Rotate", "d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5a1808a9bd3d3f1db89ff7d1aa8fbd61fe", null ]
     ] ],
     [ "Transform", "d9/d03/class_amp_gen_1_1_transform.html#aa5fe7d942c44c384994f44c5a4fe1e17", null ],
-    [ "inverse", "d9/d03/class_amp_gen_1_1_transform.html#ac50394dabbc86417f6605c624368c43d", null ],
-    [ "operator()", "d9/d03/class_amp_gen_1_1_transform.html#a35b5db5b94eb08a29c050011ba8f9d21", null ],
-    [ "operator()", "d9/d03/class_amp_gen_1_1_transform.html#a72e9cfcb475860d81d47e1651df3c226", null ]
+    [ "inverse", "d9/d03/class_amp_gen_1_1_transform.html#a808c13a1a2e0c03be656139d6fa09716", null ],
+    [ "operator()", "d9/d03/class_amp_gen_1_1_transform.html#afaf465cb22cd8041a648175f334e11ab", null ],
+    [ "operator()", "d9/d03/class_amp_gen_1_1_transform.html#add07188926c2752633970e358b5633fe", null ]
 ];

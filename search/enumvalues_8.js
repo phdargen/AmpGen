@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['quadratic_2433',['quadratic',['../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949a8cbd24c42f28b037d5e1a78269093d59',1,'AmpGen']]],
-  ['quartic_2434',['quartic',['../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949ac6f1ee49c3db000de1bb22527847064a',1,'AmpGen']]]
+  ['rotate',['Rotate',['../d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5a1808a9bd3d3f1db89ff7d1aa8fbd61fe',1,'AmpGen::Transform']]]
 ];
