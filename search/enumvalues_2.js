@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['differentorbital',['DifferentOrbital',['../de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869aec13604ba006f2b0256da6927be1d6bd',1,'AmpGen::Particle']]],
-  ['differentpolarisation',['DifferentPolarisation',['../de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869ae4d81654619de023b1f8a2798776e610',1,'AmpGen::Particle']]]
+  ['cubic_2447',['cubic',['../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949a2d8df74da1b209e85581914fa78e8822',1,'AmpGen']]]
 ];

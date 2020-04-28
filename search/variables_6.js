@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['gamma',['Gamma',['../dc/d82/namespace_amp_gen.html#aec21f9ae62c751b2066c7b45d4903e55',1,'AmpGen']]],
-  ['genericmodels',['genericModels',['../d5/dc6/struct_model_store.html#a2f22d40fd5a2410f82589b98773c5c6d',1,'ModelStore']]],
-  ['gev',['GeV',['../dc/d82/namespace_amp_gen.html#a8ec2a0393fc8a75e2c50caf7065e2c47',1,'AmpGen']]],
-  ['gexpressionparser',['gExpressionParser',['../d5/db3/class_amp_gen_1_1_expression_parser.html#afca8445e5ec6b88598ee6eed8c442859',1,'AmpGen::ExpressionParser']]],
-  ['gimpl',['gImpl',['../d8/db1/class_amp_gen_1_1_factory.html#a9641efd66c25f2003b962f34f657eefb',1,'AmpGen::Factory']]]
+  ['i_2307',['i',['../d2/d51/struct_amp_gen_1_1_fit_fraction_calculator_1_1fcalc.html#a6314d6ec61da6a904dfa26ffba3fd0d2',1,'AmpGen::FitFractionCalculator::fcalc::i()'],['../dc/d82/namespace_amp_gen.html#a8833f3957e8325ef10f18445f0b4a224',1,'AmpGen::I()']]],
+  ['im_2308',['im',['../d9/d37/struct_amp_gen_1_1_a_v_x2d_1_1complex__v.html#a122c96d9b1455b38562f217feb6f9266',1,'AmpGen::AVX2d::complex_v::im()'],['../d3/dfb/struct_amp_gen_1_1_a_v_x2_1_1complex__v.html#a2b6e91a7d95d4516013fe136b7304ff9',1,'AmpGen::AVX2::complex_v::im()'],['../d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#a1be08228053ee36ab2f131f677435bf2',1,'AmpGen::AVX512d::complex_v::im()']]],
+  ['imm_2309',['imm',['../d7/d0e/avx__mathfun_8h.html#a08c850ea7c70e6140402a2a7db4e8c2b',1,'imm_xmm_union']]],
+  ['index_2310',['index',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a7e358af3e83f72ba80638c77a9b91e82',1,'AmpGen::FastDT::Node::index()'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#ab4b9e9a3e1135b37fe2bebbb32e56462',1,'AmpGen::TreePhaseSpace::Vertex::index()']]],
+  ['indices_2311',['indices',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#afe9d85b3a519f8fc089ecc9da586dbdf',1,'AmpGen::TreePhaseSpace::Vertex']]],
+  ['isbw_2312',['isBW',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a4451809f125ff2c6a22ad8231dac8f94',1,'AmpGen::TreePhaseSpace::Vertex']]],
+  ['isstable_2313',['isStable',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a935869c74bb198101fd9f6d7d5904ef1',1,'AmpGen::TreePhaseSpace::Vertex']]]
 ];

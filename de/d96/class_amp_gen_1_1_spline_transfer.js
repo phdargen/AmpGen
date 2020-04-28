@@ -3,7 +3,7 @@ var class_amp_gen_1_1_spline_transfer =
     [ "SplineTransfer", "de/d96/class_amp_gen_1_1_spline_transfer.html#a4f312fec074bafa051531b0c2f0e53de", null ],
     [ "SplineTransfer", "de/d96/class_amp_gen_1_1_spline_transfer.html#afa0267b0feb651c37474b6ec254d592a", null ],
     [ "SplineTransfer", "de/d96/class_amp_gen_1_1_spline_transfer.html#ad0074de8f29777862c59e759490446cf", null ],
-    [ "address", "de/d96/class_amp_gen_1_1_spline_transfer.html#a48e884d9e54bd9c29007018ee117e6b6", null ],
+    [ "address", "de/d96/class_amp_gen_1_1_spline_transfer.html#a87a9d61d17abcfa980d126880094d5e9", null ],
     [ "isConfigured", "de/d96/class_amp_gen_1_1_spline_transfer.html#ad292fba8a58c146f195cfaa8c45752e8", null ],
     [ "print", "de/d96/class_amp_gen_1_1_spline_transfer.html#ae6d0427cbe0800c62412e343adf95bea", null ],
     [ "set", "de/d96/class_amp_gen_1_1_spline_transfer.html#aa0614c5ad9f092a991e41c82b8441b2e", null ],
