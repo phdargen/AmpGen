@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['p_2390',['p',['../dc/d82/namespace_amp_gen.html#aeba98fd8bfc3c1e3a0df55a68ed0701c',1,'AmpGen::LS']]],
-  ['particle_2391',['particle',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a8e0f25f8f58e4edabb7430f6ef637070',1,'AmpGen::TreePhaseSpace::Vertex']]],
-  ['pdf_2392',['pdf',['../d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html#a2b9371e4f60867630e20e8489b068857',1,'AmpGen::FitFractionCalculator']]],
-  ['phimax_2393',['phiMax',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#aee6172f1e32667dff7d742f0be7e4a3f',1,'AmpGen::TreePhaseSpace::Vertex']]],
-  ['phimin_2394',['phiMin',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a6a5805b61a1418856a30817813acc8d7',1,'AmpGen::TreePhaseSpace::Vertex']]]
+  ['outputfractionsa',['outputFractionsA',['../d1/d28/class_amp_gen_1_1_correlated_sum.html#a5f4ded33ad6d2f748adf6899b465b180',1,'AmpGen::CorrelatedSum::outputFractionsA()'],['../d6/d81/class_amp_gen_1_1p_correlated_sum.html#a332c07723be58e6ad236284bb3632cb4',1,'AmpGen::pCorrelatedSum::outputFractionsA()']]],
+  ['outputfractionsb',['outputFractionsB',['../d1/d28/class_amp_gen_1_1_correlated_sum.html#aa172b8d3a7d94a48746d729ad1b6b45d',1,'AmpGen::CorrelatedSum::outputFractionsB()'],['../d6/d81/class_amp_gen_1_1p_correlated_sum.html#aa4e75ff6ff9b30f3885dcbaca7688aee',1,'AmpGen::pCorrelatedSum::outputFractionsB()']]],
+  ['outputfractionsc',['outputFractionsC',['../d1/d28/class_amp_gen_1_1_correlated_sum.html#a9a938660182a030e7a0f56284c560b4e',1,'AmpGen::CorrelatedSum::outputFractionsC()'],['../d6/d81/class_amp_gen_1_1p_correlated_sum.html#ac05e8929ebf76ab8aef2eeb1a299d5e8',1,'AmpGen::pCorrelatedSum::outputFractionsC()']]],
+  ['outputfractionsd',['outputFractionsD',['../d1/d28/class_amp_gen_1_1_correlated_sum.html#aeba69c3544f1be2467eda1fbcfdfb80d',1,'AmpGen::CorrelatedSum::outputFractionsD()'],['../d6/d81/class_amp_gen_1_1p_correlated_sum.html#af1fbd82dc729cd996e0b45dd5f7b5c56',1,'AmpGen::pCorrelatedSum::outputFractionsD()']]]
 ];
