@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#a9cc83b5782f19a7186324afa19f4668c":[3,0,2,0,9],
 "d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#ac11017d8864b2b667a4662c03857dd7a":[3,0,2,0,16],
 "d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#ae15689213d6cc84bfeea21f54a475dbc":[3,0,2,0,2],
 "d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#aea592a916bb0577751361b6dfe305318":[3,0,2,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#ad976467da5d6af6ce69ea73de955aed8":[3,0,4,24,4],
 "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#ae0a4042b896c0f6cd580b5894b9d88b9":[3,0,4,24,1],
 "d3/d21/_wigner_8h.html":[7,0,72],
-"d3/d21/_wigner_8h.html#a6b80e25d13f69a0fcde603257979f4c4":[7,0,72,5],
-"d3/d21/_wigner_8h.html#a73ca2984b05feaa7e2cfc7f6fb1acf11":[7,0,72,2]
+"d3/d21/_wigner_8h.html#a6b80e25d13f69a0fcde603257979f4c4":[7,0,72,5]
 };

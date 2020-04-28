@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['rand_2393',['rand',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a2cb45ecabe0446687401151ed123bc78',1,'AmpGen::TreePhaseSpace::Vertex']]],
-  ['re_2394',['re',['../d9/d37/struct_amp_gen_1_1_a_v_x2d_1_1complex__v.html#a7a0cadca610d3cc8e86fbb1de4558dc4',1,'AmpGen::AVX2d::complex_v::re()'],['../d3/dfb/struct_amp_gen_1_1_a_v_x2_1_1complex__v.html#a0795447c0b6ad85a822308f2b67ae5ef',1,'AmpGen::AVX2::complex_v::re()'],['../d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#ac11017d8864b2b667a4662c03857dd7a',1,'AmpGen::AVX512d::complex_v::re()']]],
-  ['recalculateintegrals_2395',['recalculateIntegrals',['../d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html#acaf648ffe56c60dc9175d39159b7ac32',1,'AmpGen::FitFractionCalculator']]],
-  ['rhomax_2396',['rhoMax',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#af54265aea6982ccad96f2ef6ba2329ee',1,'AmpGen::TreePhaseSpace::Vertex']]],
-  ['right_2397',['right',['../d0/d80/struct_amp_gen_1_1_fast_d_t_1_1_node.html#a631aa155e334546ffe26b2a436f22a8b',1,'AmpGen::FastDT::Node::right()'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#ae30f21ee8cb4abe1403264846af6422b',1,'AmpGen::TreePhaseSpace::Vertex::right()']]],
-  ['rval_2398',['rval',['../d4/d63/class_amp_gen_1_1_i_binary_expression.html#aaa7a49341e2818be115b3533a268330b',1,'AmpGen::IBinaryExpression']]]
+  ['p_2390',['p',['../dc/d82/namespace_amp_gen.html#aeba98fd8bfc3c1e3a0df55a68ed0701c',1,'AmpGen::LS']]],
+  ['particle_2391',['particle',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a8e0f25f8f58e4edabb7430f6ef637070',1,'AmpGen::TreePhaseSpace::Vertex']]],
+  ['pdf_2392',['pdf',['../d3/d7c/struct_amp_gen_1_1_fit_fraction_calculator.html#a2b9371e4f60867630e20e8489b068857',1,'AmpGen::FitFractionCalculator']]],
+  ['phimax_2393',['phiMax',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#aee6172f1e32667dff7d742f0be7e4a3f',1,'AmpGen::TreePhaseSpace::Vertex']]],
+  ['phimin_2394',['phiMin',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a6a5805b61a1418856a30817813acc8d7',1,'AmpGen::TreePhaseSpace::Vertex']]]
 ];

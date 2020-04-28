@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d6/d9f/avx2f__types_8h.html#aa86e6abf20fa0edb22a98c6569bd3765":[7,0,0,1,5],
 "d6/d9f/avx2f__types_8h.html#aae22a205c304e45c3b75e335fd424086":[7,0,0,1,4],
 "d6/d9f/avx2f__types_8h.html#ab2c85ed699103d5abb9444510b9c7f1f":[7,0,0,1,52],
 "d6/d9f/avx2f__types_8h.html#aba381168376f380cc289db059812f8c4":[7,0,0,1,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d8/d4d/class_amp_gen_1_1_minuit_expression.html#aa12c13c318e3bdb0ebcea0d17beb41e9":[3,0,75,4],
 "d8/d4d/class_amp_gen_1_1_minuit_expression.html#ad124723a712843eafc0613af6fa5dc01":[3,0,75,6],
 "d8/d5e/_phase_space_8h.html":[7,0,50],
-"d8/d5e/_phase_space_8h_source.html":[7,0,50],
-"d8/d69/_units_8h.html":[7,0,69]
+"d8/d5e/_phase_space_8h_source.html":[7,0,50]
 };

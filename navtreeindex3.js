@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d4/d2d/class_amp_gen_1_1_fit_result.html#a523b27242c0fdf2f9a7ee41580fde505":[3,0,50,20],
 "d4/d2d/class_amp_gen_1_1_fit_result.html#a55ac8ef8d5c25acf3317ee05a0646b52":[3,0,50,27],
 "d4/d2d/class_amp_gen_1_1_fit_result.html#a583d93987d1570f24ae0a96a20b319f9":[3,0,50,19],
 "d4/d2d/class_amp_gen_1_1_fit_result.html#a62e841325cb0586dce7bb60c70a0f2a9":[3,0,50,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d5/db2/class_amp_gen_1_1_coupling.html#a6487e731cd414e9ecde43e7a538f315e":[3,0,31,3],
 "d5/db2/class_amp_gen_1_1_coupling.html#a97459dbae2fdb50e7aeead3dc0cf0dd5":[3,0,31,9],
 "d5/db2/class_amp_gen_1_1_coupling.html#aad91e9e0f44186bec08934585a248931":[3,0,31,11],
-"d5/db2/class_amp_gen_1_1_coupling.html#ab643a38b7256ae97202c877a1172e7c2":[3,0,31,10],
-"d5/db2/class_amp_gen_1_1_coupling.html#adc58febf6537d4ed9f247371cfdcfcfe":[3,0,31,0]
+"d5/db2/class_amp_gen_1_1_coupling.html#ab643a38b7256ae97202c877a1172e7c2":[3,0,31,10]
 };

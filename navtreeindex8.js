@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"db/d29/class_amp_gen_1_1_incoherent_sum.html":[3,0,63],
+"db/d29/class_amp_gen_1_1_incoherent_sum.html#a0ac23dea22192928bfd9942808f3f434":[3,0,63,25],
 "db/d29/class_amp_gen_1_1_incoherent_sum.html#a10c7bf38861fc75bb1da32d98aacb59b":[3,0,63,4],
 "db/d29/class_amp_gen_1_1_incoherent_sum.html#a1319acd8e2b752f5b405b992f7663dde":[3,0,63,35],
 "db/d29/class_amp_gen_1_1_incoherent_sum.html#a13fcd2929cd3b86488ec706a60953cf3":[3,0,63,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "db/d72/_utilities_8h.html#affc57966d44464abe8dd59241215c8b1":[7,0,70,16],
 "db/d72/_utilities_8h_source.html":[7,0,70],
 "db/d77/struct_amp_gen_1_1_vertex_1_1f__r_s___d.html":[3,0,6,7],
-"db/d77/struct_amp_gen_1_1_vertex_1_1f__r_s___d.html#a46578767804bcc53b1ae12ba250bc8ae":[3,0,6,7,3],
-"db/d77/struct_amp_gen_1_1_vertex_1_1f__r_s___d.html#a636635d425473883797935c99ffb8156":[3,0,6,7,1],
-"db/d77/struct_amp_gen_1_1_vertex_1_1f__r_s___d.html#a9317308f4b92c52f18c86efad7436dab":[3,0,6,7,0]
+"db/d77/struct_amp_gen_1_1_vertex_1_1f__r_s___d.html#a46578767804bcc53b1ae12ba250bc8ae":[3,0,6,7,3]
 };
