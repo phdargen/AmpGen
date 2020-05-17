@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"de/d94/class_amp_gen_1_1_generator.html#ada15aa8336c2399f9c4e526cdd654a02":[3,0,55,0],
 "de/d94/class_amp_gen_1_1_generator.html#adb3e6489456fc7d522fe7754c743c1b1":[3,0,55,6],
 "de/d96/class_amp_gen_1_1_lineshape_1_1_b_w.html":[0,2,1],
 "de/d96/class_amp_gen_1_1_lineshape_1_1_b_w.html#a2df8064881d943462e4d3cf3ef129a74":[0,2,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "df/d84/class_amp_gen_1_1_total_coupling.html#a263e64516a66e90b0914869e5c2ed574":[3,0,123,1],
 "df/d84/class_amp_gen_1_1_total_coupling.html#a41cae256579417969b497658f0284ad3":[3,0,123,6],
 "df/d84/class_amp_gen_1_1_total_coupling.html#a48bfd46420aee97d34a3f32b077cf2e0":[3,0,123,4],
-"df/d84/class_amp_gen_1_1_total_coupling.html#a6447eb0b307fe44844e45de5ed84e07f":[3,0,123,10],
-"df/d84/class_amp_gen_1_1_total_coupling.html#a7f4d3687ac806fb7f451af70ca6ca413":[3,0,123,3]
+"df/d84/class_amp_gen_1_1_total_coupling.html#a6447eb0b307fe44844e45de5ed84e07f":[3,0,123,10]
 };
