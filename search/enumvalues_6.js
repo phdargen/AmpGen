@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['partialexpansion',['PartialExpansion',['../de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869a100e1395a2ce1f5fc39eaa0f071126bb',1,'AmpGen::Particle']]]
+  ['linear_2473',['linear',['../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949a84c1bf2e07cfc0e90a33758a4617c307',1,'AmpGen']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['value_5ftype',['value_type',['../db/d4b/class_amp_gen_1_1_event_list.html#a895caef30bcec24787464d39c2c1a4aa',1,'AmpGen::EventList']]]
+  ['scalar_5ftype_2450',['scalar_type',['../d4/d8e/struct_amp_gen_1_1_a_v_x2d_1_1real__v.html#a15deec76b0ad03432dde221fc63a9a44',1,'AmpGen::AVX2d::real_v::scalar_type()'],['../d9/d37/struct_amp_gen_1_1_a_v_x2d_1_1complex__v.html#acf6b1b9a48d252713304fe1042fcbc59',1,'AmpGen::AVX2d::complex_v::scalar_type()'],['../d4/de8/struct_amp_gen_1_1_a_v_x2_1_1real__v.html#ac9d4e01eeb867040b2be4331284259de',1,'AmpGen::AVX2::real_v::scalar_type()'],['../d3/dfb/struct_amp_gen_1_1_a_v_x2_1_1complex__v.html#a258d173e10480c201c9c607be2b47540',1,'AmpGen::AVX2::complex_v::scalar_type()'],['../d1/d9d/struct_amp_gen_1_1_a_v_x512d_1_1real__v.html#aadb89fa1f841156e30837ccbad5508ca',1,'AmpGen::AVX512d::real_v::scalar_type()'],['../d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#a196fb4afdf48d8bb36d403cc691ed055',1,'AmpGen::AVX512d::complex_v::scalar_type()']]],
+  ['sqco_2451',['sqCo',['../df/d1a/class_amp_gen_1_1_dalitz_integrator.html#a6508bcbc916a9a40308fc9f57ffc767d',1,'AmpGen::DalitzIntegrator']]]
 ];
