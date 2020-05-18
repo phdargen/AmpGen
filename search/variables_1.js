@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['bl_5ffactors_2298',['bl_factors',['../d0/dea/struct_amp_gen_1_1pole_config.html#a8e2d44d56080dde5444c56b209439f3f',1,'AmpGen::poleConfig']]],
-  ['bwmass_2299',['bwMass',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#ae588ee778499aa4c5940f9e6bf2ed969',1,'AmpGen::TreePhaseSpace::Vertex']]],
-  ['bwwidth_2300',['bwWidth',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a5b18700a1542fba55193fe42c3073073',1,'AmpGen::TreePhaseSpace::Vertex']]]
+  ['addressdata',['addressData',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html#ad5c2c31863cac00ac956a32d708344af',1,'AmpGen::TransitionMatrix::addressData()'],['../db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a80069e4ca1332a750b830b8a9ad8dfca',1,'AmpGen::TransitionMatrix&lt; void &gt;::addressData()']]],
+  ['amp',['amp',['../d7/dc0/struct_amp_gen_1_1_transition_matrix.html#a19582f6aa03867c8d8f71a853bbfb158',1,'AmpGen::TransitionMatrix::amp()'],['../db/d3e/struct_amp_gen_1_1_transition_matrix_3_01void_01_4.html#a1ae10bbb9cd34028c9024fd284877c06',1,'AmpGen::TransitionMatrix&lt; void &gt;::amp()']]]
 ];

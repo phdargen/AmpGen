@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['strategy_2462',['Strategy',['../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949',1,'AmpGen']]]
+  ['type',['Type',['../d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5',1,'AmpGen::Transform']]]
 ];

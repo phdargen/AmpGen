@@ -1,27 +1,3 @@
-/*
- @licstart  The following is the entire license notice for the JavaScript code in this file.
-
- The MIT License (MIT)
-
- Copyright (C) 1997-2020 by Dimitri van Heesch
-
- Permission is hereby granted, free of charge, to any person obtaining a copy of this software
- and associated documentation files (the "Software"), to deal in the Software without restriction,
- including without limitation the rights to use, copy, modify, merge, publish, distribute,
- sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
-
- The above copyright notice and this permission notice shall be included in all copies or
- substantial portions of the Software.
-
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
- BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
- DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
- @licend  The above is the entire license notice for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "AmpGen", "index.html", [
@@ -41,7 +17,7 @@ var NAVTREE =
     [ "Class Members", "functions.html", [
       [ "All", "functions.html", "functions_dup" ],
       [ "Functions", "functions_func.html", "functions_func" ],
-      [ "Variables", "functions_vars.html", null ],
+      [ "Variables", "functions_vars.html", "functions_vars" ],
       [ "Typedefs", "functions_type.html", null ],
       [ "Enumerations", "functions_enum.html", null ],
       [ "Enumerator", "functions_eval.html", null ],
@@ -51,7 +27,6 @@ var NAVTREE =
     [ "File Members", "globals.html", [
       [ "All", "globals.html", null ],
       [ "Functions", "globals_func.html", null ],
-      [ "Typedefs", "globals_type.html", null ],
       [ "Macros", "globals_defs.html", null ]
     ] ]
   ] ]
@@ -60,18 +35,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#a5d68488bbe15e73de7b4829da298a091",
-"d3/d21/_wigner_8h.html",
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a450b81acc2cea4c4a9152df953583053",
-"d5/db2/class_amp_gen_1_1_coupling.html#a5e47de4dcdd5f6b72cc9efe3327e7ff9",
-"d6/d9f/avx2f__types_8h.html#a850ed6892bfc9b7ee1ad5eaebe9f5d99",
-"d8/d4d/class_amp_gen_1_1_minuit_expression.html#a62d3a04451d27560fe8f499e495a1ff2",
-"d9/d67/class_amp_gen_1_1_lineshape_1_1_generic_kmatrix.html#ad976467da5d6af6ce69ea73de955aed8",
-"db/d10/struct_amp_gen_1_1_keyed_functors.html",
-"db/d72/_utilities_8h.html#a8af5b2efcd075bf0c88509ccd1f48657",
-"dd/d31/_projection_8h.html#a812e2190e255f83180186d0169e1706b",
-"de/d94/class_amp_gen_1_1_generator.html#ada15aa8336c2399f9c4e526cdd654a02",
-"df/d84/class_amp_gen_1_1_total_coupling.html#a7f4d3687ac806fb7f451af70ca6ca413"
+"d1/d28/class_amp_gen_1_1_correlated_sum.html#abeabe90d0281e62b6767263ee9f104b4",
+"d2/d87/_quark_content_8h_source.html",
+"d4/d0e/class_amp_gen_1_1_tensor.html#accb0b22fb068a9598273277b01647671",
+"d5/d27/struct_amp_gen_1_1_vertex_1_1f__f_s___s_r.html#aa3b0cc9f8e00cc440f4572ebc601fcf8",
+"d6/d99/_expression_8h.html#a511deef37e2707a89cd465a1c1c65dc0",
+"d8/d73/class_amp_gen_1_1_options_parser.html#ae6cbe53a92d34c7ea98d59e811d66d4f",
+"d9/da6/class_fixed_lib_pdf.html#a38bb09bf6bbc1ca691f81166e7f819f9",
+"db/d37/class_amp_gen_1_1_particle_properties.html#a5b5e46f755540016f8290d3457016629",
+"db/de5/class_amp_gen_1_1_qc_generator.html#a9ecf2f2f2abe24560656e40632788490",
+"dd/d89/group__msg_service.html#gaef41e8aaf4c60819b30faf396cdf4978",
+"de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869aec13604ba006f2b0256da6927be1d6bd",
+"functions_type.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

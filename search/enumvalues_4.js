@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exact_2471',['Exact',['../de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869a1167a36522d2a7680b98f2e0ccc678b7',1,'AmpGen::Particle']]]
+  ['linear',['linear',['../dc/d82/namespace_amp_gen.html#a5f54b70f4101774d0427af6c7231a949a84c1bf2e07cfc0e90a33758a4617c307',1,'AmpGen']]]
 ];
