@@ -8,12 +8,13 @@ var _wigner_8h =
       [ "m2", "dc/d82/namespace_amp_gen.html#a423833cb70cfd3a099ebfbcde7ba6e29", null ],
       [ "p", "dc/d82/namespace_amp_gen.html#aeba98fd8bfc3c1e3a0df55a68ed0701c", null ]
     ] ],
+    [ "TransformCache", "d3/d21/_wigner_8h.html#a454698972dcd5dbe6b1ad26846da2b73", null ],
     [ "basisSpinor", "d3/d21/_wigner_8h.html#accb910c903aa4d36ff43121b6fc53f58", null ],
     [ "basisVector", "d3/d21/_wigner_8h.html#a73ca2984b05feaa7e2cfc7f6fb1acf11", null ],
     [ "calculate_recoupling_constants", "d3/d21/_wigner_8h.html#ac66fce0250eea42b73bac6d28b7c2db1", null ],
     [ "CG", "d3/d21/_wigner_8h.html#ga98dfb6dcbdafd331079eeedd917633bb", null ],
-    [ "helicityAmplitude", "d3/d21/_wigner_8h.html#a6b80e25d13f69a0fcde603257979f4c4", null ],
-    [ "wickTransform", "d3/d21/_wigner_8h.html#gae73775373ea2089084b61a3bd25178e3", null ],
+    [ "helicityAmplitude", "d3/d21/_wigner_8h.html#a0db7ddea7b6b7a84b78640ee2d1079ab", null ],
+    [ "wickTransform", "d3/d21/_wigner_8h.html#gabf4df499a7af475044c35eac20eed956", null ],
     [ "wigner_d", "d3/d21/_wigner_8h.html#a7802f7964d4d697401e0e1965a2dfea3", null ],
     [ "wigner_D", "d3/d21/_wigner_8h.html#aa90608e901ce48f7c3422e36c2689082", null ]
 ];

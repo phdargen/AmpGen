@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nthtype',['nthType',['../dc/d82/namespace_amp_gen.html#ab5ac023f3899b76b4859c5d2155ba95b',1,'AmpGen']]]
+  ['eventlist_5ftype_2456',['EventList_type',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a8eab9b7bf66c13349d3323b735ab971b',1,'AmpGen::CoherentSum::EventList_type()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a252ac364bd27330b8fea041e530f4c9f',1,'AmpGen::PolarisedSum::EventList_type()']]]
 ];

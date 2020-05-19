@@ -1,20 +1,13 @@
 var searchData=
 [
-  ['v_5fff_5fpl',['V_ff_PL',['../d5/dcb/struct_amp_gen_1_1_vertex_1_1_v__ff___p_l.html#a7d452a44b0c0592d7b2d750cb88853e0',1,'AmpGen::Vertex::V_ff_PL']]],
-  ['v_5fff_5fpr',['V_ff_PR',['../de/d3d/struct_amp_gen_1_1_vertex_1_1_v__ff___p_r.html#a771de5b0db61e030aebecfc8ff9436c9',1,'AmpGen::Vertex::V_ff_PR']]],
-  ['v_5fff_5fs',['V_ff_S',['../d6/d55/struct_amp_gen_1_1_vertex_1_1_v__ff___s.html#a508e75cac633a10c80a7ff501e9dc2b6',1,'AmpGen::Vertex::V_ff_S']]],
-  ['v_5fff_5fs1',['V_ff_S1',['../d6/d27/struct_amp_gen_1_1_vertex_1_1_v__ff___s1.html#af462130d5800a28a14f4123d8efe1f39',1,'AmpGen::Vertex::V_ff_S1']]],
-  ['v_5fss_5fp',['V_SS_P',['../dd/d17/struct_amp_gen_1_1_vertex_1_1_v___s_s___p.html#ac6da862c7670c760c568efa5d9b8b58c',1,'AmpGen::Vertex::V_SS_P']]],
-  ['v_5fts_5fd',['V_TS_D',['../db/d9f/struct_amp_gen_1_1_vertex_1_1_v___t_s___d.html#acee33edbcb56ea8856955a1e60db9237',1,'AmpGen::Vertex::V_TS_D']]],
-  ['v_5fts_5fp',['V_TS_P',['../d4/ddc/struct_amp_gen_1_1_vertex_1_1_v___t_s___p.html#ae283557d8a3e0f4770b47e0bc6153ef9',1,'AmpGen::Vertex::V_TS_P']]],
-  ['v_5fvs_5fd',['V_VS_D',['../dd/d05/struct_amp_gen_1_1_vertex_1_1_v___v_s___d.html#a611f2f7788a5a1e6ccdc7726b172ae6a',1,'AmpGen::Vertex::V_VS_D']]],
-  ['v_5fvs_5fp',['V_VS_P',['../dc/d7a/struct_amp_gen_1_1_vertex_1_1_v___v_s___p.html#aa91909ff2d73e4bd26bde2984d287d57',1,'AmpGen::Vertex::V_VS_P']]],
-  ['v_5fvs_5fs',['V_VS_S',['../d1/d7c/struct_amp_gen_1_1_vertex_1_1_v___v_s___s.html#af4a6042df7abf083e01365878740a272',1,'AmpGen::Vertex::V_VS_S']]],
-  ['val',['val',['../da/d5b/class_amp_gen_1_1_fit_fraction.html#a943b31d58cb6aa577375f9a43d303f49',1,'AmpGen::FitFraction']]],
-  ['vecfindall',['vecFindAll',['../dc/d82/namespace_amp_gen.html#ae16e70ae08cd76043d26e08bce17c6a5',1,'AmpGen']]],
-  ['vectorfromfile',['vectorFromFile',['../dc/d82/namespace_amp_gen.html#a9ce513f909ccafd70cf0ff443f2b29b7',1,'AmpGen']]],
-  ['vectortostring',['vectorToString',['../dc/d82/namespace_amp_gen.html#ae6913535c3dd79a24c7d24cb0f6d00d4',1,'AmpGen::vectorToString(it_type begin, it_type end, const std::string &amp;delim, F fcn)'],['../dc/d82/namespace_amp_gen.html#ac1d51bd03584ce5614510a7dcdfabe59',1,'AmpGen::vectorToString(const std::vector&lt; T &gt; &amp;obj, const std::string &amp;delim=&quot;&quot;, F f=[](const T &amp;arg){return arg;})']]],
-  ['vertex',['Vertex',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a6b83b70cb45401987f475482109e3eec',1,'AmpGen::TreePhaseSpace::Vertex::Vertex()=default'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a91ff7c193bb78ddf2f19bed4af866175',1,'AmpGen::TreePhaseSpace::Vertex::Vertex(const Particle &amp;particle, const double &amp;min)'],['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#a4a50154f0b6db87052e6891448aba70a',1,'AmpGen::TreePhaseSpace::Vertex::Vertex(const Particle &amp;particle, const double &amp;min, const double &amp;max, const bool &amp;isStable)']]],
-  ['visit',['visit',['../d8/d90/class_amp_gen_1_1_bin_d_t_1_1_i_node.html#a6d2f4a9e2f6142ae29433f7319326409',1,'AmpGen::BinDT::INode::visit()'],['../dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html#a29511358ee3c744ab68ed286845b58d7',1,'AmpGen::BinDT::EndNode::visit()'],['../d1/d9d/class_amp_gen_1_1_bin_d_t_1_1_decision.html#a288db103f68c11ed9e28a327e4028252',1,'AmpGen::BinDT::Decision::visit()']]],
-  ['voxnumber',['voxNumber',['../dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html#aceae0dd06040f1343e76f5c52b82f04b',1,'AmpGen::BinDT::EndNode']]]
+  ['udouble_5fto_5fuint_2247',['udouble_to_uint',['../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a770cb3fca394e01eaee9e8563b9a0759',1,'AmpGen::AVX2d']]],
+  ['uniqueelements_2248',['uniqueElements',['../d4/d0e/class_amp_gen_1_1_tensor.html#a5b40bdadf83ccff06b689da298f006b0',1,'AmpGen::Tensor']]],
+  ['uniquestring_2249',['uniqueString',['../de/dd7/class_amp_gen_1_1_particle.html#af84305ebe15a5970ff7b4a2a83f15732',1,'AmpGen::Particle']]],
+  ['unregister_2250',['unregister',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a31ed7d0a9a411fa2fc606258e63550a7',1,'AmpGen::MinuitParameterSet']]],
+  ['unsetentrylist_2251',['unsetEntryList',['../dd/da6/class_amp_gen_1_1_tree_reader.html#adadedf466c8e9b9c5107e27a4065ab4f',1,'AmpGen::TreeReader']]],
+  ['update_2252',['update',['../de/d24/class_amp_gen_1_1_minuit_proxy.html#af2eaebaaf189d862f99f411da14e8e1f',1,'AmpGen::MinuitProxy::update()'],['../d6/dd1/class_amp_gen_1_1_store.html#a47d9d5ed10431bbd04432e6b03c072e3',1,'AmpGen::Store::update(const Store&lt; input_type, Alignment::AoS &gt; &amp;is, const functor_type &amp;fcn)'],['../d6/dd1/class_amp_gen_1_1_store.html#a19f82aaf16c2c1e2db4a76f10042017f',1,'AmpGen::Store::update(const EventList &amp;events, const functor_type &amp;fcn)']]],
+  ['updatecache_2253',['updateCache',['../d5/dfb/class_amp_gen_1_1_integrator.html#ac37d4dfcf7810fa13b1ffdeaba0232b0',1,'AmpGen::Integrator']]],
+  ['updatenorms_2254',['updateNorms',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a4be464bf53065e81cf770acdf02a001a',1,'AmpGen::CoherentSum::updateNorms()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a99b736d2ef225f7f6f8f559d338e1934',1,'AmpGen::PolarisedSum::updateNorms()']]],
+  ['updaterunningwidth_2255',['updateRunningWidth',['../da/d3d/class_amp_gen_1_1_three_body_calculator.html#a51b556f02f4ca325cfbbda299b680a1e',1,'AmpGen::ThreeBodyCalculator']]],
+  ['use_5frto_2256',['use_rto',['../d0/d47/class_amp_gen_1_1_compiled_expression_3_01_r_e_t_u_r_n___t_y_p_e_07_a_r_g_s_8_8_8_08_4.html#ab5a1f4a57bd6e23ad0547d6832da87f1',1,'AmpGen::CompiledExpression&lt; RETURN_TYPE(ARGS...)&gt;::use_rto()'],['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a208e5f3ea5f019c6c501071553316c03',1,'AmpGen::CompiledExpressionBase::use_rto()']]]
 ];
