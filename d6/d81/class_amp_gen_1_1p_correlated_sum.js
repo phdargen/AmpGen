@@ -1,7 +1,7 @@
 var class_amp_gen_1_1p_correlated_sum =
 [
     [ "pCorrelatedSum", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a75950a46e3df7826aea4b9a25faf5959", null ],
-    [ "pCorrelatedSum", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#ae0b69acd7a2f734040ea057167f0e5af", null ],
+    [ "pCorrelatedSum", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a73fbbfbda9656950120bde640a854640", null ],
     [ "~pCorrelatedSum", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a4f35282d58971ecf5ed01407cc26733b", null ],
     [ "correction", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a9aa7cb5cc635194bbdf9dbc9b7af2a1c", null ],
     [ "debug", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#af751fc780dd0964b6541e5de7e38339d", null ],
@@ -67,6 +67,7 @@ var class_amp_gen_1_1p_correlated_sum =
     [ "m_polyType", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a7b144ba348186b3182b74ff712ba1063", null ],
     [ "m_prepareCalls", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a80c71f4beb21bef1996652d124423c83", null ],
     [ "m_sameTag", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a364eddd2f201d8e1dd6e068a4b9c63d7", null ],
+    [ "m_SFType", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a3df518eceda8f1d9a9ee5d441ac26c49", null ],
     [ "m_updateNorms", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a82ca0d4b46e41ec0fa906a3372fdde79", null ],
     [ "outputFractionsA", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#a332c07723be58e6ad236284bb3632cb4", null ],
     [ "outputFractionsB", "d6/d81/class_amp_gen_1_1p_correlated_sum.html#aa4e75ff6ff9b30f3885dcbaca7688aee", null ],

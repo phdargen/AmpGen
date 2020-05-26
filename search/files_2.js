@@ -4,6 +4,7 @@ var searchData=
   ['chi2estimator_2eh',['Chi2Estimator.h',['../d8/d3f/_chi2_estimator_8h.html',1,'']]],
   ['coherentsum_2eh',['CoherentSum.h',['../df/ddb/_coherent_sum_8h.html',1,'']]],
   ['combcorrll_2eh',['CombCorrLL.h',['../d2/d46/_comb_corr_l_l_8h.html',1,'']]],
+  ['combll_2eh',['CombLL.h',['../d5/dee/_comb_l_l_8h.html',1,'']]],
   ['compiledexpression_2eh',['CompiledExpression.h',['../dc/d96/_compiled_expression_8h.html',1,'']]],
   ['compiledexpressionbase_2eh',['CompiledExpressionBase.h',['../df/d36/_compiled_expression_base_8h.html',1,'']]],
   ['compilerwrapper_2eh',['CompilerWrapper.h',['../d0/d29/_compiler_wrapper_8h.html',1,'']]],

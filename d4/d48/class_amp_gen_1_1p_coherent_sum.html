@@ -113,8 +113,7 @@ $(document).ready(function(){initNavTree('d4/d48/class_amp_gen_1_1p_coherent_sum
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d0/d42/class_amp_gen_1_1p_coherent_sum-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -122,180 +121,136 @@ $(document).ready(function(){initNavTree('d4/d48/class_amp_gen_1_1p_coherent_sum
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An coherent sum of resonant contributions, where at a position in phase-space \(\psi\), the (unnormalised) probability density is given by </p><p class="formulaDsp">
-\[ \mathcal{P}(\psi) = \left| \sum_{i} g_i \mathcal{A}_i(\psi) \right|^2, \]
-</p>
-<p> where \(\mathcal{P}(\psi)\) is the probability, \(g_i\) is the coupling to an isobar channel, and \(\mathcal{A}_i(\psi)\) is the amplitude of the ith channel. </p>
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00043">43</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00112">112</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a22bd0b9cda34004efc9ca534c01256cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a22bd0b9cda34004efc9ca534c01256cf">pCoherentSum</a> ()</td></tr>
 <tr class="separator:a22bd0b9cda34004efc9ca534c01256cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b7f89484bb6ff49810edf55caea13ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9b7f89484bb6ff49810edf55caea13ad">pCoherentSum</a> (const <a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a> &amp;type, const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">AmpGen::MinuitParameterSet</a> &amp;mps, const std::string &amp;<a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8cbf5b5c962022c1b7de8fc466e9a1be">prefix</a>=&quot;&quot;)</td></tr>
-<tr class="separator:a9b7f89484bb6ff49810edf55caea13ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee22f1da026107be5e37c92d55997085"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aee22f1da026107be5e37c92d55997085">pCoherentSum</a> (const <a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a> &amp;type1, const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> &amp;mps, std::string SFType=&quot;Psi3770&quot;, int gamSign=1)</td></tr>
+<tr class="separator:aee22f1da026107be5e37c92d55997085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad14ca204625070ccb5cbb47c1411f4e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aad14ca204625070ccb5cbb47c1411f4e">~pCoherentSum</a> ()=default</td></tr>
 <tr class="separator:aad14ca204625070ccb5cbb47c1411f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2baf7d9b3a263829c978db5f14fea64f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a2baf7d9b3a263829c978db5f14fea64f">protoAmplitudes</a> ()</td></tr>
-<tr class="separator:a2baf7d9b3a263829c978db5f14fea64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cbf5b5c962022c1b7de8fc466e9a1be"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8cbf5b5c962022c1b7de8fc466e9a1be">prefix</a> () const </td></tr>
-<tr class="separator:a8cbf5b5c962022c1b7de8fc466e9a1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae976f8a56fbb87483e0a4b22154a0c44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ae976f8a56fbb87483e0a4b22154a0c44">operator[]</a> (const size_t &amp;index)</td></tr>
-<tr class="separator:ae976f8a56fbb87483e0a4b22154a0c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75bdd6f9303538b7ba519696c7c794c2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a75bdd6f9303538b7ba519696c7c794c2">operator[]</a> (const size_t &amp;index) const </td></tr>
-<tr class="separator:a75bdd6f9303538b7ba519696c7c794c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0a584c5d8fdd8262c70782a03108e7d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#af0a584c5d8fdd8262c70782a03108e7d">size</a> () const </td></tr>
-<tr class="separator:af0a584c5d8fdd8262c70782a03108e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e16fbf778b1f3b6e9f2818faa0d9953"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a5e16fbf778b1f3b6e9f2818faa0d9953">getWeight</a> () const </td></tr>
-<tr class="separator:a5e16fbf778b1f3b6e9f2818faa0d9953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac80f2e0a32544ea00f5e8e6997372c8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ac80f2e0a32544ea00f5e8e6997372c8f">operator()</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt) const </td></tr>
-<tr class="separator:ac80f2e0a32544ea00f5e8e6997372c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a844416ab0daba18400d31d88c6a3616a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a844416ab0daba18400d31d88c6a3616a">prob</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt) const </td></tr>
-<tr class="separator:a844416ab0daba18400d31d88c6a3616a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ad912758555d7bb3fc7406690549c40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a1ad912758555d7bb3fc7406690549c40">prob_unnormalised</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt) const </td></tr>
-<tr class="separator:a1ad912758555d7bb3fc7406690549c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a291ad97e93112569abddb278009f3dbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a291ad97e93112569abddb278009f3dbb">norm</a> (const <a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> &amp;<a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a338fd964cd5028bbf49f717e5b9f2792">norms</a>) const </td></tr>
-<tr class="separator:a291ad97e93112569abddb278009f3dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b7be270d83302341eb1650b501e04eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8b7be270d83302341eb1650b501e04eb">norm</a> () const </td></tr>
-<tr class="separator:a8b7be270d83302341eb1650b501e04eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34a996411496a898729268ad4e5f193c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a34a996411496a898729268ad4e5f193c">getNorm</a> (const <a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> &amp;normalisations)</td></tr>
-<tr class="separator:a34a996411496a898729268ad4e5f193c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afadea58b9d877d8cc968230d6dbc2eed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#afadea58b9d877d8cc968230d6dbc2eed">norm</a> (const size_t &amp;x, const size_t &amp;y) const </td></tr>
-<tr class="separator:afadea58b9d877d8cc968230d6dbc2eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f3bb94671738bf4736ab9b2bb316827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8f3bb94671738bf4736ab9b2bb316827">getVal</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt) const </td></tr>
-<tr class="separator:a8f3bb94671738bf4736ab9b2bb316827"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9b69e2b8c587c79975fad085f24f355"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa9b69e2b8c587c79975fad085f24f355">getVal</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt, const std::vector&lt; size_t &gt; &amp;<a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a53c42ceda7b4698446c182b4dadf33c0">cacheAddresses</a>) const </td></tr>
-<tr class="separator:aa9b69e2b8c587c79975fad085f24f355"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad994ae5b22ca73fd98aeeca2ba9d8e0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ad994ae5b22ca73fd98aeeca2ba9d8e0a">getValNoCache</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt) const </td></tr>
-<tr class="separator:ad994ae5b22ca73fd98aeeca2ba9d8e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1718740d2bff049717841c72d03568e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a1718740d2bff049717841c72d03568e0">getValNoCache</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt, const size_t &amp;offset) const </td></tr>
-<tr class="separator:a1718740d2bff049717841c72d03568e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaeab48fa12d5c66b2393e6b8a11beea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#adaeab48fa12d5c66b2393e6b8a11beea">transferParameters</a> ()</td></tr>
-<tr class="separator:adaeab48fa12d5c66b2393e6b8a11beea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc883c6e2e6f8c99ccbad989f0e7b769"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#abc883c6e2e6f8c99ccbad989f0e7b769">operator()</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1) const </td></tr>
+<tr class="separator:abc883c6e2e6f8c99ccbad989f0e7b769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37906a4a053b3bcbd40046359a7267d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a37906a4a053b3bcbd40046359a7267d2">prob</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1) const </td></tr>
+<tr class="separator:a37906a4a053b3bcbd40046359a7267d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e356d2dce63495d0084a2ba7babf34b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8e356d2dce63495d0084a2ba7babf34b">getC</a> (int i, int j, std::string pref=&quot;&quot;) const </td></tr>
+<tr class="separator:a8e356d2dce63495d0084a2ba7babf34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c984f77cfad8299053638d7cf8b8a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8c984f77cfad8299053638d7cf8b8a38">getSumFactor</a> () const </td></tr>
+<tr class="separator:a8c984f77cfad8299053638d7cf8b8a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cbba1fbde0fa27a7d4f64d99e63ac80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a0cbba1fbde0fa27a7d4f64d99e63ac80">prob_unnormalised</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1) const </td></tr>
+<tr class="separator:a0cbba1fbde0fa27a7d4f64d99e63ac80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4f85fc5b7d5ea5d6dd1745318ef171b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ad4f85fc5b7d5ea5d6dd1745318ef171b">prepare</a> ()</td></tr>
 <tr class="separator:ad4f85fc5b7d5ea5d6dd1745318ef171b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c0e6cb0ccac57eee0023023b56714dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a4c0e6cb0ccac57eee0023023b56714dc">printVal</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt)</td></tr>
-<tr class="separator:a4c0e6cb0ccac57eee0023023b56714dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ecb822cc4707b0dcf197900c073dc5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a3ecb822cc4707b0dcf197900c073dc5f">updateNorms</a> (const std::vector&lt; size_t &gt; &amp;changedPdfIndices)</td></tr>
-<tr class="separator:a3ecb822cc4707b0dcf197900c073dc5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad29a8a6950bba033398123ba595b8656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ad29a8a6950bba033398123ba595b8656">setWeight</a> (const double &amp;weight)</td></tr>
-<tr class="separator:ad29a8a6950bba033398123ba595b8656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c6cdaf44768aca8deb5cb3bb189635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a96c6cdaf44768aca8deb5cb3bb189635">setWeight</a> (MinuitParameter *param)</td></tr>
-<tr class="separator:a96c6cdaf44768aca8deb5cb3bb189635"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8d6bdb726622cf22559589c443092cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa8d6bdb726622cf22559589c443092cc">makeTotalExpression</a> ()</td></tr>
-<tr class="separator:aa8d6bdb726622cf22559589c443092cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40e2188bbbbc95a871c2c2560fecb06c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a40e2188bbbbc95a871c2c2560fecb06c">reset</a> (bool resetEvents=false)</td></tr>
-<tr class="separator:a40e2188bbbbc95a871c2c2560fecb06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a812bc75aec1adf88d5c01748307f6b15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a812bc75aec1adf88d5c01748307f6b15">setEvents</a> (<a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;list)</td></tr>
-<tr class="separator:a812bc75aec1adf88d5c01748307f6b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb960c9713309e8a9177104811a80fd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aeb960c9713309e8a9177104811a80fd0">setMC</a> (<a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;sim)</td></tr>
-<tr class="separator:aeb960c9713309e8a9177104811a80fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f23734610b721218d54b00e9f317f9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a2f23734610b721218d54b00e9f317f9c">debug</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;evt, const std::string &amp;nameMustContain=&quot;&quot;)</td></tr>
-<tr class="separator:a2f23734610b721218d54b00e9f317f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe122c54b948c955aaca1cecd942fa28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#afe122c54b948c955aaca1cecd942fa28">generateSourceCode</a> (const std::string &amp;fname, const double &amp;normalisation=1, bool add_mt=false)</td></tr>
-<tr class="separator:afe122c54b948c955aaca1cecd942fa28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53c42ceda7b4698446c182b4dadf33c0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a53c42ceda7b4698446c182b4dadf33c0">cacheAddresses</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;evts) const </td></tr>
-<tr class="separator:a53c42ceda7b4698446c182b4dadf33c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61e7efaec6085b2a9d5f88f76be5d143"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a61e7efaec6085b2a9d5f88f76be5d143">fitFractions</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html">LinearErrorPropagator</a> &amp;linProp)</td></tr>
-<tr class="separator:a61e7efaec6085b2a9d5f88f76be5d143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a8b3e3a0fe80a185657a012269877a6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a2a8b3e3a0fe80a185657a012269877a6">matrixElements</a> () const </td></tr>
-<tr class="separator:a2a8b3e3a0fe80a185657a012269877a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a393453122968049258cb23eed7f7a4d6"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::vector&lt; unsigned int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a393453122968049258cb23eed7f7a4d6">getGroupedAmplitudes</a> ()</td></tr>
-<tr class="separator:a393453122968049258cb23eed7f7a4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338fd964cd5028bbf49f717e5b9f2792"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a338fd964cd5028bbf49f717e5b9f2792">norms</a> () const </td></tr>
-<tr class="separator:a338fd964cd5028bbf49f717e5b9f2792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447c3dbf40b2f68ce5e10e9735795c7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a447c3dbf40b2f68ce5e10e9735795c7f">reset</a> (bool resetEvents)</td></tr>
+<tr class="separator:a447c3dbf40b2f68ce5e10e9735795c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a373d1ed475737bfc2d4049ce19e07f48"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a373d1ed475737bfc2d4049ce19e07f48">slowNorm</a> ()</td></tr>
+<tr class="separator:a373d1ed475737bfc2d4049ce19e07f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9d016190b8af75464154c9341e5245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aac9d016190b8af75464154c9341e5245">testnorm</a> () const </td></tr>
+<tr class="separator:aac9d016190b8af75464154c9341e5245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bac3a2a4645d20c33f2b51d32a6c81b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8bac3a2a4645d20c33f2b51d32a6c81b">setEvents</a> (<a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;list1)</td></tr>
+<tr class="separator:a8bac3a2a4645d20c33f2b51d32a6c81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b68ec5a5670483ab74d23181e53eb1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a2b68ec5a5670483ab74d23181e53eb1f">setMC</a> (<a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;list1)</td></tr>
+<tr class="separator:a2b68ec5a5670483ab74d23181e53eb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed1873d724589f706ca2c44e521e85d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#abed1873d724589f706ca2c44e521e85d">updateNorms</a> (const std::vector&lt; size_t &gt; &amp;iA, const std::vector&lt; size_t &gt; &amp;iC)</td></tr>
+<tr class="separator:abed1873d724589f706ca2c44e521e85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f327f72e381c68ab1e4d5ce6f357ffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a4f327f72e381c68ab1e4d5ce6f357ffe">debugNorm</a> ()</td></tr>
+<tr class="separator:a4f327f72e381c68ab1e4d5ce6f357ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf0f785244d7ff4c5864f7e0ea7b28f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#adbf0f785244d7ff4c5864f7e0ea7b28f">debug</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1) const </td></tr>
+<tr class="separator:adbf0f785244d7ff4c5864f7e0ea7b28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf5b9e6562767f3927fe04d08e756b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#adcf5b9e6562767f3927fe04d08e756b4">getVal</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1) const </td></tr>
+<tr class="separator:adcf5b9e6562767f3927fe04d08e756b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3792ddf012f77327caec6677ebe7a7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa3792ddf012f77327caec6677ebe7a7e">getValNoCache</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1) const </td></tr>
+<tr class="separator:aa3792ddf012f77327caec6677ebe7a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b17fd0c66d7dce847867885566f9c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a72b17fd0c66d7dce847867885566f9c3">getValNoCache</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1, const size_t &amp;offset) const </td></tr>
+<tr class="separator:a72b17fd0c66d7dce847867885566f9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a2a47b39ef2288e79055e14616e5109"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a6a2a47b39ef2288e79055e14616e5109">size</a> () const </td></tr>
+<tr class="separator:a6a2a47b39ef2288e79055e14616e5109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab9c832ab26493a64947f203e1793f6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#adab9c832ab26493a64947f203e1793f6">fitFractions</a> (const <a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html">LinearErrorPropagator</a> &amp;linProp)</td></tr>
+<tr class="separator:adab9c832ab26493a64947f203e1793f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b7be270d83302341eb1650b501e04eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8b7be270d83302341eb1650b501e04eb">norm</a> () const </td></tr>
+<tr class="separator:a8b7be270d83302341eb1650b501e04eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9305d9b8a045c2996a6702af7ce61d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#abc9305d9b8a045c2996a6702af7ce61d">probA</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event)</td></tr>
+<tr class="separator:abc9305d9b8a045c2996a6702af7ce61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ec118a895838cc79478808404d9120"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a08ec118a895838cc79478808404d9120">getVals</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event1) const </td></tr>
+<tr class="separator:a08ec118a895838cc79478808404d9120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964720ae33caa9fb21880200c895f184"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a964720ae33caa9fb21880200c895f184">correction</a> (const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;event) const </td></tr>
+<tr class="separator:a964720ae33caa9fb21880200c895f184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:a70b2a095ad551d16d058c81bf60cc688"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt; 10 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a70b2a095ad551d16d058c81bf60cc688">integrator</a></td></tr>
-<tr class="separator:a70b2a095ad551d16d058c81bf60cc688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a50960aaaf9e110a7e695eac4bd2da6dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a50960aaaf9e110a7e695eac4bd2da6dd">addMatrixElement</a> (std::pair&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a>, <a class="el" href="../../df/d84/class_amp_gen_1_1_total_coupling.html">TotalCoupling</a> &gt; &amp;particleWithCoupling, const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> &amp;mps)</td></tr>
-<tr class="separator:a50960aaaf9e110a7e695eac4bd2da6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a6723c838982dcc252fe4cae1a070d286"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a6723c838982dcc252fe4cae1a070d286">m_inter</a> = 0</td></tr>
+<tr class="separator:a6723c838982dcc252fe4cae1a070d286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aba5f1bcd4390c548dfb4d45720f1df8f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aba5f1bcd4390c548dfb4d45720f1df8f">m_matrixElements</a></td></tr>
-<tr class="memdesc:aba5f1bcd4390c548dfb4d45720f1df8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of (expanded) matrix elements.  <a href="#aba5f1bcd4390c548dfb4d45720f1df8f">More...</a><br /></td></tr>
-<tr class="separator:aba5f1bcd4390c548dfb4d45720f1df8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a9eb51dff947b854e050477b25ae1d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a0a9eb51dff947b854e050477b25ae1d9">m_normalisations</a></td></tr>
-<tr class="memdesc:a0a9eb51dff947b854e050477b25ae1d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalisation integrals.  <a href="#a0a9eb51dff947b854e050477b25ae1d9">More...</a><br /></td></tr>
-<tr class="separator:a0a9eb51dff947b854e050477b25ae1d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd82e6f9902c5d2c618387743e0a2c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a1bd82e6f9902c5d2c618387743e0a2c8">m_protoAmplitudes</a></td></tr>
-<tr class="memdesc:a1bd82e6f9902c5d2c618387743e0a2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proto amplitudes from user rule-set.  <a href="#a1bd82e6f9902c5d2c618387743e0a2c8">More...</a><br /></td></tr>
-<tr class="separator:a1bd82e6f9902c5d2c618387743e0a2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9031451df12f67a5fc49caff3936aebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a70b2a095ad551d16d058c81bf60cc688">integrator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9031451df12f67a5fc49caff3936aebc">m_integrator</a></td></tr>
-<tr class="memdesc:a9031451df12f67a5fc49caff3936aebc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/d4f/struct_amp_gen_1_1_integral.html">Integral</a> dispatch tool (with default unroll = 10)  <a href="#a9031451df12f67a5fc49caff3936aebc">More...</a><br /></td></tr>
-<tr class="separator:a9031451df12f67a5fc49caff3936aebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4583f049fc8965ccdda1810f46b4f346"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt; <a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a4583f049fc8965ccdda1810f46b4f346">m_total</a></td></tr>
-<tr class="memdesc:a4583f049fc8965ccdda1810f46b4f346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total Matrix Element.  <a href="#a4583f049fc8965ccdda1810f46b4f346">More...</a><br /></td></tr>
-<tr class="separator:a4583f049fc8965ccdda1810f46b4f346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ff681361814a3511d267429952d41d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a1ff681361814a3511d267429952d41d6">m_events</a> = {nullptr}</td></tr>
-<tr class="memdesc:a1ff681361814a3511d267429952d41d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data events to evaluate PDF on.  <a href="#a1ff681361814a3511d267429952d41d6">More...</a><br /></td></tr>
-<tr class="separator:a1ff681361814a3511d267429952d41d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5eda6e8a07c9aea9413fd44a1804d908"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a5eda6e8a07c9aea9413fd44a1804d908">m_evtType</a></td></tr>
-<tr class="memdesc:a5eda6e8a07c9aea9413fd44a1804d908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final state for this amplitude.  <a href="#a5eda6e8a07c9aea9413fd44a1804d908">More...</a><br /></td></tr>
-<tr class="separator:a5eda6e8a07c9aea9413fd44a1804d908"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a138aba318d643c2fa0414f8a51c42e3e"><td class="memItemLeft" align="right" valign="top">MinuitParameter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a138aba318d643c2fa0414f8a51c42e3e">m_weightParam</a> = {nullptr}</td></tr>
-<tr class="memdesc:a138aba318d643c2fa0414f8a51c42e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight parameter (i.e. the normalised yield)  <a href="#a138aba318d643c2fa0414f8a51c42e3e">More...</a><br /></td></tr>
-<tr class="separator:a138aba318d643c2fa0414f8a51c42e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a2230cf8645e6a3f625beb28f735a47"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9a2230cf8645e6a3f625beb28f735a47">m_prepareCalls</a> = {0}</td></tr>
-<tr class="memdesc:a9a2230cf8645e6a3f625beb28f735a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of times prepare has been called.  <a href="#a9a2230cf8645e6a3f625beb28f735a47">More...</a><br /></td></tr>
-<tr class="separator:a9a2230cf8645e6a3f625beb28f735a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a843ef5becc930342aa17f089cf0dbfbc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a843ef5becc930342aa17f089cf0dbfbc">m_lastPrint</a> = {0}</td></tr>
-<tr class="memdesc:a843ef5becc930342aa17f089cf0dbfbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last time verbose PDF info was printed.  <a href="#a843ef5becc930342aa17f089cf0dbfbc">More...</a><br /></td></tr>
-<tr class="separator:a843ef5becc930342aa17f089cf0dbfbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cc56bf491f9f4b66866d834f540fd2f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a7cc56bf491f9f4b66866d834f540fd2f">m_printFreq</a> = {0}</td></tr>
-<tr class="memdesc:a7cc56bf491f9f4b66866d834f540fd2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency to print verbose PDF info.  <a href="#a7cc56bf491f9f4b66866d834f540fd2f">More...</a><br /></td></tr>
-<tr class="separator:a7cc56bf491f9f4b66866d834f540fd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a686be25d8a43e968dbe162c950d181e7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a686be25d8a43e968dbe162c950d181e7">m_weight</a> = {1}</td></tr>
-<tr class="memdesc:a686be25d8a43e968dbe162c950d181e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight number (i.e. the normalised yield)  <a href="#a686be25d8a43e968dbe162c950d181e7">More...</a><br /></td></tr>
-<tr class="separator:a686be25d8a43e968dbe162c950d181e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d26c9b0a325b0ca0909a46f75c8980a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9d26c9b0a325b0ca0909a46f75c8980a">m_norm</a> = {0}</td></tr>
-<tr class="memdesc:a9d26c9b0a325b0ca0909a46f75c8980a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalisation integral.  <a href="#a9d26c9b0a325b0ca0909a46f75c8980a">More...</a><br /></td></tr>
 <tr class="separator:a9d26c9b0a325b0ca0909a46f75c8980a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6022a9e585279ef55fd24e92e654d218"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a6022a9e585279ef55fd24e92e654d218">m_isConstant</a> = {false}</td></tr>
-<tr class="memdesc:a6022a9e585279ef55fd24e92e654d218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag for a constant PDF.  <a href="#a6022a9e585279ef55fd24e92e654d218">More...</a><br /></td></tr>
-<tr class="separator:a6022a9e585279ef55fd24e92e654d218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac184e40b2a9c7b59005dea15366ebf17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ac184e40b2a9c7b59005dea15366ebf17">m_dbThis</a> = {false}</td></tr>
-<tr class="memdesc:ac184e40b2a9c7b59005dea15366ebf17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to generate amplitude level debugging.  <a href="#ac184e40b2a9c7b59005dea15366ebf17">More...</a><br /></td></tr>
-<tr class="separator:ac184e40b2a9c7b59005dea15366ebf17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ab987b23912444701ea80690efc6abb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9ab987b23912444701ea80690efc6abb">m_verbosity</a> = {false}</td></tr>
-<tr class="memdesc:a9ab987b23912444701ea80690efc6abb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag for verbose printing.  <a href="#a9ab987b23912444701ea80690efc6abb">More...</a><br /></td></tr>
-<tr class="separator:a9ab987b23912444701ea80690efc6abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8280c4ee76a21751c3377767a85b568f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8280c4ee76a21751c3377767a85b568f">m_objCache</a> = {&quot;&quot;}</td></tr>
-<tr class="memdesc:a8280c4ee76a21751c3377767a85b568f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directory that contains (cached) amplitude objects.  <a href="#a8280c4ee76a21751c3377767a85b568f">More...</a><br /></td></tr>
-<tr class="separator:a8280c4ee76a21751c3377767a85b568f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdde794bc46a7e8af3e6a9b1b1f6d752"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#afdde794bc46a7e8af3e6a9b1b1f6d752">m_prefix</a> = {&quot;&quot;}</td></tr>
-<tr class="memdesc:afdde794bc46a7e8af3e6a9b1b1f6d752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prefix for matrix elements.  <a href="#afdde794bc46a7e8af3e6a9b1b1f6d752">More...</a><br /></td></tr>
-<tr class="separator:afdde794bc46a7e8af3e6a9b1b1f6d752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70277752bd597c03f9de13b394357f9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a70277752bd597c03f9de13b394357f9d">m_normalisationsAC</a></td></tr>
+<tr class="separator:a70277752bd597c03f9de13b394357f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa86536fd9e950d2947d625c29a96c8e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa86536fd9e950d2947d625c29a96c8e5">m_normalisationsAA</a></td></tr>
+<tr class="separator:aa86536fd9e950d2947d625c29a96c8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa522f1f2783c30e79c575c6cf4670998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa522f1f2783c30e79c575c6cf4670998">m_normalisationsCC</a></td></tr>
+<tr class="separator:aa522f1f2783c30e79c575c6cf4670998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1e5c89941a8595d97c065c3f928213"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a2c1e5c89941a8595d97c065c3f928213">m_mps</a></td></tr>
+<tr class="separator:a2c1e5c89941a8595d97c065c3f928213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92f42bfde1ae8131b4067ccc10de9b9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa92f42bfde1ae8131b4067ccc10de9b9">m_SFType</a></td></tr>
+<tr class="separator:aa92f42bfde1ae8131b4067ccc10de9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6773d49628e2b59cee07a39aae8ada90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html">CoherentSum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a6773d49628e2b59cee07a39aae8ada90">m_A</a></td></tr>
+<tr class="separator:a6773d49628e2b59cee07a39aae8ada90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eaf7b0abd6ec2310da16d9b9de0f4e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html">CoherentSum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a5eaf7b0abd6ec2310da16d9b9de0f4e0">m_C</a></td></tr>
+<tr class="separator:a5eaf7b0abd6ec2310da16d9b9de0f4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9c22077817025c01d95b06eb6efaaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#abb9c22077817025c01d95b06eb6efaaf">m_events1</a> = nullptr</td></tr>
+<tr class="separator:abb9c22077817025c01d95b06eb6efaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a700ccabb5dc96b1a6f16c881c2004368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt; 10 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a700ccabb5dc96b1a6f16c881c2004368">m_integratorAC</a></td></tr>
+<tr class="separator:a700ccabb5dc96b1a6f16c881c2004368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad58329c100027c52034f6781eaabbca1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; MinuitParameter * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ad58329c100027c52034f6781eaabbca1">m_Cparams</a></td></tr>
+<tr class="separator:ad58329c100027c52034f6781eaabbca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5060d85850187f40538afc6d4787c451"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a5060d85850187f40538afc6d4787c451">m_poly</a></td></tr>
+<tr class="separator:a5060d85850187f40538afc6d4787c451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40139c9e367f1582c2f635577365b335"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a40139c9e367f1582c2f635577365b335">outputFractionsA</a></td></tr>
+<tr class="separator:a40139c9e367f1582c2f635577365b335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b5904cb2ab8bc3077701b19600059e7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9b5904cb2ab8bc3077701b19600059e7">outputFractionsC</a></td></tr>
+<tr class="separator:a9b5904cb2ab8bc3077701b19600059e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ae3a4e0f906c2f11a518cbde497a7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt; 10 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a26ae3a4e0f906c2f11a518cbde497a7e">m_integratorAA</a></td></tr>
+<tr class="separator:a26ae3a4e0f906c2f11a518cbde497a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e83c90050232f5fd40a6b28fa53e178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt; 10 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a7e83c90050232f5fd40a6b28fa53e178">m_integratorCC</a></td></tr>
+<tr class="separator:a7e83c90050232f5fd40a6b28fa53e178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af27efc7a1be87228fa84d9f04fad4ad0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#af27efc7a1be87228fa84d9f04fad4ad0">m_coherentIntegral</a></td></tr>
+<tr class="separator:af27efc7a1be87228fa84d9f04fad4ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d49d7e5c07abe618161bcce4ee2f08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a24d49d7e5c07abe618161bcce4ee2f08">m_coherentIntegralA</a></td></tr>
+<tr class="separator:a24d49d7e5c07abe618161bcce4ee2f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d77a526a627ca851b22dfeaeda11794"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a5d77a526a627ca851b22dfeaeda11794">m_coherentIntegralC</a></td></tr>
+<tr class="separator:a5d77a526a627ca851b22dfeaeda11794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfec372d72c5fbd04582955a62004ab9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#acfec372d72c5fbd04582955a62004ab9">m_debug</a></td></tr>
+<tr class="separator:acfec372d72c5fbd04582955a62004ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae107bf37295bf80414058f131002bf92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ae107bf37295bf80414058f131002bf92">m_debugFreq</a></td></tr>
+<tr class="separator:ae107bf37295bf80414058f131002bf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3302f0be03e50c08e303c5310dc909"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a3c3302f0be03e50c08e303c5310dc909">m_pdebug</a></td></tr>
+<tr class="separator:a3c3302f0be03e50c08e303c5310dc909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad019bbffd129dc79998d3aa8097521dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#ad019bbffd129dc79998d3aa8097521dd">m_pNorm</a></td></tr>
+<tr class="separator:ad019bbffd129dc79998d3aa8097521dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923438d40df9d8c3a086e1f2503c95e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a923438d40df9d8c3a086e1f2503c95e8">m_updateNorms</a></td></tr>
+<tr class="separator:a923438d40df9d8c3a086e1f2503c95e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6788171a4b3b53d066f67878fc039ae8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a6788171a4b3b53d066f67878fc039ae8">m_order</a></td></tr>
+<tr class="separator:a6788171a4b3b53d066f67878fc039ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c91f082b6cb81161be0360d11ad4d11"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a6c91f082b6cb81161be0360d11ad4d11">m_polyType</a></td></tr>
+<tr class="separator:a6c91f082b6cb81161be0360d11ad4d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a2230cf8645e6a3f625beb28f735a47"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9a2230cf8645e6a3f625beb28f735a47">m_prepareCalls</a> = 0</td></tr>
+<tr class="separator:a9a2230cf8645e6a3f625beb28f735a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22cc360dd90c36c6a3d4760d42043341"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a22cc360dd90c36c6a3d4760d42043341">m_Anorm</a></td></tr>
+<tr class="separator:a22cc360dd90c36c6a3d4760d42043341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2a024b5a9258cd4d5f60205908abad"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a0a2a024b5a9258cd4d5f60205908abad">m_Cnorm</a></td></tr>
+<tr class="separator:a0a2a024b5a9258cd4d5f60205908abad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6080bd922d5ecde1044c3b4f5bc8e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a5f6080bd922d5ecde1044c3b4f5bc8e7">m_gamSign</a></td></tr>
+<tr class="separator:a5f6080bd922d5ecde1044c3b4f5bc8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad553e07bbc941100909b308dd59380"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9ad553e07bbc941100909b308dd59380">m_sameTag</a></td></tr>
+<tr class="separator:a9ad553e07bbc941100909b308dd59380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04c945a7d1ad30fb2814ea1dc3eb5172"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a04c945a7d1ad30fb2814ea1dc3eb5172">m_flat</a></td></tr>
+<tr class="separator:a04c945a7d1ad30fb2814ea1dc3eb5172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a70b2a095ad551d16d058c81bf60cc688"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt;10&gt; <a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a70b2a095ad551d16d058c81bf60cc688">AmpGen::pCoherentSum::integrator</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00092">92</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a22bd0b9cda34004efc9ca534c01256cf"></a>
 <div class="memitem">
@@ -312,7 +267,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9b7f89484bb6ff49810edf55caea13ad"></a>
+<a class="anchor" id="aee22f1da026107be5e37c92d55997085"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -320,19 +275,25 @@ Protected Attributes</h2></td></tr>
           <td class="memname">AmpGen::pCoherentSum::pCoherentSum </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a> &amp;&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
+          <td class="paramname"><em>type1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">AmpGen::MinuitParameterSet</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> &amp;&#160;</td>
           <td class="paramname"><em>mps</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>prefix</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>SFType</em> = <code>&quot;Psi3770&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>gamSign</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -368,7 +329,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a50960aaaf9e110a7e695eac4bd2da6dd"></a>
+<a class="anchor" id="a964720ae33caa9fb21880200c895f184"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -376,49 +337,25 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AmpGen::pCoherentSum::addMatrixElement </td>
+          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::correction </td>
           <td>(</td>
-          <td class="paramtype">std::pair&lt; <a class="el" href="../../de/dd7/class_amp_gen_1_1_particle.html">Particle</a>, <a class="el" href="../../df/d84/class_amp_gen_1_1_total_coupling.html">TotalCoupling</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>particleWithCoupling</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>mps</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a53c42ceda7b4698446c182b4dadf33c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;size_t&gt; AmpGen::pCoherentSum::cacheAddresses </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
-          <td class="paramname"><em>evts</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00246">246</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2f23734610b721218d54b00e9f317f9c"></a>
+<a class="anchor" id="adbf0f785244d7ff4c5864f7e0ea7b28f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -426,30 +363,35 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void AmpGen::pCoherentSum::debug </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>nameMustContain</em> = <code>&quot;&quot;</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"><em>event1</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a61e7efaec6085b2a9d5f88f76be5d143"></a>
+<a class="anchor" id="a4f327f72e381c68ab1e4d5ce6f357ffe"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a>&gt; AmpGen::pCoherentSum::fitFractions </td>
+          <td class="memname">void AmpGen::pCoherentSum::debugNorm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adab9c832ab26493a64947f203e1793f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;<a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a>&gt; &gt; AmpGen::pCoherentSum::fitFractions </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../db/d4b/class_amp_gen_1_1_linear_error_propagator.html">LinearErrorPropagator</a> &amp;&#160;</td>
           <td class="paramname"><em>linProp</em></td><td>)</td>
@@ -460,100 +402,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afe122c54b948c955aaca1cecd942fa28"></a>
+<a class="anchor" id="a8e356d2dce63495d0084a2ba7babf34b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AmpGen::pCoherentSum::generateSourceCode </td>
+          <td class="memname">double AmpGen::pCoherentSum::getC </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>fname</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>normalisation</em> = <code>1</code>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>add_mt</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a393453122968049258cb23eed7f7a4d6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, std::vector&lt;unsigned int&gt; &gt; AmpGen::pCoherentSum::getGroupedAmplitudes </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a34a996411496a898729268ad4e5f193c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::getNorm </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> &amp;&#160;</td>
-          <td class="paramname"><em>normalisations</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8f3bb94671738bf4736ab9b2bb316827"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::getVal </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa9b69e2b8c587c79975fad085f24f355"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::getVal </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>cacheAddresses</em>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>pref</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -561,19 +433,51 @@ Protected Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00152">152</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad994ae5b22ca73fd98aeeca2ba9d8e0a"></a>
+<a class="anchor" id="a8c984f77cfad8299053638d7cf8b8a38"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::getSumFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00160">160</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adcf5b9e6562767f3927fe04d08e756b4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::getValNoCache </td>
+          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::getVal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
+          <td class="paramname"><em>event1</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -581,7 +485,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1718740d2bff049717841c72d03568e0"></a>
+<a class="anchor" id="aa3792ddf012f77327caec6677ebe7a7e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -589,7 +493,23 @@ Protected Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::getValNoCache </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em>, </td>
+          <td class="paramname"><em>event1</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a72b17fd0c66d7dce847867885566f9c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::getValNoCache </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
+          <td class="paramname"><em>event1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -607,7 +527,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5e16fbf778b1f3b6e9f2818faa0d9953"></a>
+<a class="anchor" id="a08ec118a895838cc79478808404d9120"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -615,9 +535,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::getWeight </td>
+          <td class="memname">std::vector&lt;<a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&gt; AmpGen::pCoherentSum::getVals </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
+          <td class="paramname"><em>event1</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -628,63 +549,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00057">57</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa8d6bdb726622cf22559589c443092cc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::pCoherentSum::makeTotalExpression </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2a8b3e3a0fe80a185657a012269877a6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt;<a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&gt; &gt; AmpGen::pCoherentSum::matrixElements </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00086">86</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a291ad97e93112569abddb278009f3dbb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::norm </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> &amp;&#160;</td>
-          <td class="paramname"><em>norms</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00236">236</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -703,58 +568,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afadea58b9d877d8cc968230d6dbc2eed"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a> AmpGen::pCoherentSum::norm </td>
-          <td>(</td>
-          <td class="paramtype">const size_t &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const size_t &amp;&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a338fd964cd5028bbf49f717e5b9f2792"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> AmpGen::pCoherentSum::norms </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00089">89</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac80f2e0a32544ea00f5e8e6997372c8f"></a>
+<a class="anchor" id="abc883c6e2e6f8c99ccbad989f0e7b769"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -765,7 +579,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::operator() </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
+          <td class="paramname"><em>event1</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -776,84 +590,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00058">58</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae976f8a56fbb87483e0a4b22154a0c44"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt;<a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&gt; AmpGen::pCoherentSum::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">const size_t &amp;&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00053">53</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a75bdd6f9303538b7ba519696c7c794c2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt;<a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&gt; AmpGen::pCoherentSum::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">const size_t &amp;&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00054">54</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8cbf5b5c962022c1b7de8fc466e9a1be"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string AmpGen::pCoherentSum::prefix </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00051">51</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00120">120</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -872,23 +609,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4c0e6cb0ccac57eee0023023b56714dc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::pCoherentSum::printVal </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a844416ab0daba18400d31d88c6a3616a"></a>
+<a class="anchor" id="a37906a4a053b3bcbd40046359a7267d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -899,7 +620,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::prob </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
+          <td class="paramname"><em>event1</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -910,11 +631,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00059">59</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00121">121</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1ad912758555d7bb3fc7406690549c40"></a>
+<a class="anchor" id="a0cbba1fbde0fa27a7d4f64d99e63ac80"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -925,7 +646,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::prob_unnormalised </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>evt</em></td><td>)</td>
+          <td class="paramname"><em>event1</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -936,11 +657,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00060">60</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00214">214</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2baf7d9b3a263829c978db5f14fea64f"></a>
+<a class="anchor" id="abc9305d9b8a045c2996a6702af7ce61d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -948,9 +669,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a> AmpGen::pCoherentSum::protoAmplitudes </td>
+          <td class="memname">double AmpGen::pCoherentSum::probA </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dc4/class_amp_gen_1_1_event.html">Event</a> &amp;&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -961,11 +683,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00050">50</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00232">232</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a40e2188bbbbc95a871c2c2560fecb06c"></a>
+<a class="anchor" id="a447c3dbf40b2f68ce5e10e9735795c7f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -973,7 +695,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void AmpGen::pCoherentSum::reset </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>resetEvents</em> = <code>false</code></td><td>)</td>
+          <td class="paramname"><em>resetEvents</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -981,7 +703,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a812bc75aec1adf88d5c01748307f6b15"></a>
+<a class="anchor" id="a8bac3a2a4645d20c33f2b51d32a6c81b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -989,7 +711,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void AmpGen::pCoherentSum::setEvents </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
+          <td class="paramname"><em>list1</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -997,7 +719,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeb960c9713309e8a9177104811a80fd0"></a>
+<a class="anchor" id="a2b68ec5a5670483ab74d23181e53eb1f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1005,7 +727,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void AmpGen::pCoherentSum::setMC </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a> &amp;&#160;</td>
-          <td class="paramname"><em>sim</em></td><td>)</td>
+          <td class="paramname"><em>list1</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1013,7 +735,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad29a8a6950bba033398123ba595b8656"></a>
+<a class="anchor" id="a6a2a47b39ef2288e79055e14616e5109"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1021,59 +743,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AmpGen::pCoherentSum::setWeight </td>
-          <td>(</td>
-          <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>weight</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00075">75</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a96c6cdaf44768aca8deb5cb3bb189635"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AmpGen::pCoherentSum::setWeight </td>
-          <td>(</td>
-          <td class="paramtype">MinuitParameter *&#160;</td>
-          <td class="paramname"><em>param</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00076">76</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af0a584c5d8fdd8262c70782a03108e7d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t AmpGen::pCoherentSum::size </td>
+          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1086,16 +756,16 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00055">55</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00229">229</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="adaeab48fa12d5c66b2393e6b8a11beea"></a>
+<a class="anchor" id="a373d1ed475737bfc2d4049ce19e07f48"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AmpGen::pCoherentSum::transferParameters </td>
+          <td class="memname">double AmpGen::pCoherentSum::slowNorm </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1105,7 +775,22 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3ecb822cc4707b0dcf197900c073dc5f"></a>
+<a class="anchor" id="aac9d016190b8af75464154c9341e5245"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d82/namespace_amp_gen.html#a01a861303dccf2bcab5f9c75859578ed">real_t</a> AmpGen::pCoherentSum::testnorm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abed1873d724589f706ca2c44e521e85d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1113,8 +798,18 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void AmpGen::pCoherentSum::updateNorms </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>changedPdfIndices</em></td><td>)</td>
+          <td class="paramname"><em>iA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>iC</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1122,7 +817,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ac184e40b2a9c7b59005dea15366ebf17"></a>
+<a class="anchor" id="a6773d49628e2b59cee07a39aae8ada90"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1130,7 +825,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool AmpGen::pCoherentSum::m_dbThis = {false}</td>
+          <td class="memname"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html">CoherentSum</a> AmpGen::pCoherentSum::m_A</td>
         </tr>
       </table>
   </td>
@@ -1140,11 +835,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00107">107</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00370">370</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1ff681361814a3511d267429952d41d6"></a>
+<a class="anchor" id="a22cc360dd90c36c6a3d4760d42043341"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1152,7 +847,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a>* AmpGen::pCoherentSum::m_events = {nullptr}</td>
+          <td class="memname">double AmpGen::pCoherentSum::m_Anorm</td>
         </tr>
       </table>
   </td>
@@ -1162,11 +857,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00098">98</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00401">401</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5eda6e8a07c9aea9413fd44a1804d908"></a>
+<a class="anchor" id="a5eaf7b0abd6ec2310da16d9b9de0f4e0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1174,7 +869,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dfa/class_amp_gen_1_1_event_type.html">EventType</a> AmpGen::pCoherentSum::m_evtType</td>
+          <td class="memname"><a class="el" href="../../d1/d91/class_amp_gen_1_1_coherent_sum.html">CoherentSum</a> AmpGen::pCoherentSum::m_C</td>
         </tr>
       </table>
   </td>
@@ -1184,11 +879,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00099">99</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00372">372</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9031451df12f67a5fc49caff3936aebc"></a>
+<a class="anchor" id="a0a2a024b5a9258cd4d5f60205908abad"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1196,7 +891,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a70b2a095ad551d16d058c81bf60cc688">integrator</a> AmpGen::pCoherentSum::m_integrator</td>
+          <td class="memname">double AmpGen::pCoherentSum::m_Cnorm</td>
         </tr>
       </table>
   </td>
@@ -1206,11 +901,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00096">96</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00403">403</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6022a9e585279ef55fd24e92e654d218"></a>
+<a class="anchor" id="af27efc7a1be87228fa84d9f04fad4ad0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1218,7 +913,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool AmpGen::pCoherentSum::m_isConstant = {false}</td>
+          <td class="memname">bool AmpGen::pCoherentSum::m_coherentIntegral</td>
         </tr>
       </table>
   </td>
@@ -1228,11 +923,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00106">106</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00388">388</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a843ef5becc930342aa17f089cf0dbfbc"></a>
+<a class="anchor" id="a24d49d7e5c07abe618161bcce4ee2f08"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1240,7 +935,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t AmpGen::pCoherentSum::m_lastPrint = {0}</td>
+          <td class="memname">bool AmpGen::pCoherentSum::m_coherentIntegralA</td>
         </tr>
       </table>
   </td>
@@ -1250,11 +945,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00102">102</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00389">389</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aba5f1bcd4390c548dfb4d45720f1df8f"></a>
+<a class="anchor" id="a5d77a526a627ca851b22dfeaeda11794"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1262,7 +957,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt;<a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&gt; &gt; AmpGen::pCoherentSum::m_matrixElements</td>
+          <td class="memname">bool AmpGen::pCoherentSum::m_coherentIntegralC</td>
         </tr>
       </table>
   </td>
@@ -1272,7 +967,241 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00093">93</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00391">391</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad58329c100027c52034f6781eaabbca1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;MinuitParameter*&gt; &gt; AmpGen::pCoherentSum::m_Cparams</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00378">378</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acfec372d72c5fbd04582955a62004ab9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AmpGen::pCoherentSum::m_debug</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00393">393</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae107bf37295bf80414058f131002bf92"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AmpGen::pCoherentSum::m_debugFreq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00394">394</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb9c22077817025c01d95b06eb6efaaf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d4b/class_amp_gen_1_1_event_list.html">EventList</a>* AmpGen::pCoherentSum::m_events1 = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00374">374</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a04c945a7d1ad30fb2814ea1dc3eb5172"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AmpGen::pCoherentSum::m_flat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00408">408</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5f6080bd922d5ecde1044c3b4f5bc8e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AmpGen::pCoherentSum::m_gamSign</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00405">405</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26ae3a4e0f906c2f11a518cbde497a7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt;10&gt; AmpGen::pCoherentSum::m_integratorAA</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00384">384</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a700ccabb5dc96b1a6f16c881c2004368"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt;10&gt; AmpGen::pCoherentSum::m_integratorAC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00376">376</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e83c90050232f5fd40a6b28fa53e178"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/dfb/class_amp_gen_1_1_integrator.html">Integrator</a>&lt;10&gt; AmpGen::pCoherentSum::m_integratorCC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00386">386</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6723c838982dcc252fe4cae1a070d286"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AmpGen::pCoherentSum::m_inter = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00357">357</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c1e5c89941a8595d97c065c3f928213"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html">MinuitParameterSet</a> AmpGen::pCoherentSum::m_mps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00368">368</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1294,11 +1223,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00105">105</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00361">361</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0a9eb51dff947b854e050477b25ae1d9"></a>
+<a class="anchor" id="aa86536fd9e950d2947d625c29a96c8e5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1306,7 +1235,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> AmpGen::pCoherentSum::m_normalisations</td>
+          <td class="memname"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> AmpGen::pCoherentSum::m_normalisationsAA</td>
         </tr>
       </table>
   </td>
@@ -1316,11 +1245,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00094">94</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00364">364</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8280c4ee76a21751c3377767a85b568f"></a>
+<a class="anchor" id="a70277752bd597c03f9de13b394357f9d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1328,7 +1257,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string AmpGen::pCoherentSum::m_objCache = {&quot;&quot;}</td>
+          <td class="memname"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> AmpGen::pCoherentSum::m_normalisationsAC</td>
         </tr>
       </table>
   </td>
@@ -1338,11 +1267,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00109">109</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00362">362</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afdde794bc46a7e8af3e6a9b1b1f6d752"></a>
+<a class="anchor" id="aa522f1f2783c30e79c575c6cf4670998"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1350,7 +1279,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string AmpGen::pCoherentSum::m_prefix = {&quot;&quot;}</td>
+          <td class="memname"><a class="el" href="../../d1/d6c/class_amp_gen_1_1_bilinears.html">Bilinears</a> AmpGen::pCoherentSum::m_normalisationsCC</td>
         </tr>
       </table>
   </td>
@@ -1360,7 +1289,117 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00110">110</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00366">366</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6788171a4b3b53d066f67878fc039ae8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AmpGen::pCoherentSum::m_order</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00398">398</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3c3302f0be03e50c08e303c5310dc909"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AmpGen::pCoherentSum::m_pdebug</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00395">395</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad019bbffd129dc79998d3aa8097521dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AmpGen::pCoherentSum::m_pNorm</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00396">396</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5060d85850187f40538afc6d4787c451"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; AmpGen::pCoherentSum::m_poly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00379">379</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c91f082b6cb81161be0360d11ad4d11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string AmpGen::pCoherentSum::m_polyType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00399">399</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1372,7 +1411,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t AmpGen::pCoherentSum::m_prepareCalls = {0}</td>
+          <td class="memname">size_t AmpGen::pCoherentSum::m_prepareCalls = 0</td>
         </tr>
       </table>
   </td>
@@ -1382,11 +1421,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00101">101</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00400">400</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7cc56bf491f9f4b66866d834f540fd2f"></a>
+<a class="anchor" id="a9ad553e07bbc941100909b308dd59380"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1394,7 +1433,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t AmpGen::pCoherentSum::m_printFreq = {0}</td>
+          <td class="memname">bool AmpGen::pCoherentSum::m_sameTag</td>
         </tr>
       </table>
   </td>
@@ -1404,11 +1443,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00103">103</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00407">407</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1bd82e6f9902c5d2c618387743e0a2c8"></a>
+<a class="anchor" id="aa92f42bfde1ae8131b4067ccc10de9b9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1416,7 +1455,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dec/class_amp_gen_1_1_amplitude_rules.html">AmplitudeRules</a> AmpGen::pCoherentSum::m_protoAmplitudes</td>
+          <td class="memname">std::string AmpGen::pCoherentSum::m_SFType</td>
         </tr>
       </table>
   </td>
@@ -1426,11 +1465,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00095">95</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00369">369</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4583f049fc8965ccdda1810f46b4f346"></a>
+<a class="anchor" id="a923438d40df9d8c3a086e1f2503c95e8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1438,7 +1477,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dc0/struct_amp_gen_1_1_transition_matrix.html">TransitionMatrix</a>&lt;<a class="el" href="../../dc/d82/namespace_amp_gen.html#a0c4b038444f13769eb75a6ee5a22c3d1">complex_t</a>&gt; AmpGen::pCoherentSum::m_total</td>
+          <td class="memname">bool AmpGen::pCoherentSum::m_updateNorms</td>
         </tr>
       </table>
   </td>
@@ -1448,11 +1487,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00097">97</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00397">397</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9ab987b23912444701ea80690efc6abb"></a>
+<a class="anchor" id="a40139c9e367f1582c2f635577365b335"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1460,7 +1499,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool AmpGen::pCoherentSum::m_verbosity = {false}</td>
+          <td class="memname">std::vector&lt;<a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a>&gt; AmpGen::pCoherentSum::outputFractionsA</td>
         </tr>
       </table>
   </td>
@@ -1470,11 +1509,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00108">108</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00380">380</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a686be25d8a43e968dbe162c950d181e7"></a>
+<a class="anchor" id="a9b5904cb2ab8bc3077701b19600059e7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1482,7 +1521,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double AmpGen::pCoherentSum::m_weight = {1}</td>
+          <td class="memname">std::vector&lt;<a class="el" href="../../da/d5b/class_amp_gen_1_1_fit_fraction.html">FitFraction</a>&gt; AmpGen::pCoherentSum::outputFractionsC</td>
         </tr>
       </table>
   </td>
@@ -1492,29 +1531,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00104">104</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a138aba318d643c2fa0414f8a51c42e3e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MinuitParameter* AmpGen::pCoherentSum::m_weightParam = {nullptr}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00100">100</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html#l00382">382</a> of file <a class="el" href="../../d5/dd3/p_coherent_sum_8h_source.html">pCoherentSum.h</a>.</p>
 
 </div>
 </div>
@@ -1527,7 +1544,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d82/namespace_amp_gen.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d4/d48/class_amp_gen_1_1p_coherent_sum.html">pCoherentSum</a></li>
-    <li class="footer">Generated on Fri May 22 2020 12:30:21 for AmpGen by
+    <li class="footer">Generated on Tue May 26 2020 10:44:18 for AmpGen by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

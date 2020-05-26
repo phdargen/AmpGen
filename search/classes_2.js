@@ -4,6 +4,7 @@ var searchData=
   ['chi2estimator',['Chi2Estimator',['../d3/df3/class_amp_gen_1_1_chi2_estimator.html',1,'AmpGen']]],
   ['coherentsum',['CoherentSum',['../d1/d91/class_amp_gen_1_1_coherent_sum.html',1,'AmpGen']]],
   ['combcorrll',['CombCorrLL',['../d9/d28/class_amp_gen_1_1_comb_corr_l_l.html',1,'AmpGen']]],
+  ['combll',['CombLL',['../d9/df8/class_amp_gen_1_1_comb_l_l.html',1,'AmpGen']]],
   ['compiledexpression',['CompiledExpression',['../d1/d43/class_amp_gen_1_1_compiled_expression.html',1,'AmpGen']]],
   ['compiledexpression_3c_20complex_5ft_2c_20const_20real_5ft_20_2a_2c_20const_20real_5ft_20_2a_20_3e',['CompiledExpression&lt; complex_t, const real_t *, const real_t * &gt;',['../d1/d43/class_amp_gen_1_1_compiled_expression.html',1,'AmpGen']]],
   ['compiledexpression_3c_20real_5ft_2c_20const_20real_5ft_20_2a_2c_20const_20complex_5ft_20_2a_20_3e',['CompiledExpression&lt; real_t, const real_t *, const complex_t * &gt;',['../d1/d43/class_amp_gen_1_1_compiled_expression.html',1,'AmpGen']]],

@@ -2,6 +2,8 @@ var class_amp_gen_1_1_generator =
 [
     [ "Generator", "de/d94/class_amp_gen_1_1_generator.html#ac33a0a70114902280c824d2ef3edf4fb", null ],
     [ "fillEventList", "de/d94/class_amp_gen_1_1_generator.html#adf364483e9217d8604087fab40f07975", null ],
+    [ "fillEventList", "de/d94/class_amp_gen_1_1_generator.html#a21e053ae94e5f991497ed2d4f328b392", null ],
+    [ "fillEventList", "de/d94/class_amp_gen_1_1_generator.html#a2d183ed924078ee3a51f5e5bff00d644", null ],
     [ "fillEventList", "de/d94/class_amp_gen_1_1_generator.html#a8957fe1104625b17dc9db0dbb86a9c6b", null ],
     [ "fillEventListPhaseSpace", "de/d94/class_amp_gen_1_1_generator.html#a7d021652edaeb4a55c492b4ebc4cd367", null ],
     [ "fillEventListPhaseSpace", "de/d94/class_amp_gen_1_1_generator.html#aa5dbb1b5a8d5171d4df1b7be725287b2", null ],

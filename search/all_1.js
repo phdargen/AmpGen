@@ -23,7 +23,7 @@ var searchData=
   ['addfractions',['addFractions',['../d4/d2d/class_amp_gen_1_1_fit_result.html#a7cda752b74d97a6c3723b7d74f7c3870',1,'AmpGen::FitResult']]],
   ['addintegral',['addIntegral',['../d5/dfb/class_amp_gen_1_1_integrator.html#aeb9e630a46f4d54d18207802f54602ed',1,'AmpGen::Integrator::addIntegral()'],['../d9/dd0/class_amp_gen_1_1_binned_integrator.html#a8a81c8283495c21c0c079cbea72b1856',1,'AmpGen::BinnedIntegrator::addIntegral()']]],
   ['addintegralkeyed',['addIntegralKeyed',['../d5/dfb/class_amp_gen_1_1_integrator.html#a822f7943a7f1ad222c345d10cb9998a2',1,'AmpGen::Integrator::addIntegralKeyed()'],['../d0/da6/class_amp_gen_1_1_integrator2.html#a43f407eaeae7958073f168e014e80c2f',1,'AmpGen::Integrator2::addIntegralKeyed()']]],
-  ['addmatrixelement',['addMatrixElement',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a830096d2bf391c8ba28ebeb82ac2e5d9',1,'AmpGen::CoherentSum::addMatrixElement()'],['../d4/d48/class_amp_gen_1_1p_coherent_sum.html#a50960aaaf9e110a7e695eac4bd2da6dd',1,'AmpGen::pCoherentSum::addMatrixElement()']]],
+  ['addmatrixelement',['addMatrixElement',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a830096d2bf391c8ba28ebeb82ac2e5d9',1,'AmpGen::CoherentSum']]],
   ['addmodifier',['addModifier',['../de/dd7/class_amp_gen_1_1_particle.html#a752e9e9f84eef97b03a673cae76f1717',1,'AmpGen::Particle']]],
   ['addobservable',['addObservable',['../d4/d2d/class_amp_gen_1_1_fit_result.html#a255fd136616e2aad4ed8da57aad715ee',1,'AmpGen::FitResult']]],
   ['addorget',['addOrGet',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aa0ae4aa9444e82abc4a3cf687bbfa87d',1,'AmpGen::MinuitParameterSet']]],

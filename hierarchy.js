@@ -97,6 +97,7 @@ var hierarchy =
       [ "AmpGen::IncoherentSum", "db/d29/class_amp_gen_1_1_incoherent_sum.html", null ]
     ] ],
     [ "AmpGen::CombCorrLL", "d9/d28/class_amp_gen_1_1_comb_corr_l_l.html", null ],
+    [ "AmpGen::CombLL", "d9/df8/class_amp_gen_1_1_comb_l_l.html", null ],
     [ "AmpGen::CompiledExpressionBase", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html", [
       [ "AmpGen::CompiledExpression< RETURN_TYPE, ARGS >", "d1/d43/class_amp_gen_1_1_compiled_expression.html", null ],
       [ "AmpGen::CompiledExpression< complex_t, const real_t *, const real_t * >", "d1/d43/class_amp_gen_1_1_compiled_expression.html", null ],

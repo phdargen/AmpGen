@@ -19,6 +19,9 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "CombCorrLL.h", "d2/d46/_comb_corr_l_l_8h.html", [
       [ "CombCorrLL", "d9/d28/class_amp_gen_1_1_comb_corr_l_l.html", "d9/d28/class_amp_gen_1_1_comb_corr_l_l" ]
     ] ],
+    [ "CombLL.h", "d5/dee/_comb_l_l_8h.html", [
+      [ "CombLL", "d9/df8/class_amp_gen_1_1_comb_l_l.html", "d9/df8/class_amp_gen_1_1_comb_l_l" ]
+    ] ],
     [ "CompiledExpression.h", "dc/d96/_compiled_expression_8h.html", "dc/d96/_compiled_expression_8h" ],
     [ "CompiledExpressionBase.h", "df/d36/_compiled_expression_base_8h.html", "df/d36/_compiled_expression_base_8h" ],
     [ "CompilerWrapper.h", "d0/d29/_compiler_wrapper_8h.html", [
@@ -117,9 +120,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "Particle.h", "d4/d15/_particle_8h.html", "d4/d15/_particle_8h" ],
     [ "ParticleProperties.h", "df/d33/_particle_properties_8h.html", "df/d33/_particle_properties_8h" ],
     [ "ParticlePropertiesList.h", "d4/da4/_particle_properties_list_8h.html", "d4/da4/_particle_properties_list_8h" ],
-    [ "pCoherentSum.h", "d5/dd3/p_coherent_sum_8h.html", [
-      [ "pCoherentSum", "d4/d48/class_amp_gen_1_1p_coherent_sum.html", "d4/d48/class_amp_gen_1_1p_coherent_sum" ]
-    ] ],
+    [ "pCoherentSum.h", "d5/dd3/p_coherent_sum_8h.html", "d5/dd3/p_coherent_sum_8h" ],
     [ "pCorrelatedSum.h", "db/d16/p_correlated_sum_8h.html", "db/d16/p_correlated_sum_8h" ],
     [ "PhaseSpace.h", "d8/d5e/_phase_space_8h.html", [
       [ "PhaseSpace", "d6/d53/class_amp_gen_1_1_phase_space.html", "d6/d53/class_amp_gen_1_1_phase_space" ]
@@ -128,6 +129,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "PolarisedSum.h", "d4/d99/_polarised_sum_8h.html", [
       [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html", "d4/d31/class_amp_gen_1_1_polarised_sum" ]
     ] ],
+    [ "Polynomials.h", "df/d55/_polynomials_8h.html", "df/d55/_polynomials_8h" ],
     [ "ProfileClock.h", "d4/d0d/_profile_clock_8h.html", "d4/d0d/_profile_clock_8h" ],
     [ "ProgressBar.h", "dd/d9c/_progress_bar_8h.html", [
       [ "ProgressBar", "d1/de8/class_amp_gen_1_1_progress_bar.html", "d1/de8/class_amp_gen_1_1_progress_bar" ]
