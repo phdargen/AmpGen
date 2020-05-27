@@ -19,6 +19,9 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "CombCorrLL.h", "d2/d46/_comb_corr_l_l_8h.html", [
       [ "CombCorrLL", "d9/d28/class_amp_gen_1_1_comb_corr_l_l.html", "d9/d28/class_amp_gen_1_1_comb_corr_l_l" ]
     ] ],
+    [ "CombGamCorrLL.h", "db/d10/_comb_gam_corr_l_l_8h.html", [
+      [ "CombGamCorrLL", "dc/dfd/class_amp_gen_1_1_comb_gam_corr_l_l.html", "dc/dfd/class_amp_gen_1_1_comb_gam_corr_l_l" ]
+    ] ],
     [ "CombLL.h", "d5/dee/_comb_l_l_8h.html", [
       [ "CombLL", "d9/df8/class_amp_gen_1_1_comb_l_l.html", "d9/df8/class_amp_gen_1_1_comb_l_l" ]
     ] ],

@@ -21,6 +21,7 @@ var namespace_amp_gen =
     [ "Chi2Estimator", "d3/df3/class_amp_gen_1_1_chi2_estimator.html", "d3/df3/class_amp_gen_1_1_chi2_estimator" ],
     [ "CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html", "d1/d91/class_amp_gen_1_1_coherent_sum" ],
     [ "CombCorrLL", "d9/d28/class_amp_gen_1_1_comb_corr_l_l.html", "d9/d28/class_amp_gen_1_1_comb_corr_l_l" ],
+    [ "CombGamCorrLL", "dc/dfd/class_amp_gen_1_1_comb_gam_corr_l_l.html", "dc/dfd/class_amp_gen_1_1_comb_gam_corr_l_l" ],
     [ "CombLL", "d9/df8/class_amp_gen_1_1_comb_l_l.html", "d9/df8/class_amp_gen_1_1_comb_l_l" ],
     [ "CompiledExpression", "d1/d43/class_amp_gen_1_1_compiled_expression.html", "d1/d43/class_amp_gen_1_1_compiled_expression" ],
     [ "CompiledExpressionBase", "df/dcd/class_amp_gen_1_1_compiled_expression_base.html", "df/dcd/class_amp_gen_1_1_compiled_expression_base" ],
