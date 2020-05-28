@@ -1,13 +1,12 @@
 var searchData=
 [
-  ['has',['has',['../d7/dfa/class_amp_gen_1_1_event_type.html#ae256bfd005fb38e29107788be82fc094',1,'AmpGen::EventType']]],
-  ['hasdecay',['hasDecay',['../db/dec/class_amp_gen_1_1_amplitude_rules.html#adf202a9527fccdf6c33098a7fc4b7853',1,'AmpGen::AmplitudeRules']]],
-  ['hasdistinctanti',['hasDistinctAnti',['../db/d37/class_amp_gen_1_1_particle_properties.html#a75b84e4ae8bf867fc39972b7196e7e4e',1,'AmpGen::ParticleProperties']]],
-  ['hasexternalschanged',['hasExternalsChanged',['../d1/d43/class_amp_gen_1_1_compiled_expression.html#aa83682dda8ea76678ea3304c383a2af7',1,'AmpGen::CompiledExpression']]],
-  ['hash',['hash',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#abd64a55296431cd16aefd4a82475a5b8',1,'AmpGen::CompiledExpressionBase']]],
-  ['head',['head',['../d5/db2/class_amp_gen_1_1_coupling.html#ace9d4414ad70f3abbec873e5bba41381',1,'AmpGen::Coupling']]],
-  ['helicityamplitude',['helicityAmplitude',['../dc/d82/namespace_amp_gen.html#a6b80e25d13f69a0fcde603257979f4c4',1,'AmpGen']]],
-  ['helicitycosine',['HelicityCosine',['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html',1,'AmpGen']]],
-  ['helicitycosine',['HelicityCosine',['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html#a600b2f54ccb2aac8f81af1148d33bf41',1,'AmpGen::HelicityCosine::HelicityCosine(const std::vector&lt; unsigned &gt; &amp;p1, const std::vector&lt; unsigned &gt; &amp;p2, const std::vector&lt; unsigned &gt; &amp;pR)'],['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html#ab946e30670139b4c23e385fa3e0e4a86',1,'AmpGen::HelicityCosine::HelicityCosine(const unsigned &amp;i, const unsigned &amp;j, const std::vector&lt; unsigned &gt; &amp;pR)']]],
-  ['help',['help',['../d9/d1b/class_amp_gen_1_1_named_parameter.html#aecf78c088f40b166358a7c3230b881e5',1,'AmpGen::NamedParameter']]]
+  ['has_409',['has',['../d7/dfa/class_amp_gen_1_1_event_type.html#a04455e1a3a9722a3aa06495268d55c00',1,'AmpGen::EventType']]],
+  ['hasdecay_410',['hasDecay',['../db/dec/class_amp_gen_1_1_amplitude_rules.html#adf202a9527fccdf6c33098a7fc4b7853',1,'AmpGen::AmplitudeRules']]],
+  ['hasdistinctanti_411',['hasDistinctAnti',['../db/d37/class_amp_gen_1_1_particle_properties.html#a9c103ffe7d72157f71d3703cb1c53922',1,'AmpGen::ParticleProperties']]],
+  ['hasexternalschanged_412',['hasExternalsChanged',['../d0/d47/class_amp_gen_1_1_compiled_expression_3_01_r_e_t_u_r_n___t_y_p_e_07_a_r_g_s_8_8_8_08_4.html#aab11ec36ed257fbc71a44c0a1a21c6a9',1,'AmpGen::CompiledExpression&lt; RETURN_TYPE(ARGS...)&gt;']]],
+  ['hash_413',['hash',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#aca066beb183445cb5c7bb7e56a55d67d',1,'AmpGen::CompiledExpressionBase']]],
+  ['head_414',['head',['../d5/db2/class_amp_gen_1_1_coupling.html#a6487e731cd414e9ecde43e7a538f315e',1,'AmpGen::Coupling']]],
+  ['helicityamplitude_415',['helicityAmplitude',['../dc/d82/namespace_amp_gen.html#a0db7ddea7b6b7a84b78640ee2d1079ab',1,'AmpGen']]],
+  ['helicitycosine_416',['HelicityCosine',['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html',1,'AmpGen::HelicityCosine'],['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html#a600b2f54ccb2aac8f81af1148d33bf41',1,'AmpGen::HelicityCosine::HelicityCosine(const std::vector&lt; unsigned &gt; &amp;p1, const std::vector&lt; unsigned &gt; &amp;p2, const std::vector&lt; unsigned &gt; &amp;pR)'],['../d1/d4e/class_amp_gen_1_1_helicity_cosine.html#ab946e30670139b4c23e385fa3e0e4a86',1,'AmpGen::HelicityCosine::HelicityCosine(const unsigned &amp;i, const unsigned &amp;j, const std::vector&lt; unsigned &gt; &amp;pR)']]],
+  ['help_417',['help',['../d9/d1b/class_amp_gen_1_1_named_parameter.html#aecf78c088f40b166358a7c3230b881e5',1,'AmpGen::NamedParameter']]]
 ];

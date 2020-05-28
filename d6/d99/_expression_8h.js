@@ -1,5 +1,6 @@
 var _expression_8h =
 [
+    [ "ComplexParameter", "d1/d2c/class_amp_gen_1_1_complex_parameter.html", "d1/d2c/class_amp_gen_1_1_complex_parameter" ],
     [ "Function", "d5/d9b/struct_amp_gen_1_1_function.html", "d5/d9b/struct_amp_gen_1_1_function" ],
     [ "Equal", "d4/d7a/class_amp_gen_1_1_equal.html", "d4/d7a/class_amp_gen_1_1_equal" ],
     [ "ATan2", "dd/d4f/class_amp_gen_1_1_a_tan2.html", "dd/d4f/class_amp_gen_1_1_a_tan2" ],
@@ -9,6 +10,7 @@ var _expression_8h =
     [ "DEFINE_BINARY_OPERATOR", "d6/d99/_expression_8h.html#a3a32559004b812e85f4945b533ed1c6e", null ],
     [ "DEFINE_CAST", "dc/dea/group___expression_engine.html#ga61e952c4c11f6a5abd019a9b880b3517", null ],
     [ "DEFINE_UNARY_OPERATOR", "d6/d99/_expression_8h.html#a111723c42dd191f3994a9f7753888103", null ],
+    [ "DEFINE_UNARY_OPERATOR_NO_RESOLVER", "d6/d99/_expression_8h.html#a5928aab7c61e0af717bea60eede15652", null ],
     [ "DebugSymbol", "d6/d99/_expression_8h.html#af4d0debf73a11bec706d861a0d0fbc2d", null ],
     [ "DebugSymbols", "d6/d99/_expression_8h.html#ab408aca774a8b2a54e43dc371592bc10", null ],
     [ "abs", "d6/d99/_expression_8h.html#a0e5654df62d05a37f80dd1eef361537a", null ],
@@ -42,9 +44,9 @@ var _expression_8h =
     [ "operator/", "d6/d99/_expression_8h.html#a5f4918a59f59b89255e79a8c566ff6e2", null ],
     [ "operator<", "d6/d99/_expression_8h.html#a2793b189d0e166f88ab3da7fe09dc7b5", null ],
     [ "operator<<", "d6/d99/_expression_8h.html#a5105ab16da165861d7f01ed15811ccdb", null ],
-    [ "operator==", "d6/d99/_expression_8h.html#ab231df7c1283802942e950adb492e915", null ],
-    [ "operator==", "d6/d99/_expression_8h.html#abf3c52dc2b15e5194673639106c53c22", null ],
     [ "operator==", "d6/d99/_expression_8h.html#affaaf274e342df0fe199f2c88f8a3076", null ],
+    [ "operator==", "d6/d99/_expression_8h.html#abf3c52dc2b15e5194673639106c53c22", null ],
+    [ "operator==", "d6/d99/_expression_8h.html#ab231df7c1283802942e950adb492e915", null ],
     [ "operator>", "d6/d99/_expression_8h.html#af10b8848bdd2239281f716c67914a129", null ],
     [ "pow", "d6/d99/_expression_8h.html#ac618f1ac7657b421eb1ec53b31cbd846", null ],
     [ "safe_sqrt", "d6/d99/_expression_8h.html#ade02684fe97a22339973498b94cfbc31", null ],

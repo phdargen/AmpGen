@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rotate',['Rotate',['../d9/d03/class_amp_gen_1_1_transform.html#a416618421d606404b0e3ed308fbf33e5a1808a9bd3d3f1db89ff7d1aa8fbd61fe',1,'AmpGen::Transform']]]
+  ['partialexpansion_2436',['PartialExpansion',['../de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869a100e1395a2ce1f5fc39eaa0f071126bb',1,'AmpGen::Particle']]]
 ];
