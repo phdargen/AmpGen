@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flat_2433',['Flat',['../d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html#aae1381a14786d05fb69348bc56483431a380e668af11c07b863afe325ec7d851a',1,'AmpGen::TreePhaseSpace::Vertex']]]
+  ['none',['None',['../de/dd7/class_amp_gen_1_1_particle.html#a6b8e6fd2133e955a1ed506fbcc00c869a242a8ab31e4b9b787c59e524987ba4b6',1,'AmpGen::Particle']]]
 ];

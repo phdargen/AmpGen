@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['make_5fenum_2466',['make_enum',['../d0/d9b/enum_8h.html#acf514dfc5ddaa46e18b32b70b8059b74',1,'enum.h']]]
+  ['register',['REGISTER',['../d7/de6/_factory_8h.html#a745549b2854f14e2a221dbf81ca53d6e',1,'Factory.h']]],
+  ['register_5fwith_5fkey',['REGISTER_WITH_KEY',['../d7/de6/_factory_8h.html#a93fb3e446a20003196dee0125663dcae',1,'Factory.h']]]
 ];
