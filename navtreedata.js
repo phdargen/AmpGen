@@ -1,3 +1,27 @@
+/*
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
+
+ The MIT License (MIT)
+
+ Copyright (C) 1997-2020 by Dimitri van Heesch
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "AmpGen", "index.html", [
@@ -26,7 +50,6 @@ var NAVTREE =
     [ "File List", "files.html", "files" ],
     [ "File Members", "globals.html", [
       [ "All", "globals.html", null ],
-      [ "Functions", "globals_func.html", null ],
       [ "Macros", "globals_defs.html", null ]
     ] ]
   ] ]
@@ -35,18 +58,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d10/class_amp_gen_1_1t_coherent_sum.html#aa1b83663da7823cbf5b6cf1aa922b8ca",
-"d2/d28/class_amp_gen_1_1_tan.html",
-"d4/d06/_dirac_matrices_8h.html#a8833f3957e8325ef10f18445f0b4a224",
-"d4/d85/_meta_utils_8h_source.html",
-"d6/d81/class_amp_gen_1_1p_correlated_sum.html#a364eddd2f201d8e1dd6e068a4b9c63d7",
-"d7/dfa/class_amp_gen_1_1_event_type.html#aaeaad6810e0b2cd7a6d851541a66c79a",
-"d9/d1b/class_amp_gen_1_1_named_parameter.html",
-"db/d10/_comb_gam_corr_l_l_8h_source.html",
-"db/d72/_utilities_8h.html#a79f229f3b7f05cb32c5fe8d6f3c9812c",
-"dc/dea/group___expression_engine.html#gaf1cc2d021296534c42cf28108379baa1",
-"de/d6a/class_amp_gen_1_1_particle_properties_list.html#a86d0e2a12ae2dd52f0895343fcf8afb4",
-"df/d84/class_amp_gen_1_1_total_coupling.html#a4b4ae181d6cc92dadcb5025641dff64c"
+"d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#a26781c06b1a723e145dc88c6663a9f7f",
+"d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#a2a5610ef2f4816192a4b706bf076172f",
+"d4/d2d/class_amp_gen_1_1_fit_result.html#a185ebdeda9df763d30d4c65d2802c32b",
+"d5/da5/struct_amp_gen_1_1_vertex_1_1_s__ff___s1.html#a7e32358cd502a1b27fa889cad72bde4a",
+"d6/d9f/avx2f__types_8h.html#a5cb86515363676f0239a0451f5137c90",
+"d8/d69/_units_8h.html#a42a7cb9dfa9ea265369911374f91ad91",
+"d9/d85/class_amp_gen_1_1_lineshape_1_1_factory.html#ae3265a3b5d55b3562e7e6d4aeb2b3469",
+"db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#a97042d39899619188c9b8c6bba01779a",
+"db/d72/_utilities_8h.html#af50440c72955575105b9f97561825c7d",
+"dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html",
+"de/d96/class_amp_gen_1_1_lineshape_1_1_b_w.html#a6641ba477f9cd86c8162e581d17be6d4",
+"df/d84/class_amp_gen_1_1_total_coupling.html#aca1d00ede314b308ce6aade99d8a6fcb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

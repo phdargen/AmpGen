@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['uniqueelements',['uniqueElements',['../d4/d0e/class_amp_gen_1_1_tensor.html#a512fec95d5ea2d5159d307c1d6662ba6',1,'AmpGen::Tensor']]],
-  ['uniquestring',['uniqueString',['../de/dd7/class_amp_gen_1_1_particle.html#ae5e30454c974635ea4a8700b282ccd40',1,'AmpGen::Particle']]],
-  ['unregister',['unregister',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a31ed7d0a9a411fa2fc606258e63550a7',1,'AmpGen::MinuitParameterSet']]],
-  ['update',['update',['../d9/dd0/class_amp_gen_1_1_binned_integrator.html#a330ace9d086fc099d20ff274dcde08ed',1,'AmpGen::BinnedIntegrator::update()'],['../de/d24/class_amp_gen_1_1_minuit_proxy.html#af2eaebaaf189d862f99f411da14e8e1f',1,'AmpGen::MinuitProxy::update()']]],
-  ['updatecache',['updateCache',['../db/d4b/class_amp_gen_1_1_event_list.html#aaab4c8904d5e20ae892c4e8e83ec495c',1,'AmpGen::EventList']]],
-  ['updatenorms',['updateNorms',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a57bcd3cdbfc0c40196179f65f4e016b3',1,'AmpGen::CoherentSum::updateNorms()'],['../d1/d28/class_amp_gen_1_1_correlated_sum.html#ac6cfb052b9844043b0c60808d1c6b8de',1,'AmpGen::CorrelatedSum::updateNorms()'],['../d4/d48/class_amp_gen_1_1p_coherent_sum.html#abed1873d724589f706ca2c44e521e85d',1,'AmpGen::pCoherentSum::updateNorms()'],['../d6/d81/class_amp_gen_1_1p_correlated_sum.html#a66f635622a8a7bb8c5dca5667ec3a4d2',1,'AmpGen::pCorrelatedSum::updateNorms()'],['../d1/d10/class_amp_gen_1_1t_coherent_sum.html#a951540471f6be282cdc29898262d5d93',1,'AmpGen::tCoherentSum::updateNorms()']]],
-  ['updaterunningwidth',['updateRunningWidth',['../da/d3d/class_amp_gen_1_1_three_body_calculator.html#a51b556f02f4ca325cfbbda299b680a1e',1,'AmpGen::ThreeBodyCalculator']]],
-  ['use_5frto',['use_rto',['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a83254cff18e34ec587f58aefeaccfd86',1,'AmpGen::CompiledExpressionBase']]]
+  ['udouble_5fto_5fuint_2208',['udouble_to_uint',['../dc/daa/namespace_amp_gen_1_1_a_v_x2d.html#a770cb3fca394e01eaee9e8563b9a0759',1,'AmpGen::AVX2d']]],
+  ['uniqueelements_2209',['uniqueElements',['../d4/d0e/class_amp_gen_1_1_tensor.html#a5b40bdadf83ccff06b689da298f006b0',1,'AmpGen::Tensor']]],
+  ['uniquestring_2210',['uniqueString',['../de/dd7/class_amp_gen_1_1_particle.html#af84305ebe15a5970ff7b4a2a83f15732',1,'AmpGen::Particle']]],
+  ['unregister_2211',['unregister',['../d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#a31ed7d0a9a411fa2fc606258e63550a7',1,'AmpGen::MinuitParameterSet']]],
+  ['unsetentrylist_2212',['unsetEntryList',['../dd/da6/class_amp_gen_1_1_tree_reader.html#adadedf466c8e9b9c5107e27a4065ab4f',1,'AmpGen::TreeReader']]],
+  ['update_2213',['update',['../de/d24/class_amp_gen_1_1_minuit_proxy.html#af2eaebaaf189d862f99f411da14e8e1f',1,'AmpGen::MinuitProxy::update()'],['../d6/dd1/class_amp_gen_1_1_store.html#a47d9d5ed10431bbd04432e6b03c072e3',1,'AmpGen::Store::update(const Store&lt; input_type, Alignment::AoS &gt; &amp;is, const functor_type &amp;fcn)'],['../d6/dd1/class_amp_gen_1_1_store.html#a19f82aaf16c2c1e2db4a76f10042017f',1,'AmpGen::Store::update(const EventList &amp;events, const functor_type &amp;fcn)']]],
+  ['updatecache_2214',['updateCache',['../d5/dfb/class_amp_gen_1_1_integrator.html#ac37d4dfcf7810fa13b1ffdeaba0232b0',1,'AmpGen::Integrator']]],
+  ['updatenorms_2215',['updateNorms',['../d1/d91/class_amp_gen_1_1_coherent_sum.html#a4be464bf53065e81cf770acdf02a001a',1,'AmpGen::CoherentSum::updateNorms()'],['../d4/d31/class_amp_gen_1_1_polarised_sum.html#a99b736d2ef225f7f6f8f559d338e1934',1,'AmpGen::PolarisedSum::updateNorms()']]],
+  ['updaterunningwidth_2216',['updateRunningWidth',['../da/d3d/class_amp_gen_1_1_three_body_calculator.html#a51b556f02f4ca325cfbbda299b680a1e',1,'AmpGen::ThreeBodyCalculator']]],
+  ['use_5frto_2217',['use_rto',['../d0/d47/class_amp_gen_1_1_compiled_expression_3_01_r_e_t_u_r_n___t_y_p_e_07_a_r_g_s_8_8_8_08_4.html#ab5a1f4a57bd6e23ad0547d6832da87f1',1,'AmpGen::CompiledExpression&lt; RETURN_TYPE(ARGS...)&gt;::use_rto()'],['../df/dcd/class_amp_gen_1_1_compiled_expression_base.html#a208e5f3ea5f019c6c501071553316c03',1,'AmpGen::CompiledExpressionBase::use_rto()']]]
 ];

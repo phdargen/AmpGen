@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['projection',['Projection',['../d0/d04/class_amp_gen_1_1_projection2_d.html#a8e87a92be27fc974044d80e742df6879',1,'AmpGen::Projection2D']]],
-  ['projection2d',['Projection2D',['../db/dc8/class_amp_gen_1_1_projection.html#a9702f2b2431e1637f59bebaf37d60979',1,'AmpGen::Projection']]]
+  ['operator_2d_2456',['operator-',['../d8/db5/class_amp_gen_1_1scatter__iterator.html#aa5c4f6e9a7991185298022c8ef22e03e',1,'AmpGen::scatter_iterator']]],
+  ['operator_3c_3c_2457',['operator&lt;&lt;',['../d0/dd6/class_amp_gen_1_1_tensor_1_1_index.html#a27958b39cf57c39072fd28b09bb69431',1,'AmpGen::Tensor::Index']]]
 ];
