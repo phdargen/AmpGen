@@ -85,5 +85,5 @@ var group___vertices =
     [ "Spin1hProjector", "d0/de8/group___vertices.html#gadfa5d93386e0dae150fe7d66bd81f24e", null ],
     [ "Spin1Projector", "d0/de8/group___vertices.html#gacbbe833b0a87a4145bcd10aed9aca920", null ],
     [ "Spin2Projector", "d0/de8/group___vertices.html#ga59ee1d70f51f4bca4aa96e66923e90df", null ],
-    [ "wickTransform", "d0/de8/group___vertices.html#gabf4df499a7af475044c35eac20eed956", null ]
+    [ "wickTransform", "d0/de8/group___vertices.html#gae73775373ea2089084b61a3bd25178e3", null ]
 ];

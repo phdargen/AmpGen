@@ -1,6 +1,5 @@
 var dir_afe841426323c02de63fa29102dfa844 =
 [
-    [ "simd", "dir_f25601dc9a09540d3eefcadbb5d74897.html", "dir_f25601dc9a09540d3eefcadbb5d74897" ],
     [ "AddCPConjugate.h", "db/d1b/_add_c_p_conjugate_8h.html", "db/d1b/_add_c_p_conjugate_8h" ],
     [ "AmplitudeRules.h", "d7/d6d/_amplitude_rules_8h.html", "d7/d6d/_amplitude_rules_8h" ],
     [ "ArgumentPack.h", "dd/dd4/_argument_pack_8h.html", "dd/dd4/_argument_pack_8h" ],
@@ -17,16 +16,37 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "CoherentSum.h", "df/ddb/_coherent_sum_8h.html", [
       [ "CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html", "d1/d91/class_amp_gen_1_1_coherent_sum" ]
     ] ],
+    [ "CombCorrLL.h", "d2/d46/_comb_corr_l_l_8h.html", [
+      [ "CombCorrLL", "d9/d28/class_amp_gen_1_1_comb_corr_l_l.html", "d9/d28/class_amp_gen_1_1_comb_corr_l_l" ]
+    ] ],
+    [ "CombGamCorrLL.h", "db/d10/_comb_gam_corr_l_l_8h.html", [
+      [ "CombGamCorrLL", "dc/dfd/class_amp_gen_1_1_comb_gam_corr_l_l.html", "dc/dfd/class_amp_gen_1_1_comb_gam_corr_l_l" ]
+    ] ],
+    [ "CombLL.h", "d5/dee/_comb_l_l_8h.html", [
+      [ "CombLL", "d9/df8/class_amp_gen_1_1_comb_l_l.html", "d9/df8/class_amp_gen_1_1_comb_l_l" ]
+    ] ],
     [ "CompiledExpression.h", "dc/d96/_compiled_expression_8h.html", "dc/d96/_compiled_expression_8h" ],
     [ "CompiledExpressionBase.h", "df/d36/_compiled_expression_base_8h.html", "df/d36/_compiled_expression_base_8h" ],
     [ "CompilerWrapper.h", "d0/d29/_compiler_wrapper_8h.html", [
       [ "CompilerWrapper", "d7/d4c/class_amp_gen_1_1_compiler_wrapper.html", "d7/d4c/class_amp_gen_1_1_compiler_wrapper" ]
     ] ],
+    [ "CorrelatedLL.h", "d1/da7/_correlated_l_l_8h.html", null ],
+    [ "CorrelatedSum.h", "db/dc6/_correlated_sum_8h.html", [
+      [ "CorrelatedSum", "d1/d28/class_amp_gen_1_1_correlated_sum.html", "d1/d28/class_amp_gen_1_1_correlated_sum" ]
+    ] ],
+    [ "corrEventList.h", "d0/d79/corr_event_list_8h.html", "d0/d79/corr_event_list_8h" ],
     [ "CoupledChannel.h", "da/da0/_coupled_channel_8h.html", "da/da0/_coupled_channel_8h" ],
     [ "DalitzIntegrator.h", "d0/d32/_dalitz_integrator_8h.html", [
       [ "DalitzIntegrator", "df/d1a/class_amp_gen_1_1_dalitz_integrator.html", "df/d1a/class_amp_gen_1_1_dalitz_integrator" ]
     ] ],
     [ "DiracMatrices.h", "d4/d06/_dirac_matrices_8h.html", "d4/d06/_dirac_matrices_8h" ],
+    [ "DTEvent.h", "dd/d56/_d_t_event_8h.html", "dd/d56/_d_t_event_8h" ],
+    [ "DTEventList.h", "d8/dea/_d_t_event_list_8h.html", [
+      [ "DTEventList", "d8/d40/struct_amp_gen_1_1_d_t_event_list.html", "d8/d40/struct_amp_gen_1_1_d_t_event_list" ]
+    ] ],
+    [ "DTYieldCalculator.h", "d3/dfb/_d_t_yield_calculator_8h.html", [
+      [ "DTYieldCalculator", "d8/d89/class_d_t_yield_calculator.html", "d8/d89/class_d_t_yield_calculator" ]
+    ] ],
     [ "DynamicContainer.h", "da/d11/_dynamic_container_8h.html", [
       [ "DynamicContainer", "d6/d9d/class_amp_gen_1_1_dynamic_container.html", "d6/d9d/class_amp_gen_1_1_dynamic_container" ],
       [ "Iterator", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator" ]
@@ -44,9 +64,6 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "Event", "dd/dc4/class_amp_gen_1_1_event.html", "dd/dc4/class_amp_gen_1_1_event" ]
     ] ],
     [ "EventList.h", "df/d3d/_event_list_8h.html", "df/d3d/_event_list_8h" ],
-    [ "EventListSIMD.h", "db/d35/_event_list_s_i_m_d_8h.html", [
-      [ "EventListSIMD", "df/d41/class_amp_gen_1_1_event_list_s_i_m_d.html", "df/d41/class_amp_gen_1_1_event_list_s_i_m_d" ]
-    ] ],
     [ "EventType.h", "d4/d69/_event_type_8h.html", "d4/d69/_event_type_8h" ],
     [ "Expression.h", "d6/d99/_expression_8h.html", "d6/d99/_expression_8h" ],
     [ "ExpressionParser.h", "de/d94/_expression_parser_8h.html", "de/d94/_expression_parser_8h" ],
@@ -59,6 +76,9 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "FitResult.h", "d7/d5d/_fit_result_8h.html", [
       [ "FitResult", "d4/d2d/class_amp_gen_1_1_fit_result.html", "d4/d2d/class_amp_gen_1_1_fit_result" ]
     ] ],
+    [ "FixedLibPdf.h", "d2/df5/_fixed_lib_pdf_8h.html", [
+      [ "FixedLibPdf", "d9/da6/class_fixed_lib_pdf.html", "d9/da6/class_fixed_lib_pdf" ]
+    ] ],
     [ "Generator.h", "d8/dc5/_generator_8h.html", "d8/dc5/_generator_8h" ],
     [ "IExtendLikelihood.h", "d8/d79/_i_extend_likelihood_8h.html", [
       [ "IExtendLikelihood", "d8/d9d/class_amp_gen_1_1_i_extend_likelihood.html", "d8/d9d/class_amp_gen_1_1_i_extend_likelihood" ],
@@ -70,16 +90,17 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "IncoherentSum", "db/d29/class_amp_gen_1_1_incoherent_sum.html", "db/d29/class_amp_gen_1_1_incoherent_sum" ]
     ] ],
     [ "Integrator.h", "dc/d50/_integrator_8h.html", [
+      [ "Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", "d1/d6c/class_amp_gen_1_1_bilinears" ],
+      [ "Integral", "d5/d4f/struct_amp_gen_1_1_integral.html", "d5/d4f/struct_amp_gen_1_1_integral" ],
       [ "Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", "d5/dfb/class_amp_gen_1_1_integrator" ],
-      [ "Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", "d1/d6c/class_amp_gen_1_1_bilinears" ]
+      [ "BinnedIntegrator", "d9/dd0/class_amp_gen_1_1_binned_integrator.html", "d9/dd0/class_amp_gen_1_1_binned_integrator" ]
+    ] ],
+    [ "Integrator2.h", "d9/d2d/_integrator2_8h.html", [
+      [ "Integrator2", "d0/da6/class_amp_gen_1_1_integrator2.html", "d0/da6/class_amp_gen_1_1_integrator2" ]
     ] ],
     [ "Kinematics.h", "d0/dee/_kinematics_8h.html", "d0/dee/_kinematics_8h" ],
     [ "kMatrix.h", "d2/d41/k_matrix_8h.html", "d2/d41/k_matrix_8h" ],
     [ "Lineshapes.h", "da/dcc/_lineshapes_8h.html", "da/dcc/_lineshapes_8h" ],
-    [ "LiteSpan.h", "d9/dd3/_lite_span_8h.html", [
-      [ "LiteSpan", "de/d0f/class_amp_gen_1_1_lite_span.html", "de/d0f/class_amp_gen_1_1_lite_span" ],
-      [ "KeyedFunctors", "db/d10/struct_amp_gen_1_1_keyed_functors.html", "db/d10/struct_amp_gen_1_1_keyed_functors" ]
-    ] ],
     [ "MetaUtils.h", "d4/d85/_meta_utils_8h.html", "d4/d85/_meta_utils_8h" ],
     [ "Minimiser.h", "da/df9/_minimiser_8h.html", null ],
     [ "MinuitExpression.h", "d7/d9c/_minuit_expression_8h.html", [
@@ -91,6 +112,10 @@ var dir_afe841426323c02de63fa29102dfa844 =
     ] ],
     [ "MsgService.h", "d9/daa/_msg_service_8h.html", "d9/daa/_msg_service_8h" ],
     [ "NamedParameter.h", "df/d78/_named_parameter_8h.html", "df/d78/_named_parameter_8h" ],
+    [ "NormalisedPdf.h", "d7/d23/_normalised_pdf_8h.html", [
+      [ "normalised_pdf", "d5/de1/structnormalised__pdf.html", "d5/de1/structnormalised__pdf" ],
+      [ "ModelStore", "d5/dc6/struct_model_store.html", "d5/dc6/struct_model_store" ]
+    ] ],
     [ "OptionsParser.h", "de/d3c/_options_parser_8h.html", [
       [ "OptionsParser", "d8/d73/class_amp_gen_1_1_options_parser.html", "d8/d73/class_amp_gen_1_1_options_parser" ]
     ] ],
@@ -98,17 +123,28 @@ var dir_afe841426323c02de63fa29102dfa844 =
     [ "Particle.h", "d4/d15/_particle_8h.html", "d4/d15/_particle_8h" ],
     [ "ParticleProperties.h", "df/d33/_particle_properties_8h.html", "df/d33/_particle_properties_8h" ],
     [ "ParticlePropertiesList.h", "d4/da4/_particle_properties_list_8h.html", "d4/da4/_particle_properties_list_8h" ],
+    [ "pCoherentSum.h", "d5/dd3/p_coherent_sum_8h.html", "d5/dd3/p_coherent_sum_8h" ],
+    [ "pCorrelatedSum.h", "db/d16/p_correlated_sum_8h.html", "db/d16/p_correlated_sum_8h" ],
     [ "PhaseSpace.h", "d8/d5e/_phase_space_8h.html", [
       [ "PhaseSpace", "d6/d53/class_amp_gen_1_1_phase_space.html", "d6/d53/class_amp_gen_1_1_phase_space" ]
     ] ],
+    [ "Plots.h", "db/d38/_plots_8h.html", "db/d38/_plots_8h" ],
     [ "PolarisedSum.h", "d4/d99/_polarised_sum_8h.html", [
       [ "PolarisedSum", "d4/d31/class_amp_gen_1_1_polarised_sum.html", "d4/d31/class_amp_gen_1_1_polarised_sum" ]
     ] ],
+    [ "Polynomials.h", "df/d55/_polynomials_8h.html", "df/d55/_polynomials_8h" ],
     [ "ProfileClock.h", "d4/d0d/_profile_clock_8h.html", "d4/d0d/_profile_clock_8h" ],
     [ "ProgressBar.h", "dd/d9c/_progress_bar_8h.html", [
       [ "ProgressBar", "d1/de8/class_amp_gen_1_1_progress_bar.html", "d1/de8/class_amp_gen_1_1_progress_bar" ]
     ] ],
-    [ "Projection.h", "dd/d31/_projection_8h.html", "dd/d31/_projection_8h" ],
+    [ "Projection.h", "dd/d31/_projection_8h.html", [
+      [ "Projection", "db/dc8/class_amp_gen_1_1_projection.html", "db/dc8/class_amp_gen_1_1_projection" ],
+      [ "Projection2D", "d0/d04/class_amp_gen_1_1_projection2_d.html", "d0/d04/class_amp_gen_1_1_projection2_d" ]
+    ] ],
+    [ "Psi3770.h", "dd/d66/_psi3770_8h.html", [
+      [ "Psi3770", "d8/d85/class_psi3770.html", "d8/d85/class_psi3770" ]
+    ] ],
+    [ "QcGenerator.h", "dd/dec/_qc_generator_8h.html", "dd/dec/_qc_generator_8h" ],
     [ "QuarkContent.h", "d2/d87/_quark_content_8h.html", "d2/d87/_quark_content_8h" ],
     [ "RecursivePhaseSpace.h", "df/dc6/_recursive_phase_space_8h.html", [
       [ "RecursivePhaseSpace", "dd/daf/class_amp_gen_1_1_recursive_phase_space.html", "dd/daf/class_amp_gen_1_1_recursive_phase_space" ]
@@ -118,8 +154,11 @@ var dir_afe841426323c02de63fa29102dfa844 =
     ] ],
     [ "Simplify.h", "d2/d9c/_simplify_8h.html", "d2/d9c/_simplify_8h" ],
     [ "Spline.h", "d4/d25/_spline_8h.html", "d4/d25/_spline_8h" ],
-    [ "Store.h", "d4/deb/_store_8h.html", "d4/deb/_store_8h" ],
+    [ "SumLL.h", "de/dc0/_sum_l_l_8h.html", [
+      [ "SumLL", "d3/db1/class_amp_gen_1_1_sum_l_l.html", "d3/db1/class_amp_gen_1_1_sum_l_l" ]
+    ] ],
     [ "SumPDF.h", "d6/d5e/_sum_p_d_f_8h.html", "d6/d5e/_sum_p_d_f_8h" ],
+    [ "tCoherentSum.h", "d9/d0a/t_coherent_sum_8h.html", "d9/d0a/t_coherent_sum_8h" ],
     [ "Tensor.h", "dc/db8/_tensor_8h.html", "dc/db8/_tensor_8h" ],
     [ "ThreadPool.h", "dc/d0b/_thread_pool_8h.html", [
       [ "ThreadPool", "d7/d84/class_amp_gen_1_1_thread_pool.html", "d7/d84/class_amp_gen_1_1_thread_pool" ]
@@ -133,8 +172,7 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "Vertex", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex.html", "d9/d0f/struct_amp_gen_1_1_tree_phase_space_1_1_vertex" ]
     ] ],
     [ "TreeReader.h", "d2/d4c/_tree_reader_8h.html", [
-      [ "TreeReader", "dd/da6/class_amp_gen_1_1_tree_reader.html", "dd/da6/class_amp_gen_1_1_tree_reader" ],
-      [ "Proxy", "da/df7/struct_amp_gen_1_1_tree_reader_1_1_proxy.html", "da/df7/struct_amp_gen_1_1_tree_reader_1_1_proxy" ]
+      [ "TreeReader", "dd/da6/class_amp_gen_1_1_tree_reader.html", "dd/da6/class_amp_gen_1_1_tree_reader" ]
     ] ],
     [ "Types.h", "d0/db6/_types_8h.html", "d0/db6/_types_8h" ],
     [ "Units.h", "d8/d69/_units_8h.html", "d8/d69/_units_8h" ],
