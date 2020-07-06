@@ -1,0 +1,27 @@
+var class_amp_gen_1_1g_coherent_sum =
+[
+    [ "integrator", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a9f70bbff8bb20cf94ed82bd025e941f1", null ],
+    [ "gCoherentSum", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a7fa7818f413f92285814a37adf4a6a14", null ],
+    [ "gCoherentSum", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a016d43feee314c34b472cb1a916ac341", null ],
+    [ "~gCoherentSum", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a55c5cb9fef367f50bffb41096cbc9536", null ],
+    [ "getVal", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a89bbb77dbc5a90ba00e966912c756330", null ],
+    [ "norm", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#abb41c3e18c0da6fd0030dfa033ae365a", null ],
+    [ "operator()", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a64c840334cea864892632c8f8f1f623f", null ],
+    [ "prepare", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a901befa6fa1e4eac83061974cfc8374c", null ],
+    [ "prob", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a43b52117ca6b91334fca30032d0b9b10", null ],
+    [ "prob_unnormalised", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a9b9f5aab2dec7c43b38602a881a0c356", null ],
+    [ "reset", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#ad9c3b8302dec654a1d58993e38d7bdd8", null ],
+    [ "setEvents", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#aac9082b9ba3083e2aa9ba592564eed06", null ],
+    [ "setMC", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a05c37062dd974a314882f4b2f28f549b", null ],
+    [ "size", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#ae8c9d5b107fb1d7d4f7d3e0e1b64ef22", null ],
+    [ "m_A", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#ab00d186c048bac284eba790990dae68a", null ],
+    [ "m_C", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#ab3bf9b546edeae0f8c8df77b6c61fb82", null ],
+    [ "m_events", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#aa11fe80a6c0fcfc84d5d24e6029e8b6c", null ],
+    [ "m_integrator", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#afdab11fbbb8e275b109143015f5d6806", null ],
+    [ "m_norm", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a37038367f14ea0721ab4bff98fe1a2c8", null ],
+    [ "m_normalisationsAC", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a50e85f84e0d76283ce1a9c193ee21329", null ],
+    [ "m_type", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a1d4a914a5c67c413f3afd1ba86822092", null ],
+    [ "m_typeConj", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a051786f1686bdfe7bab36f1d69853fdf", null ],
+    [ "m_x", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#a5c3bd721d6951002e6dd1cb68283bc68", null ],
+    [ "m_y", "da/dbf/class_amp_gen_1_1g_coherent_sum.html#ada2f9890c3b3b9f64cced64016d1c56b", null ]
+];
