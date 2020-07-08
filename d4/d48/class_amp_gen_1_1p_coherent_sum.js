@@ -10,6 +10,7 @@ var class_amp_gen_1_1p_coherent_sum =
     [ "debugNorm", "d4/d48/class_amp_gen_1_1p_coherent_sum.html#a4f327f72e381c68ab1e4d5ce6f357ffe", null ],
     [ "fitFractions", "d4/d48/class_amp_gen_1_1p_coherent_sum.html#adab9c832ab26493a64947f203e1793f6", null ],
     [ "getC", "d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8e356d2dce63495d0084a2ba7babf34b", null ],
+    [ "getFastNorm", "d4/d48/class_amp_gen_1_1p_coherent_sum.html#a18b57f4ef12f95fc6da7d829d405a8db", null ],
     [ "getSumFactor", "d4/d48/class_amp_gen_1_1p_coherent_sum.html#a8c984f77cfad8299053638d7cf8b8a38", null ],
     [ "getVal", "d4/d48/class_amp_gen_1_1p_coherent_sum.html#adcf5b9e6562767f3927fe04d08e756b4", null ],
     [ "getValNoCache", "d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa3792ddf012f77327caec6677ebe7a7e", null ],

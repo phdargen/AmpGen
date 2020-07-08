@@ -35,19 +35,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d10/class_amp_gen_1_1t_coherent_sum.html#aa1261713bf3e7eaaa2428c3daa7633c9",
-"d2/d26/struct_amp_gen_1_1_vertex_1_1_s___v_v___s1.html#a636635d425473883797935c99ffb8156",
-"d3/dae/class_amp_gen_1_1p_coherent_sum2.html#ab71c9b0212f9d594dfc8fce2035bd010",
-"d4/d48/class_amp_gen_1_1p_coherent_sum.html#aa3792ddf012f77327caec6677ebe7a7e",
-"d5/dfb/class_amp_gen_1_1_integrator.html#add7a16b0d9757838c20552c867d4ae0b",
-"d7/d6d/_amplitude_rules_8h.html",
-"d9/d03/class_amp_gen_1_1_transform.html",
-"da/d76/class_amp_gen_1_1_log.html#a9691967573670594c693eb3506b9b237",
-"db/d38/_plots_8h.html#a546812b1b7ace6c647c205f92a982713",
-"dc/d28/class_amp_gen_1_1_bin_d_t_1_1_end_node.html#a0b7e3067329aee00914442777e97eebe",
-"dd/daf/class_amp_gen_1_1_recursive_phase_space.html#a211945dab91af8ce67bb9dfc3bf9c58d",
-"de/dd7/class_amp_gen_1_1_particle.html#ab02a084701a28f78f5b29db9d80828de",
-"functions_vars_l.html"
+"d1/d10/class_amp_gen_1_1t_coherent_sum.html#a9cde581754c9209ea273c6e441ec841b",
+"d2/d26/struct_amp_gen_1_1_vertex_1_1_s___v_v___s1.html#a09cdbbbbc15d913d3b3345387dc0f971",
+"d3/dae/class_amp_gen_1_1p_coherent_sum2.html#a9c811a2e5c7471157d66d3dd198dd17d",
+"d4/d48/class_amp_gen_1_1p_coherent_sum.html#a9a2230cf8645e6a3f625beb28f735a47",
+"d5/dfb/class_amp_gen_1_1_integrator.html#a874d1c19f7067f5139cf4522465b1e21",
+"d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html#adc2dcce8383aaa05460aba7d9e198a57",
+"d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#a5c76ad355f3cf89aca1852b8a7ed5d13",
+"da/d76/class_amp_gen_1_1_log.html#a3c8369ae0fe3f7ff6091595c02fe0e9e",
+"db/d37/class_amp_gen_1_1_particle_properties.html#af53d33fad2d432208164c0afaaee9188",
+"dc/d1e/class_amp_gen_1_1_exp.html#a9691967573670594c693eb3506b9b237",
+"dd/dad/class_amp_gen_1_1_lineshape_1_1_l_a_s_s.html#ad976467da5d6af6ce69ea73de955aed8",
+"de/dd7/class_amp_gen_1_1_particle.html#aa3b7bb85a641f2907497b1f71f58b78d",
+"functions_vars_f.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
