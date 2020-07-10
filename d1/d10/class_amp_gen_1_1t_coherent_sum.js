@@ -1,14 +1,13 @@
 var class_amp_gen_1_1t_coherent_sum =
 [
     [ "tCoherentSum", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a6d57a0073495c32f0fb8141927058844", null ],
-    [ "tCoherentSum", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a8317077645546ba946c48dd4a23bd751", null ],
+    [ "tCoherentSum", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a57754f6956b0e4877ea3033c3e1cb0f4", null ],
     [ "~tCoherentSum", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#aa1b83663da7823cbf5b6cf1aa922b8ca", null ],
     [ "correction", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#aa1261713bf3e7eaaa2428c3daa7633c9", null ],
     [ "debug", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#ae01271d16a62f6c98743f85488ef7ac9", null ],
     [ "debugNorm", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a3802c34c201ba04c40d7f7180e35c7eb", null ],
     [ "fitFractions", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a7c2f021984695d2f954dadd01dd40c27", null ],
     [ "getC", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a145561d08a6442093604e6d9838d7a03", null ],
-    [ "getSumFactor", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#ad8c7bb3c264ce23759032f8a7fef7610", null ],
     [ "getVal", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#ac5ecf23278064f806487deb337ffbe0e", null ],
     [ "getValNoCache", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a048966be7d88133459a55e19790b33cc", null ],
     [ "getValNoCache", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a4fd7bbca9884662d212dd9dfa9bc732e", null ],
@@ -42,7 +41,6 @@ var class_amp_gen_1_1t_coherent_sum =
     [ "m_events1", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#ac17aff8d9657479714bae7a77e7d0f8f", null ],
     [ "m_fastNorm", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a3aa82eb42651317b425683b03cd00e24", null ],
     [ "m_flat", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a0381018b5cc4b70e848728925e17ab20", null ],
-    [ "m_gamSign", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a39b1492bf7d6742dea6f55156a014ad6", null ],
     [ "m_integratorAA", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a64a85d2009a63006fc9fbc41577b86d4", null ],
     [ "m_integratorAC", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a075fab094df0f8bfa882449234cb6450", null ],
     [ "m_integratorCC", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a7f939930ed1f699135d1d6cb13364750", null ],
@@ -59,9 +57,7 @@ var class_amp_gen_1_1t_coherent_sum =
     [ "m_polyType", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#ab81b7477ce0ae5e7a56fa0f62b8be9a9", null ],
     [ "m_prepareCalls", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a09736f01b9bdb7d44ccade108492033e", null ],
     [ "m_sameTag", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#af691ae228e627d3169bbe33679468bc3", null ],
-    [ "m_SFType", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#ad5392c254b2830a05a48ed8912f6f071", null ],
     [ "m_updateNorms", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#ac263e520fa209198f292e5d0660874b5", null ],
-    [ "m_useXY", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a5b6123c5ed8a9cbcc7061dd15b7969b2", null ],
     [ "outputFractionsA", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#aa2661810b9ebc54583418edf08c09599", null ],
     [ "outputFractionsC", "d1/d10/class_amp_gen_1_1t_coherent_sum.html#a45f811930b61ce5be7cdfe1a918eead1", null ]
 ];

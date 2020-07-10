@@ -1,9 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html#adc2dcce8383aaa05460aba7d9e198a57":[3,0,2,20,3],
-"d7/d5c/struct_amp_gen_1_1_vertex_1_1f___vf___s_r.html#adfa519bae21eb93535dd5ec3389c1de2":[3,0,2,20,0],
-"d7/d5d/_fit_result_8h.html":[7,0,36],
-"d7/d5d/_fit_result_8h_source.html":[7,0,36],
 "d7/d6d/_amplitude_rules_8h.html":[7,0,1],
 "d7/d6d/_amplitude_rules_8h.html#a1449e81d3720661e9155399d41795c9b":[7,0,1,7],
 "d7/d6d/_amplitude_rules_8h.html#a3aaacbc415810fc183e019300a634b2d":[7,0,1,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX6 =
 "d8/df7/struct_amp_gen_1_1_vertex_1_1f__r_s___p1.html#a636635d425473883797935c99ffb8156":[3,0,2,9,1],
 "d8/df7/struct_amp_gen_1_1_vertex_1_1f__r_s___p1.html#ae97d887bbbd84fd63cf387b56fbbac97":[3,0,2,9,0],
 "d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html":[0,2,11],
-"d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#a1f6eb6e8dad3da3f5becd3f075882c2d":[0,2,11,0]
+"d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#a1f6eb6e8dad3da3f5becd3f075882c2d":[0,2,11,0],
+"d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#a5c76ad355f3cf89aca1852b8a7ed5d13":[0,2,11,4],
+"d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#ad4aefc9f40847fd981e6d63e51eaa36b":[0,2,11,3],
+"d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#ad976467da5d6af6ce69ea73de955aed8":[0,2,11,2],
+"d9/d03/class_amp_gen_1_1_lineshape_1_1_f_o_c_u_s.html#ae0a4042b896c0f6cd580b5894b9d88b9":[0,2,11,1]
 };

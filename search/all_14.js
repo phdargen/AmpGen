@@ -18,7 +18,7 @@ var searchData=
   ['tan',['Tan',['../d2/d28/class_amp_gen_1_1_tan.html#a203cb886c78718e16e5bec96107f7135',1,'AmpGen::Tan::Tan()'],['../d4/dc7/namespace_amp_gen_1_1fcn.html#a760c8c1bf0bf2b80582926b329767059',1,'AmpGen::fcn::tan()']]],
   ['tan',['Tan',['../d2/d28/class_amp_gen_1_1_tan.html',1,'AmpGen']]],
   ['tanh',['tanh',['../dc/d82/namespace_amp_gen.html#a9dba943365f295d8d41d86280b96052e',1,'AmpGen']]],
-  ['tcoherentsum',['tCoherentSum',['../d1/d10/class_amp_gen_1_1t_coherent_sum.html#a6d57a0073495c32f0fb8141927058844',1,'AmpGen::tCoherentSum::tCoherentSum()'],['../d1/d10/class_amp_gen_1_1t_coherent_sum.html#a8317077645546ba946c48dd4a23bd751',1,'AmpGen::tCoherentSum::tCoherentSum(const EventType &amp;type1, const MinuitParameterSet &amp;mps, std::string SFType=&quot;Psi3770&quot;, int gamSign=1, bool useXY=false)']]],
+  ['tcoherentsum',['tCoherentSum',['../d1/d10/class_amp_gen_1_1t_coherent_sum.html#a6d57a0073495c32f0fb8141927058844',1,'AmpGen::tCoherentSum::tCoherentSum()'],['../d1/d10/class_amp_gen_1_1t_coherent_sum.html#a57754f6956b0e4877ea3033c3e1cb0f4',1,'AmpGen::tCoherentSum::tCoherentSum(const EventType &amp;type1, const MinuitParameterSet &amp;mps)']]],
   ['tcoherentsum',['tCoherentSum',['../d1/d10/class_amp_gen_1_1t_coherent_sum.html',1,'AmpGen']]],
   ['tcoherentsum_2eh',['tCoherentSum.h',['../d9/d0a/t_coherent_sum_8h.html',1,'']]],
   ['td',['TD',['../dd/dd2/class_amp_gen_1_1_lineshape_1_1_t_d.html',1,'AmpGen::Lineshape']]],
