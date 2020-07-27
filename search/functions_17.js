@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x',['x',['../d5/db2/class_amp_gen_1_1_coupling.html#a3075de9db8d9e1276e9371e27e85d06e',1,'AmpGen::Coupling']]]
+  ['x_2247',['x',['../d5/db2/class_amp_gen_1_1_coupling.html#ab643a38b7256ae97202c877a1172e7c2',1,'AmpGen::Coupling']]]
 ];
