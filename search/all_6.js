@@ -67,5 +67,5 @@ var searchData=
   ['frexp_344',['frexp',['../da/d1b/namespace_amp_gen_1_1_a_v_x512d.html#a5d4d21d9b3dfd20c854a4a78c1c0db3e',1,'AmpGen::AVX512d']]],
   ['fs_345',['fs',['../dc/d82/namespace_amp_gen.html#a8637d14e4a011e6b6ccdd1018cb70a45',1,'AmpGen']]],
   ['function_346',['Function',['../d5/d9b/struct_amp_gen_1_1_function.html',1,'AmpGen::Function'],['../d5/d9b/struct_amp_gen_1_1_function.html#a028674ec1318720256b258061a46f91e',1,'AmpGen::Function::Function()']]],
-  ['functors_347',['functors',['../db/d10/struct_amp_gen_1_1_keyed_functors.html#a86bd61f77a5ecb1f23f4fd716c54b572',1,'AmpGen::KeyedFunctors']]]
+  ['functors_347',['functors',['../d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html#a3493d31805d9869c29d02902c359337d',1,'AmpGen::KeyedFunctors&lt; return_type(arg_types...)&gt;']]]
 ];

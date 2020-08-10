@@ -116,7 +116,7 @@ var hierarchy =
     [ "AmpGen::Coupling", "d5/db2/class_amp_gen_1_1_coupling.html", null ],
     [ "AmpGen::DalitzIntegrator", "df/d1a/class_amp_gen_1_1_dalitz_integrator.html", null ],
     [ "AmpGen::DynamicContainer< TYPE, CONTAINER_TYPE >", "d6/d9d/class_amp_gen_1_1_dynamic_container.html", null ],
-    [ "AmpGen::DynamicFCN", "dc/d82/namespace_amp_gen.html#df/dae/class_amp_gen_1_1_dynamic_f_c_n", null ],
+    [ "AmpGen::DynamicFCN< RETURN_TYPE, IN_TYPES >", "dc/d82/namespace_amp_gen.html#df/dae/class_amp_gen_1_1_dynamic_f_c_n", null ],
     [ "AmpGen::DynamicFCN< RETURN_TYPE(ARGS...)>", "dc/d82/namespace_amp_gen.html#dc/d82/namespace_amp_gen", null ],
     [ "AmpGen::DynamicFCN< RETURN_TYPE(IN_TYPES...)>", "db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html", null ],
     [ "AmpGen::DynamicFCN< void(const size_t &, const size_t &, const size_t &, RETURN_TYPE *, ARGS...)>", "dc/d82/namespace_amp_gen.html#dc/d82/namespace_amp_gen", null ],
@@ -207,9 +207,9 @@ var hierarchy =
     ] ],
     [ "AmpGen::Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", null ],
     [ "AmpGen::DynamicContainer< TYPE, CONTAINER_TYPE >::Iterator", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html", null ],
-    [ "AmpGen::KeyedFunctors< return_type, arg_type >", "db/d10/struct_amp_gen_1_1_keyed_functors.html", null ],
+    [ "AmpGen::KeyedFunctors< return_type, arg_types >", "dc/d82/namespace_amp_gen.html#db/d10/struct_amp_gen_1_1_keyed_functors", null ],
+    [ "AmpGen::KeyedFunctors< return_type(arg_types...)>", "d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html", null ],
     [ "AmpGen::LinearErrorPropagator", "db/d4b/class_amp_gen_1_1_linear_error_propagator.html", null ],
-    [ "AmpGen::LiteSpan< type >", "de/d0f/class_amp_gen_1_1_lite_span.html", null ],
     [ "AmpGen::LS", "dc/d82/namespace_amp_gen.html#d4/d7d/struct_amp_gen_1_1_l_s", null ],
     [ "MinuitParameter", null, [
       [ "AmpGen::MinuitExpression", "d8/d4d/class_amp_gen_1_1_minuit_expression.html", null ]

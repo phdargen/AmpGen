@@ -1,5 +1,13 @@
 var NAVTREEINDEX5 =
 {
+"d6/d9f/avx2f__types_8h.html#a3490eb41a5d6a989e602f7ec72f6c065":[7,0,0,1,3],
+"d6/d9f/avx2f__types_8h.html#a382d2bbec604f94cae7aca25fdbef374":[7,0,0,1,58],
+"d6/d9f/avx2f__types_8h.html#a38d91ff63bf939a84c267652fdd4ee79":[7,0,0,1,43],
+"d6/d9f/avx2f__types_8h.html#a3a0e44a957dff515b8c9802eeffe2864":[7,0,0,1,44],
+"d6/d9f/avx2f__types_8h.html#a3d29597a052f8cff6ade291c2c983bd4":[7,0,0,1,30],
+"d6/d9f/avx2f__types_8h.html#a3efc0879aff1307b2b8763ee35aa2db6":[7,0,0,1,22],
+"d6/d9f/avx2f__types_8h.html#a3fa8c0285db805db0ae3f4864268bf80":[7,0,0,1,39],
+"d6/d9f/avx2f__types_8h.html#a4219aba3bd3c4bc500d0f7a97d6e0df2":[7,0,0,1,12],
 "d6/d9f/avx2f__types_8h.html#a55c594a229f4388365d20eeaa285a779":[7,0,0,1,32],
 "d6/d9f/avx2f__types_8h.html#a5cb86515363676f0239a0451f5137c90":[7,0,0,1,13],
 "d6/d9f/avx2f__types_8h.html#a5ec3e06aa0354479bc60364edb65ea85":[7,0,0,1,20],
@@ -61,11 +69,11 @@ var NAVTREEINDEX5 =
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a009439ff65fd7796bea1e2a9d1bd1ec9":[3,0,116,9],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a20d581f37ef8c23575ec5882cddbdbca":[3,0,116,4],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a61ec7a30534b706ea9204296d66bf79e":[3,0,116,3],
-"d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a72f2ed3551f8b8ad579dd288a1d2572f":[3,0,116,2],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a75a24e56b485ee6a836245a9d034598b":[3,0,116,1],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a7a22de3eadbb8c473922d030531bd749":[3,0,116,8],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a85ca4913df00d87cafe9486e44685d94":[3,0,116,5],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a85fedf437a5a7a08ee5b2343e70de214":[3,0,116,7],
+"d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a92ffa59d0c03e09848343870fb328bb0":[3,0,116,2],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#aa6842553008d5c58654f3ee0136d4dc2":[3,0,116,0],
 "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#aa88c595f589515f1cbc318025337bfb2":[3,0,116,6],
 "d6/dc4/class_amp_gen_1_1_tensor_expression.html":[3,0,119],
@@ -241,13 +249,5 @@ var NAVTREEINDEX5 =
 "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a8608816dd0f55ae35a23993a1adebd34":[3,0,76,1],
 "d8/d4d/class_amp_gen_1_1_minuit_expression.html#a897dec21190671f1eaa116b538caa4c8":[3,0,76,5],
 "d8/d4d/class_amp_gen_1_1_minuit_expression.html#aa12c13c318e3bdb0ebcea0d17beb41e9":[3,0,76,4],
-"d8/d4d/class_amp_gen_1_1_minuit_expression.html#ad124723a712843eafc0613af6fa5dc01":[3,0,76,6],
-"d8/d5e/_phase_space_8h.html":[7,0,50],
-"d8/d5e/_phase_space_8h_source.html":[7,0,50],
-"d8/d69/_units_8h.html":[7,0,69],
-"d8/d69/_units_8h.html#a04a0bc64411569ef7bc65bb147c8a75c":[7,0,69,1],
-"d8/d69/_units_8h.html#a0f3fef1c41be6cc858fda2bc714dd49c":[7,0,69,7],
-"d8/d69/_units_8h.html#a22d1a7a28a8ec9f7c5ae2af0a49af2d1":[7,0,69,6],
-"d8/d69/_units_8h.html#a310df54b27590fffaa7ddd1728f56ae1":[7,0,69,13],
-"d8/d69/_units_8h.html#a36ba1092e0068690c638c7f705046b0e":[7,0,69,8]
+"d8/d4d/class_amp_gen_1_1_minuit_expression.html#ad124723a712843eafc0613af6fa5dc01":[3,0,76,6]
 };

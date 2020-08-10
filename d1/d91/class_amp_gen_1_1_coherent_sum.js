@@ -5,7 +5,7 @@ var class_amp_gen_1_1_coherent_sum =
     [ "CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a36fe0de4f59e89aca2a6361bcff622a7", null ],
     [ "~CoherentSum", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a0d81546255fe4adf13c9914cc466d901", null ],
     [ "addMatrixElement", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a830096d2bf391c8ba28ebeb82ac2e5d9", null ],
-    [ "componentEvaluator", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a5c01cebfbd2c3e5d0904d9376552a682", null ],
+    [ "componentEvaluator", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a68fa0dbd11db4c9f60d61bee21398e1c", null ],
     [ "debug", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a10c7bf38861fc75bb1da32d98aacb59b", null ],
     [ "evaluator", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a4d0d5ce41c83109dfe6485803a024eff", null ],
     [ "fitFractions", "d1/d91/class_amp_gen_1_1_coherent_sum.html#a4f4f49b30f1f32cd3f51934f3c51fae7", null ],

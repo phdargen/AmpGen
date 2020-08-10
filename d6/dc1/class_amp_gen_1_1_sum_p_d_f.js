@@ -2,7 +2,7 @@ var class_amp_gen_1_1_sum_p_d_f =
 [
     [ "SumPDF", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#aa6842553008d5c58654f3ee0136d4dc2", null ],
     [ "SumPDF", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a75a24e56b485ee6a836245a9d034598b", null ],
-    [ "componentEvaluator", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a72f2ed3551f8b8ad579dd288a1d2572f", null ],
+    [ "componentEvaluator", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a92ffa59d0c03e09848343870fb328bb0", null ],
     [ "evaluator", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a61ec7a30534b706ea9204296d66bf79e", null ],
     [ "getVal", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a20d581f37ef8c23575ec5882cddbdbca", null ],
     [ "nPDFs", "d6/dc1/class_amp_gen_1_1_sum_p_d_f.html#a85ca4913df00d87cafe9486e44685d94", null ],

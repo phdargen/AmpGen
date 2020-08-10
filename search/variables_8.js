@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['j_2298',['j',['../d2/d51/struct_amp_gen_1_1_fit_fraction_calculator_1_1fcalc.html#a65caebecabbb604cbe25e0454afcbdf1',1,'AmpGen::FitFractionCalculator::fcalc']]]
+  ['j_2297',['j',['../d2/d51/struct_amp_gen_1_1_fit_fraction_calculator_1_1fcalc.html#a65caebecabbb604cbe25e0454afcbdf1',1,'AmpGen::FitFractionCalculator::fcalc']]]
 ];

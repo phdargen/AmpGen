@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['kev_2299',['KeV',['../dc/d82/namespace_amp_gen.html#a98a5cf06b36f6aa48fe02667d2b0e12f',1,'AmpGen']]],
-  ['keys_2300',['keys',['../db/d10/struct_amp_gen_1_1_keyed_functors.html#a1303023d93931af1bf8239cb4b17fb3a',1,'AmpGen::KeyedFunctors']]]
+  ['kev_2298',['KeV',['../dc/d82/namespace_amp_gen.html#a98a5cf06b36f6aa48fe02667d2b0e12f',1,'AmpGen']]],
+  ['keys_2299',['keys',['../d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html#acadda1a770fae7ec452f6e2b1562d35e',1,'AmpGen::KeyedFunctors&lt; return_type(arg_types...)&gt;']]]
 ];

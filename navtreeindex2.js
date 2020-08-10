@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html#a3493d31805d9869c29d02902c359337d":[3,0,69,2],
+"d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html#a585eb1f218f5455fc5065b92a9f75542":[3,0,69,4],
+"d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html#ac511bcf90ca51078069033051e1d18ea":[3,0,69,0],
+"d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html#acadda1a770fae7ec452f6e2b1562d35e":[3,0,69,3],
+"d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html":[3,0,4,24],
+"d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#a0f4eaf26c522e1a99ba3650bda106122":[3,0,4,24,0],
 "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#a2a5610ef2f4816192a4b706bf076172f":[3,0,4,24,2],
 "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#a342710c570fe3a9303290ac95b3f63b4":[3,0,4,24,3],
 "d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#ad976467da5d6af6ce69ea73de955aed8":[3,0,4,24,4],
@@ -119,6 +125,8 @@ var NAVTREEINDEX2 =
 "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#ae7e5b170c44b113c1aba90db5ea629c0":[3,0,78,17],
 "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#aee752927f302c9ba5fd67df039f47fa3":[3,0,78,3],
 "d3/d7e/class_amp_gen_1_1_minuit_parameter_set.html#afd74e99957dc6286e0f35b83f3053a0c":[3,0,78,21],
+"d3/da5/_keyed_functors_8h.html":[7,0,34],
+"d3/da5/_keyed_functors_8h_source.html":[7,0,34],
 "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html":[0,2,4],
 "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a0d52ced37d2f479e1ffa9ab2a6b6725f":[0,2,4,2],
 "d3/dbe/class_amp_gen_1_1_lineshape_1_1_gounaris_sakurai.html#a632d0f487c3ae23afcbc4bc08ce3b00b":[0,2,4,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX2 =
 "d4/d0e/class_amp_gen_1_1_tensor.html#af9fa12afac75428b248079f94648dce1":[3,0,118,27],
 "d4/d0e/class_amp_gen_1_1_tensor.html#aff323ea2f1b8e1c512b2db2422cc85d0":[3,0,118,13],
 "d4/d15/_particle_8h.html":[7,0,47],
-"d4/d15/_particle_8h.html#a0c1879c0c4361896d0298646f224adeb":[7,0,47,1],
-"d4/d15/_particle_8h.html#a35d0085a6f2946414f308b2989c2d9f3":[7,0,47,3],
-"d4/d15/_particle_8h.html#a3801e11d81c553bbba478110b18b2690":[7,0,47,2],
-"d4/d15/_particle_8h_source.html":[7,0,47],
-"d4/d25/_spline_8h.html":[7,0,59],
-"d4/d25/_spline_8h.html#a27567aec858b219b309b1a5f8cf3a100":[7,0,59,2],
-"d4/d25/_spline_8h_source.html":[7,0,59],
-"d4/d2d/class_amp_gen_1_1_fit_result.html":[3,0,51],
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a048d2a862c39cb1c64b5e97c55b32e3b":[3,0,51,25]
+"d4/d15/_particle_8h.html#a0c1879c0c4361896d0298646f224adeb":[7,0,47,1]
 };

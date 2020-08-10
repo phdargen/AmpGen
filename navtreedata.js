@@ -59,17 +59,17 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d1/d00/struct_amp_gen_1_1_a_v_x512d_1_1complex__v.html#a26781c06b1a723e145dc88c6663a9f7f",
-"d3/d11/class_amp_gen_1_1_lineshape_1_1_photon.html#a2a5610ef2f4816192a4b706bf076172f",
-"d4/d2d/class_amp_gen_1_1_fit_result.html#a15b56968240d5d801fee4b58e3b3d059",
-"d5/da5/struct_amp_gen_1_1_vertex_1_1_s__ff___s1.html#a636635d425473883797935c99ffb8156",
-"d6/d9f/avx2f__types_8h.html#a55c594a229f4388365d20eeaa285a779",
-"d8/d69/_units_8h.html#a3bc93e99586fa84c8c3ffd2f99f13d2c",
-"d9/d85/class_amp_gen_1_1_lineshape_1_1_factory.html#a9641efd66c25f2003b962f34f657eefb",
+"d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html#a3493d31805d9869c29d02902c359337d",
+"d4/d15/_particle_8h.html#a35d0085a6f2946414f308b2989c2d9f3",
+"d5/da3/class_amp_gen_1_1_a_tan.html#a47d74a31137544519a940a625f0deed3",
+"d6/d9f/avx2f__types_8h.html#a3490eb41a5d6a989e602f7ec72f6c065",
+"d8/d5e/_phase_space_8h.html",
+"d9/d76/struct_amp_gen_1_1_vertex_1_1_s__ff___s.html#a636635d425473883797935c99ffb8156",
 "db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html#a6fbc5821bc11a6e8eb535506f17b7ee9",
 "db/d72/_utilities_8h.html#ae6913535c3dd79a24c7d24cb0f6d00d4",
-"dd/d31/_projection_8h.html#af76069aec4fdde787f5bd1c5affffa33",
-"de/d96/class_amp_gen_1_1_lineshape_1_1_b_w.html",
-"df/d84/class_amp_gen_1_1_total_coupling.html#aace00a2046cae96e9f91f37aca588ac2"
+"dd/d37/class_amp_gen_1_1_lineshape_1_1_inelastic_spline.html",
+"de/d96/class_amp_gen_1_1_spline_transfer.html#a1bd9a700dedab8eb899654e15dac7e74",
+"df/dba/struct_amp_gen_1_1detail_1_1size__of_3_01void_01_4.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

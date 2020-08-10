@@ -32,7 +32,6 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "Iterator", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator.html", "d4/df4/class_amp_gen_1_1_dynamic_container_1_1_iterator" ]
     ] ],
     [ "DynamicFCN.h", "d9/d9e/_dynamic_f_c_n_8h.html", [
-      [ "DynamicFCN", "dc/d82/namespace_amp_gen.html#df/dae/class_amp_gen_1_1_dynamic_f_c_n", null ],
       [ "DynamicFCN< RETURN_TYPE(IN_TYPES...)>", "db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4.html", "db/d27/class_amp_gen_1_1_dynamic_f_c_n_3_01_r_e_t_u_r_n___t_y_p_e_07_i_n___t_y_p_e_s_8_8_8_08_4" ]
     ] ],
     [ "enum.h", "d0/d9b/enum_8h.html", "d0/d9b/enum_8h" ],
@@ -73,13 +72,12 @@ var dir_afe841426323c02de63fa29102dfa844 =
       [ "Integrator", "d5/dfb/class_amp_gen_1_1_integrator.html", "d5/dfb/class_amp_gen_1_1_integrator" ],
       [ "Bilinears", "d1/d6c/class_amp_gen_1_1_bilinears.html", "d1/d6c/class_amp_gen_1_1_bilinears" ]
     ] ],
+    [ "KeyedFunctors.h", "d3/da5/_keyed_functors_8h.html", [
+      [ "KeyedFunctors< return_type(arg_types...)>", "d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4.html", "d2/dee/struct_amp_gen_1_1_keyed_functors_3_01return__type_07arg__types_8_8_8_08_4" ]
+    ] ],
     [ "Kinematics.h", "d0/dee/_kinematics_8h.html", "d0/dee/_kinematics_8h" ],
     [ "kMatrix.h", "d2/d41/k_matrix_8h.html", "d2/d41/k_matrix_8h" ],
     [ "Lineshapes.h", "da/dcc/_lineshapes_8h.html", "da/dcc/_lineshapes_8h" ],
-    [ "LiteSpan.h", "d9/dd3/_lite_span_8h.html", [
-      [ "LiteSpan", "de/d0f/class_amp_gen_1_1_lite_span.html", "de/d0f/class_amp_gen_1_1_lite_span" ],
-      [ "KeyedFunctors", "db/d10/struct_amp_gen_1_1_keyed_functors.html", "db/d10/struct_amp_gen_1_1_keyed_functors" ]
-    ] ],
     [ "MetaUtils.h", "d4/d85/_meta_utils_8h.html", "d4/d85/_meta_utils_8h" ],
     [ "Minimiser.h", "da/df9/_minimiser_8h.html", null ],
     [ "MinuitExpression.h", "d7/d9c/_minuit_expression_8h.html", [
