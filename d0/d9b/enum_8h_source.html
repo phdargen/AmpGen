@@ -136,33 +136,34 @@ $(document).ready(function(){initNavTree('d0/d9b/enum_8h_source.html','../../');
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> x = 0; x != nChar ; ++x) <span class="keywordflow">if</span>( word[x] != otherWord[x] ) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      <span class="keywordflow">for</span>( ; args[begin] != <span class="charliteral">&#39;\0&#39;</span> ; begin++ )</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      <span class="keywordflow">while</span>( args[begin] != <span class="charliteral">&#39;\0&#39;</span> )</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">while</span>( args[begin] == <span class="charliteral">&#39; &#39;</span> ) begin++;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">for</span>( end=begin; args[end] != <span class="charliteral">&#39;\0&#39;</span>; end++ ) <span class="keywordflow">if</span>( args[end] == <span class="charliteral">&#39;,&#39;</span> ) <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">if</span>( compare( word.c_str(), args + begin , end-begin ) ) <span class="keywordflow">break</span>; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        begin = end;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        counter++; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      }</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      <span class="keywordflow">if</span>( args[begin] == <span class="charliteral">&#39;\0&#39;</span> ) <span class="keywordflow">return</span> T(counter-1);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <span class="keywordflow">return</span> T(counter);                                       </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">   53</a></span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>(<span class="keyword">const</span> T&amp; enumItem, <span class="keyword">const</span> <span class="keywordtype">char</span>* args)</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      <span class="keywordtype">unsigned</span> counter = 0;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keywordtype">unsigned</span> sBegin  = 0;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keywordtype">unsigned</span> sLength = 0;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="keywordflow">for</span>( ; args[sBegin] != <span class="charliteral">&#39;\0&#39;</span> &amp;&amp; counter != unsigned(enumItem); sBegin++ )</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span>( args[sBegin] == <span class="charliteral">&#39;,&#39;</span> ) counter++;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      }</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <span class="keywordflow">while</span>( args[sBegin] == <span class="charliteral">&#39; &#39;</span>) sBegin++;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">for</span>(; args[sLength + sBegin] != <span class="charliteral">&#39;\0&#39;</span> ; ++sLength ) <span class="keywordflow">if</span>( args[sBegin + sLength] == <span class="charliteral">&#39;,&#39;</span>) <span class="keywordflow">break</span>; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">return</span> std::string(args).substr(sBegin, sLength);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">if</span>( compare( word.c_str(), args + begin , end-begin ) ) <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        begin = end+1;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        counter++;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span>( args[end] == <span class="charliteral">&#39;\0&#39;</span> ) <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <span class="keywordflow">if</span>( args[begin] == <span class="charliteral">&#39;\0&#39;</span> ) <span class="keywordflow">return</span> T(counter-1);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keywordflow">return</span> T(counter);                                       </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">   54</a></span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>(<span class="keyword">const</span> T&amp; enumItem, <span class="keyword">const</span> <span class="keywordtype">char</span>* args)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keywordtype">unsigned</span> counter = 0;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keywordtype">unsigned</span> sBegin  = 0;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="keywordtype">unsigned</span> sLength = 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="keywordflow">for</span>( ; args[sBegin] != <span class="charliteral">&#39;\0&#39;</span> &amp;&amp; counter != unsigned(enumItem); sBegin++ )</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span>( args[sBegin] == <span class="charliteral">&#39;,&#39;</span> ) counter++;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">while</span>( args[sBegin] == <span class="charliteral">&#39; &#39;</span>) sBegin++;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">for</span>(; args[sLength + sBegin] != <span class="charliteral">&#39;\0&#39;</span> ; ++sLength ) <span class="keywordflow">if</span>( args[sBegin + sLength] == <span class="charliteral">&#39;,&#39;</span>) <span class="keywordflow">break</span>; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <span class="keywordflow">return</span> std::string(args).substr(sBegin, sLength);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespace_amp_gen_html_a76a492bc120e0e48e4d951bdd524300e"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a76a492bc120e0e48e4d951bdd524300e">AmpGen::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00025">enum.h:25</a></div></div>
@@ -170,12 +171,12 @@ $(document).ready(function(){initNavTree('d0/d9b/enum_8h_source.html','../../');
 <div class="ttc" id="anamespace_amp_gen_html_a11a5e5e4977c3441c23e176f5e50d1ad"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a11a5e5e4977c3441c23e176f5e50d1ad">AmpGen::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00026">enum.h:26</a></div></div>
 <div class="ttc" id="anamespace_amp_gen_1_1detail_html_a1c3884f18ec32caaaf72e99df0c48ae4"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00029">enum.h:29</a></div></div>
 <div class="ttc" id="a_msg_service_8h_html"><div class="ttname"><a href="../../d9/daa/_msg_service_8h.html">MsgService.h</a></div></div>
-<div class="ttc" id="anamespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00053">enum.h:53</a></div></div>
+<div class="ttc" id="anamespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00054">enum.h:54</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d0/d9b/enum_8h.html">enum.h</a></li>
-    <li class="footer">Generated on Mon Aug 10 2020 15:46:12 for AmpGen by <a href="http://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
+    <li class="footer">Generated on Tue Aug 11 2020 10:07:24 for AmpGen by <a href="http://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
   </ul>
 </div>
 </body>
