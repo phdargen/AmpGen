@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('d0/d9b/enum_8h.html','../../'); initRe
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/daa/_msg_service_8h_source.html">AmpGen/MsgService.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d72/_utilities_8h_source.html">AmpGen/Utilities.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d0/d9b/enum_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -165,7 +166,7 @@ Functions</h2></td></tr>
 <div class="line">template &lt;&gt; name <a class="code" href="../../dc/d82/namespace_amp_gen.html#a9d58a8bcaf2b55701c3468de09ce458f">lexical_cast</a>(<span class="keyword">const</span> std::string&amp; word, <span class="keywordtype">bool</span>&amp; <span class="comment">/*status*/</span>){ <span class="keywordflow">return</span> parse&lt;name&gt;(word); } \</div>
 <div class="line">std::ostream&amp; <a class="code" href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">operator&lt;&lt;</a>(std::ostream&amp; os, <span class="keyword">const</span> name&amp; np){ <span class="keywordflow">return</span> os &lt;&lt; to_string&lt;name&gt;(np);}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00011">11</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00012">12</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
 
 </div>
 </div>
@@ -194,12 +195,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> name {__VA_ARGS__};                                     \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> name {__VA_ARGS__, Invalid};                                     \</div>
 <div class="line">template &lt;&gt; name <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">parse</a>(<span class="keyword">const</span> std::string&amp; word);                   \</div>
 <div class="line">template &lt;&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>( <span class="keyword">const</span> name&amp; enumItem );         \</div>
 <div class="line">std::ostream&amp; <a class="code" href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">operator&lt;&lt;</a>( std::ostream&amp; os, <span class="keyword">const</span> name&amp; np);</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00005">5</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00006">6</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
 
 </div>
 </div>
@@ -228,27 +229,27 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> name {__VA_ARGS__};                                                                                                                 \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> name {__VA_ARGS__, Invalid};                                                                                                                 \</div>
 <div class="line">template &lt;&gt; name <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">parse</a>(<span class="keyword">const</span> std::string&amp; word){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::parse&lt;name&gt;(word, args); } \</div>
 <div class="line">template &lt;&gt; std::string <a class="code" href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">to_string</a>( <span class="keyword">const</span> name&amp; enumItem ){ constexpr <span class="keyword">auto</span> args = #__VA_ARGS__; <span class="keywordflow">return</span> AmpGen::detail::to_string&lt;name&gt;(enumItem, args) ; } \</div>
 <div class="line">template &lt;&gt; name <a class="code" href="../../dc/d82/namespace_amp_gen.html#a9d58a8bcaf2b55701c3468de09ce458f">lexical_cast</a>(<span class="keyword">const</span> std::string&amp; word, <span class="keywordtype">bool</span>&amp; <span class="comment">/*status*/</span>){ <span class="keywordflow">return</span> parse&lt;name&gt;(word); } \</div>
 <div class="line">std::ostream&amp; <a class="code" href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">operator&lt;&lt;</a>(std::ostream&amp; os, <span class="keyword">const</span> name&amp; np){ <span class="keywordflow">return</span> os &lt;&lt; to_string&lt;name&gt;(np);}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00017">17</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9b/enum_8h_source.html#l00018">18</a> of file <a class="el" href="../../d0/d9b/enum_8h_source.html">enum.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespace_amp_gen_html_a9d58a8bcaf2b55701c3468de09ce458f"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#a9d58a8bcaf2b55701c3468de09ce458f">AmpGen::lexical_cast</a></div><div class="ttdeci">RETURN_TYPE lexical_cast(const std::string &amp;word, bool &amp;status)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d72/_utilities_8h_source.html#l00083">Utilities.h:83</a></div></div>
-<div class="ttc" id="anamespace_amp_gen_1_1detail_html_a1c3884f18ec32caaaf72e99df0c48ae4"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00029">enum.h:29</a></div></div>
+<div class="ttc" id="anamespace_amp_gen_1_1detail_html_a1c3884f18ec32caaaf72e99df0c48ae4"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#a1c3884f18ec32caaaf72e99df0c48ae4">AmpGen::detail::parse</a></div><div class="ttdeci">T parse(const std::string &amp;word, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00030">enum.h:30</a></div></div>
 <div class="ttc" id="anamespace_amp_gen_html_ade5493cdd41aadd8ac306fd2f92aea38"><div class="ttname"><a href="../../dc/d82/namespace_amp_gen.html#ade5493cdd41aadd8ac306fd2f92aea38">AmpGen::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const CompiledExpressionBase &amp;expression)</div></div>
-<div class="ttc" id="anamespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00054">enum.h:54</a></div></div>
+<div class="ttc" id="anamespace_amp_gen_1_1detail_html_af07fd6f07c582d1cb50a878ca2beadae"><div class="ttname"><a href="../../dc/d3f/namespace_amp_gen_1_1detail.html#af07fd6f07c582d1cb50a878ca2beadae">AmpGen::detail::to_string</a></div><div class="ttdeci">std::string to_string(const T &amp;enumItem, const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9b/enum_8h_source.html#l00056">enum.h:56</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_afe841426323c02de63fa29102dfa844.html">AmpGen</a></li><li class="navelem"><a class="el" href="../../d0/d9b/enum_8h.html">enum.h</a></li>
-    <li class="footer">Generated on Tue Aug 11 2020 14:30:57 for AmpGen by <a href="http://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
+    <li class="footer">Generated on Wed Aug 12 2020 07:55:31 for AmpGen by <a href="http://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
   </ul>
 </div>
 </body>
