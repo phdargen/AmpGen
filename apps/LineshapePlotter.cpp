@@ -436,9 +436,9 @@ void prepareRunningWidthFromFiles(){
                                        0.85 - gStyle->GetPadTopMargin(),
                                        "BRNDC");
         auto fitResult = new FitResult();
-        string name = fitResult->latexName(head);
-        if(head=="Xs(S)0") name = "X_{s}^{0}";
-        if(head=="X(S)0") name = "X^{0}";
+        string name = "#it{" + fitResult->latexName(head) + "}";
+        if(head=="Xs(S)0") name = "#it{T_{c#bar{c}#bar{s}}^{0}#rightarrow#psi(2S)K^{+}#pi^{#minus}}";
+        if(head=="X(S)0") name = "#it{X^{0}#rightarrow#psi(2S)#pi^{+}#pi^{#minus}}";
         text->AddText(name.c_str());
         text->SetLineColor(kWhite);
         text->SetFillColor(kWhite);
@@ -449,7 +449,8 @@ void prepareRunningWidthFromFiles(){
         text->SetTextColor(kBlack);            
 
         width_m->SetLineColor(kBlue);
-        width_m->SetTitle("; #sqrt{#it{s}} [GeV]  ; #sqrt{#it{s}} / #it{m_{0} #it{#Gamma(s)}} [GeV]");
+        //width_m->SetTitle("; #sqrt{#it{s}} [GeV]  ; #sqrt{#it{s}} / #it{m_{0} #it{#Gamma(s)}} [GeV]");
+        width_m->SetTitle("; #it{#sqrt{s}} [GeV]  ; #Gamma#it{(s)} [GeV]");
         width_m->Draw("A*C");
         lhcbName->Draw();
         text->Draw();
@@ -466,6 +467,8 @@ void prepareRunningWidthFromFiles(){
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".pdf").c_str());
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".png").c_str());
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".C").c_str());
+        c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".root").c_str());
+        c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".eps").c_str());
 
     }
     

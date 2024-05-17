@@ -1,7 +1,7 @@
 void Fig4_2()
 {
 //=========Macro generated from canvas: c1_n2/c1_n2
-//=========  (Wed Mar 27 12:40:44 2024) by ROOT version 6.18/00
+//=========  (Fri May 17 22:49:36 2024) by ROOT version 6.18/00
    TCanvas *c1_n2 = new TCanvas("c1_n2", "c1_n2",0,0,700,500);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -105,7 +105,7 @@ void Fig4_2()
    0.6092438};
    TGraph *graph = new TGraph(40,Graph0_fx2,Graph0_fy2);
    graph->SetName("Graph0");
-   graph->SetTitle("; #sqrt{#it{s}} [GeV]  ; #sqrt{#it{s}} / #it{m_{0} #it{#Gamma(s)}} [GeV]");
+   graph->SetTitle("; #it{#sqrt{s}} [GeV]  ; #Gamma#it{(s)} [GeV]");
    graph->SetFillStyle(1000);
 
    Int_t ci;      // for color index setting
@@ -124,14 +124,14 @@ void Fig4_2()
    Graph_Graph02->SetLineWidth(2);
    Graph_Graph02->SetMarkerStyle(8);
    Graph_Graph02->SetMarkerSize(0.5);
-   Graph_Graph02->GetXaxis()->SetTitle(" #sqrt{#it{s}} [GeV]  ");
+   Graph_Graph02->GetXaxis()->SetTitle(" #it{#sqrt{s}} [GeV]  ");
    Graph_Graph02->GetXaxis()->SetNdivisions(505);
    Graph_Graph02->GetXaxis()->SetLabelFont(132);
    Graph_Graph02->GetXaxis()->SetLabelSize(0.065);
    Graph_Graph02->GetXaxis()->SetTitleSize(0.08);
    Graph_Graph02->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph02->GetXaxis()->SetTitleFont(132);
-   Graph_Graph02->GetYaxis()->SetTitle(" #sqrt{#it{s}} / #it{m_{0} #it{#Gamma(s)}} [GeV]");
+   Graph_Graph02->GetYaxis()->SetTitle(" #Gamma#it{(s)} [GeV]");
    Graph_Graph02->GetYaxis()->SetLabelFont(132);
    Graph_Graph02->GetYaxis()->SetLabelSize(0.065);
    Graph_Graph02->GetYaxis()->SetTitleSize(0.08);
@@ -163,7 +163,7 @@ void Fig4_2()
    pt->SetTextAlign(12);
    pt->SetTextFont(132);
    pt->SetTextSize(0.08);
-   pt_LaTex = pt->AddText("K_{1}(1400)^{+}");
+   pt_LaTex = pt->AddText("#it{K_{1}(1400)^{+}}");
    pt->Draw();
    c1_n2->Modified();
    c1_n2->cd();
