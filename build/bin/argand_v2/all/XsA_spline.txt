@@ -1,0 +1,103 @@
+Head Xs(A)0
+Xs(A)0::Spline 8 4.4 4.75 1
+#Xs(A)0_mass  2 4.575 0 4.65 4.65    
+#Xs(A)0_width  2 0.1295 0 0.05 0.35    
+Xs(A)0::Spline::Im::0  0 113.1 73.14 -180 180    
+Xs(A)0::Spline::Re::0  0 0.8168 1.378 0 5    
+Xs(A)0::Spline::Im::1  0 150 124.1 -180 180    
+Xs(A)0::Spline::Re::1  0 2.093 1.006 0 5    
+Xs(A)0::Spline::Im::2  0 23.76 16.14 -180 180    
+Xs(A)0::Spline::Re::2  0 1.331 0.273 0 5    
+Xs(A)0::Spline::Im::3  0 82.48 10.35 -180 180    
+Xs(A)0::Spline::Re::3  0 1.871 0.2124 0 5    
+Xs(A)0::Spline::Im::4  0 128.3 5.486 -180 180    
+Xs(A)0::Spline::Re::4  0 1.072 0.1072 0 5    
+Xs(A)0::Spline::Im::5  0 137.1 5.571 -180 180    
+Xs(A)0::Spline::Re::5  0 0.6224 0.07132 0 5    
+Xs(A)0::Spline::Im::6  0 130.8 7.829 -180 180    
+Xs(A)0::Spline::Re::6  0 0.3676 0.06228 0 5    
+Xs(A)0::Spline::Im::7  0 176 7.352 -180 180    
+Xs(A)0::Spline::Re::7  0 0.2084 0.02894 0 5    
+
+Xs(A)0::Spline::Im::0  0 -84.03 128.5 -180 180
+Xs(A)0::Spline::Re::0  0 0.001589 3.632 0 5
+Xs(A)0::Spline::Im::1  0 76.8 37.75 -180 180
+Xs(A)0::Spline::Re::1  0 1.582 0.6506 0 5
+Xs(A)0::Spline::Im::2  0 27.29 16.82 -180 180
+Xs(A)0::Spline::Re::2  0 1.108 0.2729 0 5
+Xs(A)0::Spline::Im::3  0 65.13 8.671 -180 180
+Xs(A)0::Spline::Re::3  0 1.736 0.1795 0 5
+Xs(A)0::Spline::Im::4  0 113.9 3.298 -180 180
+Xs(A)0::Spline::Re::4  0 1.328 0.09398 0 5
+Xs(A)0::Spline::Im::5  0 117.9 3.336 -180 180
+Xs(A)0::Spline::Re::5  0 0.7018 0.06699 0 5
+Xs(A)0::Spline::Im::6  0 122.1 4.696 -180 180
+Xs(A)0::Spline::Re::6  0 0.4871 0.05239 0 5
+Xs(A)0::Spline::Im::7  0 142 4.027 -180 180
+Xs(A)0::Spline::Re::7  0 0.2271 0.01525 0 5
+
+
+Xs(A)0::Spline 8 4.4 4.75 1
+Xs(A)0::Spline::Im::0  0 -102.6 90.7 -180 180
+Xs(A)0::Spline::Re::0  0 0.2075 0.689 0.2 5
+Xs(A)0::Spline::Im::1  0 53.13 43.54 -180 180
+Xs(A)0::Spline::Re::1  0 0.9 0.5983 0 0.9
+Xs(A)0::Spline::Im::2  0 28.15 15.28 -180 180
+Xs(A)0::Spline::Re::2  0 1.097 0.2679 0 5
+Xs(A)0::Spline::Im::3  0 64.98 7.472 -180 180
+Xs(A)0::Spline::Re::3  0 1.729 0.1306 0 5
+Xs(A)0::Spline::Im::4  0 113.9 5.072 -180 180
+Xs(A)0::Spline::Re::4  0 1.328 0.09059 0 5
+Xs(A)0::Spline::Im::5  0 117.9 5.291 -180 180
+Xs(A)0::Spline::Re::5  0 0.6998 0.0896 0 5
+Xs(A)0::Spline::Im::6  0 122.1 6.803 -180 180
+Xs(A)0::Spline::Re::6  0 0.4876 0.06688 0 5
+Xs(A)0::Spline::Im::7  0 141.8 6.511 -180 180
+Xs(A)0::Spline::Re::7  0 0.2267 0.06171 0 5
+
+
+Decay Xs2(A)0{K*(892)0,psi(2S)0}
+Xs2(A)0_mass = Xs(A)0_mass
+Xs2(A)0_width = Xs(A)0_width
+
+Xs2(A)0::Spline  40 16 36
+Xs2(A)0::Spline::Gamma::0                     2   0              0
+Xs2(A)0::Spline::Gamma::1                     2   0              0
+Xs2(A)0::Spline::Gamma::2                     2   0              0
+Xs2(A)0::Spline::Gamma::3                     2   0              0
+Xs2(A)0::Spline::Gamma::4                     2   0              0
+Xs2(A)0::Spline::Gamma::5                     2   0              0
+Xs2(A)0::Spline::Gamma::6                     2   0.00183253     0
+Xs2(A)0::Spline::Gamma::7                     2   0.00915061     0
+Xs2(A)0::Spline::Gamma::8                     2   0.0221641      0
+Xs2(A)0::Spline::Gamma::9                     2   0.0408881      0
+Xs2(A)0::Spline::Gamma::10                    2   0.0652671      0
+Xs2(A)0::Spline::Gamma::11                    2   0.0951944      0
+Xs2(A)0::Spline::Gamma::12                    2   0.13053        0
+Xs2(A)0::Spline::Gamma::13                    2   0.17111        0
+Xs2(A)0::Spline::Gamma::14                    2   0.216756       0
+Xs2(A)0::Spline::Gamma::15                    2   0.267279       0
+Xs2(A)0::Spline::Gamma::16                    2   0.322488       0
+Xs2(A)0::Spline::Gamma::17                    2   0.382188       0
+Xs2(A)0::Spline::Gamma::18                    2   0.446186       0
+Xs2(A)0::Spline::Gamma::19                    2   0.514293       0
+Xs2(A)0::Spline::Gamma::20                    2   0.586322       0
+Xs2(A)0::Spline::Gamma::21                    2   0.662093       0
+Xs2(A)0::Spline::Gamma::22                    2   0.741428       0
+Xs2(A)0::Spline::Gamma::23                    2   0.824161       0
+Xs2(A)0::Spline::Gamma::24                    2   0.910125       0
+Xs2(A)0::Spline::Gamma::25                    2   0.999166       0
+Xs2(A)0::Spline::Gamma::26                    2   1.09113        0
+Xs2(A)0::Spline::Gamma::27                    2   1.18588        0
+Xs2(A)0::Spline::Gamma::28                    2   1.28327        0
+Xs2(A)0::Spline::Gamma::29                    2   1.38317        0
+Xs2(A)0::Spline::Gamma::30                    2   1.48546        0
+Xs2(A)0::Spline::Gamma::31                    2   1.59001        0
+Xs2(A)0::Spline::Gamma::32                    2   1.69672        0
+Xs2(A)0::Spline::Gamma::33                    2   1.80546        0
+Xs2(A)0::Spline::Gamma::34                    2   1.91615        0
+Xs2(A)0::Spline::Gamma::35                    2   2.02867        0
+Xs2(A)0::Spline::Gamma::36                    2   2.14293        0
+Xs2(A)0::Spline::Gamma::37                    2   2.25885        0
+Xs2(A)0::Spline::Gamma::38                    2   2.37633        0
+Xs2(A)0::Spline::Gamma::39                    2   2.4932         0

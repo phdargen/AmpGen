@@ -1,7 +1,7 @@
 void Fig11_c()
 {
 //=========Macro generated from canvas: c/c
-//=========  (Wed Mar 27 11:56:01 2024) by ROOT version 6.18/00
+//=========  (Mon Jun 17 17:50:02 2024) by ROOT version 6.18/00
    TCanvas *c = new TCanvas("c", "c",1,1,500,476);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -59,7 +59,7 @@ void Fig11_c()
    0.05110411};
    TGraphErrors *gre = new TGraphErrors(8,_fx1009,_fy1009,_fex1009,_fey1009);
    gre->SetName("");
-   gre->SetTitle(";Re A; Im A ");
+   gre->SetTitle(";Re #it{A}; Im #it{A} ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -75,14 +75,14 @@ void Fig11_c()
    Graph_Graph1009->SetLineWidth(2);
    Graph_Graph1009->SetMarkerStyle(8);
    Graph_Graph1009->SetMarkerSize(0.5);
-   Graph_Graph1009->GetXaxis()->SetTitle("Re A");
+   Graph_Graph1009->GetXaxis()->SetTitle("Re #it{A}");
    Graph_Graph1009->GetXaxis()->SetNdivisions(505);
    Graph_Graph1009->GetXaxis()->SetLabelFont(132);
    Graph_Graph1009->GetXaxis()->SetLabelSize(0.05);
    Graph_Graph1009->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1009->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1009->GetXaxis()->SetTitleFont(132);
-   Graph_Graph1009->GetYaxis()->SetTitle(" Im A ");
+   Graph_Graph1009->GetYaxis()->SetTitle(" Im #it{A} ");
    Graph_Graph1009->GetYaxis()->SetLabelFont(132);
    Graph_Graph1009->GetYaxis()->SetLabelSize(0.05);
    Graph_Graph1009->GetYaxis()->SetTitleSize(0.07);
@@ -652,7 +652,7 @@ void Fig11_c()
    0.05110411};
    gre = new TGraphErrors(8,_fx1012,_fy1012,_fex1012,_fey1012);
    gre->SetName("");
-   gre->SetTitle(";Re A; Im A ");
+   gre->SetTitle(";Re #it{A}; Im #it{A} ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -668,14 +668,14 @@ void Fig11_c()
    Graph_Graph_Graph10091012->SetLineWidth(2);
    Graph_Graph_Graph10091012->SetMarkerStyle(8);
    Graph_Graph_Graph10091012->SetMarkerSize(0.5);
-   Graph_Graph_Graph10091012->GetXaxis()->SetTitle("Re A");
+   Graph_Graph_Graph10091012->GetXaxis()->SetTitle("Re #it{A}");
    Graph_Graph_Graph10091012->GetXaxis()->SetNdivisions(505);
    Graph_Graph_Graph10091012->GetXaxis()->SetLabelFont(132);
    Graph_Graph_Graph10091012->GetXaxis()->SetLabelSize(0.05);
    Graph_Graph_Graph10091012->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10091012->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph_Graph10091012->GetXaxis()->SetTitleFont(132);
-   Graph_Graph_Graph10091012->GetYaxis()->SetTitle(" Im A ");
+   Graph_Graph_Graph10091012->GetYaxis()->SetTitle(" Im #it{A} ");
    Graph_Graph_Graph10091012->GetYaxis()->SetLabelFont(132);
    Graph_Graph_Graph10091012->GetYaxis()->SetLabelSize(0.05);
    Graph_Graph_Graph10091012->GetYaxis()->SetTitleSize(0.07);

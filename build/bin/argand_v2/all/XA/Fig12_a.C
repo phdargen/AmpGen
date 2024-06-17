@@ -1,7 +1,7 @@
 void Fig12_a()
 {
 //=========Macro generated from canvas: c/c
-//=========  (Wed Mar 27 11:56:12 2024) by ROOT version 6.18/00
+//=========  (Mon Jun 17 17:50:05 2024) by ROOT version 6.18/00
    TCanvas *c = new TCanvas("c", "c",0,0,500,500);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -59,7 +59,7 @@ void Fig12_a()
    0.1896138};
    TGraphErrors *gre = new TGraphErrors(8,_fx1001,_fy1001,_fex1001,_fey1001);
    gre->SetName("");
-   gre->SetTitle(";#sqrt{s} [GeV]; |A| ");
+   gre->SetTitle(";#sqrt{s} [GeV]; |#it{A}| ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -82,7 +82,7 @@ void Fig12_a()
    Graph_Graph1001->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1001->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1001->GetXaxis()->SetTitleFont(132);
-   Graph_Graph1001->GetYaxis()->SetTitle(" |A| ");
+   Graph_Graph1001->GetYaxis()->SetTitle(" |#it{A}| ");
    Graph_Graph1001->GetYaxis()->SetLabelFont(132);
    Graph_Graph1001->GetYaxis()->SetLabelSize(0.05);
    Graph_Graph1001->GetYaxis()->SetTitleSize(0.07);
@@ -652,7 +652,7 @@ void Fig12_a()
    0.1896138};
    gre = new TGraphErrors(8,_fx1004,_fy1004,_fex1004,_fey1004);
    gre->SetName("");
-   gre->SetTitle(";#sqrt{s} [GeV]; |A| ");
+   gre->SetTitle(";#sqrt{s} [GeV]; |#it{A}| ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -675,7 +675,7 @@ void Fig12_a()
    Graph_Graph_Graph10011004->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10011004->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph_Graph10011004->GetXaxis()->SetTitleFont(132);
-   Graph_Graph_Graph10011004->GetYaxis()->SetTitle(" |A| ");
+   Graph_Graph_Graph10011004->GetYaxis()->SetTitle(" |#it{A}| ");
    Graph_Graph_Graph10011004->GetYaxis()->SetLabelFont(132);
    Graph_Graph_Graph10011004->GetYaxis()->SetLabelSize(0.05);
    Graph_Graph_Graph10011004->GetYaxis()->SetTitleSize(0.07);

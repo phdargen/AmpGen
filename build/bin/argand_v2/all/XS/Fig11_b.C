@@ -1,7 +1,7 @@
 void Fig11_b()
 {
 //=========Macro generated from canvas: c/c
-//=========  (Wed Mar 27 11:56:01 2024) by ROOT version 6.18/00
+//=========  (Mon Jun 17 17:50:02 2024) by ROOT version 6.18/00
    TCanvas *c = new TCanvas("c", "c",1,1,500,476);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -59,7 +59,7 @@ void Fig11_b()
    9.528};
    TGraphErrors *gre = new TGraphErrors(8,_fx1005,_fy1005,_fex1005,_fey1005);
    gre->SetName("");
-   gre->SetTitle(";#sqrt{s} [GeV]; arg(A) [degrees] ");
+   gre->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [degrees] ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -82,7 +82,7 @@ void Fig11_b()
    Graph_Graph1005->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1005->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1005->GetXaxis()->SetTitleFont(132);
-   Graph_Graph1005->GetYaxis()->SetTitle(" arg(A) [degrees] ");
+   Graph_Graph1005->GetYaxis()->SetTitle(" arg(#it{A}) [degrees] ");
    Graph_Graph1005->GetYaxis()->SetLabelFont(132);
    Graph_Graph1005->GetYaxis()->SetLabelSize(0.05);
    Graph_Graph1005->GetYaxis()->SetTitleSize(0.07);
@@ -652,7 +652,7 @@ void Fig11_b()
    9.528};
    gre = new TGraphErrors(8,_fx1008,_fy1008,_fex1008,_fey1008);
    gre->SetName("");
-   gre->SetTitle(";#sqrt{s} [GeV]; arg(A) [degrees] ");
+   gre->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [degrees] ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -675,7 +675,7 @@ void Fig11_b()
    Graph_Graph_Graph10051008->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10051008->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph_Graph10051008->GetXaxis()->SetTitleFont(132);
-   Graph_Graph_Graph10051008->GetYaxis()->SetTitle(" arg(A) [degrees] ");
+   Graph_Graph_Graph10051008->GetYaxis()->SetTitle(" arg(#it{A}) [degrees] ");
    Graph_Graph_Graph10051008->GetYaxis()->SetLabelFont(132);
    Graph_Graph_Graph10051008->GetYaxis()->SetLabelSize(0.05);
    Graph_Graph_Graph10051008->GetYaxis()->SetTitleSize(0.07);
