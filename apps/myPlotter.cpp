@@ -366,6 +366,8 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         histos[1]->SetMarkerColor(kRed+1);
         histos[1]->SetLineStyle(kDashed);
         histos[1]->SetMarkerSize(0.);
+        histos[1]->SetLineWidth(3);
+        histos[1]->DrawNormalized("histcsame",1);
 
         histos[histos.size()-1]->SetLineColor(kAzure - 4);
         histos[histos.size()-1]->SetMarkerColor(kAzure - 4);
@@ -379,6 +381,8 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         //histos[histos.size()-2]->SetFillColorAlpha(kAzure - 4, 1);
         //histos[histos.size()-2]->SetMarkerSize(0.);
         histos[histos.size()-2]->DrawNormalized("histsame",1);
+      
+        histos[1]->DrawNormalized("histcsame",1);
       
         computeErrorBands = false;
   }
@@ -525,16 +529,16 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
   // Plot fit projections
   unsigned int addChi2PerPlot = NamedParameter<unsigned int>("addChi2PerPlot",0);
 
-  for (unsigned int i = (plotComponents == true ? histos.size()-nPermErrorBands-nAltModels-1 : 1); i >= 1 ; i--)
+  if(plotAltModels!=2)for (unsigned int i = (plotComponents == true ? histos.size()-nPermErrorBands-nAltModels-1 : 1); i >= 1 ; i--)
   {
       histos[i]->SetMinimum(1);
-      
       if(i==1)histos[i]->SetLineWidth(lineWidthFit);
       else if(i==2)histos[i]->SetLineWidth(lineWidthFit-1);
       else histos[i]->SetLineWidth(lineWidthAmps);
       if(style == 0 && i==1)histos[i]->SetLineWidth(4);
       if(nPermErrorBands>3)histos[1]->SetLineWidth(2);
       double norm = histos[i]->Integral()/histos[1]->Integral();
+      if(plotAltModels==2 && i==1)histos[i]->SetLineStyle(kDashed);
       histos[i]->DrawNormalized("histcsame",norm);
   }
   if(addChi2PerPlot){
@@ -564,7 +568,7 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         TLegendEntry* le_chi2 = leg->AddEntry((TObject*)0,leg_chi2,"");
         leg->SetEntrySeparation(0.0);
         le_chi2->SetTextColor(kBlue);
-        le_chi2->SetTextSize(0.04);
+        le_chi2->SetTextSize(0.06);
         leg->Draw();
   }
   else{
@@ -576,7 +580,7 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
       leg->SetFillColor(0);
       leg->SetTextFont(132);
       leg->SetTextColor(1);
-      leg->SetTextSize(0.06);
+      leg->SetTextSize(0.065);
       leg->SetTextAlign(12);
       leg->SetEntrySeparation(0.0);
       leg->AddEntry((TObject*)0,"#font[132]{LHCb}","");
@@ -584,7 +588,7 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
   }
     
   ///for (unsigned int i =3 ; i < histos.size()-nPermErrorBands-nAltModels-1; i++) histos[i]->DrawNormalized("histcsame",1);
-  histos[1]->DrawNormalized("histcsame",1);
+  if(plotAltModels!=2)histos[1]->DrawNormalized("histcsame",1);
   histos[0]->DrawNormalized("same",1);
   gPad->RedrawAxis();
 }
@@ -1396,7 +1400,7 @@ void makePlotsMuMu(){
     limits.push_back(lim01);
     limits.push_back(lim34);
     
-    titles.push_back("cos(#theta_{K^{*}})");
+    titles.push_back("cos(#theta_{#it{K}^{*}})");
     limits.push_back({-1,1});
     
     // Plot fit

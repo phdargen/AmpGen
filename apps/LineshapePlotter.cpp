@@ -797,9 +797,9 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     
     auto fig_name = NamedParameter<string>( "fig_name",  name);
 
-    g_amp->SetTitle(";#sqrt{s} [GeV]; |A| ");
-    g_phase->SetTitle(";#sqrt{s} [GeV]; arg(A) [degrees] ");
-    g_argand->SetTitle(";Re A; Im A ");
+    g_amp->SetTitle(";#sqrt{s} [GeV]; |#it{A}| ");
+    g_phase->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [degrees] ");
+    g_argand->SetTitle(";Re #it{A}; Im #it{A} ");
 
     auto amp_max = NamedParameter<double>( "AmpMax",  1.25);
     g_amp->SetMinimum(0);
