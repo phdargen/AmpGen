@@ -1624,8 +1624,16 @@ void makePlotsMuMu(){
     leg.SetTextColor(1);
     leg.SetTextSize(0.05);
     leg.SetTextAlign(12);
+    TLegend leg2(leg);
+    TLegend leg3(leg);
+    TLegend leg4(leg);
     for(unsigned int k=2; k<nHists;k++)leg.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
-    
+    for(unsigned int k=2; k<(2+nHists)/2;k++)leg2.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
+    for(unsigned int k=(2+nHists)/2; k<(2+nHists)/2+3;k++)leg3.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
+    for(unsigned int k=(2+nHists)/2+3; k<nHists;k++)leg4.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
+    leg4.AddEntry((TObject*)0, "", "");
+    leg4.AddEntry((TObject*)0, "", "");
+
     //Get chi2 for legend
     string resultsFileName = NamedParameter<string>("ResultsFile","result.root");
     TFile* results_file = TFile::Open((outDir+"/"+resultsFileName).c_str(),"OPEN");
@@ -1963,10 +1971,26 @@ void makePlotsMuMu(){
     c->Print((outDir+"/"+"leg.C").c_str());
     c->Print((outDir+"/"+"leg.eps").c_str());
 
-    leg.SetNColumns(2);
     c->Clear();
-    leg.Draw();
+    leg2.Draw();
     c->Print((outDir+"/"+"leg2.pdf").c_str());
+    c->Print((outDir+"/"+"leg2.png").c_str());
+    c->Print((outDir+"/"+"leg2.C").c_str());
+    c->Print((outDir+"/"+"leg2.eps").c_str());
+    
+    c->Clear();
+    leg3.Draw();
+    c->Print((outDir+"/"+"leg3.pdf").c_str());
+    c->Print((outDir+"/"+"leg3.png").c_str());
+    c->Print((outDir+"/"+"leg3.C").c_str());
+    c->Print((outDir+"/"+"leg3.eps").c_str());
+    
+    c->Clear();
+    leg4.Draw();
+    c->Print((outDir+"/"+"leg4.pdf").c_str());
+    c->Print((outDir+"/"+"leg4.png").c_str());
+    c->Print((outDir+"/"+"leg4.C").c_str());
+    c->Print((outDir+"/"+"leg4.eps").c_str());
     
     auto plotDalitz = NamedParameter<bool>("plotDalitz", 0,"plotDalitz");
     if(plotDalitz){
