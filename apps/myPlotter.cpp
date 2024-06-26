@@ -227,10 +227,18 @@ vector<TH1D*> createHistos(vector<unsigned int> dim,string name, string title, i
   vector<TH1D*> histos;
   TH1D* histo = new TH1D(name.c_str(),"",dim.size()==1 ? nBinsAngles*2 : nBins*2,limits[0],limits[1]);
   histo->SetMinimum(0.);
+
   histo->GetXaxis()->SetTitle(title.c_str());
+  histo->GetXaxis()->SetTitleSize(histo->GetXaxis()->GetTitleSize()*1.15);
+  histo->GetXaxis()->SetTitleOffset(histo->GetXaxis()->GetTitleOffset()*0.9);
+  histo->GetXaxis()->SetLabelSize(histo->GetXaxis()->GetLabelSize()*1.15);
+  histo->GetXaxis()->SetLabelOffset(histo->GetXaxis()->GetLabelOffset()*0.9);
+
   histo->GetYaxis()->SetTitle("Candidates (normalised)");
-  histo->GetYaxis()->SetTitleSize(histo->GetYaxis()->GetTitleSize()*0.9);
-  histo->GetYaxis()->SetTitleOffset(histo->GetYaxis()->GetTitleOffset()*1.2);
+  histo->GetYaxis()->SetTitleSize(histo->GetYaxis()->GetTitleSize()*1.1);
+  histo->GetYaxis()->SetTitleOffset(histo->GetYaxis()->GetTitleOffset()*0.95);
+  histo->GetYaxis()->SetLabelSize(histo->GetYaxis()->GetLabelSize()*1.025);
+  histo->GetYaxis()->SetLabelOffset(histo->GetYaxis()->GetLabelOffset()*0.5);
 
   histo->SetMarkerSize(1.);
 	//histo->SetMarkerStyle(21);
@@ -555,32 +563,32 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
 
         TLegend* leg;
         if(legendLeft)leg = new TLegend(0.15,0.75,0.3,0.9,"");
-        else leg = new TLegend(0.65,0.75,0.9,0.9,"");
+        else leg = new TLegend(0.6,0.75,0.9,0.9,"");
         leg->SetLineStyle(0);
         leg->SetLineColor(0);
         leg->SetFillColor(0);
         leg->SetTextFont(132);
         leg->SetTextColor(1);
-        leg->SetTextSize(0.06);
+        leg->SetTextSize(0.07);
         leg->SetTextAlign(12);
         leg->SetEntrySeparation(0.0);
         leg->AddEntry((TObject*)0,"#font[132]{LHCb 9 fb^{#minus1}}","");
         TLegendEntry* le_chi2 = leg->AddEntry((TObject*)0,leg_chi2,"");
         leg->SetEntrySeparation(0.0);
         le_chi2->SetTextColor(kBlue);
-        le_chi2->SetTextSize(0.06);
+        le_chi2->SetTextSize(0.07);
         leg->Draw();
   }
   else{
       TLegend* leg;
       if(legendLeft)leg = new TLegend(0.15,0.75,0.3,0.9,"");
-      else leg = new TLegend(0.65,0.75,0.9,0.9,"");
+      else leg = new TLegend(0.6,0.75,0.9,0.9,"");
       leg->SetLineStyle(0);
       leg->SetLineColor(0);
       leg->SetFillColor(0);
       leg->SetTextFont(132);
       leg->SetTextColor(1);
-      leg->SetTextSize(0.065);
+      leg->SetTextSize(0.07);
       leg->SetTextAlign(12);
       leg->SetEntrySeparation(0.0);
       leg->AddEntry((TObject*)0,"#font[132]{LHCb}","");
@@ -652,6 +660,25 @@ vector<TH2D*> createHistos2D(vector<unsigned int> dim1, vector<unsigned int> dim
       histos.push_back(h);
   }
   return histos;
+}
+
+string modLegend(string name){
+    
+    TString n(name);
+
+    n.ReplaceAll("B","B^{+}");
+    n.ReplaceAll("K#pi","K#pi^{#minus}");
+    n.ReplaceAll("K","K^{+}");
+    n.ReplaceAll("K^{+}'","K'^{+}");
+    n.ReplaceAll("#pi#pi","#pi^{+}#pi^{#minus}");
+    n.ReplaceAll("X","X^{0}");
+    n.ReplaceAll("T_{c#bar{c}","T^{+}_{c#bar{c}");
+    n.ReplaceAll("T_{c#bar{c}#bar{s}}","T^{+}_{c#bar{c}#bar{s}}");
+    n.ReplaceAll("T^{+}_{c#bar{c}#bar{s}} #pi","T^{0}_{c#bar{c}#bar{s}} #pi^{+}");
+    n.ReplaceAll("B^{+}ack","Back");
+    n.ReplaceAll("K^{+}#pi^{#minus}#pi","K^{+}#pi^{+}#pi^{#minus}");
+
+    return (std::string)n;
 }
 
 void makePlots(){
@@ -1387,7 +1414,7 @@ void makePlotsMuMu(){
     vector<vector<double>> limits{lim012,lim02,lim12,lim3412,lim341,lim342,lim340,lim3402};
     
     titles.push_back("cos(#theta)");
-    titles.push_back("#chi [rad.]");
+    titles.push_back("#chi [rad]");
     limits.push_back({-1,1});
     limits.push_back({-3.141,3.141});
     
@@ -1622,17 +1649,17 @@ void makePlotsMuMu(){
     leg.SetFillColor(0);
     leg.SetTextFont(132);
     leg.SetTextColor(1);
-    leg.SetTextSize(0.05);
+    leg.SetTextSize(0.06);
     leg.SetTextAlign(12);
     TLegend leg2(leg);
     TLegend leg3(leg);
     TLegend leg4(leg);
-    for(unsigned int k=2; k<nHists;k++)leg.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
-    for(unsigned int k=2; k<(2+nHists)/2;k++)leg2.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
-    for(unsigned int k=(2+nHists)/2; k<(2+nHists)/2+3;k++)leg3.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
-    for(unsigned int k=(2+nHists)/2+3; k<nHists;k++)leg4.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
-    leg4.AddEntry((TObject*)0, "", "");
-    leg4.AddEntry((TObject*)0, "", "");
+    for(unsigned int k=2; k<nHists;k++)leg.AddEntry(histo_set[0][k],modLegend(legend[k]).c_str(),"f");
+    for(unsigned int k=2; k<(2+nHists)/2+1;k++)leg2.AddEntry(histo_set[0][k],modLegend(legend[k]).c_str(),"f");
+    for(unsigned int k=(2+nHists)/2+1; k<nHists;k++)leg3.AddEntry(histo_set[0][k],modLegend(legend[k]).c_str(),"f");
+    //for(unsigned int k=(2+nHists)/2+3; k<nHists;k++)leg4.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
+    leg3.AddEntry((TObject*)0, "", "");
+    //leg4.AddEntry((TObject*)0, "", "");
 
     //Get chi2 for legend
     string resultsFileName = NamedParameter<string>("ResultsFile","result.root");
