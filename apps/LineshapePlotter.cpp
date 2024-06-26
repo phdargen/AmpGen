@@ -451,7 +451,8 @@ void prepareRunningWidthFromFiles(){
         width_m->SetLineColor(kBlue);
         //width_m->SetTitle("; #sqrt{#it{s}} [GeV]  ; #sqrt{#it{s}} / #it{m_{0} #it{#Gamma(s)}} [GeV]");
         width_m->SetTitle("; #it{#sqrt{s}} [GeV]  ; #Gamma#it{(s)} [GeV]");
-        width_m->Draw("A*C");
+        //width_m->Draw("A*C");
+        width_m->Draw("AC");
         lhcbName->Draw();
         text->Draw();
 
@@ -611,10 +612,10 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     gStyle->SetTitleOffset(0.9,"Y");
     gStyle->SetTitleSize(0.07,"x");
     gStyle->SetTitleSize(0.07,"y");
-    gStyle->SetLabelOffset(0.005,"X");
+    gStyle->SetLabelOffset(0.0025,"X");
     gStyle->SetLabelOffset(0.005,"Y");
-    gStyle->SetLabelSize(0.05,"x");
-    gStyle->SetLabelSize(0.05,"y");
+    gStyle->SetLabelSize(0.055,"x");
+    gStyle->SetLabelSize(0.055,"y");
         
     double min, max, nBins( 0 );
     auto spline_params = NamedParameter<double>( name + "::Spline").getVector();
@@ -771,16 +772,16 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
 
     TCanvas* c = new TCanvas("c","c",2);
     
-    TPaveText* lhcbName = new TPaveText(gStyle->GetPadLeftMargin() + 0.55,
+    TPaveText* lhcbName = new TPaveText(gStyle->GetPadLeftMargin() + 0.45,
                                         0.87 - gStyle->GetPadTopMargin(),
-                                        gStyle->GetPadLeftMargin() + 0.75,
+                                        gStyle->GetPadLeftMargin() + 0.65,
                                         0.95 - gStyle->GetPadTopMargin(),
                                         "BRNDC");
     lhcbName->AddText("LHCb 9 fb^{-1}");
     lhcbName->SetFillColor(0);
     lhcbName->SetTextAlign(12);
     lhcbName->SetBorderSize(0);
-    lhcbName->SetTextSize(0.05);
+    lhcbName->SetTextSize(0.07);
     lhcbName->SetTextFont(132);
     
     TPaveText* lhcbNameLeft = new TPaveText(gStyle->GetPadLeftMargin() + 0.05,
@@ -792,13 +793,13 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     lhcbNameLeft->SetFillColor(0);
     lhcbNameLeft->SetTextAlign(12);
     lhcbNameLeft->SetBorderSize(0);
-    lhcbNameLeft->SetTextSize(0.05);
+    lhcbNameLeft->SetTextSize(0.07);
     lhcbNameLeft->SetTextFont(132);
     
     auto fig_name = NamedParameter<string>( "fig_name",  name);
 
     g_amp->SetTitle(";#sqrt{s} [GeV]; |#it{A}| ");
-    g_phase->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [degrees] ");
+    g_phase->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [#circ] ");
     g_argand->SetTitle(";Re #it{A}; Im #it{A} ");
 
     auto amp_max = NamedParameter<double>( "AmpMax",  1.25);

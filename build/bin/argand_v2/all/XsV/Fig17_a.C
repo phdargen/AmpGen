@@ -1,7 +1,7 @@
 void Fig17_a()
 {
 //=========Macro generated from canvas: c/c
-//=========  (Mon Jun 17 17:50:12 2024) by ROOT version 6.18/00
+//=========  (Wed Jun 26 19:20:10 2024) by ROOT version 6.18/00
    TCanvas *c = new TCanvas("c", "c",0,0,500,500);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -78,13 +78,14 @@ void Fig17_a()
    Graph_Graph1001->GetXaxis()->SetTitle("#sqrt{s} [GeV]");
    Graph_Graph1001->GetXaxis()->SetNdivisions(505);
    Graph_Graph1001->GetXaxis()->SetLabelFont(132);
-   Graph_Graph1001->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph1001->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph1001->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph1001->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1001->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1001->GetXaxis()->SetTitleFont(132);
    Graph_Graph1001->GetYaxis()->SetTitle(" |#it{A}| ");
    Graph_Graph1001->GetYaxis()->SetLabelFont(132);
-   Graph_Graph1001->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph1001->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph1001->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph1001->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph1001->GetYaxis()->SetTitleFont(132);
@@ -524,12 +525,13 @@ void Fig17_a()
    Graph_Graph1002->SetMarkerSize(0.5);
    Graph_Graph1002->GetXaxis()->SetNdivisions(505);
    Graph_Graph1002->GetXaxis()->SetLabelFont(132);
-   Graph_Graph1002->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph1002->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph1002->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph1002->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1002->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1002->GetXaxis()->SetTitleFont(132);
    Graph_Graph1002->GetYaxis()->SetLabelFont(132);
-   Graph_Graph1002->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph1002->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph1002->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph1002->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph1002->GetYaxis()->SetTitleFont(132);
@@ -596,12 +598,13 @@ void Fig17_a()
    Graph_Graph1003->SetMarkerSize(0.5);
    Graph_Graph1003->GetXaxis()->SetNdivisions(505);
    Graph_Graph1003->GetXaxis()->SetLabelFont(132);
-   Graph_Graph1003->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph1003->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph1003->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph1003->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1003->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1003->GetXaxis()->SetTitleFont(132);
    Graph_Graph1003->GetYaxis()->SetLabelFont(132);
-   Graph_Graph1003->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph1003->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph1003->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph1003->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph1003->GetYaxis()->SetTitleFont(132);
@@ -671,13 +674,14 @@ void Fig17_a()
    Graph_Graph_Graph10011004->GetXaxis()->SetTitle("#sqrt{s} [GeV]");
    Graph_Graph_Graph10011004->GetXaxis()->SetNdivisions(505);
    Graph_Graph_Graph10011004->GetXaxis()->SetLabelFont(132);
-   Graph_Graph_Graph10011004->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph_Graph10011004->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph_Graph10011004->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph_Graph10011004->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10011004->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph_Graph10011004->GetXaxis()->SetTitleFont(132);
    Graph_Graph_Graph10011004->GetYaxis()->SetTitle(" |#it{A}| ");
    Graph_Graph_Graph10011004->GetYaxis()->SetLabelFont(132);
-   Graph_Graph_Graph10011004->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph_Graph10011004->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph_Graph10011004->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10011004->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph_Graph10011004->GetYaxis()->SetTitleFont(132);
@@ -690,13 +694,13 @@ void Fig17_a()
    
    gre->Draw("p");
    
-   TPaveText *pt = new TPaveText(0.69,0.82,0.89,0.9,"BRNDC");
+   TPaveText *pt = new TPaveText(0.59,0.82,0.79,0.9,"BRNDC");
    pt->SetBorderSize(0);
    pt->SetFillColor(0);
    pt->SetLineWidth(2);
    pt->SetTextAlign(12);
    pt->SetTextFont(132);
-   pt->SetTextSize(0.05);
+   pt->SetTextSize(0.07);
    TText *pt_LaTex = pt->AddText("LHCb 9 fb^{-1}");
    pt->Draw();
    c->Modified();

@@ -1,7 +1,7 @@
 void Fig20_b()
 {
 //=========Macro generated from canvas: c/c
-//=========  (Mon Jun 17 17:50:18 2024) by ROOT version 6.18/00
+//=========  (Wed Jun 26 19:20:16 2024) by ROOT version 6.18/00
    TCanvas *c = new TCanvas("c", "c",1,1,500,476);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -63,7 +63,7 @@ void Fig20_b()
    16.66};
    TGraphErrors *gre = new TGraphErrors(9,_fx1005,_fy1005,_fex1005,_fey1005);
    gre->SetName("");
-   gre->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [degrees] ");
+   gre->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [#circ] ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -82,13 +82,14 @@ void Fig20_b()
    Graph_Graph1005->GetXaxis()->SetTitle("#sqrt{s} [GeV]");
    Graph_Graph1005->GetXaxis()->SetNdivisions(505);
    Graph_Graph1005->GetXaxis()->SetLabelFont(132);
-   Graph_Graph1005->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph1005->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph1005->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph1005->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1005->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1005->GetXaxis()->SetTitleFont(132);
-   Graph_Graph1005->GetYaxis()->SetTitle(" arg(#it{A}) [degrees] ");
+   Graph_Graph1005->GetYaxis()->SetTitle(" arg(#it{A}) [#circ] ");
    Graph_Graph1005->GetYaxis()->SetLabelFont(132);
-   Graph_Graph1005->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph1005->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph1005->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph1005->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph1005->GetYaxis()->SetTitleFont(132);
@@ -528,12 +529,13 @@ void Fig20_b()
    Graph_Graph1006->SetMarkerSize(0.5);
    Graph_Graph1006->GetXaxis()->SetNdivisions(505);
    Graph_Graph1006->GetXaxis()->SetLabelFont(132);
-   Graph_Graph1006->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph1006->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph1006->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph1006->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1006->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1006->GetXaxis()->SetTitleFont(132);
    Graph_Graph1006->GetYaxis()->SetLabelFont(132);
-   Graph_Graph1006->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph1006->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph1006->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph1006->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph1006->GetYaxis()->SetTitleFont(132);
@@ -604,12 +606,13 @@ void Fig20_b()
    Graph_Graph1007->SetMarkerSize(0.5);
    Graph_Graph1007->GetXaxis()->SetNdivisions(505);
    Graph_Graph1007->GetXaxis()->SetLabelFont(132);
-   Graph_Graph1007->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph1007->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph1007->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph1007->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph1007->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph1007->GetXaxis()->SetTitleFont(132);
    Graph_Graph1007->GetYaxis()->SetLabelFont(132);
-   Graph_Graph1007->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph1007->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph1007->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph1007->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph1007->GetYaxis()->SetTitleFont(132);
@@ -664,7 +667,7 @@ void Fig20_b()
    16.66};
    gre = new TGraphErrors(9,_fx1008,_fy1008,_fex1008,_fey1008);
    gre->SetName("");
-   gre->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [degrees] ");
+   gre->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [#circ] ");
    gre->SetFillStyle(1000);
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
@@ -683,13 +686,14 @@ void Fig20_b()
    Graph_Graph_Graph10051008->GetXaxis()->SetTitle("#sqrt{s} [GeV]");
    Graph_Graph_Graph10051008->GetXaxis()->SetNdivisions(505);
    Graph_Graph_Graph10051008->GetXaxis()->SetLabelFont(132);
-   Graph_Graph_Graph10051008->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph_Graph10051008->GetXaxis()->SetLabelOffset(0.0025);
+   Graph_Graph_Graph10051008->GetXaxis()->SetLabelSize(0.055);
    Graph_Graph_Graph10051008->GetXaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10051008->GetXaxis()->SetTitleOffset(0.9);
    Graph_Graph_Graph10051008->GetXaxis()->SetTitleFont(132);
-   Graph_Graph_Graph10051008->GetYaxis()->SetTitle(" arg(#it{A}) [degrees] ");
+   Graph_Graph_Graph10051008->GetYaxis()->SetTitle(" arg(#it{A}) [#circ] ");
    Graph_Graph_Graph10051008->GetYaxis()->SetLabelFont(132);
-   Graph_Graph_Graph10051008->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph_Graph10051008->GetYaxis()->SetLabelSize(0.055);
    Graph_Graph_Graph10051008->GetYaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10051008->GetYaxis()->SetTitleOffset(0.9);
    Graph_Graph_Graph10051008->GetYaxis()->SetTitleFont(132);
@@ -708,7 +712,7 @@ void Fig20_b()
    pt->SetLineWidth(2);
    pt->SetTextAlign(12);
    pt->SetTextFont(132);
-   pt->SetTextSize(0.05);
+   pt->SetTextSize(0.07);
    TText *pt_LaTex = pt->AddText("LHCb 9 fb^{-1}");
    pt->Draw();
    c->Modified();
