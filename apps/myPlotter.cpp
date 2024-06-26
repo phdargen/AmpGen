@@ -582,13 +582,13 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
   else{
       TLegend* leg;
       if(legendLeft)leg = new TLegend(0.15,0.75,0.3,0.9,"");
-      else leg = new TLegend(0.6,0.75,0.9,0.9,"");
+      else leg = new TLegend(0.7,0.75,0.9,0.9,"");
       leg->SetLineStyle(0);
       leg->SetLineColor(0);
       leg->SetFillColor(0);
       leg->SetTextFont(132);
       leg->SetTextColor(1);
-      leg->SetTextSize(0.07);
+      leg->SetTextSize(0.075);
       leg->SetTextAlign(12);
       leg->SetEntrySeparation(0.0);
       leg->AddEntry((TObject*)0,"#font[132]{LHCb}","");
@@ -678,6 +678,14 @@ string modLegend(string name){
     n.ReplaceAll("B^{+}ack","Back");
     n.ReplaceAll("K^{+}#pi^{#minus}#pi","K^{+}#pi^{+}#pi^{#minus}");
 
+    n.ReplaceAll("K^{+}_{1}","K_{1}");
+    n.ReplaceAll("K^{+}^{*}","K^{*}");
+    n.ReplaceAll("K^{+}_{2}^{*}","K_{2}^{*}");
+    n.ReplaceAll("K^{+}(","K(");
+    n.ReplaceAll("0)","0)^{+}");
+    n.ReplaceAll("4360)^{+}","4360)");
+    n.ReplaceAll("4660)^{+}","4660)");
+    
     return (std::string)n;
 }
 
@@ -1649,7 +1657,8 @@ void makePlotsMuMu(){
     leg.SetFillColor(0);
     leg.SetTextFont(132);
     leg.SetTextColor(1);
-    leg.SetTextSize(0.06);
+    //leg.SetTextSize(0.05); //for non-exotic
+    leg.SetTextSize(0.055);
     leg.SetTextAlign(12);
     TLegend leg2(leg);
     TLegend leg3(leg);
