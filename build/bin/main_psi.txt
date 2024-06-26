@@ -76,12 +76,12 @@ filter_plotN	1 3 4 5
 #Kpipi
 "invertCut_plot3"     0
 "cut_dim_plot3"       0 1 2
-"cut_limits_plot3"    1.4 2
-#"cut_limits_plot3"    1.35 2
+#"cut_limits_plot3"    1.4 2
+"cut_limits_plot3"    1.35 2
 
 "invertCut_plot4"     1
 "cut_dim_plot4"       0 1 2
-"cut_limits_plot4"    1.4 2
+"cut_limits_plot4"    1.35 2
 
 #pipi
 "invertCut_plot5"     0
