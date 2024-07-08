@@ -450,10 +450,10 @@ void prepareRunningWidthFromFiles(){
 
         width_m->SetLineColor(kBlue);
         //width_m->SetTitle("; #sqrt{#it{s}} [GeV]  ; #sqrt{#it{s}} / #it{m_{0} #it{#Gamma(s)}} [GeV]");
-        width_m->SetTitle("; #it{#sqrt{s}} [GeV]  ; #Gamma#it{(s)} [GeV]");
+        width_m->SetTitle("; #sqrt{#it{s}} [GeV]  ; #Gamma(#it{s}) [GeV]");
         //width_m->Draw("A*C");
         width_m->Draw("AC");
-        lhcbName->Draw();
+        //lhcbName->Draw();
         text->Draw();
 
         TString n(head);
@@ -470,7 +470,6 @@ void prepareRunningWidthFromFiles(){
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".C").c_str());
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".root").c_str());
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".eps").c_str());
-
     }
     
 }
@@ -777,7 +776,7 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
                                         gStyle->GetPadLeftMargin() + 0.65,
                                         0.95 - gStyle->GetPadTopMargin(),
                                         "BRNDC");
-    lhcbName->AddText("LHCb 9 fb^{-1}");
+    lhcbName->AddText("LHCb 9 fb^{#minus1}");
     lhcbName->SetFillColor(0);
     lhcbName->SetTextAlign(12);
     lhcbName->SetBorderSize(0);
@@ -789,7 +788,7 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
                                         gStyle->GetPadLeftMargin() + 0.20,
                                         0.95 - gStyle->GetPadTopMargin(),
                                         "BRNDC");
-    lhcbNameLeft->AddText("LHCb 9 fb^{-1}");
+    lhcbNameLeft->AddText("LHCb 9 fb^{#minus1}");
     lhcbNameLeft->SetFillColor(0);
     lhcbNameLeft->SetTextAlign(12);
     lhcbNameLeft->SetBorderSize(0);
@@ -798,8 +797,8 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     
     auto fig_name = NamedParameter<string>( "fig_name",  name);
 
-    g_amp->SetTitle(";#sqrt{s} [GeV]; |#it{A}| ");
-    g_phase->SetTitle(";#sqrt{s} [GeV]; arg(#it{A}) [#circ] ");
+    g_amp->SetTitle(";#sqrt{#it{s}} [GeV]; |#it{A}| ");
+    g_phase->SetTitle(";#sqrt{#it{s}} [GeV]; arg(#it{A}) [#circ] ");
     g_argand->SetTitle(";Re #it{A}; Im #it{A} ");
 
     auto amp_max = NamedParameter<double>( "AmpMax",  1.25);
@@ -823,6 +822,8 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     c->Print((outDir+"/"+(string)fig_name+"_a.pdf").c_str());
     c->Print((outDir+"/"+(string)fig_name+"_a.png").c_str());
     c->Print((outDir+"/"+(string)fig_name+"_a.C").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"_a.eps").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"_a.root").c_str());
 
     auto phase_min = NamedParameter<double>( "PhaseMin",  -999);
     auto phase_max = NamedParameter<double>( "PhaseMax",  -999);
@@ -846,6 +847,8 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     c->Print((outDir+"/"+(string)fig_name+"_b.pdf").c_str());
     c->Print((outDir+"/"+(string)fig_name+"_b.png").c_str());
     c->Print((outDir+"/"+(string)fig_name+"_b.C").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"_b.eps").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"_b.root").c_str());
     
     auto argand_x_min = NamedParameter<double>( "ArgandMinX",  -1.25);
     auto argand_x_max = NamedParameter<double>( "ArgandMaxX",  1.25);
@@ -875,6 +878,8 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     c->Print((outDir+"/"+(string)fig_name+"_c.pdf").c_str());
     c->Print((outDir+"/"+(string)fig_name+"_c.png").c_str());
     c->Print((outDir+"/"+(string)fig_name+"_c.C").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"_c.eps").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"_c.root").c_str());
 }
 
 

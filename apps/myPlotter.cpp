@@ -223,9 +223,10 @@ double calculateChi2(const TH1* hist1, const TH1* hist2) {
 vector<TH1D*> createHistos(vector<unsigned int> dim,string name, string title, int nBins, vector<double> limits, vector<string> weights){
 
   auto nBinsAngles = NamedParameter<Int_t>("nBinsAngles", 20, "nBinsAngles");
+  double binWidth = dim.size()==1 ? (limits[1] - limits[0]) / (nBinsAngles*2 - 1) : 0;
 
   vector<TH1D*> histos;
-  TH1D* histo = new TH1D(name.c_str(),"",dim.size()==1 ? nBinsAngles*2 : nBins*2,limits[0],limits[1]);
+  TH1D* histo = new TH1D(name.c_str(),"",dim.size()==1 ? nBinsAngles*2 : nBins*2,limits[0] - binWidth/2, limits[1] + binWidth/2);
   histo->SetMinimum(0.);
 
   histo->GetXaxis()->SetTitle(title.c_str());
@@ -233,7 +234,8 @@ vector<TH1D*> createHistos(vector<unsigned int> dim,string name, string title, i
   histo->GetXaxis()->SetTitleOffset(histo->GetXaxis()->GetTitleOffset()*0.9);
   histo->GetXaxis()->SetLabelSize(histo->GetXaxis()->GetLabelSize()*1.15);
   histo->GetXaxis()->SetLabelOffset(histo->GetXaxis()->GetLabelOffset()*0.9);
-
+  histo->GetXaxis()->SetRangeUser(limits[0],limits[1]);
+    
   histo->GetYaxis()->SetTitle("Candidates (normalised)");
   histo->GetYaxis()->SetTitleSize(histo->GetYaxis()->GetTitleSize()*1.1);
   histo->GetYaxis()->SetTitleOffset(histo->GetYaxis()->GetTitleOffset()*0.95);
@@ -374,7 +376,7 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         histos[1]->SetMarkerColor(kRed+1);
         histos[1]->SetLineStyle(kDashed);
         histos[1]->SetMarkerSize(0.);
-        histos[1]->SetLineWidth(3);
+        histos[1]->SetLineWidth(4);
         histos[1]->DrawNormalized("histcsame",1);
 
         histos[histos.size()-1]->SetLineColor(kAzure - 4);
@@ -388,6 +390,7 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         //histos[histos.size()-2]->SetMarkerColor(kAzure - 4);
         //histos[histos.size()-2]->SetFillColorAlpha(kAzure - 4, 1);
         //histos[histos.size()-2]->SetMarkerSize(0.);
+        histos[histos.size()-2]->SetLineWidth(4);
         histos[histos.size()-2]->DrawNormalized("histsame",1);
       
         histos[1]->DrawNormalized("histcsame",1);
@@ -592,7 +595,7 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
       leg->SetTextAlign(12);
       leg->SetEntrySeparation(0.0);
       leg->AddEntry((TObject*)0,"#font[132]{LHCb}","");
-      leg->Draw();
+      //leg->Draw();
   }
     
   ///for (unsigned int i =3 ; i < histos.size()-nPermErrorBands-nAltModels-1; i++) histos[i]->DrawNormalized("histcsame",1);
@@ -666,25 +669,38 @@ string modLegend(string name){
     
     TString n(name);
 
-    n.ReplaceAll("B","B^{+}");
-    n.ReplaceAll("K#pi","K#pi^{#minus}");
-    n.ReplaceAll("K","K^{+}");
-    n.ReplaceAll("K^{+}'","K'^{+}");
-    n.ReplaceAll("#pi#pi","#pi^{+}#pi^{#minus}");
-    n.ReplaceAll("X","X^{0}");
-    n.ReplaceAll("T_{c#bar{c}","T^{+}_{c#bar{c}");
-    n.ReplaceAll("T_{c#bar{c}#bar{s}}","T^{+}_{c#bar{c}#bar{s}}");
-    n.ReplaceAll("T^{+}_{c#bar{c}#bar{s}} #pi","T^{0}_{c#bar{c}#bar{s}} #pi^{+}");
-    n.ReplaceAll("B^{+}ack","Back");
-    n.ReplaceAll("K^{+}#pi^{#minus}#pi","K^{+}#pi^{+}#pi^{#minus}");
+//    n.ReplaceAll("B","B^{+}");
+//    n.ReplaceAll("K#pi","K#pi^{#minus}");
+//    n.ReplaceAll("K","K^{+}");
+//    n.ReplaceAll("K^{+}'","K'^{+}");
+//    n.ReplaceAll("#pi#pi","#pi^{+}#pi^{#minus}");
+//    n.ReplaceAll("X","X^{0}");
+//    n.ReplaceAll("T_{c#bar{c}","T^{+}_{c#bar{c}");
+//    n.ReplaceAll("T_{c#bar{c}#bar{s}}","T^{+}_{c#bar{c}#bar{s}}");
+//    n.ReplaceAll("T^{+}_{c#bar{c}#bar{s}} #pi","T^{0}_{c#bar{c}#bar{s}} #pi^{+}");
+//    n.ReplaceAll("B^{+}ack","Back");
+//    n.ReplaceAll("K^{+}#pi^{#minus}#pi","K^{+}#pi^{+}#pi^{#minus}");
+//
+//    n.ReplaceAll("K^{+}_{1}","K_{1}");
+//    n.ReplaceAll("K^{+}^{*}","K^{*}");
+//    n.ReplaceAll("K^{+}_{2}^{*}","K_{2}^{*}");
+//    n.ReplaceAll("K^{+}(","K(");
+//    n.ReplaceAll("0)","0)^{+}");
+//    n.ReplaceAll("4360)^{+}","4360)");
+//    n.ReplaceAll("4660)^{+}","4660)");
+    
+    n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{[K_{1}(1270)/K_{1}(1400)]}","#it{B}#rightarrow#it{#psi}(2S)[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
+    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{[K^{*}(1410)/K^{*}(1680)]}","#it{B}#rightarrow#it{#psi}(2S)[it{K}^{*}(1410)^{+}/#it{K}^{*}(1680)^{+}]");
+    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{K(1460)}","#it{B}#rightarrow#it{#psi}(2S)#it{K}(1460)^{+}");
+    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{[K_{2}^{*}(1430)/K_{2}(1770)]}","#it{B}#rightarrow#it{#psi}(2S)[#it{K}_{2}^{*}(1430)^{+}/#it{K}_{2}(1770)^{+}]");
+    n.ReplaceAll("#it{B}#rightarrow#it{[#psi(4360)/#psi(4415)/#psi(4660)]}#it{K}","#it{B}#rightarrow[#it{#psi}(4360)/#it{#psi}(4415)/#it{#psi}(4660)]#it{K}^{+}");
 
-    n.ReplaceAll("K^{+}_{1}","K_{1}");
-    n.ReplaceAll("K^{+}^{*}","K^{*}");
-    n.ReplaceAll("K^{+}_{2}^{*}","K_{2}^{*}");
-    n.ReplaceAll("K^{+}(","K(");
-    n.ReplaceAll("0)","0)^{+}");
-    n.ReplaceAll("4360)^{+}","4360)");
-    n.ReplaceAll("4660)^{+}","4660)");
+    n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{#[]{K_{1}(1270)/K_{1}(1400)}}","#it{B}#rightarrow#it{#psi}(2S)[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
+    n.ReplaceAll("All other #it{K'#rightarrow K#pi#pi}","All other #it{K}'#rightarrow #it{K}^{+}#it{#pi}^{+}#it{#pi}^{#minus}");
+    n.ReplaceAll("#it{B#rightarrowX K}","#it{B}#rightarrow#it{X}^{0} #it{K}^{+}");
+    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}} #[]{K#pi}}","#it{B}#rightarrow#it{T}_{#it{c#bar{c}}} #[]{#it{K}^{+}#it{#pi}^{#minus}}");
+    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #[]{#pi#pi}}","#it{B}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #[]{#it{#pi}^{+}#it{#pi}^{#minus}}");
+    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #pi}","#it{B}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #it{#pi}^{+}");
     
     return (std::string)n;
 }
@@ -1391,7 +1407,7 @@ void makePlotsMuMu(){
 
     vector<vector<unsigned int>> dims{m012,m02,m12,m3412,m341,m342,m340,m3402,{1},{2},m3401,m01,m34,{3}};
     vector<string> labels{"m_Kpipi","m_Kpi","m_pipi","m_psipipi","m_psipi","m_psipi2","m_psiK","m_psiKpi","cosTheta","chi","m_psiKpi2","m_Kpi2","m_mumu","cosThetaKs"};
-    vector<string> titles{"#it{m(K^{#plus}#pi^{#plus}#pi^{#minus})} [GeV]","#it{m(K^{#plus}#pi^{#minus})} [GeV]","#it{m(#pi^{#plus}#pi^{#minus})} [GeV]","#it{m(#psi(2S)#pi^{#plus}#pi^{#minus})} [GeV]","#it{m(#psi(2S)#pi^{+})} [GeV]","#it{m(#psi(2S)#pi^{#minus})} [GeV]", "#it{m(#psi(2S)K^{#plus})} [GeV]","#it{m(#psi(2S)K^{#plus}#pi^{#minus})} [GeV]"};
+    vector<string> titles{"#it{m}(#it{K^{#plus}#pi^{#plus}#pi^{#minus}}) [GeV]","#it{m}(#it{K}^{#plus}#it{#pi}^{#minus}) [GeV]","#it{m(#pi^{#plus}#pi^{#minus})} [GeV]","#it{m(#psi(2S)#pi^{#plus}#pi^{#minus})} [GeV]","#it{m(#psi(2S)#pi^{+})} [GeV]","#it{m(#psi(2S)#pi^{#minus})} [GeV]", "#it{m(#psi(2S)K^{#plus})} [GeV]","#it{m(#psi(2S)K^{#plus}#pi^{#minus})} [GeV]"};
     
     vector<double> lim012{0.9,1.65};
     vector<double> lim02{0.6,1.45};
