@@ -436,9 +436,15 @@ void prepareRunningWidthFromFiles(){
                                        0.85 - gStyle->GetPadTopMargin(),
                                        "BRNDC");
         auto fitResult = new FitResult();
-        string name = "#it{" + fitResult->latexName(head) + "}";
-        if(head=="Xs(S)0") name = "#it{T_{c#bar{c}#bar{s}}^{0}#rightarrow#psi(2S)K^{+}#pi^{#minus}}";
-        if(head=="X(S)0") name = "#it{X^{0}#rightarrow#psi(2S)#pi^{+}#pi^{#minus}}";
+        //string name = "#it{" + fitResult->latexName(head) + "}";
+        string name = fitResult->latexName(head);
+        if(head=="Xs(S)0") name = "#it{T}_{#it{c#bar{c}#bar{s}}}^{0}#rightarrow#it{#psi}(2#it{S})#it{K}^{+}#it{#pi}^{#minus}";
+        else if(head=="X(S)0") name = "#it{X}^{0}#rightarrow#it{#psi}(2#it{S})#it{#pi}^{+}#it{#pi}^{#minus}";
+        else {
+            TString n(name);
+            n.ReplaceAll("K","#it{K}");
+            name = (string) n;
+        }
         text->AddText(name.c_str());
         text->SetLineColor(kWhite);
         text->SetFillColor(kWhite);
@@ -451,8 +457,8 @@ void prepareRunningWidthFromFiles(){
         width_m->SetLineColor(kBlue);
         //width_m->SetTitle("; #sqrt{#it{s}} [GeV]  ; #sqrt{#it{s}} / #it{m_{0} #it{#Gamma(s)}} [GeV]");
         width_m->SetTitle("; #sqrt{#it{s}} [GeV]  ; #Gamma(#it{s}) [GeV]");
-        //width_m->Draw("A*C");
-        width_m->Draw("AC");
+        width_m->Draw("A*C");
+        //width_m->Draw("AC");
         //lhcbName->Draw();
         text->Draw();
 
@@ -463,8 +469,8 @@ void prepareRunningWidthFromFiles(){
         n.ReplaceAll(")0","");
         n.ReplaceAll("(","_");
         n.ReplaceAll(")","");
-
-        c->Print( ( outDir + "/" + (string) n + "_runningWidth.pdf").c_str());    
+        
+        c->Print( ( outDir + "/" + (string) n + "_runningWidth.pdf").c_str());
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".pdf").c_str());
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".png").c_str());
         c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".C").c_str());
@@ -805,6 +811,8 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     g_amp->SetMinimum(0);
     g_amp->SetMaximum(amp_max);
     
+    auto bw_line = NamedParameter<string>( "BwLine",  "C");
+
     g_amp->SetMarkerColor(4);
     g_amp->SetLineColor(4);
     g_amp->SetMarkerStyle(20);
@@ -815,7 +823,7 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     g_amp_bw->SetLineWidth(5);
     g_amp_bw->Draw("C");
     g_amp2->SetLineWidth(3);
-    g_amp2->Draw("C");
+    g_amp2->Draw(((string)bw_line).c_str());
     g_amp->Draw("P");
     lhcbName->Draw();
     c->Print((outDir+"/"+name+"_amp.pdf").c_str());
@@ -840,7 +848,7 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     g_phase_bw->SetLineWidth(5);
     g_phase_bw->Draw("C");
     g_phase2->SetLineWidth(3);
-    g_phase2->Draw("C");
+    g_phase2->Draw(((string)bw_line).c_str());
     g_phase->Draw("P");
     lhcbNameLeft->Draw();
     c->Print((outDir+"/"+name+"_phase.pdf").c_str());
@@ -860,7 +868,6 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     g_argand->SetMaximum(argand_y_max);
     
     auto argand_line = NamedParameter<string>( "ArgandLine",  "C");
-
     g_argand->SetMarkerColor(4);
     g_argand->SetLineColor(4);
     g_argand->SetMarkerStyle(20);

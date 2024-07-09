@@ -220,21 +220,72 @@ double calculateChi2(const TH1* hist1, const TH1* hist2) {
     return chi2;
 }
 
+TH1D* addBinsToHistogram(TH1D* histo) {
+    // Get the current number of bins and the bin edges
+    int nBins = histo->GetNbinsX();
+    double* binEdges = new double[nBins + 1];
+    std::cout << "Old Bin Edges: ";
+    for (int i = 0; i <= nBins; ++i) {
+        binEdges[i] = histo->GetBinLowEdge(i + 1);
+        std::cout << binEdges[i] << " ";
+    }
+
+    // Calculate the bin width (assuming equidistant binning)
+    double binWidth = binEdges[1] - binEdges[0];
+
+    // Create a new vector for the updated bin edges
+    std::vector<double> newBinEdges(nBins + 3);
+    newBinEdges[0] = binEdges[0] - binWidth;  // New first bin edge
+    for (int i = 0; i <= nBins; ++i) {
+        newBinEdges[i + 1] = binEdges[i];
+    }
+    newBinEdges[nBins + 2] = binEdges[nBins] + binWidth;  // New last bin edge
+
+    // Create a new histogram with the updated bin edges
+    TH1D* newHisto = new TH1D(histo->GetName(), histo->GetTitle(), nBins + 2, &newBinEdges[0]);
+
+    // Copy the contents of the old histogram to the new histogram
+    for (int i = 1; i <= nBins; ++i) {
+        newHisto->SetBinContent(i + 1, histo->GetBinContent(i));
+        newHisto->SetBinError(i + 1, histo->GetBinError(i));
+    }
+
+    // Set the new first and last bins to 0 (or any other desired value)
+    double small_value = 0.1;
+    newHisto->SetBinContent(1, small_value);
+    newHisto->SetBinContent(nBins + 2, small_value);
+    newHisto->SetBinError(1, 0);
+    newHisto->SetBinError(nBins + 2, 0);
+    
+    // Print the new bin edges for verification
+    std::cout << std::endl;
+    std::cout << "New Bin Edges: ";
+    for (const auto& edge : newBinEdges) {
+        std::cout << edge << " ";
+    }
+    std::cout << std::endl;
+
+    
+    return newHisto;
+}
+
 vector<TH1D*> createHistos(vector<unsigned int> dim,string name, string title, int nBins, vector<double> limits, vector<string> weights){
 
   auto nBinsAngles = NamedParameter<Int_t>("nBinsAngles", 20, "nBinsAngles");
   double binWidth = dim.size()==1 ? (limits[1] - limits[0]) / (nBinsAngles*2 - 1) : 0;
-
+  binWidth = 0;
+    
   vector<TH1D*> histos;
-  TH1D* histo = new TH1D(name.c_str(),"",dim.size()==1 ? nBinsAngles*2 : nBins*2,limits[0] - binWidth/2, limits[1] + binWidth/2);
-  histo->SetMinimum(0.);
+  TH1D* histo = new TH1D(name.c_str(),"",dim.size()==1 ? nBinsAngles*2 : nBins*2,limits[0] - binWidth, limits[1] + binWidth);
+  //if(dim.size()==1)histo = addBinsToHistogram(histo);
 
+  histo->SetMinimum(0.);
   histo->GetXaxis()->SetTitle(title.c_str());
   histo->GetXaxis()->SetTitleSize(histo->GetXaxis()->GetTitleSize()*1.15);
   histo->GetXaxis()->SetTitleOffset(histo->GetXaxis()->GetTitleOffset()*0.9);
   histo->GetXaxis()->SetLabelSize(histo->GetXaxis()->GetLabelSize()*1.15);
   histo->GetXaxis()->SetLabelOffset(histo->GetXaxis()->GetLabelOffset()*0.9);
-  histo->GetXaxis()->SetRangeUser(limits[0],limits[1]);
+  //if(dim.size()==1)histo->GetXaxis()->SetRangeUser(limits[0]*2, limits[1]*2);
     
   histo->GetYaxis()->SetTitle("Candidates (normalised)");
   histo->GetYaxis()->SetTitleSize(histo->GetYaxis()->GetTitleSize()*1.1);
@@ -560,7 +611,8 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         cout << "Chi2 value: " << chi2 << endl;
       
         stringstream ss ;
-        TString leg_chi2 = "#chi^{2}/#nu = ";
+        TString leg_chi2 = "#chi_{1D}^{2}/#nu_{1D} = ";
+        //TString leg_chi2 = "#chi^{2}/#nu = ";
         ss << std::fixed << std::setprecision(1) << chi2 ;
         leg_chi2 += ss.str();
 
@@ -689,18 +741,18 @@ string modLegend(string name){
 //    n.ReplaceAll("4360)^{+}","4360)");
 //    n.ReplaceAll("4660)^{+}","4660)");
     
-    n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{[K_{1}(1270)/K_{1}(1400)]}","#it{B}#rightarrow#it{#psi}(2S)[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
-    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{[K^{*}(1410)/K^{*}(1680)]}","#it{B}#rightarrow#it{#psi}(2S)[it{K}^{*}(1410)^{+}/#it{K}^{*}(1680)^{+}]");
-    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{K(1460)}","#it{B}#rightarrow#it{#psi}(2S)#it{K}(1460)^{+}");
-    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{[K_{2}^{*}(1430)/K_{2}(1770)]}","#it{B}#rightarrow#it{#psi}(2S)[#it{K}_{2}^{*}(1430)^{+}/#it{K}_{2}(1770)^{+}]");
-    n.ReplaceAll("#it{B}#rightarrow#it{[#psi(4360)/#psi(4415)/#psi(4660)]}#it{K}","#it{B}#rightarrow[#it{#psi}(4360)/#it{#psi}(4415)/#it{#psi}(4660)]#it{K}^{+}");
+    n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{[K_{1}(1270)/K_{1}(1400)]}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
+    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{[K^{*}(1410)/K^{*}(1680)]}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})[#it{K}^{*}(1410)^{+}/#it{K}^{*}(1680)^{+}]");
+    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{K(1460)}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})#it{K}(1460)^{+}");
+    n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{[K_{2}^{*}(1430)/K_{2}(1770)]}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})[#it{K}_{2}^{*}(1430)^{+}/#it{K}_{2}(1770)^{+}]");
+    n.ReplaceAll("#it{B}#rightarrow#it{[#psi(4360)/#psi(4415)/#psi(4660)]}#it{K}","#it{B}^{+}#rightarrow[#it{#psi}(4360)/#it{#psi}(4415)/#it{#psi}(4660)] #it{K}^{+}");
 
-    n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{#[]{K_{1}(1270)/K_{1}(1400)}}","#it{B}#rightarrow#it{#psi}(2S)[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
+    n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{#[]{K_{1}(1270)/K_{1}(1400)}}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
     n.ReplaceAll("All other #it{K'#rightarrow K#pi#pi}","All other #it{K}'#rightarrow #it{K}^{+}#it{#pi}^{+}#it{#pi}^{#minus}");
-    n.ReplaceAll("#it{B#rightarrowX K}","#it{B}#rightarrow#it{X}^{0} #it{K}^{+}");
-    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}} #[]{K#pi}}","#it{B}#rightarrow#it{T}_{#it{c#bar{c}}} #[]{#it{K}^{+}#it{#pi}^{#minus}}");
-    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #[]{#pi#pi}}","#it{B}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #[]{#it{#pi}^{+}#it{#pi}^{#minus}}");
-    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #pi}","#it{B}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #it{#pi}^{+}");
+    n.ReplaceAll("#it{B#rightarrowX K}","#it{B}^{+}#rightarrow#it{X}^{0} #it{K}^{+}");
+    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}} #[]{K#pi}}","#it{B}^{+}#rightarrow#it{T}_{#it{c#bar{c}}} #[]{#it{K}^{+}#it{#pi}^{#minus}}");
+    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #[]{#pi#pi}}","#it{B}^{+}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #[]{#it{#pi}^{+}#it{#pi}^{#minus}}");
+    n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #pi}","#it{B}^{+}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #it{#pi}^{+}");
     
     return (std::string)n;
 }
@@ -1407,7 +1459,7 @@ void makePlotsMuMu(){
 
     vector<vector<unsigned int>> dims{m012,m02,m12,m3412,m341,m342,m340,m3402,{1},{2},m3401,m01,m34,{3}};
     vector<string> labels{"m_Kpipi","m_Kpi","m_pipi","m_psipipi","m_psipi","m_psipi2","m_psiK","m_psiKpi","cosTheta","chi","m_psiKpi2","m_Kpi2","m_mumu","cosThetaKs"};
-    vector<string> titles{"#it{m}(#it{K^{#plus}#pi^{#plus}#pi^{#minus}}) [GeV]","#it{m}(#it{K}^{#plus}#it{#pi}^{#minus}) [GeV]","#it{m(#pi^{#plus}#pi^{#minus})} [GeV]","#it{m(#psi(2S)#pi^{#plus}#pi^{#minus})} [GeV]","#it{m(#psi(2S)#pi^{+})} [GeV]","#it{m(#psi(2S)#pi^{#minus})} [GeV]", "#it{m(#psi(2S)K^{#plus})} [GeV]","#it{m(#psi(2S)K^{#plus}#pi^{#minus})} [GeV]"};
+    vector<string> titles{"#it{m}(#it{K^{#plus}#pi^{#plus}#pi^{#minus}}) [GeV]","#it{m}(#it{K}^{#plus}#it{#pi}^{#minus}) [GeV]","#it{m}(#it{#pi^{#plus}#pi^{#minus}}) [GeV]","#it{m}(#it{#psi}(2#it{S})#it{#pi^{#plus}#pi^{#minus}}) [GeV]","#it{m}(#it{#psi}(2#it{S})#it{#pi^{+}}) [GeV]","#it{m}(#it{#psi}(2#it{S})#it{#pi}^{#minus}) [GeV]", "#it{m}(#it{#psi}(2#it{S})#it{K}^{#plus}) [GeV]","#it{m}(#it{#psi}(2#it{S})#it{K^{#plus}#pi^{#minus}}) [GeV]"};
     
     vector<double> lim012{0.9,1.65};
     vector<double> lim02{0.6,1.45};
@@ -1674,7 +1726,7 @@ void makePlotsMuMu(){
     leg.SetTextFont(132);
     leg.SetTextColor(1);
     //leg.SetTextSize(0.05); //for non-exotic
-    leg.SetTextSize(0.055);
+    leg.SetTextSize(0.05);
     leg.SetTextAlign(12);
     TLegend leg2(leg);
     TLegend leg3(leg);
