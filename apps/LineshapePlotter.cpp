@@ -827,11 +827,10 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     g_amp->Draw("P");
     lhcbName->Draw();
     c->Print((outDir+"/"+name+"_amp.pdf").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_a.pdf").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_a.png").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_a.C").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_a.eps").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_a.root").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"a.pdf").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"a.png").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"a.C").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"a.eps").c_str());
 
     auto phase_min = NamedParameter<double>( "PhaseMin",  -999);
     auto phase_max = NamedParameter<double>( "PhaseMax",  -999);
@@ -852,11 +851,10 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     g_phase->Draw("P");
     lhcbNameLeft->Draw();
     c->Print((outDir+"/"+name+"_phase.pdf").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_b.pdf").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_b.png").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_b.C").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_b.eps").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_b.root").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"b.pdf").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"b.png").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"b.C").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"b.eps").c_str());
     
     auto argand_x_min = NamedParameter<double>( "ArgandMinX",  -1.25);
     auto argand_x_max = NamedParameter<double>( "ArgandMaxX",  1.25);
@@ -882,11 +880,10 @@ void plotSplineFromFile(MinuitParameterSet& m_mps,  std::string name, const std:
     g_argand->Draw("P");
     lhcbName->Draw();
     c->Print((outDir+"/"+name+"_argand.pdf").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_c.pdf").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_c.png").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_c.C").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_c.eps").c_str());
-    c->Print((outDir+"/"+(string)fig_name+"_c.root").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"c.pdf").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"c.png").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"c.C").c_str());
+    c->Print((outDir+"/"+(string)fig_name+"c.eps").c_str());
 }
 
 

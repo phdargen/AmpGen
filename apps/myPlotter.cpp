@@ -1813,10 +1813,10 @@ void makePlotsMuMu(){
         plotHistos(histo_set_cut1[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut1.pdf").c_str());
         if(figName_cut1!="" && figLabels[j]!=""){
-            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.pdf").c_str());
-            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.png").c_str());
-            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.C").c_str());
-            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.eps").c_str());
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+".pdf").c_str());
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+".png").c_str());
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+".C").c_str());
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+".eps").c_str());
         }
     }
     
@@ -1833,10 +1833,10 @@ void makePlotsMuMu(){
         plotHistos(histo_set_cut3[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut3.pdf").c_str());
         if(figName_cut3!="" && figLabels[j]!=""){
-            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.pdf").c_str());
-            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.png").c_str());
-            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.C").c_str());
-            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.eps").c_str());
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+".pdf").c_str());
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+".png").c_str());
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+".C").c_str());
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+".eps").c_str());
         }
     }
     
@@ -1846,10 +1846,10 @@ void makePlotsMuMu(){
         plotHistos(histo_set_cut4[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut4.pdf").c_str());
         if(figName_cut4!="" && figLabels[j]!=""){
-            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.pdf").c_str());
-            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.png").c_str());
-            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.C").c_str());
-            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.eps").c_str());
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+".pdf").c_str());
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+".png").c_str());
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+".C").c_str());
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+".eps").c_str());
         }
     }
     
@@ -1859,10 +1859,10 @@ void makePlotsMuMu(){
         plotHistos(histo_set_cut5[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut5.pdf").c_str());
         if(figName_cut5!="" && figLabels[j]!=""){
-            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.pdf").c_str());
-            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.png").c_str());
-            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.C").c_str());
-            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.eps").c_str());
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+".pdf").c_str());
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+".png").c_str());
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+".C").c_str());
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+".eps").c_str());
         }
     }
     

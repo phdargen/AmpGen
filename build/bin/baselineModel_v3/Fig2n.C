@@ -4,7 +4,7 @@
 void Fig2n()
 {
 //=========Macro generated from canvas: c1/c1
-//=========  (Wed Jul 10 12:50:08 2024) by ROOT version 6.32.02
+//=========  (Wed Jul 10 14:03:20 2024) by ROOT version 6.32.02
    TCanvas *c1 = new TCanvas("c1", "c1",1,1,504,504);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
