@@ -472,10 +472,10 @@ void prepareRunningWidthFromFiles(){
         
         vector<string> figLabels{"a","b","c","d","e","f","g","h","i","j","k","l","m","n"};
         c->Print( ( outDir + "/" + (string) n + "_runningWidth.pdf").c_str());
-        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".pdf").c_str());
-        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".png").c_str());
-        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".C").c_str());
-        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".eps").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter-1] + ".pdf").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter-1] + ".png").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter-1] + ".C").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter-1] + ".eps").c_str());
     }
     
 }
