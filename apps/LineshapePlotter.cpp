@@ -470,12 +470,12 @@ void prepareRunningWidthFromFiles(){
         n.ReplaceAll("(","_");
         n.ReplaceAll(")","");
         
+        vector<string> figLabels{"a","b","c","d","e","f","g","h","i","j","k","l","m","n"};
         c->Print( ( outDir + "/" + (string) n + "_runningWidth.pdf").c_str());
-        c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".pdf").c_str());
-        c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".png").c_str());
-        c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".C").c_str());
-        c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".root").c_str());
-        c->Print( ( outDir + "/Fig4_" + to_string(counter) + ".eps").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".pdf").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".png").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".C").c_str());
+        c->Print( ( outDir + "/Fig4" + figLabels[counter] + ".eps").c_str());
     }
     
 }
