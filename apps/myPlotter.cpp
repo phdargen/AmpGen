@@ -611,9 +611,9 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         cout << "Chi2 value: " << chi2 << endl;
       
         stringstream ss ;
-        TString leg_chi2 = "#chi_{1D}^{2}/#nu_{1D} = ";
+        TString leg_chi2 = "#chi_{1D}^{2}#kern[0.2]{/}#kern[0.2]{#nu^{}_{1D}} = ";
         //TString leg_chi2 = "#chi^{2}/#nu = ";
-        ss << std::fixed << std::setprecision(1) << chi2 ;
+        ss << std::fixed << std::setprecision(1) << static_cast<int>(chi2 * 10) / 10.0 ;
         leg_chi2 += ss.str();
 
         TLegend* leg;
@@ -625,13 +625,13 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         leg->SetTextFont(132);
         leg->SetTextColor(1);
         leg->SetTextSize(0.07);
-        leg->SetTextAlign(12);
+        leg->SetTextAlign(11);
         leg->SetEntrySeparation(0.0);
         leg->AddEntry((TObject*)0,"#font[132]{LHCb 9 fb^{#minus1}}","");
         TLegendEntry* le_chi2 = leg->AddEntry((TObject*)0,leg_chi2,"");
         leg->SetEntrySeparation(0.0);
         le_chi2->SetTextColor(kBlue);
-        le_chi2->SetTextSize(0.07);
+        le_chi2->SetTextSize(0.065);
         leg->Draw();
   }
   else{
@@ -720,26 +720,6 @@ vector<TH2D*> createHistos2D(vector<unsigned int> dim1, vector<unsigned int> dim
 string modLegend(string name){
     
     TString n(name);
-
-//    n.ReplaceAll("B","B^{+}");
-//    n.ReplaceAll("K#pi","K#pi^{#minus}");
-//    n.ReplaceAll("K","K^{+}");
-//    n.ReplaceAll("K^{+}'","K'^{+}");
-//    n.ReplaceAll("#pi#pi","#pi^{+}#pi^{#minus}");
-//    n.ReplaceAll("X","X^{0}");
-//    n.ReplaceAll("T_{c#bar{c}","T^{+}_{c#bar{c}");
-//    n.ReplaceAll("T_{c#bar{c}#bar{s}}","T^{+}_{c#bar{c}#bar{s}}");
-//    n.ReplaceAll("T^{+}_{c#bar{c}#bar{s}} #pi","T^{0}_{c#bar{c}#bar{s}} #pi^{+}");
-//    n.ReplaceAll("B^{+}ack","Back");
-//    n.ReplaceAll("K^{+}#pi^{#minus}#pi","K^{+}#pi^{+}#pi^{#minus}");
-//
-//    n.ReplaceAll("K^{+}_{1}","K_{1}");
-//    n.ReplaceAll("K^{+}^{*}","K^{*}");
-//    n.ReplaceAll("K^{+}_{2}^{*}","K_{2}^{*}");
-//    n.ReplaceAll("K^{+}(","K(");
-//    n.ReplaceAll("0)","0)^{+}");
-//    n.ReplaceAll("4360)^{+}","4360)");
-//    n.ReplaceAll("4660)^{+}","4660)");
     
     n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{[K_{1}(1270)/K_{1}(1400)]}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
     n.ReplaceAll("#it{B}#rightarrow#it{#psi(2S)}#it{[K^{*}(1410)/K^{*}(1680)]}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})[#it{K}^{*}(1410)^{+}/#it{K}^{*}(1680)^{+}]");
@@ -749,7 +729,7 @@ string modLegend(string name){
 
     n.ReplaceAll("#it{B#rightarrow}#it{#psi(2S)}#it{#[]{K_{1}(1270)/K_{1}(1400)}}","#it{B}^{+}#rightarrow#it{#psi}(2#it{S})[#it{K}_{1}(1270)^{+}/#it{K}_{1}(1400)^{+}]");
     n.ReplaceAll("All other #it{K'#rightarrow K#pi#pi}","All other #it{K}'#rightarrow #it{K}^{+}#it{#pi}^{+}#it{#pi}^{#minus}");
-    n.ReplaceAll("#it{B#rightarrowX K}","#it{B}^{+}#rightarrow#it{X}^{0} #it{K}^{+}");
+    n.ReplaceAll("#it{B#rightarrowX K}","#it{B}^{+}#rightarrow#it{X}^{0}#it{K}^{+}");
     n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}} #[]{K#pi}}","#it{B}^{+}#rightarrow#it{T}_{#it{c#bar{c}}} #[]{#it{K}^{+}#it{#pi}^{#minus}}");
     n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #[]{#pi#pi}}","#it{B}^{+}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #[]{#it{#pi}^{+}#it{#pi}^{#minus}}");
     n.ReplaceAll("#it{B#rightarrowT_{c#bar{c}#bar{s}} #pi}","#it{B}^{+}#rightarrow#it{T}_{#it{c#bar{c}#bar{s}}} #it{#pi}^{+}");
@@ -1489,21 +1469,21 @@ void makePlotsMuMu(){
     
     vector<vector<double>> limits{lim012,lim02,lim12,lim3412,lim341,lim342,lim340,lim3402};
     
-    titles.push_back("cos(#theta)");
-    titles.push_back("#chi [rad]");
+    titles.push_back("cos(#it{#theta})");
+    titles.push_back("#it{#chi} [rad]");
     limits.push_back({-1,1});
     limits.push_back({-3.141,3.141});
     
     if(decayMuMu != "psi(2S)0")titles.push_back("#it{m(J/#psiK^{#plus}#pi^{#minus})} [GeV]");
-    else titles.push_back("#it{m(#psi}(2S)#it{K^{#plus}#pi^{+})} [GeV]");
-    titles.push_back("#it{m(K^{#plus}#pi^{#plus})} [GeV]");
+    else titles.push_back("#it{m}(#it{#psi}(2#it{S})#it{K}^{#plus}#it{#pi}^{#plus}) [GeV]");
+    titles.push_back("#it{m}(#it{K}^{#plus}#it{#pi}^{#plus}) [GeV]");
     titles.push_back("#it{m(#psi}(2S))} [GeV]");
 
     limits.push_back(lim3401);
     limits.push_back(lim01);
     limits.push_back(lim34);
     
-    titles.push_back("cos(#theta_{#it{K}^{*}})");
+    titles.push_back("cos(#it{#theta}_{#it{K}^{*}})");
     limits.push_back({-1,1});
     
     // Plot fit
@@ -1725,18 +1705,14 @@ void makePlotsMuMu(){
     leg.SetFillColor(0);
     leg.SetTextFont(132);
     leg.SetTextColor(1);
-    //leg.SetTextSize(0.05); //for non-exotic
     leg.SetTextSize(0.05);
     leg.SetTextAlign(12);
     TLegend leg2(leg);
     TLegend leg3(leg);
-    TLegend leg4(leg);
     for(unsigned int k=2; k<nHists;k++)leg.AddEntry(histo_set[0][k],modLegend(legend[k]).c_str(),"f");
     for(unsigned int k=2; k<(2+nHists)/2+1;k++)leg2.AddEntry(histo_set[0][k],modLegend(legend[k]).c_str(),"f");
     for(unsigned int k=(2+nHists)/2+1; k<nHists;k++)leg3.AddEntry(histo_set[0][k],modLegend(legend[k]).c_str(),"f");
-    //for(unsigned int k=(2+nHists)/2+3; k<nHists;k++)leg4.AddEntry(histo_set[0][k],legend[k].c_str(),"f");
     leg3.AddEntry((TObject*)0, "", "");
-    //leg4.AddEntry((TObject*)0, "", "");
 
     //Get chi2 for legend
     string resultsFileName = NamedParameter<string>("ResultsFile","result.root");
@@ -1810,15 +1786,24 @@ void makePlotsMuMu(){
                 }
     }
       
+    std::string figName = NamedParameter<std::string>("figName", "");
+    std::string figName_cut5 = NamedParameter<std::string>("figName_cut5", "");
+    std::string figName_cut1 = NamedParameter<std::string>("figName_cut1", "");
+    std::string figName_cut4 = NamedParameter<std::string>("figName_cut4", "");
+    std::string figName_cut3 = NamedParameter<std::string>("figName_cut3", "");
+    vector<string> figLabels{"a","b","c","d","e","f","g","h","j","k","i","","","l"};
+
     for(unsigned int j=0;j<dims.size();j++){
         bool legendLeft = (j==0 || j==3 || j==7 || j == 10) ? true : false;
         double scaleMax = dims[j].size()==1 ? 1.5 : 1.1;
         plotHistos(histo_set[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+".pdf").c_str());
-        c->Print((outDir+"/"+labels[j]+".png").c_str());
-        c->Print((outDir+"/"+labels[j]+".C").c_str());
-        c->Print((outDir+"/"+labels[j]+".root").c_str());
-        c->Print((outDir+"/"+labels[j]+".eps").c_str());
+        if(figName!="" && figLabels[j]!=""){
+            c->Print((outDir+"/"+figName+figLabels[j]+".pdf").c_str());
+            c->Print((outDir+"/"+labels[j]+".png").c_str());
+            c->Print((outDir+"/"+labels[j]+".C").c_str());
+            c->Print((outDir+"/"+labels[j]+".eps").c_str());
+        }
     }
     
     //
@@ -1827,10 +1812,12 @@ void makePlotsMuMu(){
         double scaleMax = dims[j].size()==1 ? 1.5 : 1.1;
         plotHistos(histo_set_cut1[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut1.pdf").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut1.png").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut1.C").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut1.root").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut1.eps").c_str());
+        if(figName_cut1!="" && figLabels[j]!=""){
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.pdf").c_str());
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.png").c_str());
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.C").c_str());
+            c->Print((outDir+"/"+figName_cut1+figLabels[j]+"_cut1.eps").c_str());
+        }
     }
     
     for(unsigned int j=0;j<dims.size();j++){
@@ -1838,10 +1825,6 @@ void makePlotsMuMu(){
         double scaleMax = dims[j].size()==1 ? 1.5 : 1.1;
         plotHistos(histo_set_cut2[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut2.pdf").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut2.png").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut2.C").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut2.root").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut2.eps").c_str());
     }
     
     for(unsigned int j=0;j<dims.size();j++){
@@ -1849,10 +1832,12 @@ void makePlotsMuMu(){
         double scaleMax = dims[j].size()==1 ? 1.5 : 1.1;
         plotHistos(histo_set_cut3[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut3.pdf").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut3.png").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut3.C").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut3.root").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut3.eps").c_str());
+        if(figName_cut3!="" && figLabels[j]!=""){
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.pdf").c_str());
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.png").c_str());
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.C").c_str());
+            c->Print((outDir+"/"+figName_cut3+figLabels[j]+"_cut3.eps").c_str());
+        }
     }
     
     for(unsigned int j=0;j<dims.size();j++){
@@ -1860,10 +1845,12 @@ void makePlotsMuMu(){
         double scaleMax = dims[j].size()==1 ? 1.5 : 1.1;
         plotHistos(histo_set_cut4[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut4.pdf").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut4.png").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut4.C").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut4.root").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut4.eps").c_str());
+        if(figName_cut4!="" && figLabels[j]!=""){
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.pdf").c_str());
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.png").c_str());
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.C").c_str());
+            c->Print((outDir+"/"+figName_cut4+figLabels[j]+"_cut4.eps").c_str());
+        }
     }
     
     for(unsigned int j=0;j<dims.size();j++){
@@ -1871,10 +1858,12 @@ void makePlotsMuMu(){
         double scaleMax = dims[j].size()==1 ? 1.5 : 1.1;
         plotHistos(histo_set_cut5[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut5.pdf").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut5.png").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut5.C").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut5.root").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut5.eps").c_str());
+        if(figName_cut5!="" && figLabels[j]!=""){
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.pdf").c_str());
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.png").c_str());
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.C").c_str());
+            c->Print((outDir+"/"+figName_cut5+figLabels[j]+"_cut5.eps").c_str());
+        }
     }
     
     for(unsigned int j=0;j<dims.size();j++){
@@ -1882,10 +1871,6 @@ void makePlotsMuMu(){
         double scaleMax = dims[j].size()==1 ? 1.5 : 1.1;
         plotHistos(histo_set_cut6[j], true, 1, true, legendLeft, scaleMax);
         c->Print((outDir+"/"+labels[j]+"_cut6.pdf").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut6.png").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut6.C").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut6.root").c_str());
-        c->Print((outDir+"/"+labels[j]+"_cut6.eps").c_str());
     }
         
     cout << "f_bkg = " << histo_set[0][histo_set[0].size()-1]->Integral()/histo_set[0][1]->Integral() << endl;
@@ -2071,30 +2056,77 @@ void makePlotsMuMu(){
     c->Clear();
     leg.Draw();
     c->Print((outDir+"/"+"leg.pdf").c_str());
-    c->Print((outDir+"/"+"leg.png").c_str());
-    c->Print((outDir+"/"+"leg.C").c_str());
-    c->Print((outDir+"/"+"leg.eps").c_str());
 
     c->Clear();
     leg2.Draw();
     c->Print((outDir+"/"+"leg2.pdf").c_str());
-    c->Print((outDir+"/"+"leg2.png").c_str());
-    c->Print((outDir+"/"+"leg2.C").c_str());
-    c->Print((outDir+"/"+"leg2.eps").c_str());
+    if(figName!=""){
+        c->Print((outDir+"/"+figName+"m.pdf").c_str());
+        c->Print((outDir+"/"+figName+"m.eps").c_str());
+        c->Print((outDir+"/"+figName+"m.png").c_str());
+        c->Print((outDir+"/"+figName+"m.C").c_str());
+    }
     
+    if(figName_cut1!=""){
+        c->Print((outDir+"/"+figName_cut1+"m.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut1+"m.eps").c_str());
+        c->Print((outDir+"/"+figName_cut1+"m.png").c_str());
+        c->Print((outDir+"/"+figName_cut1+"m.C").c_str());
+    }
+    if(figName_cut3!=""){
+        c->Print((outDir+"/"+figName_cut3+"m.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut3+"m.eps").c_str());
+        c->Print((outDir+"/"+figName_cut3+"m.png").c_str());
+        c->Print((outDir+"/"+figName_cut3+"m.C").c_str());
+    }
+    if(figName_cut4!=""){
+        c->Print((outDir+"/"+figName_cut4+"m.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut4+"m.eps").c_str());
+        c->Print((outDir+"/"+figName_cut4+"m.png").c_str());
+        c->Print((outDir+"/"+figName_cut4+"m.C").c_str());
+    }
+    if(figName_cut5!=""){
+        c->Print((outDir+"/"+figName_cut5+"m.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut5+"m.eps").c_str());
+        c->Print((outDir+"/"+figName_cut5+"m.png").c_str());
+        c->Print((outDir+"/"+figName_cut5+"m.C").c_str());
+    }
+
     c->Clear();
     leg3.Draw();
     c->Print((outDir+"/"+"leg3.pdf").c_str());
-    c->Print((outDir+"/"+"leg3.png").c_str());
-    c->Print((outDir+"/"+"leg3.C").c_str());
-    c->Print((outDir+"/"+"leg3.eps").c_str());
+    if(figName!=""){
+        c->Print((outDir+"/"+figName+"n.pdf").c_str());
+        c->Print((outDir+"/"+figName+"n.eps").c_str());
+        c->Print((outDir+"/"+figName+"n.png").c_str());
+        c->Print((outDir+"/"+figName+"n.C").c_str());
+    }
     
-    c->Clear();
-    leg4.Draw();
-    c->Print((outDir+"/"+"leg4.pdf").c_str());
-    c->Print((outDir+"/"+"leg4.png").c_str());
-    c->Print((outDir+"/"+"leg4.C").c_str());
-    c->Print((outDir+"/"+"leg4.eps").c_str());
+    if(figName_cut1!=""){
+        c->Print((outDir+"/"+figName_cut1+"n.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut1+"n.eps").c_str());
+        c->Print((outDir+"/"+figName_cut1+"n.png").c_str());
+        c->Print((outDir+"/"+figName_cut1+"n.C").c_str());
+    }
+    if(figName_cut3!=""){
+        c->Print((outDir+"/"+figName_cut3+"n.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut3+"n.eps").c_str());
+        c->Print((outDir+"/"+figName_cut3+"n.png").c_str());
+        c->Print((outDir+"/"+figName_cut3+"n.C").c_str());
+    }
+    if(figName_cut4!=""){
+        c->Print((outDir+"/"+figName_cut4+"n.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut4+"n.eps").c_str());
+        c->Print((outDir+"/"+figName_cut4+"n.png").c_str());
+        c->Print((outDir+"/"+figName_cut4+"n.C").c_str());
+    }
+    if(figName_cut5!=""){
+        c->Print((outDir+"/"+figName_cut5+"n.pdf").c_str());
+        c->Print((outDir+"/"+figName_cut5+"n.eps").c_str());
+        c->Print((outDir+"/"+figName_cut5+"n.png").c_str());
+        c->Print((outDir+"/"+figName_cut5+"n.C").c_str());
+    }
+    
     
     auto plotDalitz = NamedParameter<bool>("plotDalitz", 0,"plotDalitz");
     if(plotDalitz){
