@@ -447,6 +447,23 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
         histos[1]->DrawNormalized("histcsame",1);
       
         computeErrorBands = false;
+      
+        TCanvas* c1 = new TCanvas();
+        c1->cd();
+        TLegend leg(0.,0.,1.0,1,"");
+        leg.SetLineStyle(0);
+        leg.SetLineColor(0);
+        leg.SetFillColor(0);
+        leg.SetTextFont(132);
+        leg.SetTextColor(1);
+        leg.SetTextSize(0.05);
+        leg.SetTextAlign(12);
+        leg.AddEntry(histos[0], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+        leg.AddEntry(histos[1], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+        leg.AddEntry(histos[2], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+        leg.AddEntry(histos[3], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+        leg.Draw();
+        c1->Print("leg4.pdf");
   }
     
   if(plotAltModels==-1){
@@ -1800,9 +1817,9 @@ void makePlotsMuMu(){
         c->Print((outDir+"/"+labels[j]+".pdf").c_str());
         if(figName!="" && figLabels[j]!=""){
             c->Print((outDir+"/"+figName+figLabels[j]+".pdf").c_str());
-            c->Print((outDir+"/"+labels[j]+".png").c_str());
-            c->Print((outDir+"/"+labels[j]+".C").c_str());
-            c->Print((outDir+"/"+labels[j]+".eps").c_str());
+            c->Print((outDir+"/"+figName+figLabels[j]+".png").c_str());
+            c->Print((outDir+"/"+figName+figLabels[j]+".C").c_str());
+            c->Print((outDir+"/"+figName+figLabels[j]+".eps").c_str());
         }
     }
     
