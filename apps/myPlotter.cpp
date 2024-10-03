@@ -448,22 +448,22 @@ void plotHistos(vector<TH1D*>histos, bool plotComponents = true, int style = 0, 
       
         computeErrorBands = false;
       
-        TCanvas* c1 = new TCanvas();
-        c1->cd();
-        TLegend leg(0.,0.,1.0,1,"");
-        leg.SetLineStyle(0);
-        leg.SetLineColor(0);
-        leg.SetFillColor(0);
-        leg.SetTextFont(132);
-        leg.SetTextColor(1);
-        leg.SetTextSize(0.05);
-        leg.SetTextAlign(12);
-        leg.AddEntry(histos[0], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
-        leg.AddEntry(histos[1], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
-        leg.AddEntry(histos[2], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
-        leg.AddEntry(histos[3], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
-        leg.Draw();
-        c1->Print("leg4.pdf");
+//        TCanvas* c1 = new TCanvas();
+//        c1->cd();
+//        TLegend leg(0.,0.,1.0,1,"");
+//        leg.SetLineStyle(0);
+//        leg.SetLineColor(0);
+//        leg.SetFillColor(0);
+//        leg.SetTextFont(132);
+//        leg.SetTextColor(1);
+//        leg.SetTextSize(0.05);
+//        leg.SetTextAlign(12);
+//        leg.AddEntry(histos[0], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+//        leg.AddEntry(histos[1], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+//        leg.AddEntry(histos[2], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+//        leg.AddEntry(histos[3], "#it{B}^{+} #rightarrow #it{#psi}(2#it{S})#it{K^{+}#pi^{+}#pi^{#minus}}", "f");
+//        leg.Draw();
+//        c1->Print("leg4.pdf");
   }
     
   if(plotAltModels==-1){
@@ -686,7 +686,7 @@ void plotData(vector<TH1D*>histos,bool plotComponents = false, int style = 0){
 vector<TH2D*> createHistos2D(vector<unsigned int> dim1, vector<unsigned int> dim2, string name, string title, int nBins, vector<double> limits1, vector<double> limits2, vector<string> weights){
 
   vector<TH2D*> histos;
-  TH2D* histo = new TH2D(name.c_str(),title.c_str(),nBins*2,limits1[0],limits1[1],nBins*2,limits2[0],limits2[1]);
+  TH2D* histo = new TH2D(name.c_str(),title.c_str(),nBins,limits1[0],limits1[1],nBins,limits2[0],limits2[1]);
   histo->SetMinimum(0.);
   histo->SetMarkerSize(0.1);
 	//histo->SetMarkerStyle(21);
@@ -1538,10 +1538,13 @@ void makePlotsMuMu(){
 
     //Create histograms
     auto nBins = NamedParameter<Int_t>("nBins", 50, "Number of bins");
+    auto nBins2D = NamedParameter<Int_t>("nBins2D", 10, "Number of 2D bins");
+
     vector<vector<TH1D*>> histo_set,histo_set_cut1,histo_set_cut2,histo_set_cut3,histo_set_cut4,histo_set_cut5,histo_set_cut6;
     vector<vector<TH1D*>> histo_set_cut7,histo_set_cut8,histo_set_cut9,histo_set_cut10,histo_set_cut11,histo_set_cut12;
     vector<vector<TH1D*>> histo_set_cutCombo1,histo_set_cutCombo2,histo_set_cutCombo3,histo_set_cutCombo4;
     vector<vector<TH2D*>> histo2D_set;
+    vector<vector<TH2D*>> fit2D_set;
 
     for(unsigned int i=0;i<dims.size();i++){
         histo_set.push_back(createHistos(dims[i],labels[i],titles[i],nBins,limits[i],weights));
@@ -1562,7 +1565,10 @@ void makePlotsMuMu(){
         histo_set_cutCombo3.push_back(createHistos(dims[i],labels[i],titles[i],nBins,limits[i],weights));  
         histo_set_cutCombo4.push_back(createHistos(dims[i],labels[i],titles[i],nBins,limits[i],weights));
         for(int j=i+1;j<dims.size();j++){
-            if(dims[i].size()>1 && dims[j].size()>1)histo2D_set.push_back(createHistos2D(dims[i],dims[j],labels[i],";"+titles[i]+";"+titles[j],nBins,limits[i],limits[j],weights));
+            //if(dims[i].size()>1 && dims[j].size()>1){
+                histo2D_set.push_back(createHistos2D(dims[i],dims[j],labels[i],";"+titles[i]+";"+titles[j],nBins2D,limits[i],limits[j],weights));
+                fit2D_set.push_back(createHistos2D(dims[i],dims[j],labels[i],";"+titles[i]+";"+titles[j],nBins2D,limits[i],limits[j],weights));
+            //}
         }
     }
     //Fill data
@@ -1605,6 +1611,15 @@ void makePlotsMuMu(){
                     histo2D_set[histo2D_set_n][0]->Fill(sqrt(evt.s(dims[j])),sqrt(evt.s(dims[i])),evt.weight());
                     histo2D_set_n++;
                 }
+                else{
+                    double val_i = 0;
+                    if(dims[i].size()>1) val_i = sqrt(evt.s(dims[i]));
+                    else if(dims[i][0] == 1) val_i = cosThetaMuAngle(evt);
+                    else if(dims[i][0] == 2) val_i = chiMuAngle(evt);
+                    else if(dims[i][0] == 3) val_i =  cosHel(evt,2,0); // -kstar_hcos(evt);
+                    histo2D_set[histo2D_set_n][0]->Fill(val,val_i,evt.weight());
+                    histo2D_set_n++;
+                }
             }
         }
     }
@@ -1616,6 +1631,8 @@ void makePlotsMuMu(){
     for(unsigned int i=0; i< eventsMC.size(); i++ ){
         
         for( const auto& weight_tree : weight_trees )weight_tree->GetEntry(i);
+        
+        int fit2D_set_n = 0;
         
         for(unsigned int j=0;j<dims.size();j++){
 
@@ -1710,6 +1727,21 @@ void makePlotsMuMu(){
                 if(filter_plot3(eventsMC[i]) && filter_plot11(eventsMC[i]))histo_set_cutCombo4[j][k+nHists+nPermErrorBands*(1+addSysErrBand)]->Fill(val,wAlt[k]);
             }
             
+            for(int k=j+1;k<dims.size();k++){
+                if(dims[j].size()>1 && dims[k].size()>1){
+                    fit2D_set[fit2D_set_n][0]->Fill(sqrt(eventsMC[i].s(dims[j])),sqrt(eventsMC[i].s(dims[k])),w[1]);
+                    fit2D_set_n++;
+                }
+                else{
+                    double val_k = 0;
+                    if(dims[k].size()>1) val_k = sqrt(eventsMC[i].s(dims[k]));
+                    else if(dims[k][0] == 1) val_k = cosThetaMuAngle(eventsMC[i]);
+                    else if(dims[k][0] == 2) val_k = chiMuAngle(eventsMC[i]);
+                    else if(dims[k][0] == 3) val_k =  cosHel(eventsMC[i],2,0); // -kstar_hcos(evt);
+                    fit2D_set[fit2D_set_n][0]->Fill(val,val_k,w[1]);
+                    fit2D_set_n++;
+                }
+            }
         }
     }
     
@@ -2147,19 +2179,77 @@ void makePlotsMuMu(){
     
     auto plotDalitz = NamedParameter<bool>("plotDalitz", 0,"plotDalitz");
     if(plotDalitz){
+
         c->Clear();
         int histo2D_set_n = 0;
         for(int i=0;i<dims.size();i++)for(int j=i+1;j<dims.size();j++){
-            if(dims[i].size()>1 && dims[j].size()>1){
+            //if(dims[i]==vector<unsigned int>{3,4} || dims[j]==vector<unsigned int>{3,4} )continue;
+            //if(dims[i].size()>1 && dims[j].size()>1){
                 histo2D_set[histo2D_set_n][0]->Draw("colz");
                 c->Print((outDir+"/"+"dalitz_"+to_string(i)+"_"+to_string(j)+".pdf").c_str());
-                histo2D_set_n ++;
                 //      histo2D_set[n][0]->Draw();
                 //      c->Print(("dalitzScatter_"+to_string(i)+"_"+to_string(j)+".pdf").c_str());
+                
+                double scaleFactor2D = histo2D_set[histo2D_set_n][0]->Integral() / fit2D_set[histo2D_set_n][0]->Integral();
+                fit2D_set[histo2D_set_n][0]->Scale(scaleFactor2D);
+                fit2D_set[histo2D_set_n][0]->Draw("colz");
+                c->Print((outDir+"/"+"dalitzFit_"+to_string(i)+"_"+to_string(j)+".pdf").c_str());
+                
+//                histo2D_set[histo2D_set_n][0]->RebinX(10);
+//                histo2D_set[histo2D_set_n][0]->RebinY(10);
+//                fit2D_set[histo2D_set_n][0]->RebinX(10);
+//                fit2D_set[histo2D_set_n][0]->RebinY(10);
+                
+                TH2D* pullHist = (TH2D*)histo2D_set[histo2D_set_n][0]->Clone("pullHist");
+                TH2D* diffHist = (TH2D*)histo2D_set[histo2D_set_n][0]->Clone("diffHist");
+                
+                int nBinsX = pullHist->GetNbinsX();
+                int nBinsY = pullHist->GetNbinsY();
+                double chi2 = 0;
+                int ndf = 0;
+                
+                for (int binX = 1; binX <= nBinsX; binX++) {
+                     for (int binY = 1; binY <= nBinsY; binY++) {
+                         double observed = histo2D_set[histo2D_set_n][0]->GetBinContent(binX, binY);
+                         double expected = fit2D_set[histo2D_set_n][0]->GetBinContent(binX, binY);
+                         double errorObserved = histo2D_set[histo2D_set_n][0]->GetBinError(binX, binY);
+                         double errorExpected = fit2D_set[histo2D_set_n][0]->GetBinError(binX, binY);
+
+                         double totalError = sqrt(errorObserved * errorObserved + errorExpected * errorExpected);
+
+                         if (totalError > 0) {
+                             double pull = (observed - expected) / totalError;
+                             pullHist->SetBinContent(binX, binY, pull);
+                             diffHist->SetBinContent(binX, binY, observed - expected);
+
+                             if (observed < 2) continue;
+                             
+                             chi2 += pull * pull;
+                             ndf++;
+                         } else {
+                             std::cerr << "Warning: Bin (" << binX << ", " << binY << ") has zero error. Excluding from chi2 calculation." << std::endl;
+                         }
+                         
+                         if(i==1 && j==2){
+                             cout<< "Bin (" << binX << ", " << binY << "): o=" << observed << " ; e= " << expected << " ; sig= " << totalError << " ; p= " << (observed - expected) / totalError << endl;
+                         }
+                         
+                     }
+                }
+
+                pullHist->SetMinimum(-5);
+                pullHist->SetMaximum(5);
+                pullHist->Draw("colz");
+                c->Print((outDir + "/" + "pullDist_" + to_string(i) + "_" + to_string(j) + ".pdf").c_str());
+                cout << "Chi2 for histo2D_set " << i << " " << j << ": " << chi2/(double)ndf << endl;
+
+                diffHist->Draw("colz");
+                c->Print((outDir + "/" + "diffDist_" + to_string(i) + "_" + to_string(j) + ".pdf").c_str());
+                
+                histo2D_set_n ++;
             }
         }
-    }
-        
+    
 }
 
 
